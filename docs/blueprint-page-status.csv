@@ -1,0 +1,31 @@
+supplied_target_group,supplied_keywords,supplied_volume,implemented_reference,editorial_status,phase_gate
+26 Turn off Find My iPhone,996,443580,,queued; not published,later-phase-gate
+27 Turn off / stop sharing location,811,387410,,queued; not published,later-phase-gate
+13 Clear search / browsing history on iPhone,537,352100,,queued; not published,later-phase-gate
+15 Turn off / change passcode,366,153050,,queued; not published,later-phase-gate
+16 Lock screen / Face ID settings,424,115430,,queued; not published,later-phase-gate
+01 How to hide apps on iPhone,444,97670,/blog/how-to-hide-apps-on-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+17 Parental controls on iPhone,178,69410,,queued; not published,later-phase-gate
+20 Hide caller ID / contacts / calls,196,67520,,queued; not published,later-phase-gate
+02 How to find hidden apps on iPhone,118,51650,/blog/how-to-find-hidden-apps-on-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+14 Private browsing on iPhone,71,42540,,queued; not published,later-phase-gate
+03 How to unhide apps on iPhone,26,41120,/blog/how-to-unhide-apps-on-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+04 How to lock apps on iPhone,163,32690,/blog/how-to-lock-apps-on-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+Task x App pages (hide/lock a specific app),121,27280,/apps,"reference-exists; needs device tests, screenshots and full pillar expansion",later-phase-gate
+18 Screen Time on iPhone,88,25570,,queued; not published,later-phase-gate
+07 How to hide messages on iPhone,90,24490,,queued; not published,phase-1-foundation
+06 How to find hidden photos on iPhone,83,18520,/blog/recover-hidden-photos-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+05 How to hide photos on iPhone,46,16580,/blog/how-to-hide-photos-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+19 Shared albums on iPhone,36,11590,,queued; not published,later-phase-gate
+21 Lock notes on iPhone,22,6050,,queued; not published,later-phase-gate
+08 How to lock photos / hidden album,39,5860,/blog/password-protect-photos-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+Glossary / encryption,21,5000,/glossary,"reference-exists; needs device tests, screenshots and full pillar expansion",later-phase-gate
+28 iCloud photos on iPhone,24,4400,/blog/do-hidden-photos-sync-to-icloud,"reference-exists; needs device tests, screenshots and full pillar expansion",later-phase-gate
+09 Best photo vault apps for iPhone,88,4050,/best/vault-apps,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+11 Hidden / secret folder on iPhone,38,3930,/blog/password-protect-folder-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion",phase-1-foundation
+"23 Can anyone see my hidden photos (iCloud, backup, sharing)",46,2680,/blog/family-sharing-photo-privacy,"reference-exists; needs device tests, screenshots and full pillar expansion",later-phase-gate
+25 Best app blockers for iPhone,51,2080,,queued; not published,later-phase-gate
+24 Best password manager apps for iPhone,32,2040,,queued; not published,later-phase-gate
+22 Hide notifications on lock screen,7,1780,,queued; not published,later-phase-gate
+12 How to hide videos on iPhone,5,1060,,queued; not published,phase-1-foundation
+33 Password protect apps / files / folders,16,700,/blog/password-protect-folder-iphone,"reference-exists; needs device tests, screenshots and full pillar expansion; supplied group number conflicts with AES-256 article 33 in blueprint",later-phase-gate

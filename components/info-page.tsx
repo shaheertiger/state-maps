@@ -1,0 +1,2 @@
+import { infoPages, contactUrl, staticUpdated } from "@/lib/pages";
+export default function InfoPage({ path }: { path: string }) { const p = infoPages[path]; return <main id="content" className="wrap article"><h1>{p.title}</h1><p className="byline">Updated {staticUpdated}</p>{p.sections.map(s => <section key={s.heading}><h2>{s.heading}</h2><p>{s.body}</p></section>)}{path === "/contact" && <a className="button" href={contactUrl}>Open a public correction issue</a>}</main>; }

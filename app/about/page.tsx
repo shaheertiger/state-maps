@@ -1,1 +1,5 @@
-export const metadata={title:"About"};export default function Page(){return <main className="wrap article"><h1>About</h1><p>We publish independent guides about iPhone photo privacy. Content is educational and is not a security audit.</p></main>}
+import InfoPage from "@/components/info-page";
+import { infoPages } from "@/lib/pages";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata(infoPages["/about"].title, infoPages["/about"].description, "/about");
+export default function Page() { return <InfoPage path="/about" />; }
