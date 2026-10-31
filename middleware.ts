@@ -14,4 +14,4 @@ export default async function middleware(request: NextRequest) {
   response.headers.set("Vary", [...vary].join(", "));
   return response;
 }
-export const config = { matcher: [{ source: "/((?!_next/|favicon.ico|md/|sitemap.xml|robots.txt|llms.txt|social-image|icon|apple-icon).*)", missing: [{ type: "header", key: "next-router-prefetch" }] }] };
+export const config = { matcher: [{ source: "/((?!_next/|favicon.ico|md/|og/|sitemaps/|sitemap.xml|robots.txt|llms.txt|social-image|icon|apple-icon).*)", missing: [{ type: "header", key: "next-router-prefetch" }] }] };

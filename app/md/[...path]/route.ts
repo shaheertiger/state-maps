@@ -1,6 +1,6 @@
 import { createDualmarkRouteHandler } from "@dualmark/nextjs";
 import { articles, categories } from "@/lib/content";
-import { articleMarkdown, guideListing, settingMarkdown, staticMarkdown } from "@/lib/markdown";
+import { articleMarkdown, guideListing, settingMarkdown, staticMarkdown,catalogMarkdownPages } from "@/lib/markdown";
 import { privacySettings } from "@/lib/settings";
 import { site } from "@/lib/site";
 const handler = createDualmarkRouteHandler({ siteUrl: site.url,
@@ -9,7 +9,7 @@ const handler = createDualmarkRouteHandler({ siteUrl: site.url,
     getEntries: () => articles.map(a => ({ id: a.slug, data: { title: a.title, description: a.description }, body: articleMarkdown(a) })),
     emitListing: false,
   } },
-  staticPages: [ ...Object.entries(staticMarkdown).map(([pattern, render]) => ({ pattern, render })),
+  staticPages: [ ...catalogMarkdownPages,...Object.entries(staticMarkdown).map(([pattern, render]) => ({ pattern, render })),
     ...categories.map(c => ({ pattern: `/guides/${c.slug}`, render: () => guideListing(c.slug) })),
     ...privacySettings.map(s => ({ pattern: `/privacy-settings/${s.slug}`, render: () => settingMarkdown(s) })),
   ],

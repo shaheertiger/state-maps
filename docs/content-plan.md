@@ -1,3 +1,5 @@
+> Historical first-pass plan. The revised user blueprint and supplied keyword map are tracked in `blueprint-implementation.md`; its phase gates and page-status table supersede the original 36-page scope below.
+
 # Content scope and expansion
 
 This site covers iPhone photo and closely related app privacy: access controls, storage boundaries, sharing, recovery and location metadata. It does not publish general iPhone troubleshooting, food, fitness, unrelated app roundups or translations that do not exist.

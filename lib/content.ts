@@ -1,4 +1,6 @@
 import { articles as drafts } from "./articles";
+import {appPillars} from './app-pillars';
+import {hideAppsPillar} from './hide-apps-pillar';
 
 export const reviewedDate = "2026-10-31";
 export type Source = { title: string; url: string };
@@ -76,7 +78,8 @@ const extensions: Record<string, { category: string; sections: Section[]; faq: A
 function extra(slug: string, title: string, category: string, intro: string, sections: Section[], faq: Article["faq"], refs: Source[]): Article {
   return { slug, title, category, intro, description: intro, sections, faq, sources: refs, published: reviewedDate, updated: reviewedDate };
 }
-export const articles: Article[] = [
+const articleRecords: Article[] = [
+  ...appPillars,
   ...drafts.map(a => { const e = extensions[a.slug]; return { ...a, ...e, sections: [...a.sections.map((s, i) => ({ ...s, heading: ["Start with the right control", "Review access and recovery", "Check other copies"][i] })), ...e.sections], published: reviewedDate, updated: reviewedDate }; }),
   extra("family-sharing-photo-privacy", "Can Family Sharing Members See Your iCloud Photos?", "icloud-sharing", "Shared storage, a shared login and a shared photo library are three different access arrangements.", [
     { heading: "Shared capacity does not automatically share photos", body: "Apple says that people sharing an iCloud+ subscription use their own Apple Accounts and keep photos and documents private. Begin by confirming that each person really uses a separate account. Sharing the same login is a different arrangement from sharing the capacity of a subscription." },
@@ -109,6 +112,7 @@ export const articles: Article[] = [
     { heading: "Review records and copies separately", body: "Hiding an icon is not a promise that no account record of the app exists. Review notifications, account access and any files exported outside it. For private pictures, inspect Photos and the app's own recovery path too. Keep the device passcode private and decide whether its fallback behavior addresses your needs." },
   ], [{ q: "Does Remove from Home Screen uninstall an app?", a: "No. Removing an icon and deleting an application are different actions." }, { q: "Can every app be hidden?", a: "No. Eligibility and available controls depend on the app and installed release." }], [sources.apps]),
 ];
+export const articles:Article[]=articleRecords.map(a=>a.slug==='how-to-hide-apps-on-iphone'?{...a,...hideAppsPillar,sources:[sources.apps,{title:'Apple: Home Screen and App Library',url:'https://support.apple.com/en-ie/108324'},{title:'Apple: Siri suggestions',url:'https://support.apple.com/guide/iphone/turn-siri-suggestions-on-or-off-iph6f94af287/ios'},{title:'Apple: Screen Time schedules and allowances',url:'https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios'}]}:a);
 export const vaultComparison = [
   { name: "Apple Photos", fit: "Built-in hidden collection", protection: "Device authentication", limitation: "Part of the same Photos/account workflow", source: sources.hidden },
   { name: "Keepsafe", fit: "Dedicated vault workflow", protection: "Provider documents encrypted storage and PIN/biometrics", limitation: "Check recovery email, backup allowance and export", source: sources.keepsafe },

@@ -1,6 +1,6 @@
-# Private Photo Guide
+# VaultForYou privacy database
 
-A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Includes 15 sourced guides, four topic hubs, eight structured privacy-setting entries, a searchable directory and a browser-local privacy review tool. Every one of the 36 HTML destinations has a Markdown twin through DualMark.
+A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Implements the supplied blueprint foundation: 18 guide references (including the expanded hide-apps pillar), five task hubs, six app references, twelve glossary terms, documentation-based comparisons, eight settings entries and two browser-local tools. Seventy destinations are eligible for indexing; eight shared-method combinations remain noindex and consolidate to their app references. All 78 HTML destinations have Markdown twins through DualMark.
 
 ## Local development
 
@@ -33,7 +33,7 @@ Next.js 15's local production server overwrites the HTML `Vary` value; the local
 
 ## Content and scaling
 
-`lib/content.ts` assembles the guide records and links to primary sources. `lib/settings.ts` is the structured reference dataset. `lib/markdown.ts` serializes the same records used in HTML, avoiding a second independently maintained article copy. New researched records automatically become routes and discovery entries. `docs/content-plan.md` explains the editorial gate and the candidate keyword map. Candidate mappings are not proof that every query is answered.
+`lib/content.ts` assembles the guide records and links to primary sources. `lib/settings.ts` is the structured reference dataset. `lib/markdown.ts` serializes the same records used in HTML, avoiding a second independently maintained article copy. New researched records automatically become routes and discovery entries. `docs/blueprint-implementation.md` tracks the revised blueprint, editorial requirements, actual scope and phase gates. The supplied 5,183-keyword map is preserved in `docs/blueprint-keyword-map.csv`. `docs/content-plan.md` retains the earlier candidate-map context. Candidate mappings are not proof that every query is answered.
 
 The privacy review supports explicit local saving, a text download, printing to PDF and links encoding only the selected general choices. It never uploads photos or reads device settings. Do not add analytics events containing answers or completion state.
 

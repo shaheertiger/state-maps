@@ -3,7 +3,9 @@ import fs from 'node:fs/promises';
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3100';
 const get = (path, headers = {}) => fetch(new URL(path, base), { headers, redirect: 'manual', signal: AbortSignal.timeout(20000) });
 const sitemapResponse = await get('/sitemap.xml'); assert.equal(sitemapResponse.status, 200);
-const xml = await sitemapResponse.text();
+const rootXml = await sitemapResponse.text();
+const childSitemaps=[...rootXml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>new URL(m[1]).pathname);
+const xml=rootXml.includes('<sitemapindex')?(await Promise.all(childSitemaps.map(async path=>{const r=await get(path);assert.equal(r.status,200,path);return r.text();}))).join('\n'):rootXml;
 const paths = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => new URL(m[1]).pathname);
 assert.ok(paths.length > 15); assert.equal(new Set(paths).size, paths.length);
 const evidence = [];
@@ -18,7 +20,15 @@ for (const path of paths) {
   const canonical = body.match(/<link rel="canonical" href="([^"]+)"/); assert.ok(canonical, `${path} canonical`);
   assert.equal(new URL(canonical[1]).pathname, path, `${path} canonical path`);
   assert.match(body, /og:title/); assert.match(body, /twitter:card/);
-  for (const match of body.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)) JSON.parse(match[1]);
+  const schemas=[];
+  for (const match of body.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)) {const data=JSON.parse(match[1]);schemas.push(...(Array.isArray(data)?data:[data]));}
+  if(path.startsWith('/blog/')){
+    assert.match(body,/class="quick-answer"/,'Guide quick answer is server rendered');
+    const faq=schemas.find(s=>s['@type']==='FAQPage');assert.ok(faq.mainEntity.length>=6,'Guide FAQ has at least six questions');
+    const normalize=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
+    const visibleSource=normalize(body.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<[^>]*>/g,' '));
+    for(const q of faq.mainEntity){assert.ok(visibleSource.includes(normalize(q.name)),'FAQ question matches HTML');assert.ok(visibleSource.includes(normalize(q.acceptedAnswer.text)),'FAQ answer matches HTML');}
+  }
   for (const match of body.matchAll(/href="(\/[^"#?]*)/g)) if (!match[1].startsWith('/_next/')) internalLinks.add(match[1]);
   const mdPath = path === '/' ? '/index.md' : path + '.md';
   assert.ok((r.headers.get('link') || '').includes(mdPath), `${path} advertised alternate`);
@@ -39,6 +49,8 @@ for (const path of ['/blog/not-a-guide', '/guides/not-a-category', '/privacy-set
   const r = await get(path); assert.equal(r.status, 404, `Unknown route ${path}`);
 }
 for (const path of ['/robots.txt', '/llms.txt', '/social-image', '/icon.svg', '/apple-icon']) { const r = await get(path); assert.equal(r.status, 200, path); }
+for (const path of ['/hide-apps/whatsapp','/lock-apps/instagram']){const r=await get(path,{Accept:'text/html'});assert.equal(r.status,200);const body=await r.text();assert.match(body,/name="robots" content="noindex, follow"/);assert.ok(!paths.includes(path),'Shared-method combinations must stay out of sitemaps');assert.match(body,/rel="canonical" href="[^"]+\/apps\//);}
+for(const path of ['/og/index','/og/hide-apps','/og/apps/whatsapp','/og/tools/exif-viewer']){const r=await get(path);assert.equal(r.status,200,path);assert.match(r.headers.get('content-type')||'',/^image\//);}
 const llms = await (await get('/llms.txt')).text(); for (const path of paths) assert.ok(llms.includes(path === '/' ? '/index.md' : path + '.md'));
 const output = process.env.ROUTE_EVIDENCE_PATH;
 if (output) await fs.writeFile(output, JSON.stringify({ base, pageCount: paths.length, internalLinkCount: internalLinks.size, routes: evidence }, null, 2));
