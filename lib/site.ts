@@ -1,0 +1,1 @@
+export const site={name:"Private Photo Guide",url:(process.env.NEXT_PUBLIC_SITE_URL||"https://vaultforyou.app").replace(/\/$/,""),description:"Practical, independent guides to protecting private photos on iPhone."};
