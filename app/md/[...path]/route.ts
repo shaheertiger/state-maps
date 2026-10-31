@@ -1,1 +1,26 @@
-import {createDualmarkRouteHandler} from "@dualmark/nextjs";import {articles} from "@/lib/articles";import {site} from "@/lib/site";const toEntry=(a:(typeof articles)[number])=>({slug:a.slug,title:a.title,description:a.description,summary:a.intro,content:[a.intro,...a.sections.map(s=>`## ${s.heading}\n\n${s.body}`),"## Frequently asked questions",...a.faq.map(f=>`### ${f.q}\n\n${f.a}`)].join("\n\n"),url:`${site.url}/blog/${a.slug}`,category:a.category,faqs:a.faq.map(f=>({question:f.q,answer:f.a}))});const handler=createDualmarkRouteHandler({siteUrl:site.url,collections:{blog:{converter:"blog",getEntries:()=>articles.map(toEntry)}}});export const dynamic="force-static";export const GET=handler.GET;export const generateStaticParams=handler.generateStaticParams;
+import { createDualmarkRouteHandler } from "@dualmark/nextjs";
+import { articles, categories } from "@/lib/content";
+import { articleMarkdown, guideListing, settingMarkdown, staticMarkdown } from "@/lib/markdown";
+import { privacySettings } from "@/lib/settings";
+import { site } from "@/lib/site";
+const handler = createDualmarkRouteHandler({ siteUrl: site.url,
+  collections: { blog: {
+    converter: entry => articleMarkdown(articles.find(a => a.slug === entry.id)!),
+    getEntries: () => articles.map(a => ({ id: a.slug, data: { title: a.title, description: a.description }, body: articleMarkdown(a) })),
+    emitListing: false,
+  } },
+  staticPages: [ ...Object.entries(staticMarkdown).map(([pattern, render]) => ({ pattern, render })),
+    ...categories.map(c => ({ pattern: `/guides/${c.slug}`, render: () => guideListing(c.slug) })),
+    ...privacySettings.map(s => ({ pattern: `/privacy-settings/${s.slug}`, render: () => settingMarkdown(s) })),
+  ],
+});
+export const dynamic = "force-static";
+export const generateStaticParams = handler.generateStaticParams;
+export async function GET(request: Request, context: { params: Promise<{ path: string[] }> }) {
+  const response = await handler.GET(request, context);
+  response.headers.set("Vary", "Accept, User-Agent");
+  const { path } = await context.params;
+  const htmlPath = path.join("/") === "index" ? "" : "/" + path.join("/");
+  response.headers.set("Link", `<${site.url}${htmlPath}>; rel="canonical"`);
+  return response;
+}

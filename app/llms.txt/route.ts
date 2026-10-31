@@ -1,1 +1,4 @@
-import {articles} from "@/lib/articles";import {site} from "@/lib/site";export const dynamic="force-static";export function GET(){const body=[`# ${site.name}`,"",`> ${site.description}`,"","## Guides",`- [All guides](${site.url}/guides)`,...articles.map(a=>`- [${a.title}](${site.url}/blog/${a.slug}): ${a.description}`),"","Articles also offer Markdown alternates via .md URLs."].join("\n");return new Response(body,{headers:{"Content-Type":"text/plain; charset=utf-8"}})}
+import { htmlPaths } from "@/lib/markdown";
+import { site } from "@/lib/site";
+export const dynamic = "force-static";
+export function GET() { const body = [`# ${site.name}`, `> ${site.description}`, "## Pages", ...htmlPaths.map(path => `- [${path === "/" ? "Home" : path.slice(1).replaceAll("-", " ")}](${site.url}${path === "/" ? "/index.md" : path + ".md"})`)].join("\n\n"); return new Response(body, { headers: { "Content-Type": "text/plain; charset=utf-8" } }); }

@@ -1,0 +1,33 @@
+name: Validate website
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_TELEMETRY_DISABLED: 1
+      NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3100
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Check production routes and negotiation
+        run: |
+          npm start -- --hostname 127.0.0.1 --port 3100 > /tmp/privacy-site.log 2>&1 &
+          SITE_PID=$!
+          trap 'kill "$SITE_PID"' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:3100/robots.txt > /dev/null; then break; fi
+            sleep 1
+          done
+          npm run check:routes
+      - name: Show server output on failure
+        if: failure()
+        run: cat /tmp/privacy-site.log || true
