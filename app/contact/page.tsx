@@ -1,0 +1,1 @@
+export const metadata={title:"Contact"};export default function Page(){return <main className="wrap article"><h1>Contact</h1><p>Questions and corrections can be submitted through the website owner’s public contact channel once configured.</p></main>}

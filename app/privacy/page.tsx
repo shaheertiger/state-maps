@@ -1,0 +1,1 @@
+export const metadata={title:"Privacy"};export default function Page(){return <main className="wrap article"><h1>Privacy</h1><p>This informational website does not require an account. Your hosting provider may process standard access logs. Verify any analytics and contact tools before launch.</p></main>}

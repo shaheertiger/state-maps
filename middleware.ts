@@ -1,0 +1,1 @@
+import {createDualmarkMiddleware} from "@dualmark/nextjs";import {site} from "./lib/site";export default createDualmarkMiddleware({siteUrl:site.url});export const config={matcher:[{source:"/((?!_next/|favicon.ico|md/|sitemap.xml|robots.txt|llms.txt).*)",missing:[{type:"header",key:"next-router-prefetch"}]}]};
