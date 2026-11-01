@@ -1,6 +1,6 @@
 import { createDualmarkMiddleware } from "@dualmark/nextjs";
 import { NextResponse, type NextRequest } from "next/server";
-import { htmlPaths } from "./lib/markdown";
+import { htmlPaths } from "./lib/route-index";
 import { site } from "./lib/site";
 const known = new Set(htmlPaths);
 const negotiate = createDualmarkMiddleware({ siteUrl: site.url });

@@ -4,6 +4,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import SiteTheme from "@/components/theme-provider";
 import MeasurementConsent from "@/components/measurement-consent";
 import TaxonomyNav from "@/components/taxonomy-nav";
+import {relatedProductUrl} from '@/lib/related-product';
 import { site } from "@/lib/site";
 import { jsonLd } from "@/lib/seo";
 import "./globals.css";
@@ -13,9 +14,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return <html lang="en"><body><AppRouterCacheProvider options={{ enableCssLayer: true }}><SiteTheme>
     <a className="skip-link" href="#content">Skip to content</a>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(schema) }} />
-    <header><div className="wrap nav"><Link href="/" className="logo">✦ statemaps.net</Link><nav aria-label="Main navigation"><Link href="/hide-apps">Privacy tasks</Link><Link href="/apps">Apps</Link><Link href="/tools">Tools</Link><Link href="/glossary">Glossary</Link><Link href="/guides">Guides</Link></nav></div><div className="wrap"><TaxonomyNav/></div></header>
+    <header><div className="wrap nav"><Link href="/" className="logo">✦ statemaps.net</Link><nav aria-label="Main navigation"><Link href="/hide-apps">Privacy tasks</Link><Link href="/app-privacy">App directory</Link><Link href="/apps">Privacy references</Link><Link href="/tools">Tools</Link><Link href="/glossary">Glossary</Link><Link href="/guides">Guides</Link></nav></div><div className="wrap"><TaxonomyNav/></div></header>
     {children}
-    <footer><div className="wrap"><p>Independent guidance for iPhone photo privacy. Not affiliated with Apple.</p><nav aria-label="Footer"><Link href="/about">About</Link> · <Link href="/contact">Corrections</Link> · <Link href="/privacy">Privacy</Link> · <Link href="/terms">Using this guide</Link></nav></div></footer>
+    <footer><div className="wrap"><p>Independent guidance for iPhone photo privacy. Not affiliated with Apple.</p><p>For photos and documents you choose to store separately, explore <a href={relatedProductUrl}>VaultForYou</a>.</p><nav aria-label="Footer"><Link href="/about">About</Link> · <Link href="/contact">Corrections</Link> · <Link href="/privacy">Privacy</Link> · <Link href="/terms">Using this guide</Link></nav></div></footer>
     <MeasurementConsent />
   </SiteTheme></AppRouterCacheProvider></body></html>;
 }

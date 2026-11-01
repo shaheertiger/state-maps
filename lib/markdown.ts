@@ -29,6 +29,5 @@ export const staticMarkdown: Record<string, () => string> = {
   "/privacy-checklist": () => ["# Build your iPhone privacy review", "Choose your goal, storage setup and access concern to get a prioritized review. The tool does not inspect your phone or receive your photos. Choices stay in this browser unless you explicitly save them or share a link. Print your review to save it as PDF, or download a text copy.", "## Review questions", ...reviewQuestions.map(q => `### ${q.label}\n\n${q.options.map(o => `- ${o[1]}`).join("\n")}`), "## Available actions", ...reviewActions.map(a => `### ${a.title}\n\n${a.body}\n\n${link("Read guide", `/blog/${a.slug}`)}`)].join("\n\n"),
   ...Object.fromEntries(Object.entries(infoPages).map(([path, p]) => [path, () => [`# ${p.title}`, p.description, `Updated: ${reviewedDate}`, ...p.sections.map(s => `## ${s.heading}\n\n${s.body}`), ...(path === "/contact" ? [link("Open a public correction issue", contactUrl)] : [])].join("\n\n")])),
 };
-export const htmlPaths = [ ...Object.keys(staticMarkdown), ...categories.map(c => `/guides/${c.slug}`), ...articles.map(a => `/blog/${a.slug}`), ...privacySettings.map(s => `/privacy-settings/${s.slug}`),...catalogPages.map(p=>p.path) ];
-export const indexablePaths=htmlPaths.filter(path=>catalogPages.find(p=>p.path===path)?.index!==false);
+export {htmlPaths,indexablePaths} from './route-index';
 export const catalogMarkdownPages=catalogPages.map(p=>({pattern:p.path,render:()=>catalogMarkdown(p)}));
