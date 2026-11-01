@@ -47,7 +47,7 @@ These gates are not marked met. Search Console indexing, real ranking data, app-
 
 ## Verification
 
-Run `npm test`, `npm run build` and `npm run check:routes`. The production crawler traverses the sitemap index, verifies HTML/Markdown negotiation and canonicals, checks internal targets, ensures shared-method combinations remain noindex and validates representative per-page image routes. It does not establish ranking, device testing, a measured mobile LCP or external account setup.
+Run `npm test`, `npm run build` and `npm run check:routes`. The production crawler traverses the sitemap index, verifies HTML/Markdown negotiation and canonicals, checks internal targets, ensures shared-method combinations remain noindex and validates the shared site social image. It does not establish ranking, device testing, a measured mobile LCP or external account setup.
 
 The local Next.js HTML Vary limitation remains recorded in the README; do not report 125/125 DualMark until the deployed origin actually passes it.
 
@@ -58,3 +58,9 @@ The next batch adds four sourced guide references and their task hubs: message p
 ## Site identity
 
 The user confirmed the website name and production origin as statemaps.net. Public branding, metadata, schema and social images use that identity; the production canonical default is https://statemaps.net. The supplied VaultForYou blueprint and workbook filenames remain historical source labels. This source change does not itself configure DNS or prove a deployed domain connection.
+
+## User-directed programmatic expansion
+
+The user explicitly requested 4,500 English pages now, overriding the original calendar/volume gates, while retaining the requirement for distinct sourced data. This batch uses 4,500 unique app records, not shared-method permutations. Each contains Apple listing identity, compatibility, version and individually collected developer privacy disclosures, with source URLs, timestamps and hashes. These are not 4,500 tested workflows or app security audits. The original shared-method pages retain their indexing gate.
+
+The supplied LoadMuscle and nutrition HTML examples informed answer-first structure, factual tables, category browsing, FAQs and related records. Their claimed number-one ranking was supplied by the user and has not been independently verified. No rankings, nutrition content or device-testing claims are transferred. A single relevant VaultForYou link is included on every HTML/Markdown destination at the user’s request.

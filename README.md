@@ -1,6 +1,6 @@
 # statemaps.net privacy database
 
-A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Implements the supplied blueprint foundation: 22 guide references (including the expanded hide-apps pillar), nine task hubs, six app references, fifteen glossary terms, documentation-based comparisons, eight settings entries and two browser-local tools. Eighty-one destinations are eligible for indexing; eight shared-method combinations remain noindex and consolidate to their app references. All 89 HTML destinations have Markdown twins through DualMark.
+A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Implements the supplied blueprint foundation: 22 guide references (including the expanded hide-apps pillar), nine task hubs, six app references, fifteen glossary terms, documentation-based comparisons, eight settings entries and two browser-local tools. The expansion adds 4,500 distinct source-backed iPhone app records and a searchable directory. There are 4,583 indexable destinations and 4,635 HTML destinations with Markdown twins through DualMark. Eight original shared-method combinations and 44 paginated directory pages remain noindex.
 
 ## Local development
 
@@ -44,3 +44,11 @@ The privacy review supports explicit local saving, a text download, printing to 
 `GOOGLE_SITE_VERIFICATION` adds a Search Console verification token. External DNS/CDN, payment, app-store, email and dataset-inclusion services from a competitor technology profile are not activated or claimed by this repository. No fictitious account IDs, prices, app audits, translations or ranking claims are included.
 
 Public corrections use the repository issue tracker. No private support address or upload endpoint is implied.
+
+## Programmatic app records
+
+`data/apple-apps.json` is a committed snapshot of 4,500 distinct Apple app IDs and bundle identifiers. `scripts/import-apple-catalog.py --resume` collects public Apple Search API records; `scripts/enrich-app-privacy.py` captures the privacy card groups and categories from each official App Store page. Both retain retrieval times and source hashes; local collection caches are ignored. Cached runs resume rather than refreshing existing records. To refresh, archive the old ignored caches and collect a new snapshot for review. No credentials are needed and builds make no live catalog requests.
+
+Developer-reported privacy labels are reproduced as disclosures, never described as independently tested behavior. “No Details Provided” remains distinct from “Data Not Collected.” Pages do not invent app-specific lock methods, permissions, encryption or rankings. Templates are English; official app names retain their source spelling. The routing middleware uses only the lightweight slug index. All pages use the shared site social image; per-page image generation is removed at the user’s request.
+
+The supplied competitor HTML examples inform the structure: quick answer, facts table, focused interpretation, practical review checklist, FAQs, sources and related records. The directory adds name/developer search and category filtering. Their copy, testing labels and claimed rankings are not imported. Each HTML page and Markdown twin has one contextual link to https://www.vaultforyou.app/, while statemaps.net remains the site identity.
