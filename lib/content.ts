@@ -1,6 +1,7 @@
 import { articles as drafts } from "./articles";
 import {appPillars} from './app-pillars';
 import {hideAppsPillar} from './hide-apps-pillar';
+import {privacyExpansion,expansionSources} from './privacy-expansion';
 
 export const reviewedDate = "2026-10-31";
 export type Source = { title: string; url: string };
@@ -17,6 +18,7 @@ export const categories = [
   { slug: "recovery-metadata", name: "Recovery and metadata", description: "Find missing pictures, move phones and review location information." },
 ] as const;
 export const sources = {
+  ...expansionSources,
   hidden: { title: "Apple: hide or delete photos", url: "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/ios" },
   missing: { title: "Apple: find missing photos", url: "https://support.apple.com/en-us/118558" },
   sync: { title: "Apple: turn off iCloud Photos", url: "https://support.apple.com/en-us/102179" },
@@ -79,6 +81,7 @@ function extra(slug: string, title: string, category: string, intro: string, sec
   return { slug, title, category, intro, description: intro, sections, faq, sources: refs, published: reviewedDate, updated: reviewedDate };
 }
 const articleRecords: Article[] = [
+  ...privacyExpansion,
   ...appPillars,
   ...drafts.map(a => { const e = extensions[a.slug]; return { ...a, ...e, sections: [...a.sections.map((s, i) => ({ ...s, heading: ["Start with the right control", "Review access and recovery", "Check other copies"][i] })), ...e.sections], published: reviewedDate, updated: reviewedDate }; }),
   extra("family-sharing-photo-privacy", "Can Family Sharing Members See Your iCloud Photos?", "icloud-sharing", "Shared storage, a shared login and a shared photo library are three different access arrangements.", [

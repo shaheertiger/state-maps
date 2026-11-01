@@ -13,13 +13,13 @@ The revised `Vaultaire SEO Site Blueprint (1).docx` adds the full content outlin
 | Blueprint component | Implementation |
 |---|---|
 | Entity tables | Typed task, app, content-type, iOS-version, device, competitor, tool and glossary records in `lib/catalog.ts` |
-| Task hubs | Five live hubs with quick answers, methods, limits, step tables, app table and FAQs; 25 task definitions including queued records |
+| Task hubs | Nine live hubs with quick answers, methods, limits, step tables, app table and FAQs; 25 task definitions including queued records |
 | App pages | Six app references with installation type, distinct access boundary, source and task table |
 | Task × App template | Eight downloaded-app combinations; shared methods remain noindex, canonicalized to the relevant app reference and absent from sitemaps |
 | Publishing gate | `lib/publishing.ts` requires app-specific steps, answer, sources and editorial attribution before a combination can be indexed; the same app-specific evidence appears in the HTML and Markdown when supplied |
 | Comparison templates | Documentation-based storage comparison and selection checklist; no invented product rating, price, security test or VaultForYou #1 claim |
 | Tools | Browser-local privacy checkup and bounded JPEG EXIF viewer with optional PNG pixel-copy export |
-| Glossary | Twelve sourced terms with definitions, limits, related terms and DefinedTerm markup |
+| Glossary | Fifteen sourced terms with definitions, limits, related terms and DefinedTerm markup |
 | Guide retrofit | Direct answers, spec strips, method tables, visible documentation-review dates, six FAQs and matching schema; three additional app-control reference guides and an expanded roughly 3,000-word hide-apps pillar |
 | Navigation | Sitewide task/app/tool/glossary taxonomy and contextual references |
 | Discovery | Sitemap index with eight template groups; indexable records only; Markdown and llms discovery |
@@ -50,3 +50,11 @@ These gates are not marked met. Search Console indexing, real ranking data, app-
 Run `npm test`, `npm run build` and `npm run check:routes`. The production crawler traverses the sitemap index, verifies HTML/Markdown negotiation and canonicals, checks internal targets, ensures shared-method combinations remain noindex and validates representative per-page image routes. It does not establish ranking, device testing, a measured mobile LCP or external account setup.
 
 The local Next.js HTML Vary limitation remains recorded in the README; do not report 125/125 DualMark until the deployed origin actually passes it.
+
+## Core privacy expansion
+
+The next batch adds four sourced guide references and their task hubs: message previews, Lock Screen notifications, individual Notes locks and Screen Time app restrictions. Three matching glossary terms explain notification previews, Screen Time and locked notes. App eligibility lists and schema are filtered together; these topics do not create unsupported task-by-app combinations. The catalog now has 81 indexable destinations and eight noindex shared-method pages. The new references are documentation-based and do not claim device tests or completion of the full pillar-length program.
+
+## Site identity
+
+The user confirmed the website name and production origin as statemaps.net. Public branding, metadata, schema and social images use that identity; the production canonical default is https://statemaps.net. The supplied VaultForYou blueprint and workbook filenames remain historical source labels. This source change does not itself configure DNS or prove a deployed domain connection.

@@ -13,12 +13,15 @@ const internalLinks = new Set();
 for (const path of paths) {
   const r = await get(path, { Accept: 'text/html' }); assert.equal(r.status, 200, `HTML ${path}`);
   const body = await r.text(); assert.match(body, /<h1[ >]/, `${path} H1`);
+  assert.match(body.match(/<title>([^<]*)<\/title>/)?.[1]||'',/statemaps\.net/,`${path} uses the confirmed site identity`);
+  assert.ok(!body.includes('VaultForYou'),`${path} does not retain the draft product brand`);
   if (process.env.CHECK_EDGE_HEADERS === '1') {
     assert.match(r.headers.get('vary') || '', /(?:^|,\s*)Accept(?:,|$)/i, `${path} HTML cache varies by Accept`);
     assert.match(r.headers.get('vary') || '', /User-Agent/i, `${path} HTML cache varies by User-Agent`);
   }
   const canonical = body.match(/<link rel="canonical" href="([^"]+)"/); assert.ok(canonical, `${path} canonical`);
   assert.equal(new URL(canonical[1]).pathname, path, `${path} canonical path`);
+  if(process.env.EXPECTED_CANONICAL_ORIGIN)assert.equal(new URL(canonical[1]).origin,process.env.EXPECTED_CANONICAL_ORIGIN,`${path} production canonical origin`);
   assert.match(body, /og:title/); assert.match(body, /twitter:card/);
   const schemas=[];
   for (const match of body.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)) {const data=JSON.parse(match[1]);schemas.push(...(Array.isArray(data)?data:[data]));}
@@ -28,6 +31,9 @@ for (const path of paths) {
     const normalize=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
     const visibleSource=normalize(body.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<[^>]*>/g,' '));
     for(const q of faq.mainEntity){assert.ok(visibleSource.includes(normalize(q.name)),'FAQ question matches HTML');assert.ok(visibleSource.includes(normalize(q.acceptedAnswer.text)),'FAQ answer matches HTML');}
+  }
+  if(path==='/lock-notes'){
+    const list=schemas.find(s=>s['@type']==='ItemList');assert.equal(list.numberOfItems,1,'Notes hub lists only its applicable app');assert.equal(new URL(list.itemListElement[0].url).pathname,'/apps/notes');
   }
   for (const match of body.matchAll(/href="(\/[^"#?]*)/g)) if (!match[1].startsWith('/_next/')) internalLinks.add(match[1]);
   const mdPath = path === '/' ? '/index.md' : path + '.md';
@@ -45,7 +51,7 @@ for (const path of paths) {
   evidence.push({ path, htmlStatus: r.status, markdownStatus: md.status, canonical: canonical[1], markdownTokens: md.headers.get('x-markdown-tokens') });
 }
 for (const path of internalLinks) { const r = await get(path); assert.ok(r.status >= 200 && r.status < 400, `Broken internal link ${path}: ${r.status}`); }
-for (const path of ['/blog/not-a-guide', '/guides/not-a-category', '/privacy-settings/not-a-setting', '/not-a-page.md', '/md/blog/not-a-guide']) {
+for (const path of ['/blog/not-a-guide', '/guides/not-a-category', '/privacy-settings/not-a-setting', '/not-a-page.md', '/md/blog/not-a-guide','/lock-notes/whatsapp','/hide-notifications/instagram']) {
   const r = await get(path); assert.equal(r.status, 404, `Unknown route ${path}`);
 }
 for (const path of ['/robots.txt', '/llms.txt', '/social-image', '/icon.svg', '/apple-icon']) { const r = await get(path); assert.equal(r.status, 200, path); }

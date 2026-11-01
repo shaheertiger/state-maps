@@ -1,8 +1,8 @@
 import { reviewedDate, type Section } from "./content";
 
 export const infoPages: Record<string, { title: string; description: string; sections: Section[] }> = {
-  "/about": { title: "About VaultForYou", description: "How this privacy database researches iPhone controls, access boundaries and recovery.", sections: [
-    { heading: "Our scope", body: "VaultForYou explains iPhone app access, photo privacy, sharing and recovery through task, app, glossary and tool references. This educational website is not affiliated with Apple or the third-party apps discussed here." },
+  "/about": { title: "About statemaps.net", description: "How this privacy database researches iPhone controls, access boundaries and recovery.", sections: [
+    { heading: "Our scope", body: "statemaps.net explains iPhone app access, photo privacy, sharing and recovery through task, app, glossary and tool references. This educational website is not affiliated with Apple or the third-party apps discussed here." },
     { heading: "How we research", body: "Guides link to Apple support and provider documentation. Product comparisons identify vendor claims and do not imply hands-on testing or an independent security audit. We publish review dates and welcome specific corrections through the contact page." },
     { heading: "What a guide can establish", body: "Interface names and service features change. Check the source for your installed release and verify workflows with a harmless sample. We do not promise rankings, recovery success or that any storage choice eliminates every privacy risk." },
   ] },
