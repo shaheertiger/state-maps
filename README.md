@@ -1,6 +1,6 @@
-# VaultForYou privacy database
+# statemaps.net privacy database
 
-A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Implements the supplied blueprint foundation: 18 guide references (including the expanded hide-apps pillar), five task hubs, six app references, twelve glossary terms, documentation-based comparisons, eight settings entries and two browser-local tools. Seventy destinations are eligible for indexing; eight shared-method combinations remain noindex and consolidate to their app references. All 78 HTML destinations have Markdown twins through DualMark.
+A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Implements the supplied blueprint foundation: 22 guide references (including the expanded hide-apps pillar), nine task hubs, six app references, fifteen glossary terms, documentation-based comparisons, eight settings entries and two browser-local tools. Eighty-one destinations are eligible for indexing; eight shared-method combinations remain noindex and consolidate to their app references. All 89 HTML destinations have Markdown twins through DualMark.
 
 ## Local development
 
@@ -18,7 +18,7 @@ With the production server running, `npm run check:routes` crawls every sitemap 
 
 ## Vercel deployment
 
-Import this repository as a Next.js project, use Node 22 and the standard `npm run build` build command. No custom output directory or server is needed. Set `NEXT_PUBLIC_SITE_URL` to the intended canonical HTTPS origin before building. If it is absent, Vercel's production-domain environment variable is used; outside Vercel, the fallback is localhost for development, never an invented public domain. See `.env.example`.
+Import this repository as a Next.js project, use Node 22 and the standard `npm run build` build command. No custom output directory or server is needed. Set `NEXT_PUBLIC_SITE_URL` to the intended canonical HTTPS origin before building. The production default is the user-specified https://statemaps.net origin; development defaults to localhost. NEXT_PUBLIC_SITE_URL can override the origin for testing or an explicitly chosen deployment. See `.env.example`.
 
 After deployment, run the route crawler and DualMark CLI against the production origin:
 
