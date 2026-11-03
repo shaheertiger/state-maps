@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import { ArrowUp } from 'lucide-react';
 
 /** Reading progress bar and back-to-top button. Purely visual; stores nothing. */
 export default function PageChrome() {
@@ -20,6 +21,6 @@ export default function PageChrome() {
   }, []);
   return <>
     <div className="read-progress" aria-hidden="true" style={{ transform: `scaleX(${progress})` }} />
-    <button type="button" className={`to-top${progress > 0.15 ? ' is-visible' : ''}`} aria-label="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} tabIndex={progress > 0.15 ? 0 : -1}>↑</button>
+    <button type="button" className={`to-top${progress > 0.15 ? ' is-visible' : ''}`} aria-label="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} tabIndex={progress > 0.15 ? 0 : -1}><ArrowUp size={18} strokeWidth={1.5} aria-hidden="true" /></button>
   </>;
 }
