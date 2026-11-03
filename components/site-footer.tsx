@@ -7,7 +7,7 @@ export default function SiteFooter() {
   return <footer className="site-footer">
     <div className="wrap footer-grid">
       <div className="footer-brand">
-        <Link href="/" className="logo"><span className="logo-mark" aria-hidden="true">✦</span>statemaps<span className="logo-tld">.net</span></Link>
+        <Link href="/" className="logo">statemaps<span className="logo-tld">.net</span></Link>
         <p>Independent guidance for iPhone photo privacy. Every guide links to its sources. Not affiliated with Apple.</p>
         <p>For photos and documents you choose to store separately, explore <a href={relatedProductUrl}>VaultForYou</a>.</p>
       </div>
