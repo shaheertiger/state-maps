@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import SiteTheme from "@/components/theme-provider";
 import MeasurementConsent from "@/components/measurement-consent";
@@ -24,5 +25,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <SiteFooter />
     <PageChrome />
     <MeasurementConsent />
+    <Analytics />
   </SiteTheme></AppRouterCacheProvider></body></html>;
 }
