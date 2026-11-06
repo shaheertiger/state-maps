@@ -1,0 +1,60 @@
+---
+/** Shared template for hand-written guides, settings, glossary, task hubs and info pages. */
+import Base from "../layouts/Base.astro";
+import Breadcrumb from "./Breadcrumb.astro";
+import TrustBlock from "./TrustBlock.astro";
+import PartnerNote from "./PartnerNote.astro";
+import AdSlot from "./AdSlot.astro";
+import ToolsCta from "./fun/ToolsCta.astro";
+import { render, stripMeta } from "../lib/md";
+import { ORG, articleLd, breadcrumbLd, faqLd } from "../lib/schema";
+import { APPS } from "../lib/data";
+
+interface Props {
+  path: string; title: string; h1: string; description: string; markdown: string; kicker: string;
+  crumbs: { name: string; href?: string }[]; faq?: [string, string][]; updated?: string; published?: string;
+  noindex?: boolean; related?: { href: string; label: string }[]; article?: boolean; partner?: boolean;
+}
+const { path, title, h1, description, markdown, kicker, crumbs, faq = [], updated, published, noindex = false, related = [], article = true, partner = true } = Astro.props;
+const { html, headings } = render(stripMeta(markdown));
+const ld = { "@context": "https://schema.org", "@graph": [ORG, article ? articleLd({ path, headline: h1, description, published, modified: updated }) : { "@type": "WebPage", name: h1, description }, breadcrumbLd(crumbs, path), ...(faq.length ? [faqLd(faq)] : [])] };
+---
+<Base title={title} description={description} path={path} jsonld={ld} noindex={noindex} ogType={article ? "article" : "website"}>
+  <div class="container-site pt-4 md:pt-6">
+    <Breadcrumb items={crumbs} />
+    <div class="kicker kicker-pin mt-5">{kicker}</div>
+    <h1 class="h1-page mt-3 max-w-[900px]">{h1}</h1>
+    <p class="lead mt-3 max-w-[760px]">{description}</p>
+    {updated && <p class="text-[13px] text-muted mt-2">Reviewed {updated} · {APPS.length.toLocaleString("en-US")} app labels in the database</p>}
+    <div class="grid lg:grid-cols-[200px_minmax(0,1fr)_260px] gap-10 mt-8 items-start">
+      <aside class="hidden lg:block sticky top-[92px]" aria-label="On this page">
+        {headings.length > 2 && <>
+          <div class="eyebrow text-muted">On this page</div>
+          <ul class="list-none mt-3 p-0 grid gap-0.5 text-sm">{headings.slice(0, 14).map((h) => <li><a href={`#${h.id}`} class="toc-a">{h.text}</a></li>)}</ul>
+        </>}
+      </aside>
+      <article class="min-w-0 max-w-[780px] md-body" set:html={html} />
+      <aside class="hidden lg:grid sticky top-[92px] gap-5">
+        {related.length > 0 && <div class="border border-line rounded-[12px] p-4"><div class="eyebrow text-muted">Related</div><ul class="list-none mt-2.5 p-0 grid gap-2 text-sm">{related.map((r) => <li><a href={r.href}>{r.label}</a></li>)}</ul></div>}
+        <AdSlot w={260} h={250} id="editorial-rail" />
+      </aside>
+    </div>
+    <div class="max-w-[780px] lg:ml-[240px]">
+      <ToolsCta title="Check the apps on your phone" text="Every app's App Store privacy label, decoded: tracking, data linked to you, and the iPhone settings that limit it." links={[{ href: "/tools/app-privacy-checker/", label: "App privacy checker", icon: "search" }, { href: "/does-it-track-you/", label: "Who tracks you?", icon: "target" }]} />
+      {partner && <PartnerNote />}
+      <TrustBlock path={path} sourceName="the sources linked above" sourceUrl="/data-methodology/" checked={updated} />
+    </div>
+  </div>
+</Base>
+<style is:global>
+  .md-body h2 { font-size: 28px; letter-spacing: -0.025em; margin-top: 44px; scroll-margin-top: 90px; }
+  .md-body h2:first-child { margin-top: 0; }
+  .md-body h3 { font-size: 19px; margin-top: 26px; }
+  .md-body p { margin-top: 14px; font-size: 16.5px; color: #26332f; }
+  .md-body ul, .md-body ol { margin-top: 14px; padding-left: 22px; display: grid; gap: 8px; font-size: 16px; list-style: disc; }
+  .md-body ol { list-style: decimal; }
+  .md-body li::marker { color: var(--color-primary); font-weight: 700; }
+  .md-body blockquote { margin: 18px 0 0; padding: 14px 18px; border-left: 4px solid var(--color-primary); background: #f3faf8; border-radius: 0 12px 12px 0; }
+  .md-body code { font-size: .9em; background: var(--color-tab); padding: 1px 5px; border-radius: 5px; }
+  @media (max-width: 720px) { .md-body h2 { font-size: 22px; } }
+</style>

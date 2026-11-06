@@ -1,0 +1,114 @@
+---
+import Base from "../layouts/Base.astro";
+import Breadcrumb from "./Breadcrumb.astro";
+import CatIcon from "./CatIcon.astro";
+import TrustBlock from "./TrustBlock.astro";
+import AdSlot from "./AdSlot.astro";
+import HubTable from "./HubTable.astro";
+import Faq from "./Faq.astro";
+import { type Category, appsIn, url, level, tracks, reported, allTypes, getTopic } from "../lib/data";
+import { dataType } from "../lib/labels";
+import { TOPIC_NOTES, CATEGORY_NOTES } from "../lib/content";
+import { breadcrumbLd, faqLd, ORG } from "../lib/schema";
+import { SITE, abs } from "../lib/site";
+
+interface Props { cat: Category; topic?: string }
+const { cat, topic } = Astro.props;
+const t = topic ? getTopic(topic) : null;
+const path = t ? url.topic(cat.slug, t.slug) : url.category(cat.slug);
+const label = t ? `${cat.name} ${t.name}` : `${cat.name} Apps`;
+const apps = appsIn(cat.slug, topic);
+const rep = apps.filter(reported);
+const pct = (f: (a: (typeof apps)[number]) => boolean) => Math.round((rep.filter(f).length / Math.max(rep.length, 1)) * 100);
+const stats = { track: pct(tracks), linked: pct((a) => level(a) === 3), clean: pct((a) => level(a) === 1), none: apps.length - rep.length };
+const h1 = t ? `${t.name}: Privacy Labels Compared` : `${cat.name} App Privacy Labels`;
+const title = t ? `${t.name} (${cat.name}): ${apps.length} iPhone Apps' Privacy Labels Compared` : `${cat.name} Apps: Which Track You? ${apps.length} iPhone Privacy Labels`;
+const sample = [...rep].sort((a, b) => a.rank - b.rank).slice(0, 3).map((a) => a.display);
+const description = `Who tracks you, who links data to you and who collects nothing: App Store privacy labels for ${sample.join(", ")} and ${apps.length - sample.length} more ${(t ? t.name : cat.name).toLowerCase()} apps.`.slice(0, 158);
+const crumbs = [{ name: "Home", href: "/" }, { name: "Apps", href: "/app-privacy/" }, ...(t ? [{ name: cat.name, href: url.category(cat.slug) }] : []), { name: t ? t.name : cat.name }];
+const typeCounts = new Map<string, number>();
+for (const a of rep) for (const x of allTypes(a)) typeCounts.set(x, (typeCounts.get(x) ?? 0) + 1);
+const topTypes = [...typeCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+const clean = rep.filter((a) => level(a) === 1).sort((a, b) => a.rank - b.rank).slice(0, 6);
+const faq: [string, string][] = [
+  [`How many ${(t ? t.name : cat.name + " apps").toLowerCase()} track you?`, `${stats.track}% of the ${rep.length} with an App Store privacy label declare data used to track you. ${stats.none ? `${stats.none} more have not provided label details.` : ""}`],
+  [`Which ${(t ? t.name : cat.name + " apps").toLowerCase()} collect no data?`, clean.length ? `${clean.map((a) => a.display).join(", ")}${stats.clean > 0 && rep.filter((a) => level(a) === 1).length > clean.length ? " and others" : ""} have a “Data Not Collected” label. Filter the table above by “Collects nothing” to see them all.` : "None in this group currently show a “Data Not Collected” label."],
+  ["What data do they collect most?", topTypes.length ? `${topTypes.slice(0, 3).map(([n, c]) => `${n} (${Math.round((c / Math.max(rep.length, 1)) * 100)}%)`).join(", ")}.` : "No label data yet."],
+  ["Are these rankings or recommendations?", "No. The table reproduces each developer's App Store privacy label. We do not test apps, and fewer data types is not automatically better: some features need data to work."],
+];
+const ld = {
+  "@context": "https://schema.org",
+  "@graph": [
+    ORG,
+    { "@type": "CollectionPage", name: h1, url: abs(path), description, dateModified: SITE.verifiedISO, isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url } },
+    { "@type": "ItemList", name: h1, numberOfItems: apps.length, itemListElement: apps.slice(0, 100).map((a, i) => ({ "@type": "ListItem", position: i + 1, name: a.display, url: abs(url.app(a)) })) },
+    breadcrumbLd(crumbs, path),
+    faqLd(faq),
+  ],
+};
+---
+<Base title={title} description={description} path={path} jsonld={ld}>
+  <div class="container-site pt-4 md:pt-6">
+    <Breadcrumb items={crumbs} />
+    <div class="mt-5 grid md:grid-cols-[minmax(0,1fr)_340px] gap-10 items-end">
+      <div>
+        <div class="kicker kicker-pin">{t ? `${cat.name} · ` : "Category · "}{apps.length} apps</div>
+        <h1 class="h1-page mt-3">{h1}</h1>
+        <p class="lead mt-3 max-w-[680px]">{t ? `${TOPIC_NOTES[t.slug].focus}` : `What ${cat.blurb} disclose on their App Store privacy labels: tracking, data linked to you, and apps that collect nothing.`} Checked {SITE.verifiedLabel}.</p>
+      </div>
+      <div class="map-tile hidden md:grid h-[170px] rounded-[18px] place-items-center"><CatIcon slug={cat.slug} size={68} /></div>
+    </div>
+
+    <dl class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-8 m-0">
+      {[["Declare tracking", `${stats.track}%`, "var(--color-tint-red)", "#9b2c1c"], ["Linked, no tracking", `${stats.linked}%`, "var(--color-tint-amber)", "#865409"], ["Collect nothing", `${stats.clean}%`, "var(--color-tint-green)", "#17633f"], ["No label details", String(stats.none), "var(--color-tint-slate)", "#3c4a46"]].map(([k, v, bg, ink]) => (
+        <div class="panel p-4" style={`background:${bg}`}><dt class="text-[12px] font-bold uppercase tracking-[.08em]" style={`color:${ink}`}>{k}</dt><dd class="m-0 text-[30px] font-[760] tracking-[-0.03em]" style={`color:${ink}`}>{v}</dd></div>
+      ))}
+    </dl>
+
+    {!t && cat.topics.length > 0 && (
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mt-8">
+        {cat.topics.map((s) => (
+          <a href={url.topic(cat.slug, s.slug)} class="lift block p-3.5 border border-line rounded-[12px] min-h-11 hover:border-[#b9c9c4]">
+            <div class="font-[650] text-[15px] leading-snug">{s.name}</div><div class="text-[13px] text-muted mt-0.5">{s.count} apps</div>
+          </a>
+        ))}
+      </div>
+    )}
+    {t && (
+      <p class="mt-6 text-sm"><a class="link" href={url.category(cat.slug)}>← All {cat.name.toLowerCase()} apps</a>{cat.topics.filter((s) => s.slug !== t.slug).slice(0, 8).map((s) => <> · <a class="link" href={url.topic(cat.slug, s.slug)}>{s.name}</a></>)}</p>
+    )}
+
+    <HubTable apps={apps} label={(t ? t.name : cat.name).toLowerCase()} />
+
+    <AdSlot w={970} h={250} class="hidden lg:grid mt-12" id="hub-1" />
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-8 mt-12">
+      <section>
+        <h2 class="h2-page">Most common data types</h2>
+        <ul class="list-none p-0 mt-4 grid gap-2.5">
+          {topTypes.map(([n, c]) => { const p = Math.round((c / Math.max(rep.length, 1)) * 100); return (
+            <li class="grid grid-cols-[140px_minmax(0,1fr)_44px] items-center gap-3 text-sm"><a href={url.dataType(dataType(n).slug)} class="hover:text-primary truncate">{n}</a><span class="h-2.5 rounded-full bg-[#eef3f1]"><span class="block h-full rounded-full bg-primary" style={`width:${p}%`}></span></span><span class="text-right text-muted">{p}%</span></li>
+          ); })}
+        </ul>
+      </section>
+      <section class="longform">
+        <h2 class="h2-page">How to read this list</h2>
+        <p>{CATEGORY_NOTES[cat.slug]}</p>
+        {t && <p>{TOPIC_NOTES[t.slug].check}</p>}
+        <p>Exposure follows the label's own structure: an app that declares any tracking is shown as “Tracks you”, even if it collects little else. Open any app for every data type explained and the iPhone settings that limit it.</p>
+      </section>
+    </div>
+
+    <section class="mt-12">
+      <h2 class="h2-page">FAQ</h2>
+      <Faq items={faq} />
+    </section>
+
+    <div class="grid md:grid-cols-3 gap-4 mt-10">
+      <a href="/does-it-track-you/" class="block p-5 bg-panel rounded-[12px]"><div class="font-[720] text-lg tracking-[-0.02em]">Who tracks you?</div><div class="text-sm text-muted mt-1">Every app, A–Z, with a yes or no</div></a>
+      <a href="/data-types/" class="block p-5 bg-panel rounded-[12px]"><div class="font-[720] text-lg tracking-[-0.02em]">Data types explained</div><div class="text-sm text-muted mt-1">Location, identifiers, health and 13 more</div></a>
+      <a href="/lock-an-app/" class="block p-5 bg-panel rounded-[12px]"><div class="font-[720] text-lg tracking-[-0.02em]">Lock an app</div><div class="text-sm text-muted mt-1">Face ID lock guides, app by app</div></a>
+    </div>
+    <TrustBlock path={path} />
+  </div>
+</Base>

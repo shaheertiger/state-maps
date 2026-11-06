@@ -1,0 +1,12 @@
+---
+interface Props { items: [string, string][] }
+const { items } = Astro.props;
+---
+<div class="mt-4 grid gap-2.5">
+  {items.map(([q, a]) => (
+    <details class="faq-card">
+      <summary class="faq-q">{q}</summary>
+      <div class="faq-a">{a}</div>
+    </details>
+  ))}
+</div>

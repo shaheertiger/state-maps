@@ -1,0 +1,9 @@
+---
+import { SITE, reportHref } from "../lib/site";
+interface Props { path: string; sourceName?: string; sourceUrl?: string; checked?: string }
+const { path, sourceName = "Apple App Store privacy labels", sourceUrl = "https://developer.apple.com/app-store/app-privacy-details/", checked } = Astro.props;
+---
+<div class="mt-12 px-5 py-[18px] bg-panel rounded-[12px] text-sm text-muted flex flex-wrap justify-between gap-4">
+  <span>Facts on this page come from <a href={sourceUrl} rel="nofollow noopener" class="font-semibold text-ink hover:text-primary">{sourceName}</a>, as reported by the developer. Checked <strong class="text-ink font-semibold">{checked ?? SITE.verifiedLabel}</strong>.</span>
+  <span><a href="/data-methodology/" class="link">How we collect data</a> · <a href={reportHref(path)} rel="nofollow" class="link">Report a correction</a></span>
+</div>

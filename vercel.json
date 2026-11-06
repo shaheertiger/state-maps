@@ -1,9 +1,108 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/app-privacy/page/:n",
+      "destination": "/app-privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-checklist",
+      "destination": "/tools/privacy-checkup/",
+      "permanent": true
+    },
+    {
+      "source": "/md/:path*",
+      "destination": "/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemaps/:type",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/social-image",
+      "destination": "/og.png",
+      "permanent": true
+    },
+    {
+      "source": "/app-directory-index.json",
+      "destination": "/search-index.json",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/icons.svg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/search-index.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/search/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
-      "headers": [{ "key": "Vary", "value": "Accept, User-Agent, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding" }]
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
     }
   ]
 }

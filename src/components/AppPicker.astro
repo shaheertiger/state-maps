@@ -1,0 +1,6 @@
+---
+import { APPS } from "../lib/data";
+interface Props { id?: string; label?: string; placeholder?: string }
+const { id = "app", label = "App", placeholder = `Start typing… (${APPS.length.toLocaleString("en-US")} apps)` } = Astro.props;
+---
+<div><label for={id}>{label}</label><input id={id} list={`${id}-list`} autocomplete="off" placeholder={placeholder} /><datalist id={`${id}-list`}></datalist></div>

@@ -1,54 +1,66 @@
-# statemaps.net privacy database
+# statemaps.net
 
-A focused iPhone privacy reference site built with Next.js 15, React 19, TypeScript, Material UI, Emotion and Radix FAQ accordions. Implements the supplied blueprint foundation: 22 guide references (including the expanded hide-apps pillar), nine task hubs, six app references, fifteen glossary terms, documentation-based comparisons, eight settings entries and two browser-local tools. The expansion adds 4,500 distinct source-backed iPhone app records and a searchable directory. There are 4,583 indexable destinations and 4,635 HTML destinations with Markdown twins through DualMark. Eight original shared-method combinations and 44 paginated directory pages remain noindex.
+Programmatic iPhone app-privacy reference: "is {app} safe?", "does {app} track you?" and
+"how to lock {app} on iPhone" for 4,500 apps, built from their App Store privacy labels.
+Fully static HTML (Astro + Tailwind), deployed on Vercel.
 
-## Local development
-
-Use Node 22 and the committed lockfile:
-
-```sh
+```bash
 npm ci
-npm test
-npm run typecheck
-npm run build
-npm start -- --port 3100
+npm run data     # rebuild data/apps.json (clean slugs, label cards) from data/apple-apps.json
+npm run dev      # http://localhost:4321
+npm run build    # astro build + scripts/check-build.mjs (fails on broken links, duplicate titles, thin pages…)
+SM_LIMIT=50 npx astro build   # quick sample build: only the first 50 apps' root pages
+npm run og       # re-render the site-wide OG image (public/og.png)
+npm run favicons # re-render favicons from the logo SVG
 ```
 
-With the production server running, `npm run check:routes` crawls every sitemap page, Markdown twin, bot/Accept negotiation mode, internal target and error/discovery route. Set `TEST_BASE_URL` to change the test origin. It defaults to `http://127.0.0.1:3100`.
+## How it fits together
 
-## Vercel deployment
+| Path | What it is |
+| --- | --- |
+| `data/apple-apps.json` | Sourced snapshot: 4,500 App Store records + developer-reported privacy cards, each with retrieval time and SHA-256 of the source response. |
+| `scripts/import-apple-catalog.mjs`, `scripts/enrich-app-privacy.mjs` | Collect records from Apple's public Search API and privacy cards from public App Store pages (`npm run import`, `npm run enrich`). Polite pacing; stops if rate-limited. |
+| `scripts/build-apps.mjs` | Normalises the snapshot → `data/apps.json`: readable names, unique slugs, category/topic, cards split by type. |
+| `src/lib/data.ts` | Types, URL builders, exposure levels, categories, topics, which variant pages exist. |
+| `src/lib/labels.ts` | Apple's label vocabulary: sections, 16 data types, iPhone setting for each. |
+| `src/lib/content.ts` | Generated copy per app (verdicts, quick answers, settings, FAQ, quizzes, checklists) plus hand-written topic and category notes. |
+| `src/pages/[slug].astro` | All root-level app URLs (main page + 2 variants). |
+| `src/components/AppPage.astro` | App page template. `VariantPage.astro`: tracking and lock pages. |
+| `src/components/HubPage.astro` | Category and topic hubs (filter chips + sortable table, ItemList schema). |
+| `src/components/QuestionHub.astro` | A–Z question hubs with one page per letter. |
+| `src/pages/data-types/` | One hub per label data type (apps that collect Location, Identifiers…). |
+| `src/pages/tools/` | App privacy checker, compare two apps, label decoder, privacy checkup, photo metadata viewer. |
+| `src/lib/editorial/` | Hand-written guides, settings, glossary and comparisons from the previous site, rendered at their original URLs via `EditorialPage.astro`. |
+| `src/lib/sitemap.ts` | Sitemap index split into apps / questions / hubs / guides; `lastmod` = `SITE.verifiedISO`. |
 
-Import this repository as a Next.js project, use Node 22 and the standard `npm run build` build command. No custom output directory or server is needed. Set `NEXT_PUBLIC_SITE_URL` to the intended canonical HTTPS origin before building. The production default is the user-specified https://statemaps.net origin; development defaults to localhost. NEXT_PUBLIC_SITE_URL can override the origin for testing or an explicitly chosen deployment. See `.env.example`.
+## URLs
 
-After deployment, run the route crawler and DualMark CLI against the production origin:
-
-```sh
-TEST_BASE_URL=https://your-domain.example npm run check:routes
-npx @dualmark/cli@0.11.0 verify https://your-domain.example/blog/how-to-hide-photos-iphone
 ```
+/is-{app}-safe/   /does-{app}-track-you/   /how-to-lock-{app}-on-iphone/
+/app-privacy/  /app-privacy/{category}/  /app-privacy/{category}/{topic}/
+/does-it-track-you/{letter}/  /is-it-safe/{letter}/  /lock-an-app/{letter}/  /data-types/{type}/
+/tools/{tool}/  /blog/{guide}/  /guides/{topic}/  /privacy-settings/{setting}/  /glossary/{term}/
+```
+Variant pages exist only where they have something to say: tracking pages need a privacy label;
+lock guides cover finance, health, medical, photo, social and security-type apps.
+Old `/app-privacy/{name-id}/` URLs are static forwarding pages (noindex, canonical + instant refresh)
+to the new app pages; other legacy paths are redirected in `vercel.json`.
 
-The example origin must be replaced. Local checks do not establish a successful Vercel deployment or search indexing.
+## Editorial rules
+- Never invent a fact. Labels are reproduced as developer disclosures, never as tested behaviour.
+- "No Details Provided" stays distinct from "Data Not Collected".
+- No rankings, "best app" verdicts or security claims the label does not make.
+- When you re-collect data, bump `SITE.verifiedISO` / `verifiedLabel` in `src/lib/site.ts`; it drives
+  "checked" dates, JSON-LD and sitemap `lastmod`.
 
-Next.js 15's local production server overwrites the HTML `Vary` value; the local DualMark result is 120/125 (all required checks pass). `vercel.json` also declares the negotiation headers at the hosting layer. Run the crawler with `CHECK_EDGE_HEADERS=1` on the deployed origin to verify those headers instead of assuming hosting preserves them.
+## Performance
+App pages ship no client JS (checkers, quizzes, tabs and checklists are CSS radio/checkbox inputs, FAQs
+are `<details>`). One cached stylesheet (~48 KB) and one icon sprite (`/icons.svg`) are shared by every page.
+Ad slots (`AdSlot.astro`) render only with `PUBLIC_ADS=1` and reserve fixed sizes. Optional Google Tag Manager
+(`PUBLIC_GTM_ID`) loads only after opt-in and never when the browser sends Do Not Track / GPC.
 
-## Content and scaling
-
-`lib/content.ts` assembles the guide records and links to primary sources. `lib/settings.ts` is the structured reference dataset. `lib/markdown.ts` serializes the same records used in HTML, avoiding a second independently maintained article copy. New researched records automatically become routes and discovery entries. `docs/blueprint-implementation.md` tracks the revised blueprint, editorial requirements, actual scope and phase gates. The supplied 5,183-keyword map is preserved in `docs/blueprint-keyword-map.csv`. `docs/content-plan.md` retains the earlier candidate-map context. Candidate mappings are not proof that every query is answered.
-
-The privacy review supports explicit local saving, a text download, printing to PDF and links encoding only the selected general choices. It never uploads photos or reads device settings. Do not add analytics events containing answers or completion state.
-
-## Optional account services
-
-`NEXT_PUBLIC_GTM_ID` enables the optional measurement consent interface. The container loads only after opt-in and stays off when the browser requests no tracking. Configure any GA, Clarity, Amplitude or advertising tags in your own container, review consent behavior and update the privacy description to match the live configuration. Do not put private credentials in public variables.
-
-`GOOGLE_SITE_VERIFICATION` adds a Search Console verification token. External DNS/CDN, payment, app-store, email and dataset-inclusion services from a competitor technology profile are not activated or claimed by this repository. No fictitious account IDs, prices, app audits, translations or ranking claims are included.
-
-Public corrections use the repository issue tracker. No private support address or upload endpoint is implied.
-
-## Programmatic app records
-
-`data/apple-apps.json` is a committed snapshot of 4,500 distinct Apple app IDs and bundle identifiers. `scripts/import-apple-catalog.py --resume` collects public Apple Search API records; `scripts/enrich-app-privacy.py` captures the privacy card groups and categories from each official App Store page. Both retain retrieval times and source hashes; local collection caches are ignored. Cached runs resume rather than refreshing existing records. To refresh, archive the old ignored caches and collect a new snapshot for review. No credentials are needed and builds make no live catalog requests.
-
-Developer-reported privacy labels are reproduced as disclosures, never described as independently tested behavior. “No Details Provided” remains distinct from “Data Not Collected.” Pages do not invent app-specific lock methods, permissions, encryption or rankings. Templates are English; official app names retain their source spelling. The routing middleware uses only the lightweight slug index. All pages use the shared site social image; per-page image generation is removed at the user’s request.
-
-The supplied competitor HTML examples inform the structure: quick answer, facts table, focused interpretation, practical review checklist, FAQs, sources and related records. The directory adds name/developer search and category filtering. Their copy, testing labels and claimed rankings are not imported. Each HTML page and Markdown twin has one contextual link to https://www.vaultforyou.app/, while statemaps.net remains the site identity.
+## Launch checklist
+- [ ] Vercel: import the repo (framework Astro; `vercel.json` sets build, headers, redirects, trailing slashes).
+- [ ] Search Console: verify `statemaps.net` and submit `https://statemaps.net/sitemap.xml`.
+- [ ] Bing Webmaster Tools: import from Search Console; after each deploy run `npm run build && npm run indexnow`.
+- [ ] Corrections arrive as public issues in this repository.

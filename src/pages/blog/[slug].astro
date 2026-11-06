@@ -1,0 +1,17 @@
+---
+import EditorialPage from "../../components/EditorialPage.astro";
+import { articles, getCategory, relatedArticles, type Article } from "../../lib/editorial/content";
+import { articleBody } from "../../lib/editorial/markdown";
+import { guideFaq } from "../../lib/editorial/guide-anatomy";
+export function getStaticPaths() {
+  return articles.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props as { a: Article };
+const cat = getCategory(a.category);
+const path = `/blog/${a.slug}/`;
+const faq = guideFaq(a).map((f) => [f.q, f.a] as [string, string]);
+---
+<EditorialPage path={path} title={`${a.title} | StateMaps`} h1={a.title} description={a.description} markdown={articleBody(a)} kicker={cat ? `Guide · ${cat.name}` : "Guide"}
+  crumbs={[{ name: "Home", href: "/" }, { name: "Guides", href: "/blog/" }, ...(cat ? [{ name: cat.name, href: `/guides/${cat.slug}/` }] : []), { name: a.title }]}
+  faq={faq} updated={a.updated} published={a.published}
+  related={[...relatedArticles(a).map((r) => ({ href: `/blog/${r.slug}/`, label: r.title })), { href: "/privacy-settings/", label: "iPhone privacy settings" }]} />

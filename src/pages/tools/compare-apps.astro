@@ -1,0 +1,39 @@
+---
+import Tool from "../../layouts/Tool.astro";
+import AppPicker from "../../components/AppPicker.astro";
+const faq: [string, string][] = [
+  ["What does the comparison show?", "Each app's exposure level, whether it declares tracking, and every data type with the label section it appears in."],
+  ["Which app is the better choice?", "We do not rank apps. Use the comparison to see differences in disclosure, then weigh the features you need. Prefer the app that declares no tracking when everything else is equal."],
+  ["Can I share a comparison?", "Yes. The page address updates with both app names, so you can copy and share it."],
+];
+---
+<Tool slug="compare-apps" title="Compare iPhone App Privacy Labels Side by Side (Free Tool)" h1="Compare two apps"
+  description="Pick two iPhone apps and compare their App Store privacy labels side by side: tracking, data linked to you and every data type."
+  lead="Pick two apps. We line up their App Store privacy labels so the differences are obvious." faq={faq}>
+  <Fragment slot="form"><div class="grid sm:grid-cols-2 gap-4"><AppPicker id="a" label="First app" placeholder="e.g. Dropbox" /><AppPicker id="b" label="Second app" placeholder="e.g. Google Photos" /></div></Fragment>
+  <p slot="empty" class="text-muted text-[19px]">Pick two apps to compare.</p>
+  <h2>Comparing fairly</h2>
+  <p>Compare apps that do the same job. A password manager and a photo backup service need very different data to work. Within a category, look at three things in order: whether the app declares tracking, which sensitive types are linked to you, and the total number of types.</p>
+</Tool>
+<script>
+  import { picker, loadIndex, appHref, esc, LEVEL, LEVEL_PILL, allTypes } from "../../scripts/apps";
+  const ia = document.querySelector<HTMLInputElement>("#a")!, ib = document.querySelector<HTMLInputElement>("#b")!;
+  const out = document.querySelector<HTMLElement>("[data-out]")!;
+  const [ra, rb] = await Promise.all([picker(ia), picker(ib)]);
+  const idx = await loadIndex();
+  const where = (r: any, t: number) => [r.t.includes(t) && '<span class="text-no font-[650]">Tracks</span>', r.i.includes(t) && '<span class="text-caution font-[650]">Linked</span>', r.u.includes(t) && '<span class="text-[#22508f] font-[650]">Not linked</span>'].filter(Boolean).join(" · ") || '<span class="text-faint">—</span>';
+  const run = () => {
+    const a = ra(), b = rb();
+    if (!a || !b) return;
+    history.replaceState(null, "", `?a=${encodeURIComponent(a.n)}&b=${encodeURIComponent(b.n)}`);
+    const types = [...new Set([...allTypes(a), ...allTypes(b)])].sort((x, y) => x - y);
+    out.innerHTML = `<div class="table-wrap bg-white"><table class="data-table"><thead><tr><th></th><th><a class="link" href="${appHref(a)}">${esc(a.n)}</a></th><th><a class="link" href="${appHref(b)}">${esc(b.n)}</a></th></tr></thead><tbody>
+      <tr><td class="font-[650]">Exposure</td><td><span class="pill ${LEVEL_PILL[a.l]} !text-[13px]">${LEVEL[a.l]}</span></td><td><span class="pill ${LEVEL_PILL[b.l]} !text-[13px]">${LEVEL[b.l]}</span></td></tr>
+      <tr><td class="font-[650]">Tracks you</td><td>${a.l ? (a.t.length ? "Yes" : "No") : "Unknown"}</td><td>${b.l ? (b.t.length ? "Yes" : "No") : "Unknown"}</td></tr>
+      <tr><td class="font-[650]">Data types</td><td>${allTypes(a).length}</td><td>${allTypes(b).length}</td></tr>
+      ${types.map((t) => `<tr><td class="text-muted">${esc(idx.types[t])}</td><td class="text-[14px]">${where(a, t)}</td><td class="text-[14px]">${where(b, t)}</td></tr>`).join("")}
+    </tbody></table></div>`;
+  };
+  for (const el of [ia, ib]) { el.addEventListener("change", run); el.addEventListener("input", run); }
+  const p = new URLSearchParams(location.search); if (p.get("a") && p.get("b")) { ia.value = p.get("a")!; ib.value = p.get("b")!; run(); }
+</script>

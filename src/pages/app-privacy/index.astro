@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import CatIcon from "../../components/CatIcon.astro";
+import TrustBlock from "../../components/TrustBlock.astro";
+import { CATEGORIES, APPS, TOPICS, url, appsIn, level, reported } from "../../lib/data";
+import { breadcrumbLd, ORG } from "../../lib/schema";
+import { abs } from "../../lib/site";
+const path = "/app-privacy/";
+const crumbs = [{ name: "Home", href: "/" }, { name: "Apps" }];
+const ld = { "@context": "https://schema.org", "@graph": [ORG, { "@type": "ItemList", name: "App categories", itemListElement: CATEGORIES.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, url: abs(url.category(c.slug)) })) }, breadcrumbLd(crumbs, path)] };
+const N = APPS.length.toLocaleString("en-US");
+const topicLinks = CATEGORIES.flatMap((c) => c.topics.map((t) => ({ ...t, cat: c }))).sort((a, b) => b.count - a.count);
+---
+<Base title={`iPhone App Privacy Labels: ${N} Apps by Category | StateMaps`} description={`Browse App Store privacy labels for ${N} iPhone apps in ${CATEGORIES.length} categories: finance, health, photo vaults, password managers, messengers and more.`} path={path} jsonld={ld}>
+  <div class="container-site pt-4 md:pt-6">
+    <Breadcrumb items={crumbs} />
+    <h1 class="h1-page mt-5">All apps</h1>
+    <p class="lead mt-3 max-w-[680px]">{N} iPhone apps in {CATEGORIES.length} App Store categories and {TOPICS.length} topics, each with its privacy label explained.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+      {CATEGORIES.map((c) => { const xs = appsIn(c.slug); const tr = xs.filter((a) => level(a) === 4).length; return (
+        <section class="border border-line rounded-[14px] p-5">
+          <a href={url.category(c.slug)} class="flex items-center gap-4 group">
+            <span class="map-tile w-14 h-14 rounded-[14px] grid place-items-center shrink-0"><CatIcon slug={c.slug} size={28} /></span>
+            <span><h2 class="!text-[21px] !tracking-[-0.02em] group-hover:text-primary">{c.name}</h2><span class="text-sm text-muted">{c.count} apps · {Math.round((tr / Math.max(xs.filter(reported).length, 1)) * 100)}% track you</span></span>
+          </a>
+          <ul class="list-none p-0 mt-4 grid gap-1.5 text-[15px]">
+            {xs.sort((a, b) => a.rank - b.rank).slice(0, 5).map((a) => <li><a href={url.app(a)}>Is {a.display} safe?</a></li>)}
+          </ul>
+          <a href={url.category(c.slug)} class="link inline-block mt-3 text-sm">All {c.count} {c.name.toLowerCase()} apps →</a>
+        </section>
+      ); })}
+    </div>
+    <h2 class="h2-page mt-14">Browse by topic</h2>
+    <ul class="list-none p-0 mt-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6">
+      {topicLinks.map((t) => <li class="rowline"><a href={url.topic(t.cat.slug, t.slug)} class="flex justify-between gap-3 py-2.5 text-[15px]"><span>{t.name} <span class="text-muted">· {t.cat.name}</span></span><span class="text-muted text-[13px]">{t.count}</span></a></li>)}
+    </ul>
+    <TrustBlock path={path} />
+  </div>
+</Base>

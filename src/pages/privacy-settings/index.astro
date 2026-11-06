@@ -1,0 +1,6 @@
+---
+import EditorialPage from "../../components/EditorialPage.astro";
+import { staticMarkdown } from "../../lib/editorial/markdown";
+import { reviewedDate } from "../../lib/editorial/content";
+---
+<EditorialPage path="/privacy-settings/" title="iPhone Privacy Settings Library: What Each Setting Changes | StateMaps" h1="iPhone privacy settings library" description="Find a setting, understand what it changes, and verify the result. Paths can vary by software version." markdown={staticMarkdown["/privacy-settings"]()} kicker="Settings library" crumbs={[{ name: "Home", href: "/" }, { name: "Privacy settings" }]} updated={reviewedDate} article={false} />
