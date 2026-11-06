@@ -1,0 +1,95 @@
+---
+/**
+ * Filterable, sortable app table for hubs. Rows are deliberately lean (one global stylesheet,
+ * no per-cell utility classes) because category hubs list over a thousand apps.
+ */
+import { type App, url, level, LEVELS } from "../lib/data";
+interface Props { apps: App[]; label: string }
+const { apps, label } = Astro.props;
+const filters = [["all", `All ${label}`], ["4", "Tracks you"], ["3", "Linked, no tracking"], ["2", "Not linked"], ["1", "Collects nothing"], ["0", "No label"]];
+const sorted = [...apps].sort((a, b) => a.display.localeCompare(b.display));
+---
+<div class="hub" data-hub>
+  <div class="flex flex-wrap items-center gap-2 mt-10">
+    {filters.map(([k, l], i) => (
+      <button type="button" data-filter={k} aria-pressed={i === 0 ? "true" : "false"} class="hub-chip border border-line rounded-full px-3.5 py-2 text-sm font-[600] min-h-10">{l}</button>
+    ))}
+    <span class="flex-1"></span>
+    <span class="text-[13px] text-muted"><span data-shown>{apps.length}</span> of {apps.length} apps · <span data-sortlabel>sorted A–Z</span></span>
+  </div>
+  <div class="table-wrap mt-3.5">
+    <table class="data-table ht md:min-w-[760px]">
+      <thead><tr>
+        <th><button type="button" data-sort="n">App</button></th>
+        <th>Developer</th>
+        <th><button type="button" data-sort="l">Exposure</button></th>
+        <th>Tracking</th>
+        <th><button type="button" data-sort="c">Data types</button></th>
+      </tr></thead>
+      <tbody>
+        {sorted.map((a) => { const L = level(a); const c = new Set([...a.track, ...a.linked, ...a.notLinked]).size; return (
+          <tr data-n={a.display.toLowerCase()} data-l={L} data-c={c}><td><a href={url.app(a)}>{a.display}</a></td><td>{a.developer}</td><td><span class={`hl hl${L}`}>{LEVELS[L].short}</span></td><td>{L === 0 ? "—" : a.track.length ? a.track.join(", ") : "None"}</td><td>{L >= 2 ? c : L === 1 ? 0 : "—"}</td></tr>
+        ); })}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style is:global>
+  .hub-chip { background: #fff; color: var(--color-ink); }
+  .hub-chip[aria-pressed="true"] { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
+  .ht th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+  .ht th button::after { content: " ↕"; opacity: .5; }
+  .ht td:first-child a { font-weight: 650; }
+  .ht td:first-child a:hover { color: var(--color-primary); }
+  .ht td:nth-child(2), .ht td:nth-child(4) { color: var(--color-muted); font-size: 14px; }
+  .hl { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 12.5px; font-weight: 650; white-space: nowrap; }
+  .hl0, .hl3 { background: var(--color-caution-bg); color: var(--color-caution); }
+  .hl1 { background: var(--color-yes-bg); color: var(--color-yes); }
+  .hl2 { background: var(--color-tint-blue); color: #22508f; }
+  .hl4 { background: var(--color-no-bg); color: var(--color-no); }
+  @media (max-width: 767px) {
+    .ht thead { display: none; }
+    .ht tbody tr { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 14px; border-top: 1px solid var(--color-line); }
+    .ht tbody td { padding: 0; border: 0 !important; }
+    .ht td:nth-child(1) { grid-column: 1; }
+    .ht td:nth-child(3) { grid-column: 2; grid-row: 1; }
+    .ht td:nth-child(2) { grid-column: 1 / -1; font-size: 13px; }
+    .ht td:nth-child(4), .ht td:nth-child(5) { display: none !important; }
+  }
+</style>
+
+<script>
+  // Filter chips + column sort (progressive enhancement; the table works without JS).
+  for (const hub of document.querySelectorAll<HTMLElement>("[data-hub]")) {
+    const tbody = hub.querySelector("tbody")!;
+    const rows = [...tbody.querySelectorAll<HTMLTableRowElement>("tr")];
+    const shown = hub.querySelector("[data-shown]")!;
+    const sortLabel = hub.querySelector("[data-sortlabel]")!;
+    hub.querySelectorAll<HTMLButtonElement>("[data-filter]").forEach((b) =>
+      b.addEventListener("click", () => {
+        hub.querySelectorAll("[data-filter]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        const k = b.dataset.filter!;
+        let n = 0;
+        for (const r of rows) {
+          const l = r.dataset.l!;
+          const ok = k === "all" || l === k;
+          r.hidden = !ok;
+          if (ok) n++;
+        }
+        shown.textContent = String(n);
+      }),
+    );
+    let last = "n", dir = 1;
+    hub.querySelectorAll<HTMLButtonElement>("[data-sort]").forEach((b) =>
+      b.addEventListener("click", () => {
+        const k = b.dataset.sort!;
+        dir = k === last ? -dir : 1;
+        last = k;
+        rows.sort((a, c) => (k === "n" ? a.dataset.n!.localeCompare(c.dataset.n!) : Number(a.dataset[k]) - Number(c.dataset[k])) * dir);
+        tbody.append(...rows);
+        sortLabel.textContent = k === "n" ? `sorted ${dir > 0 ? "A–Z" : "Z–A"}` : `sorted by ${b.textContent!.toLowerCase()}, ${dir > 0 ? "lowest" : "highest"} first`;
+      }),
+    );
+  }
+</script>

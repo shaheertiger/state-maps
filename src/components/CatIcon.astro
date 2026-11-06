@@ -1,0 +1,7 @@
+---
+import Icon from "./fun/Icon.astro";
+const I: Record<string, string> = { productivity: "list", utilities: "gear", finance: "card", "photo-video": "image", business: "book", lifestyle: "heart", "health-fitness": "pulse", medical: "shieldok", "social-networking": "people" };
+interface Props { slug: string; size?: number }
+const { slug, size = 40 } = Astro.props;
+---
+<span class="text-primary"><Icon name={I[slug] ?? "grid"} size={size} stroke={1.5} /></span>

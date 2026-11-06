@@ -1,0 +1,26 @@
+---
+/** CSS-only checker: tap an option, see a verdict (radio inputs + :has, no JS). */
+import type { Opt } from "../../lib/content";
+import Icon from "./Icon.astro";
+interface Props { id: string; ask: string; hint?: string; note?: string; options: Opt[] }
+const { id, ask, hint = "Tap a prompt to compare it with the label.", note, options } = Astro.props;
+const TONE = { fresh: ["var(--color-tint-green)", "#17633f", "shieldok"], edge: ["var(--color-tint-amber)", "#865409", "question"], toss: ["var(--color-tint-red)", "#9b2c1c", "target"] } as const;
+---
+<div class="ck box">
+  <fieldset class="m-0 p-0 border-0">
+    <legend class="text-[15px] font-[700]">{ask}</legend>
+    <div class="flex flex-wrap gap-2 mt-3">
+      {options.map((o, i) => (<><input class="sr-only" type="radio" name={id} id={`${id}-${i}`} data-i={i} /><label for={`${id}-${i}`} class="ck-chip">{o.label}</label></>))}
+    </div>
+  </fieldset>
+  <div class="mt-4" aria-live="polite">
+    <div class="ck-out text-[14px] text-muted" data-i="none">{hint}</div>
+    {options.map((o, i) => (
+      <div class="ck-out panel items-start gap-3 p-3.5 !rounded-[14px]" data-i={i} style={`background:${TONE[o.tone][0]}`}>
+        <span class="icon-chip !w-9 !h-9 bg-white" style={`color:${TONE[o.tone][1]}`}><Icon name={TONE[o.tone][2]} size={18} /></span>
+        <div><div class="font-[700]" style={`color:${TONE[o.tone][1]}`}>{o.head}</div><p class="ck-t">{o.text}</p></div>
+      </div>
+    ))}
+  </div>
+  {note && <p class="text-[12px] text-muted mt-3">{note}</p>}
+</div>

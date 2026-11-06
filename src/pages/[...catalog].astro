@@ -1,0 +1,18 @@
+---
+/** Task hubs, built-in app references, glossary and comparisons from the previous site, at their original URLs. */
+import EditorialPage from "../components/EditorialPage.astro";
+import { catalogPages, catalogMarkdown, catalogFaq, type CatalogPage } from "../lib/editorial/catalog";
+import { reviewedDate } from "../lib/editorial/content";
+export function getStaticPaths() {
+  // The new interactive tools replace the old tool description pages at the same /tools/ URLs.
+  return catalogPages.filter((p) => p.kind !== "tool" && p.path !== "/tools").map((p) => ({ params: { catalog: p.path.slice(1) }, props: { p } }));
+}
+const { p } = Astro.props as { p: CatalogPage };
+const path = p.path + "/";
+const KICK: Record<string, string> = { hub: "Task", app: "App reference", "task-app": "Task · app", glossary: "Glossary", compare: "Comparison", directory: "Library" };
+const parent = p.kind === "glossary" ? { name: "Glossary", href: "/glossary/" } : p.kind === "app" ? { name: "App references", href: "/apps/" } : p.kind === "compare" ? { name: "Compare", href: "/compare/" } : null;
+const faq = (catalogFaq(p) as { q: string; a: string }[]).map((f) => [f.q, f.a] as [string, string]);
+const siblings = catalogPages.filter((x) => x.kind === p.kind && x.path !== p.path && x.index).slice(0, 5).map((x) => ({ href: x.path + "/", label: x.title }));
+---
+<EditorialPage path={path} title={p.kind === "hub" ? `${p.title} Quick Answer & Steps | StateMaps` : `${p.title} | StateMaps`} h1={p.title} description={p.description} markdown={catalogMarkdown(p)} kicker={KICK[p.kind] ?? "Reference"}
+  crumbs={[{ name: "Home", href: "/" }, ...(parent ? [parent] : []), { name: p.title }]} faq={faq} updated={reviewedDate} noindex={!p.index} related={siblings} article={p.kind !== "directory"} />

@@ -1,0 +1,8 @@
+---
+import EditorialPage from "../../components/EditorialPage.astro";
+import { staticMarkdown } from "../../lib/editorial/markdown";
+import { infoPages } from "../../lib/editorial/pages";
+import { reviewedDate } from "../../lib/editorial/content";
+const p = infoPages["/terms"];
+---
+<EditorialPage path="/terms/" title={`${p.title} | StateMaps`} h1={p.title} description={p.description} markdown={staticMarkdown["/terms"]()} kicker="StateMaps" crumbs={[{ name: "Home", href: "/" }, { name: p.title }]} updated={reviewedDate} article={false} partner={false} />

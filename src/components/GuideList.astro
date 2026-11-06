@@ -1,0 +1,45 @@
+---
+import Base from "../layouts/Base.astro";
+import Breadcrumb from "./Breadcrumb.astro";
+import TrustBlock from "./TrustBlock.astro";
+import Icon from "./fun/Icon.astro";
+import { articles, categories } from "../lib/editorial/content";
+import { privacySettings } from "../lib/editorial/settings";
+import { ORG, breadcrumbLd } from "../lib/schema";
+import { abs } from "../lib/site";
+interface Props { path: string; category?: string }
+const { path, category } = Astro.props;
+const cat = categories.find((c) => c.slug === category);
+const list = articles.filter((a) => !category || a.category === category);
+const h1 = cat ? cat.name : "iPhone privacy guides";
+const crumbs = [{ name: "Home", href: "/" }, ...(cat ? [{ name: "Guides", href: "/blog/" }, { name: cat.name }] : [{ name: "Guides" }])];
+const ld = { "@context": "https://schema.org", "@graph": [ORG, { "@type": "ItemList", name: h1, itemListElement: list.map((a, i) => ({ "@type": "ListItem", position: i + 1, name: a.title, url: abs(`/blog/${a.slug}/`) })) }, breadcrumbLd(crumbs, path)] };
+const title = cat ? `${cat.name} Guides for iPhone | StateMaps` : path === "/guides/" ? "iPhone Privacy Guides by Topic | StateMaps" : "iPhone Privacy Guides: Hide, Lock & Protect | StateMaps";
+---
+<Base title={title} description={cat ? cat.description : `${articles.length} step-by-step iPhone privacy guides: hide and lock apps and photos, iCloud sharing, vaults, recovery and photo metadata.`} path={path} jsonld={ld}>
+  <div class="container-site pt-4 md:pt-6">
+    <Breadcrumb items={crumbs} />
+    <div class="kicker kicker-pin mt-5">Guides · {list.length}</div>
+    <h1 class="h1-page mt-3">{h1}</h1>
+    <p class="lead mt-3 max-w-[700px]">{cat ? cat.description : "Step-by-step answers for the iPhone controls behind app and photo privacy, each with its limits and sources."}</p>
+    <nav class="flex flex-wrap gap-2 mt-7" aria-label="Guide topics">
+      <a href="/blog/" class:list={["px-3.5 py-2 rounded-full border border-line text-sm font-[600]", !cat && "bg-primary text-white border-primary hover:text-white"]}>All</a>
+      {categories.map((c) => <a href={`/guides/${c.slug}/`} class:list={["px-3.5 py-2 rounded-full border border-line text-sm font-[600]", c.slug === category && "bg-primary text-white border-primary hover:text-white"]}>{c.name}</a>)}
+    </nav>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+      {list.map((a) => (
+        <a href={`/blog/${a.slug}/`} class="lift flex flex-col p-5 border border-line rounded-[14px] hover:border-[#b9c9c4]">
+          <span class="text-[12px] font-bold uppercase tracking-[.08em] text-primary">{categories.find((c) => c.slug === a.category)?.name}</span>
+          <h2 class="!text-[19px] mt-1.5 !leading-snug">{a.title}</h2>
+          <p class="text-[14.5px] text-muted mt-2 flex-1">{a.description}</p>
+          <span class="link text-sm mt-3 inline-flex items-center gap-1">Read guide <Icon name="check" size={14} /></span>
+        </a>
+      ))}
+    </div>
+    {!cat && <>
+      <h2 class="h2-page mt-14">iPhone privacy settings</h2>
+      <ul class="list-none p-0 mt-4 grid sm:grid-cols-2 gap-x-6">{privacySettings.map((s) => <li class="rowline"><a href={`/privacy-settings/${s.slug}/`} class="block py-2.5 text-[15px]">{s.title}</a></li>)}</ul>
+    </>}
+    <TrustBlock path={path} sourceName="Apple Support and provider documentation" sourceUrl="https://support.apple.com/guide/iphone/welcome/ios" />
+  </div>
+</Base>

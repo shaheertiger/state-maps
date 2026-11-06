@@ -1,0 +1,247 @@
+---
+import Base from "../layouts/Base.astro";
+import RouteLine from "../components/RouteLine.astro";
+import CatIcon from "../components/CatIcon.astro";
+import AdSlot from "../components/AdSlot.astro";
+import Faq from "../components/Faq.astro";
+import AppGlyph from "../components/AppGlyph.astro";
+import Icon from "../components/fun/Icon.astro";
+import { CATEGORIES, APPS, getApp, url, reported, tracks, level, type App } from "../lib/data";
+import { ORG, faqLd } from "../lib/schema";
+import { SITE } from "../lib/site";
+
+const N = APPS.length.toLocaleString("en-US");
+const rep = APPS.filter(reported);
+const trackPct = Math.round((rep.filter(tracks).length / rep.length) * 100);
+const cleanPct = Math.round((rep.filter((a) => level(a) === 1).length / rep.length) * 100);
+const title = "Is That App Safe? iPhone App Privacy Labels, Decoded | StateMaps";
+const description = `What ${N} iPhone apps collect, link to you and use to track you, straight from App Store privacy labels. Check any app in seconds, then lock down your settings.`;
+
+const popularSlugs = ["google-photos", "dropbox", "whatsapp-messenger", "signal", "1password", "google-authenticator", "paypal", "venmo", "cash-app", "chase-mobile", "gmail", "google-drive", "telegram-messenger", "proton-pass", "duckduckgo", "camscanner", "myfitnesspal", "mychart", "ring", "day-one", "revolut", "coinbase", "bitwarden-password-manager", "ente-photos"];
+const popular = popularSlugs.map(getApp).filter((a): a is App => !!a);
+
+const features = [
+  ["shield", "Straight from the label", "Every fact comes from the developer's own App Store privacy label, with the date we checked it."],
+  ["target", "Tracking, yes or no", "The one declaration that separates apps most: is your data combined with other companies' data for ads?"],
+  ["link", "Linked vs. not linked", "We split what is tied to your identity from what is collected anonymously, type by type."],
+  ["gear", "The setting that fixes it", "Each data type comes with the exact iPhone setting that limits it — Location, Photos, Contacts, Tracking."],
+  ["lock", "Lock it in four taps", "Step-by-step Face ID lock and hide guides for finance, health, photo and messaging apps."],
+  ["scale", "Compared with its peers", "See how an app's label stacks up against other apps that do the same job."],
+  ["warn", "Honest about limits", "Labels are self-reported. Every page says what a label cannot tell you, and what to ask instead."],
+  ["phone", "No sign-up, no tracking", "No account, no pop-ups and no third-party ad trackers on our pages."],
+  ["map", "Every page connected", "Jump from an app to its category, its data types, similar apps and the guides that apply."],
+];
+const tools = [
+  ["App privacy checker", "/tools/app-privacy-checker/"], ["Compare two apps", "/tools/compare-apps/"], ["Privacy label decoder", "/tools/privacy-label-decoder/"],
+  ["iPhone privacy checkup", "/tools/privacy-checkup/"], ["Photo metadata viewer", "/tools/exif-viewer/"], ["Who tracks you? A–Z", "/does-it-track-you/"],
+  ["Is it safe? A–Z", "/is-it-safe/"], ["Lock an app", "/lock-an-app/"], ["Data types explained", "/data-types/"], ["iPhone privacy settings", "/privacy-settings/"], ["All guides", "/blog/"],
+];
+const faq: [string, string][] = [
+  ["Where does this information come from?", "From each app's App Store privacy label (the App Privacy section on its App Store page), which the developer fills in. We collected the labels from public App Store pages and show the check date on every app page."],
+  ["Do you test the apps?", "No. We reproduce and explain what developers disclose. We do not run security audits or hands-on tests, and we never describe a label as verified behaviour."],
+  ["What does “tracking” mean?", "Apple's definition: linking data from the app with data from other companies' apps, websites or offline sources for targeted ads or ad measurement, or sharing it with data brokers."],
+  ["What is the difference between linked and not linked data?", "Linked data is tied to your identity, for example through your account or device. Not-linked data is collected but de-identified. Both leave your phone."],
+  ["Can I stop apps from tracking me?", "Yes. Settings › Privacy & Security › Tracking: turn off Allow Apps to Request to Track. Apps must keep working if you decline."],
+  ["What does “No Details Provided” mean?", "The developer has not filled in the label, usually because the app has not been updated since labels became mandatory in December 2020. It means unknown, not zero."],
+  ["How often is the data updated?", `The current snapshot was collected in ${SITE.verifiedLabel}. Labels change when developers update their apps, so check the App Store page before relying on a detail.`],
+  ["How do I report a mistake?", "Use “Report a correction” at the bottom of any page. It opens a public issue in our repository; please do not include private information."],
+];
+const ld = {
+  "@context": "https://schema.org",
+  "@graph": [ORG, { "@type": "WebSite", "@id": `${SITE.url}/#site`, name: SITE.name, url: `${SITE.url}/`, publisher: { "@id": ORG["@id"] }, inLanguage: "en", potentialAction: { "@type": "SearchAction", target: `${SITE.url}/search/?q={query}`, "query-input": "required name=query" } }, faqLd(faq)],
+};
+const tabs = [["all", "Full label"], ["track", "Tracking"], ["linked", "Linked to you"]];
+---
+<Base title={title} description={description} path="/" jsonld={ld}>
+  <section class="pt-10 md:pt-16 pb-6 relative overflow-hidden" id="hero">
+    <div class="map-tile absolute inset-x-0 top-0 h-[380px] -z-10 [mask-image:linear-gradient(#000,transparent)]" aria-hidden="true"></div>
+    <div class="container-site text-center">
+      <div class="kicker kicker-pin">{N} iPhone apps · checked {SITE.verifiedLabel}</div>
+      <h1 class="max-w-[920px] mx-auto mt-4">Is That App Safe? iPhone Privacy Labels, Decoded</h1>
+      <RouteLine center />
+      <p class="lead mt-[18px] max-w-[700px] mx-auto">What apps collect, link to you and use to track you — from their own App Store privacy labels — plus the iPhone setting that limits each one.</p>
+
+      <div class="mt-10 text-left" data-widget>
+        <div class="flex items-center gap-1 mb-3" role="tablist" aria-label="View">
+          {tabs.map(([k, l], i) => (
+            <button type="button" role="tab" data-tab={k} aria-selected={i === 0 ? "true" : "false"} class="w-tab inline-flex items-center gap-1.5 text-[15px] font-[600] px-3.5 py-2 rounded-full">
+              <span class:list={["dot", k === "track" ? "bg-track" : k === "linked" ? "bg-linked" : "bg-primary"]}></span>{l}
+            </button>
+          ))}
+        </div>
+        <div class="border border-line rounded-[18px] bg-white grid md:grid-cols-2 relative overflow-hidden min-h-[320px] shadow-[0_10px_40px_rgba(19,32,29,.06)]">
+          <form class="flex flex-col min-w-0" action="/search/" method="get" data-form>
+            <div class="h-[48px] px-5 rowline flex items-center text-sm font-[650]"><label for="w-q">Any iPhone app</label></div>
+            <div class="flex-1 px-7 py-6">
+              <textarea id="w-q" name="q" rows="5" maxlength="60" placeholder="Type an app… e.g. Google Photos, Signal, PayPal" class="w-full h-full min-h-[150px] resize-none border-0 outline-none text-[20px] leading-normal bg-transparent placeholder:text-faint"></textarea>
+            </div>
+            <div class="flex items-center justify-between px-4 pb-4">
+              <span class="text-[13px] text-muted" data-counter>0 / 60</span>
+              <button type="submit" class="btn-primary" data-go disabled>Check app</button>
+            </div>
+          </form>
+          <div class="flex flex-col min-w-0 border-t md:border-t-0 md:border-l border-line bg-panel">
+            <div class="h-[48px] px-5 rowline flex items-center gap-2 text-sm font-[650]"><Icon name="shield" size={15} /><span data-where>App Privacy label</span></div>
+            <div class="flex-1 px-7 py-6" data-result aria-live="polite">
+              <div class="text-muted text-[19px]">Popular checks</div>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {popular.slice(0, 10).map((a) => <a href={url.app(a)} class="border border-line bg-white rounded-full text-[13px] px-3 py-1 text-muted hover:text-ink">{a.display}</a>)}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <dl class="grid grid-cols-3 gap-3 max-w-[720px] mx-auto mt-8 m-0 text-left">
+        <div><dt class="text-[12.5px] text-muted">Apps checked</dt><dd class="m-0 text-[26px] md:text-[32px] font-[760] tracking-[-0.03em]">{N}</dd></div>
+        <div><dt class="text-[12.5px] text-muted">Declare tracking</dt><dd class="m-0 text-[26px] md:text-[32px] font-[760] tracking-[-0.03em] text-track">{trackPct}%</dd></div>
+        <div><dt class="text-[12.5px] text-muted">Collect nothing</dt><dd class="m-0 text-[26px] md:text-[32px] font-[760] tracking-[-0.03em] text-clean">{cleanPct}%</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="pt-24">
+    <div class="container-site">
+      <div class="grid lg:grid-cols-[260px_1fr] gap-12">
+        <div class="lg:sticky lg:top-[140px] self-start">
+          <div class="kicker">01 — Why StateMaps</div>
+          <h2 class="!text-[36px] mt-[18px]">Privacy Labels, Made Readable</h2>
+          <RouteLine />
+        </div>
+        <div class="grid md:grid-cols-2 gap-x-10 gap-y-9">
+          {features.map(([icon, t, d]) => (
+            <div class="grid grid-cols-[56px_1fr] gap-4 items-start">
+              <div class="w-14 h-14 rounded-[16px] grid place-items-center bg-tint-teal text-teal-ink"><Icon name={icon} size={24} stroke={1.7} /></div>
+              <div><h3>{t}</h3><p class="text-[15px] leading-[1.6] text-muted mt-1.5">{d}</p></div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div class="h-px bg-line mt-[72px]"></div>
+    </div>
+  </section>
+
+  <section class="pt-24">
+    <div class="container-site">
+      <div class="kicker">02 — Browse by category</div>
+      <div class="flex items-end justify-between gap-6 mt-[18px]"><h2>Every App, Mapped</h2><a href="/app-privacy/" class="link hidden md:inline mb-2">All categories →</a></div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-9">
+        {CATEGORIES.map((c) => (
+          <a href={url.category(c.slug)} class="group lift border border-line rounded-[18px] p-5 flex items-center gap-4 hover:border-[#b9c9c4]">
+            <div class="map-tile w-16 h-16 md:w-20 md:h-20 rounded-[16px] grid place-items-center shrink-0"><CatIcon slug={c.slug} size={34} /></div>
+            <div><h3 class="group-hover:text-primary">{c.name}</h3><p class="text-[14px] text-muted mt-0.5">{c.count} apps</p></div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <div class="container-site pt-24"><AdSlot w={970} h={250} class="hidden lg:grid" id="home-1" /><AdSlot w={300} h={250} class="lg:hidden" id="home-1m" /></div>
+
+  <section class="pt-24">
+    <div class="container-site">
+      <div class="kicker">03 — In practice</div>
+      <div class="flex items-end justify-between gap-6 mt-[18px]"><h2>Built for Real Decisions</h2></div>
+      <div class="grid md:grid-cols-6 gap-5 mt-9">
+        <div class="md:col-span-6 bg-panel rounded-[18px] p-[22px] grid md:grid-cols-2 gap-5">
+          <div class="self-center"><h3 class="!text-[26px]">Before you install</h3><p class="text-[15px] text-muted mt-1.5">Choosing between two vaults, banks or password managers? Put their labels side by side and pick the one that asks for less. <a class="link" href="/tools/compare-apps/">Compare two apps →</a></p></div>
+          <div class="map-tile h-[230px] rounded-[14px] grid place-items-center text-primary"><Icon name="scale" size={72} stroke={1.3} /></div>
+        </div>
+        {[
+          ["Parents", "Family organizers and messengers collect data about more than one person. See which do.", "/app-privacy/lifestyle/", "lifestyle"],
+          ["Patients", "Health and medical apps, with what they link to you and what they share.", "/app-privacy/medical/", "medical"],
+          ["Savers", "Banking and budgeting apps: tracking declarations compared.", "/app-privacy/finance/", "finance"],
+        ].map(([t, d, h, ic]) => (
+          <a href={h} class="md:col-span-2 group"><div class="map-tile aspect-[4/3] rounded-[16px] grid place-items-center"><CatIcon slug={ic} size={52} /></div><h3 class="mt-4 group-hover:text-primary">{t}</h3><p class="text-[15px] text-muted mt-1.5">{d}</p></a>
+        ))}
+        {[
+          ["Private photos", "Photo vaults and backups: where your pictures go and who can see them.", "/app-privacy/photo-video/", "photo-video"],
+          ["Shared phones", "Lock or hide sensitive apps behind Face ID in four taps.", "/lock-an-app/", "utilities"],
+        ].map(([t, d, h, ic]) => (
+          <a href={h} class="md:col-span-3 group"><div class="map-tile aspect-[16/9] rounded-[16px] grid place-items-center"><CatIcon slug={ic} size={52} /></div><h3 class="mt-4 group-hover:text-primary">{t}</h3><p class="text-[15px] text-muted mt-1.5">{d}</p></a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-24" id="tools">
+    <div class="container-site">
+      <h2>Explore Privacy Tools</h2>
+      <div class="mt-[18px] flex flex-wrap gap-x-6 gap-y-1.5 text-[15px]">{tools.map(([l, h]) => <a href={h} class="py-1 font-[550]">{l}</a>)}</div>
+      <div class="h-px bg-line mt-10"></div>
+    </div>
+  </section>
+
+  <section class="pt-16">
+    <div class="container-site max-w-[900px]">
+      <h2>FAQ</h2>
+      <p class="text-muted mt-2.5 text-[15px]">Quick answers before you tap Install</p>
+      <div class="mt-5"><Faq items={faq} /></div>
+    </div>
+  </section>
+
+  <section class="pt-14" id="popular">
+    <div class="container-site">
+      <div class="bg-panel rounded-[18px] px-6 py-12">
+        <h2 class="!text-[32px]">Most-Checked Apps</h2>
+        <p class="lead !text-[15px] max-w-[520px] mt-2.5">The apps people look up most. Jump straight to the privacy label.</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 mt-9">
+          {popular.map((a) => <a href={url.app(a)} class="flex items-center gap-3 py-2.5 rowline text-[15px]"><AppGlyph app={a} size={28} />Is {a.display} safe?</a>)}
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style is:global>
+  .w-tab { color: var(--color-muted); }
+  .w-tab[aria-selected="true"] { color: var(--color-ink); background: var(--color-tab); }
+</style>
+
+<script>
+  import { loadIndex, search, appHref, trackHref, esc, names, LEVEL, LEVEL_PILL, type Row } from "../scripts/apps";
+  const root = document.querySelector<HTMLElement>("[data-widget]")!;
+  const q = root.querySelector<HTMLTextAreaElement>("#w-q")!;
+  const go = root.querySelector<HTMLButtonElement>("[data-go]")!;
+  const counter = root.querySelector("[data-counter]")!;
+  const out = root.querySelector<HTMLElement>("[data-result]")!;
+  const where = root.querySelector("[data-where]")!;
+  let tab = "all";
+  const WHERE: Record<string, string> = { all: "App Privacy label", track: "Data used to track you", linked: "Data linked to you" };
+
+  async function render() {
+    const v = q.value.trim();
+    counter.textContent = `${q.value.length} / 60`;
+    go.disabled = !v;
+    if (!v) return;
+    const idx = await loadIndex();
+    const hits = search(idx.apps, v, 6);
+    if (!hits.length) {
+      out.innerHTML = `<div class="text-muted text-[19px]">No match for “${esc(v)}”. Try another word, or <a class="link" href="/app-privacy/">browse all apps</a>.</div>`;
+      return;
+    }
+    const [r, ...more] = hits;
+    const list = (xs: number[]) => (xs.length ? esc(names(idx, xs).join(", ")) : "None declared");
+    const headline = tab === "track" ? (r.l === 0 ? "Not disclosed" : r.t.length ? `Yes · ${r.t.length}` : "No tracking") : tab === "linked" ? (r.l === 0 ? "Not disclosed" : `${r.i.length + r.t.length ? new Set([...r.i, ...r.t]).size : 0} linked`) : LEVEL[r.l];
+    out.innerHTML = `
+      <div class="text-[30px] font-[760] tracking-[-0.03em] leading-[1.1]">${esc(headline)}</div>
+      <div class="text-[15px] text-muted mt-1">${esc(r.n)} · ${esc(r.d)}</div>
+      <table class="w-full mt-[18px] text-[14.5px] border-collapse"><tbody>
+        <tr><td class="py-2 border-t border-line text-no font-[650] align-top w-[42%]">Used to track you</td><td class="py-2 border-t border-line">${r.l ? list(r.t) : "—"}</td></tr>
+        <tr><td class="py-2 border-t border-line text-caution font-[650] align-top">Linked to you</td><td class="py-2 border-t border-line">${r.l ? list(r.i) : "—"}</td></tr>
+        <tr><td class="py-2 border-t border-line text-[#22508f] font-[650] align-top">Not linked</td><td class="py-2 border-t border-line">${r.l ? list(r.u) : "—"}</td></tr>
+      </tbody></table>
+      <div class="mt-3.5 text-sm flex flex-wrap gap-x-3 items-center"><span class="pill ${LEVEL_PILL[r.l]} !text-[12.5px]">${LEVEL[r.l]}</span><a class="link" href="${appHref(r)}">Full report →</a>${r.v[0] ? `<a class="link" href="${trackHref(r)}">Tracking →</a>` : ""}</div>
+      ${more.length ? `<div class="flex flex-wrap gap-2 mt-3">${more.map((m: Row) => `<a href="${appHref(m)}" class="border border-line bg-white rounded-full text-[13px] px-2.5 py-1 text-muted hover:text-ink">${esc(m.n)}</a>`).join("")}</div>` : ""}`;
+  }
+  let t: number | undefined;
+  q.addEventListener("input", () => { clearTimeout(t); t = window.setTimeout(render, 120); counter.textContent = `${q.value.length} / 60`; go.disabled = !q.value.trim(); });
+  q.addEventListener("focus", () => loadIndex(), { once: true });
+  q.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); render(); } });
+  root.querySelector("form")!.addEventListener("submit", (e) => { e.preventDefault(); render(); });
+  root.querySelectorAll<HTMLButtonElement>("[data-tab]").forEach((b) => b.addEventListener("click", () => {
+    root.querySelectorAll("[data-tab]").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
+    tab = b.dataset.tab!;
+    where.textContent = WHERE[tab];
+    render();
+  }));
+</script>

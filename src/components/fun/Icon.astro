@@ -1,0 +1,8 @@
+---
+/** Inline reference into the cached /icons.svg sprite (one download for every icon on the site). */
+import { ICONS } from "../../lib/icons";
+interface Props { name: string; size?: number; color?: string; stroke?: number }
+const { name, size = 18, color = "currentColor", stroke = 2 } = Astro.props;
+const id = name in ICONS ? name : "dots";
+---
+<svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} stroke-width={stroke} stroke-linecap="round" stroke-linejoin="round"><use href={`/icons.svg#${id}`} /></svg>

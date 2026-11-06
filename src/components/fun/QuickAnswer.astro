@@ -1,0 +1,12 @@
+---
+import Icon from "./Icon.astro";
+interface Props { text: string; label?: string }
+const { text, label = "Short answer" } = Astro.props;
+const dot = text.indexOf(". ");
+const lead = dot > 0 ? text.slice(0, dot + 1) : text;
+const rest = dot > 0 ? text.slice(dot + 2) : "";
+---
+<section class="panel mt-4 md:mt-5 p-4 md:p-5 border-l-4 border-primary bg-[#f3faf8]" aria-label={label}>
+  <div class="flex items-center gap-2 text-primary"><Icon name="shieldok" size={16} /><span class="eyebrow">{label}</span></div>
+  <p class="mt-2 text-[16px] md:text-[18px] leading-[1.65] text-[#34433f]"><strong class="text-ink font-[720]">{lead}</strong>{rest && ` ${rest}`}</p>
+</section>

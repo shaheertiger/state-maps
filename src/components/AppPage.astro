@@ -1,0 +1,244 @@
+---
+import Base from "../layouts/Base.astro";
+import Breadcrumb from "./Breadcrumb.astro";
+import LabelCard from "./LabelCard.astro";
+import MiniLabel from "./MiniLabel.astro";
+import AppCard from "./AppCard.astro";
+import AppGlyph from "./AppGlyph.astro";
+import Faq from "./Faq.astro";
+import AdSlot from "./AdSlot.astro";
+import TrustBlock from "./TrustBlock.astro";
+import PartnerNote from "./PartnerNote.astro";
+import SectionHead from "./fun/SectionHead.astro";
+import QuickAnswer from "./fun/QuickAnswer.astro";
+import Badges from "./fun/Badges.astro";
+import ExposureScale from "./fun/ExposureScale.astro";
+import Checker from "./fun/Checker.astro";
+import Quiz from "./fun/Quiz.astro";
+import Audit from "./fun/Audit.astro";
+import CompareChart from "./fun/CompareChart.astro";
+import ToolsCta from "./fun/ToolsCta.astro";
+import Icon from "./fun/Icon.astro";
+import { type App, url, getCategory, getTopic, similarApps, sameDeveloper, level, allTypes, tracks, reported, hasTrackPage, hasLockPage, APPS, MIN_SUB, cap1, list, lower, poss } from "../lib/data";
+import { CARDS } from "../lib/labels";
+import { appTitle, appDescription, quickAnswer, verdict, badges, typeRows, settingsFor, aboutRows, freshness, interpretation, limitsOfLabel, permissionChecker, quizFor, auditFor, faqFor, lockSteps, TOPIC_NOTES } from "../lib/content";
+import { appGraph } from "../lib/appSchema";
+import { SITE } from "../lib/site";
+
+interface Props { app: App }
+const { app: a } = Astro.props;
+const path = url.app(a);
+const cat = getCategory(a.category);
+const topic = getTopic(a.topic);
+const topicHub = cat.topics.find((t) => t.slug === a.topic && t.count >= MIN_SUB);
+const d = a.display;
+const D = poss(d);
+const L = level(a);
+const h1 = `Is ${d} Safe?`;
+const title = appTitle(a);
+const description = appDescription(a);
+const crumbs = [
+  { name: "Home", href: "/" },
+  { name: cat.name, href: url.category(cat.slug) },
+  ...(topicHub ? [{ name: topic.name, href: url.topic(cat.slug, topic.slug) }] : []),
+  { name: d },
+];
+const faq = faqFor(a);
+const v = verdict(a);
+const similar = similarApps(a, 8);
+const byDev = sameDeveloper(a);
+const rows = typeRows(a);
+const settings = settingsFor(a);
+const ld = appGraph({ app: a, path, headline: h1, description, crumbs, faq });
+const compare = [a, ...similar.slice(0, 7)].filter(reported).map((x) => ({ name: x.display, href: x === a ? undefined : url.app(x), count: allTypes(x).length, level: level(x), me: x === a })).sort((p, q) => q.count - p.count);
+const pill = { yes: "pill-yes", no: "pill-no", caution: "pill-caution", info: "pill-info" }[v.tone];
+
+const toc = [
+  ["label", "Privacy label"], ["glance", "At a glance"], ["check", "Check a prompt"], ...(rows.length ? [["types", "Data types explained"]] : []), ["meaning", "What it means"],
+  ["settings", "iPhone settings"], ["tracking", "Tracking"], ["lock", "Lock it"], ["about", "About the app"], ["limits", "Label limits"],
+  ...(compare.length >= 3 ? [["compare", "How it compares"]] : []), ["similar", "Similar apps"], ["audit", "Your checklist"], ["quiz", "Quiz"], ["faq", "FAQ"],
+];
+const related = [
+  hasTrackPage(a) && { href: url.track(a), label: `Does ${d} track you?` },
+  hasLockPage(a) && { href: url.lock(a), label: `How to lock ${d} on iPhone` },
+  topicHub && { href: url.topic(cat.slug, topic.slug), label: `All ${topic.name.toLowerCase()}` },
+  similar[0] && { href: url.app(similar[0]), label: `Is ${similar[0].display} safe?` },
+].filter(Boolean) as { href: string; label: string }[];
+---
+<Base title={title} description={description} path={path} jsonld={ld} ogType="article">
+  <div class="container-site pt-4 md:pt-6">
+    <Breadcrumb items={crumbs} />
+
+    <div class="mt-3 md:mt-5 grid md:grid-cols-[minmax(0,1fr)_320px] items-center gap-x-10 gap-y-4">
+      <div>
+        <h1 class="h1-page">{h1}</h1>
+        <p class="mt-1.5 md:mt-2 text-sm md:text-[17px] text-muted">{d} privacy label · by {a.developer} · checked {SITE.verifiedLabel}</p>
+        <Badges items={badges(a)} />
+        <div class="hidden md:flex items-center gap-2 text-[13px] text-muted mt-3">
+          <span class="text-clean"><Icon name="shieldok" size={16} /></span>
+          Source: <a href={a.sourceUrl} rel="nofollow noopener" class="link">App Store listing</a> · <a href="/data-methodology/" class="link">How we collect data →</a>
+        </div>
+      </div>
+      <div class="map-tile hidden md:flex rounded-[18px] h-[170px] items-center justify-center gap-4 px-6">
+        <AppGlyph app={a} size={72} />
+        <div class="min-w-0"><span class:list={["pill", pill]}>{v.label}</span><div class="text-[13px] text-muted mt-2 leading-snug">{cat.name} · {topic.singular}</div></div>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-[190px_minmax(0,1fr)_290px] gap-10 mt-4 md:mt-8 items-start">
+      <aside class="hidden lg:block sticky top-[92px]" aria-label="On this page">
+        <div class="eyebrow text-muted">On this page</div>
+        <ul class="list-none mt-3 p-0 grid gap-0.5 text-sm">
+          {toc.map(([id, label]) => <li><a href={`#${id}`} class="toc-a">{label}</a></li>)}
+        </ul>
+      </aside>
+
+      <article class="min-w-0">
+        <LabelCard app={a} />
+        <QuickAnswer text={quickAnswer(a)} />
+
+        <nav aria-label="Sections" class="lg:hidden flex gap-2 overflow-x-auto -mx-4 px-4 mt-[18px] pb-1">
+          {[["types", "Data types"], ["settings", "Settings"], ["tracking", "Tracking"], ["lock", "Lock it"], ["faq", "FAQ"]].map(([id, l]) => (
+            <a href={`#${id}`} class="jump">{l}</a>
+          ))}
+        </nav>
+
+        <section id="glance" class="mt-8 md:mt-12">
+          <SectionHead icon="scale" kicker="At a glance">{d} privacy in one look</SectionHead>
+          <div class="grid sm:grid-cols-[1.2fr_1fr] gap-3 mt-[18px]">
+            <ExposureScale level={L} />
+            <div class="box">
+              <div class="eyebrow text-muted">Verdict from the label</div>
+              <span class:list={["pill mt-2", pill]}>{v.label}</span>
+              <p class="text-[15px] text-[#34433f] mt-2">{v.detail}</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="check" class="mt-8 md:mt-14">
+          <SectionHead icon="question" tint="var(--color-tint-amber)" ink="#865409" kicker="Try it">{`Did ${d} ask for something?`}</SectionHead>
+          <p class="mt-3 text-[16px] text-[#34433f]">Pick the permission prompt you saw. We compare it with what {D} developer declared.</p>
+          <div class="mt-[14px]"><Checker id={`ck-${a.id}`} ask="It asked me for access to…" options={permissionChecker(a)} note="A permission is what the app can reach on your iPhone; the label is what the developer says leaves it. They answer different questions." /></div>
+        </section>
+
+        {rows.length > 0 && (
+          <section id="types" class="mt-8 md:mt-14">
+            <SectionHead icon="grid" tint="var(--color-tint-blue)" ink="#22508f" kicker="Line by line">{`What ${d} collects, explained`}</SectionHead>
+            <div class="table-wrap mt-[18px] !rounded-[18px]">
+              <table class="data-table stack">
+                <thead><tr><th>Data type</th><th>What it covers</th><th>Where to limit it</th></tr></thead>
+                <tbody>
+                  {rows.map((r) => (
+                    <tr>
+                      <td class="font-[650] full md:w-[30%]"><a href={`/data-types/${r.slug}/`} class="hover:text-primary">{r.name}</a>{r.high && <span class="ml-1.5 text-[11px] font-[700] uppercase tracking-[.05em] text-[#9b2c1c]">Sensitive</span>}{r.cards.map((k) => <span class="lc-sec" style={`color:${CARDS[k].ink}`}>{CARDS[k].short}</span>)}</td>
+                      <td class="text-muted text-[14px] full" data-label="What it covers">{cap1(r.plain)}.</td>
+                      <td class="text-muted text-[14px] full" data-label="Where to limit it">{r.setting}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        <section id="meaning" class="mt-8 md:mt-14 longform">
+          <SectionHead icon="eye" kicker="Reading the label">{`What ${D} label means for you`}</SectionHead>
+          {interpretation(a).map((p) => <p class="text-[16.5px]">{p}</p>)}
+        </section>
+
+        <section id="settings" class="mt-8 md:mt-14">
+          <SectionHead icon="gear" tint="var(--color-tint-green)" ink="#17633f" kicker="On your iPhone">{`Settings to check for ${d}`}</SectionHead>
+          <ol class="grid sm:grid-cols-2 gap-3 list-none p-0 mt-[18px]">
+            {settings.map(([t, body], i) => (
+              <li class="step-card"><span class="num">{i + 1}</span><div><h3 class="!text-base !tracking-normal">{t}</h3><p class="step-d">{body}</p></div></li>
+            ))}
+          </ol>
+        </section>
+
+        <section id="tracking" class="mt-8 md:mt-14">
+          <SectionHead icon="target" tint="var(--color-tint-red)" ink="#9b2c1c" kicker="Cross-app tracking">{`Does ${d} track you?`}</SectionHead>
+          <div class="panel p-5 mt-[18px]" style={`background:${tracks(a) ? "var(--color-tint-red)" : "var(--color-panel)"}`}>
+            <div class="text-[24px] font-[750] tracking-[-0.02em]" style={`color:${tracks(a) ? "#9b2c1c" : reported(a) ? "#17633f" : "#865409"}`}>{tracks(a) ? `Yes — ${a.track.length} data ${a.track.length === 1 ? "type" : "types"}` : reported(a) ? "No tracking declared" : "Not disclosed"}</div>
+            <p class="text-[15px] text-[#34433f] mt-1.5">{tracks(a) ? `${cap1(list(lower(a.track)))}. ${CARDS.track.means}` : reported(a) ? `There is no “${CARDS.track.title}” section on ${D} label.` : `Without a label there is no tracking statement to rely on. You can still refuse tracking at the iOS prompt.`}</p>
+          </div>
+          {hasTrackPage(a) && <p class="mt-3 text-sm"><a href={url.track(a)} class="link">Does {d} track you? Full answer and how to stop it →</a></p>}
+        </section>
+
+        <section id="lock" class="mt-8 md:mt-14">
+          <SectionHead icon="lock" tint="var(--color-tint-teal)" kicker="iOS 18 and later">{`Lock ${d} behind Face ID`}</SectionHead>
+          <ol class="prose-list">{lockSteps(a).map((s) => <li>{s}</li>)}</ol>
+          <p class="mt-3 text-[15px] text-muted">The lock is an iPhone feature, so it works whether or not {d} has a passcode of its own. It does not change what the app sends to its developer.</p>
+          {hasLockPage(a) && <p class="mt-3 text-sm"><a href={url.lock(a)} class="link">Lock or hide {d}: step-by-step guide →</a></p>}
+        </section>
+
+        <AdSlot w={728} h={90} class="hidden md:grid mt-12" id="app-mid" />
+
+        <section id="about" class="mt-8 md:mt-14">
+          <SectionHead icon="phone" tint="var(--color-tint-slate)" ink="#3c4a46" kicker="From the App Store record">{`About ${d}`}</SectionHead>
+          <div class="table-wrap mt-[18px] !rounded-[18px]">
+            <table class="data-table"><tbody>
+              {aboutRows(a).map(([k, val]) => <tr><td class="text-muted w-[38%] text-[14px]">{k}</td><td class="text-[15px] break-words">{val}</td></tr>)}
+            </tbody></table>
+          </div>
+          <p class="mt-4 text-[16px] text-[#34433f]">{freshness(a)}</p>
+          {byDev.length > 0 && <p class="mt-3 text-[15px]">Also by {a.developer}: {byDev.map((x, i) => <>{i > 0 && ", "}<a href={url.app(x)} class="link">{x.display}</a></>)}.</p>}
+        </section>
+
+        <section id="limits" class="mt-8 md:mt-14">
+          <SectionHead icon="warn" tint="var(--color-tint-amber)" ink="#865409" kicker="Read with care">What the label cannot tell you</SectionHead>
+          <ul class="prose-list">{limitsOfLabel(a).map((s) => <li>{s}</li>)}</ul>
+          <p class="mt-4 text-[16px] text-[#34433f]"><strong>The question to ask {D} developer:</strong> {TOPIC_NOTES[a.topic].ask}</p>
+        </section>
+
+        {compare.length >= 3 && (
+          <section id="compare" class="mt-8 md:mt-14">
+            <SectionHead icon="scale" tint="var(--color-tint-blue)" ink="#22508f" kicker="How it compares">{`${d} vs similar ${topic.name.toLowerCase()}`}</SectionHead>
+            <CompareChart rows={compare} title="Data types listed on each App Store privacy label" note="Fewer types is not automatically safer: a cloud backup app has to collect your files to work. Compare like with like." />
+          </section>
+        )}
+
+        <ToolsCta title="Checking another app?" text="Look up any of our apps in seconds, or put two labels side by side." links={[{ href: "/tools/app-privacy-checker/", label: "App privacy checker", icon: "search" }, { href: "/tools/compare-apps/", label: "Compare two apps", icon: "scale" }, { href: "/app-privacy/", label: `Browse ${APPS.length.toLocaleString("en-US")} apps`, icon: "grid" }]} />
+
+        <section id="similar" class="mt-8 md:mt-14">
+          <SectionHead icon="map" kicker="Keep exploring">{`Apps similar to ${d}`}</SectionHead>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 md:gap-3 mt-[18px]">
+            {similar.map((s) => <AppCard app={s} />)}
+          </div>
+          <p class="mt-3.5 text-sm flex flex-wrap gap-x-2 gap-y-1">
+            <a href={topicHub ? url.topic(cat.slug, topic.slug) : url.category(cat.slug)} class="link">All {(topicHub ? topic.name : cat.name).toLowerCase()} →</a><span aria-hidden="true">·</span>
+            <a href="/does-it-track-you/" class="link">Who tracks you? A–Z →</a><span aria-hidden="true">·</span>
+            {allTypes(a)[0] && <><a href={`/data-types/${typeRows(a)[0].slug}/`} class="link">Apps that collect {allTypes(a)[0].toLowerCase()} →</a><span aria-hidden="true">·</span></>}
+            <a href="/tools/privacy-label-decoder/" class="link">Privacy label decoder →</a>
+          </p>
+        </section>
+
+        <section id="audit" class="mt-8 md:mt-14">
+          <SectionHead icon="list" tint="var(--color-tint-green)" ink="#17633f" kicker="Do it now">{`Your ${d} privacy checklist`}</SectionHead>
+          <Audit id={`au-${a.id}`} title="Tick what you have done" items={auditFor(a)} />
+        </section>
+
+        <section id="quiz" class="mt-8 md:mt-14">
+          <SectionHead icon="spark" tint="var(--color-tint-slate)" ink="#3c4a46" kicker="Quick quiz">True or false?</SectionHead>
+          <Quiz id={`qz-${a.id}`} items={quizFor(a)} />
+        </section>
+
+        <section id="faq" class="mt-8 md:mt-14">
+          <SectionHead icon="question" kicker="Questions people ask">{`${d} privacy FAQ`}</SectionHead>
+          <Faq items={faq} />
+        </section>
+
+        {/^(photo-vault|private-photos|photo-backup|photo-manager|video-storage|cloud-storage)$/.test(a.topic) && <PartnerNote />}
+        <TrustBlock path={path} sourceName={`${d} on the App Store`} sourceUrl={a.sourceUrl} checked={a.privacyCheckedAt ?? SITE.verifiedLabel} />
+      </article>
+
+      <aside class="hidden lg:grid sticky top-[92px] gap-5" aria-label="Summary">
+        <MiniLabel app={a} />
+        <AdSlot w={290} h={250} id="app-rail" />
+        <div class="border border-line rounded-[12px] p-4">
+          <div class="eyebrow text-muted">Related questions</div>
+          <ul class="list-none mt-2.5 p-0 grid gap-2 text-sm">{related.map((r) => <li><a href={r.href}>{r.label}</a></li>)}</ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

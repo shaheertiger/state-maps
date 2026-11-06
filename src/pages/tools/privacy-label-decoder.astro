@@ -1,0 +1,45 @@
+---
+/** No JavaScript: radio chips reveal each definition (same CSS pattern as the app-page checkers). */
+import Tool from "../../layouts/Tool.astro";
+import Icon from "../../components/fun/Icon.astro";
+import { DATA_TYPES, CARDS } from "../../lib/labels";
+import { url } from "../../lib/data";
+const cards = (["track", "linked", "notLinked"] as const).map((k) => CARDS[k]);
+const faq: [string, string][] = [
+  ["Who writes the privacy label?", "The app's developer, in App Store Connect. Apple displays it on the App Store page and can reject or remove apps that misrepresent their practices."],
+  ["What does “No Details Provided” mean?", "The developer has not submitted privacy details yet, usually because the app has not been updated since labels became mandatory in December 2020."],
+  ["What does “Data Not Collected” mean?", "The developer states that no data leaves the device in a way the developer or its partners can keep. Data processed only on the iPhone does not count."],
+  ["Can a data type appear in more than one section?", "Yes. If identifiers are used for analytics and for advertising, they can appear under both Linked to You and Used to Track You."],
+];
+---
+<Tool slug="privacy-label-decoder" title="App Store Privacy Label Decoder: Every Section & Data Type Explained" h1="Privacy label decoder" kicker="Reference tool"
+  description="Decode any App Store privacy label: what Used to Track You, Linked to You and Not Linked mean, and all 16 data types with the iPhone setting that limits each."
+  lead="Tap a section or data type from any App Store privacy label to see what it means and where to limit it on your iPhone." faq={faq}>
+  <Fragment slot="form">
+    <div class="ck">
+      <fieldset class="m-0 p-0 border-0">
+        <legend class="text-[15px] font-[700]">Label sections</legend>
+        <div class="flex flex-wrap gap-2 mt-3">{cards.map((c, i) => <><input class="sr-only" type="radio" name="dec" id={`dec-c${i}`} data-i={i} /><label for={`dec-c${i}`} class="ck-chip">{c.title}</label></>)}</div>
+      </fieldset>
+      <div class="mt-4" aria-live="polite">
+        <div class="ck-out text-[14px] text-muted" data-i="none">Tap a section.</div>
+        {cards.map((c, i) => <div class="ck-out panel p-4 gap-3 items-start" data-i={i} style={`background:${c.tint}`}><div><div class="font-[700]" style={`color:${c.ink}`}>{c.title}</div><p class="text-[14.5px] mt-1">{c.means}</p></div></div>)}
+      </div>
+    </div>
+  </Fragment>
+  <p slot="empty" class="text-[15px] text-muted">Below: all {DATA_TYPES.length} data types Apple uses, with the iPhone setting for each.</p>
+  <h2>Every data type</h2>
+  <div class="grid gap-3 mt-5">
+    {DATA_TYPES.map((d) => (
+      <details class="faq-card">
+        <summary class="flex justify-between items-center gap-3 py-4 font-[650] min-h-11"><span class="flex items-center gap-3"><span class="icon-chip !w-8 !h-8 bg-tint-teal text-teal-ink"><Icon name={d.icon} size={16} /></span>{d.name}</span></summary>
+        <div class="faq-a">
+          <p class="!mt-0"><strong>Covers:</strong> {d.plain}. Apple's sub-types: {d.includes.join(", ")}.</p>
+          <p><strong>Why it matters:</strong> {d.why}</p>
+          <p><strong>On iPhone:</strong> {d.setting}</p>
+          <p><a href={url.dataType(d.slug)}>Apps that collect {d.name} →</a></p>
+        </div>
+      </details>
+    ))}
+  </div>
+</Tool>

@@ -1,0 +1,22 @@
+---
+import Base from "../../layouts/Base.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import Icon from "../../components/fun/Icon.astro";
+import { TOOLS } from "../../lib/tools";
+import { ORG, breadcrumbLd } from "../../lib/schema";
+import { abs } from "../../lib/site";
+const crumbs = [{ name: "Home", href: "/" }, { name: "Tools" }];
+const ld = { "@context": "https://schema.org", "@graph": [ORG, { "@type": "ItemList", itemListElement: TOOLS.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: abs(`/tools/${t.slug}/`) })) }, breadcrumbLd(crumbs, "/tools/")] };
+---
+<Base title="Free iPhone Privacy Tools: App Checker, Label Decoder & Photo Metadata | StateMaps" description="Free iPhone privacy tools: check any app's privacy label, compare two apps, decode label terms, build a privacy checkup and read photo metadata without uploading." path="/tools/" jsonld={ld}>
+  <div class="container-site pt-4 md:pt-6">
+    <Breadcrumb items={crumbs} />
+    <h1 class="h1-page mt-5">iPhone privacy tools</h1>
+    <p class="lead mt-3 max-w-[680px]">Five quick tools. No sign-up, nothing uploaded, nothing stored unless you choose to save it.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+      {TOOLS.map((t) => <a href={`/tools/${t.slug}/`} class="lift block p-5 border border-line rounded-[14px] hover:border-[#b9c9c4]"><span class="icon-chip bg-tint-teal text-teal-ink"><Icon name={t.icon} size={18} /></span><h2 class="!text-[21px] mt-3">{t.name}</h2><p class="text-[15px] text-muted mt-1.5">{t.blurb}</p></a>)}
+    </div>
+    <h2 class="h2-page mt-14">Question hubs</h2>
+    <ul class="list-none p-0 mt-4 grid gap-2"><li><a class="link" href="/does-it-track-you/">Does it track you? A–Z</a></li><li><a class="link" href="/is-it-safe/">Is it safe? A–Z</a></li><li><a class="link" href="/lock-an-app/">Lock an app on iPhone, A–Z</a></li><li><a class="link" href="/data-types/">Privacy label data types</a></li></ul>
+  </div>
+</Base>

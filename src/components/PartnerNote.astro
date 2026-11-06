@@ -1,0 +1,6 @@
+---
+import { SITE } from "../lib/site";
+interface Props { text?: string }
+const { text = "For photos and documents you choose to keep apart from your main library, see" } = Astro.props;
+---
+<p class="mt-6 text-sm text-muted">{text} <a href={SITE.partner.url} class="link" rel="noopener">{SITE.partner.name}</a>.</p>

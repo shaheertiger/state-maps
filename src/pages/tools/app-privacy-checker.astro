@@ -1,0 +1,36 @@
+---
+import Tool from "../../layouts/Tool.astro";
+import AppPicker from "../../components/AppPicker.astro";
+import { APPS } from "../../lib/data";
+const faq: [string, string][] = [
+  ["Where does the information come from?", "Each app's App Store privacy label, as published by its developer. We collected the labels from public App Store pages and record the date on every app page."],
+  ["Is an app with fewer data types safer?", "Not automatically. Some features need data to work: a cloud backup app has to upload your files. Compare apps that do the same job, and pay most attention to tracking and to sensitive types such as location, health and financial info."],
+  ["My app is not listed. Why?", `The database covers ${APPS.length.toLocaleString("en-US")} privacy-relevant apps (vaults, password managers, banking, health, messaging, scanners and more). Check the App Privacy section on the app's App Store page for any app.`],
+  ["Does the checker look at the apps on my phone?", "No. It only searches our public index in your browser. Nothing you type is sent anywhere."],
+];
+---
+<Tool slug="app-privacy-checker" title="App Privacy Checker: Does This iPhone App Track You? (Free)" h1="App privacy checker"
+  description={`Type an iPhone app's name and see what its App Store privacy label says: tracking, data linked to you and every data type. ${APPS.length.toLocaleString("en-US")} apps.`}
+  lead="Type an app's name. We show its App Store privacy label in plain English, with a link to the full breakdown." faq={faq}>
+  <Fragment slot="form"><AppPicker /></Fragment>
+  <p slot="empty" class="text-muted text-[19px]">The label appears here.</p>
+  <h2>How to read the result</h2>
+  <p>Labels have up to three sections. <strong>Used to track you</strong> means data combined with other companies' data for advertising, or shared with data brokers. <strong>Linked to you</strong> means tied to your identity. <strong>Not linked to you</strong> means collected but de-identified. An app can also declare that it collects nothing, or not provide details at all.</p>
+  <p>For definitions of every data type, use the <a href="/tools/privacy-label-decoder/">privacy label decoder</a>; to put two apps side by side, <a href="/tools/compare-apps/">compare two apps</a>.</p>
+</Tool>
+<script>
+  import { picker, loadIndex, labelHtml, appHref, trackHref, esc, LEVEL, LEVEL_PILL } from "../../scripts/apps";
+  const input = document.querySelector<HTMLInputElement>("#app")!;
+  const out = document.querySelector<HTMLElement>("[data-out]")!;
+  const resolve = await picker(input);
+  const idx = await loadIndex();
+  const run = () => {
+    const r = resolve();
+    if (!r) return;
+    out.innerHTML = `<div class="flex flex-wrap items-center gap-3"><div class="big-out">${esc(r.n)}</div><span class="pill ${LEVEL_PILL[r.l]}">${LEVEL[r.l]}</span></div>
+      <p class="text-sm text-muted mt-1">${esc(r.d)}</p><div class="mt-4">${labelHtml(idx, r)}</div>
+      <p class="mt-4 text-sm"><a class="link" href="${appHref(r)}">Is ${esc(r.n)} safe? Full report →</a>${r.v[0] ? ` · <a class="link" href="${trackHref(r)}">Does it track you? →</a>` : ""}</p>`;
+  };
+  input.addEventListener("change", run); input.addEventListener("input", run);
+  const q = new URLSearchParams(location.search).get("app"); if (q) { input.value = q; run(); }
+</script>

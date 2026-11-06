@@ -1,0 +1,23 @@
+---
+/** Where the app sits on the label's own ladder: nothing collected → used to track you. */
+import { LEVELS, type Level } from "../../lib/data";
+interface Props { level: Level; note?: string }
+const { level, note = "Built only from the developer's App Store label. It describes disclosure, not tested behaviour." } = Astro.props;
+const COL = ["#865409", "#17633f", "#22508f", "#865409", "#9b2c1c"];
+const BG = ["var(--color-tint-amber)", "var(--color-tint-green)", "var(--color-tint-blue)", "var(--color-tint-amber)", "var(--color-tint-red)"];
+const steps = [1, 2, 3, 4] as const;
+---
+<div class="panel p-4 md:p-5" style={`background:${BG[level]}`}>
+  <div class="eyebrow text-[#3c4a46]">Data exposure on the label</div>
+  <div class="text-[22px] md:text-[26px] font-[720] tracking-[-0.02em] mt-1" style={`color:${COL[level]}`}>{LEVELS[level].label}</div>
+  {level > 0 ? (
+    <ol class="grid grid-cols-4 gap-1.5 list-none p-0 mt-3" aria-label="Exposure ladder">
+      {steps.map((i) => (
+        <li class:list={["rounded-lg px-2 py-2 text-[11px] leading-tight font-[650] text-center", i === level ? "text-white" : "bg-white/75 text-[#3c4a46]"]} style={i === level ? `background:${COL[i]}` : ""} aria-current={i === level ? "true" : undefined}>
+          <span class="block text-[15px] font-[750]">{i}</span><span class="hidden sm:block">{LEVELS[i].short}</span>
+        </li>
+      ))}
+    </ol>
+  ) : <p class="text-[14px] text-[#3c4a46] mt-2">The developer has not filled in the label, so the app cannot be placed on the ladder.</p>}
+  <p class="text-[12px] text-[#3c4a46] mt-2">{note}</p>
+</div>

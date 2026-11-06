@@ -1,0 +1,7 @@
+---
+/** Renders nothing unless PUBLIC_ADS=1; when on, it reserves the exact size so ads never shift layout. */
+interface Props { w: number; h: number; class?: string; id?: string }
+const { w, h, class: cls = "", id } = Astro.props;
+const enabled = import.meta.env.PUBLIC_ADS === "1";
+---
+{enabled && <aside class:list={["ad-slot", cls]} style={`width:${w}px;height:${h}px`} aria-label="Advertisement" data-ad-slot={id ?? `${w}x${h}`}></aside>}

@@ -1,0 +1,35 @@
+---
+import Prose from "../../layouts/Prose.astro";
+import provenance from "../../../data/apple-catalog-provenance.json";
+import { APPS, reported, CATEGORIES, TOPICS } from "../../lib/data";
+import { SITE } from "../../lib/site";
+const rep = APPS.filter(reported).length;
+---
+<Prose title="How We Collect App Privacy Data | StateMaps Methodology" h1="How we collect and present app privacy data" path="/data-methodology/"
+  description={`Where the ${APPS.length.toLocaleString("en-US")} App Store records and privacy labels come from, how we turn them into pages, and what we never claim.`}
+  lead="Every app page is built from two public Apple sources. Here is exactly what we collect, how we process it, and the limits you should keep in mind.">
+  <h2>Sources</h2>
+  <ul>
+    <li><strong>App records</strong> — name, developer, bundle ID, category, version, release dates, size, age rating and languages — come from Apple's public <a href={provenance.documentation} rel="nofollow noopener">iTunes Search API</a> ({provenance.storefront} storefront).</li>
+    <li><strong>Privacy labels</strong> come from the App Privacy section of each app's public App Store page, exactly as the developer submitted them.</li>
+  </ul>
+  <p>Collection ran from {provenance.retrievedFrom.slice(0, 10)} to {provenance.retrievedThrough.slice(0, 10)} using {provenance.queryCount} privacy-relevant searches such as “{provenance.queries.slice(0, 4).join("”, “")}”. Each record stores its retrieval time and a SHA-256 hash of the source response, so any figure can be traced back.</p>
+  <h2>What is in the database</h2>
+  <p>{APPS.length.toLocaleString("en-US")} distinct iPhone apps across {CATEGORIES.length} App Store categories and {TOPICS.length} topics. {rep.toLocaleString("en-US")} have a privacy label; {(APPS.length - rep).toLocaleString("en-US")} show “No Details Provided”, which we keep distinct from “Data Not Collected”.</p>
+  <p>The selection is the first complete, distinct records returned for each search. It is not a ranking, not a measure of popularity and not a security assessment.</p>
+  <h2>How pages are generated</h2>
+  <ul>
+    <li><strong>Exposure level</strong> follows the label's own structure: any “Data Used to Track You” → Tracks you; otherwise any “Data Linked to You” → Linked; otherwise “Not linked”; or “Collects nothing”.</li>
+    <li><strong>Explanations</strong> of each data type paraphrase Apple's published definitions. iPhone setting paths reflect iOS 18.</li>
+    <li><strong>Comparisons</strong> are computed from the same snapshot: for example, the share of password managers that declare tracking.</li>
+    <li><strong>Variant pages</strong> exist only where they add something: tracking pages need a label; lock guides are published for finance, health, medical, photo, social and security apps.</li>
+  </ul>
+  <h2>What we never claim</h2>
+  <ul>
+    <li>That a label is accurate. Labels are self-reported by developers; Apple does not audit each one.</li>
+    <li>That an app is secure, encrypted or compliant, unless the label itself says so.</li>
+    <li>Hands-on testing, rankings or “best app” verdicts.</li>
+  </ul>
+  <h2>Updates and corrections</h2>
+  <p>The current snapshot was checked in {SITE.verifiedLabel}. Developers change labels with app updates, so always confirm on the App Store before relying on a detail. Found something wrong? <a href={SITE.issues}>Open a public correction</a> with the page URL and a source.</p>
+</Prose>

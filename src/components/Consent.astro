@@ -1,0 +1,28 @@
+---
+/**
+ * Optional measurement. Renders nothing unless PUBLIC_GTM_ID is set. The container loads only
+ * after the visitor opts in, never when the browser sends Do Not Track / Global Privacy Control.
+ */
+const gtm = import.meta.env.PUBLIC_GTM_ID;
+---
+{gtm && (
+  <div id="consent" hidden data-gtm={gtm} class="fixed bottom-3 inset-x-3 md:left-auto md:right-4 md:w-[380px] z-50 bg-white border border-line rounded-[14px] p-4 shadow-[0_8px_30px_rgba(19,32,29,.12)] text-sm">
+    <p>May we measure visits to improve these pages? Nothing loads unless you agree.</p>
+    <div class="flex gap-2 mt-3"><button type="button" data-ok class="btn-primary !py-2 !text-sm">Allow</button><button type="button" data-no class="px-4 py-2 rounded-full border border-line font-semibold">No thanks</button></div>
+  </div>
+)}
+{gtm && (
+  <script is:inline>
+    (function () {
+      var box = document.getElementById("consent"); if (!box) return;
+      var off = navigator.doNotTrack === "1" || navigator.globalPrivacyControl === true;
+      var key = "sm-consent", v = null;
+      try { v = localStorage.getItem(key); } catch (e) {}
+      function load() { var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtm.js?id=" + encodeURIComponent(box.dataset.gtm); window.dataLayer = window.dataLayer || []; window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" }); document.head.appendChild(s); }
+      if (off) return; if (v === "yes") return load(); if (v === "no") return;
+      box.hidden = false;
+      box.querySelector("[data-ok]").onclick = function () { try { localStorage.setItem(key, "yes"); } catch (e) {} box.hidden = true; load(); };
+      box.querySelector("[data-no]").onclick = function () { try { localStorage.setItem(key, "no"); } catch (e) {} box.hidden = true; };
+    })();
+  </script>
+)}

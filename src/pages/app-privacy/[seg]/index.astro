@@ -1,0 +1,17 @@
+---
+/**
+ * /app-privacy/{category}/ hubs, plus forwarding pages for the previous site's
+ * /app-privacy/{name-id}/ URLs (old slugs always end in the numeric App Store ID, so they never clash).
+ */
+import HubPage from "../../../components/HubPage.astro";
+import Forward from "../../../components/Forward.astro";
+import { APPS, CATEGORIES, url, type Category, type App } from "../../../lib/data";
+export function getStaticPaths() {
+  return [
+    ...CATEGORIES.map((cat) => ({ params: { seg: cat.slug }, props: { cat } })),
+    ...APPS.map((app) => ({ params: { seg: app.oldSlug }, props: { app } })),
+  ];
+}
+const { cat, app } = Astro.props as { cat?: Category; app?: App };
+---
+{cat ? <HubPage cat={cat} /> : <Forward to={url.app(app!)} title={`${app!.display} privacy`} />}
