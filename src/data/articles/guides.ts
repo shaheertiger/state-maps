@@ -80,7 +80,7 @@ export const guides: Guide[] = [
       {
         heading: "What hiding does and doesn't protect against",
         body: [
-          "The Hidden folder stops someone who picks up your unlocked phone from casually seeing or opening an app. It is not invisible. Apple says a hidden app is still visible in other parts of iOS.",
+          "The Hidden folder stops someone who picks up your unlocked phone from casually seeing or opening an app. It is not invisible. Apple says a hidden app is still visible in other parts of iOS. If you want to tighten those other spots too, [VaultForYou](https://vaultforyou.app/) keeps a practical iPhone privacy database that walks through app controls, Siri and Search suggestions setting by setting.",
           "If you need the contents of an app to be private, not just its icon, use an app that encrypts its data. Our lists of the [best apps to hide apps](/best-apps-to-hide-apps/) and the [best photo vault apps](/best-photo-vault-apps/) explain which options actually encrypt.",
         ],
         bullets: [
@@ -329,7 +329,7 @@ export const guides: Guide[] = [
         heading: "What the Hidden album does and doesn't protect against",
         body: [
           "The Hidden album is good at keeping photos out of sight when you show someone your camera roll. It is not a separate vault.",
-          "If iCloud Photos is on, hidden photos are stored in iCloud like the rest of your library. They are end-to-end encrypted only if you turn on Advanced Data Protection in Settings > [your name] > iCloud. See our [iCloud Advanced Data Protection review](/reviews/icloud-advanced-data-protection/) for the trade-offs.",
+          "If iCloud Photos is on, hidden photos are stored in iCloud like the rest of your library. They are end-to-end encrypted only if you turn on Advanced Data Protection in Settings > [your name] > iCloud. See our [iCloud Advanced Data Protection review](/reviews/icloud-advanced-data-protection/) for the trade-offs. Shared libraries and shared albums are the other common leak; this [guide to iPhone photo privacy and sharing](https://vaultforyou.app/) covers how they interact with hidden photos and what to check before you share.",
         ],
         bullets: [
           "Anyone who knows your iPhone passcode can open the Hidden album. There is no separate password.",
