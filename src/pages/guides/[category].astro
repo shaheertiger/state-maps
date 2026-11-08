@@ -1,7 +1,0 @@
----
-import GuideList from "../../components/GuideList.astro";
-import { categories } from "../../lib/editorial/content";
-export function getStaticPaths() { return categories.map((c) => ({ params: { category: c.slug } })); }
-const { category } = Astro.params;
----
-<GuideList path={`/guides/${category}/`} category={category} />

@@ -1,9 +1,0 @@
----
-/** Moved page: instant refresh to the new URL, canonical points there, never indexed. */
-import { abs } from "../lib/site";
-interface Props { to: string; title: string }
-const { to, title } = Astro.props;
----
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8" /><title>{title} — moved</title><meta name="robots" content="noindex, follow" /><link rel="canonical" href={abs(to)} /><meta http-equiv="refresh" content={`0;url=${to}`} /></head>
-<body><p>This page moved to <a href={to}>{abs(to)}</a>.</p></body></html>
