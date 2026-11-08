@@ -1,0 +1,16 @@
+---
+import { inline } from "../lib/md";
+interface Props { items: string[]; title?: string }
+const { items, title = "Key takeaways" } = Astro.props;
+---
+<aside class="my-8 rounded-2xl border border-brand/20 bg-brand-wash p-5 sm:p-6" aria-label={title}>
+  <p class="text-base font-bold text-ink">{title}</p>
+  <ul class="mt-3 space-y-2.5">
+    {items.map((t) => (
+      <li class="flex gap-3 text-[0.98rem] leading-7 text-ink-2">
+        <svg class="mt-1.5 h-4 w-4 shrink-0 text-brand" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.7 5.3a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L8 12.6l7.3-7.3a1 1 0 0 1 1.4 0z" clip-rule="evenodd" /></svg>
+        <span set:html={inline(t)} />
+      </li>
+    ))}
+  </ul>
+</aside>

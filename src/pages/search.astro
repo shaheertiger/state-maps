@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+---
+<Base title="Search" description="Search StateMaps reviews, rankings and guides." path="/search/" noindex>
+  <div class="mx-auto max-w-3xl px-4 pt-10">
+    <h1 class="text-[2rem] font-extrabold tracking-tight text-ink">Search</h1>
+    <form class="mt-6 flex gap-2" role="search" onsubmit="return false">
+      <label for="sq" class="sr-only">Search</label>
+      <input id="sq" type="search" autocomplete="off" placeholder="App name, or what you want to do" class="min-w-0 flex-1 rounded-xl border border-line px-4 py-3 text-base outline-none focus:border-brand" />
+    </form>
+    <p id="count" class="mt-4 text-sm text-ink-3" aria-live="polite"></p>
+    <ul id="results" class="mt-4 space-y-3"></ul>
+  </div>
+  <script is:inline>
+    (async () => {
+      const input = document.getElementById("sq");
+      const out = document.getElementById("results");
+      const count = document.getElementById("count");
+      const data = await fetch("/search-index.json").then((r) => r.json());
+      const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+      const run = (q) => {
+        const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+        if (!terms.length) { out.innerHTML = ""; count.textContent = ""; return; }
+        const scored = data
+          .map((it) => { const t = it.t.toLowerCase(), d = it.d.toLowerCase(); let s = 0; for (const w of terms) { if (t.includes(w)) s += 3; else if (d.includes(w)) s += 1; else return null; } return [s, it]; })
+          .filter(Boolean).sort((a, b) => b[0] - a[0]).slice(0, 30);
+        count.textContent = scored.length + " result" + (scored.length === 1 ? "" : "s");
+        out.innerHTML = scored.map(([, it]) => `<li><a href="${it.u}" class="block rounded-xl border border-line p-4 no-underline hover:border-ink-3"><span class="text-xs font-semibold uppercase tracking-wide text-brand">${it.k}</span><span class="mt-1 block font-semibold text-ink">${esc(it.t)}</span><span class="mt-1 block text-sm leading-6 text-ink-3">${esc(it.d)}</span></a></li>`).join("");
+      };
+      const q = new URLSearchParams(location.search).get("q") || "";
+      input.value = q; run(q);
+      input.addEventListener("input", () => { run(input.value); history.replaceState(null, "", input.value ? "?q=" + encodeURIComponent(input.value) : location.pathname); });
+      input.focus();
+    })();
+  </script>
+</Base>

@@ -1,0 +1,91 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArticleHeader from "../../components/ArticleHeader.astro";
+import AppIcon from "../../components/AppIcon.astro";
+import FeatureTable from "../../components/FeatureTable.astro";
+import Faq from "../../components/Faq.astro";
+import AuthorBox from "../../components/AuthorBox.astro";
+import Disclosure from "../../components/Disclosure.astro";
+import RelatedCards from "../../components/RelatedCards.astro";
+import type { App, Faq as FaqT } from "../../data/types";
+import { apps, alternativesFor, categoryBySlug, categoryUrl, reviewUrl, altUrl, comparisonBetween, compareUrl, listUrl, relatedArticles, checklistScore, FEATURE_LABELS } from "../../data/index";
+import { inline, slugify, words, readMinutes } from "../../lib/md";
+import { diffSentence, listJoin } from "../../lib/diff";
+import { SITE } from "../../lib/site";
+import { article, breadcrumbs, faqPage, itemList } from "../../lib/schema";
+
+export function getStaticPaths() {
+  return apps
+    .map((a) => ({ a, alts: alternativesFor(a, 7) }))
+    .filter((x) => x.alts.length >= 4)
+    .map(({ a, alts }) => ({ params: { slug: a.slug }, props: { a, alts } }));
+}
+const { a, alts } = Astro.props as { a: App; alts: App[] };
+const cat = categoryBySlug[a.categories[0]];
+const path = altUrl(a.slug);
+const updated = "2026-11-08";
+const free = alts.filter((b) => b.pricing.model !== "Paid" && b.pricing.model !== "Subscription");
+const lead = `${alts.length} ${a.name.startsWith("Best ") ? "Top" : "Best"}`;
+const title = a.name.length > 20 ? `${lead} ${a.name} Alternatives (${SITE.year})` : `${lead} ${a.name} Alternatives in ${SITE.year} (Free & Paid)`;
+const description = `Looking for an app like ${a.name}? Compare ${alts.length} ${a.name} alternatives, including ${alts.slice(0, 3).map((b) => b.name).join(", ")}, on privacy, features and price.`;
+const crumbs = [
+  { name: "Home", path: "/" },
+  { name: cat.name, path: categoryUrl(cat.slug) },
+  { name: `${a.name} alternatives`, path },
+];
+const faq: FaqT[] = [
+  { q: `What is the best alternative to ${a.name}?`, a: `For most people it's ${alts[0].name}: ${alts[0].oneLiner}` },
+  ...(free.length ? [{ q: `Is there a free alternative to ${a.name}?`, a: `Yes. ${free.slice(0, 3).map((b) => b.name).join(", ")} ${free.length > 1 ? "are" : "is"} free to use${free.some((b) => b.pricing.model === "Freemium") ? ", with optional paid upgrades on some" : ""}.` }] : []),
+  { q: `Why do people switch from ${a.name}?`, a: `The most common reasons: ${a.tradeoffs.slice(0, 3).map((t) => t.replace(/\.$/, "").toLowerCase()).join("; ")}.` },
+  { q: `Is ${a.name} safe to use?`, a: a.privacyNotes.split(". ").slice(0, 2).join(". ").replace(/\.?$/, ".") + ` Read our full [${a.name} review](${reviewUrl(a.slug)}).` },
+];
+const wc = words(alts.map((b) => [b.oneLiner, b.whatItIs, b.pickIf]).flat(), faq.map((f) => f.a)) + 300;
+const schema = [
+  article({ title, description, path, published: updated, updated, section: cat.name, keywords: [`${a.name} alternatives`, `apps like ${a.name}`, `${a.name} alternative free`] }),
+  breadcrumbs(crumbs),
+  itemList(title, alts.map((b) => ({ app: b, path: reviewUrl(b.slug) }))),
+  faqPage(faq),
+];
+const related = relatedArticles([cat.pillar], a.categories[0], "", 2);
+---
+<Base title={title} description={description} path={path} type="article" published={updated} updated={updated} section={cat.name} schema={schema}>
+  <ArticleHeader crumbs={crumbs} kicker={`Alternatives · ${cat.short}`} title={title} published={updated} updated={updated} minutes={readMinutes(wc)} />
+  <div class="mx-auto max-w-3xl px-4">
+    <article class="prose-body pt-8">
+      <p>The best {a.name} alternatives are <strong>{listJoin(alts.slice(0, 3).map((b) => b.name))}</strong>. Which one fits depends on why you're leaving {a.name}: some fix its privacy gaps, some are free, and some suit a different phone.</p>
+      <p><strong>Quick recap:</strong> <span set:html={inline(a.oneLiner)} /> {a.discontinued ? "Here is why you need a replacement:" : "People usually look elsewhere because of these trade-offs:"}</p>
+      <ul>{a.tradeoffs.map((t) => <li>{t}</li>)}</ul>
+      <p>Below, each alternative gets a quick summary and a plain list of what you gain and give up compared with {a.name}. For the full ranking, see our <a href={listUrl(cat.pillar)}>best {cat.short.toLowerCase()} apps</a> list.</p>
+
+      {alts.map((b, i) => {
+        const vs = comparisonBetween(a.slug, b.slug);
+        return (
+          <section class="mt-10 border-t border-line pt-8">
+            <div class="not-prose flex items-center gap-4">
+              <AppIcon name={b.name} slug={b.slug} size={52} />
+              <div>
+                <h2 id={`${i + 1}-${slugify(b.name)}`} class="text-[1.5rem] font-extrabold leading-tight tracking-tight text-ink">{i + 1}. {b.name}</h2>
+                <p class="mt-0.5 text-sm text-ink-3">{b.platforms.join(", ")} · {b.pricing.model} · {checklistScore(b)}/{FEATURE_LABELS.length} privacy checklist</p>
+              </div>
+            </div>
+            <p class="mt-4" set:html={inline(b.whatItIs)} />
+            <p><strong>vs. {a.name}:</strong> {diffSentence(a, b)}</p>
+            <p><strong>Best for:</strong> {b.bestFor}. <strong>Pick it if:</strong> {b.pickIf}</p>
+            <p class="not-prose mt-3 flex flex-wrap gap-3">
+              <a href={reviewUrl(b.slug)} class="btn btn-ghost">{b.name} review</a>
+              {vs && <a href={compareUrl(vs)} class="btn btn-ghost">{a.name} vs {b.name}</a>}
+            </p>
+          </section>
+        );
+      })}
+
+      <h2 id="compared">{a.name} vs. the alternatives: privacy checklist</h2>
+      <FeatureTable apps={[a, ...alts.slice(0, 4)]} />
+
+      <Faq items={faq} />
+      <AuthorBox />
+      <Disclosure />
+      <RelatedCards items={related} title="Related" />
+    </article>
+  </div>
+</Base>

@@ -1,0 +1,13 @@
+---
+import Base from "../layouts/Base.astro";
+import { categories, listUrl } from "../data/index";
+---
+<Base title="Page not found" description="This page doesn't exist." path="/404/" noindex>
+  <div class="mx-auto max-w-2xl px-4 py-20 text-center">
+    <p class="text-sm font-bold uppercase tracking-wide text-brand">404</p>
+    <h1 class="mt-2 text-3xl font-extrabold text-ink">We couldn't find that page</h1>
+    <p class="mt-4 text-ink-2">It may have moved during our site redesign. Try one of these:</p>
+    <ul class="mt-6 space-y-2">{categories.map((c) => <li><a class="link" href={listUrl(c.pillar)}>Best {c.short.toLowerCase()} apps</a></li>)}</ul>
+    <a href="/search/" class="btn btn-primary mt-8">Search the site</a>
+  </div>
+</Base>
