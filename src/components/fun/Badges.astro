@@ -1,8 +1,0 @@
----
-interface Props { items: { label: string; tone: "red" | "green" | "blue" | "amber" | "teal" }[] }
-const T = { red: ["var(--color-tint-red)", "#9b2c1c"], green: ["var(--color-tint-green)", "#17633f"], blue: ["var(--color-tint-blue)", "#22508f"], amber: ["var(--color-tint-amber)", "#865409"], teal: ["var(--color-tint-teal)", "#0b5f58"] };
-const { items } = Astro.props;
----
-{items.length > 0 && <ul class="flex flex-wrap gap-2 list-none p-0 m-0 mt-3">
-  {items.map((b) => <li class="rounded-lg px-2.5 py-1 text-[13px] font-[650]" style={`background:${T[b.tone][0]};color:${T[b.tone][1]}`}>{b.label}</li>)}
-</ul>}
