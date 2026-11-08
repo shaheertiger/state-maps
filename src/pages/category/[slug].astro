@@ -1,0 +1,77 @@
+---
+import Base from "../../layouts/Base.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import AppIcon from "../../components/AppIcon.astro";
+import type { Category } from "../../data/types";
+import { categories, appsIn, listicles, guides, comparisons, getApp, listUrl, guideUrl, reviewUrl, compareUrl, categoryUrl, checklistScore, FEATURE_LABELS } from "../../data/index";
+import { breadcrumbs, organization } from "../../lib/schema";
+import { SITE } from "../../lib/site";
+
+export function getStaticPaths() {
+  return categories.map((c) => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props as { c: Category };
+const path = categoryUrl(c.slug);
+const lists = listicles.filter((l) => l.category === c.slug || l.entries.some((e) => getApp(e.app).categories[0] === c.slug));
+const gs = guides.filter((g) => g.category === c.slug);
+const catApps = appsIn(c.slug);
+const vs = comparisons.filter((x) => getApp(x.a).categories.includes(c.slug) || getApp(x.b).categories.includes(c.slug));
+const crumbs = [{ name: "Home", path: "/" }, { name: c.name, path }];
+const title = `${c.name}: Reviews & Rankings (${SITE.year})`;
+---
+<Base title={title} description={`${c.description} Rankings, reviews, comparisons and how-to guides, updated for ${SITE.year}.`} path={path} schema={[breadcrumbs(crumbs), { "@context": "https://schema.org", "@type": "CollectionPage", name: title, url: new URL(path, SITE.url).href }, organization()]}>
+  <section class="border-b border-line bg-wash">
+    <div class="mx-auto max-w-6xl px-4 pb-10 pt-6">
+      <Breadcrumbs items={crumbs} />
+      <h1 class="mt-6 text-[2.2rem] font-extrabold tracking-tight text-ink">{c.name}</h1>
+      <p class="mt-3 max-w-2xl text-lg leading-8 text-ink-2">{c.description}</p>
+      <a href={listUrl(c.pillar)} class="btn btn-primary mt-6">See the best {c.short.toLowerCase()} apps →</a>
+    </div>
+  </section>
+  <div class="mx-auto max-w-6xl px-4">
+    {lists.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-extrabold tracking-tight text-ink">Rankings</h2>
+        <div class="mt-5 grid gap-4 md:grid-cols-2">
+          {lists.map((l) => (
+            <a href={listUrl(l.slug)} class="block rounded-2xl border border-line p-5 no-underline hover:border-ink-3">
+              <span class="block font-bold leading-6 text-ink">{l.title}</span>
+              <span class="mt-2 block text-sm leading-6 text-ink-3">{l.description}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+    <section class="mt-12">
+      <h2 class="text-2xl font-extrabold tracking-tight text-ink">All {c.short.toLowerCase()} apps we've reviewed</h2>
+      <div class="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {catApps.map((a) => (
+          <a href={reviewUrl(a.slug)} class="flex gap-3 rounded-2xl border border-line p-4 no-underline hover:border-ink-3">
+            <AppIcon name={a.name} slug={a.slug} size={44} />
+            <span>
+              <span class="block font-bold text-ink">{a.name}</span>
+              <span class="block text-xs text-ink-3">{a.platforms.join(", ")} · {checklistScore(a)}/{FEATURE_LABELS.length} checklist</span>
+              <span class="mt-1.5 line-clamp-2 block text-sm leading-6 text-ink-2">{a.bestFor}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+    {gs.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-extrabold tracking-tight text-ink">Guides</h2>
+        <ul class="mt-4 grid gap-3 md:grid-cols-2">
+          {gs.map((g) => <li><a href={guideUrl(g.slug)} class="block rounded-xl border border-line p-4 font-semibold text-ink no-underline hover:border-ink-3">{g.title}</a></li>)}
+        </ul>
+      </section>
+    )}
+    {vs.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-extrabold tracking-tight text-ink">Head-to-head comparisons</h2>
+        <ul class="mt-4 grid gap-3 md:grid-cols-3">
+          {vs.map((x) => <li><a href={compareUrl(x)} class="block rounded-xl border border-line p-4 font-semibold text-ink no-underline hover:border-ink-3">{getApp(x.a).name} vs {getApp(x.b).name}</a></li>)}
+        </ul>
+      </section>
+    )}
+  </div>
+</Base>

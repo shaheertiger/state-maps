@@ -1,0 +1,21 @@
+---
+import Page from "../../layouts/Page.astro";
+import { SITE } from "../../lib/site";
+---
+<Page title="About StateMaps" description="StateMaps publishes independent, plain-English reviews of privacy, vault, app lock and encryption apps for iPhone, Android and desktop." path="/about/">
+  <p>{SITE.name} reviews the apps people use to keep private things private: photo and video vaults, app lockers, app hiders, file encryption tools and encrypted notes.</p>
+  <p>Most "best vault app" lists online are thin rewrites of store descriptions. We try to answer the questions that actually matter before you trust an app with your photos:</p>
+  <ul>
+    <li>Does it <strong>encrypt</strong> your files, or just hide them behind a PIN?</li>
+    <li>Where do backups go, and can the company read them?</li>
+    <li>What happens to your files if you delete the app, forget the PIN or lose your phone?</li>
+    <li>Is the free version paid for with ads and trackers?</li>
+    <li>Does your phone already have a built-in feature that does the job?</li>
+  </ul>
+  <h2>Who writes this site</h2>
+  <p>{SITE.author.bio}</p>
+  <h2>How we make money</h2>
+  <p>We may earn a commission when you buy through some links. Developers can't pay for inclusion or a better rank. See our <a href="/affiliate-disclosure/">affiliate disclosure</a> and <a href="/editorial-policy/">editorial policy</a>.</p>
+  <h2>Contact</h2>
+  <p>Found something out of date or wrong? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or use the <a href="/contact/">contact page</a>. We fix confirmed errors quickly and update the date on the page.</p>
+</Page>

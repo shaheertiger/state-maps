@@ -1,0 +1,96 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArticleHeader from "../../components/ArticleHeader.astro";
+import AppIcon from "../../components/AppIcon.astro";
+import SectionBlock from "../../components/SectionBlock.astro";
+import Faq from "../../components/Faq.astro";
+import AuthorBox from "../../components/AuthorBox.astro";
+import Disclosure from "../../components/Disclosure.astro";
+import RelatedCards from "../../components/RelatedCards.astro";
+import Toc from "../../components/Toc.astro";
+import type { Guide } from "../../data/types";
+import { guides, guideUrl, getApp, reviewUrl, categoryBySlug, categoryUrl, relatedArticles, listUrl } from "../../data/index";
+import { inline, slugify, words, readMinutes } from "../../lib/md";
+import { article, breadcrumbs, faqPage } from "../../lib/schema";
+import { abs } from "../../lib/site";
+
+export function getStaticPaths() {
+  return guides.map((g) => ({ params: { slug: g.slug }, props: { g } }));
+}
+const { g } = Astro.props as { g: Guide };
+const cat = categoryBySlug[g.category];
+const path = guideUrl(g.slug);
+const crumbs = [
+  { name: "Home", path: "/" },
+  { name: "Guides", path: "/guides/" },
+  { name: g.title.replace(/\s*\(.*\)$/, ""), path },
+];
+const wc = words(g.answer, g.intro, g.sections.map((s) => [s.body, (s.steps ?? []).map((x) => x.text), s.bullets ?? []]).flat(2), g.faq.map((f) => f.a));
+const stepSections = g.sections.filter((s) => s.steps?.length);
+const howTo = stepSections.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: g.title,
+      description: g.answer,
+      step: stepSections[0].steps!.map((st, i) => ({ "@type": "HowToStep", position: i + 1, name: st.title, text: st.text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1"), url: `${abs(path)}#${slugify(stepSections[0].heading)}` })),
+    }
+  : null;
+const schema = [
+  article({ type: "TechArticle", title: g.title, description: g.description, path, published: g.published, updated: g.updated, section: cat.name, keywords: [g.keyword], wordCount: wc }),
+  breadcrumbs(crumbs),
+  faqPage(g.faq),
+  ...(howTo ? [howTo] : []),
+];
+const toc = [
+  ...g.sections.map((s) => ({ id: slugify(s.heading), label: s.heading })),
+  ...(g.apps.length ? [{ id: "apps-mentioned", label: "Apps mentioned" }] : []),
+  { id: "faq", label: "FAQ" },
+];
+const related = relatedArticles(g.related, g.category, g.slug, 4);
+---
+<Base title={g.title} description={g.description} path={path} type="article" published={g.published} updated={g.updated} section={cat.name} tags={[g.keyword]} schema={schema}>
+  <ArticleHeader crumbs={crumbs} kicker={`Guide · ${cat.short}`} title={g.title} published={g.published} updated={g.updated} minutes={readMinutes(wc)} />
+  <div class="mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-[minmax(0,1fr)_15rem]">
+    <article class="prose-body min-w-0 max-w-3xl pt-8">
+      <div class="not-prose mb-8 rounded-2xl border-l-4 border-brand bg-brand-wash p-5">
+        <p class="text-xs font-bold uppercase tracking-wide text-brand">Quick answer</p>
+        <p class="mt-1.5 text-[1.05rem] leading-8 text-ink" set:html={inline(g.answer)} />
+      </div>
+      {g.intro.map((p) => <p set:html={inline(p)} />)}
+      {g.sections.map((s) => <SectionBlock section={s} />)}
+
+      {g.apps.length > 0 && (
+        <>
+          <h2 id="apps-mentioned">Apps mentioned in this guide</h2>
+          <div class="not-prose grid gap-3">
+            {g.apps.map((s) => {
+              const a = getApp(s);
+              return (
+                <a href={reviewUrl(a.slug)} class="flex gap-3 rounded-xl border border-line p-4 no-underline hover:border-ink-3">
+                  <AppIcon name={a.name} slug={a.slug} size={40} />
+                  <span><span class="block font-semibold text-ink">{a.name} <span class="font-normal text-ink-3">· {a.platforms.join(", ")}</span></span><span class="block text-sm leading-6 text-ink-3">{a.oneLiner}</span></span>
+                </a>
+              );
+            })}
+          </div>
+          <p class="mt-4">Want more options? See our full ranking of the <a href={listUrl(cat.pillar)}>best {cat.short.toLowerCase()} apps</a>.</p>
+        </>
+      )}
+
+      <Faq items={g.faq} />
+      <AuthorBox />
+      <Disclosure />
+      <RelatedCards items={related} />
+    </article>
+    <aside class="hidden lg:block">
+      <div class="sticky top-24 pt-8">
+        <Toc items={toc} />
+        <a href={categoryUrl(cat.slug)} class="mt-6 block rounded-xl border border-line p-4 text-sm no-underline hover:border-ink-3">
+          <span class="block font-semibold text-ink">{cat.name}</span>
+          <span class="mt-1 block text-ink-3">All reviews and guides</span>
+        </a>
+      </div>
+    </aside>
+  </div>
+</Base>

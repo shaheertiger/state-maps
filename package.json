@@ -1,0 +1,21 @@
+{
+  "name": "statemaps",
+  "private": true,
+  "type": "module",
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=20.3"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/check-build.mjs",
+    "preview": "astro preview",
+    "check:html": "node scripts/check-build.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@vercel/analytics": "2.0.1",
+    "astro": "7.3.8",
+    "tailwindcss": "4.3.3"
+  }
+}

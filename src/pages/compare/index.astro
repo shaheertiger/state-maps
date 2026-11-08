@@ -1,0 +1,26 @@
+---
+import Base from "../../layouts/Base.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import AppIcon from "../../components/AppIcon.astro";
+import { comparisons, compareUrl, getApp } from "../../data/index";
+import { breadcrumbs } from "../../lib/schema";
+const crumbs = [{ name: "Home", path: "/" }, { name: "Compare", path: "/compare/" }];
+---
+<Base title="App Comparisons: Photo Vaults, App Lockers & Encryption Apps" description="Head-to-head comparisons of popular privacy apps: encryption, hiding features, backups, platforms and price, with a clear pick for each situation." path="/compare/" schema={[breadcrumbs(crumbs)]}>
+  <div class="mx-auto max-w-4xl px-4 pt-6">
+    <Breadcrumbs items={crumbs} />
+    <h1 class="mt-6 text-[2.2rem] font-extrabold tracking-tight text-ink">Head-to-head comparisons</h1>
+    <p class="mt-3 text-lg leading-8 text-ink-2">Can't decide between two apps? Each comparison ends with a clear recommendation.</p>
+    <ul class="mt-8 grid gap-3 sm:grid-cols-2">
+      {comparisons.map((c) => {
+        const A = getApp(c.a); const B = getApp(c.b);
+        return (
+          <li><a href={compareUrl(c)} class="flex items-center gap-3 rounded-xl border border-line p-4 no-underline hover:border-ink-3">
+            <span class="flex gap-1"><AppIcon name={A.name} slug={A.slug} size={34} class="ring-2 ring-white" /><AppIcon name={B.name} slug={B.slug} size={34} class="ring-2 ring-white" /></span>
+            <span class="font-semibold text-ink">{A.name} vs {B.name}</span>
+          </a></li>
+        );
+      })}
+    </ul>
+  </div>
+</Base>

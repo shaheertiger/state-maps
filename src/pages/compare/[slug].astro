@@ -1,0 +1,110 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArticleHeader from "../../components/ArticleHeader.astro";
+import AppIcon from "../../components/AppIcon.astro";
+import FeatureTable from "../../components/FeatureTable.astro";
+import Faq from "../../components/Faq.astro";
+import AuthorBox from "../../components/AuthorBox.astro";
+import Disclosure from "../../components/Disclosure.astro";
+import RelatedCards from "../../components/RelatedCards.astro";
+import type { App, Comparison, Faq as FaqT } from "../../data/types";
+import { comparisons, compareSlug, compareUrl, getApp, categoryBySlug, categoryUrl, reviewUrl, altUrl, listUrl, relatedArticles, checklistScore, FEATURE_LABELS, hasAltPage } from "../../data/index";
+import { inline, words, readMinutes } from "../../lib/md";
+import { diff, listJoin } from "../../lib/diff";
+import { SITE } from "../../lib/site";
+import { article, breadcrumbs, faqPage } from "../../lib/schema";
+
+export function getStaticPaths() {
+  return comparisons.map((c) => ({ params: { slug: compareSlug(c) }, props: { c } }));
+}
+const { c } = Astro.props as { c: Comparison };
+const A: App = getApp(c.a);
+const B: App = getApp(c.b);
+const cat = categoryBySlug[A.categories[0]];
+const path = compareUrl(c);
+const updated = "2026-11-08";
+const title = (A.name + B.name).length > 30 ? `${A.name} vs ${B.name} (${SITE.year})` : `${A.name} vs ${B.name} (${SITE.year}): Which Is Better?`;
+const description = `${A.name} or ${B.name}? We compare encryption, hiding features, backups, platforms and price, and tell you which one to pick for your situation.`;
+const crumbs = [
+  { name: "Home", path: "/" },
+  { name: "Compare", path: "/compare/" },
+  { name: `${A.name} vs ${B.name}`, path },
+];
+const dot = (s: string) => s.trim().replace(/[.;,]?$/, ".");
+const winner = c.winner === "a" ? A : c.winner === "b" ? B : undefined;
+const ab = diff(A, B);
+const ba = diff(B, A);
+const faq: FaqT[] = [
+  { q: `Is ${A.name} better than ${B.name}?`, a: c.summary },
+  { q: `Which is more private, ${A.name} or ${B.name}?`, a: `On our nine-point privacy checklist ${A.name} scores ${checklistScore(A)} and ${B.name} scores ${checklistScore(B)}. ${A.features.encryption === "yes" && B.features.encryption !== "yes" ? `${A.name} encrypts files on the device; ${B.name} doesn't clearly document that.` : B.features.encryption === "yes" && A.features.encryption !== "yes" ? `${B.name} encrypts files on the device; ${A.name} doesn't clearly document that.` : "Both take a similar approach to protecting files on the device, so check the backup and account details below."}` },
+  { q: `Can I use ${A.name} and ${B.name} together?`, a: `Yes, they don't conflict. Just remember that every extra vault is another place to back up and another password to remember.` },
+  { q: `Is ${A.name} or ${B.name} free?`, a: `${A.name}: ${dot(A.pricing.free)} ${B.name}: ${dot(B.pricing.free)}` },
+];
+const wc = words(c.summary, c.chooseA, c.chooseB, A.whatItIs, B.whatItIs, A.privacyNotes, B.privacyNotes) + 250;
+const schema = [
+  article({ title, description, path, published: updated, updated, section: cat.name, keywords: [`${A.name} vs ${B.name}`, `${B.name} vs ${A.name}`] }),
+  breadcrumbs(crumbs),
+  faqPage(faq),
+];
+const related = relatedArticles([cat.pillar], A.categories[0], "", 2);
+---
+<Base title={title} description={description} path={path} type="article" published={updated} updated={updated} section={cat.name} schema={schema}>
+  <ArticleHeader crumbs={crumbs} kicker={`Comparison · ${cat.short}`} title={title} published={updated} updated={updated} minutes={readMinutes(wc)} />
+  <div class="mx-auto max-w-3xl px-4">
+    <article class="prose-body pt-8">
+      <section class="not-prose rounded-2xl border border-line p-5 sm:p-6">
+        <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-3 text-center">
+          <a href={reviewUrl(A.slug)} class="flex flex-col items-center gap-2 no-underline"><AppIcon name={A.name} slug={A.slug} size={56} /><span class="font-bold text-ink">{A.name}</span><span class="text-xs text-ink-3">{checklistScore(A)}/{FEATURE_LABELS.length} checklist</span></a>
+          <span class="text-sm font-bold text-ink-3">VS</span>
+          <a href={reviewUrl(B.slug)} class="flex flex-col items-center gap-2 no-underline"><AppIcon name={B.name} slug={B.slug} size={56} /><span class="font-bold text-ink">{B.name}</span><span class="text-xs text-ink-3">{checklistScore(B)}/{FEATURE_LABELS.length} checklist</span></a>
+        </div>
+        <p class="mt-5 text-[1.05rem] leading-8 text-ink-2"><strong class="text-ink">{winner ? `Our pick: ${winner.name}.` : "It's a tie."}</strong> <span set:html={inline(c.summary)} /></p>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2">
+          <p class="rounded-xl bg-wash p-4 text-[0.95rem] leading-7 text-ink-2"><strong class="text-ink">Choose {A.name} if:</strong> {c.chooseA}</p>
+          <p class="rounded-xl bg-wash p-4 text-[0.95rem] leading-7 text-ink-2"><strong class="text-ink">Choose {B.name} if:</strong> {c.chooseB}</p>
+        </div>
+      </section>
+
+      <h2 id="key-differences">Key differences</h2>
+      <div class="not-prose overflow-x-auto rounded-xl border border-line">
+        <table class="tbl min-w-[30rem]">
+          <thead><tr><th></th><th>{A.name}</th><th>{B.name}</th></tr></thead>
+          <tbody>
+            <tr><td class="font-medium text-ink">Best for</td><td class="text-ink-2">{A.bestFor}</td><td class="text-ink-2">{B.bestFor}</td></tr>
+            <tr><td class="font-medium text-ink">Platforms</td><td class="text-ink-2">{A.platforms.join(", ")}</td><td class="text-ink-2">{B.platforms.join(", ")}</td></tr>
+            <tr><td class="font-medium text-ink">Price</td><td class="text-ink-2">{A.pricing.model}</td><td class="text-ink-2">{B.pricing.model}</td></tr>
+            {c.differences.map((d) => <tr><td class="font-medium text-ink">{d.label}</td><td class="text-ink-2">{d.a}</td><td class="text-ink-2">{d.b}</td></tr>)}
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="privacy-checklist">Privacy checklist side by side</h2>
+      <FeatureTable apps={[A, B]} />
+      {(ab.gains.length > 0 || ba.gains.length > 0) && (
+        <p class="mt-4">
+          {ba.gains.length > 0 && <>{A.name} has {listJoin(ba.gains.slice(0, 4))} that {B.name} lacks. </>}
+          {ab.gains.length > 0 && <>{B.name} has {listJoin(ab.gains.slice(0, 4))} that {A.name} lacks.</>}
+        </p>
+      )}
+
+      {[A, B].map((x) => (
+        <>
+          <h2 id={`about-${x.slug}`}>{x.name} in short</h2>
+          <p set:html={inline(x.whatItIs)} />
+          <p><strong>Privacy:</strong> <span set:html={inline(x.privacyNotes)} /></p>
+          <p><strong>Pricing:</strong> {dot(x.pricing.free)} {dot(x.pricing.paid)}</p>
+          <p><a href={reviewUrl(x.slug)}>Read the full {x.name} review</a>{hasAltPage(x) && <> · <a href={altUrl(x.slug)}>{x.name} alternatives</a></>}</p>
+        </>
+      ))}
+
+      <h2 id="verdict">Verdict</h2>
+      <p set:html={inline(c.summary)} />
+      <p>Still deciding? Our <a href={listUrl(cat.pillar)}>ranking of the best {cat.short.toLowerCase()} apps</a> covers more options, and our <a href={categoryUrl(cat.slug)}>{cat.name.toLowerCase()} hub</a> has guides for setting them up.</p>
+
+      <Faq items={faq} />
+      <AuthorBox />
+      <Disclosure />
+      <RelatedCards items={related} title="Related" />
+    </article>
+  </div>
+</Base>

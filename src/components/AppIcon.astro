@@ -1,0 +1,11 @@
+---
+// Generated monogram tile. Swap for real app icons (with permission) when you have them.
+interface Props { name: string; slug: string; size?: number; class?: string }
+const { name, slug, size = 48, class: cls = "" } = Astro.props;
+const palette = ["#0f6b5c", "#1d4ed8", "#7c3aed", "#b45309", "#be123c", "#0e7490", "#4d7c0f", "#334155", "#9333ea", "#c2410c"];
+let h = 0;
+for (const ch of slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+const bg = palette[h % palette.length];
+const letters = name.replace(/[^A-Za-z0-9 ]/g, "").split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase() || name.slice(0, 2);
+---
+<span class={`inline-flex shrink-0 items-center justify-center rounded-[22%] font-bold text-white ${cls}`} style={`width:${size}px;height:${size}px;background:${bg};font-size:${Math.round(size * 0.38)}px`} aria-hidden="true">{letters}</span>

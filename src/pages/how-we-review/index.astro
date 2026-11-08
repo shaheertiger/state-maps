@@ -1,0 +1,36 @@
+---
+import Page from "../../layouts/Page.astro";
+import { FEATURE_LABELS } from "../../data/index";
+---
+<Page title="How We Review Privacy Apps (Methodology)" h1="How we review apps" description="How StateMaps researches, scores and ranks photo vaults, app lockers and encryption apps: our nine-point privacy checklist and ranking criteria." path="/how-we-review/" updated="November 8, 2026">
+  <p>Every app on StateMaps goes through the same process, so rankings and scores are comparable across the site.</p>
+  <h2>1. We read what the developer actually promises</h2>
+  <p>We go through the app's official website, help center, App Store and Google Play listings (including the privacy "nutrition label" and Data safety section), and its privacy policy. Where a company publishes security documentation, open-source code or independent audits, we read those too.</p>
+  <h2>2. We check it against our privacy checklist</h2>
+  <p id="checklist">Each app is marked against nine checks. An app gets a full point for "Yes", half a point for "Partly" (for example, a feature that's paid-only or only on one platform), and nothing for "No" or "Not confirmed". If a developer doesn't document a feature clearly, we don't assume it exists.</p>
+  <div class="not-prose overflow-hidden rounded-xl border border-line">
+    <table class="tbl">
+      <thead><tr><th>Check</th><th>What it means</th></tr></thead>
+      <tbody>{FEATURE_LABELS.map((f) => <tr><td class="font-medium text-ink">{f.label}</td><td class="text-ink-2">{f.hint}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p class="mt-4">The checklist score measures privacy features, not overall quality. A built-in feature with a lower score can still be the best choice because it's free, already installed and maintained by your phone's maker.</p>
+  <h2>3. We rank for real situations</h2>
+  <p>Rankings weigh four things:</p>
+  <ul>
+    <li><strong>Protection:</strong> encryption, backup security, and how easy the protection is to bypass.</li>
+    <li><strong>Reliability:</strong> the risk of losing your files (for example, if the app is uninstalled or the phone is reset), and whether there's a safe way to get files back out.</li>
+    <li><strong>Usability:</strong> setup, daily use, and platform support.</li>
+    <li><strong>Cost and business model:</strong> what the free version includes, and whether it relies on ads or trackers.</li>
+  </ul>
+  <p>Each app on a list gets a label ("Best overall", "Best free", "Best for Android") so you can jump to the pick that fits you rather than reading the list top to bottom.</p>
+  <h2>4. We keep pages up to date</h2>
+  <p>Apps change features and prices often. Each article shows the date it was last updated, and we revisit rankings when apps ship major changes, get pulled from the stores, or have security problems.</p>
+  <h2>What we don't do</h2>
+  <ul>
+    <li>We don't accept payment for inclusion or ranking.</li>
+    <li>We don't publish star ratings or user counts we can't source.</li>
+    <li>We don't claim hands-on testing we haven't done.</li>
+  </ul>
+  <p>Questions or corrections: <a href="/contact/">contact us</a>.</p>
+</Page>
