@@ -2,12 +2,14 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3100';
 const get = (path, headers = {}) => fetch(new URL(path, base), { headers, redirect: 'manual', signal: AbortSignal.timeout(20000) });
+const editions=JSON.parse(await fs.readFile(new URL('../data/edition-canonicals.json',import.meta.url),'utf8'));const editionCount=Object.keys(editions).length;
+for(const [variant,main] of Object.entries(editions)){const r=await get(`/app-privacy/${variant}`,{Accept:'text/html'});assert.equal(r.status,200,variant);const c=(await r.text()).match(/<link rel="canonical" href="([^"]+)"/);assert.equal(new URL(c[1]).pathname,`/app-privacy/${main}`,`${variant} names its main edition as canonical`);}
 const sitemapResponse = await get('/sitemap.xml'); assert.equal(sitemapResponse.status, 200);
 const rootXml = await sitemapResponse.text();
 const childSitemaps=[...rootXml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>new URL(m[1]).pathname);
 const xml=rootXml.includes('<sitemapindex')?(await Promise.all(childSitemaps.map(async path=>{const r=await get(path);assert.equal(r.status,200,path);return r.text();}))).join('\n'):rootXml;
 const paths = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => new URL(m[1]).pathname);
-assert.equal(paths.length,4583,'All indexable destinations appear in the sitemap index'); assert.equal(new Set(paths).size, paths.length);assert.equal(paths.filter(p=>p.startsWith('/app-privacy/')).length,4500,'All 4500 app records appear in sitemaps');assert.ok(!paths.some(p=>p.startsWith('/app-privacy/page/')),'Noindex pagination stays out of sitemaps');
+assert.equal(paths.length,4583-editionCount,'All indexable destinations appear in the sitemap index'); assert.equal(new Set(paths).size, paths.length);assert.equal(paths.filter(p=>p.startsWith('/app-privacy/')).length,4500-editionCount,'Every main app record appears in sitemaps');assert.ok(!paths.some(p=>p.startsWith('/app-privacy/page/')),'Noindex pagination stays out of sitemaps');
 const evidence = [];
 const internalLinks = new Set();
 const appRecords=new Map(JSON.parse(await fs.readFile(new URL('../data/apple-apps.json',import.meta.url),'utf8')).map(a=>[a.slug,a]));
