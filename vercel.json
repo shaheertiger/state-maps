@@ -1,26 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "astro",
-  "installCommand": "npm ci",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "trailingSlash": true,
-  "redirects": [
-    { "source": "/app-privacy/:path*", "destination": "/reviews/", "permanent": true },
-    { "source": "/privacy-settings/:path*", "destination": "/guides/", "permanent": true },
-    { "source": "/does-it-track-you/:path*", "destination": "/reviews/", "permanent": true },
-    { "source": "/is-it-safe/:path*", "destination": "/guides/are-photo-vault-apps-safe/", "permanent": true },
-    { "source": "/lock-an-app/:path*", "destination": "/best-app-lock-apps/", "permanent": true },
-    { "source": "/data-types/:path*", "destination": "/how-we-review/", "permanent": true },
-    { "source": "/data-methodology", "destination": "/how-we-review/", "permanent": true },
-    { "source": "/tools/:path*", "destination": "/", "permanent": true },
-    { "source": "/blog/:path*", "destination": "/guides/", "permanent": true }
-  ],
   "headers": [
-    { "source": "/_astro/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Content-Type-Options", "value": "nosniff" },
-      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
-    ] }
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "Vary", "value": "Accept, User-Agent, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding" }]
+    }
   ]
 }

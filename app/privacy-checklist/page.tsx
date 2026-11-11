@@ -1,0 +1,5 @@
+import PrivacyReview from "@/components/privacy-review";
+import { pageMetadata, jsonLd } from "@/lib/seo";
+import { site } from "@/lib/site";
+export const metadata = pageMetadata("Build Your iPhone Privacy Review", "Get a focused action list for your photo storage, sharing and access concerns. Save, print or share it.", "/privacy-checklist");
+export default function ReviewPage() { return <main id="content" className="wrap article"><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd({ "@context": "https://schema.org", "@type": "WebApplication", name: "iPhone privacy review", url: `${site.url}/privacy-checklist`, applicationCategory: "UtilitiesApplication", operatingSystem: "Web", description: "A browser-local checklist builder for photo privacy." }) }} /><h1>Build your privacy review.</h1><p className="lead">Three choices. A focused list of checks you can carry out on your own device.</p><p>No photo uploads or account required. This tool does not inspect your phone. Choices stay in this browser unless you choose to save or share them.</p><PrivacyReview /></main>; }
