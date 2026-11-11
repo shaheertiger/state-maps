@@ -1,0 +1,2 @@
+export type CombinationEvidence={uniqueAnswer:string;appSpecificSteps:string[];sourceUrls:string[];reviewedAt:string;reviewedBy:string};
+export function canIndexCombination(e:CombinationEvidence|undefined){return !!e&&e.uniqueAnswer.trim().split(/\s+/).length>=40&&e.appSpecificSteps.length>=3&&e.appSpecificSteps.every(s=>s.trim().length>20)&&e.sourceUrls.length>0&&e.sourceUrls.every(url=>{try{return new URL(url).protocol==='https:';}catch{return false;}})&&/^\d{4}-\d{2}-\d{2}$/.test(e.reviewedAt)&&e.reviewedBy.trim().length>0;}

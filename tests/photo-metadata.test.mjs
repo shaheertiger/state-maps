@@ -1,0 +1,6 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readPhotoMetadata} from '../lib/photo-metadata.ts';
+test('rejects unsupported formats without claiming metadata is absent',()=>{const r=readPhotoMetadata(new Uint8Array([137,80,78,71]).buffer);assert.equal(r.format,'Unsupported');assert.ok(r.warnings.length);});
+test('reads an EXIF ASCII tag in a bounded little-endian JPEG segment',()=>{const b=new ArrayBuffer(48),v=new DataView(b);v.setUint16(0,0xffd8);v.setUint16(2,0xffe1);v.setUint16(4,42);v.setUint32(6,0x45786966);v.setUint16(10,0);const base=12;v.setUint16(base,0x4949);v.setUint16(base+2,42,true);v.setUint32(base+4,8,true);v.setUint16(base+8,1,true);v.setUint16(base+10,0x10f,true);v.setUint16(base+12,2,true);v.setUint32(base+14,4,true);new Uint8Array(b,base+18,4).set([65,66,67,0]);v.setUint16(46,0xffd9);const r=readPhotoMetadata(b);assert.equal(r.fields['Camera maker'],'ABC');assert.equal(r.exif,true);});
+test('malformed EXIF offsets are bounded and reported',()=>{const b=new ArrayBuffer(26),v=new DataView(b);v.setUint16(0,0xffd8);v.setUint16(2,0xffe1);v.setUint16(4,20);v.setUint32(6,0x45786966);v.setUint16(12,0x4949);v.setUint16(14,42,true);v.setUint32(16,0xffffff,true);const r=readPhotoMetadata(b);assert.ok(r.warnings.some(w=>w.includes('malformed')));});
