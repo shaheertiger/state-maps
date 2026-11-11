@@ -1,0 +1,197 @@
+[
+ {
+  "source": "/is-ahealth-safe",
+  "destination": "/app-privacy/ahealth-get-healthy-get-paid-1638253339",
+  "permanent": true
+ },
+ {
+  "source": "/does-ahealth-track-you",
+  "destination": "/app-privacy/ahealth-get-healthy-get-paid-1638253339",
+  "permanent": true
+ },
+ {
+  "source": "/is-contacts-sync-pro-safe",
+  "destination": "/app-privacy/contacts-sync-pro-686378579",
+  "permanent": true
+ },
+ {
+  "source": "/does-contacts-sync-pro-track-you",
+  "destination": "/app-privacy/contacts-sync-pro-686378579",
+  "permanent": true
+ },
+ {
+  "source": "/is-strongnet-vpn-safe",
+  "destination": "/app-privacy/strongnet-vpn-privacy-defence-6477825452",
+  "permanent": true
+ },
+ {
+  "source": "/does-strongnet-vpn-track-you",
+  "destination": "/app-privacy/strongnet-vpn-privacy-defence-6477825452",
+  "permanent": true
+ },
+ {
+  "source": "/is-adventhealth-safe",
+  "destination": "/app-privacy/adventhealth-1468538150",
+  "permanent": true
+ },
+ {
+  "source": "/does-adventhealth-track-you",
+  "destination": "/app-privacy/adventhealth-1468538150",
+  "permanent": true
+ },
+ {
+  "source": "/is-contacts-backup-data-export-and-import-safe",
+  "destination": "/app-privacy/contacts-backup-data-export-and-import-915768465",
+  "permanent": true
+ },
+ {
+  "source": "/does-contacts-backup-data-export-and-import-track-you",
+  "destination": "/app-privacy/contacts-backup-data-export-and-import-915768465",
+  "permanent": true
+ },
+ {
+  "source": "/is-contacts-backup-lite-safe",
+  "destination": "/app-privacy/contacts-backup-lite-1137351895",
+  "permanent": true
+ },
+ {
+  "source": "/does-contacts-backup-lite-track-you",
+  "destination": "/app-privacy/contacts-backup-lite-1137351895",
+  "permanent": true
+ },
+ {
+  "source": "/is-contacts-mover-pro-safe",
+  "destination": "/app-privacy/contacts-mover-pro-1321249676",
+  "permanent": true
+ },
+ {
+  "source": "/does-contacts-mover-pro-track-you",
+  "destination": "/app-privacy/contacts-mover-pro-1321249676",
+  "permanent": true
+ },
+ {
+  "source": "/is-cycles-safe",
+  "destination": "/app-privacy/cycles-period-cycle-tracker-577187307",
+  "permanent": true
+ },
+ {
+  "source": "/does-cycles-track-you",
+  "destination": "/app-privacy/cycles-period-cycle-tracker-577187307",
+  "permanent": true
+ },
+ {
+  "source": "/is-gateway-wallet-safe",
+  "destination": "/app-privacy/gateway-wallet-6761431071",
+  "permanent": true
+ },
+ {
+  "source": "/does-gateway-wallet-track-you",
+  "destination": "/app-privacy/gateway-wallet-6761431071",
+  "permanent": true
+ },
+ {
+  "source": "/is-gentler-streak-workout-tracker-safe",
+  "destination": "/app-privacy/gentler-streak-workout-tracker-1576857102",
+  "permanent": true
+ },
+ {
+  "source": "/does-gentler-streak-workout-tracker-track-you",
+  "destination": "/app-privacy/gentler-streak-workout-tracker-1576857102",
+  "permanent": true
+ },
+ {
+  "source": "/is-healthify-safe",
+  "destination": "/app-privacy/healthify-ai-calorie-tracker-943712366",
+  "permanent": true
+ },
+ {
+  "source": "/does-healthify-track-you",
+  "destination": "/app-privacy/healthify-ai-calorie-tracker-943712366",
+  "permanent": true
+ },
+ {
+  "source": "/is-kangaroo-safe",
+  "destination": "/app-privacy/kangaroo-simple-home-security-1388241447",
+  "permanent": true
+ },
+ {
+  "source": "/does-kangaroo-track-you",
+  "destination": "/app-privacy/kangaroo-simple-home-security-1388241447",
+  "permanent": true
+ },
+ {
+  "source": "/is-locker-pro-safe",
+  "destination": "/app-privacy/locker-pro-password-manager-1378182799",
+  "permanent": true
+ },
+ {
+  "source": "/does-locker-pro-track-you",
+  "destination": "/app-privacy/locker-pro-password-manager-1378182799",
+  "permanent": true
+ },
+ {
+  "source": "/is-my-contacts-backup-safe",
+  "destination": "/app-privacy/my-contacts-backup-446784593",
+  "permanent": true
+ },
+ {
+  "source": "/does-my-contacts-backup-track-you",
+  "destination": "/app-privacy/my-contacts-backup-446784593",
+  "permanent": true
+ },
+ {
+  "source": "/is-my-contacts-backup-vault-safe",
+  "destination": "/app-privacy/my-contacts-backup-vault-6746223107",
+  "permanent": true
+ },
+ {
+  "source": "/does-my-contacts-backup-vault-track-you",
+  "destination": "/app-privacy/my-contacts-backup-vault-6746223107",
+  "permanent": true
+ },
+ {
+  "source": "/is-norton-private-browser-safe",
+  "destination": "/app-privacy/norton-private-browser-6670603868",
+  "permanent": true
+ },
+ {
+  "source": "/does-norton-private-browser-track-you",
+  "destination": "/app-privacy/norton-private-browser-6670603868",
+  "permanent": true
+ },
+ {
+  "source": "/is-photo-vault-secure-gallery-safe",
+  "destination": "/app-privacy/photo-vault-secure-gallery-6532595758",
+  "permanent": true
+ },
+ {
+  "source": "/does-photo-vault-secure-gallery-track-you",
+  "destination": "/app-privacy/photo-vault-secure-gallery-6532595758",
+  "permanent": true
+ },
+ {
+  "source": "/is-red-calendar-2026-safe",
+  "destination": "/app-privacy/red-calendar-2026-1489018103",
+  "permanent": true
+ },
+ {
+  "source": "/does-red-calendar-2026-track-you",
+  "destination": "/app-privacy/red-calendar-2026-1489018103",
+  "permanent": true
+ },
+ {
+  "source": "/app-privacy/productivity",
+  "destination": "/app-privacy",
+  "permanent": true
+ },
+ {
+  "source": "/app-privacy/finance/:path*",
+  "destination": "/app-privacy",
+  "permanent": true
+ },
+ {
+  "source": "/resources",
+  "destination": "/guides",
+  "permanent": true
+ }
+]

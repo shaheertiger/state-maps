@@ -8,7 +8,8 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
-    "check:routes": "node scripts/check-routes.mjs"
+    "check:routes": "node scripts/check-routes.mjs",
+    "check:overlap": "node scripts/check-overlap.mjs"
   },
   "dependencies": {
     "@dualmark/nextjs": "^0.11.0",
