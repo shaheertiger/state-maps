@@ -28,10 +28,10 @@ export function labelVerdict(a:AppleApp){
 /** The one-sentence answer with the numbers first, quotable on its own. */
 export function answerSentence(a:AppleApp){
  const c=labelCounts(a),when=monthYear(a.privacyCheckedAt);
- if(c.status==='not-provided')return `${a.name}'s App Store privacy label says “No Details Provided” (checked ${when}), so the developer has not disclosed what data it collects.`;
- if(c.status==='unknown')return `The App Store privacy label for ${a.name} was not captured, so its data collection is unknown here; check the live listing.`;
- if(c.noneCollected)return `${a.name}'s App Store privacy label says the developer does not collect any data from the app (checked ${when}).`;
- return `${a.name} collects ${plural(c.collected.length,'data type')} according to its App Store privacy label (checked ${when}): ${c.tracked.length} used to track you, ${c.linked.length} linked to your identity and ${c.notLinked.length} not linked to you.`;
+ if(c.status==='not-provided')return `${a.name}: “No Details Provided” on its App Store label (${when}), so ${a.developer} has disclosed nothing.`;
+ if(c.status==='unknown')return `${a.name}: no App Store label was captured, so its data collection is unknown here.`;
+ if(c.noneCollected)return `${a.name} collects no data, ${a.developer} declares.`;
+ return `${a.name} collects ${plural(c.collected.length,'data type')}: ${c.tracked.length} for tracking, ${c.linked.length} linked to you.`;
 }
 
 export function profileTitle(a:AppleApp){
@@ -47,21 +47,20 @@ export function profileDescription(a:AppleApp){
  return Array.from(body+tail).length<=160?body+tail:Array.from(body).slice(0,160).join('');
 }
 export function privacySummary(a:AppleApp){if(a.privacyStatus==='not-provided')return 'The captured App Store privacy card says No Details Provided. This does not mean the app collects no data; the disclosure does not establish its collection behavior.';if(a.privacyStatus!=='reported')return 'A complete privacy card was not extracted from this source. Missing information must not be interpreted as no data collection.';return `The developer-reported App Store label contains ${a.privacyCards!.map(c=>c.type).join('; ')}. This is a captured disclosure, not independent testing or a guarantee of runtime behavior.`;}
-export function privacyFacts(a:AppleApp):[string,string][]{return a.privacyStatus==='not-provided'?[['No Details Provided','The developer has not supplied details in the captured card; collection behavior remains unknown']]:a.privacyStatus==='reported'?a.privacyCards!.map(c=>[c.type,c.categories.length?c.categories.join(', '):'No category rows appear in this card']):[['Privacy disclosure capture','Unavailable or not extracted; collection behavior remains unknown']];}
-export function profileFacts(a:AppleApp):[string,string][]{return [['App Store ID',String(a.id)],['Developer / seller',a.developer],['Bundle identifier',a.bundleId],['Store category',a.category],['Listing version',a.version],['Minimum iOS in listing',a.minimumIos],['Version release date',sourceDate(a.updatedAt)],...(a.releasedAt?[['Initial listing release',sourceDate(a.releasedAt)] as [string,string]]:[]),...(a.fileSizeBytes?[['Listed download size',`${(Number(a.fileSizeBytes)/1048576).toFixed(1)} MB (${a.fileSizeBytes} bytes)`] as [string,string]]:[]),...(a.ageRating?[['Store age rating',a.ageRating] as [string,string]]:[]),['Language codes listed',a.languages.join(', ')||'Not supplied'],['Storefront','United States'],['Source retrieved',sourceDate(a.retrievedAt)]];}
+export function privacyFacts(a:AppleApp):[string,string][]{return a.privacyStatus==='not-provided'?[['No Details Provided','The developer has not supplied details in the captured card; collection behavior remains unknown']]:a.privacyStatus==='reported'?a.privacyCards!.map(c=>[c.type,c.categories.length?c.categories.join(', '):'—']):[['Privacy disclosure capture','Unavailable or not extracted; collection behavior remains unknown']];}
+export function profileFacts(a:AppleApp):[string,string][]{return [['ID',String(a.id)],['Developer / seller',a.developer],['Bundle',a.bundleId],['Category',a.category],['Version',a.version],['Requires iOS',a.minimumIos],['Updated',sourceDate(a.updatedAt)],...(a.releasedAt?[['Released',sourceDate(a.releasedAt)] as [string,string]]:[]),...(a.fileSizeBytes?[['Size',`${(Number(a.fileSizeBytes)/1048576).toFixed(1)} MB`] as [string,string]]:[]),...(a.ageRating?[['Age rating',a.ageRating] as [string,string]]:[]),['Languages',a.languages.join(', ')||'Not supplied']];}
 
 /* ---------- FAQ: six short, data-filled answers (under 50 words each) ---------- */
 export function profileFaq(a:AppleApp){
  const c=labelCounts(a),when=monthYear(a.privacyCheckedAt);
- const tracks=c.status!=='reported'?`The label does not say: ${labelVerdict(a).toLowerCase()}.`:c.tracked.length?`Yes, by its own label: ${list(c.tracked)} ${c.tracked.length===1?'is':'are'} listed under Data Used to Track You (checked ${when}).`:`No. The ${when} label for ${a.name} lists nothing under Data Used to Track You.`;
- const collects=c.status!=='reported'?'Unknown. The developer has not disclosed it in a captured label, which does not mean nothing is collected.':c.noneCollected?'The label declares Data Not Collected. That is the developer’s own statement.':`${plural(c.collected.length,'type')}: ${list(c.collected)}. ${c.linked.length} of them ${c.linked.length===1?'is':'are'} linked to your identity.`;
+ const size=a.fileSizeBytes?`${(Number(a.fileSizeBytes)/1048576).toFixed(1)} MB`:null;
  return [
-  {q:`Is ${a.name} safe?`,a:`${labelVerdict(a)}, per ${a.developer}’s own label. That is a disclosure, not a security audit of ${a.name}.`},
-  {q:`Does ${a.name} track you?`,a:tracks},
-  {q:`What data does ${a.name} collect?`,a:collects},
-  {q:`Who publishes ${a.name}?`,a:`${a.developer}, under App Store ID ${a.id} and bundle identifier ${a.bundleId}. `},
-  {q:`Which iOS version does ${a.name} require?`,a:`iOS ${a.minimumIos} or later, for version ${a.version} released ${sourceDate(a.updatedAt)}. `},
-  {q:`Where can I verify ${a.name}’s privacy label?`,a:`On its Apple App Store listing (ID ${a.id}), under App Privacy. Last checked here ${sourceDate(a.privacyCheckedAt)}.`},
+  {q:`Is ${a.name} safe?`,a:`${labelVerdict(a)}: a claim by ${a.developer}, not an audit.`},
+  {q:`How many languages does ${a.name} support?`,a:a.languages.length?`${a.languages.length}: ${a.languages.slice(0,6).join(', ')}${a.languages.length>6?'…':''}.`:'None listed.'},
+  {q:`When was ${a.name} last updated?`,a:`${sourceDate(a.updatedAt)}, to ${a.version}.`},
+  {q:`What iOS does ${a.name} need?`,a:`iOS ${a.minimumIos}+.`},
+  {q:`How big is ${a.name}?`,a:size?`${size}.`:'No size listed.'},
+  {q:`When did ${a.name} launch?`,a:a.releasedAt?`${sourceDate(a.releasedAt)}; ${a.ageRating?`rated ${a.ageRating}`:'no age rating listed'}.`:`No launch date listed; ${a.ageRating?`rated ${a.ageRating}`:'no age rating listed'}.`},
  ];
 }
 
@@ -70,8 +69,8 @@ export function profileSections(a:AppleApp){
  const c=labelCounts(a),when=monthYear(a.privacyCheckedAt);
  const out:{id:string;heading:string;body:string}[]=[];
  if(c.status==='reported'&&!c.noneCollected){
-  out.push({id:'tracking',heading:`Does ${a.name} track you?`,body:c.tracked.length?`Yes, according to the developer. ${a.developer} lists ${plural(c.tracked.length,'data type')} under Data Used to Track You: ${list(c.tracked)}. You can refuse ${a.name}’s tracking request in Settings › Privacy & Security › Tracking.`:`No, according to the developer. The ${when} label for ${a.name} lists no Data Used to Track You. It still reports ${plural(c.collected.length,'data type')} collected for other purposes, shown in the table above.`});
-  out.push({id:'linked',heading:`What data does ${a.name} link to your identity?`,body:c.linked.length?`${plural(c.linked.length,'data type')} ${c.linked.length===1?'is':'are'} listed as Data Linked to You: ${list(c.linked)}.${c.notLinked.length?` A further ${plural(c.notLinked.length,'type')} (${list(c.notLinked)}) ${c.notLinked.length===1?'is':'are'} collected without being linked to you.`:''}`:`None. The label lists ${plural(c.notLinked.length,'data type')} (${list(c.notLinked)}) as collected but not linked to your identity.`});
+  out.push({id:'tracking',heading:`Does ${a.name} track you?`,body:c.tracked.length?`Yes: ${list(c.tracked)}. Refuse the request under Settings › Privacy › Tracking.`:`No tracking data is listed for ${a.name}.`});
+  out.push({id:'linked',heading:`What data does ${a.name} link to your identity?`,body:c.linked.length?`${c.linked.length} of ${a.name}’s ${c.collected.length} data types${c.notLinked.length?` (${c.notLinked.length} also kept unlinked)`:''}.`:`None of the ${c.collected.length}.`});
  }
  return out;
 }

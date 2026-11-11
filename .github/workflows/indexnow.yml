@@ -1,0 +1,22 @@
+name: IndexNow
+# Pushes the sitemap to IndexNow after each successful Vercel production deployment.
+on:
+  deployment_status:
+  workflow_dispatch:
+    inputs:
+      paths:
+        description: Space-separated paths to submit (leave empty for the whole sitemap)
+        required: false
+jobs:
+  submit:
+    if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Submit
+        env:
+          PATHS: ${{ github.event.inputs.paths }}
+        run: node scripts/indexnow.mjs $PATHS

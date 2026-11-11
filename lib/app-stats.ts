@@ -25,15 +25,18 @@ export function categoryStats(a:AppleApp):CategoryStats|null{
 }
 export function categorySentence(a:AppleApp){
  const s=categoryStats(a),me=rows.get(a.id);if(!s)return null;
- const base=`Across ${s.reported} ${s.category} apps with a captured label in this directory, the median app collects ${s.medianCollected} data types and ${s.trackingShare}% report data used to track you.`;
- if(!me)return base;
- const position=s.rank==='fewer'?`${a.name} discloses fewer (${me.collected}); ${s.fewerThanShare}% of these apps disclose more.`:s.rank==='more'?`${a.name} discloses more (${me.collected}) than the median.`:`${a.name} sits at the median with ${me.collected}.`;
- return `${base} ${position}`;
+ if(!me)return `${s.category} median: ${s.medianCollected} data types across ${s.reported} apps here; ${s.trackingShare}% track.`;
+ const word=s.rank==='fewer'?'below':s.rank==='more'?'above':'at';
+ return `${a.name}: ${me.collected}, ${word} the ${s.category} median (${s.medianCollected})${s.fewerThanShare!=null?`; ${s.fewerThanShare}% collect more`:''}.`;
 }
 /** Up to n apps in the same category whose label is closest in size: real siblings, not an alphabetical list. */
 export function nearestPeers(a:AppleApp,n=3){
  const peers=byCategory.get(a.categoryId)??[];const me=rows.get(a.id);const target=me?.collected??0;
- return peers.filter(p=>p.app.id!==a.id).sort((x,y)=>Math.abs(x.collected-target)-Math.abs(y.collected-target)||x.app.name.localeCompare(y.app.name)).slice(0,n);
+ // Ties are broken by a per-app hash, so apps with equal label sizes get different peers.
+ const mix=(id:number)=>{let h=(id^a.id)>>>0;h=Math.imul(h^(h>>>16),0x45d9f3b)>>>0;return (h^(h>>>16))>>>0;};
+ return peers.filter(p=>p.app.id!==a.id).sort((x,y)=>Math.abs(x.collected-target)-Math.abs(y.collected-target)||mix(x.app.id)-mix(y.app.id)).slice(0,n);
 }
-export function sameDeveloper(a:AppleApp,n=6){return (byDeveloper.get(a.developer)??[]).filter(b=>b.id!==a.id).slice(0,n);}
+const pairHash=(x:number,y:number)=>{let h=(x^Math.imul(y,0x9e3779b1))>>>0;h=Math.imul(h^(h>>>16),0x45d9f3b)>>>0;return (h^(h>>>16))>>>0;};
+/** A per-page rotation of the developer's other apps, so sibling pages don't repeat one list. */
+export function sameDeveloper(a:AppleApp,n=2){return (byDeveloper.get(a.developer)??[]).filter(b=>b.id!==a.id).sort((x,y)=>pairHash(a.id,x.id)-pairHash(a.id,y.id)).slice(0,n);}
 export function peerRow(app:AppleApp){const r=rows.get(app.id);return r?{collected:r.collected,tracked:r.tracked,linked:r.linked}:null;}
