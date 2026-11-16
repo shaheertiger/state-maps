@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" data-handoff-label="リンクをSMSで送る" data-handoff-sms-prefix="Vaultaireをインストール:" data-handoff-card-title="VaultaireはiPhoneとiPadのアプリです" data-handoff-card-subtitle="iPhoneカメラをコードに向けてインストール — アカウント不要。" data-handoff-card-link="またはリンクをSMSで送る" data-handoff-qr-alt="QRコード — iPhoneカメラでスキャンしてVaultaireをインストール">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- core / feature / guides stylesheets: injected by the site template (same as every /ja/gaido/ page) -->
+  <title>iPhoneでアプリを非表示にする方法（2026年完全ガイド）</title>
+  <meta name="description" content="iPhoneでアプリを非表示にする5つの方法を解説。iOS 18の「非表示にしてFace IDを必要にする」、ホーム画面から取り除く、スクリーンタイム、購入履歴の非表示まで。隠したアプリの探し方と、見られる人も整理しました。">
+  <meta property="og:title" content="iPhoneでアプリを非表示にする方法｜iOS 18の隠しフォルダと4つの別の方法">
+  <meta property="og:description" content="アプリを非表示にしても、パスコードを知っている人は開けます。iOS 18の非表示機能の手順、隠したアプリの探し方、アプリの中身まで守る方法を順番に説明します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vaultaire.app/ja/gaido/iphone-apuri-kakusu/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://vaultaire.app/ja/gaido/iphone-apuri-kakusu/">
+  <meta property="og:site_name" content="Vaultaire">
+  <meta property="og:image" content="https://vaultaire.app/assets/social-share.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vaultaire — local-first encrypted vault for iOS">
+  <meta name="twitter:title" content="iPhoneでアプリを非表示にする方法（2026年完全ガイド）">
+  <meta name="twitter:description" content="アイコンを隠すことと、アプリの中身を守ることは別の話です。5つの方法と、それぞれで防げることを整理しました。">
+  <meta name="twitter:image" content="https://vaultaire.app/assets/social-share.png">
+  <meta name="twitter:image:alt" content="Vaultaire — local-first encrypted vault for iOS">
+  <meta name="twitter:site" content="@vaultaire_app">
+  <meta name="twitter:creator" content="@synopsi">
+  <meta property="article:published_time" content="2026-11-16T00:00:00Z">
+  <meta property="article:modified_time" content="2026-11-16T00:00:00Z">
+  <meta name="theme-color" content="#20233C" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#D1D1E9" media="(prefers-color-scheme: light)">
+  <meta property="og:locale" content="ja_JP">
+  <link rel="alternate" type="application/rss+xml" title="Vaultaire Updates" href="https://vaultaire.app/feed.xml">
+  <link rel="alternate" hreflang="ja" href="https://vaultaire.app/ja/gaido/iphone-apuri-kakusu/">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "iPhoneでアプリを非表示にする方法（2026年完全ガイド）",
+  "description": "iPhoneでアプリを非表示にする5つの方法を解説。iOS 18の「非表示にしてFace IDを必要にする」、ホーム画面から取り除く、スクリーンタイム、購入履歴の非表示まで。隠したアプリの探し方と、見られる人も整理しました。",
+  "author": {
+    "@type": "Person",
+    "name": "Rasty Turek",
+    "url": "https://turek.co",
+    "jobTitle": "Founder & Engineer",
+    "sameAs": [
+      "https://turek.co",
+      "https://www.linkedin.com/in/synopsi/",
+      "https://x.com/synopsi"
+    ]
+  },
+  "image": "https://vaultaire.app/assets/guides/iphone-apuri-kakusu/hero.webp",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wraxle LLC",
+    "alternateName": "Vaultaire",
+    "url": "https://vaultaire.app",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vaultaire.app/assets/vault-logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "mainEntityOfPage": "https://vaultaire.app/ja/gaido/iphone-apuri-kakusu/",
+  "inLanguage": "ja",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Appleサポート: iPhoneユーザガイド",
+      "url": "https://support.apple.com/ja-jp/guide/iphone/welcome/ios"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "NIST SP 800-38D: Galois/Counter Mode (GCM)",
+      "url": "https://csrc.nist.gov/pubs/sp/800/38/d/final"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "iPhoneでアプリを非表示にする方法",
+  "description": "iOS 18の「非表示にしてFace IDを必要にする」でアプリを隠す手順と、Vaultaireで写真や動画を暗号化して保管する手順。",
+  "totalTime": "PT10M",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "隠したいアプリのアイコンを長押しする",
+      "text": "ホーム画面またはAppライブラリで、非表示にしたいアプリのアイコンを長押しします。メニューが表示されたら指を離します。アイコンが揺れ始めた場合は、編集モードに入っているので、一度画面の空いた場所をタップして終了し、もう一度長押しします。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "「Face IDを必要にする」をタップする",
+      "text": "メニューの中から 「Face IDを必要にする」 （Touch IDの機種では「Touch IDを必要にする」、どちらもない場合は「パスコードを必要にする」）をタップします。この項目が表示されないアプリは、ロックにも非表示にも対応していません。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "「非表示にしてFace IDを必要にする」を選ぶ",
+      "text": "2つの選択肢が表示されます。アイコンを残したままロックだけしたい場合は「Face IDを必要にする」、アイコンも消したい場合は 「非表示にしてFace IDを必要にする」 を選びます。Face IDで本人確認をすると、アイコンがホーム画面から消えます。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "「非表示」フォルダに入ったことを確認する",
+      "text": "ホーム画面を左へ最後までスワイプしてAppライブラリを開き、一番下までスクロールします。 「非表示」 フォルダをタップし、Face IDで認証すると、隠したアプリが一覧に表示されます。ここから直接アプリを起動できます。 なお、設定アプリ、カメラ、時計、マップ、探す、ショートカットなど、一部のApple純正アプリは非表示にできません。これらはロックのみ、または何も設定できない場合があります。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Vaultaireをインストールして開く",
+      "text": "App StoreからVaultaireをインストール して開きます。アカウント作成もメールアドレスの登録もありません。25個の点が並ぶ5x5のグリッドが表示されます。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "パターンを描いて保管庫を作る",
+      "text": "少なくとも6つの点を、少なくとも1回方向を変えてつなぐパターンを描きます。iPhoneのパスコードとは関係のない形を選んでください。パスコードを知っている人でも、このパターンがなければ保管庫を開けません。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "写真や動画を読み込む",
+      "text": "保管庫の中の読み込みボタンから、カメラロールの写真や動画を選びます。読み込んだファイルはその場で暗号化されます。アプリ内のカメラで撮影すれば、最初から写真ライブラリを通さずに保存できます。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 8,
+      "name": "元の写真と「最近削除した項目」を削除する",
+      "text": "読み込み後、Vaultaireが写真アプリの元の写真を削除するか尋ねます。削除した写真は「最近削除した項目」に30日間残るため、そこも空にします。これで暗号化されていないコピーが端末に残りません。"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "iPhoneで非表示にしたアプリはどこにありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iOS 18以降で非表示にしたアプリは、Appライブラリの一番下にある「非表示」フォルダにあります。ホーム画面を左へ最後までスワイプし、下までスクロールしてフォルダをタップし、Face ID、Touch ID、またはパスコードで認証すると表示されます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "非表示にしたアプリの通知は届きますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iOS 18の非表示機能を使ったアプリは、通知やアプリ内の着信表示が出なくなります。「ホーム画面から取り除く」を選んだだけのアプリは、通知がそのまま届き、ロック画面に内容が表示されることがあります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "パスコードを知っている人は非表示のアプリを開けますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。「非表示」フォルダの認証はFace IDに失敗するとパスコード入力に切り替わるため、パスコードを知っている人はフォルダを開き、アプリを起動できます。パスコードそのものを変えない限り、この点は防げません。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "LINEやマッチングアプリも非表示にできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "多くのApp Storeのアプリは、iOS 18以降で非表示にできます。アイコンを長押しして「Face IDを必要にする」が表示されれば対応しています。ただし、アプリが写真アプリに保存した画像は、アプリを隠しても写真ライブラリに残ります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "iOS 17以前のiPhoneでアプリに鍵をかけられますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iOS 17以前には、アプリごとにFace IDを要求する公式機能はありません。「ホーム画面から取り除く」で見えにくくするか、スクリーンタイムの「App使用時間の制限」で利用時間をゼロに近づけ、スクリーンタイム用パスコードを求める方法が一般的です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "アプリを非表示にするとデータは消えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "いいえ。どの方法でも、アプリ本体とデータはそのまま残ります。非表示を解除すれば、以前と同じ状態で使えます。データを消したい場合は、アプリを削除する必要があります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "写真を隠すためにアプリを隠すのは効果がありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "写真が写真アプリに入っている限り、効果はありません。写真を写真ライブラリから外し、暗号化された保管庫に移すほうが確実です。 非表示の写真の保存場所と見られる人 も参考にしてください。"
+      }
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ホーム",
+      "item": "https://vaultaire.app/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "ガイド",
+      "item": "https://vaultaire.app/ja/gaido/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "iPhoneでアプリを非表示にする方法",
+      "item": "https://vaultaire.app/ja/gaido/iphone-apuri-kakusu/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="https://vaultaire.app/ja/">ホーム</a><span>/</span>
+        <a href="https://vaultaire.app/ja/gaido/">ガイド</a><span>/</span>
+        iPhoneでアプリを非表示にする方法（2026年完全ガイド）
+      </nav>
+
+      <article class="feature-article">
+        <div class="feature-hero">
+          <img src="https://vaultaire.app/assets/guides/iphone-apuri-kakusu/hero.webp" alt="ホーム画面からアイコンが消え、Appライブラリの「非表示」フォルダにFace IDの鍵マークが付いたiPhone" width="800" height="450" class="guide-hero-img" loading="eager" decoding="async" fetchpriority="high">
+          <h1>iPhoneでアプリを非表示にする方法（2026年完全ガイド）</h1>
+          <p class="hero-lead">アイコンを隠すことと、アプリの中身を守ることは別の話です。5つの方法と、それぞれで防げることを整理しました。</p>
+        <div class="hero-actions guide-hero-actions"><a class="btn btn-primary" data-appstore-card="" href="https://vaultaire.app/go/app-store?ct=web_gb_iphone_apuri_kakusu&amp;src=%2Fja%2Fgaido%2Fiphone-apuri-kakusu%2F">アプリを入手</a><div class="ios-handoff" data-ios-handoff=""><div class="ioh-card"><img class="ioh-qr" src="https://vaultaire.app/assets/qr-appstore.png" width="104" height="104" loading="lazy" alt="QRコード — iPhoneカメラでスキャンしてVaultaireをインストール"><span class="ioh-meta"><span class="ioh-h">VaultaireはiPhoneとiPadのアプリです</span><span class="ioh-s">iPhoneカメラをコードに向けてインストール — アカウント不要。</span><a class="ioh-text" data-cta-name="download_app_handoff" href="sms:?&amp;body=Vaultaire%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%3A%20https%3A%2F%2Fvaultaire.app%2Fgo%2Fapp-store%3Fct%3Dweb_sms">またはリンクをSMSで送る</a></span></div></div></div></div>
+
+<p>iOS 18以降では、アプリのアイコンを長押しして<strong>「Face IDを必要にする」</strong>→<strong>「非表示にしてFace IDを必要にする」</strong>を選ぶと、アプリがホーム画面から消え、Appライブラリの一番下にある<strong>「非表示」</strong>フォルダに移ります。ただし、非表示はアプリを見えにくくする機能であり、アプリの中に保存された写真や書類を暗号化するものではありません。写真そのものを守りたい場合は、<a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-shashin-rokku/">iPhoneで写真をロックする方法</a>もあわせてご覧ください。</p>
+
+<aside class="guide-intent-answer" data-guide-intent-module="hide-apps-answer" data-guide-intent-locale="ja">
+  <div class="guide-intent-answer-copy">
+    <h2>すぐわかる答え</h2>
+    <p>iphone アプリ 非表示は、iOS 18以降ならアイコンの長押しから2タップで設定できます。隠したアプリはAppライブラリの「非表示」フォルダに入り、開くにはFace ID、Touch ID、またはパスコードが必要です。</p>
+  </div>
+  <dl class="guide-intent-answer-grid">
+    <div><dt>やり方</dt><dd>アイコンを長押し、「Face IDを必要にする」、「非表示にしてFace IDを必要にする」の順にタップします。</dd></div>
+    <div><dt>どこに行くか</dt><dd>Appライブラリ（ホーム画面を左へ最後までスワイプ）の一番下にある「非表示」フォルダです。</dd></div>
+    <div><dt>誰が開けるか</dt><dd>Face IDに登録された人と、iPhoneのパスコードを知っている人です。</dd></div>
+    <div><dt>足りない場面</dt><dd>アプリが写真アプリに保存した画像や、iCloudに同期されたデータは、アプリを隠しても隠れません。</dd></div>
+  </dl>
+</aside>
+
+        <p>「アプリ 非表示」は、iPhoneのプライバシー関連で最もよく検索される操作のひとつです。理由はさまざまです。ホーム画面をすっきりさせたい、子供に触られたくない、マッチングアプリや家計簿アプリを家族に見られたくない。どの理由でも、まず知っておきたいのは、iOSには目的の違う「隠し方」が少なくとも5つあるということです。</p>
+        <p>この記事では、iOS 18以降の公式の非表示機能から、iOS 17以前でも使える方法、購入履歴の非表示までを順番に解説します。そのうえで、非表示にしたアプリを誰が開けるのか、アプリの中身まで守るには何が必要なのかを整理します。</p>
+
+        <div class="verdict-box">
+          <h2>中身まで守るなら：Vaultaire</h2>
+          <p>アプリの非表示はアイコンの置き場所を変える機能です。見られたくないのが写真や動画そのものなら、Vaultaireのように読み込んだファイルをランダムなマスターキーの下でAES-256-GCMにより暗号化する保管庫に移すほうが確実です。保管庫キーは5x5のグリッドに描くパターンから導出され、アカウント登録は不要です。</p>
+        </div>
+
+        <h2 id="quick-answer">簡潔な答え：iPhoneでアプリを非表示にする方法</h2>
+        <p><strong>iPhoneでアプリを非表示にする方法</strong>を探しているなら、最も確実なのはiOS 18以降の「非表示にしてFace IDを必要にする」です。ホーム画面、検索、Siriの提案、通知からアプリが消え、Appライブラリの「非表示」フォルダを開くときに認証が求められます。</p>
+        <p><strong>アプリを隠すだけ</strong>でよく、認証までは不要なら、アイコンを長押しして「Appを削除」→「ホーム画面から取り除く」を選びます。アプリはAppライブラリに残り、検索からも開けますが、ホーム画面には表示されなくなります。iOS 17以前のiPhoneでは、この方法とスクリーンタイムの組み合わせが中心になります。</p>
+
+        <h2>非表示とロック：重要な区別</h2>
+        <p>iOS 18では、アプリに対して「ロック」と「非表示」の2つを選べます。ロックはアイコンをホーム画面に残したまま、起動時にFace IDを求めます。非表示はロックに加えて、アイコンそのものをホーム画面から外し、「非表示」フォルダにしまいます。</p>
+        <p>どちらも、アプリを開く入口に鍵をかける仕組みです。アプリが保存しているデータそのものを、別の鍵で暗号化し直すわけではありません。パスコードを知っている人なら、どちらの鍵も開けられます。</p>
+        <div class="guide-data-table-wrap">
+          <table class="guide-data-table">
+            <thead>
+              <tr><th></th><th>ホーム画面から取り除く</th><th>ロック（Face IDを必要にする）</th><th>非表示にしてFace IDを必要にする</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>ホーム画面のアイコン</td><td>消える</td><td>残る</td><td>消える</td></tr>
+              <tr><td>検索・Siriの提案</td><td>表示される</td><td>表示される</td><td>表示されない</td></tr>
+              <tr><td>通知の内容</td><td>表示される</td><td>表示されない</td><td>表示されない</td></tr>
+              <tr><td>起動時の認証</td><td>なし</td><td>Face ID／Touch ID／パスコード</td><td>Face ID／Touch ID／パスコード</td></tr>
+              <tr><td>パスコードを知っている人</td><td>開ける</td><td>開ける</td><td>開ける</td></tr>
+              <tr><td>対応iOS</td><td>iOS 14以降</td><td>iOS 18以降</td><td>iOS 18以降</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>見られたくない相手がiPhoneをたまに借りる友人なら、非表示で十分です。相手がパスコードを知っている家族やパートナーなら、アイコンを隠しても根本的な解決にはなりません。</p>
+
+        <h2>iOS 18でアプリを非表示にする方法</h2>
+        <p>iOS 18以降の非表示機能は、iPhoneにFace ID、Touch ID、またはパスコードが設定されていることが前提です。設定されていない場合は、先に「設定」→「Face IDとパスコード」で登録してください。</p>
+
+        <h3>ステップ1：隠したいアプリのアイコンを長押しする</h3>
+        <p>ホーム画面またはAppライブラリで、非表示にしたいアプリのアイコンを長押しします。メニューが表示されたら指を離します。アイコンが揺れ始めた場合は、編集モードに入っているので、一度画面の空いた場所をタップして終了し、もう一度長押しします。</p>
+
+        <h3>ステップ2：「Face IDを必要にする」をタップする</h3>
+        <p>メニューの中から<strong>「Face IDを必要にする」</strong>（Touch IDの機種では「Touch IDを必要にする」、どちらもない場合は「パスコードを必要にする」）をタップします。この項目が表示されないアプリは、ロックにも非表示にも対応していません。</p>
+
+        <h3>ステップ3：「非表示にしてFace IDを必要にする」を選ぶ</h3>
+        <p>2つの選択肢が表示されます。アイコンを残したままロックだけしたい場合は「Face IDを必要にする」、アイコンも消したい場合は<strong>「非表示にしてFace IDを必要にする」</strong>を選びます。Face IDで本人確認をすると、アイコンがホーム画面から消えます。</p>
+
+        <h3>ステップ4：「非表示」フォルダに入ったことを確認する</h3>
+        <p>ホーム画面を左へ最後までスワイプしてAppライブラリを開き、一番下までスクロールします。<strong>「非表示」</strong>フォルダをタップし、Face IDで認証すると、隠したアプリが一覧に表示されます。ここから直接アプリを起動できます。</p>
+        <p>なお、設定アプリ、カメラ、時計、マップ、探す、ショートカットなど、一部のApple純正アプリは非表示にできません。これらはロックのみ、または何も設定できない場合があります。</p>
+
+        <h2>非表示にしたアプリを探す・元に戻す方法</h2>
+        <p>「アプリが消えた」と感じたときは、ほとんどの場合、次のどこかにあります。</p>
+        <ol>
+          <li><strong>Appライブラリの「非表示」フォルダ</strong>：iOS 18以降で非表示にしたアプリです。認証して開きます。</li>
+          <li><strong>Appライブラリの通常のカテゴリ</strong>：「ホーム画面から取り除く」を選んだアプリです。上部の検索欄にアプリ名を入力しても見つかります。</li>
+          <li><strong>非表示にしたホーム画面のページ</strong>：ページごと隠している場合です。ホーム画面を長押しし、下部のドットをタップすると、非表示のページにチェックを入れて戻せます。</li>
+          <li><strong>スクリーンタイムの制限</strong>：「許可されたApp」でオフにした純正アプリや、年齢制限にかかったアプリは、制限を解除するまで表示されません。</li>
+        </ol>
+        <p>iOS 18の非表示を解除するには、「非表示」フォルダでアプリのアイコンを長押しし、<strong>「Face IDを必要としない」</strong>をタップします。解除したアプリはAppライブラリに戻るため、ホーム画面に置きたい場合は、アイコンを長押しして「ホーム画面に追加」を選んでください。</p>
+
+        <h2>iPhoneでアプリを隠すほかの方法（iOS 17以前でも可）</h2>
+
+        <h3>ホーム画面から取り除く</h3>
+        <p>アイコンを長押しして「Appを削除」→「ホーム画面から取り除く」を選びます。アプリ本体とデータは残り、Appライブラリから開けます。新しくインストールしたアプリが自動でホーム画面に並ばないようにするには、「設定」→「ホーム画面とAppライブラリ」で<strong>「Appライブラリのみ」</strong>を選びます。認証はないため、Appライブラリや検索を開けば誰でも見つけられます。</p>
+
+        <h3>ホーム画面のページごと隠す</h3>
+        <p>隠したいアプリを1つのページにまとめ、ホーム画面の空いた場所を長押しして下部のドットをタップし、そのページのチェックを外します。ページは消えますが、アプリはAppライブラリと検索に残ります。整理には便利ですが、隠す効果は「ホーム画面から取り除く」と同じです。</p>
+
+        <h3>スクリーンタイムで純正アプリや年齢制限アプリを隠す</h3>
+        <p>「設定」→「スクリーンタイム」→「コンテンツとプライバシーの制限」をオンにし、「許可されたApp」（iOSのバージョンによっては「許可されたAppと機能」）でSafariやカメラなどの純正アプリをオフにすると、アイコンが検索からも消えます。「コンテンツ制限」の「App」で年齢制限を設定すれば、それより上のレーティングのアプリも表示されなくなります。スクリーンタイム用のパスコードを設定すれば、iPhoneのパスコードとは別の鍵になります。</p>
+
+        <h3>App Storeの購入履歴から隠す</h3>
+        <p>アプリを隠しても、App Storeの「購入済み」には履歴が残ります。App Storeを開き、右上のアカウントアイコン→「購入済み」でアプリを左にスワイプし、<strong>「非表示」</strong>をタップします。ファミリー共有をしている場合、家族の画面にも表示されなくなります。アプリ自体はiPhoneから消えません。</p>
+
+        <h2>iPhoneでアプリを隠す5つの方法（比較）</h2>
+        <p>以下は、手軽なものから隠す効果が強いものの順に並べた比較表です。</p>
+        <div class="compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr><th>方法</th><th>アイコン</th><th>検索・通知</th><th>認証</th><th>パスコード保持者</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>ホーム画面から取り除く</td><td>消える</td><td>表示される</td><td>なし</td><td>見つけられる</td></tr>
+              <tr><td>ページを隠す</td><td>消える</td><td>表示される</td><td>なし</td><td>見つけられる</td></tr>
+              <tr><td>購入履歴の非表示</td><td>変わらない</td><td>変わらない</td><td>なし</td><td>見つけられる</td></tr>
+              <tr><td>スクリーンタイム</td><td>消える</td><td>表示されない</td><td>スクリーンタイム用パスコード</td><td>別のパスコードなら防げる</td></tr>
+              <tr><td>iOS 18の非表示</td><td>消える</td><td>表示されない</td><td>Face ID／パスコード</td><td>開ける</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>非表示にしたアプリは本当に隠れているか（確認ポイント）</h2>
+        <p>多くのガイドは「非表示を選べば完了」で終わります。実際には、アプリを隠しても痕跡が残る場所がいくつかあります。自分のiPhoneで次の点を確認してみてください。</p>
+
+        <h3>確認1：「非表示」フォルダの存在</h3>
+        <p>iOS 18の非表示機能を使うと、Appライブラリの一番下に「非表示」フォルダが表示されます。中身は認証するまで見えませんが、フォルダがあること自体は誰でもわかります。</p>
+        <p><strong>結果：</strong>何を隠しているかは見えなくても、何かを隠していることは伝わります。</p>
+
+        <h3>確認2：パスコードによる解除</h3>
+        <p>「非表示」フォルダの認証でFace IDに失敗すると、iPhoneのパスコード入力に切り替わります。パスコードは常にFace IDの代わりとして機能します。</p>
+        <p><strong>結果：</strong>パスコードを知っている人は、非表示のアプリを一覧表示し、そのまま起動できます。</p>
+
+        <h3>確認3：アプリの外に出たデータ</h3>
+        <p>隠したアプリで撮影や保存をした写真が写真アプリに入っている場合、その写真はアプリを隠しても写真ライブラリに表示されます。iCloudに同期されたデータも、同じApple IDでサインインした別のiPadやMacで見えます。</p>
+        <p><strong>結果：</strong>アプリの非表示が守るのはアイコンと通知だけです。アプリの外に出たデータは守れません。</p>
+
+        <h3>これが意味すること</h3>
+        <p>アプリの非表示が防ぐのは、ロック解除されたiPhoneを手に取った人が、ホーム画面や通知から何を使っているかを知ることです。パスコードを知っている人、写真ライブラリを見る人、iCloudアカウントにアクセスできる人に対しては、ほとんど効果がありません。</p>
+
+        <h2>誰から隠していますか？脅威モデル</h2>
+        <p>適切な方法は、誰から隠したいかによって決まります。</p>
+        <p><strong>第1段階：何気なく見る人。</strong>友人や同僚、子供が、ロック解除されたiPhoneを少し借りる場合です。iOS 18の非表示で十分です。ホーム画面にも検索にも通知にも出てきません。</p>
+        <p><strong>第2段階：パスコードを知っている人。</strong>パートナーや家族がiPhoneのパスコードを知っている場合です。「非表示」フォルダは開けてしまいます。見られたくないのが写真や動画なら、iPhoneのパスコードとは別の鍵で暗号化する保管庫アプリが必要です。</p>
+        <p><strong>第3段階：iCloudやバックアップにアクセスできる人。</strong>共有のMacや家族のiPadが同じApple IDでサインインしている場合や、パスワードが漏れた場合です。アプリの非表示は端末の画面上だけの設定なので、データの同期先は守れません。</p>
+        <div id="threat-matrix" class="compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr><th>相手</th><th>ホーム画面から取り除く</th><th>iOS 18の非表示</th><th>スクリーンタイム（別パスコード）</th><th>暗号化保管庫（AES-256）</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>何気なく見る人</td><td>部分的</td><td>対応</td><td>対応</td><td>対応</td></tr>
+              <tr><td>パスコード保持者</td><td>非対応</td><td>非対応</td><td>部分的</td><td>対応</td></tr>
+              <tr><td>写真ライブラリを見る人</td><td>非対応</td><td>非対応</td><td>非対応</td><td>対応</td></tr>
+              <tr><td>iCloudにアクセスできる人</td><td>非対応</td><td>非対応</td><td>非対応</td><td>対応（暗号化バックアップ）</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>アプリの中身を守る：写真や動画を暗号化保管庫に移す方法</h2>
+        <p>本当に隠したいのがアプリではなく写真や動画なら、アイコンではなくファイルに鍵をかけます。<a class="inline-link" href="https://vaultaire.app/ja/">Vaultaire</a>は、読み込んだファイルをAES-256-GCMで暗号化し、<a class="inline-link" href="https://vaultaire.app/ja/kino/pattern-angoka/">5x5のグリッド</a>に描いたパターンから導出した保管庫キーでマスターキーを保護します。</p>
+
+        <h3>ステップ1：Vaultaireをインストールして開く</h3>
+        <p><a class="inline-link" href="https://vaultaire.app/go/app-store?ct=web_g_iphone_apuri_kakusu&amp;src=%2Fja%2Fgaido%2Fiphone-apuri-kakusu%2F">App StoreからVaultaireをインストール</a>して開きます。アカウント作成もメールアドレスの登録もありません。25個の点が並ぶ5x5のグリッドが表示されます。</p>
+
+        <h3>ステップ2：パターンを描いて保管庫を作る</h3>
+        <p>少なくとも6つの点を、少なくとも1回方向を変えてつなぐパターンを描きます。iPhoneのパスコードとは関係のない形を選んでください。パスコードを知っている人でも、このパターンがなければ保管庫を開けません。</p>
+
+        <h3>ステップ3：写真や動画を読み込む</h3>
+        <p>保管庫の中の読み込みボタンから、カメラロールの写真や動画を選びます。読み込んだファイルはその場で暗号化されます。アプリ内のカメラで撮影すれば、最初から写真ライブラリを通さずに保存できます。</p>
+
+        <h3>ステップ4：元の写真と「最近削除した項目」を削除する</h3>
+        <p>読み込み後、Vaultaireが写真アプリの元の写真を削除するか尋ねます。削除した写真は「最近削除した項目」に30日間残るため、そこも空にします。これで暗号化されていないコピーが端末に残りません。</p>
+
+        <h2>アプリを隠すときのよくある間違い</h2>
+        <ul>
+          <li><strong>アイコンを隠せば中身も隠れると思っている。</strong>アプリが写真アプリに保存した画像やスクリーンショットは、写真ライブラリにそのまま表示されます。</li>
+          <li><strong>購入履歴を見落としている。</strong>App Storeの「購入済み」には、隠したアプリも残っています。ファミリー共有中なら家族からも見えます。</li>
+          <li><strong>通知プレビューを確認していない。</strong>「ホーム画面から取り除く」だけでは、ロック画面に通知の内容が表示されます。iOS 18の非表示か、「設定」→「通知」でプレビューを制限してください。</li>
+          <li><strong>スクリーンタイムのパスコードをiPhoneと同じにしている。</strong>同じ数字では鍵が1つしかないのと同じです。別の数字にしてください。</li>
+          <li><strong>パスコードを人に教えたままにしている。</strong>iOS 18の非表示はパスコードで解除できます。パスコードを知っている人がいるなら、まず変更を検討してください。</li>
+        </ul>
+
+        <section class="guide-sources">
+        <h2>情報源</h2>
+        <ul>
+        <li><a class="inline-link" href="https://support.apple.com/ja-jp/guide/iphone/welcome/ios">Appleサポート: iPhoneユーザガイド</a></li>
+        <li><a class="inline-link" href="https://support.apple.com/ja-jp/HT201304">Appleサポート: スクリーンタイムでペアレンタルコントロールを使う</a></li>
+        <li><a class="inline-link" href="https://vaultaire.app/ja/kino/security-architecture/">Vaultaireのセキュリティ機能</a></li>
+        </ul>
+        </section>
+
+        <h2>よくある質問</h2>
+        <h3>iPhoneで非表示にしたアプリはどこにありますか？</h3>
+        <p>iOS 18以降で非表示にしたアプリは、Appライブラリの一番下にある「非表示」フォルダにあります。ホーム画面を左へ最後までスワイプし、下までスクロールしてフォルダをタップし、Face ID、Touch ID、またはパスコードで認証すると表示されます。</p>
+        <h3>非表示にしたアプリの通知は届きますか？</h3>
+        <p>iOS 18の非表示機能を使ったアプリは、通知やアプリ内の着信表示が出なくなります。「ホーム画面から取り除く」を選んだだけのアプリは、通知がそのまま届き、ロック画面に内容が表示されることがあります。</p>
+        <h3>パスコードを知っている人は非表示のアプリを開けますか？</h3>
+        <p>はい。「非表示」フォルダの認証はFace IDに失敗するとパスコード入力に切り替わるため、パスコードを知っている人はフォルダを開き、アプリを起動できます。パスコードそのものを変えない限り、この点は防げません。</p>
+        <h3>LINEやマッチングアプリも非表示にできますか？</h3>
+        <p>多くのApp Storeのアプリは、iOS 18以降で非表示にできます。アイコンを長押しして「Face IDを必要にする」が表示されれば対応しています。ただし、アプリが写真アプリに保存した画像は、アプリを隠しても写真ライブラリに残ります。</p>
+        <h3>iOS 17以前のiPhoneでアプリに鍵をかけられますか？</h3>
+        <p>iOS 17以前には、アプリごとにFace IDを要求する公式機能はありません。「ホーム画面から取り除く」で見えにくくするか、スクリーンタイムの「App使用時間の制限」で利用時間をゼロに近づけ、スクリーンタイム用パスコードを求める方法が一般的です。</p>
+        <h3>アプリを非表示にするとデータは消えますか？</h3>
+        <p>いいえ。どの方法でも、アプリ本体とデータはそのまま残ります。非表示を解除すれば、以前と同じ状態で使えます。データを消したい場合は、アプリを削除する必要があります。</p>
+        <h3>写真を隠すためにアプリを隠すのは効果がありますか？</h3>
+        <p>写真が写真アプリに入っている限り、効果はありません。写真を写真ライブラリから外し、暗号化された保管庫に移すほうが確実です。<a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-kakushi-shashin/">非表示の写真の保存場所と見られる人</a>も参考にしてください。</p>
+
+<aside class="guide-lockout-links" data-guide-lockout-links="ja" aria-labelledby="guide-lockout-links-title">
+  <p id="guide-lockout-links-title" class="guide-lockout-links-title">パスワードのヘルプ</p>
+  <ul>
+    <li><a class="inline-link" href="https://vaultaire.app/ja/gaido/shashin-kinko-password-wasureta/" data-cta-name="guide_lockout_link">フォトボルトのパスワードを忘れた？回復方法を解説</a></li>
+    <li><a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-folder-password-hogo/" data-cta-name="guide_folder_link">iPhoneでフォルダをパスワード保護する方法</a></li>
+  </ul>
+</aside>
+
+        <h2>結論</h2>
+        <p>iPhoneのアプリを隠す方法は、iOS 18で大きく進歩しました。「非表示にしてFace IDを必要にする」を使えば、アイコン、検索、通知からアプリが消え、開くには認証が必要になります。ホーム画面を整理したい人や、何気なく見られるのを防ぎたい人には十分な機能です。</p>
+        <p>ただし、アプリを隠しても、アプリの外に出た写真やiCloudのデータは隠れません。そして、パスコードを知っている人は「非表示」フォルダを開けます。守りたいのがアプリではなく中身なら、iPhoneのパスコードとは別の鍵で暗号化する保管庫が必要です。</p>
+        <p>まずは、誰から隠したいのかを考えてください。答えは<a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-apuri-kakusu/#threat-matrix">上の脅威モデルの表</a>の中にあります。</p>
+
+        <p>関連記事：</p>
+        <ul>
+        <li><a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-shashin-rokku/">iPhoneで写真をロックする方法</a></li>
+        <li><a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-shashin-kakusu/">iPhoneで写真を非表示にする方法</a></li>
+        <li><a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-himitsu-folder/">iPhoneで秘密フォルダを作成する方法</a></li>
+        <li><a class="inline-link" href="https://vaultaire.app/ja/gaido/iphone-shashin-kinko-apuri-best/">iPhone向けベスト写真保管庫アプリ</a></li>
+        <li><a class="inline-link" href="https://vaultaire.app/ja/kino/appu-aikon/">Vaultaireのアプリアイコン</a></li>
+        </ul>
+
+        <div class="feature-cta">
+          <a href="https://vaultaire.app/go/app-store?ct=web_g_iphone_apuri_kakusu&amp;src=%2Fja%2Fgaido%2Fiphone-apuri-kakusu%2F" class="btn btn-primary">隠したいのがアプリの中身ならVaultaireで暗号化</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
