@@ -193,5 +193,95 @@
   "source": "/resources",
   "destination": "/guides",
   "permanent": true
+ },
+ {
+  "source": "/guides/how-to-hide-apps-on-iphone",
+  "destination": "/blog/how-to-hide-apps-on-iphone",
+  "permanent": true
+ },
+ {
+  "source": "/guides/how-to-lock-apps-on-iphone",
+  "destination": "/blog/how-to-lock-apps-on-iphone",
+  "permanent": true
+ },
+ {
+  "source": "/guides/how-to-hide-photos-on-iphone",
+  "destination": "/blog/how-to-hide-photos-iphone",
+  "permanent": true
+ },
+ {
+  "source": "/best-apps-to-hide-apps",
+  "destination": "/hide-apps",
+  "permanent": true
+ },
+ {
+  "source": "/best-app-lock-apps",
+  "destination": "/lock-apps",
+  "permanent": true
+ },
+ {
+  "source": "/best-photo-vault-apps",
+  "destination": "/blog/best-photo-vault-apps-iphone",
+  "permanent": true
+ },
+ {
+  "source": "/best-calculator-vault-apps",
+  "destination": "/best/vault-apps",
+  "permanent": true
+ },
+ {
+  "source": "/category/hide-apps",
+  "destination": "/hide-apps",
+  "permanent": true
+ },
+ {
+  "source": "/category/app-lock",
+  "destination": "/lock-apps",
+  "permanent": true
+ },
+ {
+  "source": "/category/photo-vault",
+  "destination": "/best/vault-apps",
+  "permanent": true
+ },
+ {
+  "source": "/category/private-notes",
+  "destination": "/lock-notes",
+  "permanent": true
+ },
+ {
+  "source": "/is-it-safe/:letter*",
+  "destination": "/app-privacy",
+  "permanent": true
+ },
+ {
+  "source": "/does-it-track-you/:letter*",
+  "destination": "/app-privacy",
+  "permanent": true
+ },
+ {
+  "source": "/lock-an-app/:letter*",
+  "destination": "/app-privacy",
+  "permanent": true
+ },
+ {
+  "source": "/app-privacy/:category(business|finance|health-fitness|lifestyle|medical|photo-video|productivity|social-networking|utilities)/:topic*",
+  "destination": "/app-privacy",
+  "permanent": true
+ },
+ {
+  "source": "/tools/app-privacy-checker",
+  "destination": "/tools",
+  "permanent": true
+ },
+ {
+  "source": "/tools/compare-apps",
+  "destination": "/tools",
+  "permanent": true
+ },
+ {
+  "source": "/tools/privacy-label-decoder",
+  "destination": "/tools",
+  "permanent": true
  }
 ]
