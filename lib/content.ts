@@ -4,6 +4,8 @@ import {hideAppsPillar} from './hide-apps-pillar';
 import {privacyExpansion,expansionSources} from './privacy-expansion';
 
 export const reviewedDate = "2026-10-31";
+// Guides gained common-mistakes and bottom-line sections on this date.
+export const guidesUpdated = "2026-11-17";
 export type Source = { title: string; url: string };
 export type Section = { heading: string; body: string; steps?: string[] };
 export type Article = {
@@ -115,7 +117,7 @@ const articleRecords: Article[] = [
     { heading: "Review records and copies separately", body: "Hiding an icon is not a promise that no account record of the app exists. Review notifications, account access and any files exported outside it. For private pictures, inspect Photos and the app's own recovery path too. Keep the device passcode private and decide whether its fallback behavior addresses your needs." },
   ], [{ q: "Does Remove from Home Screen uninstall an app?", a: "No. Removing an icon and deleting an application are different actions." }, { q: "Can every app be hidden?", a: "No. Eligibility and available controls depend on the app and installed release." }], [sources.apps]),
 ];
-export const articles:Article[]=articleRecords.map(a=>a.slug==='how-to-hide-apps-on-iphone'?{...a,...hideAppsPillar,sources:[sources.apps,{title:'Apple: Home Screen and App Library',url:'https://support.apple.com/en-ie/108324'},{title:'Apple: Siri suggestions',url:'https://support.apple.com/guide/iphone/turn-siri-suggestions-on-or-off-iph6f94af287/ios'},{title:'Apple: Screen Time schedules and allowances',url:'https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios'}]}:a);
+export const articles:Article[]=articleRecords.map(a=>a.slug==='how-to-hide-apps-on-iphone'?{...a,...hideAppsPillar,sources:[sources.apps,{title:'Apple: Home Screen and App Library',url:'https://support.apple.com/en-ie/108324'},{title:'Apple: Siri suggestions',url:'https://support.apple.com/guide/iphone/turn-siri-suggestions-on-or-off-iph6f94af287/ios'},{title:'Apple: Screen Time schedules and allowances',url:'https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios'}]}:a).map(a=>({...a,updated:guidesUpdated}));
 export const vaultComparison = [
   { name: "Apple Photos", fit: "Built-in hidden collection", protection: "Device authentication", limitation: "Part of the same Photos/account workflow", source: sources.hidden },
   { name: "Keepsafe", fit: "Dedicated vault workflow", protection: "Provider documents encrypted storage and PIN/biometrics", limitation: "Check recovery email, backup allowance and export", source: sources.keepsafe },

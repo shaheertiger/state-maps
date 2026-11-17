@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Menu, Search as SearchIcon, ChevronDown } from 'lucide-react';
-import { liveTasks, apps, terms, tools } from '@/lib/catalog';
+import { liveTasks, apps, terms, tools, taskUrl } from '@/lib/catalog';
 import { categories } from '@/lib/content';
 import { appleApps } from '@/lib/apple-apps';
 import TopicIcon from './icon';
@@ -21,10 +21,10 @@ export default function SiteHeader() {
       <Link href="/" className="logo">statemaps<span className="logo-tld">.net</span></Link>
       <nav aria-label="Main navigation" className="main-nav">
         <div className="menu">
-          <Link href="/hide-apps" className="menu-trigger">Privacy tasks <Chevron /></Link>
+          <Link href="/guides" className="menu-trigger">Privacy tasks <Chevron /></Link>
           <div className="menu-panel menu-panel-wide">
             <p className="menu-label">Step-by-step tasks</p>
-            <div className="menu-grid">{liveTasks.map(t => <Link href={`/${t.slug}`} key={t.slug} className="menu-item"><TopicIcon name={t.name} /><span><strong>{t.name}</strong><small>{t.method}</small></span></Link>)}</div>
+            <div className="menu-grid">{liveTasks.map(t => <Link href={taskUrl(t)} key={t.slug} className="menu-item"><TopicIcon name={t.name} /><span><strong>{t.name}</strong><small>{t.method}</small></span></Link>)}</div>
           </div>
         </div>
         <div className="menu">
@@ -40,8 +40,8 @@ export default function SiteHeader() {
           <Link href="/tools" className="menu-trigger">Tools <Chevron /></Link>
           <div className="menu-panel">
             {tools.map(t => <Link href={`/tools/${t.slug}`} key={t.slug} className="menu-item"><TopicIcon name={t.name} /><span><strong>{t.name}</strong><small>{t.description}</small></span></Link>)}
-            <Link href="/compare/photo-storage-options" className="menu-item"><TopicIcon name="compare" /><span><strong>Storage comparison</strong><small>Vaults, iCloud and hidden albums</small></span></Link>
-            <Link href="/best/vault-apps" className="menu-item"><TopicIcon name="vault" /><span><strong>Choose a vault</strong><small>Start from the access problem you have</small></span></Link>
+            <Link href="/blog/hidden-vs-encrypted-photo-vault" className="menu-item"><TopicIcon name="compare" /><span><strong>Storage comparison</strong><small>Vaults, iCloud and hidden albums</small></span></Link>
+            <Link href="/blog/best-photo-vault-apps-iphone" className="menu-item"><TopicIcon name="vault" /><span><strong>Choose a vault</strong><small>Start from the access problem you have</small></span></Link>
           </div>
         </div>
         <div className="menu">
@@ -68,10 +68,10 @@ export default function SiteHeader() {
         <div className="mobile-panel">
           <Search id="mobile-q" />
           <p className="menu-label">Privacy tasks</p>
-          <div className="mobile-links">{liveTasks.map(t => <Link href={`/${t.slug}`} key={t.slug}>{t.name}</Link>)}</div>
+          <div className="mobile-links">{liveTasks.map(t => <Link href={taskUrl(t)} key={t.slug}>{t.name}</Link>)}</div>
           <p className="menu-label">Reference</p>
           <div className="mobile-links">
-            <Link href="/app-privacy">App directory</Link><Link href="/apps">App references</Link><Link href="/tools">Tools</Link><Link href="/guides">Guides</Link><Link href="/glossary">Glossary</Link><Link href="/privacy-settings">Settings library</Link>
+            <Link href="/app-privacy">App directory</Link><Link href="/apps">App references</Link><Link href="/tools">Tools</Link><Link href="/guides">Guides</Link><Link href="/glossary">Glossary</Link>
           </div>
           <Link href="/tools/privacy-checkup" className="button">Start the privacy checkup</Link>
         </div>

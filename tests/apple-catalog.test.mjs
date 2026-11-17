@@ -23,3 +23,10 @@ test('an explicit unprovided disclosure stays distinct from a no-collection decl
 test('source dates use the confirmed client timezone at a UTC date boundary',()=>{assert.equal(sourceDate('2026-11-01T02:00:00Z'),'2026-10-31');});
 
 test('every published record retains its individual privacy disclosure provenance',()=>{for(const r of records){assert.ok(['reported','not-provided','not-extracted','fetch-failed','http-404','http-410','http-403','http-429'].includes(r.privacyStatus),r.slug);if(['reported','not-provided'].includes(r.privacyStatus)){assert.equal(r.privacySourceUrl,r.sourceUrl);assert.match(r.privacyResponseSha256,/^[a-f0-9]{64}$/);assert.ok(!Number.isNaN(Date.parse(r.privacyCheckedAt)));assert.ok(r.privacyCards.length);for(const c of r.privacyCards)assert.ok(['Data Used to Track You','Data Linked to You','Data Not Linked to You','Data Not Collected','No Details Provided'].includes(c.type),c.type);if(r.privacyStatus==='not-provided')assert.ok(r.privacyCards.every(c=>c.type==='No Details Provided'));}}});
+test('a category declared in several label groups reports every group',async()=>{
+ const {dataTypeRows,privacyFaq,thinkTwice}=await import('../lib/apple-profile.ts');
+ const r=records.find(x=>x.slug==='secret-photo-album-sa-1174964304');
+ assert.equal(dataTypeRows(r).find(x=>x.cat==='Location').where,'tracking and linked to you');
+ assert.match(privacyFaq(r).find(f=>f.q.includes('location')).a,/tracking and linked to you/);
+ assert.ok(thinkTwice(r).some(t=>t.includes('attached to an account')&&t.includes('location')),'linked Location is warned about even when it also tracks');
+});
