@@ -4,10 +4,10 @@ import { articles, categories } from "@/lib/content";
 import ArticleCards from "@/components/article-cards";
 import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
-import { liveTasks, terms, apps } from '@/lib/catalog';
+import { liveTasks, terms, apps, taskUrl } from '@/lib/catalog';
 import { appleApps } from '@/lib/apple-apps';
 export const metadata = pageMetadata("iPhone Privacy Database | statemaps.net", site.description, "/");
-const explore: [string, string, string][] = [['/app-privacy', 'Sourced app directory', 'Distinct iPhone app listing records with developer, compatibility and source data.'], ['/apps', 'App privacy references', 'Controls and access boundaries, organized by app.'], ['/compare', 'Comparisons', 'Compare storage, recovery and sharing choices.'], ['/tools', 'Tools', 'Browser-local metadata inspection and privacy review.'], ['/glossary', 'Glossary', 'Plain definitions of the terms behind the controls.']];
+const explore: [string, string, string][] = [['/app-privacy', 'Sourced app directory', 'Distinct iPhone app listing records with developer, compatibility and source data.'], ['/apps', 'App privacy references', 'Controls and access boundaries, organized by app.'], ['/blog/hidden-vs-encrypted-photo-vault', 'Storage comparison', 'Hidden albums, vaults and encryption: who can open what.'], ['/tools', 'Tools', 'Browser-local metadata inspection and privacy review.'], ['/glossary', 'Glossary', 'Plain definitions of the terms behind the controls.']];
 
 /** The hero moment: one real control, rendered as a settings sheet with its steps, its limit and its source. */
 function ControlCard() {
@@ -41,8 +41,8 @@ export default function Home() {
         <div className="stat-card"><dt>Definitions</dt><dd>{terms.length}</dd></div>
       </dl>
 
-      <section className="section"><div className="section-head"><h2>Start with a privacy task</h2><Link className="section-link" href="/hide-apps">Task hub</Link></div>
-        <div className="grid">{liveTasks.map(t => <Link className="card" href={`/${t.slug}`} key={t.slug}><span className="card-meta">{t.method}</span><h3>{t.name}</h3><p>{t.answer}</p></Link>)}</div></section>
+      <section className="section"><div className="section-head"><h2>Start with a privacy task</h2><Link className="section-link" href="/guides">All guides</Link></div>
+        <div className="grid">{liveTasks.map(t => <Link className="card" href={taskUrl(t)} key={t.slug}><span className="card-meta">{t.method}</span><h3>{t.name}</h3><p>{t.answer}</p></Link>)}</div></section>
 
       <section className="panel-band"><div><h2>Build a review of your own setup</h2><p>Answer questions about photo access, cloud copies and recovery. You get an action list you can save, download or print. It runs in your browser and nothing is uploaded.</p></div><Link className="button" href="/tools/privacy-checkup">Start the privacy checkup</Link></section>
 
@@ -55,7 +55,7 @@ export default function Home() {
 
       <section className="section"><div className="section-head"><h2>Practical guides, with sources</h2><Link className="section-link" href="/guides">All {articles.length} guides</Link></div><ArticleCards items={articles.slice(0, 6)} /></section>
 
-      <section className="callout"><h2>A setting has limits. Know them before you rely on it</h2><p>The privacy settings library explains what each control changes, what it leaves accessible and how to test the result with a harmless sample.</p><Link href="/privacy-settings">Explore the settings library</Link></section>
+      <section className="callout"><h2>A setting has limits. Know them before you rely on it</h2><p>Every guide names the settings it uses, what each one leaves accessible and how to test the result with a harmless sample.</p><Link href="/guides">Browse the guides</Link></section>
 
       <section className="section"><div className="section-head"><h2>Know the words behind the controls</h2><Link className="section-link" href="/glossary">All definitions</Link></div>
         <ul className="term-list">{terms.map(t => <li key={t.slug}><Link href={`/glossary/${t.slug}`}>{t.name}</Link></li>)}</ul></section>

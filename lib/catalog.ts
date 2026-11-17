@@ -2,7 +2,7 @@ import { reviewedDate, sources, vaultComparison, type Source } from './content';
 import {toolGuidance} from './tool-guidance';
 import {reviewActions,reviewQuestions} from './privacy-review';
 import {expansionTasks} from './privacy-expansion';
-import {canIndexCombination,type CombinationEvidence} from './publishing';
+import {type CombinationEvidence} from './publishing';
 
 export type Task = { slug: string; name: string; question: string; answer: string; method: string; steps: string[]; limit: string; guide: string; source: Source; live: boolean;platform?:string;faq?:{q:string;a:string}[];appSlugs?:string[] };
 const appSteps = ['Find the installed app on the Home Screen or in App Library.', 'Touch and hold its icon and inspect the available actions.', 'Choose Require Face ID, Touch ID or Passcode if offered. To hide an eligible downloaded app, choose Hide and Require Face ID and confirm.', 'Close the app, reopen it and check the authentication prompt. Review other devices separately.'];
@@ -16,6 +16,9 @@ export const tasks: Task[] = [
   ...['unhide-photos','find-hidden-photos','lock-photos','hide-videos','stop-syncing','review-backups','remove-location','hide-history','clear-history','private-browsing','limit-screen-time','review-sharing','protect-files','protect-folders','recover-photos','move-to-vault'].map(slug=>({slug,name:slug.replaceAll('-',' '),question:'',answer:'',method:'Requires editorial review',steps:[],limit:'Not published',guide:'',source:sources.apps,live:false})),
 ];
 export const liveTasks = tasks.filter(t=>t.live);
+// Each task has one page: its guide. The old /{task} hubs 301 there (data/legacy-redirects.json).
+export const taskUrl=(t:Pick<Task,'guide'>)=>`/blog/${t.guide}`;
+export const taskForGuide=(guide:string)=>liveTasks.find(t=>t.guide===guide);
 export type AppEntity = {slug:string;name:string;kind:'built-in'|'downloaded';summary:string;boundary:string;source:Source;guide:string;taskEvidence?:Record<string,CombinationEvidence>};
 export const apps:AppEntity[] = [
   {slug:'photos',name:'Photos',kind:'built-in',summary:'Use the Hidden collection for pictures and videos; app visibility and photo-library access are separate controls.',boundary:'Review iCloud Photos, Shared Library, Shared Albums and exports independently. Hiding a photo can follow it across your own synced library.',source:sources.hidden,guide:'how-to-hide-photos-iphone'},
@@ -50,14 +53,10 @@ export const competitors=[{slug:'keepsafe',name:'Keepsafe',source:sources.keepsa
 export const tools=[{slug:'privacy-checkup',name:'iPhone privacy checkup',description:'Build and save a review of photo access, cloud copies and recovery.'},{slug:'exif-viewer',name:'Local photo metadata viewer',description:'Inspect supported JPEG metadata in your browser and export a fresh PNG copy.'}];
 export type CatalogPage={path:string;kind:'hub'|'app'|'task-app'|'glossary'|'compare'|'tool'|'directory';title:string;description:string;index:boolean;canonical?:string;task?:Task;app?:AppEntity;term?:GlossaryTerm;tool?:typeof tools[number]};
 export const catalogPages:CatalogPage[]=[
-  ...liveTasks.map(task=>({path:`/${task.slug}`,kind:'hub' as const,title:task.question,description:task.answer,index:true,task})),
   ...apps.map(app=>({path:`/apps/${app.slug}`,kind:'app' as const,title:`${app.name} privacy on iPhone`,description:app.summary,index:true,app})),
-  ...liveTasks.filter(t=>['hide-apps','lock-apps','find-hidden-apps','unhide-apps'].includes(t.slug)).flatMap(task=>apps.filter(a=>a.kind==='downloaded').map(app=>({path:`/${task.slug}/${app.slug}`,kind:'task-app' as const,title:`${task.name}: ${app.name} on iPhone`,description:canIndexCombination(app.taskEvidence?.[task.slug])?app.taskEvidence![task.slug].uniqueAnswer:app.summary,index:canIndexCombination(app.taskEvidence?.[task.slug]),canonical:canIndexCombination(app.taskEvidence?.[task.slug])?undefined:`/apps/${app.slug}`,task,app}))),
   ...terms.map(term=>({path:`/glossary/${term.slug}`,kind:'glossary' as const,title:`What is ${term.name}?`,description:term.definition,index:true,term})),
   ...tools.map(tool=>({path:`/tools/${tool.slug}`,kind:'tool' as const,title:tool.name,description:tool.description,index:true,tool})),
-  {path:'/compare/photo-storage-options',kind:'compare',title:'Photo privacy options compared',description:'Compare built-in hiding, a dedicated vault and encrypted sharing by access, recovery and copies.',index:true},
-  {path:'/best/vault-apps',kind:'compare',title:'Choose a photo vault for iPhone',description:'A documentation-based shortlist and practical selection checklist, without invented app testing or scores.',index:true},
-  ...['apps','glossary','tools','compare'].map(slug=>({path:`/${slug}`,kind:'directory' as const,title:`${slug[0].toUpperCase()+slug.slice(1)} library`,description:`Browse the ${slug} reference library for iPhone privacy.`,index:true})),
+  ...['apps','glossary','tools'].map(slug=>({path:`/${slug}`,kind:'directory' as const,title:`${slug[0].toUpperCase()+slug.slice(1)} library`,description:`Browse the ${slug} reference library for iPhone privacy.`,index:true})),
 ];
 export const getCatalogPage=(path:string)=>catalogPages.find(p=>p.path===path);
 export function catalogFaq(p:CatalogPage){
@@ -74,7 +73,7 @@ export function catalogMarkdown(p:CatalogPage){
  return [`# ${p.title}`,'## Quick answer',p.description,`Updated: ${reviewedDate}`,`Canonical: ${p.canonical||p.path}`,
  ...(p.task?[`## Method\n\n${p.task.method}`,`## Steps\n\n${p.task.steps.map((s,i)=>`${i+1}. ${s}`).join('\n')}`,`## Limits\n\n${p.task.limit}`,`[Provider instructions](${p.task.source.url})`]:[]),
  ...(p.kind==='hub'?['## Find your app',table(['App','Installed type','What to check'],apps.filter(a=>!p.task!.appSlugs||p.task!.appSlugs.includes(a.slug)).map(a=>[`[${a.name}](/apps/${a.slug})`,a.kind,a.summary]))]:[]),
- ...(p.app?[`## Access boundary\n\n${p.app.boundary}`,`## Source\n\n[${p.app.source.title}](${p.app.source.url})`,'## Privacy tasks',table(['Task','Method','Scope'],liveTasks.filter(t=>!t.appSlugs||t.appSlugs.includes(p.app!.slug)).map(t=>[`[${t.name}](/${t.slug})`,t.method,t.limit]))]:[]),
+ ...(p.app?[`## Access boundary\n\n${p.app.boundary}`,`## Source\n\n[${p.app.source.title}](${p.app.source.url})`,'## Privacy tasks',table(['Task','Method','Scope'],liveTasks.filter(t=>!t.appSlugs||t.appSlugs.includes(p.app!.slug)).map(t=>[`[${t.name}](${taskUrl(t)})`,t.method,t.limit]))]:[]),
  ...(p.term?[`## Limitation\n\n${p.term.limit}`,`[Source](${p.term.source.url})`,'## Related terms',...p.term.related.map(slug=>`- [${terms.find(t=>t.slug===slug)?.name}](/glossary/${slug})`)]:[]),
  ...(p.kind==='compare'?['## Documentation-based comparison','These options serve different purposes. No hands-on ranking or independent security audit is claimed.',table(['Option','Use case','Protection described','Check before migrating'],vaultComparison.map(v=>[`[${v.name}](${v.source.url})`,v.fit,v.protection,v.limitation])),'## Evaluation workflow','Identify the access concern. Read key ownership and recovery documentation. Rehearse importing, reopening, exporting and recovery with ordinary sample files before migrating important content. Inspect originals, exports and shared copies independently.']:[]),
  ...(p.tool?[...toolGuidance[p.tool.slug].map(s=>`## ${s.heading}\n\n${s.body}`),...(p.tool.slug==='privacy-checkup'?['## Review questions',...reviewQuestions.map(q=>`### ${q.label}\n\n${q.options.map(o=>'- '+o[1]).join('\n')}`),'## Available actions',...reviewActions.map(a=>`### ${a.title}\n\n${a.body}\n\n[Read the guide](/blog/${a.slug})`)]:['## Use the viewer','Select a supported JPEG in your browser, inspect the supported fields and optionally download a fresh PNG pixel copy. The original is unchanged. No photo file is uploaded.'])]:[]),
