@@ -11,7 +11,8 @@ test('every redirect lands in one hop on a page that still exists',()=>{
   assert.ok(!removed.some(re=>re.test(r.destination)),`${r.source} points at merged page ${r.destination}`);
  }
 });
-test('each merged duplicate has exactly one redirect',()=>{
+test('each merged duplicate and its Markdown twin has exactly one redirect',()=>{
+ for(const path of ['/unhide-apps.md','/privacy-settings.md','/privacy-checklist.md','/compare/photo-storage-options.md']){const r=redirects.filter(x=>x.source===path);assert.equal(r.length,1,path);assert.ok(r[0].destination.endsWith('.md'),path);}
  for(const path of ['/unhide-apps','/hide-apps','/lock-notes','/privacy-settings/show-hidden-album','/privacy-checklist','/best/vault-apps','/compare/photo-storage-options'])
   assert.equal(redirects.filter(r=>r.source===path).length,1,path);
 });

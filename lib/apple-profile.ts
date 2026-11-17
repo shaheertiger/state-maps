@@ -97,7 +97,8 @@ const categoryControl:Record<string,string>={
  'Health & Fitness':'Settings › Privacy & Security › Health: allow only the categories you need',
  'Diagnostics':'Settings › Privacy & Security › Analytics & Improvements › Share With App Developers controls the crash reports Apple forwards; the app’s own crash reporting follows its in-app settings',
 };
-const where=(c:LabelCounts,cat:string)=>c.tracked.includes(cat)?'tracking':c.linked.includes(cat)?'linked to you':'not linked';
+// A category can sit in several label groups at once (e.g. Location both used to track and linked to you); report every one.
+const where=(c:LabelCounts,cat:string)=>list([...(c.tracked.includes(cat)?['tracking']:[]),...(c.linked.includes(cat)?['linked to you']:[]),...(c.notLinked.includes(cat)?['not linked']:[])]);
 const highRisk=['Location','Health & Fitness','Financial Info','Sensitive Info','Contacts','Browsing History','User Content'];
 
 /** Answer-first headings: the heading itself states the label's answer. */
@@ -126,7 +127,7 @@ export function thinkTwice(a:AppleApp){
  const trackedRisk=c.tracked.filter(t=>highRisk.includes(t));
  if(trackedRisk.length)out.push(`People who refuse cross-app ad profiles: ${list(trackedRisk.map(t=>t.toLowerCase()))} feed tracking here.`);
  else if(c.tracked.length)out.push(`People who block all ad tracking: ${a.name} declares ${plural(c.tracked.length,'tracking data type')}, even if none is in a sensitive group.`);
- const linkedRisk=c.linked.filter(t=>highRisk.includes(t)&&!c.tracked.includes(t));
+ const linkedRisk=c.linked.filter(t=>highRisk.includes(t));
  if(linkedRisk.length)out.push(`Anyone who does not want ${list(linkedRisk.map(t=>t.toLowerCase()))} attached to an account: ${a.developer} says it links ${linkedRisk.length===1?'it':'them'} to you.`);
  return out;
 }
@@ -144,7 +145,7 @@ export function bottomLine(a:AppleApp,peerNote?:string|null){
 /** Privacy-focused FAQ: questions searchers ask about an app, answered from its own label. */
 export function privacyFaq(a:AppleApp){
  const c=labelCounts(a),when=monthYear(a.privacyCheckedAt);
- const loc=c.collected.includes('Location')?`Yes: Location is ${where(c,'Location')} on the ${when} label.`:c.status==='reported'?'None declared.':`${a.developer} has not said.`;
+ const loc=c.collected.includes('Location')?`Yes: the ${when} label lists Location as ${where(c,'Location')}.`:c.status==='reported'?'None declared.':`${a.developer} has not said.`;
  return [
   {q:`Is ${a.name} safe?`,a:`${labelVerdict(a)}: a claim by ${a.developer}, not an audit.`},
   {q:`Does ${a.name} track you?`,a:c.tracked.length?`Yes, using ${list(c.tracked)}. Tap Ask App Not to Track to refuse.`:c.status==='reported'?`No; ${a.developer} lists none.`:`Not stated by ${a.developer}.`},

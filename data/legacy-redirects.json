@@ -413,5 +413,135 @@
   "source": "/compare",
   "destination": "/blog/hidden-vs-encrypted-photo-vault",
   "permanent": true
+ },
+ {
+  "source": "/hide-apps/:app(whatsapp|instagram).md",
+  "destination": "/apps/:app.md",
+  "permanent": true
+ },
+ {
+  "source": "/lock-apps/:app(whatsapp|instagram).md",
+  "destination": "/apps/:app.md",
+  "permanent": true
+ },
+ {
+  "source": "/find-hidden-apps/:app(whatsapp|instagram).md",
+  "destination": "/apps/:app.md",
+  "permanent": true
+ },
+ {
+  "source": "/unhide-apps/:app(whatsapp|instagram).md",
+  "destination": "/apps/:app.md",
+  "permanent": true
+ },
+ {
+  "source": "/hide-apps.md",
+  "destination": "/blog/how-to-hide-apps-on-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/lock-apps.md",
+  "destination": "/blog/how-to-lock-apps-on-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/find-hidden-apps.md",
+  "destination": "/blog/how-to-find-hidden-apps-on-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/unhide-apps.md",
+  "destination": "/blog/how-to-unhide-apps-on-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/hide-photos.md",
+  "destination": "/blog/how-to-hide-photos-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/hide-messages.md",
+  "destination": "/blog/how-to-hide-messages-on-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/hide-notifications.md",
+  "destination": "/blog/hide-notifications-lock-screen-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/lock-notes.md",
+  "destination": "/blog/how-to-lock-notes-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/block-apps.md",
+  "destination": "/blog/how-to-block-apps-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/hidden-collection-lock.md",
+  "destination": "/blog/password-protect-photos-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/show-hidden-album.md",
+  "destination": "/blog/how-to-hide-photos-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/icloud-photos-sync.md",
+  "destination": "/blog/stop-icloud-photos-syncing.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/shared-with-you-photos.md",
+  "destination": "/blog/turn-off-shared-with-you-photos.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/camera-location.md",
+  "destination": "/blog/remove-photo-location-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/share-without-location.md",
+  "destination": "/blog/remove-photo-location-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/hidden-apps-folder.md",
+  "destination": "/blog/how-to-hide-apps-on-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings/family-icloud-storage.md",
+  "destination": "/blog/family-sharing-photo-privacy.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-settings.md",
+  "destination": "/guides.md",
+  "permanent": true
+ },
+ {
+  "source": "/privacy-checklist.md",
+  "destination": "/tools/privacy-checkup.md",
+  "permanent": true
+ },
+ {
+  "source": "/best/vault-apps.md",
+  "destination": "/blog/best-photo-vault-apps-iphone.md",
+  "permanent": true
+ },
+ {
+  "source": "/compare/photo-storage-options.md",
+  "destination": "/blog/hidden-vs-encrypted-photo-vault.md",
+  "permanent": true
+ },
+ {
+  "source": "/compare.md",
+  "destination": "/blog/hidden-vs-encrypted-photo-vault.md",
+  "permanent": true
  }
 ]
