@@ -1,4 +1,5 @@
 import { articles, categories, getCategory, relatedArticles, reviewedDate, vaultComparison, type Article } from "./content";
+import {guideExtras} from './guide-extras';
 import { infoPages, contactUrl } from "./pages";
 import { reviewActions, reviewQuestions } from "./privacy-review";
 import { privacySettings, type PrivacySetting } from "./settings";
@@ -9,7 +10,7 @@ import {guideAnatomy,guideFaq,appVisibilityMethods} from './guide-anatomy';
 const link = (title: string, path: string) => `[${title}](${path.startsWith("http") ? path : site.url + path})`;
 export function articleBody(a: Article): string {
   const g=guideAnatomy(a);
-  return ['## Quick answer',g.answer,`## At a glance\n\nPlatform: ${g.platform}\n\nMethod: ${g.method}\n\nSteps: ${g.steps.length}; time varies by setup; backup impact needs separate review.`,`## Method and verification steps\n\n${g.steps.map((s,i)=>`${i+1}. ${s}`).join('\n')}\n\nWhat this does not do: ${g.limit}`,a.intro,...(a.slug==='how-to-hide-apps-on-iphone'?['## Five approaches, with different results\n\n| Approach | Use it for | What it does not establish |\n|---|---|---|\n'+appVisibilityMethods.map(row=>'| '+row.join(' | ')+' |').join('\n')]:[]), ...a.sections.map(s => `## ${s.heading}\n\n${s.body}${s.steps ? "\n\n" + s.steps.map((v, i) => `${i + 1}. ${v}`).join("\n") : ""}`),
+  return ['## Quick answer',g.answer,`## At a glance\n\nPlatform: ${g.platform}\n\nMethod: ${g.method}\n\nSteps: ${g.steps.length}; time varies by setup; backup impact needs separate review.`,`## Method and verification steps\n\n${g.steps.map((s,i)=>`${i+1}. ${s}`).join('\n')}\n\nWhat this does not do: ${g.limit}`,a.intro,...(a.slug==='how-to-hide-apps-on-iphone'?['## Five approaches, with different results\n\n| Approach | Use it for | What it does not establish |\n|---|---|---|\n'+appVisibilityMethods.map(row=>'| '+row.join(' | ')+' |').join('\n')]:[]), ...a.sections.map(s => `## ${s.heading}\n\n${s.body}${s.steps ? "\n\n" + s.steps.map((v, i) => `${i + 1}. ${v}`).join("\n") : ""}`),...(guideExtras[a.slug]?[`## Common mistakes to avoid\n\n${guideExtras[a.slug].mistakes.map(m=>`### ${m.title}\n\n${m.body}`).join('\n\n')}`,`## The bottom line\n\n${guideExtras[a.slug].bottomLine}`]:[]),
     ...(a.slug === "best-photo-vault-apps-iphone" ? ["## Options compared\n\n| Option | Suitable for | Documented protection | Tradeoff |\n|---|---|---|---|\n" + vaultComparison.map(v => `| ${link(v.name, v.source.url)} | ${v.fit} | ${v.protection} | ${v.limitation} |`).join("\n")] : []),
     "## Frequently asked questions", ...guideFaq(a).map(f => `### ${f.q}\n\n${f.a}`), "## Sources", ...a.sources.map(s => `- ${link(s.title, s.url)}`), "## Related guides", ...relatedArticles(a).map(r => `- ${link(r.title, `/blog/${r.slug}`)}`),
   ].join("\n\n");

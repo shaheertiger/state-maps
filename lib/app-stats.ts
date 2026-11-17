@@ -40,3 +40,24 @@ const pairHash=(x:number,y:number)=>{let h=(x^Math.imul(y,0x9e3779b1))>>>0;h=Mat
 /** A per-page rotation of the developer's other apps, so sibling pages don't repeat one list. */
 export function sameDeveloper(a:AppleApp,n=2){return (byDeveloper.get(a.developer)??[]).filter(b=>b.id!==a.id).sort((x,y)=>pairHash(a.id,x.id)-pairHash(a.id,y.id)).slice(0,n);}
 export function peerRow(app:AppleApp){const r=rows.get(app.id);return r?{collected:r.collected,tracked:r.tracked,linked:r.linked}:null;}
+
+/** Heading for the comparison section that states where the app sits, protein-compare style. */
+export function comparisonHeading(a:AppleApp){
+ const s=categoryStats(a),me=rows.get(a.id);if(!s)return `How does ${a.name} compare?`;
+ if(!me)return `${a.name} next to labeled ${s.category} apps`;
+ const word=s.rank==='fewer'?'fewer data types than':s.rank==='more'?'more data types than':'the same as';
+ return `How ${a.name} compares: ${word} the typical ${s.category} app`;
+}
+/** Plain-language comparison sentences using the category numbers. */
+export function comparisonLines(a:AppleApp){
+ const s=categoryStats(a),me=rows.get(a.id);if(!s)return [];
+ // The quick answer already gives the median and share collecting more; this adds the tracking split.
+ if(!me)return [];
+ return [me.tracked?`${a.name} tracks, like ${s.trackingShare}% of ${s.reported} ${s.category} apps.`:`${a.name} joins the ${100-s.trackingShare}% of ${s.reported} ${s.category} apps declaring no tracking.`];
+}
+/** Among the closest peers, the one that declares the least, if it declares less than this app. */
+export function leanerPeer(a:AppleApp){
+ const me=rows.get(a.id);if(!me)return null;
+ const best=nearestPeers(a,7).filter(p=>p.tracked===0&&(p.collected<me.collected||me.tracked>0)).sort((x,y)=>x.collected-y.collected||x.linked-y.linked)[0];
+ return best?{app:best.app,collected:best.collected,linked:best.linked}:null;
+}
