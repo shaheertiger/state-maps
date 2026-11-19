@@ -1,4 +1,0 @@
-"use client";
-import * as Accordion from "@radix-ui/react-accordion";
-import { Plus } from "lucide-react";
-export default function FAQ({items}:{items:{q:string,a:string}[]}){return <Accordion.Root type="single" collapsible>{items.map((item,i)=><Accordion.Item className="faq" value={String(i)} key={item.q}><Accordion.Header><Accordion.Trigger>{item.q} <Plus size={18} strokeWidth={1.5} aria-hidden="true" /></Accordion.Trigger></Accordion.Header><Accordion.Content forceMount><p>{item.a}</p></Accordion.Content></Accordion.Item>)}</Accordion.Root>}

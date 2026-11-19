@@ -1,8 +1,0 @@
-node_modules
-.next
-.env*.local
-*.tsbuildinfo
-
-data/apple-import-cache.json
-
-data/apple-privacy-cache.json
