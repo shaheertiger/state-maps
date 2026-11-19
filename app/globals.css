@@ -1171,3 +1171,30 @@ main .crumbs li,
 main .toc li {
   margin-bottom: 0;
 }
+
+/* Wordmark: name + descriptor, so "State Maps" reads as fit maps */
+.brand {
+  align-items: baseline;
+}
+.brand-mark {
+  align-self: center;
+}
+.brand-desc {
+  font-variation-settings: "wdth" 100;
+  font-weight: 500;
+  font-size: 0.82rem;
+  letter-spacing: 0;
+  color: var(--ink-2);
+}
+.fitmap-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 10px 0 6px;
+}
+main .questions ul {
+  list-style: none;
+  padding-left: 0;
+}
+main .questions li {
+  margin-bottom: 0;
+}

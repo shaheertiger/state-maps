@@ -29,6 +29,7 @@ export function GuidePage({ g }: { g: FitGuide }) {
     <figure className="diagram-box">
       <FitDiagram shape={g.shape} points={g.checklist} title={`Where to check the fit of a ${g.item}`} />
       <figcaption>
+        <p className="fitmap-label">{item} fit map</p>
         <ul className="diagram-key">
           {g.checklist.map((c, i) => (
             <li key={c.point}>

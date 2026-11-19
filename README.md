@@ -1,4 +1,4 @@
-# Fit Guides
+# State Maps: fit & sizing guides
 
 A fully static site that answers three questions people ask right before they buy:
 

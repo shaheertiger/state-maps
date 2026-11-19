@@ -10,6 +10,7 @@ export function Footer() {
         <div className="footer-grid">
           <div>
             <h2>{SITE.name}</h2>
+            <p>{SITE.descriptor}</p>
             <p>{SITE.tagline}</p>
             <p>
               Size charts come from brands&rsquo; own published guides and recognised standards, with the date we last checked them.

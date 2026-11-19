@@ -16,6 +16,12 @@ export default function About() {
         Most fit advice is buried in long articles or scattered across forum threads. We put the answer first, then a point-by-point
         checklist you can use in a fitting room or at home, with concrete measurements rather than vague advice.
       </p>
+      <h2>Why &ldquo;State Maps&rdquo;?</h2>
+      <p>
+        Every guide here maps where something should sit on your body: the shoulder seam of a jacket, the toe room in a shoe, the band
+        of a bra. Those fit maps, and the measurements behind them, are what the site is built on. We cover fit and sizing, not
+        geography.
+      </p>
       <h2>What you&rsquo;ll find here</h2>
       <ul>
         <li><Link href="/fit/">Fit guides</Link>: how clothing, shoes, jewelry and gear should fit, point by point.</li>

@@ -17,7 +17,8 @@ export function Header() {
               <rect x="1" y="6" width="22" height="12" rx="2" fill="#F3C631" stroke="currentColor" strokeWidth="1.5" />
               <path d="M5 6v5M9 6v3M13 6v5M17 6v3M21 6v5" stroke="currentColor" strokeWidth="1.5" />
             </svg>
-            {SITE.name}
+            <span className="brand-name">{SITE.name}</span>
+            <span className="brand-desc">{SITE.descriptor}</span>
           </Link>
           <nav className="nav" aria-label="Main">
             <Link href="/fit/">How should it fit?</Link>

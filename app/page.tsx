@@ -9,7 +9,7 @@ import { compatPages } from "@/lib/compat";
 import { SITE, TOOLS, guidePath, hubPath, compatPath, brandPath } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: `${SITE.name}: How Should It Fit? Will It Fit? Does It Run Small?` },
+  title: { absolute: `${SITE.fullName}: How Should It Fit? Will It Fit? Does It Run Small?` },
   description: SITE.description,
   alternates: { canonical: "/" },
 };
@@ -28,8 +28,8 @@ export default function Home() {
           <div className="hero-text">
           <h1>What are you trying to fit?</h1>
           <p>
-            Point-by-point fit checklists, size compatibility answers worked out from real dimensions, and brand sizing taken from the
-            brands&rsquo; own charts.
+            {SITE.name} maps the fit of clothes, shoes and gear: point-by-point fit checklists, size compatibility answers worked out
+            from real dimensions, and brand sizing taken from the brands&rsquo; own charts.
           </p>
           <SearchBox />
           <p className="try">
@@ -145,6 +145,7 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: SITE.name,
+          alternateName: SITE.fullName,
           url: SITE.url,
           potentialAction: { "@type": "SearchAction", target: `${SITE.url}/search/?q={search_term_string}`, "query-input": "required name=search_term_string" },
         }}

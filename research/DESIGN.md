@@ -24,7 +24,7 @@ Everything is left-aligned. Guide pages have a main column (68ch) and a right ra
 
 ```
 [tape strip ───────────────────────────────]
-Fit Guides   How should it fit · Will it fit · Brand sizing · Tools   [search]
+State Maps  Fit & sizing guides   How should it fit · Will it fit · Brand sizing · Tools   [search]
 Breadcrumb
 HOW SHOULD A SUIT JACKET FIT?          ┌ diagram ┐
 ┌ short answer (label w/ stitch) ┐     │  ①②③   │

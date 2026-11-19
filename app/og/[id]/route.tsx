@@ -37,7 +37,10 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
           <div style={{ fontSize: 34, color: "#2B5FA6", marginBottom: 18 }}>{c.kicker}</div>
           <div style={{ fontSize: c.title.length > 48 ? 66 : 82, fontWeight: 800, lineHeight: 1.02, letterSpacing: -2 }}>{c.title}</div>
         </div>
-        <div style={{ display: "flex", padding: "0 72px 48px", fontSize: 30, fontWeight: 700 }}>{SITE.name}</div>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 16, padding: "0 72px 48px" }}>
+          <div style={{ fontSize: 34, fontWeight: 800 }}>{SITE.name}</div>
+          <div style={{ fontSize: 26, color: "#4A5466" }}>{SITE.descriptor}</div>
+        </div>
       </div>
     ),
     { width: 1200, height: 630 },

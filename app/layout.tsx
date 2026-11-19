@@ -10,9 +10,9 @@ const archivo = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.name}: How Should It Fit? Will It Fit?`, template: `%s | ${SITE.name}` },
+  title: { default: `${SITE.fullName}: How Should It Fit? Will It Fit?`, template: `%s | ${SITE.name}` },
   description: SITE.description,
-  openGraph: { siteName: SITE.name, locale: "en_US", type: "website" },
+  openGraph: { siteName: SITE.fullName, locale: "en_US", type: "website" },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
   icons: { icon: "/icon.svg" },
@@ -38,6 +38,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             "@context": "https://schema.org",
             "@type": "Organization",
             name: SITE.organization,
+            alternateName: SITE.fullName,
+            description: SITE.description,
             url: SITE.url,
             logo: `${SITE.url}/icon.svg`,
           }}

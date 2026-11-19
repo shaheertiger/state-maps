@@ -14,14 +14,17 @@ function siteUrl(): string {
 
 /** One place to rename the site. */
 export const SITE = {
-  name: "Fit Guides",
-  tagline: "How it should fit, whether it will fit, and how brands size.",
+  name: "State Maps",
+  /** Always shown next to the name where it identifies the site, so "maps" reads as fit maps, not geography. */
+  descriptor: "Fit & sizing guides",
+  fullName: "State Maps Fit & Sizing Guides",
+  tagline: "Fit and size, mapped: how it should fit, whether it will fit, and how brands size.",
   description:
     "Clear, measured answers to how clothes, shoes and gear should fit, whether one size fits another, and how brands size — with checklists, size charts and calculators.",
   url: siteUrl(),
   locale: "en-US",
   email: "hello@example.com",
-  organization: "Fit Guides",
+  organization: "State Maps",
 } as const;
 
 export const abs = (path: string) => `${SITE.url}${path.startsWith("/") ? path : `/${path}`}`;
