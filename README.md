@@ -68,7 +68,7 @@ The site name, tagline and contact email live in `lib/site.ts`.
 
 ## Deploying on Vercel (Pro, about $20/month flat)
 
-1. Import the repo. `vercel.json` sets the build command and output directory (`out`).
+1. Import the repo. `vercel.json` sets everything: framework "Other" (plain static files, no Next.js runtime), `npm ci`, `npm run build` and output directory `out`. Leave the dashboard build settings on their defaults so they don't override it.
 2. Add the environment variables above.
 3. Turn on **Spend Management** with a low cap (for example $30) and alerts.
 4. Add firewall or bot-protection rules for scrapers. `robots.txt` already allows search and AI-search crawlers.
