@@ -185,7 +185,7 @@ export function FitDiagram({ shape, points, title }: { shape: Shape; points: { a
     return { n: i + 1, x: base[0] + n * 18, y: base[1] - n * 4, label: p.point };
   });
   return (
-    <svg viewBox="0 0 240 240" role="img" aria-labelledby="diagram-title" className="diagram">
+    <svg viewBox={shape === "generic" ? "0 88 240 64" : "0 0 240 240"} role="img" aria-labelledby="diagram-title" className="diagram">
       <title id="diagram-title">{`${title}: ${pins.map((p) => `${p.n}. ${p.label}`).join(", ")}`}</title>
       {shape === "generic" &&
         Array.from({ length: 41 }, (_, i) => (

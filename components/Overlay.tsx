@@ -26,16 +26,18 @@ export function Overlay({ p }: { p: CompatPage }) {
   // Top-down footprint: width across, length down. Ranges draw the max outline.
   const aw = hi(a.w)!, al = hi(a.l)!, bw = hi(b.w)!, bl = hi(b.l)!;
   const scale = Math.min((W - pad * 2) / Math.max(al, bl), (H - pad * 2) / Math.max(aw, bw));
-  const x0 = pad, y0 = pad;
+  // Centre both outlines on each other so any overhang shows on every side.
+  const cx = W / 2, cy = H / 2;
+  const box = (w: number, l: number) => ({ x: cx - (l * scale) / 2, y: cy - (w * scale) / 2, width: l * scale, height: w * scale });
+  const A = box(aw, al), B = box(bw, bl);
+  const Bmin = Array.isArray(b.w) || Array.isArray(b.l) ? box(lo(b.w)!, lo(b.l)!) : null;
   return (
     <figure className="overlay">
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Top view of ${a.name} over ${b.name}, drawn to scale`}>
-        <rect x={x0} y={y0} width={bl * scale} height={bw * scale} className="ov-b" />
-        {(Array.isArray(b.w) || Array.isArray(b.l)) && (
-          <rect x={x0} y={y0} width={lo(b.l)! * scale} height={lo(b.w)! * scale} className="ov-b" style={{ opacity: 0.5 }} />
-        )}
-        <rect x={x0} y={y0} width={al * scale} height={aw * scale} className="ov-a" />
-        <text x={x0 + 8} y={y0 + 18} className="ov-label">
+        <rect {...A} className="ov-a" />
+        <rect {...B} className="ov-b" />
+        {Bmin && <rect {...Bmin} className="ov-b" style={{ opacity: 0.5 }} />}
+        <text x={A.x + 8} y={A.y + 18} className="ov-label">
           {a.name}
         </text>
       </svg>

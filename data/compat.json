@@ -1,1 +1,1678 @@
-[]
+[
+  {
+    "slug": "queen-mattress-on-full-frame",
+    "a": "queen-mattress",
+    "b": "full-frame",
+    "relation": "on",
+    "mode": "footprint",
+    "keywords": [
+      "will a queen mattress fit in a full bed frame",
+      "will a queen mattress fit on a full frame",
+      "can a queen mattress fit on a full bed frame",
+      "can a queen mattress fit on a full frame",
+      "will a queen mattress fit on a full bed frame",
+      "would a queen mattress fit on a full frame",
+      "can a queen mattress fit in a full frame",
+      "can a queen bed fit on a full frame",
+      "can queen mattress fit on full frame",
+      "can a queen mattress fit on a full size frame",
+      "will a queen mattress fit on a full size frame",
+      "does a queen mattress fit on a full bed frame",
+      "can a queen mattress fit on full frame",
+      "can a queen mattress fit in a full bed frame",
+      "can a queen bed fit on a full bed frame",
+      "can queen bed fit on full frame",
+      "can a queen bed fit in a full frame",
+      "can a queen fit in a full frame",
+      "can a queen fit on a full frame",
+      "can a queen mattress fit in a double frame",
+      "can a queen mattress fit on a double frame",
+      "can a queen mattress fit on a double bed frame"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "The mattress would overhang the frame on both sides and at the foot with nothing under its edges, so it sags, wears unevenly and may void the mattress warranty. Swap the frame or the mattress rather than forcing it.",
+    "workarounds": [
+      {
+        "title": "Get a queen frame or base",
+        "text": "A queen frame is [[diff.w]] in wider and [[diff.l]] in longer than the full frame you have, so it supports every edge of the mattress."
+      },
+      {
+        "title": "Use a queen foundation on the floor",
+        "text": "A queen platform base or bunkie board on the floor gives full support for little money while you shop for a frame."
+      },
+      {
+        "title": "Check for an adjustable frame",
+        "text": "Some metal frames have rails that extend between full and queen widths; look for a queen setting in the manual before buying a new one."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a queen mattress fit on a full bed frame?",
+        "a": "Not properly. A full frame is [[b.w]] in wide and [[b.l]] in long, while a queen is [[a.w]] by [[a.l]] in, so the mattress overhangs by [[diff.w]] in across and [[diff.l]] in at the foot."
+      },
+      {
+        "q": "Will a queen mattress fit in a full bed frame with side rails?",
+        "a": "No. Side rails and a footboard are built to the full size, so a queen will not drop in; it would sit on top of the rails or not go in at all."
+      },
+      {
+        "q": "Is a double frame the same as a full frame?",
+        "a": "Yes. Double and full are two names for the same size, so a queen will not fit a double frame either."
+      },
+      {
+        "q": "What happens if you put a queen mattress on a full frame?",
+        "a": "The unsupported edges sag, the mattress wears unevenly and the overhang is easy to roll off. Many mattress warranties require a frame that supports the whole mattress."
+      },
+      {
+        "q": "Can I use a full box spring under a queen mattress?",
+        "a": "No, for the same reason: the box spring is full size, so the queen overhangs it on every side."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Queen bed frame",
+        "why": "Matches a queen mattress exactly",
+        "query": "queen bed frame"
+      },
+      {
+        "label": "Queen bunkie board",
+        "why": "Low-cost full support on the floor or on slats",
+        "query": "queen bunkie board"
+      }
+    ]
+  },
+  {
+    "slug": "full-mattress-on-queen-frame",
+    "a": "full-mattress",
+    "b": "queen-frame",
+    "relation": "on",
+    "mode": "footprint",
+    "keywords": [
+      "can a full mattress fit on a queen frame",
+      "will a full mattress fit on a queen bed frame",
+      "will a full mattress fit on a queen frame",
+      "can a full mattress fit on a queen bed frame",
+      "can a full mattress fit in a queen frame",
+      "can a full size mattress fit in a queen frame",
+      "can a full size mattress fit on a queen frame",
+      "can a full bed fit on a queen frame",
+      "will a full size mattress fit on a queen frame",
+      "will full mattress fit on queen frame",
+      "can a full mattress fit in a queen bed frame",
+      "can a full bed fit in a queen frame",
+      "can a full size bed fit on a queen frame",
+      "can a full size bed fit in a queen frame"
+    ],
+    "hub": "bedding",
+    "expect": "loosely",
+    "answerExtra": "The mattress rests on the frame and is supported, but it leaves a [[diff.w]] in gap across the width and [[diff.l]] in at the foot, so it can shift and the gap shows. Fine short term; for everyday use, fill the gap or move to a full frame.",
+    "workarounds": [
+      {
+        "title": "Center it and fill the gaps",
+        "text": "Push the mattress against the headboard, center it, and fill the side gaps with a foam bed gap filler made for the purpose."
+      },
+      {
+        "title": "Stop it sliding",
+        "text": "A non-slip mattress gripper or rug pad between the mattress and the slats keeps it from shifting."
+      },
+      {
+        "title": "Switch to a full frame",
+        "text": "A full frame is [[diff.w]] in narrower and [[diff.l]] in shorter than a queen frame and matches the mattress exactly."
+      },
+      {
+        "title": "Hide the gap",
+        "text": "A queen bed skirt or a fitted platform cover hides the exposed deck around the smaller mattress."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a full mattress fit on a queen frame?",
+        "a": "Yes, loosely. The frame is [[b.w]] × [[b.l]] in and the mattress is [[a.w]] × [[a.l]] in, so it rests on the frame with room to spare on the sides and at the foot."
+      },
+      {
+        "q": "Will a full mattress slide around on a queen frame?",
+        "a": "It can, especially on smooth metal or wood slats. A non-slip pad and a headboard to push it against help."
+      },
+      {
+        "q": "Can you put a full mattress on a queen platform bed?",
+        "a": "Yes. The platform supports it fully, though the deck stays visible around it."
+      },
+      {
+        "q": "Should I use full or queen sheets?",
+        "a": "Full sheets. Sheets fit the mattress, not the frame, so queen fitted sheets would be loose on a full mattress."
+      },
+      {
+        "q": "Do I need a new frame for a full mattress?",
+        "a": "Not right away, but a full frame removes the gap and is often cheaper than living with gap fillers."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Bed gap filler",
+        "why": "Closes the side gaps on a larger frame",
+        "query": "bed gap filler"
+      },
+      {
+        "label": "Non-slip mattress pad",
+        "why": "Keeps the smaller mattress from sliding",
+        "query": "non slip mattress gripper pad"
+      },
+      {
+        "label": "Full bed frame",
+        "why": "Matches the mattress exactly",
+        "query": "full bed frame"
+      }
+    ]
+  },
+  {
+    "slug": "king-mattress-on-queen-frame",
+    "a": "king-mattress",
+    "b": "queen-frame",
+    "relation": "on",
+    "mode": "footprint",
+    "keywords": [
+      "can a king mattress fit on a queen frame",
+      "will a king mattress fit on a queen frame",
+      "can a king mattress fit on queen frame",
+      "can a king mattress fit on a queen bed frame",
+      "can a king size mattress fit on a queen frame",
+      "can a king bed fit on a queen frame",
+      "can a king bed fit in a queen frame"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "The lengths match, but a king is [[diff.w]] in wider, so part of the mattress hangs off each side with nothing under it. Use a king frame, or two twin XL frames side by side, which together make a king footprint.",
+    "workarounds": [
+      {
+        "title": "Use a king frame",
+        "text": "A king frame matches the mattress exactly and supports its full [[a.w]] in width."
+      },
+      {
+        "title": "Pair two twin XL frames",
+        "text": "Two twin XL frames pushed together equal a king footprint, handy if you already own one or move often."
+      },
+      {
+        "title": "Use a king foundation on the floor",
+        "text": "A king platform base or bunkie board on the floor is a safe stopgap until a frame arrives."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a king mattress fit on a queen frame?",
+        "a": "No. The mattress is [[a.w]] in wide and the frame is [[b.w]] in wide, so [[diff.w]] in of mattress has nothing under it."
+      },
+      {
+        "q": "Is a king the same length as a queen?",
+        "a": "Yes. Both are [[a.l]] in long; the difference is all in width."
+      },
+      {
+        "q": "Can you put a king mattress on a queen box spring?",
+        "a": "No. The box spring is queen width, so the king overhangs it just as it overhangs the frame."
+      },
+      {
+        "q": "What frame does a king mattress need?",
+        "a": "A standard king frame, a king adjustable base, or two twin XL frames joined together."
+      }
+    ],
+    "picks": [
+      {
+        "label": "King bed frame",
+        "why": "Supports the full width",
+        "query": "king bed frame"
+      },
+      {
+        "label": "Twin XL bed frames",
+        "why": "Two make a split king base",
+        "query": "twin xl bed frame"
+      }
+    ]
+  },
+  {
+    "slug": "king-mattress-on-california-king-frame",
+    "a": "king-mattress",
+    "b": "california-king-frame",
+    "relation": "on",
+    "mode": "footprint",
+    "keywords": [
+      "will a king mattress fit on a california king frame",
+      "can a king mattress fit in a california king frame"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "A standard king is too wide to sit inside rails built for a California king and would leave a gap at the foot. The two sizes are not interchangeable in either direction.",
+    "workarounds": [
+      {
+        "title": "Match the frame to the mattress",
+        "text": "Use a standard king frame, or sell the frame and buy one sized for the mattress you have."
+      },
+      {
+        "title": "Check for an adjustable frame",
+        "text": "Some metal frames adjust between king and California king; look for a width setting in the manual."
+      },
+      {
+        "title": "Swap the mattress instead",
+        "text": "If you love the frame, a California king mattress fits it exactly and suits taller sleepers."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will a king mattress fit on a California king frame?",
+        "a": "No. The king is [[a.w]] in wide and the frame is built for a mattress [[b.w]] in wide, so it will not sit inside the rails, and it is [[diff.l]] in short of the frame's length."
+      },
+      {
+        "q": "Which is bigger, king or California king?",
+        "a": "Neither overall: a king is wider at [[a.w]] in versus [[b.w]] in, and a California king is longer at [[b.l]] in versus [[a.l]] in."
+      },
+      {
+        "q": "Can a king mattress sit on top of California king rails?",
+        "a": "It would rest on the rails rather than the slats, which is unstable and unsupported in the middle. It is not a safe setup."
+      },
+      {
+        "q": "Do king and California king use the same box spring?",
+        "a": "No. Each size needs its own foundation."
+      }
+    ],
+    "picks": [
+      {
+        "label": "King bed frame",
+        "why": "Matches a standard king",
+        "query": "king bed frame"
+      },
+      {
+        "label": "California king mattress",
+        "why": "Fits the frame you already have",
+        "query": "california king mattress"
+      }
+    ]
+  },
+  {
+    "slug": "california-king-mattress-on-king-frame",
+    "a": "california-king-mattress",
+    "b": "king-frame",
+    "relation": "on",
+    "mode": "footprint",
+    "keywords": [
+      "can a california king fit on a king bed frame",
+      "can a california king bed fit on a king frame",
+      "can a california king mattress fit on a king frame",
+      "will a california king mattress fit on a king frame",
+      "will a cal king fit on a king frame",
+      "can california king fit on king bed frame",
+      "can a california king fit on a king frame",
+      "can a california king bed fit in a king frame",
+      "can a cal king fit on a king bed frame",
+      "can a cal king fit in a king frame"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "A California king is narrower and longer, so it leaves gaps along the sides and hangs [[diff.l]] in past the foot of a standard king frame, with that end unsupported.",
+    "workarounds": [
+      {
+        "title": "Use a California king frame",
+        "text": "A frame sized for California king supports the full [[a.l]] in length."
+      },
+      {
+        "title": "Check for an adjustable frame",
+        "text": "Some metal frames adjust between king and California king; check the manual for both settings."
+      },
+      {
+        "title": "Use a California king foundation",
+        "text": "A California king platform base on the floor is a safe stopgap while you find the right frame."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a California king fit on a king bed frame?",
+        "a": "No. It is [[a.l]] in long and the king frame is [[b.l]] in, so the foot overhangs, and it is [[diff.w]] in narrower, leaving gaps at the sides."
+      },
+      {
+        "q": "Can a California king mattress go on a king frame without a footboard?",
+        "a": "It will rest on the frame, but the foot end hangs off with no support, which sags the mattress over time."
+      },
+      {
+        "q": "Are California king and king frames interchangeable?",
+        "a": "No. The sizes differ in both directions, so each needs its own frame and foundation."
+      },
+      {
+        "q": "Why choose a California king?",
+        "a": "The extra length suits taller sleepers and long, narrow rooms; a standard king is the better choice if you want width."
+      }
+    ],
+    "picks": [
+      {
+        "label": "California king bed frame",
+        "why": "Matches the mattress exactly",
+        "query": "california king bed frame"
+      },
+      {
+        "label": "Adjustable bed frame king and California king",
+        "why": "Fits either size",
+        "query": "adjustable bed frame king california king"
+      }
+    ]
+  },
+  {
+    "slug": "full-sheets-on-queen-bed",
+    "a": "full-sheet",
+    "b": "queen-bed",
+    "relation": "on",
+    "mode": "fitted-sheet",
+    "keywords": [
+      "can full sheets fit on a queen",
+      "can full size sheets fit on a queen bed",
+      "can full size sheets fit on a queen",
+      "can a full sheet fit on a queen bed",
+      "will full sheets fit on a queen bed",
+      "can full sheets fit on queen bed",
+      "can a full size sheet fit on a queen bed",
+      "can full size sheets fit on a queen size bed"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "A full fitted sheet is both too narrow and too short to stretch over a queen mattress; forced on, the corners pop off overnight and the seams strain.",
+    "workarounds": [
+      {
+        "title": "Buy queen sheets",
+        "text": "Queen fitted sheets are made for a [[b.w]] × [[b.l]] in mattress and usually cost about the same as full."
+      },
+      {
+        "title": "Use the full flat sheet as a top sheet",
+        "text": "A flat sheet doesn't grip the corners, so a full flat sheet can serve as a top sheet on a queen, though there is little to tuck in."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can full sheets fit on a queen bed?",
+        "a": "No. A full fitted sheet is cut for a [[a.w]] × [[a.l]] in mattress and a queen is [[b.w]] × [[b.l]] in, so the sheet is [[diff.w]] in too narrow and [[diff.l]] in too short."
+      },
+      {
+        "q": "Will a full fitted sheet stretch to fit a queen?",
+        "a": "Jersey and deep-pocket sheets stretch a little, but not enough to cover the extra width and length; the corners slip off."
+      },
+      {
+        "q": "Can I use a full flat sheet on a queen bed?",
+        "a": "As a top sheet, loosely. It covers the sleeper but leaves little to tuck under the sides."
+      },
+      {
+        "q": "Is a full the same as a double?",
+        "a": "Yes. Full and double are the same size, so double sheets will not fit a queen either."
+      },
+      {
+        "q": "Are full and queen pillowcases the same?",
+        "a": "Usually. Both full and queen sets typically come with standard pillowcases."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Queen fitted sheet",
+        "why": "Made for the mattress you have",
+        "query": "queen fitted sheet"
+      },
+      {
+        "label": "Queen sheet set",
+        "why": "Fitted, flat and pillowcases together",
+        "query": "queen sheet set"
+      }
+    ]
+  },
+  {
+    "slug": "queen-sheets-on-full-bed",
+    "a": "queen-sheet",
+    "b": "full-bed",
+    "relation": "on",
+    "mode": "fitted-sheet",
+    "keywords": [
+      "do queen sheets fit on a full bed",
+      "can queen sheets fit on a full bed",
+      "will queen sheets fit on a full bed",
+      "will queen sheets fit on a full-size bed",
+      "do queen size sheets fit on a full size bed",
+      "can queen sheets fit on a full size bed",
+      "can queen sheets fit on full bed",
+      "can queen sheets fit on a full"
+    ],
+    "hub": "bedding",
+    "expect": "loosely",
+    "answerExtra": "The fitted sheet goes on, but the extra fabric bunches and wrinkles at the sides and foot. Fine for a guest bed or in a pinch; if you like a tight fit, buy full.",
+    "workarounds": [
+      {
+        "title": "Tuck the excess",
+        "text": "Pull the extra fabric under the mattress along the sides and foot so it doesn't bunch where you sleep."
+      },
+      {
+        "title": "Use sheet straps",
+        "text": "Elastic sheet suspenders across the corners take up the slack and keep the sheet taut."
+      },
+      {
+        "title": "Use queen top layers freely",
+        "text": "Queen flat sheets, blankets and comforters simply hang a little lower on a full bed."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do queen sheets fit on a full bed?",
+        "a": "Loosely. A queen fitted sheet is [[diff.w]] in wider and [[diff.l]] in longer than a full mattress, so it goes on but is baggy."
+      },
+      {
+        "q": "Will a queen fitted sheet stay on a full mattress?",
+        "a": "Yes, because it is bigger rather than smaller, but it can shift and wrinkle without straps or a firm tuck."
+      },
+      {
+        "q": "Can I use a queen comforter on a full bed?",
+        "a": "Yes. A queen comforter drapes a little lower on each side, which many people prefer."
+      },
+      {
+        "q": "Are full and queen pillowcases the same?",
+        "a": "Usually. Both sets typically come with standard pillowcases."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Full fitted sheet",
+        "why": "A snug fit on a full mattress",
+        "query": "full fitted sheet"
+      },
+      {
+        "label": "Sheet straps",
+        "why": "Take up slack in a too-big fitted sheet",
+        "query": "bed sheet straps suspenders"
+      }
+    ]
+  },
+  {
+    "slug": "twin-xl-sheets-on-twin-bed",
+    "a": "twin-xl-sheet",
+    "b": "twin-bed",
+    "relation": "on",
+    "mode": "fitted-sheet",
+    "keywords": [
+      "can twin xl sheets fit on a twin",
+      "can twin xl sheets fit on a twin bed"
+    ],
+    "hub": "bedding",
+    "expect": "loosely",
+    "answerExtra": "Twin XL sheets are the same width as twin and [[diff.l]] in longer, so the fitted sheet goes on with a little slack at the foot that tucks under. Dorm sheets work fine on a twin bed at home.",
+    "workarounds": [
+      {
+        "title": "Tuck the foot",
+        "text": "Tuck the extra length under the foot of the mattress so it doesn't bunch."
+      },
+      {
+        "title": "Use sheet straps",
+        "text": "A pair of sheet suspenders at the foot keeps the sheet taut."
+      },
+      {
+        "title": "Use the flat sheet as usual",
+        "text": "A twin XL flat sheet just leaves more to tuck at the foot of a twin."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can twin XL sheets fit on a twin bed?",
+        "a": "Yes, loosely. They match the twin's [[b.w]] in width and are [[diff.l]] in longer, so the fitted sheet is slightly loose at the foot."
+      },
+      {
+        "q": "Will a twin XL fitted sheet slip off a twin mattress?",
+        "a": "Not usually; the elastic grips the corners and the extra length tucks under the foot."
+      },
+      {
+        "q": "What is the difference between twin and twin XL?",
+        "a": "Length only. A twin is [[b.l]] in long and a twin XL is [[a.l]] in; both are [[a.w]] in wide."
+      },
+      {
+        "q": "Can I use twin sheets on a twin XL bed instead?",
+        "a": "No. Twin sheets are too short for a twin XL, so the corners pop off."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Twin fitted sheet",
+        "why": "A snug fit on a standard twin",
+        "query": "twin fitted sheet"
+      },
+      {
+        "label": "Sheet straps",
+        "why": "Take up slack at the foot",
+        "query": "bed sheet straps suspenders"
+      }
+    ]
+  },
+  {
+    "slug": "twin-sheets-on-twin-xl-bed",
+    "a": "twin-sheet",
+    "b": "twin-xl-bed",
+    "relation": "on",
+    "mode": "fitted-sheet",
+    "keywords": [
+      "will twin sheets fit on twin xl",
+      "will twin sheets fit on a twin xl bed",
+      "can twin sheets fit on twin xl",
+      "can a twin sheet fit on a twin xl",
+      "can twin sheets fit on a twin xl",
+      "can twin sheets fit on a twin xl bed",
+      "can twin sheets fit on twin xl bed",
+      "can a twin fitted sheet fit on a twin xl"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "A twin fitted sheet is [[diff.l]] in too short for a twin XL mattress, so it stretches over three corners and the fourth pops off. College dorm beds are usually twin XL, so buy twin XL sheets for them.",
+    "workarounds": [
+      {
+        "title": "Buy twin XL sheets",
+        "text": "Twin XL fitted sheets are cut for the [[b.l]] in length and are sold everywhere dorm supplies are."
+      },
+      {
+        "title": "Use the twin flat sheet on top",
+        "text": "A twin flat sheet is the right width and works as a top sheet, with less to tuck at the foot."
+      },
+      {
+        "title": "Measure before you buy",
+        "text": "If you aren't sure which size the bed is, measure the mattress length; the width is the same for both."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will twin sheets fit on a twin XL?",
+        "a": "No. A twin fitted sheet is cut for a [[a.l]] in long mattress and a twin XL is [[b.l]] in long, so it comes up short."
+      },
+      {
+        "q": "Can a twin fitted sheet stretch onto a twin XL?",
+        "a": "Stretchy jersey sheets on a thin mattress sometimes make it, but the corners tend to snap off overnight."
+      },
+      {
+        "q": "Are twin XL and twin the same width?",
+        "a": "Yes. Both are [[a.w]] in wide; twin XL only adds length."
+      },
+      {
+        "q": "Can I use a twin flat sheet on a twin XL bed?",
+        "a": "Yes, as a top sheet, with less fabric to tuck at the foot."
+      },
+      {
+        "q": "Do dorms use twin or twin XL?",
+        "a": "Most college dorm beds are twin XL; check your school's housing page before buying."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Twin XL fitted sheet",
+        "why": "Made for dorm-length mattresses",
+        "query": "twin xl fitted sheet"
+      },
+      {
+        "label": "Twin XL sheet set",
+        "why": "Fitted, flat and pillowcase together",
+        "query": "twin xl sheet set"
+      }
+    ]
+  },
+  {
+    "slug": "king-sheets-on-california-king-bed",
+    "a": "king-sheet",
+    "b": "california-king-bed",
+    "relation": "on",
+    "mode": "fitted-sheet",
+    "keywords": [
+      "do king sheets fit on california king bed",
+      "will king size sheets fit on a california king",
+      "will king size sheets fit on a california king bed",
+      "can king sheets fit on a california king bed",
+      "will king sheets fit on a california king bed",
+      "can king sheets fit on california king",
+      "can king sheets fit on a california king",
+      "can king size sheets fit on a california king",
+      "can king sheets fit on a cal king bed"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "The sheet is loose across the width but too short end to end, and the short length is what makes the corners pop off. Buy California king sheets for that bed.",
+    "workarounds": [
+      {
+        "title": "Buy California king sheets",
+        "text": "Search specifically for California king; the sheets are cut for the [[b.l]] in length."
+      },
+      {
+        "title": "Use king top layers",
+        "text": "King flat sheets, comforters and duvets aren't fitted, so they work on a California king."
+      },
+      {
+        "title": "Try deep-pocket stretch sheets only as a stopgap",
+        "text": "Very stretchy king sheets on a thin mattress may hold briefly, but expect the corners to slip."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do king sheets fit on a California king bed?",
+        "a": "No. A king fitted sheet is [[diff.w]] in wider but [[diff.l]] in shorter than a California king mattress, and the missing length makes the corners pop off."
+      },
+      {
+        "q": "Can I use a king comforter on a California king?",
+        "a": "Yes. Comforters and duvets aren't fitted, and a king comforter covers a California king well."
+      },
+      {
+        "q": "Can I use a king flat sheet on a California king bed?",
+        "a": "Yes, as a top sheet. It has extra width and a little less length to tuck at the foot."
+      },
+      {
+        "q": "Why are California king sheets harder to find?",
+        "a": "It's a less common size, so stores stock fewer. Search for California king specifically, not king."
+      }
+    ],
+    "picks": [
+      {
+        "label": "California king fitted sheet",
+        "why": "Cut for the longer mattress",
+        "query": "california king fitted sheet"
+      },
+      {
+        "label": "California king sheet set",
+        "why": "Fitted, flat and pillowcases together",
+        "query": "california king sheet set"
+      }
+    ]
+  },
+  {
+    "slug": "california-king-sheets-on-king-bed",
+    "a": "california-king-sheet",
+    "b": "king-bed",
+    "relation": "on",
+    "mode": "fitted-sheet",
+    "keywords": [
+      "will cal king sheets fit on a king bed"
+    ],
+    "hub": "bedding",
+    "expect": "no",
+    "answerExtra": "A California king fitted sheet is too narrow to stretch across a king mattress, so it bunches at the head and foot and pops off the sides.",
+    "workarounds": [
+      {
+        "title": "Buy king sheets",
+        "text": "King fitted sheets are cut for the [[b.w]] in width of a standard king."
+      },
+      {
+        "title": "Use the flat sheet on top",
+        "text": "A California king flat sheet can serve as a top sheet on a king, though it is narrow for tucking in."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will cal king sheets fit on a king bed?",
+        "a": "No. They are [[diff.w]] in narrower and [[diff.l]] in longer than a king mattress, and the narrow width is the problem."
+      },
+      {
+        "q": "Can I use a California king flat sheet on a king?",
+        "a": "As a top sheet, yes, though it is narrow for tucking along the sides."
+      },
+      {
+        "q": "Do king duvets fit a California king?",
+        "a": "Usually. Many duvets and comforters are sold as one king and California king size."
+      },
+      {
+        "q": "How do I tell king and California king sheets apart?",
+        "a": "Check the mattress size on the label: California king is the longer, narrower one."
+      }
+    ],
+    "picks": [
+      {
+        "label": "King fitted sheet",
+        "why": "Cut for the wider mattress",
+        "query": "king fitted sheet"
+      },
+      {
+        "label": "King sheet set",
+        "why": "Fitted, flat and pillowcases together",
+        "query": "king sheet set"
+      }
+    ]
+  },
+  {
+    "slug": "queen-mattress-in-minivan",
+    "a": "queen-mattress",
+    "b": "minivan",
+    "relation": "in",
+    "mode": "footprint",
+    "keywords": [
+      "can a queen mattress fit in a minivan",
+      "does a queen mattress fit in a minivan",
+      "will a queen mattress fit in a minivan",
+      "will queen mattress fit in minivan",
+      "can a queen size mattress fit in a minivan",
+      "would a queen size mattress fit in a minivan",
+      "will a queen size mattress fit in a minivan",
+      "does a queen size mattress fit in a minivan",
+      "can queen mattress fit in minivan",
+      "can a queen size bed fit in a minivan",
+      "can a queen bed fit in a minivan",
+      "can a queen mattress fit in a honda odyssey",
+      "can queen mattress fit in honda odyssey",
+      "can a queen size mattress fit in a honda odyssey",
+      "can a queen mattress fit in a toyota sienna",
+      "can a queen mattress fit in a dodge caravan"
+    ],
+    "hub": "vehicles",
+    "expect": "no",
+    "answerExtra": "Not flat on the floor: the space between the wheel wells is [[diff.w]] in narrower than a queen, though the floor is long enough. A foam queen can often be bent into a shallow U so its edges ride up the side walls; a stiff innerspring mattress or a box spring can't bend, so plan on a cargo van or delivery for those.",
+    "workarounds": [
+      {
+        "title": "Bend a foam mattress",
+        "text": "Stow every rear seat, slide the mattress in headfirst and let the sides curve up the walls; strap it so it can't spring back toward the driver."
+      },
+      {
+        "title": "Measure the liftgate opening",
+        "text": "The opening is often the tightest point; measure its width and height and compare them with the mattress before you buy."
+      },
+      {
+        "title": "Buy a mattress in a box",
+        "text": "A rolled queen in its box fits a minivan easily and expands at home."
+      },
+      {
+        "title": "Rent a cargo van",
+        "text": "A rental cargo van carries a queen mattress and box spring flat, and some home improvement stores rent vans by the hour."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a queen mattress fit in a minivan?",
+        "a": "Not flat. With the seats stowed the floor is [[b.l]] in long, plenty for a queen, but only [[b.w]] in between the wheel wells versus a [[a.w]] in wide mattress. A foam queen can be bent to fit; a rigid one cannot."
+      },
+      {
+        "q": "Can a queen mattress fit in a Honda Odyssey?",
+        "a": "The Odyssey's second-row seats come out rather than fold, and like other minivans its floor between the wheel wells is narrower than a queen, so a foam queen bent to fit is the realistic option."
+      },
+      {
+        "q": "Can a queen box spring fit in a minivan?",
+        "a": "Generally no. A box spring is rigid and as wide as the mattress, so it can't bend to clear the wheel wells."
+      },
+      {
+        "q": "Can you fit a queen mattress in a minivan with the seats up?",
+        "a": "No. You need the whole floor behind the front seats; with the seats up there is only a short well behind the last row."
+      },
+      {
+        "q": "Does a full mattress fit in a minivan?",
+        "a": "A full is narrower than a queen but still wider than the floor between the wheel wells, so it also has to bend."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Queen mattress in a box",
+        "why": "Ships rolled small enough for any minivan",
+        "query": "queen mattress in a box"
+      },
+      {
+        "label": "Ratchet straps",
+        "why": "Hold a bent mattress in place",
+        "query": "ratchet tie down straps"
+      },
+      {
+        "label": "Mattress bag",
+        "why": "Keeps it clean in transit",
+        "query": "queen mattress moving bag"
+      }
+    ]
+  },
+  {
+    "slug": "queen-mattress-in-suv",
+    "a": "queen-mattress",
+    "b": "midsize-suv",
+    "relation": "in",
+    "mode": "footprint",
+    "keywords": [
+      "can a queen mattress fit in an suv",
+      "will a queen mattress fit in an suv",
+      "can a queen size mattress fit in an suv",
+      "can a queen mattress fit in a suv",
+      "can queen mattress fit in suv",
+      "can a queen size mattress fit in a suv",
+      "can queen size mattress fit in suv",
+      "can a queen bed fit in an suv",
+      "can a queen mattress fit in a honda pilot",
+      "can a queen size mattress fit in a honda pilot",
+      "can a queen mattress fit in a toyota highlander",
+      "can a queen size mattress fit in a toyota highlander"
+    ],
+    "hub": "vehicles",
+    "expect": "no",
+    "answerExtra": "Even with every rear seat folded, a typical midsize SUV's floor is [[diff.w]] in narrower than a queen between the wheel wells. A queen still in its shipping box fits easily; an expanded one usually needs a pickup, a van or delivery.",
+    "workarounds": [
+      {
+        "title": "Buy it boxed",
+        "text": "Mattress-in-a-box queens ship rolled and fit across an SUV cargo area; open the box at home."
+      },
+      {
+        "title": "Bend a foam mattress, carefully",
+        "text": "A foam queen can sometimes be folded and strapped for a short trip, but check the maker's guidance first; never fold an innerspring or hybrid mattress."
+      },
+      {
+        "title": "Use store delivery",
+        "text": "Most mattress retailers deliver, which beats damaging a new mattress or your SUV's interior."
+      },
+      {
+        "title": "Rent a pickup or cargo van",
+        "text": "Hourly rentals from moving companies and home improvement stores carry a queen flat."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a queen mattress fit in an SUV?",
+        "a": "Not flat. A midsize SUV with the rear seats folded has about [[b.w]] in between the wheel wells, while a queen is [[a.w]] in wide."
+      },
+      {
+        "q": "Can a queen mattress fit in a Honda Pilot or Toyota Highlander?",
+        "a": "Both are midsize three-row SUVs with a cargo floor in the same class, so an expanded queen won't lie flat in either; a boxed queen will."
+      },
+      {
+        "q": "Will a queen mattress in a box fit in an SUV?",
+        "a": "Yes. Rolled queens ship in boxes small enough for almost any SUV, often without folding the seats."
+      },
+      {
+        "q": "Can I tie a queen mattress to the roof of my SUV?",
+        "a": "People do, but it's risky at speed. Use a roof rack or straps run through the cabin, drive slowly, and check local rules."
+      },
+      {
+        "q": "Can a full mattress fit in an SUV?",
+        "a": "Not flat either; a full is still wider than the floor between the wheel wells of a typical midsize SUV."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Queen mattress in a box",
+        "why": "Fits an SUV before it expands",
+        "query": "queen mattress in a box"
+      },
+      {
+        "label": "Roof rack straps",
+        "why": "For short, slow trips only",
+        "query": "roof rack tie down straps"
+      }
+    ]
+  },
+  {
+    "slug": "queen-mattress-in-cargo-van",
+    "a": "queen-mattress",
+    "b": "cargo-van",
+    "relation": "in",
+    "mode": "footprint",
+    "keywords": [
+      "will a queen mattress fit in a cargo van",
+      "will queen mattress fit in cargo van",
+      "can a queen mattress fit in a cargo van",
+      "does a queen mattress fit in a cargo van",
+      "can a queen size mattress fit in a cargo van",
+      "will a queen size mattress fit in a cargo van",
+      "can queen mattress fit in cargo van",
+      "can a queen size bed fit in a cargo van",
+      "can a queen bed fit in a cargo van",
+      "can a queen mattress fit in a uhaul van",
+      "can a queen size mattress fit in a uhaul van",
+      "can a queen bed fit in a uhaul cargo van"
+    ],
+    "hub": "vehicles",
+    "expect": "yes",
+    "answerExtra": "It fits flat with room to spare, and U-Haul lists a queen mattress with box spring among the loads its cargo van carries. The width is measured wall to wall, so the mattress may rest on top of the wheel wells; laying it flat or strapping it on its long edge against a wall both work.",
+    "workarounds": [
+      {
+        "title": "Strap it to the wall",
+        "text": "Stand the mattress on its long edge against a side wall and use the van's tie-down points so it can't fall on other items."
+      },
+      {
+        "title": "Bag it",
+        "text": "A plastic mattress bag keeps it clean on a dusty van floor."
+      },
+      {
+        "title": "Mind the rear door opening",
+        "text": "The door opening is smaller than the cargo area; slide the mattress in on edge if it binds."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will a queen mattress fit in a cargo van?",
+        "a": "Yes. The cargo area is [[b.w]] × [[b.l]] in and a queen is [[a.w]] × [[a.l]] in, so it fits flat."
+      },
+      {
+        "q": "Can a queen mattress and box spring fit in a U-Haul cargo van?",
+        "a": "Yes. U-Haul lists a queen mattress with box spring as a typical load for its cargo van."
+      },
+      {
+        "q": "Can a king mattress fit in a cargo van?",
+        "a": "Not flat, because a king is wider than the van's interior; carry it on its long edge against a wall."
+      },
+      {
+        "q": "Should a mattress be moved flat or on its side?",
+        "a": "Either works for a short trip if it's supported. On its side takes less floor space; just don't fold or crush an innerspring mattress."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Mattress moving bag",
+        "why": "Keeps it clean in the van",
+        "query": "queen mattress moving bag"
+      },
+      {
+        "label": "Ratchet straps",
+        "why": "Secure it upright against a wall",
+        "query": "ratchet tie down straps"
+      }
+    ]
+  },
+  {
+    "slug": "65-inch-tv-in-car",
+    "a": "tv-65-boxed",
+    "b": "car-best-case",
+    "relation": "in",
+    "mode": "upright",
+    "keywords": [
+      "will a 65 inch tv fit in my car",
+      "can a 65 inch tv fit in a car",
+      "will a 65 inch tv fit in a car",
+      "can a 65 in tv fit in a car",
+      "will a 65 tv fit in a car",
+      "can a 65 tv fit in a car",
+      "will a 65 inch tv fit in my suv",
+      "can 65 inch tv fit in car",
+      "can a 65 inch tv fit in my car",
+      "can 65 tv fit in car",
+      "can a 65 tv fit in my car",
+      "can 65 inch tv fit in suv",
+      "can a 65 inch tv fit in a suv",
+      "can a 65in tv fit in my car",
+      "can 65 tv fit in suv",
+      "can a 65 in tv fit in a suv"
+    ],
+    "hub": "vehicles",
+    "expect": "no",
+    "answerExtra": "Standing upright, the way TV makers say to carry it, the box is [[diff.h]] in taller than the liftgate opening of a typical midsize SUV, and a sedan is smaller still. Use a minivan or pickup, or have the store deliver it.",
+    "workarounds": [
+      {
+        "title": "Use a minivan or pickup",
+        "text": "Minivans have taller cargo openings, and a pickup bed has no roof, so the box can stay upright, strapped to the side."
+      },
+      {
+        "title": "Get it delivered",
+        "text": "Big retailers deliver TVs, and some include setup or haul-away of the old set."
+      },
+      {
+        "title": "Check before laying it flat",
+        "text": "Some manufacturers allow short trips with the TV flat and screen up, many don't; check the box or manual, and never put weight on the screen."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will a 65 inch TV fit in my car?",
+        "a": "Not upright in its box in most cars. The box is about [[a.w]] in wide and [[a.h]] in tall, and a typical midsize SUV's liftgate opening is [[b.h]] in high."
+      },
+      {
+        "q": "Can a 65 inch TV fit in an SUV?",
+        "a": "The box fits the floor length with the seats folded, but standing upright it's taller than a typical midsize SUV opening. Some larger SUVs have taller openings, so measure yours."
+      },
+      {
+        "q": "Can a 65 inch TV fit in a sedan?",
+        "a": "No. A sedan's trunk and back seat are far too small for a box this size; use delivery or a larger vehicle."
+      },
+      {
+        "q": "Can you lay a TV flat in a car?",
+        "a": "TV makers generally say to keep the box upright because carrying it flat can stress or crack the panel; check your model's instructions."
+      },
+      {
+        "q": "Will a 65 inch TV fit in a minivan?",
+        "a": "Usually, with the rear seats stowed, because minivan openings are taller than SUV openings; measure the opening height against the box."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Moving blankets",
+        "why": "Pad the box against the vehicle walls",
+        "query": "moving blankets"
+      },
+      {
+        "label": "Ratchet straps",
+        "why": "Keep the box upright in a pickup bed",
+        "query": "ratchet tie down straps"
+      }
+    ]
+  },
+  {
+    "slug": "55-inch-tv-in-car",
+    "a": "tv-55-boxed",
+    "b": "car-best-case",
+    "relation": "in",
+    "mode": "upright",
+    "keywords": [
+      "will a 55 inch tv fit in my car",
+      "can a 55 inch tv fit in my car",
+      "can a 55 inch tv fit in a car",
+      "will a 55 tv fit in my car",
+      "can 55 inch tv fit in car",
+      "can a 55 inch tv fit in car",
+      "can 55 tv fit in car",
+      "can a 55 tv fit in my car",
+      "can a 55 tv fit in a car",
+      "can a 55 in tv fit in a car",
+      "can a 55in tv fit in a car"
+    ],
+    "hub": "vehicles",
+    "expect": "no",
+    "answerExtra": "It's close: standing upright, the way TV makers say to carry it, the box is only [[diff.h]] in taller than the liftgate opening of a typical midsize SUV. A minivan or a larger SUV with a taller opening may take it; measure your opening height first.",
+    "workarounds": [
+      {
+        "title": "Measure your opening",
+        "text": "Measure the liftgate or trunk opening height; if it's at least [[a.h]] in, the box can go in upright with the seats folded."
+      },
+      {
+        "title": "Use a minivan or pickup",
+        "text": "Minivans have taller openings, and a pickup bed lets the box ride upright, strapped to the side."
+      },
+      {
+        "title": "Get it delivered",
+        "text": "Store delivery avoids the problem entirely and often includes setup."
+      },
+      {
+        "title": "Check before laying it flat",
+        "text": "Some manufacturers allow short trips with the TV flat and screen up, many don't; check the box or manual first."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will a 55 inch TV fit in my car?",
+        "a": "Not upright in most cars. The box is about [[a.w]] in wide and [[a.h]] in tall, a little taller than a typical midsize SUV's [[b.h]] in opening."
+      },
+      {
+        "q": "Can a 55 inch TV fit in a sedan?",
+        "a": "Not in the trunk. Some sedans can take it across the back seat, but the box usually won't fit upright through the door."
+      },
+      {
+        "q": "Can a 55 inch TV fit in an SUV?",
+        "a": "Lengthwise yes, with the seats folded; height is the issue. Measure your liftgate opening against the box height."
+      },
+      {
+        "q": "Can you lay a 55 inch TV flat in a car?",
+        "a": "TV makers generally say to keep it upright because carrying it flat can stress the panel; check your model's instructions."
+      },
+      {
+        "q": "How big is a 55 inch TV box?",
+        "a": "About [[a.w]] × [[a.h]] in and [[a.l]] in deep for a typical model, though boxes vary by brand."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Moving blankets",
+        "why": "Pad the box in transit",
+        "query": "moving blankets"
+      },
+      {
+        "label": "Tape measure",
+        "why": "Check your opening height before you buy",
+        "query": "tape measure 25 ft"
+      }
+    ]
+  },
+  {
+    "slug": "owala-32-oz-in-cup-holder",
+    "a": "owala-freesip-32",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does 32 oz owala fit in cup holder",
+      "does owala 32 oz fit in cup holder",
+      "does 32oz owala fit in cup holder",
+      "does a 32oz owala fit in a cup holder",
+      "does 32 oz owala fit in car cup holder",
+      "do 32 oz owala fit in cup holder",
+      "does a 32 oz owala fit in cup holder",
+      "does a 32 oz owala fit in a cup holder",
+      "does the 32 oz owala fit in a cup holder",
+      "does 32 ounce owala fit in cup holder",
+      "does the owala 32oz fit in a cup holder",
+      "does the 32 oz owala fit in cup holder",
+      "do 32oz owala fit in cup holder",
+      "does a 32 ounce owala fit in a cup holder",
+      "does owala 32 oz free sip fit in cup holder",
+      "does owala 32 fit in cup holder",
+      "does owala freesip 32 oz fit in cup holder",
+      "does a 32 oz owala fit in car cup holder",
+      "does owala 32oz fit in cup holder",
+      "does owala 32 oz fit in car cup holder",
+      "does owala free sip 32 oz fit in cup holder",
+      "can owala 32 oz fit in cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "answerExtra": "That puts it near the wide end of the range, so it drops into roomier holders but not narrow or tapered ones. Measure the inside of your holder at its narrowest point; you need at least [[a.d]] in.",
+    "workarounds": [
+      {
+        "title": "Use a cup holder expander",
+        "text": "An expander sits in the existing holder and gives a wider cradle on top; check its top diameter against [[a.d]] in."
+      },
+      {
+        "title": "Size down to the 24 oz",
+        "text": "The 24 oz FreeSip has a narrower base and fits more holders."
+      },
+      {
+        "title": "Try the FreeSip Sway",
+        "text": "Owala's Sway version has a tapered base designed to fit cup holders."
+      },
+      {
+        "title": "Skip the boot in the car",
+        "text": "A silicone boot adds thickness at the base; take it off if the bottle only just fits bare."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a 32 oz Owala fit in a cup holder?",
+        "a": "Sometimes. Its base is [[a.d]] in across and car cup holders typically measure [[b.d]] in, so it fits the roomier ones only."
+      },
+      {
+        "q": "Does the 40 oz Owala fit in a cup holder?",
+        "a": "It's wider than the 32 oz, so it fits even fewer holders; a cup holder expander is the usual fix."
+      },
+      {
+        "q": "Does the Owala boot affect cup holder fit?",
+        "a": "Yes. A silicone boot adds thickness around the base, so a bottle that barely fits bare may not fit with the boot on."
+      },
+      {
+        "q": "Which Owala fits a cup holder best?",
+        "a": "The 24 oz FreeSip and the Sway versions, which have narrower or tapered bases."
+      },
+      {
+        "q": "How do I measure my cup holder?",
+        "a": "Measure the inside diameter at the narrowest point, below any rubber fins, and compare it with the bottle's base."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "Holds wide bottles in standard holders",
+        "query": "car cup holder expander for 32 oz bottles"
+      },
+      {
+        "label": "Owala FreeSip Sway",
+        "why": "Tapered base made for cup holders",
+        "query": "owala freesip sway"
+      }
+    ]
+  },
+  {
+    "slug": "owala-24-oz-in-cup-holder",
+    "a": "owala-freesip-24",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does 24 oz owala fit in cup holder",
+      "does the 24 oz owala fit in a cup holder",
+      "does owala 24 oz fit in cup holder",
+      "does a 24 oz owala fit in cup holder",
+      "does the owala 24oz fit in a cup holder",
+      "does owala 24 fit in cup holder",
+      "does owala 24 oz fit in car cup holder",
+      "does 24 oz owala fit in car cup holder",
+      "does a 24oz owala fit in cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "answerExtra": "That's toward the narrow end of the range, so it fits most holders that are at least [[a.d]] in across; only the narrowest or most tapered holders are too tight.",
+    "workarounds": [
+      {
+        "title": "Check the narrowest point",
+        "text": "Measure your holder below any rubber fins; if it's at least [[a.d]] in, the bottle will sit down fully."
+      },
+      {
+        "title": "Use a cup holder expander",
+        "text": "If your holder is too narrow, an expander gives a wider cradle on top."
+      },
+      {
+        "title": "Skip the boot in the car",
+        "text": "A silicone boot adds thickness at the base and can stop a snug fit."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the 24 oz Owala fit in a cup holder?",
+        "a": "Usually. Its base is [[a.d]] in across and car cup holders typically measure [[b.d]] in, so it fits all but the narrowest."
+      },
+      {
+        "q": "Is the 24 oz Owala narrower than the 32 oz?",
+        "a": "Yes. Its base is narrower, which is why it fits more cup holders."
+      },
+      {
+        "q": "Does the 24 oz Owala fit with the boot on?",
+        "a": "A boot adds thickness around the base, so in a snug holder it may not; take it off for the car."
+      },
+      {
+        "q": "How tall is the 24 oz Owala?",
+        "a": "It stands [[a.h]] in tall, so check that it clears any armrest or controls next to the holder."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "For holders on the narrow side",
+        "query": "car cup holder expander"
+      },
+      {
+        "label": "Owala FreeSip 24 oz",
+        "why": "The size most likely to fit",
+        "query": "owala freesip 24 oz"
+      }
+    ]
+  },
+  {
+    "slug": "owala-in-cup-holder",
+    "a": "owala-freesip",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does owala fit in cup holder",
+      "do owalas fit in cup holders",
+      "does owala free sip fit in cup holder",
+      "do owala water bottles fit in car cup holders",
+      "do owala fit in cup holders",
+      "do owalas fit in car cup holders",
+      "does owala fit in car cup holder",
+      "does the owala fit in a cup holder",
+      "can owala fit in cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "answerExtra": "That's the 24 oz bottle, which fits most holders at least [[a.d]] in across. The 32 oz and 40 oz FreeSips have wider bases and fit fewer holders, and the FreeSip Sway has a tapered base made for them.",
+    "workarounds": [
+      {
+        "title": "Pick the right size",
+        "text": "For the car, the 24 oz fits the most holders; the larger sizes may need an expander."
+      },
+      {
+        "title": "Use a cup holder expander",
+        "text": "An expander sits in your existing holder and takes wider bottles."
+      },
+      {
+        "title": "Try the FreeSip Sway",
+        "text": "Owala's Sway version tapers at the base to fit cup holders."
+      },
+      {
+        "title": "Skip the boot in the car",
+        "text": "A silicone boot adds thickness at the base and can stop a snug fit."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does an Owala fit in a cup holder?",
+        "a": "The 24 oz usually does: its base is [[a.d]] in across and car cup holders typically measure [[b.d]] in. Larger sizes are wider and hit or miss."
+      },
+      {
+        "q": "Do Owalas fit in car cup holders?",
+        "a": "The smaller sizes fit most; the 32 oz fits roomier holders, and the 40 oz often needs an expander."
+      },
+      {
+        "q": "Does the Owala FreeSip Sway fit in a cup holder?",
+        "a": "It's designed to; Owala gives the Sway a tapered base for cup holders."
+      },
+      {
+        "q": "Does the 32 oz Owala fit in a cup holder?",
+        "a": "Sometimes. It has a wider base than the 24 oz, so it fits roomier holders only."
+      },
+      {
+        "q": "Does the Owala boot affect cup holder fit?",
+        "a": "Yes. The boot adds thickness around the base, so remove it if the bottle is a snug fit."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "Takes the 32 oz and 40 oz sizes",
+        "query": "car cup holder expander for large water bottles"
+      },
+      {
+        "label": "Owala FreeSip Sway",
+        "why": "Tapered base made for cup holders",
+        "query": "owala freesip sway"
+      }
+    ]
+  },
+  {
+    "slug": "switch-2-in-switch-1-case",
+    "a": "switch-2",
+    "b": "switch-1-case",
+    "relation": "in",
+    "mode": "box",
+    "keywords": [
+      "does switch 2 fit in switch 1 case",
+      "will switch 2 fit in switch 1 case",
+      "will a switch 2 fit in a switch case",
+      "can switch 2 fit in switch 1 case",
+      "will a switch 2 fit in a switch 1 case",
+      "does a switch 2 fit in a switch 1 case",
+      "can a switch 2 fit in a switch 1 case"
+    ],
+    "hub": "tech",
+    "expect": "no",
+    "answerExtra": "With Joy-Con 2 attached the new console is about [[diff.w]] in wider and [[diff.l]] in taller than the original, so it won't zip into a case molded for the first Switch. Buy a case listed for Switch 2.",
+    "workarounds": [
+      {
+        "title": "Get a Switch 2 case",
+        "text": "Cases made for Switch 2 are molded around its larger body and sticks."
+      },
+      {
+        "title": "Use a padded universal sleeve",
+        "text": "A padded tablet sleeve or universal console bag sized for the new console works in a pinch."
+      },
+      {
+        "title": "Reuse the old case for accessories",
+        "text": "The original case still holds cartridges, cables and spare Joy-Con."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the Switch 2 fit in a Switch 1 case?",
+        "a": "No. With Joy-Con 2 attached it is [[a.w]] × [[a.l]] in, versus [[b.w]] × [[b.l]] in for the original, so a fitted case is too small."
+      },
+      {
+        "q": "Will a Switch 2 fit in a Switch OLED case?",
+        "a": "No. The OLED model is only slightly larger than the original Switch, still well short of the Switch 2."
+      },
+      {
+        "q": "Is the Switch 2 thicker than the Switch 1?",
+        "a": "About the same at the screen, roughly [[a.h]] in, so the problem is width and height, not depth."
+      },
+      {
+        "q": "Do Switch 1 screen protectors fit the Switch 2?",
+        "a": "No. The Switch 2 has a larger screen, so buy protectors made for it."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Nintendo Switch 2 case",
+        "why": "Molded for the larger console",
+        "query": "nintendo switch 2 carrying case"
+      },
+      {
+        "label": "Switch 2 screen protector",
+        "why": "Sized for the new screen",
+        "query": "nintendo switch 2 screen protector"
+      }
+    ]
+  },
+  {
+    "slug": "micro-atx-in-atx-case",
+    "a": "micro-atx-board",
+    "b": "atx-case",
+    "relation": "in",
+    "mode": "standard",
+    "keywords": [
+      "does micro atx fit in atx case",
+      "can micro atx fit in atx case",
+      "will micro atx fit in atx case",
+      "will matx fit in atx case",
+      "can a micro atx fit in a atx case",
+      "can a micro atx fit in an atx case",
+      "can matx fit in atx case",
+      "can micro atx motherboard fit in atx case",
+      "can a micro atx motherboard fit in an atx case",
+      "can a micro atx motherboard fit in a atx case",
+      "can a matx motherboard fit in an atx case"
+    ],
+    "hub": "tech",
+    "expect": "yes",
+    "standardVerdict": "yes",
+    "answerExtra": "The ATX specification lines ATX mounting holes up with the microATX ones, and notes that this lets many ATX cases accept microATX boards. You use a subset of the same standoffs and get fewer expansion slots; the I/O shield and power connectors work the same.",
+    "workarounds": [
+      {
+        "title": "Remove stray standoffs",
+        "text": "Take out any standoff that doesn't line up with a hole in the smaller board; a stray one can short the back of the board."
+      },
+      {
+        "title": "Check cable reach",
+        "text": "The board's lower edge ends higher in the case, so front-panel and power cables may need to reach a little further."
+      },
+      {
+        "title": "Confirm the case's form factor list",
+        "text": "Check that microATX appears in the case's supported motherboards; most ATX cases list it."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does micro ATX fit in an ATX case?",
+        "a": "Yes. A micro ATX board is at most [[a.w]] × [[a.l]] in and its mounting holes line up with ATX's, inside a case built for a [[b.w]] × [[b.l]] in board."
+      },
+      {
+        "q": "Can an ATX motherboard fit in a micro ATX case?",
+        "a": "Usually not. A full ATX board is longer than a micro ATX case is built for, unless the case lists ATX support."
+      },
+      {
+        "q": "Will a mini ITX board fit in an ATX case?",
+        "a": "Yes. Mini ITX also uses holes that line up with ATX positions, and ATX cases usually list it as supported."
+      },
+      {
+        "q": "Do I need different standoffs for micro ATX?",
+        "a": "No. The same standoffs work; you just use fewer of them, in the positions that match the board."
+      },
+      {
+        "q": "Is a micro ATX build in an ATX case a bad idea?",
+        "a": "No. It leaves more room for airflow and cables; the trade-off is fewer expansion slots."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Motherboard standoff kit",
+        "why": "Spare standoffs for any hole layout",
+        "query": "motherboard standoff screw kit"
+      },
+      {
+        "label": "Micro ATX motherboard",
+        "why": "Fits ATX and micro ATX cases",
+        "query": "micro atx motherboard"
+      }
+    ]
+  },
+  {
+    "slug": "crib-mattress-in-pack-and-play",
+    "a": "crib-mattress",
+    "b": "play-yard",
+    "relation": "in",
+    "mode": "footprint",
+    "keywords": [
+      "will a crib mattress fit in a pack and play",
+      "does a crib mattress fit in a pack and play",
+      "does a crib mattress fit in pack and play",
+      "can a crib mattress fit in a pack and play",
+      "do crib mattresses fit in pack n plays",
+      "will a crib mattress fit in a playpen",
+      "does a crib mattress fit in a playpen",
+      "can a crib mattress fit in a playpen",
+      "do crib mattresses fit in playpens",
+      "can a crib mattress fit in a pack n play"
+    ],
+    "hub": "baby",
+    "expect": "no",
+    "answerExtra": "A full-size crib mattress is far longer than a play yard floor. Never add a mattress or pad that didn't come with your play yard unless it is labeled for that exact model: CPSC warns that babies can suffocate in gaps between an ill-fitting mattress, or extra padding, and the side walls.",
+    "workarounds": [
+      {
+        "title": "Use the pad that came with it",
+        "text": "Play yards are designed and tested with their own pad, which is the safe sleep surface."
+      },
+      {
+        "title": "Buy a replacement made for your model",
+        "text": "If you need a new pad, buy one from the manufacturer or one labeled for your play yard's brand and model number, as CPSC advises."
+      },
+      {
+        "title": "Use the crib mattress in a crib",
+        "text": "A full-size crib mattress belongs in a full-size crib or a toddler bed."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will a crib mattress fit in a pack and play?",
+        "a": "No. A full-size crib mattress is at least [[a.w]] × [[a.l]] in, while play yard floors are about [[b.w]] × [[b.l]] in."
+      },
+      {
+        "q": "Can I put an extra mattress in a pack and play?",
+        "a": "No. CPSC warns that extra padding or an aftermarket mattress not made for your play yard can leave gaps where a baby can suffocate. Use only the pad that came with it or a replacement labeled for that model."
+      },
+      {
+        "q": "Do crib mattresses fit in playpens?",
+        "a": "No. A playpen is another name for a play yard, and the size gap is the same."
+      },
+      {
+        "q": "Is a mini crib mattress the same as a pack and play mattress?",
+        "a": "No. Mini crib mattresses are sized for mini cribs, and using one in a play yard can leave dangerous gaps; match the mattress to the product."
+      },
+      {
+        "q": "Why is the pack and play pad so thin?",
+        "a": "The play yard is designed and safety tested with that pad; a thicker or different pad can create gaps and reduce the height of the sides above the baby."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Replacement pad for your play yard model",
+        "why": "Only buy one labeled for your exact model",
+        "query": "replacement mattress for my play yard model"
+      },
+      {
+        "label": "Fitted play yard sheet",
+        "why": "Made for the original pad",
+        "query": "fitted play yard sheet"
+      }
+    ],
+    "sources": [
+      {
+        "name": "CPSC business guidance: crib mattresses",
+        "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Crib-Mattresses"
+      }
+    ]
+  },
+  {
+    "slug": "car-in-10x20-storage-unit",
+    "a": "car",
+    "b": "storage-10x20",
+    "relation": "in",
+    "mode": "footprint",
+    "keywords": [
+      "can a car fit in a 10x20 storage unit",
+      "will a car fit in a 10x20 storage unit"
+    ],
+    "hub": "moving",
+    "expect": "yes",
+    "answerExtra": "Even a midsize SUV leaves room around it, and Public Storage says a [[b.name]] suits most cars and trucks. The real limits are the door opening, whether the facility allows vehicles in that unit, and space to open a car door once parked.",
+    "workarounds": [
+      {
+        "title": "Ask for a vehicle unit",
+        "text": "Many facilities have drive-up units designated for vehicles; Public Storage steers car owners to those rather than standard units."
+      },
+      {
+        "title": "Measure the door, not just the floor",
+        "text": "Ask for the roll-up door's width and height and compare them with your car's width including mirrors."
+      },
+      {
+        "title": "Back in and fold the mirrors",
+        "text": "Backing in leaves the trunk reachable and folding the mirrors makes the door opening easier."
+      },
+      {
+        "title": "Check the rules",
+        "text": "Ask about fuel, battery, registration and insurance requirements before you store a car."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a car fit in a 10x20 storage unit?",
+        "a": "Yes. The unit floor is [[b.w]] × [[b.l]] in, and even a midsize SUV at [[a.w]] × [[a.l]] in leaves space around it."
+      },
+      {
+        "q": "Will a pickup truck fit in a 10x20 storage unit?",
+        "a": "Shorter pickups can, but crew-cab long-bed trucks come close to or exceed the unit's length, so measure first."
+      },
+      {
+        "q": "Can a car fit in a 10x10 storage unit?",
+        "a": "No. That unit is half as long as a [[b.name]], far shorter than any car."
+      },
+      {
+        "q": "Can I work on my car in a storage unit?",
+        "a": "Most facilities don't allow repairs or running engines inside units; check your rental agreement."
+      },
+      {
+        "q": "Do storage units allow cars?",
+        "a": "Many do, sometimes only in designated vehicle units and with proof of registration and insurance. Ask the facility before renting."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Car cover",
+        "why": "Keeps dust off in storage",
+        "query": "indoor car cover"
+      },
+      {
+        "label": "Battery maintainer",
+        "why": "Keeps the battery charged while stored",
+        "query": "car battery maintainer"
+      }
+    ]
+  },
+  {
+    "slug": "golf-cart-in-truck-bed",
+    "a": "golf-cart",
+    "b": "truck-bed",
+    "relation": "in",
+    "mode": "footprint",
+    "keywords": [
+      "will golf cart fit in truck bed",
+      "will a golf cart fit in a truck bed",
+      "can a golf cart fit in a truck bed",
+      "can golf cart fit in truck bed",
+      "can a golf cart fit in truck bed",
+      "can a golf cart fit in a pickup truck",
+      "can a golf cart fit in a short bed truck"
+    ],
+    "hub": "moving",
+    "expect": "depends",
+    "answerExtra": "Width is fine: a typical two-seat cart at [[a.w]] in clears the [[b.w]] in between a full-size pickup's wheel wells. Length decides it: with the tailgate closed it fits only a long bed. In shorter beds the cart has to extend onto the lowered tailgate, so check the tailgate's and the truck's weight ratings and strap all four corners; very short beds leave too much hanging out.",
+    "workarounds": [
+      {
+        "title": "Lower the tailgate",
+        "text": "On standard and short beds, let the cart ride partly on the lowered tailgate, within the tailgate's weight rating."
+      },
+      {
+        "title": "Use rated ramps",
+        "text": "Use loading ramps rated for the cart's weight and long enough for a gentle angle, and drive or winch it up slowly."
+      },
+      {
+        "title": "Tow a utility trailer instead",
+        "text": "A small trailer sits lower, loads more easily and avoids tailgate limits."
+      },
+      {
+        "title": "Check payload",
+        "text": "The cart plus passengers and gear must stay under the payload rating on the truck's door-jamb sticker."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will a golf cart fit in a truck bed?",
+        "a": "In a long bed with the tailgate closed, yes; in shorter beds only with the tailgate down. The cart is [[a.l]] in long and full-size beds run [[b.l]] in."
+      },
+      {
+        "q": "Can a golf cart fit in a short bed truck?",
+        "a": "Only with the tailgate down, and even then a lot of the cart hangs past the bed; a trailer is safer."
+      },
+      {
+        "q": "Does a golf cart fit between the wheel wells?",
+        "a": "Yes. A typical two-seat cart at [[a.w]] in wide clears the [[b.w]] in between a full-size pickup's wheel wells."
+      },
+      {
+        "q": "Can you put a four-seat golf cart in a truck bed?",
+        "a": "Four-seat carts are much longer, so move them on a trailer."
+      },
+      {
+        "q": "How do you secure a golf cart in a truck bed?",
+        "a": "Set the parking brake, then ratchet-strap each corner of the frame to the bed's tie-down points, not to the roof or seats."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Golf cart loading ramps",
+        "why": "Rated for cart weight",
+        "query": "golf cart loading ramps for pickup truck"
+      },
+      {
+        "label": "Ratchet straps",
+        "why": "Secure all four corners",
+        "query": "heavy duty ratchet straps"
+      }
+    ]
+  }
+]

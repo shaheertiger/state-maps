@@ -71,7 +71,7 @@ export type CompatPage = {
 
 const lo = (r: number | [number, number]) => (Array.isArray(r) ? r[0] : r);
 const hi = (r: number | [number, number]) => (Array.isArray(r) ? r[1] : r);
-const fmt = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(n < 10 ? 2 : 1).replace(/0+$/, "").replace(/\.$/, ""));
+const fmt = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(2).replace(/0+$/, "").replace(/\.$/, ""));
 export const inch = (r?: number | [number, number]) => (r === undefined ? "" : Array.isArray(r) ? `${fmt(r[0])}–${fmt(r[1])}` : fmt(r));
 export const cm = (r?: number | [number, number]) =>
   r === undefined ? "" : Array.isArray(r) ? `${Math.round(r[0] * 2.54)}–${Math.round(r[1] * 2.54)}` : String(Math.round(r * 2.54));
