@@ -60,7 +60,7 @@ Copy `.env.example` and set these in Vercel's project settings:
 
 | Variable | Purpose |
 |---|---|
-| `NEXT_PUBLIC_SITE_URL` | Production origin, used for canonicals, sitemaps and structured data. **Set this before launch.** |
+| `NEXT_PUBLIC_SITE_URL` | Production origin, used for canonicals, sitemaps, robots.txt and structured data. If unset on Vercel, the project's production domain (`VERCEL_PROJECT_PRODUCTION_URL`) is used. Set it once your custom domain is live. |
 | `NEXT_PUBLIC_AMAZON_TAG` | Amazon Associates tracking ID added to shopping links |
 | `NEXT_PUBLIC_CF_BEACON` | Optional Cloudflare Web Analytics token |
 
@@ -73,7 +73,7 @@ The site name, tagline and contact email live in `lib/site.ts`.
 3. Turn on **Spend Management** with a low cap (for example $30) and alerts.
 4. Add firewall or bot-protection rules for scrapers. `robots.txt` already allows search and AI-search crawlers.
 5. Production deploys from `main` only. Batch content changes rather than deploying every small commit.
-6. Submit `/sitemap.xml` (an index of `sitemap-fit.xml`, `sitemap-will-it-fit.xml`, `sitemap-sizing.xml` and `sitemap-tools.xml`) to Google Search Console and Bing Webmaster Tools.
+6. Submit `/sitemap.xml` (an index of `sitemap-fit.xml`, `sitemap-will-it-fit.xml`, `sitemap-sizing.xml`, `sitemap-tools.xml` and `sitemap-pages.xml`) to Google Search Console and Bing Webmaster Tools. The build checks that every sitemap URL is a real page and every page is in a sitemap.
 
 Preview deployments on `*.vercel.app` send `X-Robots-Tag: noindex`. Redirects for merged pages live in `vercel.json`. The same `out/` folder also deploys unchanged to Cloudflare Pages if you ever want $0 hosting.
 

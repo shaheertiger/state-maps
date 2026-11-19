@@ -36,5 +36,6 @@ export const SITEMAPS = {
   "sitemap-fit.xml": (x: Entry) => x.kind === "fit" || x.kind === "hub",
   "sitemap-will-it-fit.xml": (x: Entry) => x.kind === "compat",
   "sitemap-sizing.xml": (x: Entry) => x.kind === "sizing",
-  "sitemap-tools.xml": (x: Entry) => x.kind === "tool" || x.kind === "page",
+  "sitemap-tools.xml": (x: Entry) => x.kind === "tool",
+  "sitemap-pages.xml": (x: Entry) => x.kind === "page",
 } as const;

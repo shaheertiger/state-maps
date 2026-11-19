@@ -66,6 +66,47 @@ for (const file of html) {
   else if (canonical !== `${SITE.url}${rel}`) errors.push(`${rel}: canonical is ${canonical}`);
 }
 
+// ---------- Sitemaps ----------
+const indexable = new Set(
+  html
+    .map((f) => "/" + path.relative(out, f).replace(/index\.html$/, "").replace(/\\/g, "/"))
+    .filter((p) => p.endsWith("/") && !p.startsWith("/404") && !p.startsWith("/_not-found") && !p.startsWith("/search/")),
+);
+const read = (f: string) => (fs.existsSync(path.join(out, f)) ? fs.readFileSync(path.join(out, f), "utf8") : null);
+const locs = (xml: string) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+const index = read("sitemap.xml");
+const inSitemaps = new Map<string, string>();
+if (!index) errors.push("out/sitemap.xml missing");
+else {
+  if (!index.includes("<sitemapindex")) errors.push("sitemap.xml is not a sitemap index");
+  for (const loc of locs(index)) {
+    if (!loc.startsWith(`${SITE.url}/`)) errors.push(`sitemap.xml: ${loc} is not on ${SITE.url}`);
+    const file = loc.slice(SITE.url.length + 1);
+    const xml = read(file);
+    if (!xml) {
+      errors.push(`sitemap.xml lists ${file}, which wasn't built`);
+      continue;
+    }
+    const urls = locs(xml);
+    if (urls.length === 0) errors.push(`${file} has no URLs`);
+    for (const u of urls) {
+      if (!u.startsWith(`${SITE.url}/`)) {
+        errors.push(`${file}: ${u} is not on ${SITE.url}`);
+        continue;
+      }
+      const p = u.slice(SITE.url.length);
+      if (inSitemaps.has(p)) errors.push(`${p} is listed in both ${inSitemaps.get(p)} and ${file}`);
+      inSitemaps.set(p, file);
+      if (!indexable.has(p)) errors.push(`${file}: ${p} is not a built page`);
+    }
+  }
+  for (const p of indexable) if (!inSitemaps.has(p)) errors.push(`${p} is built but missing from every sitemap`);
+}
+const robots = read("robots.txt") ?? "";
+if (!robots.includes(`Sitemap: ${SITE.url}/sitemap.xml`)) errors.push(`robots.txt doesn't point to ${SITE.url}/sitemap.xml`);
+if (process.env.VERCEL && SITE.url.includes("example.com"))
+  errors.push("SITE.url is the example.com placeholder on Vercel: set NEXT_PUBLIC_SITE_URL in the project settings");
+
 if (!fs.existsSync(path.join(out, "404.html"))) errors.push("out/404.html missing");
 if (!fs.existsSync(path.join(out, "pagefind", "pagefind.js"))) errors.push("Pagefind index missing (out/pagefind)");
 
@@ -74,4 +115,4 @@ if (errors.length) {
   console.error(`\n${errors.length} problem(s) in the built site.`);
   process.exit(1);
 }
-console.log(`built site ok: ${pages} indexable pages, ${files.length} files, no broken internal links`);
+console.log(`built site ok: ${pages} indexable pages, ${inSitemaps.size} sitemap URLs on ${SITE.url}, ${files.length} files, no broken internal links`);

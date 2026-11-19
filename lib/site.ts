@@ -1,10 +1,24 @@
+/**
+ * Production origin used for canonicals, sitemaps, robots.txt and structured data.
+ * 1. NEXT_PUBLIC_SITE_URL if set (use this once the custom domain is live).
+ * 2. Otherwise Vercel's production domain, which Vercel exposes to every build
+ *    (preview builds too, so previews still point canonicals at production).
+ * 3. Otherwise a placeholder; the post-build check fails a Vercel build that ends up here.
+ */
+function siteUrl(): string {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  const url = explicit || (vercel ? `https://${vercel}` : "https://www.example.com");
+  return url.replace(/\/+$/, "");
+}
+
 /** One place to rename the site. */
 export const SITE = {
   name: "Fit Guides",
   tagline: "How it should fit, whether it will fit, and how brands size.",
   description:
     "Clear, measured answers to how clothes, shoes and gear should fit, whether one size fits another, and how brands size — with checklists, size charts and calculators.",
-  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://www.example.com").replace(/\/$/, ""),
+  url: siteUrl(),
   locale: "en-US",
   email: "hello@example.com",
   organization: "Fit Guides",
