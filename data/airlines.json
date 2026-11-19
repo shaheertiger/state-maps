@@ -1,0 +1,688 @@
+[
+  {
+    "id": "american",
+    "name": "American Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        36,
+        23
+      ]
+    },
+    "personalItem": {
+      "in": [
+        18,
+        14,
+        8
+      ],
+      "cm": [
+        45,
+        35,
+        20
+      ]
+    },
+    "includesWheels": true,
+    "note": "Basic Economy also includes one carry-on plus one personal item.",
+    "source": "https://www.aa.com/web/i18n/travel-info/baggage/carry-on-baggage.html",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "delta",
+    "name": "Delta Air Lines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        35,
+        23
+      ]
+    },
+    "includesWheels": true,
+    "note": "Total must also not exceed 45 linear inches (114 cm). Personal item has no published size; it must fit under the seat.",
+    "source": "https://www.delta.com/us/en/baggage/carry-on-baggage",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "united",
+    "name": "United Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        35,
+        22
+      ]
+    },
+    "personalItem": {
+      "in": [
+        17,
+        10,
+        9
+      ],
+      "cm": [
+        43,
+        25,
+        22
+      ]
+    },
+    "includesWheels": true,
+    "note": "Basic Economy includes only a personal item on most routes",
+    "source": "https://www.united.com/en/us/fly/baggage/carry-on-bags.html",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "southwest",
+    "name": "Southwest Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        24,
+        16,
+        10
+      ],
+      "cm": [
+        61,
+        41,
+        25
+      ]
+    },
+    "includesWheels": true,
+    "note": "Personal item has no published size; it must fit under the seat.",
+    "source": "https://support.southwest.com/helpcenter/article/carryon-baggage-policy",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "alaska",
+    "name": "Alaska Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        36,
+        23
+      ]
+    },
+    "includesWheels": true,
+    "note": "Personal item has no published size; it must fit under the seat.",
+    "source": "https://www.alaskaair.com/content/travel-info/baggage/carry-on-luggage",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "jetblue",
+    "name": "JetBlue",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        36,
+        23
+      ]
+    },
+    "personalItem": {
+      "in": [
+        17,
+        13,
+        8
+      ],
+      "cm": [
+        43,
+        33,
+        20
+      ]
+    },
+    "includesWheels": true,
+    "note": "Carry-on and personal item are included on all fares. No carry-on weight limit.",
+    "source": "https://www.jetblue.com/help/carry-on-bags",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        18,
+        10
+      ],
+      "cm": [
+        56,
+        46,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        18,
+        14,
+        8
+      ],
+      "cm": [
+        45,
+        35,
+        20
+      ]
+    },
+    "includesWheels": true,
+    "note": "The Value fare includes only the personal item; the carry-on is a paid add-on unless you book a fare that includes it.",
+    "source": "https://customersupport.spirit.com/en-us/category/article/KA-01535",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "frontier",
+    "name": "Frontier Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        24,
+        16,
+        10
+      ],
+      "cm": [
+        61,
+        41,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        18,
+        14,
+        8
+      ],
+      "cm": [
+        46,
+        36,
+        20
+      ]
+    },
+    "includesWheels": true,
+    "weightKg": 16,
+    "note": "Weight limit is 35 lb, for the carry-on and the personal item alike. The base fare includes only the personal item; the carry-on is a paid add-on or comes with a bundle.",
+    "source": "https://www.flyfrontier.com/travel/travel-info/bag-options/",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "allegiant",
+    "name": "Allegiant Air",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        16,
+        10
+      ],
+      "cm": [
+        55,
+        40,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        18,
+        14,
+        8
+      ],
+      "cm": [
+        45,
+        35,
+        20
+      ]
+    },
+    "includesWheels": true,
+    "note": "The personal item is free; the carry-on is always a paid add-on and costs more at the airport.",
+    "source": "https://www.allegiantair.com/baggage-1",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "hawaiian",
+    "name": "Hawaiian Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        36,
+        23
+      ]
+    },
+    "includesWheels": true,
+    "note": "Hawaiian shares its carry-on policy page with Alaska Airlines.",
+    "source": "https://www.hawaiianairlines.com/content/travel-info/baggage/carry-on-luggage",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "sun-country",
+    "name": "Sun Country Airlines",
+    "region": "US",
+    "carryOn": {
+      "in": [
+        24,
+        16,
+        11
+      ],
+      "cm": [
+        61,
+        41,
+        28
+      ]
+    },
+    "personalItem": {
+      "in": [
+        17,
+        13,
+        9
+      ],
+      "cm": [
+        43,
+        33,
+        23
+      ]
+    },
+    "includesWheels": true,
+    "weightKg": 16,
+    "note": "Carry-on weight limit is 35 lb. Every booking includes one under-seat personal item free.",
+    "source": "https://ir.suncountry.com/static-files/0e75bae8-3e47-4c35-8e63-9f78cf003b6b",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "air-canada",
+    "name": "Air Canada",
+    "region": "Canada",
+    "carryOn": {
+      "in": [
+        21.5,
+        15.5,
+        9
+      ],
+      "cm": [
+        55,
+        40,
+        23
+      ]
+    },
+    "personalItem": {
+      "in": [
+        17,
+        13,
+        6
+      ],
+      "cm": [
+        43,
+        33,
+        16
+      ]
+    },
+    "includesWheels": true,
+    "note": "Economy Basic fares bought on or after Jan 3, 2025 allow only a personal item on some itineraries. No numeric weight limit; you must be able to lift the bag into the bin yourself.",
+    "source": "https://www.aircanada.com/ca/en/aco/home/plan/baggage/carry-on.html",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "westjet",
+    "name": "WestJet",
+    "region": "Canada",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        36,
+        23
+      ]
+    },
+    "personalItem": {
+      "in": [
+        16,
+        13,
+        6
+      ],
+      "cm": [
+        41,
+        33,
+        15
+      ]
+    },
+    "includesWheels": true,
+    "note": "UltraBasic includes only a personal item, unless you fly to or from Europe or Asia or buy Extended Comfort. No numeric weight limit; you must be able to lift the bag into the bin yourself.",
+    "source": "https://www.westjet.com/en-ca/baggage/carry-on",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "british-airways",
+    "name": "British Airways",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        22,
+        17.5,
+        10
+      ],
+      "cm": [
+        56,
+        45,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        15.5,
+        12,
+        6
+      ],
+      "cm": [
+        40,
+        30,
+        15
+      ]
+    },
+    "includesWheels": true,
+    "note": "You must be able to lift the cabin bag into the overhead bin without help.",
+    "source": "https://www.britishairways.com/content/information/baggage-essentials",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "lufthansa",
+    "name": "Lufthansa",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        21.5,
+        15.5,
+        9
+      ],
+      "cm": [
+        55,
+        40,
+        23
+      ]
+    },
+    "personalItem": {
+      "in": [
+        15.5,
+        12,
+        6
+      ],
+      "cm": [
+        40,
+        30,
+        15
+      ]
+    },
+    "includesWheels": null,
+    "weightKg": 8,
+    "note": "Economy Basic includes only the personal item. A carry-on bag must be bought in advance and can't be bought at the airport.",
+    "source": "https://www.lufthansa.com/ao/en/carry-on-baggage",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "air-france",
+    "name": "Air France",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        21.7,
+        13.8,
+        9.9
+      ],
+      "cm": [
+        55,
+        35,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        16,
+        12,
+        6
+      ],
+      "cm": [
+        40,
+        30,
+        15
+      ]
+    },
+    "includesWheels": true,
+    "weightKg": 12,
+    "note": "12 kg is the combined limit for the cabin bag and the personal item in Economy and Premium (18 kg in Business and La Première).",
+    "source": "https://wwws.airfrance.us/information/bagages/bagage-cabine-soute",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "klm",
+    "name": "KLM",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        21.5,
+        14,
+        10
+      ],
+      "cm": [
+        55,
+        35,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        15.5,
+        12,
+        6
+      ],
+      "cm": [
+        40,
+        30,
+        15
+      ]
+    },
+    "includesWheels": true,
+    "weightKg": 12,
+    "note": "12 kg is the combined limit for both bags in Economy (18 kg in Business). Economy Basic includes only the small bag; a cabin bag can be bought in My Trip.",
+    "source": "https://www.klm.com/information/baggage/hand-baggage-allowance",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "ryanair",
+    "name": "Ryanair",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        21.5,
+        15.5,
+        8
+      ],
+      "cm": [
+        55,
+        40,
+        20
+      ]
+    },
+    "personalItem": {
+      "in": [
+        15.5,
+        12,
+        8
+      ],
+      "cm": [
+        40,
+        30,
+        20
+      ]
+    },
+    "includesWheels": null,
+    "weightKg": 10,
+    "note": "Every fare includes the small personal bag. The 10 kg cabin bag needs the paid Priority & 2 Cabin Bags add-on or a Regular or Flexi Plus fare.",
+    "source": "https://help.ryanair.com/hc/en-gb/articles/12888036565521-Ryanair-s-Bag-Policy",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "easyjet",
+    "name": "easyJet",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        22,
+        17.5,
+        10
+      ],
+      "cm": [
+        56,
+        45,
+        25
+      ]
+    },
+    "personalItem": {
+      "in": [
+        17.5,
+        14,
+        8
+      ],
+      "cm": [
+        45,
+        36,
+        20
+      ]
+    },
+    "includesWheels": true,
+    "weightKg": 15,
+    "note": "Every fare includes the free under-seat bag. The large cabin bag is a paid add-on, except on Inclusive Plus fares and for easyJet Plus members.",
+    "source": "https://www.easyjet.com/en/policy/cabin-bags-faqs",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "emirates",
+    "name": "Emirates",
+    "region": "Middle East",
+    "carryOn": {
+      "in": [
+        22,
+        15,
+        8
+      ],
+      "cm": [
+        55,
+        38,
+        22
+      ]
+    },
+    "includesWheels": null,
+    "weightKg": 7,
+    "note": "Economy limit is 7 kg (10 kg in Premium Economy). Business and First allow a 45 x 35 x 20 cm briefcase plus a handbag or garment bag, up to 7 kg each.",
+    "source": "https://www.emirates.com/english/before-you-fly/baggage/cabin-baggage-rules/",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar Airways",
+    "region": "Middle East",
+    "carryOn": {
+      "in": [
+        20,
+        15,
+        10
+      ],
+      "cm": [
+        50,
+        37,
+        25
+      ]
+    },
+    "includesWheels": null,
+    "weightKg": 7,
+    "note": "Economy allows one 7 kg piece on all fare types. First and Business allow two pieces totalling 15 kg.",
+    "source": "https://www.qatarairways.com/en/baggage/allowance.html",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "qantas",
+    "name": "Qantas",
+    "region": "Asia-Pacific",
+    "carryOn": {
+      "in": [
+        22,
+        14,
+        9
+      ],
+      "cm": [
+        56,
+        36,
+        23
+      ]
+    },
+    "includesWheels": null,
+    "weightKg": 7,
+    "note": "Qantas limits each piece to 115 cm (45 in) in total dimensions; 56 x 36 x 23 cm is its example size. Premium Economy, Business and First allow two pieces. Dash 8 flights have a 105 cm limit.",
+    "source": "https://www.qantas.com/en-us/baggage/carry-on",
+    "checked": "2026-11-19"
+  },
+  {
+    "id": "turkish",
+    "name": "Turkish Airlines",
+    "region": "Europe",
+    "carryOn": {
+      "in": [
+        21.5,
+        15.5,
+        9
+      ],
+      "cm": [
+        55,
+        40,
+        23
+      ]
+    },
+    "personalItem": {
+      "in": [
+        15.5,
+        12,
+        6
+      ],
+      "cm": [
+        40,
+        30,
+        15
+      ]
+    },
+    "includesWheels": null,
+    "weightKg": 8,
+    "note": "The personal item is limited to 4 kg. Business allows two 8 kg cabin bags, up to 16 kg in total.",
+    "source": "https://www.turkishairlines.com/en-int/any-questions/carry-on-baggage/",
+    "checked": "2026-11-19"
+  }
+]
