@@ -1,0 +1,199 @@
+{
+  "slug": "baseball-cap",
+  "item": "baseball cap",
+  "h1": "How Should a Baseball Cap Fit?",
+  "category": "hats-helmets",
+  "shape": "hat",
+  "keywords": [
+    "how should a baseball cap fit",
+    "how should a baseball hat fit",
+    "how should a fitted hat fit",
+    "how should fitted hats fit",
+    "how is a fitted hat supposed to fit",
+    "how should baseball cap fit"
+  ],
+  "answer": "A baseball cap fits when the brim sits about a finger's width (½ in) above your eyebrows, the sweatband touches your head evenly all around, the back sits above your ears without pressing them, and the crown has no big air pocket on top. It should stay put when you turn your head and leave no red line.",
+  "intro": "Caps come in two main kinds: fitted caps sold in exact sizes, and adjustable caps with a snap, strap or stretch band. Fitted caps need the right size; adjustables need the right setting and the right crown depth. Either way, check the cap in a mirror from the front and side.",
+  "checklist": [
+    {
+      "point": "Brim height",
+      "anchor": "brim",
+      "good": "The brim points straight ahead and its base sits about a finger's width above your eyebrows.",
+      "tooTight": "The cap sits high and the brim tilts upward.",
+      "tooLoose": "The brim drops to your eyebrows or lower and blocks your view."
+    },
+    {
+      "point": "Forehead",
+      "anchor": "brow",
+      "good": "The front panels sit flat against your forehead with no gap.",
+      "tooTight": "The front band presses into your forehead and leaves a red line.",
+      "tooLoose": "A gap opens between the front panels and your forehead."
+    },
+    {
+      "point": "Sides",
+      "anchor": "sides",
+      "good": "The sweatband touches lightly above your ears on both sides.",
+      "tooTight": "Pressure at the temples or on top of your ears.",
+      "tooLoose": "The sides stand away from your head and the cap shifts when you move."
+    },
+    {
+      "point": "Back and closure",
+      "anchor": "back",
+      "good": "The back sits just above the bump at the base of your skull; an adjustable strap closes near the middle of its range.",
+      "tooTight": "The back rides up or you're on the last notch with the strap straining.",
+      "tooLoose": "The back sags, or the strap is on the tightest setting with a long tail and the cap still slips."
+    },
+    {
+      "point": "Crown depth",
+      "anchor": "crown",
+      "good": "The crown follows your head with little or no empty space on top.",
+      "tooTight": "The crown is too shallow and the cap perches on your head.",
+      "tooLoose": "The crown is too deep and peaks or flops above your head."
+    }
+  ],
+  "variations": {
+    "heading": "Fitted vs adjustable caps",
+    "items": [
+      {
+        "name": "Fitted caps",
+        "text": "Sold in ⅛ sizes, like 7⅛ or 7¼. A fitted cap should feel snug from the first wear without pressing; cotton and wool can ease slightly. Don't size down expecting it to stretch a lot."
+      },
+      {
+        "name": "Snapback caps",
+        "text": "A plastic snap strap at the back. Choose a setting near the middle; if you need the very last snap, look for a larger cap or one with a deeper crown."
+      },
+      {
+        "name": "Strapback caps",
+        "text": "A fabric or leather strap with a buckle allows finer adjustment than a snapback. The tail should be tidy, not a long flap."
+      },
+      {
+        "name": "Stretch-fit caps",
+        "text": "An elastic band inside the sweatband stretches to fit, usually sold as S/M, L/XL and sometimes XL/XXL. They should feel snug, not tight, and have no gap at the front."
+      },
+      {
+        "name": "Low-profile vs high-profile",
+        "text": "Low-profile caps have shallower crowns that sit closer to the head, good for smaller heads and a relaxed look. High-profile caps have taller, structured fronts that suit larger heads."
+      },
+      {
+        "name": "Kids' caps",
+        "text": "Children's caps are usually adjustable. The back closure should sit in the middle of its range so there's room to grow."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your cap size",
+    "steps": [
+      "Wrap a soft tape measure around your head where the cap sits: across the forehead about ½ in above the eyebrows, just above the ears, and around the back.",
+      "Keep the tape level and snug, with about one finger's room.",
+      "Note the measurement in inches or centimeters.",
+      "Find your fitted size in the table below. For stretch-fit caps, use the letter size range the brand lists.",
+      "Between sizes, go up for a fitted cap and use sizing tape if needed."
+    ],
+    "tip": "If you already own a fitted cap that fits, check the size on the inside label and shop with that."
+  },
+  "sizeTable": {
+    "caption": "Standard US fitted cap sizes by head circumference",
+    "headers": ["Fitted size", "Head (in)", "Head (cm)", "Typical letter size"],
+    "rows": [
+      ["6¾", "21¼", "54", "S"],
+      ["6⅞", "21⅝", "55", "S"],
+      ["7", "22", "56", "M"],
+      ["7⅛", "22⅜", "57", "M"],
+      ["7¼", "22¾", "58", "L"],
+      ["7⅜", "23⅛", "59", "L"],
+      ["7½", "23½", "60", "XL"],
+      ["7⅝", "23⅞", "61", "XL"],
+      ["7¾", "24¼", "62", "XXL"],
+      ["7⅞", "24⅝", "63", "XXL"],
+      ["8", "25", "64", "XXXL"]
+    ],
+    "note": "Fitted size is roughly head circumference in inches divided by π. Centimeters are rounded. Stretch-fit letter ranges differ between makers, so check the brand's chart."
+  },
+  "problems": [
+    {
+      "problem": "A fitted cap is slightly loose",
+      "fix": "Add hat sizing tape behind the sweatband at the back and sides."
+    },
+    {
+      "problem": "A fitted cap is slightly tight",
+      "fix": "Wear it for short periods to let the band ease, or use a cap stretcher. Very tight caps won't stretch enough; buy the next size up."
+    },
+    {
+      "problem": "The crown peaks or has empty space on top",
+      "fix": "The crown is too deep for your head. Try a low-profile cap or a smaller fitted size."
+    },
+    {
+      "problem": "An adjustable cap only fits on the last setting",
+      "fix": "The cap is too small or too large overall. Look for a cap labeled for larger or smaller heads, or a stretch-fit size range."
+    },
+    {
+      "problem": "The cap shrank after washing",
+      "fix": "Hot water and dryers can shrink cotton and wool caps. Wash caps by hand in cool water and air-dry them on a ball or a cap form."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Shaping the brim",
+      "body": "Many caps come with a flat brim. You can curve it gently with your hands over a few days, or keep it flat; the fit at the head doesn't change. Avoid sharp folds, which can crack the brim insert."
+    },
+    {
+      "heading": "Washing without losing the fit",
+      "body": "Spot clean or hand wash in cool water with a little mild detergent, then air-dry on a rounded form so the crown keeps its shape. Avoid the dryer. Some caps have cardboard brims that shouldn't get wet at all; check the label."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Fitted caps in ⅛ sizes",
+      "why": "An exact size gives the cleanest fit if you know your measurement.",
+      "query": "fitted baseball cap 7 1/4"
+    },
+    {
+      "label": "Stretch-fit caps in S/M and L/XL",
+      "why": "Elastic sizing suits people between fitted sizes and stays snug through the day.",
+      "query": "stretch fit baseball cap L/XL"
+    },
+    {
+      "label": "Low-profile adjustable caps",
+      "why": "A shallower crown suits smaller heads or anyone whose caps peak on top.",
+      "query": "low profile adjustable baseball cap"
+    },
+    {
+      "label": "Big-head baseball caps",
+      "why": "Caps made in XL and XXL with deeper crowns fit heads that are on the last snap of standard adjustables.",
+      "query": "baseball cap XXL big head"
+    },
+    {
+      "label": "Hat sizing tape",
+      "why": "Snugs up a fitted cap that's a touch big.",
+      "query": "hat sizing tape"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a fitted hat fit?",
+      "a": "Snug all the way around without pressure, with the brim about a finger's width above your eyebrows. It should stay on when you turn your head and leave no mark."
+    },
+    {
+      "q": "Should a baseball cap be tight or loose?",
+      "a": "Snug but comfortable. It shouldn't leave a red line on your forehead or shift when you move. If you can fit two fingers under the band, it's too loose."
+    },
+    {
+      "q": "Do fitted hats stretch?",
+      "a": "A little. Cotton and wool caps may ease slightly with wear, but not by a full size. Don't buy a fitted cap that's uncomfortably tight."
+    },
+    {
+      "q": "How low should a baseball cap sit?",
+      "a": "The brim should sit about a finger's width above your eyebrows, with the band above your ears."
+    },
+    {
+      "q": "What size fitted hat am I?",
+      "a": "Measure your head and use the table. For example, a 22¾ in (58 cm) head is a 7¼."
+    },
+    {
+      "q": "Should a baseball cap cover your ears?",
+      "a": "No. The band should sit just above the tops of your ears without folding them down."
+    }
+  ],
+  "related": ["hat", "cowboy-hat", "bike-helmet", "ski-helmet", "motorcycle-helmet", "sunglasses", "glasses", "t-shirt"],
+  "updated": "2026-11-19"
+}

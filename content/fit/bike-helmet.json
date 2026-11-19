@@ -1,0 +1,191 @@
+{
+  "slug": "bike-helmet",
+  "item": "bike helmet",
+  "h1": "How Should a Bike Helmet Fit?",
+  "category": "hats-helmets",
+  "shape": "helmet",
+  "keywords": [
+    "how should a bike helmet fit",
+    "how should a bicycle helmet fit",
+    "how is a bike helmet supposed to fit",
+    "how should a helmet fit",
+    "how should a bike helmet fit a child",
+    "how should a women's bike helmet fit",
+    "how should a bike helmet fit an adult"
+  ],
+  "answer": "A bike helmet fits when it sits level with its front edge one to two finger widths above your eyebrows, the side straps form a V just below each earlobe, no more than one or two fingers fit under the buckled chin strap, and the helmet stays put when you shake your head.",
+  "intro": "A helmet only protects the part of your head it actually covers, so a helmet that slides back or rocks side to side gives up much of its protection. Fit is a combination of the right shell size and careful strap adjustment. Most fit problems people blame on the helmet are really straps that were never set up. Take five minutes the first time you wear it and the adjustments will stay put.",
+  "checklist": [
+    {
+      "point": "Front position",
+      "anchor": "brow",
+      "good": "The helmet sits level, with its front edge one to two finger widths (about 1 in) above your eyebrows. Look up and you can just see the rim.",
+      "tooTight": "Too low: the rim rests on your eyebrows or blocks your view when you look ahead in a riding position.",
+      "tooLoose": "Too high: more than two fingers fit above your brows and the helmet tilts back, leaving your forehead exposed."
+    },
+    {
+      "point": "Snugness around the head",
+      "anchor": "sides",
+      "good": "The pads touch your head all the way around. Shake your head side to side and front to back and the helmet moves with you, tugging your forehead skin slightly.",
+      "tooTight": "You feel pressure points or a headache within a few minutes, or the helmet perches on top of your head even with the dial fully open.",
+      "tooLoose": "There's a gap at the sides or front, and the helmet shifts or wobbles more than about an inch when you shake your head."
+    },
+    {
+      "point": "Side straps (V-strap check)",
+      "anchor": "ears",
+      "good": "The front and back straps meet in a V just below and slightly in front of each earlobe, with the slider lying flat and the straps not twisted.",
+      "tooTight": "Sliders set too high: the V sits on or over your ear and presses against it, or pulls the helmet down at the back.",
+      "tooLoose": "Sliders set too low: the V hangs down by your jaw, the straps go slack and the helmet can tip forward or back."
+    },
+    {
+      "point": "Chin strap",
+      "anchor": "strap",
+      "good": "Buckled, no more than one or two fingers fit between the strap and your chin. Open your mouth wide as if yawning and you feel the helmet pull down on your head.",
+      "tooTight": "The strap digs in, leaves red marks, or makes it hard to swallow or breathe deeply.",
+      "tooLoose": "More than two fingers slide under the strap and the helmet doesn't hug your head when you open your mouth."
+    },
+    {
+      "point": "Rear cradle",
+      "anchor": "back",
+      "good": "The retention cradle cups the base of your skull, below the bump at the back of your head, and the dial or slider holds the helmet snug without squeezing.",
+      "tooTight": "The dial is cranked so far that you get pressure at the back or the front of the helmet lifts.",
+      "tooLoose": "The cradle rides up on the back of your head or hangs loose, so the helmet slides forward over your eyes."
+    }
+  ],
+  "variations": {
+    "heading": "Road, mountain, commuter and kids' helmets",
+    "intro": "The fit checks are the same for every bicycle helmet. Coverage and adjustment systems differ by style.",
+    "items": [
+      {
+        "name": "Road helmets",
+        "text": "Light and well vented, with a fairly shallow shell. Make sure the dial cradle sits low on the back of the head, because road helmets rely on it more than on a deep shell. Check that the front edge clears your sunglasses."
+      },
+      {
+        "name": "Mountain bike (trail) helmets",
+        "text": "Deeper at the back and sides, usually with a visor. The rim should still sit one to two fingers above your brows with the visor tilted so it doesn't block your view in a riding crouch. Check that goggles or glasses fit under it without pushing the helmet up."
+      },
+      {
+        "name": "Full-face downhill helmets",
+        "text": "These fit more like a motorcycle helmet: firm cheek pads, a chin bar that doesn't touch your chin, and no rotation when you twist it. Size them by head circumference and try them on for several minutes."
+      },
+      {
+        "name": "Commuter and urban helmets",
+        "text": "Often rounder with a smooth shell and sometimes a built-in light. Same rules apply. Hair in a bun or ponytail can push the helmet forward, so choose a model with a ponytail-friendly cradle or wear hair low."
+      },
+      {
+        "name": "Women's helmets",
+        "text": "Usually the same protection in smaller sizes and different colors, sometimes with a ponytail port. Choose by head measurement and fit, not by the label."
+      },
+      {
+        "name": "Kids' and toddler helmets",
+        "text": "A child's helmet should fit now, not be bought to grow into. Use the same two-finger, V-strap and open-mouth checks, and recheck the fit at the start of each riding season, since heads grow and straps loosen."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your head for a bike helmet",
+    "intro": "Helmet sizes are based on head circumference. Each brand publishes its own size ranges, so measure first and then check the chart for the model you want.",
+    "steps": [
+      "Use a soft tape measure, or a piece of string you can lay against a ruler afterward.",
+      "Wrap it around the widest part of your head, about 1 in above your eyebrows and just above your ears, and around the bump at the back of your head.",
+      "Keep the tape level and snug but not tight, and take the measurement in centimeters, since most helmet charts use cm.",
+      "Measure two or three times and use the largest number.",
+      "Compare with the brand's size chart. If you fall at the overlap of two sizes, try both on; the smaller one often fits better once the dial is adjusted."
+    ],
+    "tip": "Measure with your hair styled the way you usually ride. A thick braid or bun can add a size."
+  },
+  "problems": [
+    {
+      "problem": "The helmet slides back and exposes the forehead",
+      "fix": "Tighten the rear dial, then move both side-strap sliders forward so the V sits just under the earlobes, and shorten the front straps. Finish by snugging the chin strap."
+    },
+    {
+      "problem": "The helmet tips forward over the eyes",
+      "fix": "Shorten the rear straps, lower the rear cradle if it's adjustable, and check that hair isn't pushing the back of the helmet up."
+    },
+    {
+      "problem": "Straps press on or rub the ears",
+      "fix": "Lower the sliders so the V forms below the earlobe, and make sure the straps aren't twisted where they leave the shell."
+    },
+    {
+      "problem": "The helmet wobbles even with the dial fully tightened",
+      "fix": "The shell is too large. Try the next size down or a different brand. Thicker fit pads, often included in the box, can take up a small gap but not a full size."
+    },
+    {
+      "problem": "Headache or a sore spot after a short ride",
+      "fix": "Loosen the dial a little. If the pressure point remains, the helmet shape doesn't match your head; some brands run rounder and others more oval, so try another make."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "The quick eyes, ears and mouth check",
+      "body": "Before every ride: Eyes, look up and you should just see the front rim of the helmet. Ears, the straps form a V under each earlobe. Mouth, open wide and the helmet should pull down onto your head. If all three pass and the helmet doesn't move when you shake your head, you're set. Teach kids to do it themselves."
+    },
+    {
+      "heading": "When to replace a bike helmet",
+      "body": "Replace a helmet after any crash in which it hit something, even if you can't see damage, because the foam crushes once and doesn't recover. Also replace it if the shell is cracked, the foam is dented or the straps and buckle are worn. Many manufacturers suggest replacing helmets every few years with regular use; check the manual for yours. Don't buy used helmets with an unknown history."
+    },
+    {
+      "heading": "Check the certification sticker",
+      "body": "In the US, bicycle helmets sold must meet the CPSC safety standard, and there should be a sticker inside saying so. Some helmets also include a rotational-impact system such as a low-friction liner; it shouldn't change the fit, but the same strap and dial checks apply."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Bike helmets with a rear dial fit system",
+      "why": "A dial lets you fine-tune the fit in small steps and adjust it quickly for a hat or different hairstyle.",
+      "query": "bike helmet adjustable dial fit system"
+    },
+    {
+      "label": "Kids' bike helmets sized by head measurement",
+      "why": "Kids' helmets come in toddler, child and youth sizes; pick the one whose range covers your child's measured head now.",
+      "query": "kids bike helmet toddler youth sizes"
+    },
+    {
+      "label": "Helmets with a ponytail-compatible cradle",
+      "why": "A cradle designed around a ponytail stops long hair from pushing the helmet forward.",
+      "query": "bike helmet ponytail compatible women"
+    },
+    {
+      "label": "Soft tape measure",
+      "why": "An accurate head measurement in centimeters is the only reliable way to pick a size from a brand's chart.",
+      "query": "soft tape measure cm inches"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a bike helmet be?",
+      "a": "Snug enough that it doesn't move more than about an inch when you shake your head, but not so tight that it causes a headache. The chin strap should allow one or two fingers underneath."
+    },
+    {
+      "q": "How far above the eyebrows should a bike helmet sit?",
+      "a": "One to two finger widths, roughly an inch. If the helmet sits higher, your forehead is unprotected; if it's lower, it blocks your view."
+    },
+    {
+      "q": "How should a bike helmet fit a child?",
+      "a": "Exactly like an adult's: level, two fingers above the eyebrows, straps forming a V under the ears, and a snug chin strap. Buy a size that fits now rather than one to grow into, and recheck the straps often."
+    },
+    {
+      "q": "Should a bike helmet touch your forehead?",
+      "a": "Yes. The front pad should rest lightly on your forehead so the helmet moves with your skin when you wiggle it. A gap at the front means it's too big or tilted back."
+    },
+    {
+      "q": "Where should the straps sit on a bike helmet?",
+      "a": "The front and back straps should meet in a V just below and slightly in front of each earlobe, and the chin strap should sit under the chin, not on the throat."
+    },
+    {
+      "q": "How should a women's bike helmet fit?",
+      "a": "The same as any helmet. Women's models often add a ponytail opening; wear your hair low so the helmet can sit level and the cradle can grip below the back of the skull."
+    },
+    {
+      "q": "Can I wear a hat under a bike helmet?",
+      "a": "Only a thin cycling cap or skullcap, and only if you readjust the fit with it on. A thick beanie stops the helmet from sitting low and snug."
+    }
+  ],
+  "related": ["ski-helmet", "motorcycle-helmet", "hat", "baseball-cap", "cowboy-hat", "cycling-shoes", "gloves", "life-jacket"],
+  "caution": "This is general fit guidance. Follow the fitting instructions in your helmet's manual, and use only a helmet certified to the CPSC bicycle standard. For a child with a medical condition or an unusually shaped head, ask your pediatrician or a bike shop fitter for help.",
+  "sources": [
+    { "name": "NHTSA: Bicycle safety", "url": "https://www.nhtsa.gov/road-safety/bicycle-safety" }
+  ],
+  "updated": "2026-11-19"
+}

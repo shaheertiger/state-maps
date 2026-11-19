@@ -1,0 +1,174 @@
+{
+  "slug": "dog-harness",
+  "item": "dog harness",
+  "h1": "How Should a Dog Harness Fit?",
+  "category": "sports-gear",
+  "shape": "dog",
+  "keywords": [
+    "how should a dog harness fit",
+    "how should a harness fit a dog",
+    "how should a harness fit on a dog",
+    "how is a dog harness supposed to fit",
+    "how should dog harness fit",
+    "how is a harness supposed to fit a dog"
+  ],
+  "answer": "A dog harness fits when you can slide two fingers flat under every strap, the chest strap sits about two finger widths behind the front legs, the neck loop rests low at the base of the neck, and the harness doesn't twist, rub, or slip back over the shoulders when your dog pulls or walks.",
+  "intro": "A well-fitted harness spreads pressure across the chest instead of the throat. A badly fitted one can chafe the armpits, restrict the shoulders or let your dog slip out backward. Fit it on your dog standing naturally, recheck after a short walk, and recheck regularly for growing puppies.",
+  "checklist": [
+    {
+      "point": "Strap snugness",
+      "anchor": "girth",
+      "good": "You can slide two fingers flat between any strap and your dog's body.",
+      "tooTight": "You can't fit two fingers under a strap, it leaves marks in the coat, or your dog moves stiffly.",
+      "tooLoose": "You can fit your whole hand under a strap or the harness slides side to side."
+    },
+    {
+      "point": "Neck loop",
+      "anchor": "neck",
+      "good": "The neck loop sits low at the base of the neck and in front of the shoulders, off the throat.",
+      "tooTight": "The loop presses on the throat or the dog coughs when it pulls.",
+      "tooLoose": "The loop hangs down toward the chest and the harness can slip over the head."
+    },
+    {
+      "point": "Chest piece",
+      "anchor": "chest",
+      "good": "The front strap or chest plate sits on the breastbone. On a Y-front harness, the Y sits in the center of the chest.",
+      "tooTight": "The chest piece rides up toward the throat when your dog moves.",
+      "tooLoose": "The chest piece hangs low between the front legs and swings when your dog walks."
+    },
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "No strap crosses the point of the shoulder, so your dog's front legs swing freely.",
+      "tooTight": "A straight strap across the front of the shoulders restricts stride, and your dog shortens its steps.",
+      "tooLoose": "The harness slides forward over the shoulders when your dog stops or sits."
+    },
+    {
+      "point": "Armpits and legs",
+      "anchor": "legs",
+      "good": "The girth strap sits about two finger widths behind the front legs, clear of the armpits.",
+      "tooTight": "The girth strap sits right in the armpits, causing rubbing, hair loss or sore skin.",
+      "tooLoose": "The girth strap slides back toward the belly and lets the harness rotate or twist."
+    }
+  ],
+  "variations": {
+    "heading": "Harness types and body shapes",
+    "intro": "Each type uses the same checks but fits a little differently.",
+    "items": [
+      {
+        "name": "Y-front harnesses",
+        "text": "The front straps form a Y over the chest, leaving the shoulders free. A common choice for active dogs."
+      },
+      {
+        "name": "Front-clip (no-pull) harnesses",
+        "text": "The leash attaches to a ring on the chest, which turns a pulling dog toward you. The chest ring should sit on the breastbone, not off to one side."
+      },
+      {
+        "name": "Step-in harnesses",
+        "text": "Your dog steps into leg loops and the harness clips on the back. Watch for rubbing in the armpits, since the straps sit close to the legs."
+      },
+      {
+        "name": "Vest harnesses",
+        "text": "Padded fabric covers more of the chest and back. Good for small dogs, but check that it doesn't overheat your dog or restrict the shoulders."
+      },
+      {
+        "name": "Escape-resistant harnesses",
+        "text": "Add a third strap around the belly behind the ribs. Useful for nervous dogs and slim-headed breeds that can back out of a standard harness."
+      },
+      {
+        "name": "Deep-chested and short-bodied dogs",
+        "text": "Greyhounds and similar breeds have deep chests and narrow waists, while bulldogs have wide chests and short necks. Look for harnesses with several adjustment points."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your dog for a harness",
+    "intro": "Most harnesses size by chest girth, sometimes with neck girth and weight.",
+    "steps": [
+      "Have your dog stand naturally on all four legs.",
+      "Measure chest girth around the widest part of the rib cage, just behind the front legs.",
+      "Measure neck girth around the base of the neck, where a collar would rest low.",
+      "Weigh your dog, since many brands list a weight range too.",
+      "Compare with the brand's size chart. If your dog is between sizes, choose by chest girth and use the adjusters."
+    ],
+    "tip": "Take the measurement snug but not tight, with the tape lying flat on the coat. For long-haired dogs, press the tape down slightly."
+  },
+  "problems": [
+    {
+      "problem": "Your dog backs out of the harness",
+      "fix": "Tighten the neck and girth straps to the two-finger rule. If it still happens, use an escape-resistant harness with a third strap behind the ribs."
+    },
+    {
+      "problem": "Rubbing or hair loss in the armpits",
+      "fix": "Move the girth strap back so it sits two finger widths behind the front legs, or choose a Y-front harness with padding."
+    },
+    {
+      "problem": "The harness twists to one side",
+      "fix": "The straps are too loose or uneven. Adjust both sides equally so the chest piece sits centered."
+    },
+    {
+      "problem": "Your dog moves stiffly or shortens its stride",
+      "fix": "A strap is crossing the shoulders. Switch to a Y-front design that leaves the shoulders free."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Puppies and growing dogs",
+      "body": "Puppies can grow out of a harness in weeks. Check the two-finger rule every week and adjust or size up as needed. An adjustable harness lasts longer through growth spurts."
+    },
+    {
+      "heading": "When to recheck fit",
+      "body": "Recheck after a walk, after grooming, with a seasonal coat change, and after weight gain or loss. Straps also loosen over time, so check them before each walk."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Y-front dog harness",
+      "why": "Leaves the shoulders free for natural movement.",
+      "query": "y front dog harness"
+    },
+    {
+      "label": "Front-clip no-pull harness",
+      "why": "Helps manage pulling by turning your dog toward you.",
+      "query": "front clip no pull dog harness"
+    },
+    {
+      "label": "Escape-resistant dog harness",
+      "why": "A third strap keeps dogs who back out of standard harnesses secure.",
+      "query": "escape proof dog harness three strap"
+    },
+    {
+      "label": "Adjustable puppy harness",
+      "why": "Multiple adjustment points help it keep up with growth.",
+      "query": "adjustable puppy harness"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a dog harness be?",
+      "a": "Snug enough that you can fit two fingers under each strap, but no more. Tighter can chafe; looser can let your dog slip out."
+    },
+    {
+      "q": "Where should a dog harness sit?",
+      "a": "The neck loop sits at the base of the neck, the chest piece on the breastbone, and the girth strap two finger widths behind the front legs."
+    },
+    {
+      "q": "How do I know if a harness is too small?",
+      "a": "If you can't fit two fingers under the straps, the harness leaves marks, or your dog moves stiffly, it's too small."
+    },
+    {
+      "q": "How do I know if a harness is too big?",
+      "a": "If it twists, slides over the shoulders, or your dog can back out of it, it's too big."
+    },
+    {
+      "q": "Should a dog harness touch the armpits?",
+      "a": "No. The girth strap should sit about two finger widths behind the front legs to avoid rubbing."
+    },
+    {
+      "q": "Can a dog wear a harness all day?",
+      "a": "It's best to take it off when your dog is resting at home, to let the skin and coat breathe and prevent rubbing."
+    }
+  ],
+  "related": ["life-jacket", "gloves", "baseball-glove", "shin-guards", "golf-glove", "moto-gloves", "bike-helmet"],
+  "updated": "2026-11-19"
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "ski-boots",
+  "item": "ski boots",
+  "h1": "How Should Ski Boots Fit?",
+  "category": "boots",
+  "shape": "boot",
+  "keywords": [
+    "how should ski boots fit",
+    "how are ski boots supposed to fit",
+    "how should a ski boot fit",
+    "how to know if ski boots fit",
+    "how to tell if ski boots fit"
+  ],
+  "answer": "Ski boots should feel snug everywhere: standing straight, your toes lightly brush the front; when you flex forward into the cuff, they pull back slightly. Your heel should stay locked down with no lift, the shell should leave about one to two fingers (1–2 cm) behind your heel in a shell-fit test, and nothing should go numb.",
+  "intro": "Ski boots fit much tighter than any shoe, and that surprises most people. The boot is how you steer the ski, so any space lets your foot move before the ski responds. A good ski boot feels firm in the shop and settles as the liner packs out over the first days on snow. A boot that feels comfortable like a slipper in the store will feel loose by midseason.",
+  "checklist": [
+    {
+      "point": "Toes",
+      "anchor": "toe",
+      "good": "Standing straight, toes lightly touch the front of the liner; when you bend your knees and flex forward, they pull back so they just brush or clear it.",
+      "tooTight": "Too short: toes are curled or jammed even when you flex forward, or they go numb within minutes.",
+      "tooLoose": "Too long: toes don't touch the front even standing straight, and you have room to wiggle them freely. The boot will feel sloppy once the liner packs out."
+    },
+    {
+      "point": "Forefoot width",
+      "anchor": "ball",
+      "good": "The sides hold the ball of the foot firmly with even pressure and no single hot spot.",
+      "tooTight": "Sharp pressure on the little-toe joint or bunion that worsens over 10–15 minutes.",
+      "tooLoose": "Your forefoot shifts side to side when you roll your knees, so edging feels delayed."
+    },
+    {
+      "point": "Instep",
+      "anchor": "instep",
+      "good": "With buckles closed on moderate settings, the top of the foot is held firmly so the heel stays back.",
+      "tooTight": "The top of the foot aches or tingles, or you can only close the buckles on their loosest settings and it still hurts.",
+      "tooLoose": "You need the buckles on the tightest setting and the foot still lifts or slides."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "The heel is locked into the heel pocket with no lift when you flex forward.",
+      "tooTight": "The heel pocket presses on the back or sides of the heel bone.",
+      "tooLoose": "Your heel rises when you flex forward or lean back. Heel lift causes blisters and poor control."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "The footbed supports your arch so the foot doesn't collapse under pressure.",
+      "tooTight": "The arch support presses into the foot uncomfortably.",
+      "tooLoose": "A flat stock insole lets the arch sag, which can make the foot feel loose and cramp."
+    },
+    {
+      "point": "Cuff and shin",
+      "anchor": "shaft",
+      "good": "The cuff wraps your lower leg evenly and your shin presses into the tongue with steady pressure when you flex.",
+      "tooTight": "Pressure on the shin bone that bruises, or the top buckle can't close over your calf.",
+      "tooLoose": "Space between your shin and the tongue, so your shin bangs into it."
+    },
+    {
+      "point": "Calf",
+      "anchor": "calf",
+      "good": "The cuff closes around the calf comfortably with the power strap snug.",
+      "tooTight": "The top buckle won't close or the calf gets numb.",
+      "tooLoose": "The cuff gaps around a slim calf even on the tightest setting."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by ability, last width and flex",
+    "items": [
+      {
+        "name": "Beginners and casual skiers",
+        "text": "A comfort fit with a little more room, about 1.5–2 cm behind the heel in the shell test, and a softer flex. Toes still touch the front standing straight."
+      },
+      {
+        "name": "Intermediate and advanced skiers",
+        "text": "A snugger performance fit, about 1–1.5 cm behind the heel in the shell test, with a stiffer flex that responds quickly."
+      },
+      {
+        "name": "Racers",
+        "text": "Often a very tight fit, under 1 cm in the shell test, sometimes half a size or a full size down, usually worked on by a boot fitter."
+      },
+      {
+        "name": "Last width",
+        "text": "Boots are labeled by forefoot width in millimeters. Around 97–98 mm is narrow, around 100 mm is medium, and 102 mm or more is wide. Pick the width that matches your foot rather than sizing up."
+      },
+      {
+        "name": "Touring and freeride boots",
+        "text": "Walk modes and lighter shells fit similarly, but expect a bit more room for long uphill climbs. Heel hold matters even more when walking."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "Mondopoint sizing and the shell-fit test",
+    "intro": "Ski boots use mondopoint sizing: the length of your foot in centimeters. A 26.5 boot is meant for a foot about 26.5 cm long. Most shells come in full sizes, so a 26.0 and a 26.5 often share the same shell with a different liner or footbed.",
+    "steps": [
+      "Stand barefoot on paper with your heel against a wall, weight on both feet, and mark your longest toe. Measure in centimeters; that's your mondopoint size. Measure both feet.",
+      "Measure the width of your forefoot at its widest point and compare it with the boot's last width.",
+      "For the shell-fit test, take the liner out of the boot and put your bare or thin-socked foot into the empty shell.",
+      "Slide your foot forward until your toes just touch the front of the shell.",
+      "Check the gap behind your heel: about 1–1.5 cm (one finger) for a performance fit, 1.5–2 cm (one to two fingers) for a comfort fit. More than about 2.5 cm means the shell is too big.",
+      "Put the liner back in, buckle the boots and stand for 10–15 minutes in a ski stance, flexing forward. Check the toe, heel and pressure points listed above."
+    ],
+    "tip": "Wear one pair of thin ski socks. Thick socks or two pairs make boots colder and less precise, and they hide fit problems."
+  },
+  "sizeTable": {
+    "caption": "Approximate mondopoint to US shoe size",
+    "headers": ["Mondopoint (cm)", "US men's", "US women's"],
+    "rows": [
+      ["23.5", "5½", "6½"],
+      ["24.5", "6½", "7½"],
+      ["25.5", "7½", "8½"],
+      ["26.5", "8½", "9½"],
+      ["27.5", "9½", "10½"],
+      ["28.5", "10½", "11½"],
+      ["29.5", "11½", "—"],
+      ["30.5", "12½", "—"]
+    ],
+    "note": "This is a starting point only. Measure your foot length in centimeters and confirm with a shell-fit test, because shoe size is not a reliable guide to ski boot size."
+  },
+  "problems": [
+    {
+      "problem": "Toes go numb or cold",
+      "fix": "Often a tight forefoot or overtightened buckles cutting circulation. Loosen the lower buckles, wear one thin sock, and see a boot fitter about stretching the shell at the pressure point."
+    },
+    {
+      "problem": "Heel lifts when you flex",
+      "fix": "Tighten the instep buckle and power strap first. A boot fitter can add heel pads or a custom footbed; if the shell is too big, the boot is the wrong size."
+    },
+    {
+      "problem": "Pain on the bunion or little-toe joint",
+      "fix": "A boot fitter can punch or stretch the shell in that spot, a common and inexpensive fix."
+    },
+    {
+      "problem": "Shin bang (bruised shins)",
+      "fix": "Usually too much room in the cuff or leaning back. Tighten the power strap, check that you're flexing forward, and consider a snugger boot."
+    },
+    {
+      "problem": "Arch cramps",
+      "fix": "A supportive or custom footbed often fixes cramping from a flat stock insole."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Liners pack out",
+      "body": "Ski boot liners compress noticeably over the first several days of skiing, so a boot that feels snug in the shop will loosen. That's why the right boot feels firm at first. Heat-moldable liners can be shaped to your foot in the shop."
+    },
+    {
+      "heading": "Why a boot fitter is worth it",
+      "body": "A good boot fitter will measure your feet, do the shell fit, and recommend models for your foot shape. They can stretch or punch shells, mold liners, add heel pads and make custom footbeds. These adjustments often make a snug boot comfortable without going to a bigger, sloppier size."
+    },
+    {
+      "heading": "Kids' ski boots",
+      "body": "Avoid buying a size or two too big for growth; kids can't control skis in loose boots. A little room, about 1.5–2 cm behind the heel in the shell, is the usual limit."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Ski boots with heat-moldable liners",
+      "why": "Moldable liners shape to your foot, which helps a snug performance fit feel comfortable sooner.",
+      "query": "ski boots heat moldable liner"
+    },
+    {
+      "label": "Wide-last ski boots (102 mm and up)",
+      "why": "For wide forefeet, a wide last avoids sizing up in length to get width.",
+      "query": "wide last ski boots 102mm"
+    },
+    {
+      "label": "Thin ski socks",
+      "why": "A single thin, snug sock improves warmth and precision compared with thick socks.",
+      "query": "thin ski socks"
+    },
+    {
+      "label": "Supportive ski boot footbeds",
+      "why": "A supportive insole can steady the foot and reduce arch cramps compared with flat stock insoles.",
+      "query": "ski boot insoles"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should ski boots be?",
+      "a": "Snug everywhere: toes lightly touching the front when standing straight, heel locked, and firm even pressure with no numbness. They should feel tighter than any shoe you own."
+    },
+    {
+      "q": "How do you know if ski boots fit?",
+      "a": "Standing straight your toes brush the front, flexing forward they pull back, your heel doesn't lift, and you can stand in them for 15 minutes without sharp pain or numbness. A shell-fit test should show about 1–2 cm behind the heel."
+    },
+    {
+      "q": "What is mondopoint?",
+      "a": "Mondopoint is ski boot sizing by foot length in centimeters. If your foot measures 27 cm, start with a 27.0 or 27.5 boot."
+    },
+    {
+      "q": "How do you do a ski boot shell fit?",
+      "a": "Remove the liner, put your foot in the shell, slide forward until your toes touch the front, and measure the gap behind your heel. About 1–1.5 cm is a performance fit and 1.5–2 cm a comfort fit."
+    },
+    {
+      "q": "Should your toes touch the end of ski boots?",
+      "a": "Yes, lightly, when you're standing straight. When you flex forward into a ski stance, they should pull back slightly."
+    },
+    {
+      "q": "Do ski boots loosen over time?",
+      "a": "Yes. The liners pack out over the first several days of skiing, which is why new boots should feel snug."
+    },
+    {
+      "q": "Should I size up in ski boots?",
+      "a": "Usually not. Bigger boots feel comfortable in the store and loose on the hill. Fix pressure points with a boot fitter instead."
+    }
+  ],
+  "related": ["snowboard-boots", "boots", "hiking-boots", "cowboy-boots", "ski-helmet", "gloves", "compression-socks"],
+  "updated": "2026-11-19"
+}

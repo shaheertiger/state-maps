@@ -1,0 +1,180 @@
+{
+  "slug": "t-shirt",
+  "item": "t-shirt",
+  "h1": "How Should a T-Shirt Fit?",
+  "category": "tops-outerwear",
+  "shape": "shirt",
+  "keywords": [
+    "how should a t shirt fit",
+    "how should a t shirt fit a woman",
+    "how should t shirts fit",
+    "how should a women's t shirt fit",
+    "how should a men's t shirt fit"
+  ],
+  "answer": "A T-shirt fits when the shoulder seam sits at your shoulder bone, the sleeves end around mid-biceps with a finger's width of space, the body skims your chest and stomach without clinging, the neckline lies flat, and the hem ends about halfway down your fly so it covers your waistband when you raise your arms.",
+  "intro": "A T-shirt has almost no structure, so small differences in fit are easy to see. The good news is that the checks are simple and you can do them in a fitting room in under a minute: look at the shoulder seam, the sleeves, the neckline and where the hem lands, then lift your arms.",
+  "checklist": [
+    {
+      "point": "Neckline",
+      "anchor": "collar",
+      "good": "The crew or V-neck lies flat against your skin without ripples, gaps or pressing on your throat.",
+      "tooTight": "The neckband feels like it's pressing on your throat or pulls the front of the shirt up.",
+      "tooLoose": "The neckband ripples, stands away from your neck or sags into a wavy line."
+    },
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder seam lands at the edge of your shoulder bone.",
+      "tooTight": "The seam sits up on top of your shoulder and pulls the sleeves into your armpits.",
+      "tooLoose": "The seam falls several inches down your arm, unless it's a deliberately oversized or drop-shoulder tee."
+    },
+    {
+      "point": "Chest",
+      "anchor": "chest",
+      "good": "The fabric skims your chest or bust; you can pinch about 1–2 in at each side.",
+      "tooTight": "The shirt clings and shows every contour, with horizontal stretch lines across the chest.",
+      "tooLoose": "Fabric hangs off the chest and drapes in folds at the sides."
+    },
+    {
+      "point": "Sleeves",
+      "anchor": "sleeve",
+      "good": "The sleeve ends around mid-biceps with roughly a finger's width of space between fabric and arm.",
+      "tooTight": "The sleeve squeezes your arm, leaving marks, or rides up into the armpit.",
+      "tooLoose": "The sleeve flares wide like a bell or reaches past the middle of your upper arm toward the elbow."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The body falls straight or slightly tapered over your stomach without clinging.",
+      "tooTight": "The fabric hugs your stomach and creeps up when you sit.",
+      "tooLoose": "The shirt billows at the sides and looks like a tent from the front."
+    },
+    {
+      "point": "Length",
+      "anchor": "hem",
+      "good": "The hem ends around the middle of your fly and still covers your waistband when you lift your arms.",
+      "tooTight": "Too short: your stomach or waistband shows when you reach up, unless it's a cropped style.",
+      "tooLoose": "Too long: the hem covers most of your seat and the shirt starts to look like a dress or nightshirt."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by cut",
+    "intro": "T-shirts are sold in a few common cuts. The shoulder and neckline rules stay the same; the body and length change.",
+    "items": [
+      {
+        "name": "Slim or fitted",
+        "text": "Close through the chest, arms and waist. It should follow your shape without stretching across your stomach. Best for lean or athletic builds and for wearing under a jacket."
+      },
+      {
+        "name": "Classic or regular",
+        "text": "A straight body with more room at the waist. The most versatile cut and the most forgiving for larger builds."
+      },
+      {
+        "name": "Relaxed, boxy or oversized",
+        "text": "Cut wide on purpose, often with dropped shoulders and wider sleeves that can reach the elbow. The neckline still shouldn't sag, and the body should look intentional rather than simply a size too big."
+      },
+      {
+        "name": "Women's fitted tees",
+        "text": "Shaped at the waist with shorter sleeves and a scoop or V-neck. It should skim the bust without pulling across it and lie flat at the waist. If a fitted tee pulls at the bust, try a relaxed or boyfriend cut in your size instead of sizing up."
+      },
+      {
+        "name": "Women's cropped and boyfriend tees",
+        "text": "Cropped tees end at or above the natural waist, ideal with high-rise jeans. Boyfriend tees are cut straighter and longer, with looser sleeves, and are often half-tucked at the front."
+      },
+      {
+        "name": "Tall builds",
+        "text": "Standard tees often end above the waistband on taller people. Tall sizes typically add 1–3 in of body length so the hem lands where it should."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your T-shirt size",
+    "intro": "Letter sizes vary between brands, so the most reliable guide is a T-shirt you already like.",
+    "steps": [
+      "Lay your best-fitting T-shirt flat and smooth it out.",
+      "Measure straight across the chest from one armpit seam to the other; double it to get the chest circumference.",
+      "Measure the body length from the highest point of the shoulder, next to the collar, straight down to the hem.",
+      "Measure across the shoulders from seam to seam.",
+      "Compare those numbers with the brand's garment measurements or size chart, which most online shops list."
+    ],
+    "tip": "If you only have body measurements, measure your chest at the fullest point and compare that with the brand's body chart rather than its garment chart."
+  },
+  "problems": [
+    {
+      "problem": "T-shirt shrank after washing",
+      "fix": "Cotton tees shrink most in a hot wash or hot dryer, usually more in length than width. Wash cold and tumble dry low or line dry, or buy pre-shrunk or garment-dyed tees."
+    },
+    {
+      "problem": "Neckline went wavy",
+      "fix": "The neckband has stretched, often from pulling the shirt on and off by the collar or hanging it wet. Fold tees instead of hanging, and look for thicker ribbed necklines."
+    },
+    {
+      "problem": "Too short for your torso",
+      "fix": "Try tall sizes or brands that list a longer body length. Sizing up adds width as well as length, which usually looks worse."
+    },
+    {
+      "problem": "Sleeves too wide on slim arms",
+      "fix": "Look for slim-fit tees, which have narrower sleeves, or have a tailor take in the sleeves and side seams."
+    },
+    {
+      "problem": "Shirt twists to one side after washing",
+      "fix": "This is a fabric cutting issue that can't be fixed. Choose tees made with side seams rather than a tubular body if it keeps happening."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Fabric changes the fit",
+      "body": "Heavyweight cotton holds its shape and hangs with a boxier look, so it can feel stiff in a slim cut. Lightweight cotton and cotton blends drape closer to the body and show more contour. Blends with polyester, modal or a little spandex shrink less and recover better after stretching, while 100 percent cotton is the most likely to shrink in the dryer."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Pre-shrunk or garment-dyed cotton tees",
+      "why": "Already washed during manufacturing, so they hold their size better after the first wash.",
+      "query": "preshrunk cotton t shirt men"
+    },
+    {
+      "label": "Tall-length T-shirts",
+      "why": "Extra body length keeps the hem over your waistband without adding unwanted width.",
+      "query": "mens tall t shirts"
+    },
+    {
+      "label": "Women's relaxed or boyfriend tees",
+      "why": "Straight cut with room at the bust and stomach, easy to half-tuck.",
+      "query": "womens boyfriend t shirt relaxed fit"
+    },
+    {
+      "label": "Heavyweight boxy tees",
+      "why": "Thick fabric that holds a structured, oversized shape without sagging at the neck.",
+      "query": "heavyweight boxy t shirt"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a women's T-shirt fit?",
+      "a": "The shoulder seam should sit at your shoulder bone, the fabric should skim the bust without pulling, and the hem should land at the hip for a classic tee or at the waist for a cropped style. A fitted tee should be shaped at the waist without clinging."
+    },
+    {
+      "q": "How should a men's T-shirt fit?",
+      "a": "Shoulder seams at the shoulder bones, sleeves at mid-biceps with a little space, about 1–2 in to pinch at the chest and a hem around mid-fly."
+    },
+    {
+      "q": "Should a T-shirt be tight or loose?",
+      "a": "It depends on the cut, but a classic tee skims the body: close enough to show your shape, loose enough to pinch an inch or two at each side."
+    },
+    {
+      "q": "How long should a T-shirt be?",
+      "a": "Long enough to cover your waistband when you lift your arms, which usually means the hem ends around the middle of your fly."
+    },
+    {
+      "q": "Where should T-shirt sleeves hit?",
+      "a": "Around mid-biceps on a classic or slim tee. Oversized tees can run to the elbow."
+    },
+    {
+      "q": "Should I size up in a T-shirt to allow for shrinkage?",
+      "a": "Only for untreated 100 percent cotton that you'll machine dry hot. For pre-shrunk tees or blends, buy your true size."
+    }
+  ],
+  "related": ["shirt", "denim-jacket", "leather-jacket", "scrubs", "graduation-gown", "dress-shirt", "jeans", "sports-bra", "pants"],
+  "updated": "2026-11-19"
+}

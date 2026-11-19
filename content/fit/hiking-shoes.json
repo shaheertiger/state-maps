@@ -1,0 +1,170 @@
+{
+  "slug": "hiking-shoes",
+  "item": "hiking shoes",
+  "h1": "How Should Hiking Shoes Fit?",
+  "category": "footwear",
+  "shape": "shoe",
+  "keywords": [
+    "how should hiking shoes fit",
+    "how should a hiking shoe fit"
+  ],
+  "answer": "Hiking shoes should leave about a thumb's width (½ in) between your longest toe and the front while wearing hiking socks, lock your heel in place with little or no lift, hold your midfoot firmly when laced, and give your toes room to wiggle so they never hit the front on steep downhills.",
+  "intro": "On a trail your feet swell, you carry weight, and every descent pushes your foot toward the toe. A hiking shoe that feels fine in a store can give you black toenails and heel blisters by mile eight. Fit them late in the day, with the socks you hike in, and test them on a slope if the store has one.",
+  "checklist": [
+    {
+      "point": "Toe room",
+      "anchor": "toe",
+      "good": "About ½ in, a thumb's width, in front of your longest toe while standing. Your toes can spread and wiggle freely.",
+      "tooTight": "Too short: your toes touch the front when you stand, or bump it on a downhill slope or when you kick the toe into the floor.",
+      "tooLoose": "Too long: more than about ¾ in of space, and the toe catches on roots and rocks."
+    },
+    {
+      "point": "Heel lock",
+      "anchor": "heel",
+      "good": "Laced firmly, your heel stays seated, with at most about ⅛ in of lift when you walk uphill.",
+      "tooTight": "The heel collar presses into your Achilles or the back of your heel.",
+      "tooLoose": "Your heel lifts noticeably as you climb, which rubs blisters on long hikes."
+    },
+    {
+      "point": "Midfoot and instep",
+      "anchor": "instep",
+      "good": "The laces hold your midfoot firmly so your foot doesn't slide forward, without pressure on the top of the foot.",
+      "tooTight": "Laces press into the top of your foot, or your foot tingles after a few minutes.",
+      "tooLoose": "Even laced tight, your foot slides forward on a slope."
+    },
+    {
+      "point": "Forefoot width",
+      "anchor": "ball",
+      "good": "Your forefoot sits flat on the footbed with no pressure on the sides; you can spread your toes.",
+      "tooTight": "Pressure on your little toe or big-toe joint, which turns into blisters and numbness as feet swell.",
+      "tooLoose": "Your foot shifts sideways when you step across a slope."
+    },
+    {
+      "point": "Arch and footbed",
+      "anchor": "arch",
+      "good": "The footbed supports your arch without a hard bump, and the shoe feels stable on uneven ground.",
+      "tooTight": "The arch support presses into a sore spot after a short walk.",
+      "tooLoose": "Your arch collapses onto a flat footbed and your feet ache after a few miles. An aftermarket insole may help."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by type of hiking shoe",
+    "intro": "Stiffer, heavier shoes need more careful fitting because they take longer to break in.",
+    "items": [
+      {
+        "name": "Light hiking shoes",
+        "text": "Flexible and sneaker-like, built for day hikes on maintained trails. Fit them like a running shoe with a little extra toe room. They need little or no break-in."
+      },
+      {
+        "name": "Trail runners used for hiking",
+        "text": "Light and roomy in the toe. Fit about a half size larger than your everyday shoes for long days, but check the heel still locks."
+      },
+      {
+        "name": "Approach shoes",
+        "text": "Built for scrambling, with sticky rubber and a close fit at the toe. They're fitted closer than hiking shoes, with less toe room, so they're best for short approaches rather than long hikes."
+      },
+      {
+        "name": "Waterproof hiking shoes",
+        "text": "Membranes add a little bulk and can make a shoe feel snugger. They also hold heat, so feet swell more; allow the full ½ in at the toe."
+      },
+      {
+        "name": "Hiking with a heavy pack",
+        "text": "Extra weight spreads your feet. Fit the shoe in the afternoon, ideally with a loaded pack on, and choose a stiffer, more supportive model."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to fit hiking shoes",
+    "steps": [
+      "Try shoes on late in the day, wearing the hiking socks you'll actually use.",
+      "Before lacing, slide your foot forward until your toes touch the front. You should fit about one finger, roughly ½ in, behind your heel.",
+      "Lace from the bottom, snug through the midfoot and firm at the top, and stand up.",
+      "Walk on a ramp or step. Going down, your toes shouldn't touch the front; going up, your heel shouldn't lift much.",
+      "Walk for at least ten minutes and check for any pressure points.",
+      "If one foot is larger, fit that one."
+    ],
+    "tip": "If you use custom or aftermarket insoles, bring them and fit the shoe with them in. They change the volume inside the shoe."
+  },
+  "problems": [
+    {
+      "problem": "Toes hit the front on downhills",
+      "fix": "Lace tighter across the instep and use a surgeon's knot to lock the lower laces before tightening the top. If your toes still hit the front, the shoe is too short; size up."
+    },
+    {
+      "problem": "Heel blisters",
+      "fix": "Tie a heel-lock (runner's loop) at the top eyelets. Wear moisture-wicking socks and tape hot spots early. Persistent slip means the heel cup is too wide for you."
+    },
+    {
+      "problem": "Feet go numb or tingle",
+      "fix": "The laces are pressing on nerves over the top of your foot. Skip the eyelet over the sore spot or loosen the laces across the instep."
+    },
+    {
+      "problem": "Black or bruised toenails after hiking",
+      "fix": "Usually caused by toes hitting the front on descents. Trim toenails short and straight, lock the heel with better lacing, and get a longer or roomier shoe."
+    },
+    {
+      "problem": "Pinching on the outside of the forefoot",
+      "fix": "Try a wide width or a model with a roomier toe box rather than sizing up in length."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Breaking in hiking shoes",
+      "body": "Light hiking shoes feel ready on day one. Stiffer leather models benefit from a week or two of short walks around town before a long hike. Wear them on short hikes before a big trip; any rubbing you notice in the first mile will be worse at mile ten."
+    },
+    {
+      "heading": "Hiking shoes or hiking boots?",
+      "body": "Low-cut hiking shoes are lighter and need less break-in, which suits most day hikes on established trails. Mid or high boots give more ankle protection and support under a heavy pack and on loose or rocky ground. The fit rules for toe room and heel lock are the same."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Hiking shoes in wide widths",
+      "why": "Feet swell on long hikes; a wider forefoot prevents pressure blisters without sizing up in length.",
+      "query": "wide width hiking shoes"
+    },
+    {
+      "label": "Merino wool hiking socks",
+      "why": "Wick moisture and cushion the foot, and they're the sock to fit your shoes with.",
+      "query": "merino wool hiking socks"
+    },
+    {
+      "label": "Supportive aftermarket insoles",
+      "why": "Add arch support and help lock the heel in shoes with flat factory footbeds.",
+      "query": "hiking insoles arch support"
+    },
+    {
+      "label": "Waterproof low hiking shoes",
+      "why": "Keep feet dry on wet trails; fit with the full ½ inch toe room since they run warm.",
+      "query": "waterproof hiking shoes"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much toe room should hiking shoes have?",
+      "a": "About a thumb's width, roughly ½ inch, between your longest toe and the front, measured standing with hiking socks on."
+    },
+    {
+      "q": "Should hiking shoes be tight or loose?",
+      "a": "Snug in the heel and midfoot, roomy in the toes. Your heel should stay locked in place and your toes should have room to wiggle and never touch the front on a descent."
+    },
+    {
+      "q": "Should you size up in hiking shoes?",
+      "a": "Many hikers go up a half size from their everyday shoes to allow for thicker socks and swelling feet. Test the heel lock to make sure the larger size still holds."
+    },
+    {
+      "q": "Should your heel slip in hiking shoes?",
+      "a": "Only a little, up to about ⅛ inch. More than that causes blisters. Try a heel-lock lacing pattern or a narrower heel."
+    },
+    {
+      "q": "Why do my toes hit the front of my hiking shoes?",
+      "a": "Either the shoe is too short or your foot is sliding forward. Tighten the laces across the instep and lock the heel; if toes still hit, size up."
+    },
+    {
+      "q": "Do hiking shoes stretch?",
+      "a": "Leather hiking shoes soften and give a little in width. Synthetic and mesh shoes barely stretch. Neither type gets longer."
+    }
+  ],
+  "related": ["hiking-boots", "trail-running-shoes", "shoes", "sneakers", "running-shoes", "sandals", "boots", "climbing-shoes"],
+  "updated": "2026-11-19"
+}

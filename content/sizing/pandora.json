@@ -1,0 +1,96 @@
+{
+  "slug": "pandora",
+  "brand": "Pandora",
+  "h1": "How Do Pandora Bracelets Fit?",
+  "category": "jewelry-watches",
+  "keywords": [
+    "how should a pandora bracelet fit",
+    "how is a pandora bracelet supposed to fit",
+    "how are pandora bracelets supposed to fit",
+    "how should pandora bracelet fit"
+  ],
+  "verdict": "size up",
+  "answer": "Pandora bracelet sizes are the bracelet's length, so they run larger than your wrist on purpose. Pandora says to measure your wrist tightly where it is broadest and add 2 cm, then pick the closest bracelet size. If you are between sizes, choose the smaller size for a close fit or the next size up to wear it loose.",
+  "sizeChart": {
+    "caption": "Pandora classic charm bracelet sizes",
+    "headers": ["Bracelet size (cm)", "Bracelet size (in)", "Wrist measured tightly (cm)"],
+    "rows": [
+      ["16", "6.3", "14"],
+      ["17", "6.7", "15"],
+      ["18", "7.1", "16"],
+      ["19", "7.5", "17"],
+      ["20", "7.9", "18"],
+      ["21", "8.3", "19"],
+      ["23", "9.1", "21"]
+    ],
+    "note": "Bracelet sizes in cm and inches are from Pandora's jewelry size guide. The wrist column applies Pandora's rule of adding 2 cm to a tight wrist measurement. Pandora says its most popular bracelet size is 19 cm.",
+    "source": {
+      "name": "Pandora jewelry size guide (PDF)",
+      "url": "https://static.pandora.net/campaigns/SizeGuides/US/Jewelry%20Size%20Guide%20Updated.pdf"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Measure tightly and add 2 cm",
+      "body": "Pandora's jewelry size guide says to wrap a tape measure tightly around your wrist where it is broadest and add 2 cm to the measurement, then find the closest bracelet size. Pandora says a bracelet is perfectly sized when you measure your wrist tightly and add 2 cm. Some people prefer to roll the bracelet over the hand; for that, Pandora says to measure tightly where the hand is broadest instead."
+    },
+    {
+      "heading": "Between sizes: decide how you like to wear it",
+      "body": "Pandora's guide says that if you are between sizes, ask yourself how you like to wear your bracelet. If you wear it tightly, choose the smaller size; if you like it loose, take the next size up. You can also measure a bracelet you already own end to end, including the clasp, but Pandora warns that a bracelet worn for a year or more has probably grown about 1 cm."
+    },
+    {
+      "heading": "Charms change the fit over time",
+      "body": "Pandora says its classic bracelets hold an average of 15 to 20 charms, spacers or safety chains, depending on the bracelet and charm sizes. The bracelet stretches over time as weight is added, and if you wear it often it will grow about 1 cm over the first year. If you start with only a few charms, Pandora notes it may feel loose at first, which changes as you add more."
+    },
+    {
+      "heading": "Bangles and leather",
+      "body": "For bangles, Pandora's guide says that if you are adding charms, choose a size larger than your wrist measurement. Its braided leather bracelets take a maximum of 5 to 7 charms, and Pandora notes leather can stretch and relax over time, which is not a defect."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a Pandora bracelet fit?",
+      "a": "Pandora says a bracelet is perfectly sized when it is 2 cm longer than a tight measurement of your wrist at its broadest point."
+    },
+    {
+      "q": "What size Pandora bracelet should I get?",
+      "a": "Measure your wrist tightly where it is broadest, add 2 cm, and choose the closest size on Pandora's chart. A 17 cm wrist, for example, points to a 19 cm bracelet."
+    },
+    {
+      "q": "Do Pandora bracelets stretch?",
+      "a": "Yes. Pandora says its classic bracelet stretches as charms add weight, and grows about 1 cm over the first year if worn often."
+    },
+    {
+      "q": "What if I am between two Pandora sizes?",
+      "a": "Pandora says to choose the smaller size if you wear your bracelet tightly and the next size up if you like it loose."
+    },
+    {
+      "q": "Why does a new Pandora bracelet feel stiff?",
+      "a": "Pandora says a new bracelet will feel stiff, which can make it seem uncomfortably tight, but it quickly softens and becomes more flexible as you wear it."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Pandora Moments snake chain bracelet",
+      "why": "Pandora's classic charm bracelet; order your tight wrist measurement plus 2 cm.",
+      "query": "pandora moments snake chain bracelet"
+    },
+    {
+      "label": "Pandora safety chain",
+      "why": "Pandora counts safety chains among the 15 to 20 items a classic bracelet holds, so plan them into your size.",
+      "query": "pandora safety chain"
+    },
+    {
+      "label": "Soft tape measure",
+      "why": "Pandora's method needs a tight wrist measurement in centimeters.",
+      "query": "soft tape measure cm inches"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pandora jewelry size guide (PDF)",
+      "url": "https://static.pandora.net/campaigns/SizeGuides/US/Jewelry%20Size%20Guide%20Updated.pdf"
+    }
+  ],
+  "checked": "2026-11-19"
+}

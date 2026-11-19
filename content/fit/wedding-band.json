@@ -1,0 +1,182 @@
+{
+  "slug": "wedding-band",
+  "item": "wedding band",
+  "h1": "How Should a Wedding Band Fit?",
+  "category": "jewelry-watches",
+  "shape": "ring",
+  "keywords": [
+    "how should a wedding band fit",
+    "how should a wedding ring fit",
+    "how should a men's wedding band fit",
+    "how should wedding ring fit",
+    "how should mens wedding band fit",
+    "how should wedding band fit"
+  ],
+  "answer": "A wedding band fits when it passes over your knuckle with a gentle push and twist, sits comfortably at the base of your finger, rotates only with a little effort, and comes off with slight resistance. It shouldn't spin freely, slide off with cold hands, or leave a deep red dent after wearing.",
+  "intro": "A wedding band is worn every day for years, through heat, cold, exercise and sleep, so comfort matters as much as security. Size it for an ordinary day, consider the band's width and inside profile, and remember that two rings stacked on one finger feel tighter than one.",
+  "checklist": [
+    {
+      "point": "Over the knuckle",
+      "anchor": "knuckle",
+      "good": "It takes a light push and twist to get the band past the knuckle, on and off.",
+      "tooTight": "It sticks at the knuckle or you need soap to remove it.",
+      "tooLoose": "It slides past the knuckle with no resistance and can slip off when you shake your hand."
+    },
+    {
+      "point": "Comfort at the base",
+      "anchor": "finger",
+      "good": "You forget it's there after a few days, and it can be turned with a little effort.",
+      "tooTight": "It won't rotate, the skin bulges, or your finger feels tight by the end of a warm day.",
+      "tooLoose": "It spins all day and slides up toward the knuckle when your hands are cold."
+    },
+    {
+      "point": "Band width on the finger",
+      "anchor": "band",
+      "good": "You can bend your finger fully without the band pinching the skin in the crease.",
+      "tooTight": "A wide band digs into the crease when you make a fist or grip something.",
+      "tooLoose": "A wide band rocks and clicks against neighboring rings or fingers."
+    },
+    {
+      "point": "Space under the band",
+      "anchor": "gap",
+      "good": "No visible space under the band, just enough room to rotate it.",
+      "tooTight": "Not even a fingernail edge fits under the band, and it leaves a dent you can see for minutes afterward.",
+      "tooLoose": "A visible gap shows on the palm side, and grit or soap collects under the band."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by band width, profile and metal",
+    "items": [
+      {
+        "name": "Men's wedding bands (6–8 mm)",
+        "text": "Most men's bands are 5 to 8 mm wide. Wider bands cover more skin and feel tighter, so many men need a quarter to half size larger than a thin sizer suggests. Try a sizer of the same width if you can."
+      },
+      {
+        "name": "Women's wedding bands (2–4 mm)",
+        "text": "Narrower bands usually fit true to size. If the band will sit next to an engagement ring, check them together; a stack often needs a quarter size more room."
+      },
+      {
+        "name": "Comfort fit vs standard fit",
+        "text": "Comfort-fit bands are rounded inside and slide over the knuckle more easily, so you may need a quarter to half size smaller. Standard (flat-inside) bands grip more firmly and often need the size you measure."
+      },
+      {
+        "name": "Tungsten, titanium and ceramic",
+        "text": "These metals are popular for men's bands because they resist scratching, but they generally can't be resized. Measure carefully, and check the seller's exchange policy before you order."
+      },
+      {
+        "name": "Gold, platinum and silver",
+        "text": "These can usually be resized up or down about one to two sizes, which makes them more forgiving if your fingers change over the years."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for a wedding band",
+    "steps": [
+      "Measure the finger you'll wear the band on, usually the left ring finger in the US. Your dominant hand's fingers are often a little larger.",
+      "Measure in the afternoon or evening, at room temperature, when fingers are at their typical size.",
+      "Use a metal sizer of the same width as the band you want, or a plastic adjustable sizer. Paper strips and string are less accurate.",
+      "Check the sizer over the knuckle. It should need a slight push to go on and off.",
+      "Repeat on two or three different days and go with the size that comes up most often.",
+      "Match your diameter or circumference to the table below, then adjust for band width and comfort fit."
+    ],
+    "tip": "If you're between sizes, choose the larger one for a wide band and the smaller one for a thin comfort-fit band."
+  },
+  "sizeTable": {
+    "caption": "US ring sizes by inside diameter and circumference",
+    "headers": ["US size", "Inside diameter (mm)", "Inside circumference (mm)"],
+    "rows": [
+      ["5", "15.7", "49.3"],
+      ["6", "16.5", "51.9"],
+      ["7", "17.3", "54.4"],
+      ["8", "18.1", "57.0"],
+      ["9", "18.9", "59.5"],
+      ["10", "19.8", "62.1"],
+      ["11", "20.6", "64.6"],
+      ["12", "21.4", "67.2"],
+      ["13", "22.2", "69.7"]
+    ],
+    "note": "Half sizes fall midway between these values, about 0.4 mm of diameter apart. Values are rounded; see the ring fit guide for the full chart with half sizes."
+  },
+  "problems": [
+    {
+      "problem": "The band spins or slides around",
+      "fix": "Add a silicone ring adjuster for a quick fix, or ask a jeweler about sizing beads or resizing down. If it only happens in cold weather, the size is probably right."
+    },
+    {
+      "problem": "It feels tight in hot weather or after exercise",
+      "fix": "Swelling is normal. If it's only occasional, leave the size alone. If it's tight most days, a jeweler can stretch or size up most gold, silver and platinum bands."
+    },
+    {
+      "problem": "The band pinches when you make a fist",
+      "fix": "A wide flat band may be too stiff for your finger. A comfort-fit profile or a slightly narrower band usually solves it."
+    },
+    {
+      "problem": "A tungsten or titanium band no longer fits",
+      "fix": "These usually can't be resized. Many sellers offer size exchanges; otherwise, a replacement band in the new size is the practical fix."
+    },
+    {
+      "problem": "Skin under the band gets red or itchy",
+      "fix": "Soap, lotion and moisture trapped under a snug band are common causes. Take it off to wash and dry your hands, clean the band, and if it continues, consider a metal sensitivity and talk to a doctor."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "When to take your wedding band off",
+      "body": "Remove it for weightlifting, climbing, gardening, and any work with machinery or where the ring could catch, because a caught ring can seriously injure the finger. Cold water at the beach or pool shrinks fingers and makes rings easy to lose. Many people who work with their hands switch to a silicone band for work and the gym."
+    },
+    {
+      "heading": "Fingers change over time",
+      "body": "Weight change, pregnancy, age and arthritis can all change finger and knuckle size. Plan on checking the fit every few years. Choosing a resizable metal like gold or platinum gives you more options later than tungsten or ceramic."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Comfort-fit wedding bands",
+      "why": "The rounded inside is easier to get over the knuckle and more comfortable for all-day wear, especially in wider bands.",
+      "query": "comfort fit wedding band"
+    },
+    {
+      "label": "Men's wedding bands in 6 mm and 8 mm widths",
+      "why": "Comparing two widths helps you decide how much band you're comfortable wearing every day.",
+      "query": "mens wedding band 6mm 8mm"
+    },
+    {
+      "label": "Silicone wedding bands",
+      "why": "A flexible, inexpensive band for the gym, work with tools, or travel, so your main ring stays safe.",
+      "query": "silicone wedding band"
+    },
+    {
+      "label": "Metal ring sizer set",
+      "why": "Lets you check different sizes over the knuckle at home, closer to how a jeweler sizes you.",
+      "query": "metal ring sizer set"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a wedding band be tight or loose?",
+      "a": "Snug but comfortable. It should need slight effort to pass the knuckle and shouldn't spin freely, but it also shouldn't leave a deep dent or make your finger throb."
+    },
+    {
+      "q": "How should a men's wedding band fit?",
+      "a": "Like any ring, with slight resistance over the knuckle and no free spinning. Because men's bands are often 6 mm or wider, many men go up a quarter to half size compared with a thin sizer."
+    },
+    {
+      "q": "Is a wedding ring the same as a wedding band?",
+      "a": "In everyday use, yes. Both usually mean the plain or simple ring exchanged at the wedding, and the same fit rules apply."
+    },
+    {
+      "q": "Should a wedding band be easy to take off?",
+      "a": "It should come off with a gentle twist and a little pressure over the knuckle. If it slips off with no effort, it's too big. If you need soap every time, it's too small."
+    },
+    {
+      "q": "Should a wedding band be bigger than the engagement ring?",
+      "a": "They're usually the same size. If the wedding band is much wider, or the two rings feel tight together, size one of them up by a quarter size."
+    },
+    {
+      "q": "Is it normal for a wedding ring to feel tight at night?",
+      "a": "Some swelling in the evening, in hot weather or after salty food is normal. If the band is regularly hard to remove or your finger tingles, have it sized up."
+    }
+  ],
+  "related": ["ring", "engagement-ring", "watch", "bracelet", "tennis-bracelet", "gloves", "belt"],
+  "updated": "2026-11-19"
+}

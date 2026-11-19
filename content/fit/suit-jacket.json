@@ -1,0 +1,190 @@
+{
+  "slug": "suit-jacket",
+  "item": "suit jacket",
+  "h1": "How Should a Suit Jacket Fit?",
+  "category": "suits",
+  "shape": "jacket",
+  "keywords": [
+    "how should a suit jacket fit",
+    "how are suit jackets supposed to fit",
+    "how should a men's suit jacket fit",
+    "how should a suit coat fit",
+    "how long should a suit jacket be",
+    "how should suit jacket sleeves fit"
+  ],
+  "answer": "A suit jacket fits when the shoulder seam ends where your shoulder bone ends, the collar sits flat against your shirt collar, the buttoned front lies smooth without an X-shaped pull, the sleeves show about half an inch of shirt cuff, and the hem covers your seat.",
+  "intro": "Shoulders are the one thing a tailor can't really fix, so judge them first. Everything else on this list (sleeve length, waist suppression, even jacket length within reason) can be adjusted. Try jackets on over the kind of shirt you'll actually wear, with your wallet and phone out of the pockets, and look in a mirror from the side as well as the front.",
+  "checklist": [
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The seam sits right at the edge of your shoulder bone and the sleeve falls straight down from it with no dent.",
+      "tooTight": "The sleeve head pulls and you see a divot or ripple in the upper arm just below the seam.",
+      "tooLoose": "The pad overhangs your shoulder and collapses when you press it; the sleeve hangs away from the arm."
+    },
+    {
+      "point": "Collar",
+      "anchor": "collar",
+      "good": "The jacket collar rests flat against the back of your shirt collar, with about half an inch of shirt collar visible above it.",
+      "tooTight": "A horizontal roll of fabric bunches below the collar at the back of your neck.",
+      "tooLoose": "A gap opens between the jacket collar and your shirt collar when you stand straight."
+    },
+    {
+      "point": "Chest and top button",
+      "anchor": "button",
+      "good": "Buttoned, the front lies flat and you can slide a flat hand under the lapel. A fist would stretch it.",
+      "tooTight": "Fabric pulls in an X shape out from the button and the lapels lift away from your chest.",
+      "tooLoose": "The front gapes or hangs like a box and the lapels flop away from the body."
+    },
+    {
+      "point": "Sleeve length",
+      "anchor": "cuff",
+      "good": "With arms relaxed, the sleeve ends at the wrist bone and shows about ¼ to ½ inch of shirt cuff.",
+      "tooTight": "Too short: you see an inch or more of cuff, or bare wrist when you reach forward.",
+      "tooLoose": "Too long: the sleeve covers the shirt cuff entirely and reaches toward your thumb knuckle."
+    },
+    {
+      "point": "Jacket length",
+      "anchor": "hem",
+      "good": "The hem covers your seat, and with arms hanging it lines up roughly with your thumb knuckle or the middle of your hand.",
+      "tooTight": "Too short: the hem ends above your seat and makes the legs look disproportionately long.",
+      "tooLoose": "Too long: the hem reaches past your fingertips and shortens the look of your legs."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The jacket narrows gently above the button and follows your torso without clinging.",
+      "tooTight": "Vents spread open at the back and the side seams pull forward.",
+      "tooLoose": "The jacket hangs straight from chest to hem with spare fabric at the sides."
+    }
+  ],
+  "variations": {
+    "heading": "Slim, classic and relaxed fits",
+    "intro": "The checkpoints above stay the same across cuts. What changes is how much room sits around the chest and waist.",
+    "items": [
+      {
+        "name": "Slim fit",
+        "text": "A higher armhole, narrower sleeves and more waist shaping. It should still button without pulling; if you see the X-shaped strain at the button, size up and have the waist taken in instead. Slim jackets are usually cut a little shorter, so check that the hem still covers your seat."
+      },
+      {
+        "name": "Classic (regular) fit",
+        "text": "More room through the chest and a gentler taper. It suits broader or heavier builds and anyone who wants to move freely or layer a sweater underneath. It shouldn't look boxy: spare fabric at the waist is an easy alteration."
+      },
+      {
+        "name": "Relaxed or unstructured",
+        "text": "Softer or no shoulder padding and a fuller cut. The shoulder rule still applies — with no pad to hide behind, the seam should land at your shoulder bone — but the chest can be a touch looser."
+      },
+      {
+        "name": "Double-breasted",
+        "text": "Always worn buttoned, so judge it buttoned. It should lie flat over both rows of buttons with no pull, and is usually cut slightly longer than a single-breasted jacket."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your jacket size",
+    "intro": "Jacket sizes are your chest measurement in inches plus a length: S (short), R (regular) or L (long). You'll need a soft tape measure and, ideally, someone to help.",
+    "steps": [
+      "Wear a thin shirt and stand relaxed, breathing normally, arms at your sides.",
+      "Measure your chest around the fullest part, under your armpits and across your shoulder blades, keeping the tape level. That number in inches is your jacket size (for example 40).",
+      "Measure your height without shoes. Under about 5′8″ usually means Short, 5′8″ to 6′0″ Regular, and over 6′0″ Long.",
+      "Measure your arm from the shoulder bone to the wrist bone with the arm hanging. Many brands list sleeve lengths for each size.",
+      "Compare with the brand's own size chart, because sizing differs between makers."
+    ],
+    "tip": "Between two sizes? Choose the one that fits your shoulders. A tailor can let out or take in the waist and sleeves, but not the shoulders."
+  },
+  "sizeTable": {
+    "caption": "Men's suit jacket sizes by chest measurement",
+    "headers": ["US / UK size", "EU size", "Chest (in)", "Chest (cm)"],
+    "rows": [
+      ["36", "46", "36", "91"],
+      ["38", "48", "38", "97"],
+      ["40", "50", "40", "102"],
+      ["42", "52", "42", "107"],
+      ["44", "54", "44", "112"],
+      ["46", "56", "46", "117"],
+      ["48", "58", "48", "122"]
+    ],
+    "note": "EU jacket size is commonly the US/UK chest size plus 10. Lengths: Short (S) for about 5′4″–5′7″, Regular (R) for 5′8″–6′0″, Long (L) for 6′1″–6′3″."
+  },
+  "problems": [
+    {
+      "problem": "A roll of fabric bunches under the collar at the back",
+      "fix": "A tailor can lift or reshape the collar. If the bunching is large, the jacket is cut for different posture; try another size or brand."
+    },
+    {
+      "problem": "Sleeves are too long or too short",
+      "fix": "Sleeves can usually be shortened or lengthened by up to about an inch. Working buttonholes at the cuff make shortening harder, so check before you buy."
+    },
+    {
+      "problem": "X-shaped pulling at the button",
+      "fix": "The jacket is too small through the chest or waist. A tailor can let out a little from the side seams, but often the answer is the next size up."
+    },
+    {
+      "problem": "The jacket fits everywhere but the shoulders",
+      "fix": "Don't buy it. Shoulder alterations are expensive and rarely look right. Try a size that fits the shoulders and have the rest adjusted."
+    },
+    {
+      "problem": "Back vents pull open when standing",
+      "fix": "The jacket is tight across the seat or hips. Let out the side seams or choose a cut with more room through the waist."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "What a tailor can and can't fix",
+      "body": "Easy and usually inexpensive: shortening or lengthening sleeves, taking in the waist, and small changes at the side seams. Possible but costly: shortening the jacket body (more than about an inch throws off the pocket position), and reshaping the collar. Not worth trying: shoulders that are too wide or narrow, and a chest that's more than a size too small."
+    },
+    {
+      "heading": "Check the fit sitting down and moving",
+      "body": "Sit, reach forward as if shaking hands, and cross your arms. A good jacket lets you do all three without the back seam straining or the collar lifting off your neck. Unbutton it when you sit, as is customary for single-breasted jackets."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Suit separates sold by jacket and trouser size",
+      "why": "Buying the jacket and pants separately lets you match the jacket to your shoulders and the pants to your waist.",
+      "query": "mens suit separates jacket"
+    },
+    {
+      "label": "Short and long length suit jackets",
+      "why": "If you're under 5′8″ or over 6′0″, a Short or Long cut puts the pockets, buttons and hem in the right place before any tailoring.",
+      "query": "mens suit jacket long length"
+    },
+    {
+      "label": "Soft tailor's tape measure",
+      "why": "A flexible tape gives you an accurate chest and sleeve measurement to check against each brand's chart.",
+      "query": "tailor soft tape measure 60 inch"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should a suit jacket be?",
+      "a": "Long enough to cover your seat. With your arms relaxed at your sides, the hem usually lines up with your thumb knuckle or the middle of your hand."
+    },
+    {
+      "q": "How much shirt cuff should show under a suit jacket?",
+      "a": "About ¼ to ½ inch with your arms relaxed. Showing a little cuff frames the hand and protects the jacket sleeve from wear."
+    },
+    {
+      "q": "Should a suit jacket be tight or loose?",
+      "a": "Neither. Buttoned, it should lie flat across the chest with room to slide a flat hand under the lapel. Pulling at the button means it's too tight; a boxy hang means too loose."
+    },
+    {
+      "q": "How should a suit jacket fit in the shoulders?",
+      "a": "The shoulder seam should end exactly where your shoulder bone ends, with the sleeve hanging straight. Press the shoulder: if the pad collapses past your shoulder, the jacket is too big."
+    },
+    {
+      "q": "Can a tailor make a suit jacket smaller?",
+      "a": "Yes, within about one size. A tailor can take in the waist and side seams and shorten sleeves, but can't easily fix shoulders that are too wide."
+    },
+    {
+      "q": "Should a suit jacket button easily?",
+      "a": "Yes. It should close without strain and without an X-shaped pull radiating from the button. If it only closes when you hold your breath, size up."
+    },
+    {
+      "q": "How should a women's suit jacket fit?",
+      "a": "The same checkpoints apply: shoulder seam at the shoulder bone, a smooth buttoned front, sleeves at the wrist bone. Women's jackets are often cut shorter and more shaped at the waist, so judge length by the style rather than by covering the seat."
+    }
+  ],
+  "related": ["suit", "blazer", "sport-coat", "suit-pants", "dress-shirt", "vest", "dress-pants", "leather-jacket"],
+  "updated": "2026-11-19"
+}

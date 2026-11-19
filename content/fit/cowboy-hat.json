@@ -1,0 +1,198 @@
+{
+  "slug": "cowboy-hat",
+  "item": "cowboy hat",
+  "h1": "How Should a Cowboy Hat Fit?",
+  "category": "hats-helmets",
+  "shape": "hat",
+  "keywords": [
+    "how should a cowboy hat fit",
+    "how is a cowboy hat supposed to fit",
+    "should a cowboy hat fit snug",
+    "how should a cowboy hat fit on your head",
+    "how are cowboy hats supposed to fit",
+    "how should a cowboy hat fit a woman"
+  ],
+  "answer": "A cowboy hat fits when it sits level about a finger's width (½–1 in) above your eyebrows, the sweatband grips evenly around your head with no pressure points, the tops of your ears stay clear, and it stays on in a moderate breeze without a headache. Snug is right: felt hats ease slightly as they're worn.",
+  "intro": "A western hat is sized by head circumference like any fitted hat, but its wide brim and tall crown make fit more noticeable. A hat that's too loose blows off at the first gust; one that's too tight gives you a headache within the hour. Try hats on with your hair as you'll usually wear it, and look at yourself side-on to check the brim is level.",
+  "checklist": [
+    {
+      "point": "Height above the brow",
+      "anchor": "brow",
+      "good": "The front of the hat sits level about a finger's width above your eyebrows, and the brim shades your eyes.",
+      "tooTight": "The hat sits high on your head and the brim tilts upward.",
+      "tooLoose": "The hat drops down to your eyebrows and the brim blocks your view."
+    },
+    {
+      "point": "Sweatband grip",
+      "anchor": "sides",
+      "good": "You feel even, light pressure all the way around, and the hat doesn't move when you shake your head.",
+      "tooTight": "Pressure at the forehead or temples, a red line after wearing, or a headache.",
+      "tooLoose": "You can slide two fingers under the sweatband and the hat turns on your head."
+    },
+    {
+      "point": "Back of the head",
+      "anchor": "back",
+      "good": "The back sits above the bump at the base of your skull and holds the hat steady.",
+      "tooTight": "The back rides up and the hat tips back on your head.",
+      "tooLoose": "The back drops toward your neck and pushes the front brim down."
+    },
+    {
+      "point": "Ears",
+      "anchor": "sides",
+      "good": "The sweatband sits just above your ears, with the tops of the ears clear.",
+      "tooTight": "The band presses on top of your ears.",
+      "tooLoose": "The hat sits low enough to fold your ears down."
+    },
+    {
+      "point": "Crown",
+      "anchor": "crown",
+      "good": "The crown clears the top of your head and keeps its crease without bulging.",
+      "tooTight": "The top of your head presses into the crown and pushes the crease out.",
+      "tooLoose": "A large air space above your head lets the hat wobble."
+    },
+    {
+      "point": "Brim",
+      "anchor": "brim",
+      "good": "The brim sits level from side to side and at the front-back angle you've shaped it to.",
+      "tooTight": "The brim tilts up because the hat can't sit low enough.",
+      "tooLoose": "The front brim dips over your eyes because the hat sits too low."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by material and wearer",
+    "items": [
+      {
+        "name": "Felt cowboy hats",
+        "text": "Wool and fur felt eases slightly and molds to your head with wear, so choose a snug fit when new. A western store can steam and stretch felt a little, or reshape it for a long oval head."
+      },
+      {
+        "name": "Straw cowboy hats",
+        "text": "Straw doesn't stretch much and can crack if forced, so buy straw hats at the size that's comfortable from the start. Many straw hats have a stretchy or elastic band that gives a bit of flexibility."
+      },
+      {
+        "name": "Women's cowboy hats",
+        "text": "The fit rules are the same. Women often need smaller sizes, around 6¾–7⅛, and hair makes a big difference: a ponytail, braid or bun can push the back of the hat up. Try on hats with your hair styled as you'll wear it."
+      },
+      {
+        "name": "Long oval heads",
+        "text": "If the hat presses at the forehead and back but gaps at the temples, look for long oval sizing or ask a hat shop to shape the hat to your head."
+      },
+      {
+        "name": "Working and riding",
+        "text": "For riding and outdoor work, choose a slightly snugger fit or add a stampede string (chin strap) so the hat stays on at speed or in wind."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for a cowboy hat",
+    "steps": [
+      "Wrap a soft tape measure around your head where the hat sits: across your forehead about ⅛–½ in above the eyebrows, just above the ears, and around the back.",
+      "Keep the tape level, snug but not tight.",
+      "Read the measurement in inches or centimeters and repeat a couple of times.",
+      "Find your size in the table below. Western hats are usually sold in ⅛ sizes.",
+      "Between sizes, choose the larger one and use sizing tape for a snug fit, especially with straw, which won't stretch."
+    ],
+    "tip": "Measure with your hair as you'll wear it under the hat. Long hair in a braid or bun can add an eighth or more."
+  },
+  "sizeTable": {
+    "caption": "Standard US hat sizes by head circumference",
+    "headers": ["US hat size", "Head (in)", "Head (cm)", "Typical letter size"],
+    "rows": [
+      ["6½", "20½", "52", "XS"],
+      ["6⅝", "20⅞", "53", "XS"],
+      ["6¾", "21¼", "54", "S"],
+      ["6⅞", "21⅝", "55", "S"],
+      ["7", "22", "56", "M"],
+      ["7⅛", "22⅜", "57", "M"],
+      ["7¼", "22¾", "58", "L"],
+      ["7⅜", "23⅛", "59", "L"],
+      ["7½", "23½", "60", "XL"],
+      ["7⅝", "23⅞", "61", "XL"],
+      ["7¾", "24¼", "62", "XXL"],
+      ["7⅞", "24⅝", "63", "XXL"]
+    ],
+    "note": "Hat size is roughly the head circumference in inches divided by π. Centimeters are rounded. Letter sizes vary by maker, so check the brand's chart."
+  },
+  "problems": [
+    {
+      "problem": "The hat is slightly loose",
+      "fix": "Add hat sizing tape or a foam strip behind the sweatband, starting at the back. Several thin layers work better than one thick one."
+    },
+    {
+      "problem": "The hat is too tight",
+      "fix": "A felt hat can often be stretched by a western store with steam or a hat stretcher. Straw stretches very little; size up instead."
+    },
+    {
+      "problem": "Pressure on the forehead but gaps at the sides",
+      "fix": "Your head is a long oval. A hat shop can shape a felt hat to match, or look for long oval hats."
+    },
+    {
+      "problem": "The hat blows off in wind",
+      "fix": "Snug the fit with sizing tape, or add a stampede string. A properly fitted hat should stay on in a normal breeze."
+    },
+    {
+      "problem": "The hat has shrunk after getting wet",
+      "fix": "Felt can tighten if it dries hot. Reshape it while slightly damp, let it dry at room temperature crown-down, or ask a hat shop to re-block it."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Caring for the fit",
+      "body": "Set a cowboy hat down crown-first, or hang it on a hat rack, so the brim doesn't flatten. Keep it out of hot cars, which can shrink a sweatband and warp felt. Brush felt with a soft hat brush, and let a sweaty sweatband dry naturally."
+    },
+    {
+      "heading": "Shaping the crown and brim",
+      "body": "Many western stores shape the crown crease and brim curl to your preference when you buy, often with steam. Shaping doesn't change the size but can make the hat sit better on your head and suit your face. If you reshape at home, use gentle steam and patience; overheating felt can shrink the band."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Hat sizing tape",
+      "why": "Foam strips behind the sweatband snug up a felt or straw hat that's a touch big.",
+      "query": "hat sizing tape cowboy hat"
+    },
+    {
+      "label": "Felt cowboy hats in ⅛ sizes",
+      "why": "Fitted sizes in ⅛ steps let you match your head closely, and felt molds to your head with wear.",
+      "query": "felt cowboy hat 7 1/8"
+    },
+    {
+      "label": "Straw cowboy hats with a stretch band",
+      "why": "A flexible sweatband adds a little give, helpful since straw doesn't stretch.",
+      "query": "straw cowboy hat stretch band"
+    },
+    {
+      "label": "Stampede string or hat strap",
+      "why": "Keeps a cowboy hat on while riding or in strong wind.",
+      "query": "cowboy hat stampede string"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a cowboy hat fit snug?",
+      "a": "Yes. It should feel snug and stay on in a breeze, but not press hard enough to leave a mark or cause a headache. Felt hats ease a little with wear."
+    },
+    {
+      "q": "How low should a cowboy hat sit on your head?",
+      "a": "The front should sit about a finger's width above your eyebrows, with the band just above your ears."
+    },
+    {
+      "q": "How should a cowboy hat fit a woman?",
+      "a": "The same rules apply: level, a finger above the brows, snug all around. Measure with your hair styled as you'll wear it, since a bun or braid changes the fit."
+    },
+    {
+      "q": "How do I know if my cowboy hat is too big?",
+      "a": "It drops to your eyebrows, turns when you shake your head, or blows off easily. Add sizing tape behind the sweatband."
+    },
+    {
+      "q": "Will a cowboy hat stretch?",
+      "a": "Felt hats ease slightly with wear and can be stretched by a hat shop. Straw hats stretch very little."
+    },
+    {
+      "q": "What size cowboy hat do I need?",
+      "a": "Measure your head where the hat sits and use the table: a 22⅜ in (57 cm) head is a 7⅛."
+    }
+  ],
+  "related": ["hat", "baseball-cap", "cowboy-boots", "motorcycle-helmet", "bike-helmet", "ski-helmet", "sunglasses", "belt"],
+  "updated": "2026-11-19"
+}

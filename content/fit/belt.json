@@ -1,0 +1,182 @@
+{
+  "slug": "belt",
+  "item": "belt",
+  "h1": "How Should a Belt Fit?",
+  "category": "jeans-pants",
+  "shape": "generic",
+  "keywords": [
+    "how should a belt fit",
+    "how is a belt supposed to fit",
+    "how should belts fit",
+    "how should a belt fit men",
+    "how should a belt fit women",
+    "how should a belt fit men's",
+    "how should a belt fit women's"
+  ],
+  "answer": "A belt fits when it fastens on the middle hole, usually the third of five, the tail reaches past the first belt loop but not the second, it lies flat without pinching your waistband, the width fills the loops without forcing them, and you can slide one finger between the belt and your pants.",
+  "intro": "A belt's job is to finish the outfit and make small waist adjustments, not to hold up pants that are too big. Buckling on the middle hole leaves room to go up or down if your weight changes or you switch between trousers with different rises. Always size a belt to the pants you'll wear it with, not just to your body.",
+  "checklist": [
+    {
+      "point": "Which hole you use",
+      "anchor": "p1",
+      "good": "The buckle fastens on the middle hole: the third of five or the second or third of a smaller set. That leaves spare holes either side.",
+      "tooTight": "Too small: you're on the last hole closest to the tip, with no room if your waist changes or after a big meal.",
+      "tooLoose": "Too big: you're on the first hole nearest the buckle, or you've had to punch a new one."
+    },
+    {
+      "point": "Tail length",
+      "anchor": "p2",
+      "good": "The end of the belt passes the first belt loop to the side of the buckle and stops before the second, roughly 3–5 in past the buckle.",
+      "tooTight": "Too short: the tail doesn't reach the first loop and sticks out from the buckle.",
+      "tooLoose": "Too long: the tail reaches past the second loop or toward your hip. On dress belts this looks sloppy."
+    },
+    {
+      "point": "Snugness",
+      "anchor": "p3",
+      "good": "You can slide one finger flat between the belt and your waistband. The pants sit in place and the waistband lies flat.",
+      "tooTight": "The waistband gathers into pleats under the belt, or the belt digs into your stomach when you sit.",
+      "tooLoose": "The belt sits away from the waistband and slides down at the back, or doesn't keep your pants up."
+    },
+    {
+      "point": "Width",
+      "anchor": "p4",
+      "good": "The strap slides easily through the loops and fills most of their height. About 1–1¼ in for dress trousers, 1½ in for jeans and casual pants.",
+      "tooTight": "Too wide: you have to force it through the loops and they buckle or bunch.",
+      "tooLoose": "Too narrow: it looks thin against the loops and twists or rides up inside them."
+    },
+    {
+      "point": "Buckle position",
+      "anchor": "p5",
+      "good": "The buckle sits centered over your fly, in line with your shirt placket and zip.",
+      "tooTight": "The buckle is pulled to one side because the belt is too short to buckle comfortably in the middle hole.",
+      "tooLoose": "The buckle sags or tips forward because the belt is too long or loose."
+    },
+    {
+      "point": "Shape on the waist",
+      "anchor": "p6",
+      "good": "The belt sits level all the way round when standing, without arching up at the front or dipping at the back.",
+      "tooTight": "The belt cuts in and pushes the waistband into a curve over your stomach.",
+      "tooLoose": "The belt drops at the front under the stomach while the back rides higher."
+    }
+  ],
+  "variations": {
+    "heading": "Dress, casual and women's belts",
+    "intro": "The hole and tail rules work across styles. Width, buckle size and where you wear the belt change by outfit.",
+    "items": [
+      {
+        "name": "Dress belts",
+        "text": "Slim leather strap about 1–1¼ in wide with a small, simple buckle. The tail should stop before the second loop. Match the leather color to your shoes, and the buckle metal to your watch if you can."
+      },
+      {
+        "name": "Casual and jeans belts",
+        "text": "Wider, about 1½ in, often thicker leather, canvas or woven fabric. The tail can be a little longer, but shouldn't reach the second loop by much."
+      },
+      {
+        "name": "Ratchet and track belts",
+        "text": "No holes: the buckle clicks along a hidden track, usually in ¼ in steps. Cut to length so the tail stops just past the first loop with the buckle near the middle of its range."
+      },
+      {
+        "name": "Braided and stretch belts",
+        "text": "The prong goes through the weave anywhere, so size to fasten comfortably at the middle of the strap. Stretch belts should feel snug without pinching."
+      },
+      {
+        "name": "Women's waist belts",
+        "text": "Worn over dresses, coats or tops at the natural waist, the narrowest part of your torso. They fit tighter than trouser belts and should lie flat without digging in. Hip belts sit lower and looser."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your belt size",
+    "intro": "Belt sizes in the US and UK are usually given in inches, measured from where the buckle attaches to the middle hole. You have two easy ways to find yours.",
+    "steps": [
+      "Measure a belt that already fits: lay it flat and measure from the fold where the leather meets the buckle (not the buckle tip) to the hole you use most.",
+      "Or take your pant waist size and add 2 in. Someone who wears 34 in waist pants usually needs a 36 in belt.",
+      "If you wear your pants low or your size is between labels, measure around your waist over the pants you'll wear, through the belt loops, with a soft tape.",
+      "For S/M/L belts, check the brand's chart; letter sizes vary widely.",
+      "For women's belts, sizes may follow dress sizes instead of inches; again, use the brand's chart, or measure where you'll wear the belt."
+    ],
+    "tip": "Belts are commonly made in even sizes. If your measurement falls on an odd number, go up to the next even size so you fasten on a middle hole."
+  },
+  "problems": [
+    {
+      "problem": "The tail is too long",
+      "fix": "Many leather belts with screw or snap buckles can be shortened at the buckle end. Remove the buckle, cut, and reattach, or take it to a cobbler."
+    },
+    {
+      "problem": "You're always on the last hole",
+      "fix": "Have a cobbler punch an extra hole or two about 1 in apart, or size up. Holes punched too close to the tip weaken the belt."
+    },
+    {
+      "problem": "Pants gather into pleats under the belt",
+      "fix": "The pants are too big at the waist. Have the waist taken in by a tailor so the belt sits flat."
+    },
+    {
+      "problem": "The belt won't fit through the loops",
+      "fix": "It's too wide for the pants. Dress trousers usually need 1¼ in or narrower; save wider belts for jeans."
+    },
+    {
+      "problem": "The leather cracks or the holes stretch",
+      "fix": "Often a sign the belt is too small and straining. Size up and condition leather occasionally."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Matching the belt to the outfit",
+      "body": "With dress shoes and trousers, match the belt leather color and finish to your shoes: black with black, brown with brown. Keep buckles plain and small for suits. With jeans, the belt can be chunkier and more casual. You don't need a belt with suspenders, and a suit with side adjusters is designed to be worn without one."
+    },
+    {
+      "heading": "When to replace a belt",
+      "body": "Replace a belt when the leather cracks at the holes you use, the strap curls, the edges fray, or the keeper loop breaks. If your waist has changed so much that you're on the first or last hole, a new size will sit better than an extra hole."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Leather dress belt, 1–1¼ in wide",
+      "why": "A slim, plain belt fits dress trouser loops and works with suits and business casual.",
+      "query": "mens leather dress belt 1.25 inch"
+    },
+    {
+      "label": "Ratchet belt with a track buckle",
+      "why": "No holes and small adjustment steps, so you get an exact fit every time.",
+      "query": "mens ratchet belt leather"
+    },
+    {
+      "label": "Casual jeans belt, 1½ in wide",
+      "why": "Fills jeans loops properly and holds up to daily wear.",
+      "query": "1.5 inch leather jeans belt"
+    },
+    {
+      "label": "Women's waist belt",
+      "why": "Defines the waist over dresses and coats; look for an adjustable or stretch style.",
+      "query": "womens waist belt for dresses"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What hole should a belt be on?",
+      "a": "The middle hole, usually the third of five. That leaves room to loosen or tighten as needed."
+    },
+    {
+      "q": "How long should a belt be?",
+      "a": "Long enough that the tail passes the first belt loop but stops before the second, about 3–5 in past the buckle."
+    },
+    {
+      "q": "What size belt should I get?",
+      "a": "Usually your pant waist size plus 2 in. Wear 32 in waist pants, buy a 34 in belt, then check it fastens on the middle hole."
+    },
+    {
+      "q": "How tight should a belt be?",
+      "a": "Snug enough to hold the pants in place with one finger of room between belt and waistband. If the waistband gathers, the belt is too tight or the pants too big."
+    },
+    {
+      "q": "How should a belt fit women?",
+      "a": "With pants, the same hole and tail rules apply. Waist belts worn over dresses sit at the natural waist and fit snugly without digging in."
+    },
+    {
+      "q": "Can you cut a belt shorter?",
+      "a": "Many can. Belts with a removable buckle can be shortened at the buckle end; stitched belts usually need a cobbler."
+    }
+  ],
+  "related": ["jeans", "pants", "chinos", "cargo-shorts", "dress-pants", "suit-pants", "dress-shoes", "watch"],
+  "updated": "2026-11-19"
+}

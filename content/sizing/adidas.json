@@ -1,0 +1,231 @@
+{
+  "slug": "adidas",
+  "brand": "adidas",
+  "h1": "How Do adidas Shoes Fit?",
+  "category": "footwear",
+  "keywords": [
+    "how do adidas shoes fit",
+    "how does adidas shoes fit"
+  ],
+  "verdict": "true to size",
+  "answer": "adidas labels its classic Samba OG and Gazelle listings true to size and recommends ordering your usual size. Its size guides add model nuance: adidas says the Samba can feel narrow, so wide feet may want half a size up, while the Gazelle tends to feel roomier than other true to size adidas models.",
+  "sizeChart": {
+    "caption": "adidas men's shoe size chart (US 6 to 13)",
+    "headers": ["US men", "US women", "UK", "EU", "JP", "Heel-toe (in)", "Heel-toe (cm)"],
+    "rows": [
+      ["6", "7", "5.5", "38 2/3", "240", "9.4", "23.8"],
+      ["7", "8", "6.5", "40", "250", "9.7", "24.6"],
+      ["7.5", "8.5", "7", "40 2/3", "255", "9.8", "25.0"],
+      ["8", "9", "7.5", "41 1/3", "260", "10.0", "25.5"],
+      ["8.5", "9.5", "8", "42", "265", "10.2", "25.9"],
+      ["9", "10", "8.5", "42 2/3", "270", "10.4", "26.3"],
+      ["9.5", "10.5", "9", "43 1/3", "275", "10.5", "26.7"],
+      ["10", "11", "9.5", "44", "280", "10.7", "27.1"],
+      ["10.5", "11.5", "10", "44 2/3", "285", "10.9", "27.6"],
+      ["11", "12", "10.5", "45 1/3", "290", "11.0", "28.0"],
+      ["12", "13", "11.5", "46 2/3", "300", "11.3", "28.8"],
+      ["13", "14", "12.5", "48", "310", "11.7", "29.7"]
+    ],
+    "note": "adidas's chart says: for a tight fit, go one size down; for a loose fit, go one size up. Measure your feet at the end of the day for the best fit.",
+    "source": {
+      "name": "adidas footwear size chart",
+      "url": "https://support.dtb.adidas.com/static-content/size-charts/en_US/footwear/size-shoes.html"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Measure heel to toe at the end of the day",
+      "body": "adidas's footwear chart is built on heel-to-toe length. It says to measure from the tip of your big toe to the outermost part of your heel, and to measure at the end of the day for the best fit. Match the length to the chart, then adjust for preference: adidas says to go one size down for a tight fit and one size up for a loose fit."
+    },
+    {
+      "heading": "Classic models are labeled true to size",
+      "body": "adidas's Samba OG and Gazelle product listings say true to size and recommend ordering your usual size. adidas's own size guides for those two shoes then add width notes, which are covered on their pages below."
+    },
+    {
+      "heading": "Why some sizes feel roomy",
+      "body": "adidas's Gazelle size guide explains that adidas uses a 1/3 sizing convention when developing its shoes, which does not translate perfectly into the US half size system. You can see it on the chart: EU sizes step in thirds, such as 42, 42 2/3 and 43 1/3. adidas says this is part of why the Gazelle leans roomy."
+    },
+    {
+      "heading": "Men's and women's sizes",
+      "body": "On adidas's chart, the US women's size is one number higher than the US men's size for the same heel-to-toe length. A US men's 9 and a US women's 10 share a 26.3 cm length."
+    }
+  ],
+  "comparison": "adidas lists a 26.3 cm heel-to-toe length for a US men's 9, while Nike's men's chart lists 27 in its CM column and 10 5/16 inches of foot length for the same size. The brands label their centimeter columns differently, so compare the inch or foot length figures rather than the CM numbers.",
+  "faqs": [
+    {
+      "q": "Do adidas shoes fit true to size?",
+      "a": "adidas labels its Samba OG and Gazelle listings true to size and recommends your usual size. Its chart adds that you can go one size down for a tight fit or one size up for a loose fit."
+    },
+    {
+      "q": "Should I size up or down in adidas?",
+      "a": "Start with your usual size or your heel-to-toe length on the adidas chart. adidas suggests half a size up in Sambas for wide feet, and notes the Gazelle runs roomier than other true to size adidas models."
+    },
+    {
+      "q": "How do adidas women's sizes compare with men's?",
+      "a": "On adidas's chart, the US women's size is one number higher than the men's for the same foot length. A men's 9 equals a women's 10."
+    },
+    {
+      "q": "Why do adidas EU sizes have fractions?",
+      "a": "adidas uses a 1/3 sizing convention, so EU sizes step in thirds, such as 42 2/3 and 43 1/3."
+    }
+  ],
+  "picks": [
+    {
+      "label": "adidas Samba OG",
+      "why": "Labeled true to size by adidas; go half a size up if your feet are wide.",
+      "query": "adidas samba og"
+    },
+    {
+      "label": "adidas Gazelle",
+      "why": "Labeled true to size, with a roomier feel than most adidas models according to adidas.",
+      "query": "adidas gazelle"
+    },
+    {
+      "label": "adidas wide shoes",
+      "why": "A dedicated wide fit is a better answer than sizing up if every adidas pair pinches across the forefoot.",
+      "query": "adidas wide shoes mens"
+    }
+  ],
+  "products": [
+    {
+      "slug": "samba",
+      "name": "Samba",
+      "h1": "How Do adidas Sambas Fit?",
+      "keywords": [
+        "how do adidas sambas fit",
+        "how do sambas fit",
+        "do sambas fit true to size",
+        "how does sambas fit",
+        "how do adidas samba fit"
+      ],
+      "answer": "adidas says the Samba runs true to size, and its Samba OG listings recommend ordering your usual size. adidas's Samba size guide adds that some people find Sambas a bit narrow in their usual size, and that the Samba OG leans narrow for wider feet, so if your feet are wide, consider going up half a size.",
+      "body": [
+        {
+          "heading": "Usual size for average feet",
+          "body": "adidas's Samba size guide says the Samba runs true to size and is accurate to the various measurement systems around the world. The Samba OG product listings say true to size and recommend ordering your usual size."
+        },
+        {
+          "heading": "Half a size up for wide feet",
+          "body": "The same guide says some people find Sambas a bit narrow when they pick their usual size, and describes the Samba OG as a regular fit that leans narrow for those with wider feet. For wider feet, adidas suggests considering half a size up for a little more room."
+        },
+        {
+          "heading": "Other Samba versions",
+          "body": "adidas's guide says the Samba Classic, Sambae and Samba XLG are also true to size, with half a size up suggested for wider feet. Its Samba Jane notes say it keeps the measurements of other Sambas, with sizing up suggested for wide feet."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do Sambas fit true to size?",
+          "a": "Yes. adidas says the Samba runs true to size, and its Samba OG listings recommend ordering your usual size."
+        },
+        {
+          "q": "Should I size up in Sambas?",
+          "a": "Only if your feet are wide. adidas says some people find Sambas a bit narrow and suggests considering half a size up for wider feet."
+        },
+        {
+          "q": "Do Sambas run narrow?",
+          "a": "adidas describes the Samba OG as a regular fit that leans narrow for those with wider feet."
+        },
+        {
+          "q": "Do Samba XLG and Sambae fit the same as the Samba OG?",
+          "a": "adidas's Samba size guide says both are true to size, with half a size up suggested for wider feet."
+        }
+      ],
+      "picks": [
+        {
+          "label": "adidas Samba OG",
+          "why": "Order your usual size, or half a size up for wide feet, per adidas.",
+          "query": "adidas samba og"
+        },
+        {
+          "label": "adidas Samba XLG",
+          "why": "A thicker-soled Samba that adidas also lists as true to size.",
+          "query": "adidas samba xlg"
+        }
+      ]
+    },
+    {
+      "slug": "gazelle",
+      "name": "Gazelle",
+      "h1": "How Do adidas Gazelles Fit?",
+      "keywords": [
+        "how do adidas gazelles fit",
+        "how do adidas gazelle fit",
+        "how does adidas gazelle fit",
+        "how do gazelles fit"
+      ],
+      "answer": "adidas says the Gazelle generally fits true to size, and its Gazelle listings recommend ordering your usual size. adidas also says the Gazelle has a more forgiving, roomier fit than other true to size adidas models, so if you like a snug fit you can go half a size down, while wider feet should stay with their usual size.",
+      "body": [
+        {
+          "heading": "True to size, on the roomy side",
+          "body": "adidas's Gazelle size guide says the shoe generally fits true to size and comes in US whole and half sizes. It also says the Gazelle tends to have a more forgiving, roomier fit than other true to size adidas models. adidas puts this down partly to its 1/3 sizing convention, which does not translate perfectly into US half sizes."
+        },
+        {
+          "heading": "When to go half a size down",
+          "body": "adidas's Gazelle page suggests that if you like a snug fit, going half a size down can help the shoe feel more secure for daily wear and long walks. If your feet are wider or you want wiggle room, adidas says your usual size is normally the safest bet. adidas also notes the suede softens over time, so the shoe can loosen up as you wear it."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do adidas Gazelles fit true to size?",
+          "a": "Yes. adidas says the Gazelle generally fits true to size, and its listings recommend ordering your usual size."
+        },
+        {
+          "q": "Do Gazelles run big?",
+          "a": "adidas says the Gazelle has a more forgiving, roomier fit than other true to size adidas models, and suggests half a size down if you like a snug fit."
+        },
+        {
+          "q": "Should I size down in Gazelles if I have wide feet?",
+          "a": "No. adidas says that for wider feet, your usual size is normally the safest bet."
+        },
+        {
+          "q": "Do Gazelles stretch?",
+          "a": "adidas says the suede softens over time, so the shoe can loosen up as you wear it."
+        }
+      ],
+      "picks": [
+        {
+          "label": "adidas Gazelle",
+          "why": "Usual size for most feet, half a size down if you want it snug, per adidas.",
+          "query": "adidas gazelle"
+        },
+        {
+          "label": "Suede protector spray",
+          "why": "The Gazelle's suede softens with wear; a protector helps it age evenly.",
+          "query": "suede protector spray sneakers"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "adidas footwear size chart",
+      "url": "https://support.dtb.adidas.com/static-content/size-charts/en_US/footwear/size-shoes.html"
+    },
+    {
+      "name": "adidas men's shoe size chart",
+      "url": "https://www.adidas.com/us/help/size_charts/men-shoes"
+    },
+    {
+      "name": "adidas: The adidas Samba size guide",
+      "url": "https://www.adidas.com/us/blog/982564-the-adidas-samba-size-guide"
+    },
+    {
+      "name": "adidas Samba OG product page (B75806)",
+      "url": "https://www.adidas.com/us/samba-og-shoes/B75806.html"
+    },
+    {
+      "name": "adidas: The adidas Gazelle size guide",
+      "url": "https://www.adidas.com/us/blog/the-adidas-gazelle-size-guide-how-do-gazelle-sneakers-fit"
+    },
+    {
+      "name": "adidas Gazelle shoes",
+      "url": "https://www.adidas.com/us/gazelle"
+    },
+    {
+      "name": "adidas Gazelle product page (BB5478)",
+      "url": "https://www.adidas.com/us/gazelle-shoes/BB5478.html"
+    }
+  ],
+  "checked": "2026-11-19"
+}

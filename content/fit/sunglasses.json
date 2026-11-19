@@ -1,0 +1,177 @@
+{
+  "slug": "sunglasses",
+  "item": "sunglasses",
+  "h1": "How Should Sunglasses Fit?",
+  "category": "eyewear",
+  "shape": "glasses",
+  "keywords": [
+    "how should sunglasses fit",
+    "how should sunglasses fit on your face",
+    "how are sunglasses supposed to fit",
+    "how should sunglasses fit your face",
+    "how should sunglasses fit on face"
+  ],
+  "answer": "Sunglasses fit when the frame is about as wide as your face, the lenses cover your eyes with your pupils near the center, the bridge rests on your nose without sliding, the arms hold gently behind your ears, and the frame doesn't rest on your cheeks or touch your eyelashes. They should stay put when you look down.",
+  "intro": "Sunglasses follow the same fit rules as prescription glasses, with one extra job: blocking light. That means they're often a little larger and closer to the face, and a frame that slides down your nose lets sun in over the top. Check the fit looking straight ahead, looking down, and smiling.",
+  "checklist": [
+    {
+      "point": "Frame width",
+      "anchor": "frame",
+      "good": "The frame is about as wide as your face at the temples, or slightly wider for an oversized style.",
+      "tooTight": "The arms squeeze the sides of your head, leaving marks or causing a headache.",
+      "tooLoose": "The frame overhangs your face, the arms bow outward, and the glasses shift when you turn your head."
+    },
+    {
+      "point": "Lens coverage",
+      "anchor": "lens",
+      "good": "Your eyes sit near the center of the lenses, and the lenses cover your eyes and some of the surrounding area.",
+      "tooTight": "Lenses too small: light gets in around the edges and your eyes sit near the rim.",
+      "tooLoose": "Lenses too large: the frame rests on your cheeks or the lenses fog because they sit too close to the face."
+    },
+    {
+      "point": "Bridge on the nose",
+      "anchor": "bridge",
+      "good": "The bridge rests evenly on your nose and holds the glasses at the same height all day.",
+      "tooTight": "The bridge pinches or perches high on the nose, leaving red marks.",
+      "tooLoose": "The glasses slide down your nose and you keep pushing them back up."
+    },
+    {
+      "point": "Temple arms",
+      "anchor": "temple",
+      "good": "The arms run straight back without pressing on your temples before they reach your ears.",
+      "tooTight": "Too short: the bend lands on top of your ear and pushes the glasses forward.",
+      "tooLoose": "Too long: the bend falls behind the ear and the glasses tip forward when you look down."
+    },
+    {
+      "point": "Behind the ears",
+      "anchor": "ear",
+      "good": "The arm tips hug behind your ears lightly; the glasses don't move when you nod or jog a few steps.",
+      "tooTight": "The tips dig into the skin behind the ear.",
+      "tooLoose": "The tips don't touch behind the ear and the glasses fall off when you bend over."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by style and activity",
+    "items": [
+      {
+        "name": "Everyday and fashion sunglasses",
+        "text": "A fit similar to your prescription glasses works well. Oversized styles can extend a little past the face, but they still shouldn't rest on your cheeks or slide down."
+      },
+      {
+        "name": "Sports and wraparound sunglasses",
+        "text": "These curve around the face to block side light and wind, so they should sit closer and grip more firmly. Rubber nose pads and temple tips help them stay put when you sweat. Check that your eyelashes don't touch the lenses."
+      },
+      {
+        "name": "Aviators and metal frames",
+        "text": "Adjustable nose pads make metal frames easy to fine-tune for height and grip. The large teardrop lenses should cover your eyes without the lower rim resting on your cheeks."
+      },
+      {
+        "name": "Low bridge and alternative fit",
+        "text": "If sunglasses tend to sit on your cheeks or slide down, look for low bridge fit or alternative fit versions, which have a deeper bridge and taller nose pads that lift the frame off the cheeks."
+      },
+      {
+        "name": "Prescription sunglasses and clip-ons",
+        "text": "Prescription sunglasses need the same careful lens centering as regular glasses. Clip-ons and fit-over sunglasses should match the size and shape of the frames underneath, without pressing on them."
+      },
+      {
+        "name": "Kids' sunglasses",
+        "text": "Children's sunglasses should fit as snugly as their regular glasses and offer full UV protection. A soft strap helps them stay on during play."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your sunglasses size",
+    "intro": "Sunglasses use the same three size numbers as eyeglasses, usually printed inside an arm: lens width, bridge width and temple length, all in millimeters.",
+    "steps": [
+      "Look inside the arm of a pair of glasses or sunglasses that fits you well and note the three numbers, for example 55-18-145.",
+      "The first number is the lens width. Sunglasses often run a little larger than eyeglasses, commonly around 50–62 mm.",
+      "The second is the bridge width, typically 14–22 mm. Match this closely, since it controls how the glasses sit on your nose.",
+      "The third is the temple length, usually 135–150 mm. Longer arms suit larger heads.",
+      "Measure your face straight across from temple to temple in front of your ears and compare it with the total frame width, if the retailer lists it.",
+      "When buying a new style, stay within a few millimeters of your known-good numbers."
+    ],
+    "tip": "No numbers to go on? Try frames on in a store and note the numbers of the pair that fits best, then use those to shop online in other styles."
+  },
+  "problems": [
+    {
+      "problem": "Sunglasses slide down your nose",
+      "fix": "An optician can adjust nose pads and bend the temple tips for a better grip. On plastic frames, try silicone nose pads or temple grips, or choose a low bridge fit frame."
+    },
+    {
+      "problem": "Light gets in over the top",
+      "fix": "The frame sits too low or the lenses are small. Raise the frame with nose pad adjustments, or choose a style with taller lenses or a wraparound shape."
+    },
+    {
+      "problem": "Frames rest on your cheeks",
+      "fix": "The bridge is too shallow for your nose. Adjustable pads, a low bridge fit, or a frame with smaller lenses solves this."
+    },
+    {
+      "problem": "Lenses fog up",
+      "fix": "The frame sits too close to your face, trapping warm air. Choose a style with more space between the lens and your eyes, or vented sports lenses."
+    },
+    {
+      "problem": "Headaches or pressure at the temples",
+      "fix": "The frame is too narrow or the arms are bent inward. Have them adjusted, or move up to a wider frame."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Fit and eye protection",
+      "body": "Fit is part of protection. A frame that slides down lets light in from above, and small lenses let it in from the sides. Look for lenses labeled 100% UV protection or UV400, which blocks UV light up to 400 nanometers. Dark tint alone doesn't mean UV protection. Polarized lenses cut glare from water and roads but are a separate feature from UV blocking."
+    },
+    {
+      "heading": "Adjusting cheap and expensive sunglasses",
+      "body": "Many optical shops will adjust sunglasses for free, including pairs bought elsewhere. Metal frames with adjustable nose pads are the easiest to tweak. Inexpensive plastic sunglasses can be harder to adjust without cracking, so if they don't fit well from the start, look for another size."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Low bridge fit sunglasses",
+      "why": "Raised nose pads keep the frame off your cheeks and stop it sliding, helpful for low or narrow nose bridges.",
+      "query": "low bridge fit sunglasses"
+    },
+    {
+      "label": "Wraparound sports sunglasses with rubber grips",
+      "why": "A close, curved fit with grippy pads stays in place for running, cycling and outdoor work.",
+      "query": "wraparound sports sunglasses rubber nose pads"
+    },
+    {
+      "label": "Polarized UV400 sunglasses",
+      "why": "Combines full UV protection with glare reduction for driving and time near water.",
+      "query": "polarized uv400 sunglasses"
+    },
+    {
+      "label": "Sunglasses retainer strap",
+      "why": "A simple strap keeps sunglasses on during sports, boating and activities where they could fall off.",
+      "query": "sunglasses retainer strap"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should sunglasses fit on your face?",
+      "a": "About as wide as your face, with your eyes centered in the lenses, the bridge resting on your nose, and the arms holding gently behind your ears. They shouldn't touch your cheeks or slide down."
+    },
+    {
+      "q": "Should sunglasses be wider than your face?",
+      "a": "Only slightly, if at all. A frame roughly the width of your face looks balanced and stays in place. Oversized styles can be a little wider, but the arms shouldn't bow outward."
+    },
+    {
+      "q": "Should sunglasses touch your cheeks?",
+      "a": "No. If they rest on your cheeks or lift when you smile, the frame sits too low. Look for adjustable nose pads or a low bridge fit."
+    },
+    {
+      "q": "Should sunglasses be tight or loose?",
+      "a": "Snug enough to stay on when you look down or turn your head, without pinching your nose, temples or behind your ears."
+    },
+    {
+      "q": "Are sunglasses sized like regular glasses?",
+      "a": "Yes. They use the same three numbers: lens width, bridge width and temple length in millimeters. Sunglasses lenses are often a little larger."
+    },
+    {
+      "q": "How do I keep sunglasses from sliding down?",
+      "a": "Have the temple tips and nose pads adjusted, add silicone nose pads or ear grips, or choose a frame with a narrower or low bridge fit."
+    }
+  ],
+  "related": ["glasses", "baseball-cap", "hat", "cowboy-hat", "watch", "bike-helmet", "ski-helmet", "bracelet"],
+  "updated": "2026-11-19"
+}

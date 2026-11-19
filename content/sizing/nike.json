@@ -1,0 +1,186 @@
+{
+  "slug": "nike",
+  "brand": "Nike and Jordan",
+  "h1": "How Do Nike and Jordan Shoes Fit?",
+  "category": "footwear",
+  "keywords": [
+    "do jordans fit true to size",
+    "how do jordan 4s fit",
+    "how do air jordan 4s fit"
+  ],
+  "verdict": "varies by model",
+  "answer": "Nike and Jordan shoes use one length chart, but Nike's fit advice changes from model to model. Nike says the Air Jordan 4 Retro generally fits true to size, with half a size up for wider feet, while its Air Max Plus listing says it fits small and recommends a half size up. Check the note on the exact shoe.",
+  "sizeChart": {
+    "caption": "Nike men's shoe size chart (US 7 to 13)",
+    "headers": ["US men", "UK", "EU", "CM / JP", "Foot length (in)"],
+    "rows": [
+      ["7", "6", "40", "25", "9 11/16"],
+      ["7.5", "6.5", "40.5", "25.5", "9 13/16"],
+      ["8", "7", "41", "26", "10"],
+      ["8.5", "7.5", "42", "26.5", "10 3/16"],
+      ["9", "8", "42.5", "27", "10 5/16"],
+      ["9.5", "8.5", "43", "27.5", "10 1/2"],
+      ["10", "9", "44", "28", "10 11/16"],
+      ["10.5", "9.5", "44.5", "28.5", "10 13/16"],
+      ["11", "10", "45", "29", "11"],
+      ["12", "11", "46", "30", "11 5/16"],
+      ["13", "12", "47.5", "31", "11 11/16"]
+    ],
+    "note": "Nike says the CM size printed on shoe boxes and labels is different from foot length in centimeters. If your measurement falls between sizes, Nike recommends sizing up.",
+    "source": {
+      "name": "Nike men's footwear size chart",
+      "url": "https://www.nike.com/size-fit/mens-footwear"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Start with your foot length, not your old shoe size",
+      "body": "Nike's chart is built on foot length. Its guide says to measure both feet, apply the longer of the two measurements to the chart, and size up if you land between two sizes. For Jordan shoes, Nike's help page says to use the Size Guide link in the size section of each product page to find the chart for that style."
+    },
+    {
+      "heading": "Fit notes change by model",
+      "body": "Nike puts model-level advice on product pages and in its sizing articles, and the advice is not the same everywhere. Its Air Jordan 4 Retro guide says the shoe generally fits true to size for standard feet. Its Air Max Plus listing says the shoe fits small and recommends ordering a half size up. Read the size note on the exact product before you pick a size."
+    },
+    {
+      "heading": "Wide and extra wide",
+      "body": "Some Nike styles come in wide and extra wide versions. Nike's chart says wide shoes have about 1/4 inch (6.35 mm) more girth in the toe box than regular width, and extra wide shoes have about 1/2 inch (1.27 cm) more. When a model is not offered in wide, check its own guide: Nike's Air Jordan 4 guide, for example, suggests half a size up for wider feet instead."
+    },
+    {
+      "heading": "Women's and unisex sizing",
+      "body": "Nike's women's chart runs on the same foot lengths at a different number. Its women's chart lists a 10 inch foot length for a women's 9, the same length its men's chart lists for a men's 8. Nike also publishes a separate unisex chart based on women's sizes, so check whether a listing is men's, women's or unisex before converting."
+    }
+  ],
+  "comparison": "On each brand's own chart, a US men's 9 maps to 27 cm on Nike's CM column and 27 cm on the ASICS chart, while adidas lists a 26.3 cm heel-to-toe length for its US men's 9. Compare foot lengths rather than assuming the same number fits the same way.",
+  "faqs": [
+    {
+      "q": "Do Jordans fit true to size?",
+      "a": "It depends on the model. Nike's Air Jordan 4 Retro guide says it generally fits true to size, with half a size up suggested for wide feet. Other Jordans have their own notes, so check the size guide link on the product page you are buying from."
+    },
+    {
+      "q": "Should I size up in Nike shoes?",
+      "a": "Only when the product note says so or your foot measures between sizes. Nike's chart says to size up when you are between sizes, and some listings, such as the Air Max Plus, say the shoe fits small and recommend a half size up."
+    },
+    {
+      "q": "Is the CM size on a Nike box my foot length?",
+      "a": "No. Nike's size chart says the CM size on shoe boxes and labels is different from foot length in centimeters. Use the foot length column on the chart when you measure at home."
+    },
+    {
+      "q": "How much wider are Nike wide shoes?",
+      "a": "Nike's chart says wide shoes have about 1/4 inch more girth in the toe box than regular width, and extra wide shoes about 1/2 inch more."
+    },
+    {
+      "q": "Do Jordan shoes use a different size chart from Nike?",
+      "a": "Jordan shoes on nike.com link to Nike's size charts from the size section of each product page. Nike's help page tells shoppers to use the Size Guide link on the specific style they are viewing."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Nike shoes in wide width",
+      "why": "Nike's wide versions add about 1/4 inch of toe box girth, a cleaner fix than sizing up for a broad forefoot.",
+      "query": "nike mens shoes wide width"
+    },
+    {
+      "label": "Air Jordan 4 Retro",
+      "why": "Nike says it generally fits true to size; go half a size up if you wear a wide or C to D width.",
+      "query": "air jordan 4 retro mens"
+    },
+    {
+      "label": "Thin cushioned crew socks",
+      "why": "Nike notes that sock thickness changes how a retro sneaker feels, so try shoes on with the socks you plan to wear.",
+      "query": "thin cushioned crew socks sneakers"
+    }
+  ],
+  "products": [
+    {
+      "slug": "air-jordan-4",
+      "name": "Air Jordan 4 Retro",
+      "h1": "How Do Jordan 4s Fit?",
+      "keywords": [
+        "how do jordan 4s fit",
+        "how does jordan 4s fit",
+        "how do air jordan 4s fit",
+        "how do the jordan 4s fit",
+        "how do jordan 4 fit",
+        "do jordan 4s fit true to size",
+        "do jordan 4 fit true to size",
+        "how does air jordan 4 fit"
+      ],
+      "answer": "Nike says the Air Jordan 4 Retro generally fits true to size for standard feet. The forefoot is narrower at the metatarsals, so if you wear a C or D width or have wider feet, Nike suggests going up half a size. For Air Jordan 4 SB and Reimagined versions, Nike recommends true to size for standard and wide feet.",
+      "body": [
+        {
+          "heading": "Standard feet: your usual size",
+          "body": "Nike's sizing guide for the Air Jordan 4 Retro says it generally fits true to size for standard foot shapes, for both men's and women's sizing. If your foot is average width, your usual Nike size is the starting point."
+        },
+        {
+          "heading": "Wide feet: half a size up",
+          "body": "Nike notes that many people find the shoe narrower at the metatarsals in the forefoot, and that the women's toe box tends to be tighter than in some other sneakers. Its advice is to go up half a size if you typically wear a C or D width or have wider feet. Sizing up mainly eases pressure across the forefoot."
+        },
+        {
+          "heading": "SB and Reimagined versions",
+          "body": "For the spring 2023 Air Jordan 4 Retro SB, Nike says the pattern was modified for a more accommodating fit. Nike recommends true to size for all Air Jordan 4 Retro SB versions and for the Air Jordan 4 Retro Reimagined, for both standard and wide feet."
+        },
+        {
+          "heading": "Break-in, socks and lacing",
+          "body": "Nike says the shoe may need a short break-in period and suggests wearing it around the house or on short outings so the materials soften. Loose lacing gives a more relaxed fit during break-in. Thinner socks feel looser and thicker socks fill extra space, so try them on with the socks you will wear."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do Jordan 4s fit true to size?",
+          "a": "Yes, for standard feet. Nike's guide says the Air Jordan 4 Retro generally fits true to size, and suggests half a size up for wider feet."
+        },
+        {
+          "q": "Should I go half a size up in Jordan 4s?",
+          "a": "Nike suggests half a size up if you typically wear a C or D width or have wider feet, because the forefoot is narrower at the metatarsals."
+        },
+        {
+          "q": "Do Jordan 4 SBs fit the same as regular Jordan 4s?",
+          "a": "Not quite. Nike says the SB version was patterned for a more accommodating fit and recommends true to size for both standard and wide feet."
+        },
+        {
+          "q": "Do women's Jordan 4s fit differently?",
+          "a": "Nike says women's Air Jordan 4 Retro sizing is generally true to size, but the toe box tends to be tighter than in some other sneakers. If you have wider feet or like roomier shoes, Nike suggests half a size up."
+        }
+      ],
+      "picks": [
+        {
+          "label": "Air Jordan 4 Retro",
+          "why": "Order your usual size for standard feet, half a size up for wide feet, per Nike's guide.",
+          "query": "air jordan 4 retro"
+        },
+        {
+          "label": "Air Jordan 4 Retro SB",
+          "why": "Nike recommends true to size here even for wide feet, thanks to a roomier pattern.",
+          "query": "air jordan 4 retro sb"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nike men's footwear size chart",
+      "url": "https://www.nike.com/size-fit/mens-footwear"
+    },
+    {
+      "name": "Nike women's footwear size chart",
+      "url": "https://www.nike.com/size-fit/womens-footwear"
+    },
+    {
+      "name": "Nike unisex (women's based) footwear size chart",
+      "url": "https://www.nike.com/size-fit/unisex-footwear-womens-based"
+    },
+    {
+      "name": "Nike: Official Air Jordan 4 sizing guide and tips",
+      "url": "https://www.nike.com/a/air-jordan-4-retro-sizing-guide"
+    },
+    {
+      "name": "Nike Air Max Plus men's shoes product page",
+      "url": "https://www.nike.com/t/air-max-plus-mens-shoes-x9G2xF/FB9722-001"
+    },
+    {
+      "name": "Nike Help: How do I find the right size and fit?",
+      "url": "https://www.nike.com/help/a/size-charts"
+    }
+  ],
+  "checked": "2026-11-19"
+}

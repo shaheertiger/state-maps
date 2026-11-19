@@ -1,0 +1,118 @@
+{
+  "slug": "asics",
+  "brand": "ASICS",
+  "h1": "How Do ASICS Fit?",
+  "category": "running",
+  "keywords": [
+    "how do asics fit",
+    "how does asics fit",
+    "do asics fit true to size",
+    "how do asics fit compared to nike"
+  ],
+  "verdict": "size up",
+  "answer": "ASICS advises leaving room in running shoes. Its running fit guides say there should be half to a full thumb's width of space in front of your toes, and that a running shoe should be around half a size larger than the shoe size you usually wear. Many models also come in narrow, wide and extra wide.",
+  "sizeChart": {
+    "caption": "ASICS men's and unisex shoe size chart (US 6 to 13)",
+    "headers": ["US", "UK", "EU", "CM"],
+    "rows": [
+      ["6", "5", "39", "24.5"],
+      ["7", "6", "40", "25.5"],
+      ["7.5", "6.5", "40.5", "25.75"],
+      ["8", "7", "41.5", "26"],
+      ["8.5", "7.5", "42", "26.5"],
+      ["9", "8", "42.5", "27"],
+      ["9.5", "8.5", "43.5", "27.5"],
+      ["10", "9", "44", "28"],
+      ["10.5", "9.5", "44.5", "28.25"],
+      ["11", "10", "45", "28.5"],
+      ["12", "11", "46.5", "29.5"],
+      ["13", "12", "48", "30.5"]
+    ],
+    "note": "ASICS regional sites write half sizes as 7H, 8H and so on. A few CM values differ slightly between regional ASICS charts, so check the chart on the site you order from.",
+    "source": {
+      "name": "ASICS New Zealand shoe size chart",
+      "url": "https://www.asics.com/nz/en-nz/size-guide"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Leave a thumb's width at the toe",
+      "body": "ASICS's US running fit guide says there should be between half and a full thumb's width of space between your toes and the end of the shoe. If you have less space than that, ASICS says to consider going up half a size, so your foot has room to move and expand when it hits the ground."
+    },
+    {
+      "heading": "Running shoes run about half a size above your everyday size",
+      "body": "ASICS's Australian fit guide says feet expand the further you run, and that your running shoe should be around a half size larger than the shoe size you usually get. It also links toe bruises to a shoe that is not big enough and toe blisters to a shoe that is too tight, and says a half size bigger can solve the problem."
+    },
+    {
+      "heading": "Width options",
+      "body": "ASICS's width guide lists four widths. For men and kids, narrow is B, standard is D, wide is 2E and extra wide is 4E. For women, narrow is 2A, standard is B, wide is D and extra wide is 2E. ASICS says the steps between widths are a couple of millimeters and proportional to the size of the shoe, and that men can try women's styles for a narrower fit and women can try men's styles for a wider one."
+    },
+    {
+      "heading": "Heel and try-on tips",
+      "body": "ASICS says the heel of a running shoe should fit more snugly than in everyday shoes so the foot does not slide side to side. It recommends trying shoes on in the late afternoon or evening, when feet are slightly larger, and wearing your usual running socks."
+    }
+  ],
+  "comparison": "On the two brands' own charts, a US men's 9 lines up with 27 cm on the ASICS chart and 27 cm on Nike's CM column. The difference comes from fit advice rather than the chart: ASICS's running guides suggest a running shoe about half a size above your everyday size.",
+  "faqs": [
+    {
+      "q": "Do ASICS fit true to size?",
+      "a": "ASICS's own running advice is to leave room. Its fit guides say a running shoe should be around half a size larger than your usual shoe size, with half to a full thumb's width of space at the toe."
+    },
+    {
+      "q": "Should I size up in ASICS running shoes?",
+      "a": "ASICS says to consider half a size up if you have less than half a thumb's width of space in front of your toes, because feet expand on longer runs."
+    },
+    {
+      "q": "What width is a standard ASICS shoe?",
+      "a": "ASICS lists D as standard for men and B as standard for women. Wide is 2E for men and D for women, and extra wide is 4E for men and 2E for women."
+    },
+    {
+      "q": "What does H mean on an ASICS size?",
+      "a": "On ASICS regional size charts, H marks a half size, so 9H sits between US 9 and US 10."
+    },
+    {
+      "q": "When should I measure my feet for ASICS?",
+      "a": "ASICS recommends trying shoes in the late afternoon or evening, when feet are slightly larger, and measuring while standing on paper in your usual running socks."
+    }
+  ],
+  "picks": [
+    {
+      "label": "ASICS running shoes in wide (2E) width",
+      "why": "ASICS makes many running models in 2E for men, a better fix for a broad forefoot than going longer.",
+      "query": "asics mens running shoes wide 2E"
+    },
+    {
+      "label": "ASICS running shoes in extra wide (4E)",
+      "why": "For feet that still feel pinched in 2E, ASICS lists 4E as its extra wide men's width.",
+      "query": "asics mens running shoes extra wide 4E"
+    },
+    {
+      "label": "Thin running socks",
+      "why": "ASICS says to try shoes on with your usual running socks, since sock thickness changes the fit.",
+      "query": "thin running socks"
+    }
+  ],
+  "sources": [
+    {
+      "name": "ASICS New Zealand shoe size chart",
+      "url": "https://www.asics.com/nz/en-nz/size-guide"
+    },
+    {
+      "name": "ASICS Singapore size and fit guide",
+      "url": "https://www.asics.com/sg/en-sg/customer-service/size-fit-guide/size-fit-guide.html"
+    },
+    {
+      "name": "ASICS shoe width guide",
+      "url": "https://www.asics.com/nz/en-nz/width-guide"
+    },
+    {
+      "name": "ASICS US: Ensuring your running shoes fit",
+      "url": "https://www.asics.com/us/en-us/blog/ensuring-your-running-shoes-fit/"
+    },
+    {
+      "name": "ASICS Australia: How should your running shoes fit?",
+      "url": "https://www.asics.com/au/en-au/blog/how-should-your-running-shoes-fit/"
+    }
+  ],
+  "checked": "2026-11-19"
+}

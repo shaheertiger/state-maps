@@ -1,0 +1,166 @@
+{
+  "slug": "dress-shoes",
+  "item": "dress shoes",
+  "h1": "How Should Dress Shoes Fit?",
+  "category": "footwear",
+  "shape": "shoe",
+  "keywords": [
+    "how should dress shoes fit",
+    "how should a dress shoe fit",
+    "how are dress shoes supposed to fit"
+  ],
+  "answer": "Dress shoes should fit snug but not tight: about ¼–½ in between your longest toe and the end, firm even pressure across the ball and instep when laced, the shoe creasing at your toe joints, and slight heel lift of up to ¼ in that fades as the stiff leather sole breaks in.",
+  "intro": "Leather dress shoes change more than any other shoe as you wear them. The upper relaxes, the cork filling under the insole molds to your foot, and the sole learns to flex. So a new pair should feel firm everywhere except the toes. Length never changes, so it has to be right on the first day.",
+  "checklist": [
+    {
+      "point": "Toe room",
+      "anchor": "toe",
+      "good": "About ¼–½ in, roughly the width of a finger, between your longest toe and the end. Sleek, elongated lasts often have extra empty space past the toes by design.",
+      "tooTight": "Too short: your toes touch the end or you feel them pressing when you walk downhill or down stairs.",
+      "tooLoose": "Too long: your foot slides forward, the toe creases far back, and your heel slips noticeably."
+    },
+    {
+      "point": "Ball of the foot",
+      "anchor": "ball",
+      "good": "Firm, even contact across the widest part of your foot that feels snug rather than painful. It will ease with wear.",
+      "tooTight": "Sharp pressure on the big-toe or little-toe joint, or leather bulging over the welt.",
+      "tooLoose": "Your foot moves side to side and the leather wrinkles across the forefoot."
+    },
+    {
+      "point": "Instep and lacing",
+      "anchor": "instep",
+      "good": "Laced, the facings on an oxford leave a small parallel gap of about ⅛–¼ in. On a derby the flaps sit evenly without touching.",
+      "tooTight": "The facings splay open in a wide V and the top of your foot feels squeezed.",
+      "tooLoose": "The facings close completely or overlap and the shoe still feels sloppy."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "Your heel sits deep in the counter with up to about ¼ in of lift while the sole is still stiff.",
+      "tooTight": "The counter presses into your heel bone or Achilles.",
+      "tooLoose": "Your heel slides well up the counter on every step, or more than a finger fits behind it."
+    },
+    {
+      "point": "Flex point",
+      "anchor": "length",
+      "good": "The shoe creases right across your toe joints, the widest part of your foot.",
+      "tooTight": "Too short: the crease forms forward of your toe joints, over your toes.",
+      "tooLoose": "Too long: the crease falls behind your toe joints and digs into the top of your foot."
+    }
+  ],
+  "variations": {
+    "heading": "Oxfords, derbies and other styles",
+    "intro": "The lacing system changes how much you can adjust the fit over the instep.",
+    "items": [
+      {
+        "name": "Oxfords (closed lacing)",
+        "text": "The facings are stitched under the vamp, so there's less room to adjust. Oxfords suit low to medium insteps. If the facings splay wide open, you have a high instep and a derby will fit better."
+      },
+      {
+        "name": "Derbies (open lacing)",
+        "text": "The flaps sit on top of the vamp and open wider, so derbies suit high insteps and wider feet, and are easier to tune with laces."
+      },
+      {
+        "name": "Monk straps",
+        "text": "Buckles adjust like laces but with fewer steps. The straps should close on a middle hole, leaving room to loosen or tighten."
+      },
+      {
+        "name": "Rubber-soled and cemented dress shoes",
+        "text": "These flex sooner and have little or no cork to mold, so they won't change much. Fit them closer to how you want them to feel long term."
+      },
+      {
+        "name": "Women's dress flats and oxfords",
+        "text": "The same checkpoints apply. Flats with low-cut toplines need a snug heel and sides that lie flat, since there's little else holding the foot."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to get your dress-shoe size",
+    "steps": [
+      "Measure your feet late in the day, standing, wearing thin dress socks.",
+      "Start from your measured size rather than your sneaker size. Many people wear a half size smaller in dress shoes than in athletic shoes, because sneakers are cut with more toe room.",
+      "Check whether the maker uses US or UK sizing. UK men's sizes are commonly a half to a full size smaller than US, depending on the maker, so read their conversion.",
+      "Note the width. US men's D is standard, E or 2E is wide, B is narrow.",
+      "Try on both shoes, lace them properly, and walk on a hard floor for several minutes."
+    ],
+    "tip": "Different lasts from the same maker fit differently. Once you find a last that suits you, note its name; it's a better guide than the size alone."
+  },
+  "problems": [
+    {
+      "problem": "Heel slips in new dress shoes",
+      "fix": "Up to about ¼ in is normal until the sole flexes. Lace firmly, especially the top two eyelets. If slip continues after a couple of weeks, add a heel grip or tongue pad."
+    },
+    {
+      "problem": "Pinching across the ball of the foot",
+      "fix": "If the length is right, a cobbler can stretch the leather slightly over the joint. If you're stretching more than a little, try a wider width."
+    },
+    {
+      "problem": "Facings won't close or splay wide open",
+      "fix": "Your instep is higher than the last. Try a derby or a different last. Loosening the laces won't solve it on an oxford."
+    },
+    {
+      "problem": "Shoes creak or crease badly",
+      "fix": "Deep, early creasing often means the shoe is too long or too wide. Use cedar shoe trees after every wear to hold the shape and smooth creases."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Breaking in leather dress shoes",
+      "body": "Wear new shoes for a few hours at a time over one to two weeks. The leather softens, the cork footbed molds to your foot, and the sole begins to flex, which reduces heel slip. Use shoe trees between wears to keep the shape and absorb moisture. A shoe that's actually too short or too narrow won't break in; it will just hurt less as your feet get used to it, then wear unevenly."
+    },
+    {
+      "heading": "What a cobbler can adjust",
+      "body": "A cobbler can stretch width slightly, ease a tight spot over a bunion or toe joint, add heel grips or tongue pads, and resole or reheel worn shoes. Length can't be added."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Dress shoes sold in multiple widths",
+      "why": "Getting the width right avoids sizing up in length to relieve pinching.",
+      "query": "mens dress shoes wide width"
+    },
+    {
+      "label": "Derby shoes for high insteps",
+      "why": "Open lacing opens wider over the instep than an oxford.",
+      "query": "mens leather derby shoes"
+    },
+    {
+      "label": "Cedar shoe trees",
+      "why": "Keep leather dress shoes in shape between wears and reduce deep creasing.",
+      "query": "cedar shoe trees"
+    },
+    {
+      "label": "Heel grips and tongue pads",
+      "why": "Fine-tune fit in shoes that are slightly roomy at the heel or instep.",
+      "query": "shoe heel grips tongue pads"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should dress shoes be tight or loose?",
+      "a": "Snug but not tight. New leather dress shoes should feel firm across the ball and instep with no painful pressure, and your toes should have about ¼–½ inch of room."
+    },
+    {
+      "q": "Is heel slip normal in dress shoes?",
+      "a": "A little, up to about ¼ inch, is normal in new shoes with stiff leather soles. It fades as the sole learns to flex. If your heel comes out of the shoe, they're too big."
+    },
+    {
+      "q": "Should dress shoes be a half size smaller than sneakers?",
+      "a": "Often, yes. Many people wear a half size smaller in dress shoes because sneakers are cut longer for toe room. Always confirm by measuring and trying them on."
+    },
+    {
+      "q": "Do dress shoes stretch?",
+      "a": "Leather dress shoes stretch slightly in width and over the instep, and the footbed molds to your foot. They don't get longer."
+    },
+    {
+      "q": "How much room should be at the toe of a dress shoe?",
+      "a": "About ¼–½ inch between your longest toe and the end of the inside of the shoe. Elongated styles may have more empty space beyond that."
+    },
+    {
+      "q": "How should women's dress shoes fit?",
+      "a": "The same checkpoints apply: correct length, snug across the ball, heel held without rubbing. In flats and pumps, check the sides lie flat and don't gape."
+    }
+  ],
+  "related": ["loafers", "shoes", "heels", "boots", "sneakers", "suit", "dress-pants", "suit-pants"],
+  "updated": "2026-11-19"
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "soccer-cleats",
+  "item": "soccer cleats",
+  "h1": "How Should Soccer Cleats Fit?",
+  "category": "running",
+  "shape": "shoe",
+  "keywords": [
+    "how should soccer cleats fit",
+    "how are soccer cleats supposed to fit"
+  ],
+  "answer": "Soccer cleats should fit closer than everyday sneakers: about ¼ in (a fingernail's width) between your longest toe and the end, a snug wrap across the forefoot so you feel the ball, a heel that doesn't lift when you sprint, and no pinching that lasts beyond the first few wears.",
+  "intro": "A tight, glove-like fit gives you better touch on the ball and keeps your foot from sliding over the studs when you cut. The trade-off is comfort, so the goal is snug without pain. Try cleats on with your soccer socks and shin guards, because the thick socks change the fit and the guard straps sit around the ankle.",
+  "checklist": [
+    {
+      "point": "Toe length",
+      "anchor": "length",
+      "good": "About ¼ in, roughly a fingernail's width, between your longest toe and the end of the cleat while standing.",
+      "tooTight": "Too short: toes are curled or press hard against the front, and they jam when you strike the ball or stop.",
+      "tooLoose": "Too long: more than about ½ in of space. The empty toe dulls your touch and the cleat can fold when you kick."
+    },
+    {
+      "point": "Forefoot width",
+      "anchor": "ball",
+      "good": "The upper wraps the ball of the foot closely with no gaps, and you can feel the ball through it.",
+      "tooTight": "The sides crush the little toe or bunion area, or your foot goes numb during play.",
+      "tooLoose": "The foot slides sideways over the soleplate when you plant and cut."
+    },
+    {
+      "point": "Toe box",
+      "anchor": "toe",
+      "good": "Toes lie flat with a little wiggle room and no empty pocket above them.",
+      "tooTight": "Toenails press against the top of the upper or toes overlap.",
+      "tooLoose": "The upper wrinkles over the toes and the material moves when you dribble."
+    },
+    {
+      "point": "Midfoot and laces",
+      "anchor": "instep",
+      "good": "Laced snugly, the instep is held evenly and the foot doesn't move forward on hard stops.",
+      "tooTight": "Pressure across the top of the foot where you strike the ball, or the laces dig in.",
+      "tooLoose": "You need to wrap the laces around the cleat to keep the foot from shifting."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "The heel sits locked in the cup with no noticeable lift during sprints.",
+      "tooTight": "The heel counter rubs the Achilles tendon or the back of the heel raw.",
+      "tooLoose": "The heel slips up as you run, causing blisters and a loss of power when you push off."
+    },
+    {
+      "point": "Collar or sock",
+      "anchor": "collar",
+      "good": "Low cuts sit below the ankle bones; knit sock collars hug the ankle without squeezing.",
+      "tooTight": "A sock collar is hard to pull on and presses into the ankle or the bottom of the shin guard.",
+      "tooLoose": "The collar gapes and lets in turf pellets or dirt."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by upper material and surface",
+    "items": [
+      {
+        "name": "Leather cleats (kangaroo, calf)",
+        "text": "Leather stretches and molds to your foot, often up to about half a size in width. Buy them snug, even a little tight, but not so short that your toes curl: leather stretches wider, not much longer."
+      },
+      {
+        "name": "Synthetic and knit cleats",
+        "text": "Synthetic uppers stretch very little. Buy them in the size that feels right on day one. Knit uppers soften slightly but keep their length."
+      },
+      {
+        "name": "Firm ground (FG) vs artificial grass (AG)",
+        "text": "Stud type doesn't change sizing, but AG cleats with many short studs often feel a touch more cushioned underfoot. Size the same and choose the stud pattern for the surface you play on most."
+      },
+      {
+        "name": "Indoor and turf shoes",
+        "text": "Flat or nubbed outsoles fit closer to a sneaker. A bit more toe room, around ⅜ in, is fine because you're on hard ground for long stretches."
+      },
+      {
+        "name": "Wide feet",
+        "text": "Many performance cleats run narrow. Look for models listed as wide, or leather cleats that will give, instead of going up a full size in length."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to size soccer cleats",
+    "intro": "Cleats are often labeled in US, UK and EU sizes. A foot length in centimeters makes it easy to read any brand's chart.",
+    "steps": [
+      "Put on your soccer socks, ideally in the afternoon when feet are slightly larger.",
+      "Stand with your heel against a wall on a sheet of paper and mark the tip of your longest toe on each foot.",
+      "Measure from the wall to the mark in centimeters.",
+      "Add about 0.5 cm (¼ in) and find that length on the brand's chart.",
+      "Try the cleats with your shin guards on, lace them fully, and jog, cut and kick on a carpet or turf sample."
+    ],
+    "tip": "If you're between sizes in a leather cleat, choose the smaller size; in a synthetic cleat, choose the larger."
+  },
+  "sizeTable": {
+    "caption": "Approximate soccer cleat size conversion by foot length",
+    "headers": ["US men's", "US women's", "UK", "EU", "Foot length (cm)"],
+    "rows": [
+      ["6", "7½", "5½", "39", "24"],
+      ["7", "8½", "6", "40", "25"],
+      ["8", "9½", "7", "41", "26"],
+      ["9", "10½", "8", "42½", "27"],
+      ["10", "11½", "9", "44", "28"],
+      ["11", "12½", "10", "45", "29"],
+      ["12", "13½", "11", "46", "30"]
+    ],
+    "note": "Many cleats are unisex and sized in men's US. Conversions vary by brand by up to half a size; check the brand's own chart."
+  },
+  "problems": [
+    {
+      "problem": "Blisters in the first few games",
+      "fix": "Break new cleats in over a few practices before a match. Wear thin socks under your soccer socks, or tape hot spots before play."
+    },
+    {
+      "problem": "Pain on the outside of the foot",
+      "fix": "The cleat is too narrow or the soleplate is stiffer than your foot. Try a wider model or a leather upper that will mold."
+    },
+    {
+      "problem": "Heel slipping",
+      "fix": "Lace through the top eyelets more tightly or use a heel-lock loop. Grip socks also cut slipping inside the cleat."
+    },
+    {
+      "problem": "Stud pressure under the foot",
+      "fix": "You may be using firm ground studs on hard ground. Switch to AG or turf shoes for artificial surfaces and hard pitches."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Breaking in new cleats",
+      "body": "Wear new cleats around the house, then for a few light training sessions before a full game. Leather softens fastest. Some players wet leather cleats and wear them until dry to speed molding, but check the maker's care advice first, and skip it with synthetic uppers."
+    },
+    {
+      "heading": "Sizing cleats for kids",
+      "body": "Leave about ½ in at the toe for growth, no more. Oversized cleats make kids trip and blister. Check the fit every few months; once toes reach the end, it's time for the next size."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Leather firm-ground soccer cleats",
+      "why": "Leather molds to the foot over time, good for players who want a custom-feeling fit or have slightly wide feet.",
+      "query": "leather firm ground soccer cleats"
+    },
+    {
+      "label": "Wide fit soccer cleats",
+      "why": "For feet that get pinched in standard cleats, a wide last avoids sizing up in length.",
+      "query": "wide soccer cleats"
+    },
+    {
+      "label": "Grip soccer socks",
+      "why": "Grip pads reduce sliding inside the cleat, which helps with heel slip and blisters.",
+      "query": "grip soccer socks"
+    },
+    {
+      "label": "Turf soccer shoes",
+      "why": "Better for artificial turf and hard surfaces, with a slightly roomier, more sneaker-like fit.",
+      "query": "turf soccer shoes"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should soccer cleats be tight?",
+      "a": "Snug, not painful. They should hug the forefoot and heel closely with about ¼ in of toe room. Pinching or numbness that lasts past a few wears means they're too small."
+    },
+    {
+      "q": "How much toe room should soccer cleats have?",
+      "a": "About ¼ in, a fingernail's width. That's less than running shoes, because extra space at the toe reduces ball feel."
+    },
+    {
+      "q": "Should soccer cleats be a size smaller?",
+      "a": "Some players go half a size down in leather cleats because leather stretches. With synthetic cleats, stick to your measured size."
+    },
+    {
+      "q": "Do soccer cleats stretch?",
+      "a": "Leather cleats stretch noticeably in width; synthetics barely stretch. Neither gains much length."
+    },
+    {
+      "q": "Should kids' soccer cleats be bigger?",
+      "a": "A little: about ½ in at the toe for growth. More than that causes tripping and blisters."
+    },
+    {
+      "q": "How do I know if my soccer cleats are too big?",
+      "a": "Your heel lifts when you run, your foot slides on cuts, or the toe folds when you kick. Try thicker socks or tighter lacing; if that doesn't fix it, go down half a size."
+    }
+  ],
+  "related": ["running-shoes", "basketball-shoes", "sneakers", "tennis-shoes", "trail-running-shoes", "shin-guards", "shoes", "compression-socks"],
+  "updated": "2026-11-19"
+}

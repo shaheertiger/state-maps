@@ -1,0 +1,185 @@
+{
+  "slug": "leather-jacket",
+  "item": "leather jacket",
+  "h1": "How Should a Leather Jacket Fit?",
+  "category": "tops-outerwear",
+  "shape": "jacket",
+  "keywords": [
+    "how should a leather jacket fit",
+    "how should leather jackets fit",
+    "how are leather jackets supposed to fit",
+    "how should a leather jacket fit a man",
+    "how should a leather jacket fit a woman",
+    "how is a leather jacket supposed to fit"
+  ],
+  "answer": "A leather jacket should fit snugly: shoulder seams at your shoulder bones, room for a T-shirt or thin sweater when zipped, sleeves that reach the wrist bone with arms bent, and a hem at your belt or upper hip. It should feel slightly close when new, since leather softens and molds to you.",
+  "intro": "A leather jacket is one of the few pieces you should buy a little snug. Leather relaxes and shapes itself to your body over the first few months of wear, but it can't be taken in or resized the way wool can. Try it on with the layer you'll wear most often, zip or button it fully, and move your arms as if you're driving or reaching for a shelf.",
+  "checklist": [
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder seam sits at the edge of your shoulder bone and the leather lies flat over the top of the shoulder.",
+      "tooTight": "The seam sits inside your shoulder and the leather pulls tight across your upper back when you reach forward.",
+      "tooLoose": "The seam hangs past your shoulder and the leather dimples or slopes down your arm."
+    },
+    {
+      "point": "Chest",
+      "anchor": "chest",
+      "good": "Zipped over a T-shirt or thin sweater, the jacket is close but you can still breathe deeply and fit a flat hand inside.",
+      "tooTight": "The zip strains, the leather creases horizontally across the chest, or you can't zip it over a T-shirt.",
+      "tooLoose": "There's room for a thick hoodie and the leather sags or folds at the front when zipped."
+    },
+    {
+      "point": "Armholes",
+      "anchor": "armhole",
+      "good": "You can cross your arms and reach forward without the whole jacket riding up your back.",
+      "tooTight": "The armholes cut into your armpits and restrict movement.",
+      "tooLoose": "Low armholes create bunching under the arm and lift the body of the jacket when you raise your arms."
+    },
+    {
+      "point": "Sleeve length",
+      "anchor": "cuff",
+      "good": "The sleeves end at the wrist bone with your arms relaxed and still cover your wrist when you reach forward.",
+      "tooTight": "Too short: the cuffs ride up your forearm when you bend your elbows or hold a steering wheel.",
+      "tooLoose": "Too long: the cuffs cover your hand or stack into heavy folds at the wrist. A little stacking is fine on a moto jacket."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The body follows your torso; side adjusters or a belt sit comfortably in the middle of their range.",
+      "tooTight": "The jacket pinches when you sit and the zip bows outward at the waist.",
+      "tooLoose": "The jacket balloons above the hem or the belt has to be cinched to its last hole."
+    },
+    {
+      "point": "Length",
+      "anchor": "hem",
+      "good": "Moto and biker styles end at your belt; bombers and racers at or just below it; field and car coats at the upper or mid hip.",
+      "tooTight": "Too short: a gap opens above your waistband when you lift your arms.",
+      "tooLoose": "Too long: a short style that reaches your seat loses its proportion and looks borrowed."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by jacket style",
+    "intro": "Leather jackets come in several classic shapes, and each is meant to fit a little differently.",
+    "items": [
+      {
+        "name": "Moto or biker jacket",
+        "text": "Asymmetric zip, short cut and a close fit through the body. It should end at your belt and feel snug over a T-shirt. Sleeves are often slightly long with zip cuffs so they cover your wrists when your arms are forward."
+      },
+      {
+        "name": "Café racer",
+        "text": "A clean, collarless or band-collar design with a center zip. Cut trim and short, it should sit close to the chest without wrinkling and end at the waist."
+      },
+      {
+        "name": "Bomber or flight jacket",
+        "text": "Fuller through the body with a ribbed waistband and cuffs. The roomier body is intentional, but the ribbed hem should sit at your waist and the shoulders should still fit."
+      },
+      {
+        "name": "Trucker, field or car coat",
+        "text": "Straighter and a little longer, often reaching the upper hip. Allows room for a sweater underneath; judge the shoulders and sleeves carefully since the body is more relaxed."
+      },
+      {
+        "name": "Women's leather jackets",
+        "text": "Often shaped at the waist and cropped. The jacket should close across the bust without the zip pulling and with no strain at the shoulder blades. Oversized women's styles have dropped shoulders and a longer hem by design."
+      },
+      {
+        "name": "Motorcycle riding jackets",
+        "text": "Protective riding jackets with armor are sized for the riding position: longer sleeves and back, and snug enough that the armor stays over your elbows and shoulders. Follow the maker's sizing and try it on seated on a bike if you can."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your leather jacket size",
+    "intro": "Leather jackets are sized by chest (38, 40, 42) or by letter. Because they can't easily be altered, compare your measurements with the specific jacket's chart.",
+    "steps": [
+      "Wear the thickest layer you'll realistically wear underneath, usually a T-shirt or thin knit.",
+      "Measure around the fullest part of your chest, under the arms, keeping the tape level.",
+      "Measure your natural waist or where you want the hem to sit.",
+      "Measure your sleeve from the center back of your neck, over the shoulder, to the wrist bone, with your arm slightly bent.",
+      "Compare these with the brand's chart, and check the garment measurements for chest width and back length if listed."
+    ],
+    "tip": "Between sizes? In leather, choose the smaller size if the shoulders and sleeves fit, because the leather will relax. If the shoulders feel tight, go up: the shoulders won't stretch much."
+  },
+  "problems": [
+    {
+      "problem": "The jacket feels stiff and tight when new",
+      "fix": "Normal, especially in cowhide or horsehide. Wear it around the house and while moving; the leather will soften over a few weeks to months. Lambskin and goatskin soften faster."
+    },
+    {
+      "problem": "Sleeves are too long",
+      "fix": "A leather specialist can sometimes shorten sleeves, especially on styles without zip cuffs. It's harder and costlier than with fabric jackets, so try other sizes first."
+    },
+    {
+      "problem": "Can't zip it over a sweater",
+      "fix": "Leather jackets aren't designed for thick layers. Wear a thinner knit or consider a roomier trucker or field style for winter."
+    },
+    {
+      "problem": "The back rides up when you reach",
+      "fix": "The armholes are too low or the back too short. This won't improve with wear; try a different cut or size."
+    },
+    {
+      "problem": "The leather wrinkles across the chest",
+      "fix": "Horizontal creases mean it's too tight; vertical folds mean it's too loose. A little natural creasing will develop over time."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "How much will it stretch?",
+      "body": "Leather softens and molds to your body rather than stretching outward a whole size. Expect it to feel more comfortable and less stiff at the elbows, shoulders and chest after regular wear. Thinner, softer skins such as lambskin give more quickly; thick cowhide and horsehide take longer but hold their shape well. Don't buy a jacket you can barely move in hoping it'll stretch, and don't buy one with room for a hoodie expecting it to look fitted."
+    },
+    {
+      "heading": "What can be altered",
+      "body": "Leather shows needle holes, so alterations are limited. Sleeves can sometimes be shortened from the cuff, and buttons or snaps moved. Taking in the body, changing the shoulders or lengthening anything is rarely possible. Get the shoulders, chest and length right when you buy."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Lambskin leather jacket",
+      "why": "Soft and lightweight from the start, so it needs less break-in and moves more easily.",
+      "query": "lambskin leather jacket"
+    },
+    {
+      "label": "Cowhide moto jacket",
+      "why": "Thick and durable, it starts stiff and molds to you over months of wear.",
+      "query": "cowhide motorcycle leather jacket"
+    },
+    {
+      "label": "Women's cropped leather jacket",
+      "why": "A shorter, waist-shaped cut that pairs with high-rise jeans and dresses.",
+      "query": "womens cropped leather jacket"
+    },
+    {
+      "label": "Leather conditioner",
+      "why": "Keeps the leather supple so it softens evenly and resists cracking.",
+      "query": "leather jacket conditioner"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a leather jacket be tight or loose?",
+      "a": "Snug, not tight. It should close over a T-shirt or thin sweater with room to move your arms. Leather loosens a little with wear, so a new jacket can feel slightly close."
+    },
+    {
+      "q": "How should a leather jacket fit a woman?",
+      "a": "The shoulders should fit exactly, the zip should close across the bust without pulling, and the hem usually ends at the waist or high hip. Sleeves should reach the wrist bone."
+    },
+    {
+      "q": "How should a leather jacket fit a man?",
+      "a": "Shoulder seams at the shoulder bones, a close chest over a T-shirt, sleeves at the wrist bone and a hem at the belt for moto styles or slightly lower for truckers and field jackets."
+    },
+    {
+      "q": "How long should leather jacket sleeves be?",
+      "a": "To the wrist bone with your arms relaxed. They should still cover your wrist when you reach forward. Moto jackets are often cut a little longer for this reason."
+    },
+    {
+      "q": "Do leather jackets stretch?",
+      "a": "They soften and mold to your shape with wear, but don't expect a full size of stretch. Shoulders and length don't change."
+    },
+    {
+      "q": "Should I size up in a leather jacket?",
+      "a": "Only if the shoulders feel tight. If the shoulders fit and the body is just snug, keep your size: the leather will relax."
+    }
+  ],
+  "related": ["denim-jacket", "shirt", "t-shirt", "scrubs", "blazer", "jeans", "boots", "moto-gloves", "motorcycle-helmet"],
+  "updated": "2026-11-19"
+}

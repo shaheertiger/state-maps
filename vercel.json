@@ -1,0 +1,43 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "trailingSlash": true,
+  "cleanUrls": false,
+  "git": { "deploymentEnabled": { "main": true } },
+  "redirects": [
+    { "source": "/fit/eyeglasses/", "destination": "/fit/glasses/", "permanent": true },
+    { "source": "/fit/spectacles/", "destination": "/fit/glasses/", "permanent": true },
+    { "source": "/fit/suit-coat/", "destination": "/fit/suit-jacket/", "permanent": true },
+    { "source": "/fit/wedding-ring/", "destination": "/fit/wedding-band/", "permanent": true },
+    { "source": "/fit/high-heels/", "destination": "/fit/heels/", "permanent": true },
+    { "source": "/fit/bicycle-helmet/", "destination": "/fit/bike-helmet/", "permanent": true },
+    { "source": "/fit/cowgirl-boots/", "destination": "/fit/cowboy-boots/", "permanent": true },
+    { "source": "/fit/western-boots/", "destination": "/fit/cowboy-boots/", "permanent": true },
+    { "source": "/fit/soccer-shin-guards/", "destination": "/fit/shin-guards/", "permanent": true },
+    { "source": "/fit/cap-and-gown/", "destination": "/fit/graduation-gown/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/_next/static/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/(og|pagefind)/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "(?<host>.*)\\.vercel\\.app" }],
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ]
+}

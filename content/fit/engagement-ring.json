@@ -1,0 +1,184 @@
+{
+  "slug": "engagement-ring",
+  "item": "engagement ring",
+  "h1": "How Should an Engagement Ring Fit?",
+  "category": "jewelry-watches",
+  "shape": "ring",
+  "keywords": [
+    "how should an engagement ring fit",
+    "how should your engagement ring fit",
+    "how should my engagement ring fit",
+    "how is an engagement ring supposed to fit",
+    "how should engagement ring fit"
+  ],
+  "answer": "An engagement ring fits when it slides over your knuckle with slight resistance, sits at the base of your finger with the stone staying on top, turns only with a little effort, and leaves no deep dent. If the center stone tips to the side when you hold your hand down, it's too loose.",
+  "intro": "An engagement ring is usually top-heavy, so it needs a slightly more secure fit than a plain band. It also has to sit comfortably next to a wedding band later. Most proposals involve a guessed size, so it's normal to have the ring resized once you know the real number.",
+  "checklist": [
+    {
+      "point": "Over the knuckle",
+      "anchor": "knuckle",
+      "good": "A gentle push and twist gets it over the knuckle, and it takes the same effort to remove.",
+      "tooTight": "You need soap or lotion to get it on or off, or it stops at the knuckle.",
+      "tooLoose": "It slips over the knuckle with no resistance and could come off when you pull off a glove."
+    },
+    {
+      "point": "Stone position",
+      "anchor": "band",
+      "good": "The center stone stays on top of the finger whether your hand is raised, lowered or moving.",
+      "tooTight": "The setting presses into the neighboring fingers because the skin bulges around the band.",
+      "tooLoose": "The stone rolls toward your palm or to the side every time you lower your hand."
+    },
+    {
+      "point": "At the base of the finger",
+      "anchor": "finger",
+      "good": "It sits below the knuckle and can rotate with light effort, but stays roughly in place.",
+      "tooTight": "It won't rotate at all and leaves a red, indented ring after a short time.",
+      "tooLoose": "It travels up and down between the knuckle and the base of the finger."
+    },
+    {
+      "point": "Gap under the band",
+      "anchor": "gap",
+      "good": "No visible space under the band on the palm side of the finger.",
+      "tooTight": "The skin is pinched against the band with no room to slide a fingernail edge under it.",
+      "tooLoose": "You can see daylight under the band or the shank catches on fabric and hair."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by setting and band style",
+    "items": [
+      {
+        "name": "Solitaire with a high setting",
+        "text": "A tall prong setting puts the weight high above the finger. Size it snug so the stone doesn't tip, and consider a slightly wider or squared-off shank, which resists rolling better than a thin round one."
+      },
+      {
+        "name": "Low-profile and bezel settings",
+        "text": "The weight sits closer to the finger, so these rings stay upright more easily and can be worn true to your measured size."
+      },
+      {
+        "name": "Thin pavé or micro-pavé bands",
+        "text": "Delicate bands under about 2 mm feel looser and can bend if forced over a knuckle repeatedly. Get the size right first, because resizing can loosen small stones set along the band."
+      },
+      {
+        "name": "Eternity bands",
+        "text": "Stones set all the way around mean the ring usually can't be resized. Measure carefully with a metal sizer of similar width before ordering."
+      },
+      {
+        "name": "Wearing with a wedding band",
+        "text": "Two rings on one finger feel tighter than one. If you plan to stack, check the fit of both together; some people go up a quarter size on one or both rings."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find an engagement ring size",
+    "intro": "A jeweler's metal sizer is the most reliable, and many jewelers will size you for free. If you're shopping as a surprise, borrow a ring she already wears on the same finger.",
+    "steps": [
+      "Measure the left ring finger (or whichever finger the ring will go on). Fingers differ between hands.",
+      "Measure late in the day at a comfortable room temperature, not after exercise or in the cold.",
+      "If using an existing ring, measure its inside diameter across the middle in millimeters and match it to the table below.",
+      "If measuring the finger, use a plastic adjustable sizer or a thin strip of paper around the base, then check it also passes over the knuckle.",
+      "If the result falls between sizes, choose the larger size, especially for a band wider than 3 mm.",
+      "Confirm the size with a jeweler before buying an eternity band or any ring that can't be resized."
+    ],
+    "tip": "For a surprise proposal with no size to go on, many people order a common size, often around 6 to 7, from a jeweler that offers a free resize after the proposal. Ask about the policy first."
+  },
+  "sizeTable": {
+    "caption": "Common US ring sizes by inside diameter and circumference",
+    "headers": ["US size", "Inside diameter (mm)", "Inside circumference (mm)"],
+    "rows": [
+      ["4", "14.9", "46.8"],
+      ["4½", "15.3", "48.0"],
+      ["5", "15.7", "49.3"],
+      ["5½", "16.1", "50.6"],
+      ["6", "16.5", "51.9"],
+      ["6½", "16.9", "53.1"],
+      ["7", "17.3", "54.4"],
+      ["7½", "17.7", "55.7"],
+      ["8", "18.1", "57.0"],
+      ["8½", "18.5", "58.3"],
+      ["9", "18.9", "59.5"]
+    ],
+    "note": "Each half size adds about 0.4 mm to the inside diameter. Values are rounded; see the full ring size chart on the ring fit guide for sizes outside this range."
+  },
+  "problems": [
+    {
+      "problem": "The stone keeps rolling to the side",
+      "fix": "The ring is slightly loose or top-heavy. A jeweler can add sizing beads inside the band, fit a ring guard, or size it down a quarter or half size. A squared shank also resists turning."
+    },
+    {
+      "problem": "The proposal ring is the wrong size",
+      "fix": "Very common. Most plain-shank engagement rings can be sized up or down about one to two sizes by a jeweler. Check whether the seller includes a free resize, and don't wear a loose ring in the meantime."
+    },
+    {
+      "problem": "The ring fits at the base but won't pass the knuckle",
+      "fix": "Size for the knuckle and add sizing beads or a spring insert so it doesn't spin at the base."
+    },
+    {
+      "problem": "Prongs snag on clothes and hair",
+      "fix": "That's a setting issue rather than size, but a loose ring that rotates makes it worse. Have a jeweler check the prongs, and consider a lower setting if snagging is constant."
+    },
+    {
+      "problem": "It feels tight once the wedding band is added",
+      "fix": "Stacking two rings takes up more space. Size up the wedding band a quarter size, or have the engagement ring stretched slightly if it's a plain metal shank."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Resizing an engagement ring",
+      "body": "Plain gold and platinum shanks are usually the simplest to resize. Rings with stones set down the sides, channel-set bands, tension settings and eternity bands are harder or impossible to resize without resetting stones. Each resize slightly thins the metal at the join, so try to get it right in one go. Resizing can also affect the warranty with some jewelers, so ask before using a different shop."
+    },
+    {
+      "heading": "Keeping it secure day to day",
+      "body": "Take the ring off for heavy lifting, gym work, gardening and swimming in cold water, when fingers shrink and rings slip off. Have the prongs checked once or twice a year. If your fingers change size during pregnancy or with weight change, a temporary ring adjuster is better than resizing back and forth."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Plastic ring sizer for a discreet measurement",
+      "why": "Adjustable sizers are cheap and quick, handy for confirming a size after a guessed proposal.",
+      "query": "adjustable ring sizer"
+    },
+    {
+      "label": "Engagement rings with a free resize",
+      "why": "If you're buying as a surprise, a retailer that resizes for free after purchase removes most of the risk.",
+      "query": "engagement ring free resizing"
+    },
+    {
+      "label": "Low-profile or bezel-set engagement rings",
+      "why": "The stone sits closer to the finger, so the ring is less likely to tip or snag.",
+      "query": "low profile bezel engagement ring"
+    },
+    {
+      "label": "Ring guards and size adjusters",
+      "why": "A removable way to stop a slightly loose ring from turning until it can be resized.",
+      "query": "ring guard size adjuster"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should an engagement ring be tight or loose?",
+      "a": "Snug rather than loose. It should need a gentle twist over the knuckle and keep the stone on top of the finger. Engagement rings are top-heavy, so a fit that's a touch secure is better than one that rolls."
+    },
+    {
+      "q": "How do I know if my engagement ring is too big?",
+      "a": "It spins easily, the stone ends up on the palm side, it slides over your knuckle without resistance, or it nearly falls off when your hands are cold."
+    },
+    {
+      "q": "How do I know if my engagement ring is too small?",
+      "a": "It's hard to get over your knuckle, leaves a deep indent or redness, makes the skin bulge around the band, or your finger feels throbbing or tingly."
+    },
+    {
+      "q": "Can an engagement ring be resized?",
+      "a": "Most can, by about one to two sizes, if the shank is plain metal. Eternity bands, tension settings and rings made of tungsten or titanium usually can't be resized."
+    },
+    {
+      "q": "Should an engagement ring be the same size as the wedding band?",
+      "a": "Usually yes, since they're worn on the same finger. If the bands are very different widths, or if the stack feels tight, one of them may need to be a quarter size larger."
+    },
+    {
+      "q": "What is the most common engagement ring size?",
+      "a": "Sizes around 6 to 7 are commonly cited as average for women in the US, but fingers vary widely. Use a real measurement whenever possible."
+    }
+  ],
+  "related": ["ring", "wedding-band", "tennis-bracelet", "bracelet", "watch", "gloves", "sunglasses"],
+  "updated": "2026-11-19"
+}

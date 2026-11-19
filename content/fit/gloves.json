@@ -1,0 +1,242 @@
+{
+  "slug": "gloves",
+  "item": "gloves",
+  "h1": "How Should Gloves Fit?",
+  "category": "sports-gear",
+  "shape": "glove",
+  "keywords": [
+    "how should gloves fit",
+    "should gloves fit tight",
+    "should leather gloves fit tight",
+    "how should leather gloves fit",
+    "how should a glove fit"
+  ],
+  "answer": "Gloves fit when your fingertips reach the ends of the fingers with little or no spare material, the palm lies smooth without wrinkles or strain, you can make a full fist without the seams pulling across your knuckles, and the cuff covers your wrist bone. Leather gloves should start snug, because they stretch.",
+  "intro": "These checks work for dress, leather and everyday winter gloves. How snug you want them depends on the material: unlined leather fits closest, lined and insulated gloves need a little more room. Always try gloves on your dominant hand, which is usually slightly larger.",
+  "checklist": [
+    {
+      "point": "Fingertips",
+      "anchor": "fingertips",
+      "good": "Your fingertips touch or nearly touch the ends of the glove fingers. For insulated winter gloves, about ¼ in of space is fine.",
+      "tooTight": "Too short: the fingertips are stretched taut and your fingers can't straighten fully inside the glove.",
+      "tooLoose": "Too long: more than about ¼ in of empty material at the tips, which makes picking things up clumsy."
+    },
+    {
+      "point": "Finger length and webbing",
+      "anchor": "fingers",
+      "good": "The seams between the fingers sit down in the webbing of your hand.",
+      "tooTight": "The glove's crotch seams sit partway up your fingers and pull when you spread your hand.",
+      "tooLoose": "The fingers are baggy and twist or wrinkle along their length."
+    },
+    {
+      "point": "Palm width",
+      "anchor": "palm",
+      "good": "The palm lies smooth against your hand with no loose folds and no strain on the side seams.",
+      "tooTight": "The leather is stretched so thin across the palm that seams show strain or the glove is hard to pull on.",
+      "tooLoose": "Loose folds of material bunch in the palm when you grip something."
+    },
+    {
+      "point": "Knuckles and fist",
+      "anchor": "knuckles",
+      "good": "You can make a full fist with only mild tension across the knuckles.",
+      "tooTight": "Making a fist is difficult, the leather pulls hard over the knuckles, or seams creak.",
+      "tooLoose": "Material balloons over the back of the hand even when your fist is closed."
+    },
+    {
+      "point": "Thumb",
+      "anchor": "thumb",
+      "good": "The thumb reaches the tip of the glove thumb and moves freely.",
+      "tooTight": "Your thumb is pulled toward your palm or the thumb seam digs into the base.",
+      "tooLoose": "The thumb tip is empty and floppy."
+    },
+    {
+      "point": "Cuff",
+      "anchor": "wrist",
+      "good": "The cuff covers your wrist bone and tucks under or over your coat sleeve without a gap.",
+      "tooTight": "Too short: the cuff stops short of the wrist bone and leaves skin exposed when you reach.",
+      "tooLoose": "The cuff is so loose that cold air and snow get in; look for a snap, strap or knit cuff."
+    }
+  ],
+  "variations": {
+    "heading": "Leather, lined, winter and work gloves",
+    "intro": "The basic checkpoints stay the same. What changes is how much stretch and room to allow.",
+    "items": [
+      {
+        "name": "Unlined leather (dress) gloves",
+        "text": "Should feel snug, like a second skin, because leather stretches with wear. If they're comfortable and roomy on the first try, they'll likely feel loose after a few weeks."
+      },
+      {
+        "name": "Lined leather gloves",
+        "text": "A silk, cashmere or wool lining takes up space. Fit should still be close, but you may need half a size up from unlined leather of the same brand."
+      },
+      {
+        "name": "Insulated winter and ski gloves",
+        "text": "Need about ¼ in of space at the fingertips because trapped air keeps your hands warm. Too tight cuts circulation and makes fingers colder."
+      },
+      {
+        "name": "Knit and touchscreen gloves",
+        "text": "Stretch a lot, so sizes are broad. Check that the conductive fingertip pads actually line up with your fingertips."
+      },
+      {
+        "name": "Work gloves",
+        "text": "Should be snug enough for dexterity but allow a full grip. Loose work gloves can catch on tools and machinery."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your glove size",
+    "intro": "Glove sizes are usually based on hand circumference, and in classic glove sizing the size number equals that measurement in inches.",
+    "steps": [
+      "Use a soft tape measure on your dominant hand.",
+      "Wrap the tape around your palm at its widest point, just below the knuckles, leaving out the thumb.",
+      "Keep your hand flat and fingers together, and pull the tape snug but not tight.",
+      "Read the measurement in inches. That number is your glove size, rounded up to the nearest half (for example 8¼ in becomes 8½).",
+      "Some brands also list hand length, from the tip of your middle finger to the base of your palm. If yours is long for your width, size up."
+    ],
+    "tip": "Between sizes? Choose the smaller size in unlined leather and the larger in lined or insulated gloves."
+  },
+  "sizeTable": {
+    "caption": "Numbered glove sizes by hand circumference",
+    "headers": [
+      "Glove size",
+      "Hand (in)",
+      "Hand (cm)"
+    ],
+    "rows": [
+      [
+        "6",
+        "6",
+        "15.2"
+      ],
+      [
+        "6½",
+        "6½",
+        "16.5"
+      ],
+      [
+        "7",
+        "7",
+        "17.8"
+      ],
+      [
+        "7½",
+        "7½",
+        "19.1"
+      ],
+      [
+        "8",
+        "8",
+        "20.3"
+      ],
+      [
+        "8½",
+        "8½",
+        "21.6"
+      ],
+      [
+        "9",
+        "9",
+        "22.9"
+      ],
+      [
+        "9½",
+        "9½",
+        "24.1"
+      ],
+      [
+        "10",
+        "10",
+        "25.4"
+      ],
+      [
+        "11",
+        "11",
+        "27.9"
+      ]
+    ],
+    "note": "Hand circumference is measured around the palm below the knuckles, excluding the thumb. Letter sizes (S, M, L) vary by brand and between men's and women's lines, so check the brand's chart."
+  },
+  "problems": [
+    {
+      "problem": "New leather gloves feel too tight",
+      "fix": "If you can make a fist and your fingertips aren't squashed, wear them; leather usually eases over the first few wears. If you can't make a fist, they're a size too small."
+    },
+    {
+      "problem": "Fingers are too long",
+      "fix": "Look for brands that list a short-finger or petite cut, or try a half size down. Excess length can't easily be altered."
+    },
+    {
+      "problem": "Cold hands in winter gloves",
+      "fix": "They may be too tight. Insulation works only when it isn't compressed; try a size up or a mitten."
+    },
+    {
+      "problem": "Gloves are hard to pull on and off",
+      "fix": "Pull them on by the cuff and work each finger down rather than tugging at the tips. A slightly larger size or a glove with a vent at the wrist helps."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Leather glove care",
+      "body": "Smooth gloves on finger by finger and pull them off by the cuff, not the fingertips. If they get wet, let them dry at room temperature away from heaters, and condition the leather occasionally. Store them flat."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Unlined leather dress gloves",
+      "why": "Close-fitting with good dexterity, ideal for mild weather and driving.",
+      "query": "unlined leather dress gloves"
+    },
+    {
+      "label": "Cashmere-lined leather gloves",
+      "why": "A warmer leather glove; check fit with the lining included.",
+      "query": "cashmere lined leather gloves"
+    },
+    {
+      "label": "Insulated touchscreen winter gloves",
+      "why": "Warm with conductive fingertips for phone use.",
+      "query": "insulated touchscreen winter gloves"
+    },
+    {
+      "label": "Soft tape measure",
+      "why": "Measure your palm circumference to find your numbered glove size.",
+      "query": "soft tape measure"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should gloves fit tight?",
+      "a": "Snug, not tight. Your fingertips should reach the ends, the palm should be smooth, and you should be able to make a full fist without strain."
+    },
+    {
+      "q": "Should leather gloves fit tight?",
+      "a": "Yes, unlined leather gloves should fit snugly at first because they stretch slightly with wear. They shouldn't stop you from making a fist."
+    },
+    {
+      "q": "How much room should be at the end of gloves?",
+      "a": "Little or none in leather gloves. About ¼ in is fine in insulated winter gloves, where some trapped air keeps fingers warm."
+    },
+    {
+      "q": "Do leather gloves stretch?",
+      "a": "Yes, a little, mostly across the palm and knuckles. Lined gloves stretch less because the lining limits it."
+    },
+    {
+      "q": "How do I know my glove size?",
+      "a": "Measure around your palm below the knuckles, excluding the thumb, in inches. In numbered sizing, that number is your size."
+    },
+    {
+      "q": "Are men's and women's glove sizes the same?",
+      "a": "Numbered sizes use the same measurement, but letter sizes differ between men's and women's lines. Use the measurement and the brand's chart."
+    }
+  ],
+  "related": [
+    "moto-gloves",
+    "golf-glove",
+    "baseball-glove",
+    "shin-guards",
+    "dog-harness",
+    "leather-jacket",
+    "ski-helmet",
+    "watch"
+  ],
+  "updated": "2026-11-19"
+}

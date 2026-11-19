@@ -1,0 +1,145 @@
+{
+  "slug": "timberland",
+  "brand": "Timberland",
+  "h1": "How Do Timberland Boots Fit?",
+  "category": "boots",
+  "keywords": [
+    "how do timberland boots fit",
+    "how do timberland shoes fit",
+    "how do timberlands fit",
+    "do timberlands fit true to size",
+    "do timberland boots fit true to size",
+    "does timberland fit true to size",
+    "are timberlands supposed to fit big",
+    "how do timberland field boots fit"
+  ],
+  "verdict": "varies by model",
+  "answer": "It depends on the style. Timberland marks its 6-inch boots and Heritage shoe as running large: for a fit like your everyday shoe, size down a half size, or a full size if you wear 12 or larger. Its Chelsea boot guidance uses standard sizing, so check the fit note on each product page.",
+  "sizeChart": {
+    "caption": "Timberland men's footwear size chart",
+    "headers": ["US men", "UK", "EU", "Foot length (cm)"],
+    "rows": [
+      ["7", "6.5", "40", "25"],
+      ["7.5", "7", "41", "25.5"],
+      ["8", "7.5", "41.5", "26"],
+      ["8.5", "8", "42", "26.5"],
+      ["9", "8.5", "43", "27"],
+      ["9.5", "9", "43.5", "27.5"],
+      ["10", "9.5", "44", "28"],
+      ["10.5", "10", "45", "28.5"],
+      ["11", "10.5", "45.5", "29.5"],
+      ["11.5", "11", "46", "30"],
+      ["12", "11.5", "47.5", "31"],
+      ["13", "12.5", "49", "32"]
+    ],
+    "note": "Conversions as listed on Timberland's South Africa site, which uses the same US 9 = UK 8.5 = EU 43 mapping as timberland.com. The chart starts at US men's 6.5. Timberland PRO work boots use a separate chart.",
+    "source": {
+      "name": "Timberland men's footwear size chart",
+      "url": "https://timberland.co.za/pages/mens-footwear-size-chart"
+    }
+  },
+  "sections": [
+    {
+      "heading": "The 6-inch boot runs large",
+      "body": "Timberland's product pages for its Premium 6-Inch and Classic 6-Inch waterproof boots carry the same fit note: runs large. For a fit like your everyday shoe, size down a half size, or a full size if you wear 12 or larger. Timberland's own example is that a size 11 should order a 10.5. The same note appears on the Heritage lace-up shoe."
+    },
+    {
+      "heading": "Other styles: read the fit note",
+      "body": "That size-down advice is not universal. Timberland's Chelsea boot guide describes standard sizing, so you can usually pick your normal size there, leaving room for socks. Because the advice changes by style, the most reliable step is the fit note on the product page of the exact boot or shoe you're buying."
+    },
+    {
+      "heading": "How a Timberland boot should feel",
+      "body": "Timberland's boot fit guide says a boot should be snug, but not tight, around your whole foot, with enough room to move your toes and some heel slippage. It also warns that the size you wear in sneakers may not be the right size for boots, which is one more reason to measure."
+    },
+    {
+      "heading": "Measuring at home",
+      "body": "Timberland's measuring steps: stand in your socks on a sheet of paper, trace the outline of your foot, then measure from the point of your big toe to the center back of your heel. It also suggests measuring around the ball of your foot for width. Match the length to the chart, then apply the fit note for the style."
+    },
+    {
+      "heading": "US sizing as the baseline",
+      "body": "Timberland says its footwear is engineered to American size standards, so the US size is the reference when you convert to UK or EU. On its women's chart, a US 7 is a UK 5, an EU 38 and a 24 cm foot. Timberland PRO work boots have their own chart."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Timberlands fit true to size?",
+      "a": "Not the 6-inch boots. Timberland labels them as running large and says to size down a half size, or a full size if you wear 12 or larger. Its Chelsea boot guidance uses standard sizing, so it varies by style."
+    },
+    {
+      "q": "Are Timberlands supposed to fit big?",
+      "a": "The classic 6-inch boot is cut large on purpose. Timberland's fit note says that for a fit like your everyday shoe you should size down a half size, or a full size at 12 and up."
+    },
+    {
+      "q": "How do Timberland shoes fit?",
+      "a": "It depends on the style. Timberland's Heritage lace-up shoe carries the same runs-large note as the 6-inch boot (size down a half size, or a full size at 12 and up). For other shoes, check the fit note on the product page."
+    },
+    {
+      "q": "What size Timberland boots should I get if I wear a 12?",
+      "a": "For the 6-inch boot, Timberland's note says to size down a full size if you wear 12 or larger, so a 12 would order an 11."
+    },
+    {
+      "q": "How should Timberland boots fit?",
+      "a": "Snug but not tight around your whole foot, with room to move your toes and some heel slippage, according to Timberland's boot fit guide."
+    },
+    {
+      "q": "How do Timberland field boots fit?",
+      "a": "Check the fit note on that boot's product page, since Timberland's advice varies by style, and measure your foot against its chart. The size-down advice is published for the 6-inch boot and Heritage shoe."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Timberland Premium 6-Inch waterproof boots",
+      "why": "The classic yellow boot; Timberland says to size down a half size.",
+      "query": "timberland premium 6 inch waterproof boot"
+    },
+    {
+      "label": "Timberland Chelsea boots",
+      "why": "Timberland's Chelsea guidance uses standard sizing.",
+      "query": "timberland chelsea boot"
+    },
+    {
+      "label": "Thick boot socks",
+      "why": "Timberland's Chelsea guide says to leave room for socks.",
+      "query": "boot socks wool"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Timberland men's footwear size chart (South Africa)",
+      "url": "https://timberland.co.za/pages/mens-footwear-size-chart"
+    },
+    {
+      "name": "Timberland women's footwear size chart (South Africa)",
+      "url": "https://timberland.co.za/pages/womens-footwear-size-chart"
+    },
+    {
+      "name": "Timberland Men's Premium 6-Inch Waterproof Boot",
+      "url": "https://www.timberland.com/en-us/p/men/footwear-10039/mens-timberland-premium-6-inch-waterproof-boot-TB110073001"
+    },
+    {
+      "name": "Timberland Men's Classic 6-Inch Waterproof Boot",
+      "url": "https://www.timberland.com/en-us/p/footwear-0100/mens-timberland-classic-6-inch-waterproof-boot-TB118094231"
+    },
+    {
+      "name": "Timberland Men's Heritage Shoe",
+      "url": "https://www.timberland.com/en-us/p/men/footwear-10039/mens-timberland-heritage-shoe-TB0A5S9W754"
+    },
+    {
+      "name": "Timberland: What is a Chelsea boot?",
+      "url": "https://www.timberland.com/en-us/customer-care/product-faqs/what-is-a-chelsea-boot"
+    },
+    {
+      "name": "Timberland: How should boots fit?",
+      "url": "https://www.timberland.com/en-us/customer-care/product-faqs/how-should-boots-fit"
+    },
+    {
+      "name": "Timberland: How to measure boots for the best fit",
+      "url": "https://www.timberland.com/en-us/customer-care/product-faqs/how-to-measure-boots"
+    },
+    {
+      "name": "Timberland adult footwear size chart (help center)",
+      "url": "https://help.timberland.com/hc/en-us/articles/115001361933-Adult-Footwear-Size-Chart"
+    }
+  ],
+  "checked": "2026-11-19"
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "jeans",
+  "item": "jeans",
+  "h1": "How Should Jeans Fit?",
+  "category": "jeans-pants",
+  "shape": "pants",
+  "keywords": [
+    "how should jeans fit",
+    "how should jeans fit men",
+    "how should jeans fit women",
+    "how are jeans supposed to fit",
+    "how should jeans fit at the waist",
+    "how to tell if jeans fit without trying them on",
+    "how should jeans fit with cowboy boots",
+    "how should jeans fit over boots"
+  ],
+  "answer": "Jeans fit when the waistband stays up without a belt and you can slide two fingers inside it, the seat follows your shape without sagging or pulling, you can pinch about ½–1 in of fabric at the thigh, the knees let you squat comfortably, and the hem just touches the top of your shoes.",
+  "intro": "Denim stretches as you wear it, and how much depends on the fabric. Jeans with 1–2% elastane can loosen by close to a size at the waist over a day, while 100% cotton rigid denim gives a little and then holds. So buy stretch jeans snug, and judge rigid denim by whether it's comfortable when you sit. Try both sizes if you're unsure, and always sit down and squat in the fitting room.",
+  "checklist": [
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "Sits where the style is meant to sit and stays put without a belt. Two fingers slide into the waistband at the back, but not your whole hand.",
+      "tooTight": "The waistband digs in, leaves red marks, or creates a roll above it. Buttoning takes effort or the button pulls the fabric sideways.",
+      "tooLoose": "A gap opens at the back of the waistband when you sit, or the jeans slide down without a belt."
+    },
+    {
+      "point": "Rise",
+      "anchor": "rise",
+      "good": "The crotch sits close to your body without pressing, and the front lies flat. You can sit and squat without the waistband dropping at the back.",
+      "tooTight": "The seam presses into your crotch, or the back waistband drops low when you sit because the rise is too short for you.",
+      "tooLoose": "The crotch hangs low and you see fabric folding below the zip."
+    },
+    {
+      "point": "Seat",
+      "anchor": "seat",
+      "good": "The fabric follows the curve of your seat with no sagging, and the back pockets sit centered on each cheek.",
+      "tooTight": "Horizontal pull lines spread across the seat and the back pockets stretch sideways.",
+      "tooLoose": "Fabric sags or folds under the seat and the pockets droop toward your thighs."
+    },
+    {
+      "point": "Thigh",
+      "anchor": "thigh",
+      "good": "You can pinch about ½–1 in of fabric at the front of the thigh in slim and straight fits, more in relaxed fits.",
+      "tooTight": "You can't pinch any fabric, the pockets flare open, and you see horizontal whiskering lines across the front of the thigh.",
+      "tooLoose": "The fabric billows away from your leg or folds vertically down the thigh."
+    },
+    {
+      "point": "Knee and leg",
+      "anchor": "knee",
+      "good": "You can bend into a deep squat without the knees straining, and the leg falls cleanly from knee to ankle in the shape of the cut.",
+      "tooTight": "The knee pulls hard when you squat or the fabric clings so tightly it bunches at the back of the knee.",
+      "tooLoose": "Wide folds of fabric twist around the lower leg."
+    },
+    {
+      "point": "Length and hem",
+      "anchor": "hem",
+      "good": "The hem rests on the top of your shoe with a slight break or none at all, depending on the style. Cropped styles end at or just above the ankle bone.",
+      "tooTight": "Too short: the hem shows sock when you stand, unless the style is meant to be cropped.",
+      "tooLoose": "Too long: fabric bunches in several folds on your shoes or the back of the hem drags on the ground."
+    }
+  ],
+  "variations": {
+    "heading": "How jeans should fit by cut",
+    "intro": "The waist, rise and seat rules apply to every cut. What changes is the room through the thigh and the shape below the knee.",
+    "items": [
+      {
+        "name": "Skinny",
+        "text": "Close to the leg all the way down, with some stretch. You should still be able to sit and squat without the waist dropping or the knees straining. Hem at the ankle with no break."
+      },
+      {
+        "name": "Slim and tapered",
+        "text": "Close through the thigh with a little room, narrowing below the knee. A pinch of about ½ in at the thigh and a clean line at the ankle. The most common men's fit and a safe choice for most builds."
+      },
+      {
+        "name": "Straight",
+        "text": "Same width from knee to hem. Room to pinch about 1 in at the thigh. Works well with boots and suits athletic or bigger thighs. A slight break at the shoe looks best."
+      },
+      {
+        "name": "Relaxed and wide-leg",
+        "text": "More room through the seat and thigh, falling loose. The waist should still fit properly; extra width belongs in the leg, not at the waistband. Wide-leg women's jeans usually look best long, skimming the top of the shoe or nearly the floor with heels."
+      },
+      {
+        "name": "Bootcut and flare",
+        "text": "Fitted to the knee, then wider at the hem to clear boots or heels. Hem them for the shoes you'll actually wear, usually about ½ in off the ground at the back."
+      },
+      {
+        "name": "Men's vs women's",
+        "text": "The same checkpoints apply. Women's jeans are usually cut with more curve between waist and hip, so a gap at the back waistband is common; look for curvy or contour fits if a waist that fits your hips gapes at the back."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your jeans size",
+    "intro": "Men's jeans are usually sold by waist and inseam in inches (W32 L30). Women's jeans use numeric sizes (0, 2, 4…) or waist sizes (25, 26, 27…). Use a soft tape measure.",
+    "steps": [
+      "Measure your waist where you'll wear the jeans, usually at or just below your navel for mid-rise, with the tape snug but not tight. That is roughly your waist size in inches.",
+      "Measure your hips around the fullest part of your seat with feet together. Women's size charts use this to match a size.",
+      "Measure your inseam from the crotch seam of a pair of pants that fit well to the bottom of the hem, laid flat. That's your L number.",
+      "Compare with the brand's size chart. Vanity sizing means the label waist is often an inch or two smaller than the actual measurement.",
+      "Measure a pair of jeans you already like, flat across the waistband and doubled, as a cross-check."
+    ],
+    "tip": "To check jeans without trying them on, wrap the buttoned waistband around your neck: if the ends just meet, they're likely close. It's a rough trick, so measuring a pair that fits is more reliable."
+  },
+  "sizeTable": {
+    "caption": "Men's jeans waist sizes in inches, centimeters and EU sizes",
+    "headers": ["US / UK waist (W)", "Waist (cm)", "EU size"],
+    "rows": [
+      ["28", "71", "44"],
+      ["30", "76", "46"],
+      ["32", "81", "48"],
+      ["34", "86", "50"],
+      ["36", "91", "52"],
+      ["38", "97", "54"],
+      ["40", "102", "56"],
+      ["42", "107", "58"]
+    ],
+    "note": "EU trouser size is commonly the waist in inches plus 16. Inseam lengths (L) are inches from crotch to hem: 30, 32 and 34 are the most common. Women's numeric sizes vary between brands, so use each brand's chart."
+  },
+  "problems": [
+    {
+      "problem": "A gap at the back of the waistband",
+      "fix": "Common when your waist is small relative to your hips. Look for curvy or contour cuts, or have a tailor take in the center back seam."
+    },
+    {
+      "problem": "Jeans fit at the waist but are tight in the thighs",
+      "fix": "Switch to an athletic, straight or relaxed-tapered cut in the same waist size rather than sizing up, which leaves the waist loose."
+    },
+    {
+      "problem": "Stretch jeans bag out after a few hours",
+      "fix": "They're too big. Go down a size so they start snug, or choose denim with less elastane, which recovers better."
+    },
+    {
+      "problem": "Too long",
+      "fix": "Have them hemmed. Ask for the original hem to be kept if you want the factory fade at the bottom. Hem for the shoes you'll wear most."
+    },
+    {
+      "problem": "Inner thighs wear through quickly",
+      "fix": "Usually the thigh is too tight and the fabric rubs. A cut with more thigh room or a heavier denim lasts longer."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Raw denim and shrinkage",
+      "body": "Unsanforized raw denim can shrink several percent in length and waist on the first soak, so brands usually tell you to size up and soak before hemming. Sanforized raw denim is pre-shrunk and shrinks very little. Rigid denim stretches about half a size at the waist with wear, so buy it snug enough that it's tight but comfortable when buttoned. Check the brand's guidance for its specific fabric."
+    },
+    {
+      "heading": "Jeans with cowboy boots",
+      "body": "Choose a bootcut or straight leg wide enough to slide over the boot shaft without riding up. The hem should stack slightly on top of the boot and reach close to the heel at the back, usually ½–1 in longer than you'd wear with sneakers. Skinny jeans tucked in or stacked over boots are a style choice; they shouldn't be so tight the boot shaft shows through."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Athletic or relaxed-taper jeans",
+      "why": "Extra room in the seat and thigh with a normal waist and tapered leg, for anyone with muscular legs.",
+      "query": "mens athletic taper jeans"
+    },
+    {
+      "label": "Curvy fit jeans",
+      "why": "Cut with a bigger difference between waist and hip to stop the back waistband gapping.",
+      "query": "womens curvy fit jeans"
+    },
+    {
+      "label": "Bootcut jeans",
+      "why": "A leg opening that clears cowboy and work boots without the hem riding up.",
+      "query": "bootcut jeans"
+    },
+    {
+      "label": "Jeans in short and long inseams",
+      "why": "Buying the right inseam saves on hemming and keeps the leg shape in proportion.",
+      "query": "jeans short inseam 28"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should jeans fit at the waist?",
+      "a": "Snug enough to stay up without a belt, with room for two fingers inside the waistband. No gap at the back when you sit and no roll or red marks."
+    },
+    {
+      "q": "Should jeans be tight or loose?",
+      "a": "Close-fitting but not restrictive. You should be able to sit, squat and pinch a little fabric at the thigh. Stretch jeans start snug because they loosen with wear."
+    },
+    {
+      "q": "How do you tell if jeans fit without trying them on?",
+      "a": "Measure a pair that fits you well, flat across the waist, rise, thigh and inseam, and compare with the brand's garment measurements. The neck wrap trick is a rough check."
+    },
+    {
+      "q": "How should men's jeans fit?",
+      "a": "Waist up without a belt, seat smooth with pockets centered, about ½–1 in of fabric to pinch at the thigh, and a hem that just meets the top of the shoe."
+    },
+    {
+      "q": "How should women's jeans fit?",
+      "a": "Same idea: no gap at the back of the waist, smooth seat, comfortable rise, and a hem suited to the cut and shoes. Curvy fits help if hips and waist don't match standard sizes."
+    },
+    {
+      "q": "How should jeans fit over boots?",
+      "a": "The leg opening should slide over the boot without catching, and the hem should rest on the top of the boot with a small stack, close to the heel at the back."
+    },
+    {
+      "q": "Do jeans stretch out?",
+      "a": "Yes. Stretch denim can loosen up to about a size; rigid cotton denim stretches a little at the waist and seat and then holds."
+    }
+  ],
+  "related": ["pants", "chinos", "cargo-shorts", "belt", "cowboy-boots", "boots", "denim-jacket", "dress-pants", "t-shirt"],
+  "updated": "2026-11-19"
+}

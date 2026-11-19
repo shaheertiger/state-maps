@@ -1,0 +1,1141 @@
+[
+ {
+  "slug": "suit-jacket",
+  "item": "suit jacket",
+  "category": "suits",
+  "shape": "jacket",
+  "volume": 4700,
+  "keywords": [
+   "how should a suit jacket fit",
+   "how should a suit coat fit",
+   "how are suit jackets supposed to fit",
+   "how should suit jacket fit",
+   "how is a suit jacket supposed to fit",
+   "how should a men's suit jacket fit",
+   "how should suit jackets fit",
+   "how should a suit jacket fit a man",
+   "how should my suit jacket fit",
+   "how should a suit jacket fit arms",
+   "how should a suit jacket fit on a man",
+   "how should a suit jacket fit shoulders",
+   "how is a suit coat supposed to fit"
+  ]
+ },
+ {
+  "slug": "suit",
+  "item": "suit",
+  "category": "suits",
+  "shape": "jacket",
+  "volume": 2330,
+  "keywords": [
+   "how should a suit fit",
+   "how is a suit supposed to fit",
+   "how are suits supposed to fit",
+   "how should a mens suit fit",
+   "how should suit fit",
+   "how should a suit fit a man",
+   "how should a suit fit a woman",
+   "how should a men's suit fit",
+   "how is a suit supposed to fit a man"
+  ]
+ },
+ {
+  "slug": "blazer",
+  "item": "blazer",
+  "category": "suits",
+  "shape": "jacket",
+  "volume": 1560,
+  "keywords": [
+   "how should a blazer fit",
+   "how should a blazer fit men",
+   "how should a men's blazer fit",
+   "how should blazer fit woman",
+   "how should a women's blazer fit",
+   "how should a blazer fit a man",
+   "how should a blazer fit a woman",
+   "how is a blazer supposed to fit",
+   "how are blazers supposed to fit",
+   "how should a blazer fit on a woman",
+   "how should blazer fit",
+   "how should a blazer fit women",
+   "how should a blazer fit at the shoulders and chest"
+  ]
+ },
+ {
+  "slug": "sport-coat",
+  "item": "sport coat",
+  "category": "suits",
+  "shape": "jacket",
+  "volume": 470,
+  "keywords": [
+   "how should a sport coat fit",
+   "how is a sport coat supposed to fit",
+   "how should sport coat fit"
+  ]
+ },
+ {
+  "slug": "dress-pants",
+  "item": "dress pants",
+  "category": "suits",
+  "shape": "pants",
+  "volume": 1330,
+  "keywords": [
+   "how should dress pants fit",
+   "how should dress pants fit at the ankle",
+   "how should dress pants fit length",
+   "how are dress pants supposed to fit",
+   "how should men's dress pants fit",
+   "how should mens dress pants fit",
+   "how are dress pants supposed to fit men",
+   "how should dress pants fit women's",
+   "how should womens dress pants fit",
+   "how should women's dress pants fit"
+  ]
+ },
+ {
+  "slug": "suit-pants",
+  "item": "suit pants",
+  "category": "suits",
+  "shape": "pants",
+  "volume": 870,
+  "keywords": [
+   "how should suit pants fit",
+   "how are suit pants supposed to fit",
+   "how should suit pants fit at the ankle",
+   "how should suit pants fit length"
+  ]
+ },
+ {
+  "slug": "dress-shirt",
+  "item": "dress shirt",
+  "category": "suits",
+  "shape": "shirt",
+  "volume": 1280,
+  "keywords": [
+   "how should a dress shirt fit",
+   "how is a dress shirt supposed to fit",
+   "how should dress shirt fit",
+   "how should dress shirts fit",
+   "how should a men's dress shirt fit",
+   "how should a dress shirt fit men"
+  ]
+ },
+ {
+  "slug": "vest",
+  "item": "vest",
+  "category": "suits",
+  "shape": "torso",
+  "volume": 510,
+  "keywords": [
+   "how should a vest fit",
+   "how should a vest fit with a suit",
+   "how should a vest fit a man",
+   "how should a vest fit men",
+   "how is a vest supposed to fit",
+   "how are vests supposed to fit",
+   "how should vest fit"
+  ]
+ },
+ {
+  "slug": "shirt",
+  "item": "shirt",
+  "category": "tops-outerwear",
+  "shape": "shirt",
+  "volume": 760,
+  "keywords": [
+   "how should a shirt fit",
+   "how should a shirt fit on a man",
+   "how should a shirt fit a woman",
+   "how should a men's shirt fit",
+   "how should a shirt fit a man",
+   "how should shirts fit",
+   "how should shirt fit"
+  ]
+ },
+ {
+  "slug": "t-shirt",
+  "item": "t-shirt",
+  "category": "tops-outerwear",
+  "shape": "shirt",
+  "volume": 470,
+  "keywords": [
+   "how should a t shirt fit",
+   "how should a t shirt fit a woman",
+   "how should t shirts fit",
+   "how should a women's t shirt fit",
+   "how should a men's t shirt fit"
+  ]
+ },
+ {
+  "slug": "leather-jacket",
+  "item": "leather jacket",
+  "category": "tops-outerwear",
+  "shape": "jacket",
+  "volume": 650,
+  "keywords": [
+   "how should a leather jacket fit",
+   "how should leather jackets fit",
+   "how should leather jacket fit",
+   "how should a leather jacket fit a man",
+   "how are leather jackets supposed to fit",
+   "how is a leather jacket supposed to fit",
+   "how should a leather jacket fit a woman",
+   "how should a leather jacket fit men"
+  ]
+ },
+ {
+  "slug": "denim-jacket",
+  "item": "denim jacket",
+  "category": "tops-outerwear",
+  "shape": "jacket",
+  "volume": 360,
+  "keywords": [
+   "how should a denim jacket fit",
+   "how should denim jacket fit",
+   "how should a denim jacket fit on a woman",
+   "how should a denim jacket fit women"
+  ]
+ },
+ {
+  "slug": "scrubs",
+  "item": "scrubs",
+  "category": "tops-outerwear",
+  "shape": "shirt",
+  "volume": 410,
+  "keywords": [
+   "how should scrubs fit",
+   "how are scrubs supposed to fit",
+   "how should scrubs fit men",
+   "how should scrubs fit women"
+  ]
+ },
+ {
+  "slug": "graduation-gown",
+  "item": "graduation gown",
+  "category": "tops-outerwear",
+  "shape": "torso",
+  "volume": 2110,
+  "keywords": [
+   "how should a cap and gown fit",
+   "how should a graduation gown fit",
+   "how should a gown fit for graduation",
+   "how is graduation gown supposed to fit",
+   "how are graduation gowns supposed to fit",
+   "how should cap and gown fit",
+   "how is a graduation gown supposed to fit",
+   "how should graduation gown fit",
+   "how should graduation cap fit",
+   "how should a graduation cap fit",
+   "how is a cap and gown supposed to fit",
+   "how is a graduation cap supposed to fit",
+   "how is a gown supposed to fit",
+   "how are cap and gowns supposed to fit",
+   "how is graduation cap supposed to fit"
+  ]
+ },
+ {
+  "slug": "jeans",
+  "item": "jeans",
+  "category": "jeans-pants",
+  "shape": "pants",
+  "volume": 3190,
+  "keywords": [
+   "how should jeans fit",
+   "how should jeans fit guys",
+   "how should jeans fit men",
+   "how should men's jeans fit",
+   "how are jeans supposed to fit",
+   "how should jeans fit on a man",
+   "how should jeans fit women's",
+   "how should jeans fit women",
+   "how to know if jeans fit without trying them on",
+   "how should jeans fit at the waist",
+   "how should a jeans fit",
+   "how should jeans fit waist",
+   "how should jeans fit with cowboy boots",
+   "how should jeans fit womens",
+   "how are jeans supposed to fit men",
+   "how to tell if jeans fit without trying them on",
+   "how to tell if jeans fit",
+   "how should mens jeans fit",
+   "how should jeans fit over boots"
+  ]
+ },
+ {
+  "slug": "pants",
+  "item": "pants",
+  "category": "jeans-pants",
+  "shape": "pants",
+  "volume": 650,
+  "keywords": [
+   "how should pants fit",
+   "how should men's pants fit",
+   "how should pants fit men",
+   "how should pants fit at the ankle",
+   "how are pants supposed to fit",
+   "how to tell if pants fit without trying them on",
+   "how should pants fit on waist",
+   "how should mens pants fit"
+  ]
+ },
+ {
+  "slug": "chinos",
+  "item": "chinos",
+  "category": "jeans-pants",
+  "shape": "pants",
+  "volume": 420,
+  "keywords": [
+   "how should chinos fit",
+   "how should chinos fit reddit",
+   "how are chinos supposed to fit",
+   "how should men's chinos fit",
+   "how should chinos fit men"
+  ]
+ },
+ {
+  "slug": "cargo-shorts",
+  "item": "cargo shorts",
+  "category": "jeans-pants",
+  "shape": "shorts",
+  "volume": 1300,
+  "keywords": [
+   "how are cargo shorts supposed to fit"
+  ]
+ },
+ {
+  "slug": "belt",
+  "item": "belt",
+  "category": "jeans-pants",
+  "shape": "generic",
+  "volume": 700,
+  "keywords": [
+   "how should a belt fit",
+   "how should belts fit",
+   "how is a belt supposed to fit",
+   "how should a belt fit men's",
+   "how should a belt fit women's",
+   "how should belt fit",
+   "how should a belt fit men",
+   "how should a belt fit women"
+  ]
+ },
+ {
+  "slug": "shoes",
+  "item": "shoes",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 5270,
+  "keywords": [
+   "how should shoes fit for running",
+   "how should shoes fit",
+   "how do you make shoes that are too big fit",
+   "how are shoes supposed to fit",
+   "how should a shoe fit",
+   "how to tell if shoes fit",
+   "how do you know if your shoes fit",
+   "how to know if your shoes fit",
+   "how do you know if shoes fit",
+   "how should shoes fit properly",
+   "how is a shoe supposed to fit",
+   "how should a shoe fit properly",
+   "how should shoes fit your feet",
+   "how should my shoes fit",
+   "how to know if shoes fit",
+   "how should your shoes fit",
+   "how should shoes fit on your feet",
+   "how should a shoe fit your foot",
+   "how should shoe fit",
+   "how should shoes fit you",
+   "how should my shoe fit"
+  ]
+ },
+ {
+  "slug": "sandals",
+  "item": "sandals",
+  "category": "footwear",
+  "shape": "sandal",
+  "volume": 1380,
+  "keywords": [
+   "how should sandals fit",
+   "how are sandals supposed to fit",
+   "how should sandals fit in the back",
+   "how should sandals fit on your feet",
+   "how should sandals fit your feet",
+   "how should sandals fit heel",
+   "how should sandals fit in the heel",
+   "how should sandals fit men",
+   "how should sandals fit women",
+   "how should sandals fit in the front",
+   "how are sandals supposed to fit women",
+   "how should men's sandals fit",
+   "how should your sandals fit",
+   "how should a sandal fit",
+   "how should a sandal fit your foot"
+  ]
+ },
+ {
+  "slug": "flip-flops",
+  "item": "flip flops",
+  "category": "footwear",
+  "shape": "sandal",
+  "volume": 1460,
+  "keywords": [
+   "how should flip flops fit",
+   "how are flip flops supposed to fit",
+   "how should flip flops fit in the back",
+   "how should flip flop fit",
+   "how should a flip flop fit",
+   "how should flip flops fit on your feet",
+   "how should flip flops fit your feet",
+   "how should flip flops fit reddit"
+  ]
+ },
+ {
+  "slug": "slippers",
+  "item": "slippers",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 1000,
+  "keywords": [
+   "how should slippers fit"
+  ]
+ },
+ {
+  "slug": "heels",
+  "item": "heels",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 1360,
+  "keywords": [
+   "how should high heels fit",
+   "how should heels fit",
+   "how should heels fit in the back",
+   "how are heels supposed to fit",
+   "how are high heels supposed to fit",
+   "how should a high heel fit",
+   "how should a heel fit",
+   "should heels fit tight or loose"
+  ]
+ },
+ {
+  "slug": "loafers",
+  "item": "loafers",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 430,
+  "keywords": [
+   "how should loafers fit",
+   "how are loafers supposed to fit",
+   "how should loafers fit men"
+  ]
+ },
+ {
+  "slug": "dress-shoes",
+  "item": "dress shoes",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 290,
+  "keywords": [
+   "how should dress shoes fit",
+   "how should a dress shoe fit",
+   "how are dress shoes supposed to fit"
+  ]
+ },
+ {
+  "slug": "ballet-shoes",
+  "item": "ballet shoes",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 650,
+  "keywords": [
+   "how should ballet slippers fit",
+   "how should ballet shoes fit",
+   "how should a ballet slipper fit",
+   "how should a ballet shoe fit",
+   "how are ballet slippers supposed to fit",
+   "how are ballet shoes supposed to fit"
+  ]
+ },
+ {
+  "slug": "hiking-shoes",
+  "item": "hiking shoes",
+  "category": "footwear",
+  "shape": "shoe",
+  "volume": 910,
+  "keywords": [
+   "how should hiking shoes fit",
+   "how should a hiking shoe fit"
+  ]
+ },
+ {
+  "slug": "running-shoes",
+  "item": "running shoes",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 3780,
+  "keywords": [
+   "how should running shoes fit",
+   "how should running shoe fit",
+   "how should a running shoe fit",
+   "how should my running shoes fit",
+   "how are running shoes supposed to fit",
+   "how should running shoes fit in the toe",
+   "should a running shoe fit snug",
+   "should running shoes fit snug"
+  ]
+ },
+ {
+  "slug": "trail-running-shoes",
+  "item": "trail running shoes",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 480,
+  "keywords": [
+   "how should trail running shoes fit"
+  ]
+ },
+ {
+  "slug": "basketball-shoes",
+  "item": "basketball shoes",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 830,
+  "keywords": [
+   "how should basketball shoes fit",
+   "how are basketball shoes supposed to fit",
+   "how should a basketball shoe fit"
+  ]
+ },
+ {
+  "slug": "soccer-cleats",
+  "item": "soccer cleats",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 680,
+  "keywords": [
+   "how should soccer cleats fit",
+   "how are soccer cleats supposed to fit"
+  ]
+ },
+ {
+  "slug": "sneakers",
+  "item": "sneakers",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 670,
+  "keywords": [
+   "how should sneakers fit",
+   "how are sneakers supposed to fit",
+   "how should a sneaker fit",
+   "how should sneakers fit in the toe"
+  ]
+ },
+ {
+  "slug": "tennis-shoes",
+  "item": "tennis shoes",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 330,
+  "keywords": [
+   "how should tennis shoes fit",
+   "how should a tennis shoe fit",
+   "how are tennis shoes supposed to fit"
+  ]
+ },
+ {
+  "slug": "climbing-shoes",
+  "item": "climbing shoes",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 630,
+  "keywords": [
+   "how should climbing shoes fit",
+   "how should a climbing shoe fit",
+   "how are climbing shoes supposed to fit"
+  ]
+ },
+ {
+  "slug": "cycling-shoes",
+  "item": "cycling shoes",
+  "category": "running",
+  "shape": "shoe",
+  "volume": 320,
+  "keywords": [
+   "how are cycling shoes supposed to fit",
+   "how should cycling shoes fit",
+   "how should a cycling shoe fit"
+  ]
+ },
+ {
+  "slug": "boots",
+  "item": "boots",
+  "category": "boots",
+  "shape": "boot",
+  "volume": 920,
+  "keywords": [
+   "how should boots fit",
+   "how are boots supposed to fit",
+   "how should a boot fit",
+   "how should boots fit around calf",
+   "how should boots fit around the calf"
+  ]
+ },
+ {
+  "slug": "cowboy-boots",
+  "item": "cowboy boots",
+  "category": "boots",
+  "shape": "boot",
+  "volume": 3150,
+  "keywords": [
+   "how should cowboy boots fit",
+   "how are cowboy boots supposed to fit",
+   "how should western boots fit",
+   "how are cowgirl boots supposed to fit",
+   "how should cowgirl boots fit",
+   "how should a cowboy boot fit",
+   "how should cowboy boots fit on the calf",
+   "how do cowboy boots fit",
+   "how to know if cowboy boots fit",
+   "how should cowboy boots fit around calf"
+  ]
+ },
+ {
+  "slug": "ski-boots",
+  "item": "ski boots",
+  "category": "boots",
+  "shape": "boot",
+  "volume": 870,
+  "keywords": [
+   "how should ski boots fit",
+   "how are ski boots supposed to fit",
+   "how should a ski boot fit",
+   "how to know if ski boots fit",
+   "how to tell if ski boots fit"
+  ]
+ },
+ {
+  "slug": "snowboard-boots",
+  "item": "snowboard boots",
+  "category": "boots",
+  "shape": "boot",
+  "volume": 510,
+  "keywords": [
+   "how should snowboard boots fit",
+   "how are snowboard boots supposed to fit",
+   "how should snowboard boots fit in bindings",
+   "how do snowboard boots fit"
+  ]
+ },
+ {
+  "slug": "hiking-boots",
+  "item": "hiking boots",
+  "category": "boots",
+  "shape": "boot",
+  "volume": 800,
+  "keywords": [
+   "how should hiking boots fit",
+   "how should a hiking boot fit",
+   "how are hiking boots supposed to fit"
+  ]
+ },
+ {
+  "slug": "bra",
+  "item": "bra",
+  "category": "lingerie",
+  "shape": "bra",
+  "volume": 4470,
+  "keywords": [
+   "how should a bra fit",
+   "how is a bra supposed to fit",
+   "how should bras fit",
+   "how are bras supposed to fit",
+   "how should a bra fit correctly",
+   "how should a bra cup fit",
+   "how should a bra fit you",
+   "how should a bra fit on the side",
+   "how should my bra fit",
+   "how should your bra fit",
+   "how should a bra fit properly",
+   "how do bras fit",
+   "how should bra fit",
+   "how is a bra supposed to fit you",
+   "how should bra cups fit"
+  ]
+ },
+ {
+  "slug": "push-up-bra",
+  "item": "push-up bra",
+  "category": "lingerie",
+  "shape": "bra",
+  "volume": 300,
+  "keywords": [
+   "how should push up bras fit",
+   "how are push up bras supposed to fit",
+   "how should a push up bra fit",
+   "how is a push up bra supposed to fit"
+  ]
+ },
+ {
+  "slug": "sports-bra",
+  "item": "sports bra",
+  "category": "lingerie",
+  "shape": "bra",
+  "volume": 270,
+  "keywords": [
+   "how should a sports bra fit",
+   "how are sports bras supposed to fit",
+   "how is a sports bra supposed to fit"
+  ]
+ },
+ {
+  "slug": "strapless-bra",
+  "item": "strapless bra",
+  "category": "lingerie",
+  "shape": "bra",
+  "volume": 270,
+  "keywords": [
+   "how should a strapless bra fit",
+   "how is a strapless bra supposed to fit",
+   "how are strapless bras supposed to fit"
+  ]
+ },
+ {
+  "slug": "ring",
+  "item": "ring",
+  "category": "jewelry-watches",
+  "shape": "ring",
+  "volume": 2840,
+  "keywords": [
+   "how should a ring fit",
+   "how do you make a ring fit tighter",
+   "how should rings fit",
+   "how are rings supposed to fit",
+   "how should a ring fit on your finger",
+   "how should a ring fit your finger",
+   "how is a ring supposed to fit",
+   "how should a ring fit a man",
+   "how should a mens ring fit",
+   "how should ring fit",
+   "how should my ring fit",
+   "how should your ring fit",
+   "how should a ring fit a woman"
+  ]
+ },
+ {
+  "slug": "engagement-ring",
+  "item": "engagement ring",
+  "category": "jewelry-watches",
+  "shape": "ring",
+  "volume": 410,
+  "keywords": [
+   "how should an engagement ring fit",
+   "how should engagement ring fit",
+   "how should your engagement ring fit",
+   "how should my engagement ring fit",
+   "how is an engagement ring supposed to fit"
+  ]
+ },
+ {
+  "slug": "wedding-band",
+  "item": "wedding band",
+  "category": "jewelry-watches",
+  "shape": "ring",
+  "volume": 1280,
+  "keywords": [
+   "how should a wedding band fit",
+   "how should a wedding ring fit",
+   "how should wedding band fit",
+   "how should wedding ring fit",
+   "how should a men's wedding band fit",
+   "how should mens wedding band fit"
+  ]
+ },
+ {
+  "slug": "watch",
+  "item": "watch",
+  "category": "jewelry-watches",
+  "shape": "wrist",
+  "volume": 1900,
+  "keywords": [
+   "how should a watch fit",
+   "how should a watch fit on your wrist",
+   "how should a wrist watch fit",
+   "how are watches supposed to fit",
+   "how is a watch supposed to fit",
+   "how should watch fit",
+   "how should watch fit on wrist",
+   "how should a watch fit men",
+   "how should a watch fit your wrist",
+   "how should a men's watch fit",
+   "how should a watch fit on your wrist men"
+  ]
+ },
+ {
+  "slug": "bracelet",
+  "item": "bracelet",
+  "category": "jewelry-watches",
+  "shape": "wrist",
+  "volume": 1120,
+  "keywords": [
+   "how should a bracelet fit",
+   "how should bracelets fit",
+   "how should a bracelet fit on your wrist",
+   "how should a chain bracelet fit",
+   "how is a bracelet supposed to fit",
+   "how should a gold bracelet fit",
+   "how should a cuff bracelet fit",
+   "how should a men's bracelet fit",
+   "how should a bracelet fit a man",
+   "how should a bracelet fit men",
+   "how are bracelets supposed to fit",
+   "how should bracelet fit"
+  ]
+ },
+ {
+  "slug": "tennis-bracelet",
+  "item": "tennis bracelet",
+  "category": "jewelry-watches",
+  "shape": "wrist",
+  "volume": 480,
+  "keywords": [
+   "how should a tennis bracelet fit",
+   "how should tennis bracelet fit",
+   "how should a tennis bracelet fit on your wrist",
+   "how is a tennis bracelet supposed to fit"
+  ]
+ },
+ {
+  "slug": "glasses",
+  "item": "glasses",
+  "category": "eyewear",
+  "shape": "glasses",
+  "volume": 3860,
+  "keywords": [
+   "how should glasses fit",
+   "how should glasses fit your face",
+   "how should eyeglasses fit",
+   "how should spectacles fit",
+   "how should glasses fit on your face",
+   "how should eyeglasses fit your face",
+   "how are glasses supposed to fit",
+   "how should glasses fit behind ears",
+   "how are eyeglasses supposed to fit",
+   "how should glasses fit on ears",
+   "how should glasses fit on your ears",
+   "how should glasses fit on nose",
+   "how should eyeglasses fit on nose",
+   "how should glasses fit eyebrows",
+   "how should glasses fit on your nose",
+   "how should eyeglasses fit on your face"
+  ]
+ },
+ {
+  "slug": "sunglasses",
+  "item": "sunglasses",
+  "category": "eyewear",
+  "shape": "glasses",
+  "volume": 540,
+  "keywords": [
+   "how should sunglasses fit",
+   "how should sunglasses fit on your face",
+   "how should sunglasses fit your face",
+   "how are sunglasses supposed to fit",
+   "how should sunglasses fit on face"
+  ]
+ },
+ {
+  "slug": "cowboy-hat",
+  "item": "cowboy hat",
+  "category": "hats-helmets",
+  "shape": "hat",
+  "volume": 1470,
+  "keywords": [
+   "how should a cowboy hat fit",
+   "how is a cowboy hat supposed to fit",
+   "how should cowboy hat fit",
+   "how are cowboy hats supposed to fit",
+   "how should a cowboy hat fit on your head",
+   "how should cowboy hats fit",
+   "should a cowboy hat fit snug",
+   "how should a cowboy hat fit a woman"
+  ]
+ },
+ {
+  "slug": "baseball-cap",
+  "item": "baseball cap",
+  "category": "hats-helmets",
+  "shape": "hat",
+  "volume": 780,
+  "keywords": [
+   "how should a baseball cap fit",
+   "how should a baseball hat fit",
+   "how should baseball cap fit",
+   "how should fitted hats fit",
+   "how should a fitted hat fit",
+   "how is a fitted hat supposed to fit"
+  ]
+ },
+ {
+  "slug": "hat",
+  "item": "hat",
+  "category": "hats-helmets",
+  "shape": "hat",
+  "volume": 170,
+  "keywords": [
+   "how should a hat fit",
+   "how are hats supposed to fit",
+   "how should a hat fit on your head"
+  ]
+ },
+ {
+  "slug": "bike-helmet",
+  "item": "bike helmet",
+  "category": "hats-helmets",
+  "shape": "helmet",
+  "volume": 1370,
+  "keywords": [
+   "how should a bike helmet fit",
+   "how should a bicycle helmet fit",
+   "how should a helmet fit",
+   "how should bike helmet fit",
+   "how is a bike helmet supposed to fit",
+   "how is a helmet supposed to fit",
+   "how should bike helmets fit",
+   "how should a women's bike helmet fit",
+   "how should a bike helmet fit a child",
+   "how should a bike helmet fit an adult",
+   "how should a helmet fit motorcycle",
+   "how should a helmet fit a child"
+  ]
+ },
+ {
+  "slug": "motorcycle-helmet",
+  "item": "motorcycle helmet",
+  "category": "hats-helmets",
+  "shape": "helmet",
+  "volume": 510,
+  "keywords": [
+   "how should a motorcycle helmet fit",
+   "how is a motorcycle helmet supposed to fit",
+   "how should motorcycle helmet fit"
+  ]
+ },
+ {
+  "slug": "ski-helmet",
+  "item": "ski helmet",
+  "category": "hats-helmets",
+  "shape": "helmet",
+  "volume": 160,
+  "keywords": [
+   "how should a ski helmet fit",
+   "how should ski helmet fit"
+  ]
+ },
+ {
+  "slug": "baseball-glove",
+  "item": "baseball glove",
+  "category": "sports-gear",
+  "shape": "glove",
+  "volume": 1110,
+  "keywords": [
+   "how should a baseball glove fit",
+   "how should baseball glove fit",
+   "how is a baseball glove supposed to fit",
+   "how should a baseball glove fit on your hand",
+   "how should a baseball glove fit your hand",
+   "how are baseball gloves supposed to fit"
+  ]
+ },
+ {
+  "slug": "shin-guards",
+  "item": "shin guards",
+  "category": "sports-gear",
+  "shape": "leg",
+  "volume": 1650,
+  "keywords": [
+   "how should shin guards fit",
+   "how should soccer shin guards fit",
+   "how should a soccer shin guard fit",
+   "how should a shin guard fit",
+   "how are shin guards supposed to fit",
+   "how should shin guards fit for soccer",
+   "how should a shin guard fit for soccer",
+   "how should shin guards fit kids",
+   "how do shin guards fit",
+   "how are soccer shin guards supposed to fit",
+   "how should shin guards fit soccer",
+   "how should soccer shin guards fit kids"
+  ]
+ },
+ {
+  "slug": "gloves",
+  "item": "gloves",
+  "category": "sports-gear",
+  "shape": "glove",
+  "volume": 790,
+  "keywords": [
+   "should gloves fit tight",
+   "should leather gloves fit tight",
+   "how should gloves fit",
+   "how should a glove fit",
+   "how should leather gloves fit"
+  ]
+ },
+ {
+  "slug": "moto-gloves",
+  "item": "motorcycle gloves",
+  "category": "sports-gear",
+  "shape": "glove",
+  "volume": 480,
+  "keywords": [
+   "how should moto gloves fit"
+  ]
+ },
+ {
+  "slug": "golf-glove",
+  "item": "golf glove",
+  "category": "sports-gear",
+  "shape": "glove",
+  "volume": 400,
+  "keywords": [
+   "how should a golf glove fit",
+   "how should golf glove fit",
+   "how should golf gloves fit"
+  ]
+ },
+ {
+  "slug": "dog-harness",
+  "item": "dog harness",
+  "category": "sports-gear",
+  "shape": "dog",
+  "volume": 830,
+  "keywords": [
+   "how should a dog harness fit",
+   "how should a harness fit a dog",
+   "how should a harness fit on a dog",
+   "how is a dog harness supposed to fit",
+   "how should dog harness fit",
+   "how should harness fit dog",
+   "how is a harness supposed to fit a dog"
+  ]
+ },
+ {
+  "slug": "life-jacket",
+  "item": "life jacket",
+  "category": "sports-gear",
+  "shape": "torso",
+  "volume": 400,
+  "keywords": [
+   "how should a life jacket fit",
+   "how are life jackets supposed to fit",
+   "how is a life jacket supposed to fit",
+   "how should life jackets fit",
+   "how should a life jacket fit a child"
+  ]
+ },
+ {
+  "slug": "diaper",
+  "item": "diaper",
+  "category": "baby",
+  "shape": "diaper",
+  "volume": 1200,
+  "keywords": [
+   "how should a diaper fit",
+   "how should a diaper fit a baby",
+   "how should diapers fit",
+   "how are diapers supposed to fit",
+   "how is a diaper supposed to fit",
+   "how should a diaper fit on a baby",
+   "how should diapers fit baby",
+   "how should diaper fit baby"
+  ]
+ },
+ {
+  "slug": "condom",
+  "item": "condom",
+  "category": "health",
+  "shape": "generic",
+  "volume": 2720,
+  "keywords": [
+   "how should a condom fit",
+   "how is a condom supposed to fit",
+   "how are condoms supposed to fit",
+   "how should condoms fit",
+   "how should condom fit"
+  ]
+ },
+ {
+  "slug": "retainer",
+  "item": "retainer",
+  "category": "health",
+  "shape": "generic",
+  "volume": 780,
+  "keywords": [
+   "how should a retainer fit",
+   "how is a retainer supposed to fit",
+   "how are retainers supposed to fit",
+   "how should clear retainers fit",
+   "how should retainers fit",
+   "how should a retainer fit in your mouth"
+  ]
+ },
+ {
+  "slug": "night-guard",
+  "item": "night guard",
+  "category": "health",
+  "shape": "generic",
+  "volume": 630,
+  "keywords": [
+   "how should night guard fit",
+   "how should a night guard fit",
+   "how is a night guard supposed to fit"
+  ]
+ },
+ {
+  "slug": "breast-pump-flange",
+  "item": "breast pump flange",
+  "category": "health",
+  "shape": "generic",
+  "volume": 1160,
+  "keywords": [
+   "how should flanges fit",
+   "how should a flange fit",
+   "how should flange fit",
+   "how should breast pump flange fit",
+   "how should a breast pump flange fit",
+   "how should flange fit nipple",
+   "how should breast pump flanges fit",
+   "how should a flange fit on nipple",
+   "how should a flange fit your nipple",
+   "how should flange fit on breast",
+   "how should a flange fit when pumping",
+   "how should flanges fit on breast",
+   "how should flange fit on nipple",
+   "how should flange fit around nipple",
+   "how should the flange fit the nipple",
+   "how should the breast pump flange fit"
+  ]
+ },
+ {
+  "slug": "compression-socks",
+  "item": "compression socks",
+  "category": "health",
+  "shape": "leg",
+  "volume": 500,
+  "keywords": [
+   "how should compression socks fit",
+   "how are compression socks supposed to fit",
+   "how to tell if compression socks fit"
+  ]
+ },
+ {
+  "slug": "arm-sling",
+  "item": "arm sling",
+  "category": "health",
+  "shape": "torso",
+  "volume": 390,
+  "keywords": [
+   "how should a sling fit after shoulder surgery"
+  ]
+ }
+]

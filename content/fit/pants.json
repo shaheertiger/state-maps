@@ -1,0 +1,180 @@
+{
+  "slug": "pants",
+  "item": "pants",
+  "h1": "How Should Pants Fit?",
+  "category": "jeans-pants",
+  "shape": "pants",
+  "keywords": [
+    "how should pants fit",
+    "how should men's pants fit",
+    "how are pants supposed to fit",
+    "how should pants fit at the ankle",
+    "how should pants fit on waist",
+    "how to tell if pants fit without trying them on"
+  ],
+  "answer": "Pants fit when the waistband sits flat and stays up with room for one or two fingers inside it, the seat is smooth without pulling or sagging, the front pockets lie closed, the legs hang straight from the seat without twisting, and the hem meets the top of your shoe with a slight break or none.",
+  "intro": "These are the checks for everyday trousers: work pants, casual trousers, dress pants and most woven styles. Look in a mirror from the side and back as well as the front, and sit down before you decide; pants that look fine standing can pull at the seat and thigh the moment you sit.",
+  "checklist": [
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The waistband lies flat all the way around and stays up on its own. One to two fingers slide in comfortably.",
+      "tooTight": "The button strains, the waistband rolls or digs in, or the fly pulls open into small horizontal folds.",
+      "tooLoose": "The waistband gaps at the back, or you need to cinch a belt so hard that the fabric gathers into pleats."
+    },
+    {
+      "point": "Rise",
+      "anchor": "rise",
+      "good": "The crotch sits close without pressing, and you can sit and bend without the waist dropping at the back.",
+      "tooTight": "The seam presses into the crotch or the fabric pulls into a smile shape across the front.",
+      "tooLoose": "The crotch hangs low, making the legs look shorter and restricting your stride."
+    },
+    {
+      "point": "Seat",
+      "anchor": "seat",
+      "good": "Smooth over the seat, without fabric hugging each cheek or sagging below it. Back pockets lie flat and closed.",
+      "tooTight": "Horizontal pull lines spread across the seat, and the back pockets or vent pull open.",
+      "tooLoose": "Loose folds of fabric hang below the seat and the back looks baggy."
+    },
+    {
+      "point": "Front pockets and thigh",
+      "anchor": "thigh",
+      "good": "The front pockets lie flat and closed while you stand, and you can pinch about 1 in of fabric at the thigh.",
+      "tooTight": "The pockets flare open and you see horizontal strain lines across the front of the thigh.",
+      "tooLoose": "The fabric hangs away from the thigh and folds vertically when you stand."
+    },
+    {
+      "point": "Leg line",
+      "anchor": "leg",
+      "good": "The leg falls straight from the seat to the hem in the shape of the cut, and the crease, if there is one, runs straight down the middle of the leg.",
+      "tooTight": "The fabric clings to the calf or the crease twists sideways because the leg is pulling.",
+      "tooLoose": "Excess fabric swirls around the lower leg or the hem flaps when you walk."
+    },
+    {
+      "point": "Length at the ankle",
+      "anchor": "hem",
+      "good": "The front of the hem rests lightly on the top of your shoe with a small break, or just grazes it for a no-break look. The back covers part of the heel counter.",
+      "tooTight": "Too short: you see sock when standing (unless the style is cropped), and a lot of sock when you sit.",
+      "tooLoose": "Too long: several folds stack on the shoe or the back of the hem drags on the floor."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by cut and style",
+    "intro": "Every cut should fit at the waist and seat. The leg shape is where they differ.",
+    "items": [
+      {
+        "name": "Slim fit",
+        "text": "Narrow through the thigh and tapered to the ankle. Usually worn with little or no break. Make sure you can sit without the pockets flaring and the seat pulling."
+      },
+      {
+        "name": "Straight or classic fit",
+        "text": "More room through the thigh and an even leg width. Wear with a slight to medium break. Suits most builds and is easy to tailor."
+      },
+      {
+        "name": "Relaxed and wide-leg",
+        "text": "Extra room through the seat and leg. The waist should still fit cleanly. Wide-leg trousers usually look best long, reaching the top of the shoe or close to the floor."
+      },
+      {
+        "name": "Pleated",
+        "text": "Pleats should lie closed when you stand. If they spread open, the pants are too tight at the hips. Pleated trousers usually sit higher on the waist and look best with a slight break."
+      },
+      {
+        "name": "Cropped and ankle-length",
+        "text": "Meant to end at or just above the ankle bone. They should still fit cleanly at the waist and seat; only the hem position changes."
+      },
+      {
+        "name": "Men's vs women's",
+        "text": "Men's pants are usually sold by waist and inseam; women's by numeric size with a fixed inseam or petite, regular and tall options. Women's cuts generally have more shaping between waist and hip."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for pants",
+    "intro": "You'll need a soft tape measure and a pair of pants that already fit well.",
+    "steps": [
+      "Measure your natural waist or wherever you wear your pants, keeping the tape level and snug but not tight.",
+      "Measure your hips around the fullest part of your seat, with your feet together.",
+      "Lay a well-fitting pair flat and measure the inseam from the crotch seam to the hem along the inside leg.",
+      "Measure that pair's rise from the crotch seam to the top of the front waistband. Rises under about 10 in are low; 10–11 in is mid; 11 in and up is high, though brands vary.",
+      "Compare your numbers with the brand's size chart and garment measurements, not just the label size."
+    ],
+    "tip": "To judge pants online without trying them on, compare the listed garment measurements (waist, rise, thigh, leg opening, inseam) with the same measurements of pants you already like."
+  },
+  "problems": [
+    {
+      "problem": "Front pockets flare open",
+      "fix": "The pants are too tight across the hips and thighs. Go up a size or choose a cut with more room in the thigh, then have the waist taken in if needed."
+    },
+    {
+      "problem": "Waist gaps at the back",
+      "fix": "A tailor can take in the center back seam, which is a simple alteration on most trousers. Many dress pants have extra seam allowance there for this."
+    },
+    {
+      "problem": "Pants are too long",
+      "fix": "Hemming is quick and inexpensive. Bring the shoes you'll wear most, since the break depends on shoe height."
+    },
+    {
+      "problem": "Crease twists to the side",
+      "fix": "Usually caused by the leg pulling over a large thigh or calf, or by a hem that was cut unevenly. A tailor can sometimes recut the hem; otherwise try a fuller cut."
+    },
+    {
+      "problem": "Fabric bunches under the seat",
+      "fix": "The seat is too loose or the rise too long. A tailor can take in the seat seam; for large excess, choose a slimmer cut."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "How much break you want",
+      "body": "Break is the fold the hem makes where it meets the shoe. No break: the hem just touches the shoe, best for slim and cropped pants. Slight break: one small dent at the front, the most versatile choice. Medium or full break: one or more deeper folds, for wider and traditional trousers. Ask your tailor to angle the hem slightly longer at the back so it covers more of the heel."
+    },
+    {
+      "heading": "What a tailor can change",
+      "body": "Easy: hemming, taking in or letting out the waist (usually up to about 1–1½ in), and tapering the leg below the knee. Harder: changing the seat or thigh significantly, and lengthening pants with little hem allowance. Not practical: fixing a rise that's much too short."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Stretch chinos or trousers with flexible waistbands",
+      "why": "A little stretch in the fabric or waistband gives comfort when sitting all day without looking sloppy.",
+      "query": "mens stretch trousers flex waistband"
+    },
+    {
+      "label": "Unhemmed dress trousers",
+      "why": "Sold long so a tailor can hem them to your exact length and break.",
+      "query": "unhemmed dress pants"
+    },
+    {
+      "label": "Petite and tall women's pants",
+      "why": "Inseam and rise are proportioned for your height, so the knee and seat land in the right place.",
+      "query": "womens petite pants"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should pants fit at the ankle?",
+      "a": "The hem should rest on the top of your shoe with a slight break or just graze it. Cropped styles end at or just above the ankle bone."
+    },
+    {
+      "q": "How should pants fit on the waist?",
+      "a": "Flat and secure without a belt, with room for one or two fingers. No gap at the back, no rolling or digging in."
+    },
+    {
+      "q": "How should men's pants fit?",
+      "a": "Clean waist, smooth seat, front pockets lying closed, about 1 in of fabric to pinch at the thigh, and a slight break at the shoe."
+    },
+    {
+      "q": "How do you tell if pants fit without trying them on?",
+      "a": "Compare the brand's garment measurements with a pair that fits you well, especially waist, rise, thigh and inseam."
+    },
+    {
+      "q": "Should pants be tight or loose?",
+      "a": "Close enough that the lines are clean, loose enough to sit and move without pulling. Strain lines mean too tight; folds and sagging mean too loose."
+    },
+    {
+      "q": "Can pants that are too big be altered?",
+      "a": "Yes, usually by about one size: waist and seat taken in, legs tapered and hemmed. Pants too small through the seat or thigh are harder to fix."
+    }
+  ],
+  "related": ["jeans", "chinos", "cargo-shorts", "belt", "dress-pants", "suit-pants", "dress-shoes", "loafers"],
+  "updated": "2026-11-19"
+}

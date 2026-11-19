@@ -1,0 +1,179 @@
+{
+  "slug": "birkenstock",
+  "brand": "Birkenstock",
+  "h1": "How Do Birkenstocks Fit?",
+  "category": "footwear",
+  "keywords": [
+    "how should birkenstocks fit",
+    "how are birkenstocks supposed to fit",
+    "how should birkenstock fit",
+    "how do birkenstocks fit",
+    "do birkenstocks fit true to size",
+    "how should birkenstock sandals fit",
+    "how should birkenstock arizona fit",
+    "are birkenstocks supposed to fit big"
+  ],
+  "verdict": "true to size",
+  "answer": "Birkenstocks fit by converting your usual US size to a European size: women add 31, men add 33. Birkenstock's own fit guide says your toes should not touch the edge of the footbed, with about ¼ inch of space around your foot, and you pick a Regular or Narrow width as well as a length.",
+  "sizeChart": {
+    "caption": "Birkenstock size conversion (US to European size)",
+    "headers": ["Birkenstock (EU) size", "US women", "US men"],
+    "rows": [
+      ["36", "5–5 1/2", "—"],
+      ["37", "6–6 1/2", "—"],
+      ["38", "7–7 1/2", "—"],
+      ["39", "8–8 1/2", "—"],
+      ["40", "9–9 1/2", "7–7 1/2"],
+      ["41", "10–10 1/2", "8–8 1/2"],
+      ["42", "11–11 1/2", "9–9 1/2"],
+      ["43", "—", "10–10 1/2"],
+      ["44", "—", "11–11 1/2"],
+      ["45", "—", "12–12 1/2"],
+      ["46", "—", "13–13 1/2"],
+      ["47", "—", "14–14 1/2"]
+    ],
+    "note": "Birkenstock lists all footwear in European sizes. Each EU size covers a whole US size and the half size above it. The chart continues to EU 50 (men's US 17–17 1/2).",
+    "source": {
+      "name": "Birkenstock US fit and size guide",
+      "url": "https://www.birkenstock.com/us/fit-guide/"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Sizes are European, and one size covers a half size too",
+      "body": "Birkenstock says all of its footwear is listed in European sizes. The quick formula on its US fit guide is US size + 31 for women and US size + 33 for men, so a women's 8 is a 39 and a men's 10 is a 43. The conversion chart pairs each EU size with a whole US size and the half size above it: women's 7 and 7 1/2 both map to 38, men's 9 and 9 1/2 both map to 42. There is no separate half-size option, so if you wear a 7 1/2 the chart puts you in the same 38 as a 7."
+    },
+    {
+      "heading": "What a good fit looks like on the footbed",
+      "body": "Birkenstock's test is simple: open all the straps, step in, fasten them comfortably and check that your toes don't touch the edge of the footbed. The guide asks for about ¼ inch of space around your foot. That space is part of the design, so a Birkenstock that looks a little longer than your foot is normal. If your toes touch the front edge, the pair fails Birkenstock's test and is too small."
+    },
+    {
+      "heading": "Regular or Narrow width",
+      "body": "Every classic Birkenstock comes in two widths. The brand says to choose Regular for medium to wide feet and Narrow for narrow to medium feet, and adds that its Narrow width fits most women's feet. It gives US equivalents: Regular is roughly a women's C–D or men's D–EE, and Narrow is roughly a women's A–B or men's B–C. Online and on the box, an outlined footprint icon means Regular and a filled footprint means Narrow."
+    },
+    {
+      "heading": "Breaking them in",
+      "body": "Before trying a new pair on, Birkenstock suggests flexing the footbed with one hand under the toe and one under the heel to start the break-in. Keep the straps loose at first to avoid pressure points, wear them around the house for 1–2 hours at a time, and gradually wear them longer. Tighten the straps as the footbed molds to your feet."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Birkenstocks fit true to size?",
+      "a": "Birkenstock doesn't tell you to size up or down. Its guide converts your normal US size to a European size (women add 31, men add 33) and then asks you to check for about ¼ inch of space around your foot on the footbed."
+    },
+    {
+      "q": "Are Birkenstocks supposed to fit big?",
+      "a": "They are meant to leave a little room. Birkenstock's fit guide says your toes should not touch the edge of the footbed and suggests about ¼ inch of space around your foot, so a small border of footbed showing around your foot is intended."
+    },
+    {
+      "q": "What if I wear a half size in Birkenstocks?",
+      "a": "Birkenstock's chart groups each whole size with the half size above it. A women's 8 and 8 1/2 are both a 39, and a men's 11 and 11 1/2 are both a 44, so you order the same EU size either way."
+    },
+    {
+      "q": "Should I get Regular or Narrow Birkenstocks?",
+      "a": "Birkenstock recommends Regular for medium to wide feet and Narrow for narrow to medium feet. It says Narrow fits most women's feet, and Regular is roughly a men's D–EE."
+    },
+    {
+      "q": "How should Birkenstock Arizona sandals fit?",
+      "a": "Birkenstock's general fit guide applies to the Arizona: fasten both straps comfortably, keep your toes off the front edge of the footbed and aim for about ¼ inch of space around your foot. Start with the straps loose and tighten them as the footbed molds."
+    },
+    {
+      "q": "How do I convert my US size to a Birkenstock size?",
+      "a": "Use Birkenstock's formula: women's US size + 31, men's US size + 33. A women's 7 is a 38 and a men's 9 is a 42."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Birkenstock Arizona sandals in Narrow width",
+      "why": "Birkenstock says its Narrow width fits most women's feet.",
+      "query": "birkenstock arizona narrow"
+    },
+    {
+      "label": "Birkenstock Arizona sandals in Regular width",
+      "why": "The brand's pick for medium to wide feet, roughly a men's D–EE.",
+      "query": "birkenstock arizona regular"
+    },
+    {
+      "label": "Birkenstock Boston clogs",
+      "why": "An adjustable closed-toe clog on the same footbed, in both widths.",
+      "query": "birkenstock boston clog"
+    }
+  ],
+  "products": [
+    {
+      "slug": "boston",
+      "name": "Boston Clog",
+      "h1": "How Should Birkenstock Bostons Fit?",
+      "keywords": [
+        "how should birkenstock boston fit",
+        "how should birkenstock clogs fit",
+        "how should birkenstock bostons fit",
+        "how do birkenstock clogs fit",
+        "how are birkenstock clogs supposed to fit",
+        "how do birkenstock boston fit",
+        "how should boston clogs fit"
+      ],
+      "answer": "The Boston uses the same European sizes as other Birkenstocks (women's US size + 31, men's + 33). Birkenstock says its adjustable strap and buckle let you set the clog to your foot so it feels snug without being constrictive, and it comes in Regular and Narrow widths in sizes 35 to 50.",
+      "body": [
+        {
+          "heading": "Snug, not constrictive",
+          "body": "Birkenstock describes the Boston as a clog whose adjustable strap and buckle let you fit it individually to your foot, so it feels snug without being constrictive. The closed front cap covers your toes, so you can't see the footbed edge the way you can on a sandal. The general fit guide still applies: your toes shouldn't touch the front edge of the footbed, and you should have about ¼ inch of space around your foot."
+        },
+        {
+          "heading": "Sizes and widths",
+          "body": "The Boston comes in sizes 35 to 50 for adults, and kids' versions start at size 26. Like Birkenstock's classic sandals, it is made in two widths, called normal and narrow on the Boston page. On the main fit guide Birkenstock calls these Regular (for medium to wide feet) and Narrow (for narrow to medium feet), and says Narrow fits most women's feet."
+        },
+        {
+          "heading": "Breaking in a Boston",
+          "body": "Birkenstock's break-in advice is the same for clogs: flex the footbed by hand before the first wear, keep the strap loose at first to avoid pressure points, and wear them for 1–2 hours at a time around the house. Tighten the strap as the cork footbed molds to your feet."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How should Birkenstock clogs fit?",
+          "a": "Birkenstock says the Boston's strap and buckle let you set the fit so it feels snug without being constrictive. Your toes shouldn't touch the front edge of the footbed, with about ¼ inch of space around your foot."
+        },
+        {
+          "q": "Do Birkenstock Bostons come in half sizes?",
+          "a": "No. The Boston uses Birkenstock's European sizes 35 to 50, and the conversion chart groups each whole US size with the half size above it, so a women's 7 and 7 1/2 are both a 38."
+        },
+        {
+          "q": "Should I get the Boston in Regular or Narrow?",
+          "a": "The Boston comes in both widths. Birkenstock recommends Regular for medium to wide feet and Narrow for narrow to medium feet, and says Narrow fits most women's feet."
+        },
+        {
+          "q": "Is the Boston sized differently from Birkenstock sandals?",
+          "a": "Birkenstock uses the same European size chart for all its footwear, and the Boston comes in the same two widths as its classic sandals. Convert your US size the same way: women add 31, men add 33."
+        }
+      ],
+      "picks": [
+        {
+          "label": "Birkenstock Boston clogs in Narrow width",
+          "why": "The width Birkenstock says fits most women's feet.",
+          "query": "birkenstock boston narrow"
+        },
+        {
+          "label": "Birkenstock Boston clogs in Regular width",
+          "why": "Birkenstock's recommendation for medium to wide feet.",
+          "query": "birkenstock boston regular"
+        },
+        {
+          "label": "Birkenstock Boston soft footbed clogs",
+          "why": "The Boston with Birkenstock's soft footbed option, in the same EU sizes.",
+          "query": "birkenstock boston soft footbed"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Birkenstock US fit and size guide",
+      "url": "https://www.birkenstock.com/us/fit-guide/"
+    },
+    {
+      "name": "Birkenstock Boston collection page",
+      "url": "https://www.birkenstock.com/us/styles/boston/"
+    }
+  ],
+  "checked": "2026-11-19"
+}

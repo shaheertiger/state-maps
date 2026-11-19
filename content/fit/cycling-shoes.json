@@ -1,0 +1,183 @@
+{
+  "slug": "cycling-shoes",
+  "item": "cycling shoes",
+  "h1": "How Should Cycling Shoes Fit?",
+  "category": "running",
+  "shape": "shoe",
+  "keywords": [
+    "how should cycling shoes fit",
+    "how are cycling shoes supposed to fit",
+    "how should a cycling shoe fit"
+  ],
+  "answer": "Cycling shoes should fit snug with no heel lift when you pedal, about ¼–½ in (a finger's width) of space in front of your longest toe, even pressure across the top of the foot from the straps or dials, and no pinching across the ball of the foot, where you push on the pedal.",
+  "intro": "Cycling shoes have stiff soles that don't bend, so fit works differently from walking shoes. Any movement inside the shoe wastes effort and rubs on every pedal stroke, but a shoe that squeezes the forefoot causes numbness on long rides. Try them on with cycling socks, and if you can, clip in on a trainer in the store.",
+  "checklist": [
+    {
+      "point": "Toe length",
+      "anchor": "length",
+      "good": "About ¼–½ in, roughly a finger's width, between your longest toe and the end of the shoe.",
+      "tooTight": "Too short: toes touch the front, especially when you pull up on the pedal stroke or after an hour of riding.",
+      "tooLoose": "Too long: more than about ½ in of room, so the foot slides forward and the cleat ends up too far back under your foot."
+    },
+    {
+      "point": "Ball of the foot",
+      "anchor": "ball",
+      "good": "The widest part of the foot fits the widest part of the sole without pressure, so your forefoot sits flat on the stiff sole.",
+      "tooTight": "Pressure on the outside of the forefoot or burning and numbness under the ball of the foot on longer rides.",
+      "tooLoose": "The forefoot moves side to side and you lose a direct feel of the pedal."
+    },
+    {
+      "point": "Toe box",
+      "anchor": "toe",
+      "good": "Toes have enough room to wiggle slightly and aren't pressed down from above.",
+      "tooTight": "Toes are squeezed together or the toe cap presses on the toenails.",
+      "tooLoose": "Toes slide around when you sprint or climb out of the saddle."
+    },
+    {
+      "point": "Instep and closure",
+      "anchor": "instep",
+      "good": "Dials, straps or laces hold the top of the foot firmly and evenly without hot spots.",
+      "tooTight": "Numbness or pain on top of the foot, or the closure is fully tightened only by cutting circulation.",
+      "tooLoose": "Even fully tightened, the foot moves inside the shoe."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "The insole supports your arch evenly; your foot doesn't collapse into the sole under pedaling pressure.",
+      "tooTight": "An arch shape that's too high presses into the foot uncomfortably.",
+      "tooLoose": "Flat insoles leave a high arch unsupported and the foot sags under pressure, which can cause knee and foot fatigue."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "The heel stays locked down with no lift on the upstroke or when standing on the pedals.",
+      "tooTight": "The heel cup rubs or presses into the Achilles tendon.",
+      "tooLoose": "The heel slips up each pedal stroke, which leads to blisters and wasted energy."
+    }
+  ],
+  "variations": {
+    "heading": "Road, mountain and indoor cycling shoes",
+    "items": [
+      {
+        "name": "Road shoes",
+        "text": "The stiffest soles and the closest fit, with a three-bolt cleat. They should feel snug like a glove; walking in them is awkward, and that's normal."
+      },
+      {
+        "name": "Mountain bike and gravel shoes",
+        "text": "A two-bolt recessed cleat and a sole you can walk on. The fit is slightly more relaxed, with a bit more toe room for hiking up steep sections and a sturdier toe cap."
+      },
+      {
+        "name": "Flat-pedal shoes",
+        "text": "Fit more like a sneaker with a sticky, flat sole. Aim for a secure heel and midfoot with about a finger's width at the toe."
+      },
+      {
+        "name": "Indoor cycling and spin shoes",
+        "text": "Usually take two- or three-bolt cleats. Feet swell in a hot room, so leave closer to ½ in at the toe and choose a well-ventilated upper."
+      },
+      {
+        "name": "Wide feet",
+        "text": "Several brands make wide versions of cycling shoes. Because the sole is stiff and doesn't stretch, wide feet need a wide last; the shoe won't give over time."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to size cycling shoes",
+    "intro": "Most cycling shoes use EU sizes, often in half sizes. Measuring your foot length in centimeters is the easiest way to choose.",
+    "steps": [
+      "Measure in the afternoon, wearing thin cycling socks.",
+      "Stand on paper with your heel against a wall and mark your longest toe on each foot.",
+      "Measure the length in centimeters, and measure the widest part of your forefoot too.",
+      "Add about 0.5–1 cm and find that foot length on the brand's size chart.",
+      "Try both shoes and tighten the closures as you would on a ride. Check heel lift by rising onto your toes."
+    ],
+    "tip": "Because soles don't flex, a cycling shoe that's tight in the store won't loosen much. Size for comfort on day one."
+  },
+  "sizeTable": {
+    "caption": "Approximate cycling shoe size conversion by foot length",
+    "headers": ["EU", "US men's", "US women's", "UK", "Foot length (cm)"],
+    "rows": [
+      ["39", "6", "7½", "5½", "24"],
+      ["40", "7", "8½", "6", "25"],
+      ["41", "8", "9½", "7", "26"],
+      ["42½", "9", "10½", "8", "27"],
+      ["44", "10", "11½", "9", "28"],
+      ["45", "11", "12½", "10", "29"],
+      ["46", "12", "13½", "11", "30"]
+    ],
+    "note": "Cycling brands differ by up to half a size or more. Always use the brand's own chart, ideally by foot length in centimeters."
+  },
+  "problems": [
+    {
+      "problem": "Hot foot or numb toes on long rides",
+      "fix": "Usually pressure on the nerves of the forefoot. Loosen the lower strap or dial, try a wider shoe, and check that your cleat isn't set too far forward."
+    },
+    {
+      "problem": "Heel lifts when pedaling",
+      "fix": "Tighten the top closure or ankle strap. If it still lifts, the heel cup is too wide; try another brand or model."
+    },
+    {
+      "problem": "Knee pain after switching to clipless shoes",
+      "fix": "Often a cleat position issue rather than shoe size. Check that the cleat sits under the ball of the foot and the angle matches your natural foot position, or get a bike fit."
+    },
+    {
+      "problem": "Pressure on the outside of the little toe",
+      "fix": "The shoe is too narrow. Try a wide model; heat-moldable shoes can help with small pressure points."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Cleat position and fit",
+      "body": "Fit doesn't end with the shoe. The cleat is usually set so the ball of your foot sits over or just in front of the pedal spindle. If the shoe is too long, the cleat can't move far enough back, and your foot sits out of position on the pedal."
+    },
+    {
+      "heading": "Feet swell on long rides",
+      "body": "Over a long ride, especially in heat, feet swell. Adjustable dials and straps let you loosen the shoe mid-ride. If you often ride for several hours, a shoe that's comfortable at the end of a ride matters more than one that's snug at the start."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Road cycling shoes with dial closures",
+      "why": "Dials let you fine-tune fit, even mid-ride as your feet swell.",
+      "query": "road cycling shoes dial closure"
+    },
+    {
+      "label": "Wide cycling shoes",
+      "why": "Stiff soles don't stretch, so wide feet need a wide last from the start.",
+      "query": "wide cycling shoes"
+    },
+    {
+      "label": "Mountain bike shoes with walkable soles",
+      "why": "A recessed cleat and grippy sole make them easier to walk in, useful for gravel and spin classes too.",
+      "query": "mountain bike shoes clipless"
+    },
+    {
+      "label": "Supportive cycling insoles",
+      "why": "Many stock insoles are flat; an insole with arch support can make the fit more even under pressure.",
+      "query": "cycling insoles arch support"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should cycling shoes be tight?",
+      "a": "Snug, not tight. The heel should stay locked and the foot shouldn't move, but the forefoot shouldn't be squeezed or go numb."
+    },
+    {
+      "q": "How much toe room should cycling shoes have?",
+      "a": "About ¼–½ in, a finger's width. More room lets the foot slide and moves the cleat out of position."
+    },
+    {
+      "q": "Should cycling shoes be bigger than regular shoes?",
+      "a": "Not necessarily. Some riders end up half a size up from their street shoes because cycling brands use EU sizing; go by foot length on the brand's chart."
+    },
+    {
+      "q": "Do cycling shoes stretch?",
+      "a": "Very little. Synthetic uppers and stiff soles keep their shape, so buy shoes that fit on day one."
+    },
+    {
+      "q": "Can you wear cycling shoes for spin class?",
+      "a": "Yes. Most spin bikes take SPD (two-bolt) or three-bolt cleats; check what the studio bikes use and fit the shoe the same way."
+    }
+  ],
+  "related": ["running-shoes", "climbing-shoes", "trail-running-shoes", "sneakers", "basketball-shoes", "bike-helmet", "gloves", "shoes"],
+  "updated": "2026-11-19"
+}

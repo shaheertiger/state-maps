@@ -1,0 +1,162 @@
+{
+  "slug": "tennis-shoes",
+  "item": "tennis shoes",
+  "h1": "How Should Tennis Shoes Fit?",
+  "category": "running",
+  "shape": "shoe",
+  "keywords": [
+    "how should tennis shoes fit",
+    "how should a tennis shoe fit",
+    "how are tennis shoes supposed to fit"
+  ],
+  "answer": "Tennis shoes should fit snugly through the heel and midfoot so your foot doesn't slide on quick stops and side steps, with about ⅜ in, roughly a finger's width, between your longest toe and the front, a forefoot that sits flat on the sole without spilling over, and no heel lift when you push off.",
+  "intro": "In tennis you sprint, stop, lunge and shuffle sideways, so the shoe has to hold your foot on top of the sole. A shoe with too much room lets your foot slide and jam your toes; one that's too tight blisters the sides. In everyday US speech, tennis shoes can also mean any athletic sneaker. The checkpoints below cover both, with notes for court play.",
+  "checklist": [
+    {
+      "point": "Toe room",
+      "anchor": "toe",
+      "good": "About ⅜ in, a finger's width, in front of your longest toe while standing. For everyday wear, up to ½ in is fine.",
+      "tooTight": "Too short: your toes touch the front, or jam into it when you stop hard or lunge for a ball.",
+      "tooLoose": "Too long: more than about ½ in, and your foot slides forward on stops, which bruises toenails."
+    },
+    {
+      "point": "Sides and forefoot",
+      "anchor": "ball",
+      "good": "The upper holds the sides of your forefoot closely and your foot stays centered on the sole during side steps.",
+      "tooTight": "Pressure on your little toe or big-toe joint, or the upper bulging over the outsole.",
+      "tooLoose": "Your foot slides toward the edge of the shoe when you cut sideways."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "Your heel stays locked in the heel cup with no noticeable lift when you push off or run.",
+      "tooTight": "The heel counter rubs or digs into your Achilles.",
+      "tooLoose": "Your heel lifts as you sprint or the shoe feels loose when you change direction."
+    },
+    {
+      "point": "Midfoot lockdown",
+      "anchor": "instep",
+      "good": "Laced, the shoe wraps your midfoot firmly and evenly without pressure on the top of your foot.",
+      "tooTight": "Laces press into the top of the foot, or your foot goes numb mid-match.",
+      "tooLoose": "Even laced tight, your foot moves inside the shoe on lateral moves."
+    },
+    {
+      "point": "Arch and stability",
+      "anchor": "arch",
+      "good": "The footbed supports your arch and the shoe feels stable when you plant and push sideways.",
+      "tooTight": "The arch support presses into a sore spot.",
+      "tooLoose": "Your foot rolls over the edge of the sole when you stop or change direction."
+    }
+  ],
+  "variations": {
+    "heading": "Court tennis shoes vs everyday tennis shoes",
+    "intro": "A shoe for playing tennis and a casual sneaker people call tennis shoes are built differently, and they fit differently.",
+    "items": [
+      {
+        "name": "Court tennis shoes",
+        "text": "Built with a stiff, stable base, reinforced toe and durable outsole for lateral movement. They should fit closer than running shoes, with about ⅜ in at the toe and a firm heel and midfoot hold."
+      },
+      {
+        "name": "Clay-court and hard-court shoes",
+        "text": "The fit rules are the same; the outsole pattern differs. Hard-court shoes have tougher rubber, and clay-court shoes have a tight herringbone tread. Choose by the surface you play on most."
+      },
+      {
+        "name": "Everyday tennis shoes",
+        "text": "If you mean casual athletic sneakers, fit them like any sneaker: about ⅜–½ in at the toe, snug heel and midfoot, no pinching across the ball."
+      },
+      {
+        "name": "Pickleball and padel",
+        "text": "These sports involve similar lateral moves, so court tennis shoes or sport-specific court shoes fit the same way. Running shoes are not built for side-to-side cuts."
+      },
+      {
+        "name": "Wide feet",
+        "text": "Look for court shoes in wide widths. A wide foot crammed into a standard shoe will roll over the edge of the sole on sideways stops."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to fit tennis shoes",
+    "steps": [
+      "Try them on in the afternoon with the athletic socks you'll play in.",
+      "Lace the shoes fully, using the top eyelet, and stand.",
+      "Press at the front to check for about ⅜ in of toe room.",
+      "Shuffle side to side, do a few quick stops and a lunge. Your foot shouldn't slide inside the shoe.",
+      "Rise onto your toes and walk briskly to check that your heel stays put.",
+      "Fit the larger foot if your feet differ in size."
+    ],
+    "tip": "Bring the thick tennis socks you actually play in. A thin sock can make a shoe feel half a size bigger."
+  },
+  "problems": [
+    {
+      "problem": "Toes jam into the front on stops",
+      "fix": "Your foot is sliding forward. Lace a heel-lock through the top eyelets and tighten across the midfoot. If toes still hit, the shoe is too short."
+    },
+    {
+      "problem": "Blisters on the side of the foot",
+      "fix": "The shoe is too narrow or the foot is sliding sideways. Try a wide width, thicker socks, or tape the hot spot."
+    },
+    {
+      "problem": "Feet ache after playing",
+      "fix": "The shoe may lack arch support or cushioning. A supportive insole can help, or try a model with more cushioning."
+    },
+    {
+      "problem": "Black toenails",
+      "fix": "Repeated jamming into the front on hard stops. Trim nails short, lock your heel, and make sure there's at least ⅜ in of toe room."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Why not play tennis in running shoes",
+      "body": "Running shoes are built for forward motion, with soft, high midsoles and flexible uppers. On a court, that softness lets your foot roll over the edge on lateral cuts. Court shoes sit lower and have firmer sides and toe protection for dragging and stopping."
+    },
+    {
+      "heading": "When to replace tennis shoes",
+      "body": "Replace them when the outsole tread is worn smooth, especially at the ball of the foot and toe drag area, or when the midsole feels flat. Regular players wear through outsoles much faster than casual users, and a worn tread loses grip on the court."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Court tennis shoes for hard courts",
+      "why": "Durable outsoles and stable bases built for lateral movement on hard courts.",
+      "query": "hard court tennis shoes"
+    },
+    {
+      "label": "Wide-width tennis shoes",
+      "why": "Keep wide feet centered on the sole during side-to-side moves.",
+      "query": "wide width tennis shoes"
+    },
+    {
+      "label": "Cushioned tennis socks",
+      "why": "Pad the forefoot and heel and reduce blisters from sliding.",
+      "query": "cushioned tennis socks"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should tennis shoes be tight or loose?",
+      "a": "Snug. Tennis shoes need a firm hold at the heel and midfoot so your foot stays put on quick stops and lateral cuts, with about ⅜ inch of toe room."
+    },
+    {
+      "q": "How much toe room should tennis shoes have?",
+      "a": "About ⅜ inch, roughly a finger's width, for court play. Casual tennis shoes can have up to ½ inch."
+    },
+    {
+      "q": "Should you size up in tennis shoes?",
+      "a": "Usually not. Court shoes should fit close to stop your foot sliding. Choose your measured size, or size up only if your toes touch the front."
+    },
+    {
+      "q": "Do tennis shoes stretch?",
+      "a": "Tennis shoes soften slightly with wear but stretch very little, since they're built with firm uppers for stability. Buy them in the right length."
+    },
+    {
+      "q": "Are tennis shoes and sneakers the same thing?",
+      "a": "In everyday US use, tennis shoes often means any athletic sneaker. Court tennis shoes are a specific type built for lateral movement and a firmer fit."
+    },
+    {
+      "q": "Can I play tennis in running shoes?",
+      "a": "It's not a good idea for regular play. Running shoes are soft and built for forward motion, so your foot can roll on side-to-side moves."
+    }
+  ],
+  "related": ["sneakers", "running-shoes", "basketball-shoes", "trail-running-shoes", "soccer-cleats", "shoes", "hiking-shoes", "dress-shoes"],
+  "updated": "2026-11-19"
+}

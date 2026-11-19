@@ -1,0 +1,200 @@
+{
+  "slug": "diaper",
+  "item": "diaper",
+  "h1": "How Should a Diaper Fit?",
+  "category": "baby",
+  "shape": "diaper",
+  "keywords": [
+    "how should a diaper fit",
+    "how should a diaper fit a baby",
+    "how are diapers supposed to fit",
+    "how should diapers fit",
+    "how is a diaper supposed to fit",
+    "how should a diaper fit on a baby"
+  ],
+  "answer": "A diaper fits when the waistband sits just below your baby's belly button with room for two fingers underneath, the tabs fasten evenly on the front panel without overlapping, the leg cuffs hug the thighs with the ruffles pulled out, and the back covers the top of the bottom without gaping or leaving red marks.",
+  "intro": "Most leaks and blowouts come from fit and positioning rather than a bad diaper. Size by your baby's weight as a starting point, then judge by how the diaper looks once it's on. Babies grow fast and often change sizes every few weeks to months, so check the fit regularly.",
+  "checklist": [
+    {
+      "point": "Waistband",
+      "anchor": "waist",
+      "good": "The front sits just below the belly button, level from front to back. Two fingers slide under the waistband without forcing.",
+      "tooTight": "The waistband leaves red marks or indents on the tummy, or your fingers won't slip under it.",
+      "tooLoose": "A gap opens between the waistband and the tummy, or the diaper slides down when your baby moves."
+    },
+    {
+      "point": "Tabs",
+      "anchor": "tabs",
+      "good": "Both tabs land evenly on the colored landing zone at the front, at the same height and the same distance from the center.",
+      "tooTight": "The tabs barely reach the front panel or you have to stretch them hard to fasten. Time to size up.",
+      "tooLoose": "The tabs overlap or cross the center line. The diaper is probably too big; try the size down."
+    },
+    {
+      "point": "Leg cuffs",
+      "anchor": "legs",
+      "good": "The elastic sits snugly in the crease where the thigh meets the body, and the inner ruffles are pulled out, not tucked in. A finger fits under the leg elastic.",
+      "tooTight": "The leg elastic leaves red marks or grooves on the thighs.",
+      "tooLoose": "You see gaps at the leg openings, or leaks run down the legs."
+    },
+    {
+      "point": "Rise and coverage",
+      "anchor": "rise",
+      "good": "The diaper is centered between the legs and pulled up evenly front and back, so the absorbent core sits where your baby wets.",
+      "tooTight": "The diaper looks short in the crotch, pulling down the waistband at the front or back.",
+      "tooLoose": "The crotch sags between the legs even when the diaper is dry."
+    },
+    {
+      "point": "Back",
+      "anchor": "back",
+      "good": "The back waistband sits just above the top of the bottom crack and level with the front.",
+      "tooTight": "The back sits low, below the top of the crack, which often leads to blowouts up the back.",
+      "tooLoose": "The back gapes away from your baby's lower back when they're lying down."
+    }
+  ],
+  "variations": {
+    "heading": "Newborn, cloth, overnight and pull-up diapers",
+    "intro": "The fit points are the same for every type. A few details change with your baby's age and the diaper style.",
+    "items": [
+      {
+        "name": "Newborn diapers",
+        "text": "Until the umbilical cord stump falls off, fold the front waistband down below the stump, or use newborn diapers with a cutout, so the stump stays dry and uncovered. Newborn sizes are small, and many babies outgrow them within a few weeks."
+      },
+      {
+        "name": "Cloth diapers",
+        "text": "One-size cloth diapers use rows of snaps on the front to change the rise. Snap them so the waist sits just below the belly button and there's no gap at the legs. The cover should fully enclose the insert, with no fabric peeking out at the legs or waist, or it will wick moisture onto clothes."
+      },
+      {
+        "name": "Overnight diapers",
+        "text": "Many parents go up one size, or use an overnight version, for more absorbency. It still needs a snug fit at the legs and waist, or the extra capacity won't stop leaks."
+      },
+      {
+        "name": "Pull-ups and training pants",
+        "text": "These should fit snugly at the waist and legs without leaving marks. Side seams should sit evenly on the hips. If they sag when wet, try a smaller size or a brand with a different cut."
+      },
+      {
+        "name": "Boys and girls",
+        "text": "The diaper fits the same way. For boys, point the penis down before fastening so urine goes into the absorbent core instead of out the top of the waistband."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to choose the right diaper size",
+    "intro": "Diaper sizes are based on weight, but the ranges overlap and vary by brand. Use weight to pick a starting size, then check the fit.",
+    "steps": [
+      "Weigh your baby, or use their weight from the latest checkup.",
+      "Find the weight range on the diaper package. If your baby is in the overlap between two sizes, start with the smaller size and watch for signs it's too small.",
+      "Put the diaper on and check the five points: waistband below the belly button, two fingers of room, tabs evenly placed, ruffles pulled out, and back above the bottom crack.",
+      "Check again after your baby has worn it for an hour or two. Red marks or leaks mean you need to adjust or change size.",
+      "Size up when you see red marks, more frequent leaks or blowouts, tabs that barely reach, or a diaper that fills up quickly."
+    ],
+    "tip": "Babies with chunky thighs may need the next size up before they reach its weight range. Go by fit at the legs, not only weight."
+  },
+  "problems": [
+    {
+      "problem": "Blowouts up the back",
+      "fix": "The diaper is usually too small or sits too low at the back. Pull it higher so the back waistband sits above the bottom crack, or size up."
+    },
+    {
+      "problem": "Leaks at the legs",
+      "fix": "Pull the leg ruffles out after fastening, and make sure the leg elastic sits in the crease of the thigh. Persistent leaks with a good fit mean size up."
+    },
+    {
+      "problem": "Red marks on the thighs or waist",
+      "fix": "The diaper is too small or fastened too tightly. Refasten more loosely; if the marks don't go away, size up."
+    },
+    {
+      "problem": "Leaks out of the front, especially in boys",
+      "fix": "Point the penis down before fastening and check that the waistband sits snugly against the tummy."
+    },
+    {
+      "problem": "Tabs overlap in the middle",
+      "fix": "The diaper is too big. Size down, or for cloth diapers, adjust the waist snaps tighter."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Typical diaper sizes by weight",
+      "body": "Brands set their own ranges, but they follow a similar pattern. Roughly: newborn diapers fit babies up to about 10 lb, size 1 about 8–14 lb, size 2 about 12–18 lb, size 3 about 16–28 lb, size 4 about 22–37 lb, size 5 about 27 lb and up, and size 6 about 35 lb and up. The ranges overlap on purpose, so check your brand's package and watch the fit as your baby grows."
+    },
+    {
+      "heading": "Fit and diaper rash",
+      "body": "A diaper that's too tight can rub, and one that's left on too long keeps moisture against the skin. Change wet or soiled diapers promptly, let the skin dry before putting on a fresh one, and use a barrier cream if your pediatrician recommends it. If a rash appears where the elastic sits, the diaper may be rubbing; try loosening it or sizing up."
+    },
+    {
+      "heading": "Changing safely",
+      "body": "Keep one hand on your baby whenever they're on a raised changing surface, and have everything ready before you start. Use the safety strap if the table has one, but don't rely on it alone."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Disposable diapers in the next size up",
+      "why": "Having one pack of the next size on hand makes it easy to switch as soon as you see red marks or blowouts.",
+      "query": "disposable diapers size 3"
+    },
+    {
+      "label": "Overnight diapers",
+      "why": "Extra absorbency for long stretches of sleep, while still fitting snugly at the legs.",
+      "query": "overnight diapers"
+    },
+    {
+      "label": "Newborn diapers with an umbilical cord cutout",
+      "why": "Keeps the waistband off the cord stump in the first weeks.",
+      "query": "newborn diapers umbilical cord notch"
+    },
+    {
+      "label": "One-size cloth diapers with snap adjustments",
+      "why": "Adjustable rise and waist snaps let one diaper fit from infancy to toddlerhood.",
+      "query": "one size cloth diapers snaps"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a diaper be?",
+      "a": "Snug enough that there are no gaps at the legs or waist, with room for two fingers under the waistband. Red marks mean it's too tight."
+    },
+    {
+      "q": "Where should a diaper sit on a baby?",
+      "a": "The front waistband should sit just below the belly button, and the back just above the top of the bottom crack, level all the way around."
+    },
+    {
+      "q": "How do I know if a diaper is too small?",
+      "a": "Red marks on the thighs or tummy, tabs that barely reach the front, frequent leaks or blowouts, and a back that sits below the top of the bottom crack."
+    },
+    {
+      "q": "How do I know if a diaper is too big?",
+      "a": "The tabs overlap or cross the center, the leg openings gap, and the diaper slides down or sags even when dry."
+    },
+    {
+      "q": "Should the diaper ruffles be in or out?",
+      "a": "Out. Run a finger around each leg opening after fastening to pull the inner ruffles out; tucked-in ruffles let urine leak."
+    },
+    {
+      "q": "Should a newborn's diaper cover the umbilical cord?",
+      "a": "No. Fold the front of the diaper down below the stump, or use diapers with a cutout, until the stump falls off."
+    },
+    {
+      "q": "When should I move up a diaper size?",
+      "a": "When you see red marks, frequent leaks or blowouts, or tabs that only just reach, even if your baby hasn't reached the top of the weight range."
+    }
+  ],
+  "related": [
+    "life-jacket",
+    "bike-helmet",
+    "shoes",
+    "slippers",
+    "sneakers",
+    "t-shirt"
+  ],
+  "caution": "This is general fit information. If your baby has a diaper rash that doesn't improve in two to three days, or develops blisters, pus-filled sores, fever, or seems unwell, contact your pediatrician.",
+  "sources": [
+    {
+      "name": "HealthyChildren.org (American Academy of Pediatrics): Common diaper rashes and treatments",
+      "url": "https://www.healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Diaper-Rash.aspx"
+    },
+    {
+      "name": "NHS: Nappy rash",
+      "url": "https://www.nhs.uk/baby/caring-for-a-newborn/nappy-rash/"
+    }
+  ],
+  "updated": "2026-11-19"
+}

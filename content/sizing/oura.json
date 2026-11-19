@@ -1,0 +1,189 @@
+{
+  "slug": "oura",
+  "brand": "Oura Ring",
+  "h1": "How Do Oura Rings Fit?",
+  "category": "jewelry-watches",
+  "keywords": [
+    "do oura rings fit true to size",
+    "how do oura rings fit",
+    "how do you want the oura ring to fit"
+  ],
+  "verdict": "varies by model",
+  "answer": "Oura rings should feel snug but not tight, and Oura says to size with the sizing kit made for your ring generation, not your jewelry size. Its sizers differ slightly from standard ring sizes, come in whole sizes only, and Oura Ring 5 sizes differ from Oura Ring 4. If you are between sizes, Oura recommends the smaller one.",
+  "sizeChart": {
+    "caption": "Oura ring sizes and sizing kits by generation",
+    "headers": ["Ring", "Sizing kit", "Sizes", "Half sizes", "Width", "Thickness"],
+    "rows": [
+      ["Oura Ring 5", "Oura Ring 5 sizing kit (white sizers)", "6 to 13", "No", "6.09 mm", "2.28 mm"],
+      ["Oura Ring 4", "Oura Ring 4 sizing kit (white sizers)", "4 to 15", "No", "7.9 mm", "About 2.88 mm"]
+    ],
+    "note": "Oura says sizing differs slightly between generations, so use the kit labeled for the ring you are buying. Its sizers differ slightly from standard ring sizes.",
+    "source": {
+      "name": "Oura: How to choose the right Oura Ring size",
+      "url": "https://support.ouraring.com/hc/en-us/articles/360025590653-How-to-Choose-the-Right-Oura-Ring-Size"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Use the sizing kit for your generation",
+      "body": "Oura recommends using an Oura sizing kit before choosing a size, because its sizers differ slightly from standard ring sizes. The kits are labeled by generation: the Oura Ring 5 kit covers sizes 6 to 13 and the Oura Ring 4 kit covers sizes 4 to 15. Oura says the sizers have the same width and circumference as the ring. If you choose Size Later when you order online, a sizing kit is included with your purchase."
+    },
+    {
+      "heading": "Wear the sizer for a full day",
+      "body": "Oura says to wear the sizer for a full day, including while you sleep, because finger size changes over the day. Its sizing article also notes that fingers are at their smallest when hands are cold, so warm your hands for a couple of minutes before you try sizers on."
+    },
+    {
+      "heading": "How it should feel",
+      "body": "The ring should feel snug, not tight, and sit securely at the base of the finger. Oura's test is to make a fist: if you see a gap between the ring and the top of your finger, try a smaller size. Its sizing article describes a ring that will not come off without twisting or soap as too tight, and one that slides off when you relax your fingers as too loose."
+    },
+    {
+      "heading": "Finger and sensor position",
+      "body": "Oura recommends the index finger for the best accuracy, with the middle or ring finger also working. It suggests avoiding a finger where the knuckle is much wider than the base. The small bumps inside the ring are the sensors, and Oura says they should sit snugly against the palm side of your finger."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Oura rings fit true to size?",
+      "a": "Not to standard jewelry sizes. Oura says its sizers differ slightly from standard ring sizes and recommends finding your size with an Oura sizing kit for your ring generation."
+    },
+    {
+      "q": "Should I size down if I am between Oura sizes?",
+      "a": "Yes. Oura recommends choosing the smaller size because the sensors need close skin contact, a snug fit keeps data consistent, and the plastic sizers feel stickier than the actual ring."
+    },
+    {
+      "q": "Does Oura come in half sizes?",
+      "a": "No. Oura uses whole sizes only."
+    },
+    {
+      "q": "Can I use my Oura Ring 4 size for Oura Ring 5?",
+      "a": "Oura says the sizing for Oura Ring 5 is slightly different from Oura Ring 4 and recommends using the correct sizing kit for the most accurate fit."
+    },
+    {
+      "q": "How tight should an Oura ring be?",
+      "a": "Snug but not tight. Make a fist; if a gap opens between the ring and the top of your finger, Oura says to try a smaller size."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Oura Ring 5 sizing kit",
+      "why": "Oura says to size with the kit for your exact generation before you confirm a size.",
+      "query": "oura ring 5 sizing kit"
+    },
+    {
+      "label": "Oura Ring 4",
+      "why": "Sizes 4 to 15 for fingers outside the Oura Ring 5 range of 6 to 13.",
+      "query": "oura ring 4"
+    }
+  ],
+  "products": [
+    {
+      "slug": "oura-ring-5",
+      "name": "Oura Ring 5",
+      "h1": "How Should the Oura Ring 5 Fit?",
+      "keywords": [
+        "how should the oura ring 5 fit",
+        "how should oura ring 5 fit"
+      ],
+      "answer": "Oura Ring 5 should feel snug but not tight, with the sensor bumps against the palm side of your finger. It comes in whole sizes 6 to 13, and Oura says its sizing is slightly different from Oura Ring 4, so size with the Oura Ring 5 sizing kit and choose the smaller size if you are between two.",
+      "body": [
+        {
+          "heading": "Sizes and dimensions",
+          "body": "Oura lists Oura Ring 5 in sizes 6 to 13, 6.09 mm wide and 2.28 mm thick, compared with 7.9 mm wide and about 2.88 mm thick for Oura Ring 4. Oura says its redesigned interior fits differently than Oura Ring 4."
+        },
+        {
+          "heading": "Size with the Ring 5 kit",
+          "body": "Oura says sizing differs between generations and recommends the correct sizing kit for the most accurate fit. The Oura Ring 5 kit has white sizers in sizes 6 to 13. Wear the sizer for a full day, including overnight, and pick the smaller size if you are between two."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What sizes does Oura Ring 5 come in?",
+          "a": "Oura lists Oura Ring 5 in whole sizes 6 to 13."
+        },
+        {
+          "q": "Is Oura Ring 5 sized the same as Oura Ring 4?",
+          "a": "No. Oura says the sizing for Oura Ring 5 is slightly different from Oura Ring 4 and that its redesigned interior fits differently."
+        },
+        {
+          "q": "Should Oura Ring 5 be tight?",
+          "a": "Snug, not tight. Oura says to try a smaller size if you see a gap between the ring and the top of your finger when you make a fist."
+        }
+      ],
+      "picks": [
+        {
+          "label": "Oura Ring 5 sizing kit",
+          "why": "Oura says to use the kit made for Ring 5, since it sizes differently from Ring 4.",
+          "query": "oura ring 5 sizing kit"
+        }
+      ]
+    },
+    {
+      "slug": "oura-ring-4",
+      "name": "Oura Ring 4",
+      "h1": "How Should the Oura Ring 4 Fit?",
+      "keywords": [
+        "how should the oura ring 4 fit",
+        "how should oura ring 4 fit"
+      ],
+      "answer": "Oura Ring 4 should feel snug but not tight and sit securely at the base of your finger. It comes in whole sizes 4 to 15, and Oura says to size it with the Oura Ring 4 sizing kit, wear the sizer for a full day, and pick the smaller size if you fall between two.",
+      "body": [
+        {
+          "heading": "Sizes and dimensions",
+          "body": "Oura lists all Oura Ring 4 models, including Oura Ring 4 Ceramic, in sizes 4 to 15. Oura Ring 4 is 7.9 mm wide and about 2.88 mm thick; the Ceramic version is 7.9 mm wide and 3.51 mm thick."
+        },
+        {
+          "heading": "Size with the Ring 4 kit",
+          "body": "Oura's kits are labeled by generation, and the Oura Ring 4 kit has white sizers in sizes 4 to 15. Oura says sizing differs slightly between generations, so do not reuse a size from another Oura model without checking it on the Ring 4 sizers."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What sizes does Oura Ring 4 come in?",
+          "a": "Oura lists all Oura Ring 4 models in whole sizes 4 to 15."
+        },
+        {
+          "q": "Is Oura Ring 4 Ceramic sized the same as Oura Ring 4?",
+          "a": "Oura lists both in sizes 4 to 15 and 7.9 mm wide, but the Ceramic is thicker at 3.51 mm versus about 2.88 mm."
+        },
+        {
+          "q": "What if I am between sizes on the Oura Ring 4 kit?",
+          "a": "Oura recommends choosing the smaller size for a more secure fit and better sensor contact."
+        }
+      ],
+      "picks": [
+        {
+          "label": "Oura Ring 4 sizing kit",
+          "why": "The Ring 4 kit covers sizes 4 to 15 and matches the ring's width and circumference.",
+          "query": "oura ring 4 sizing kit"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Oura: How to choose the right Oura Ring size",
+      "url": "https://support.ouraring.com/hc/en-us/articles/360025590653-How-to-Choose-the-Right-Oura-Ring-Size"
+    },
+    {
+      "name": "Oura: General FAQs",
+      "url": "https://support.ouraring.com/hc/en-us/articles/4408961184147-General-FAQs"
+    },
+    {
+      "name": "Oura: Oura Ring 4",
+      "url": "https://support.ouraring.com/hc/en-us/articles/33045011508115-Oura-Ring-4"
+    },
+    {
+      "name": "Oura: Discover Oura Ring 5",
+      "url": "https://support.ouraring.com/hc/en-us/articles/50997181300243-Discover-Oura-Ring-5"
+    },
+    {
+      "name": "Oura: How to size your new Oura Ring",
+      "url": "https://ouraring.com/sizing"
+    },
+    {
+      "name": "Oura blog: Choosing the right ring size",
+      "url": "https://ouraring.com/blog/choose-your-ring-size/"
+    }
+  ],
+  "checked": "2026-11-19"
+}

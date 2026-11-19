@@ -1,0 +1,175 @@
+{
+  "slug": "shin-guards",
+  "item": "shin guards",
+  "h1": "How Should Shin Guards Fit?",
+  "category": "sports-gear",
+  "shape": "leg",
+  "keywords": [
+    "how should shin guards fit",
+    "how should soccer shin guards fit",
+    "how should a shin guard fit",
+    "how are shin guards supposed to fit",
+    "how should shin guards fit kids",
+    "how do shin guards fit",
+    "how should soccer shin guards fit kids"
+  ],
+  "answer": "Shin guards fit when they cover the shin from about 1–2 in above the ankle bone to about two finger widths below the knee, sit centered on the shinbone, stay put when you run and jump, and fit completely under your socks without pinching the ankle or the back of the knee.",
+  "intro": "Shin guards protect the shinbone, which has almost no padding of its own. Coverage matters more than anything else: a guard that's too short leaves bone exposed, and one that's too long digs into the ankle or the bend of the knee when you run. Try them on with the socks and cleats you'll play in.",
+  "checklist": [
+    {
+      "point": "Top edge",
+      "anchor": "knee",
+      "good": "The top of the guard sits about two finger widths (about 1–2 in) below the bottom of the kneecap, so you can bend your knee fully.",
+      "tooTight": "Too short: the guard ends well down the shin and leaves several inches of bone uncovered below the knee.",
+      "tooLoose": "Too long: the top edge presses into or over the knee when you bend or squat."
+    },
+    {
+      "point": "Bottom edge",
+      "anchor": "ankle",
+      "good": "The bottom of the guard ends about 1–2 in above the ankle bone, or the attached ankle protector covers the ankle bones without rubbing.",
+      "tooTight": "Too short: there's a gap of exposed shin above the ankle.",
+      "tooLoose": "Too long: the bottom edge hits the top of your foot or your cleat when you point your toes."
+    },
+    {
+      "point": "Shin coverage and position",
+      "anchor": "top",
+      "good": "The guard is centered on the front of the shinbone and wraps slightly around both sides of it.",
+      "tooTight": "Too narrow: the edges sit on top of the shin and the sides of the bone are exposed.",
+      "tooLoose": "Too wide: the guard wraps far around the calf, shifts sideways and feels bulky under the sock."
+    },
+    {
+      "point": "Straps or sleeve",
+      "anchor": "calf",
+      "good": "Straps or a compression sleeve hold the guard snugly against the shin without leaving deep marks on the calf.",
+      "tooTight": "The strap or sleeve cuts into the calf, causes tingling or leaves deep marks after play.",
+      "tooLoose": "The guard slides down or spins to the side when you sprint."
+    },
+    {
+      "point": "Ankle stirrup (if fitted)",
+      "anchor": "heel",
+      "good": "The stirrup strap runs under the arch in front of the heel and keeps the ankle pads centered over the ankle bones.",
+      "tooTight": "The stirrup pulls the guard down hard or presses into the arch inside your cleat.",
+      "tooLoose": "The stirrup is slack and the ankle pads drift off the ankle bones."
+    }
+  ],
+  "variations": {
+    "heading": "Slip-in, ankle and sleeve shin guards",
+    "intro": "Style is mostly about how the guard stays in place and how much of the ankle it covers.",
+    "items": [
+      {
+        "name": "Slip-in guards",
+        "text": "A shell held in place by your sock or a separate sleeve. Light and low-profile, popular with older and competitive players. Coverage depends entirely on choosing the right length, so check the top and bottom edges carefully."
+      },
+      {
+        "name": "Ankle-guard (stirrup) guards",
+        "text": "A shell attached to padded ankle protection with a strap under the foot. They stay put well and protect the ankle bones, which is why they're common for young players."
+      },
+      {
+        "name": "Sleeve guards",
+        "text": "A shell built into, or slipped into, a compression sleeve. The sleeve should be snug but not cut into the calf. Good for players whose guards keep slipping."
+      },
+      {
+        "name": "Kids' shin guards",
+        "text": "Size by height and leg length using the brand's chart. Kids grow fast, so check fit every season. A guard that's too long is a common mistake and makes running awkward."
+      },
+      {
+        "name": "Other sports",
+        "text": "Field hockey, ice hockey and martial arts guards are shaped differently. Ice hockey guards cover the knee too and are sized by knee-to-skate length."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for shin guards",
+    "intro": "Most brands size by height, but a shin measurement helps when you're between sizes.",
+    "steps": [
+      "Sit with your knee bent at a right angle and your foot flat on the floor.",
+      "Find a point about two finger widths below the bottom of your kneecap.",
+      "Measure straight down the front of your shin to about 1–2 in above the ankle bone.",
+      "That length is roughly how long the guard's shell should be.",
+      "Compare with the brand's size chart, which usually lists height ranges, and use your shin measurement to break a tie between two sizes."
+    ],
+    "tip": "Try guards on with your game socks and cleats. Socks have to cover the guards fully, and bulky guards can make socks too tight."
+  },
+  "problems": [
+    {
+      "problem": "Shin guards slide down during play",
+      "fix": "Use compression sleeves or guard stays, or pull a snug sleeve over the guard before your sock. Tape around the sock is common but shouldn't be wound tightly."
+    },
+    {
+      "problem": "The top edge digs into the knee",
+      "fix": "The guard is too long. Go down a size or choose a shorter model."
+    },
+    {
+      "problem": "Rubbing at the ankle",
+      "fix": "Make sure the ankle pads are centered on the ankle bones and the stirrup isn't twisted. If the bottom edge still rubs, the guard is too long."
+    },
+    {
+      "problem": "Socks won't fit over the guards",
+      "fix": "Use a slimmer slip-in guard or socks with more stretch. Leagues require guards to be fully covered by socks."
+    },
+    {
+      "problem": "Guards smell or cause skin irritation",
+      "fix": "Remove the guards after every game, wash fabric parts and let them air dry. A thin sleeve between the guard and skin helps."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Rules for youth soccer",
+      "body": "Under the soccer Laws of the Game, shin guards are compulsory equipment and must be covered by the socks. Most youth leagues follow the same rule, and referees check before games. Bring the guards to practice too; most leagues expect them there as well."
+    },
+    {
+      "heading": "When to replace shin guards",
+      "body": "Replace them when your child has grown so that the guard no longer reaches from just below the knee to above the ankle, when the shell is cracked, or when the foam backing is flattened or torn. Children often outgrow guards before they wear them out."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Youth shin guards with ankle protection",
+      "why": "Stirrups keep the guard in place and ankle pads protect young players' ankle bones.",
+      "query": "youth soccer shin guards ankle protection"
+    },
+    {
+      "label": "Low-profile slip-in shin guards",
+      "why": "Light and slim for older players who want freedom of movement.",
+      "query": "slip in soccer shin guards"
+    },
+    {
+      "label": "Shin guard sleeves",
+      "why": "Compression sleeves keep slip-in guards from sliding down.",
+      "query": "soccer shin guard sleeves"
+    },
+    {
+      "label": "Shin guard stays or straps",
+      "why": "An inexpensive fix for guards that keep slipping.",
+      "query": "shin guard stays straps"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far below the knee should shin guards be?",
+      "a": "About two finger widths, or 1–2 in, below the bottom of the kneecap. That leaves room to bend your knee while protecting most of the shin."
+    },
+    {
+      "q": "Should shin guards cover the ankle?",
+      "a": "Slip-in guards end just above the ankle. Guards with ankle protection cover the ankle bones as well, which is recommended for young players."
+    },
+    {
+      "q": "How should soccer shin guards fit kids?",
+      "a": "Same as adults: from just below the knee to just above the ankle, centered on the shin and snug enough not to slide. Use the brand's height chart and check the fit each season."
+    },
+    {
+      "q": "Do shin guards go under or over socks?",
+      "a": "Under. In soccer, socks must cover the shin guards completely."
+    },
+    {
+      "q": "Should shin guards be tight?",
+      "a": "Snug enough not to slide or spin when you run, but not so tight that straps or sleeves dig into your calf or cause tingling."
+    },
+    {
+      "q": "What if shin guards are too big?",
+      "a": "A guard that's too long presses into the knee or ankle and makes running awkward. Go down a size rather than wearing it lower."
+    }
+  ],
+  "related": ["baseball-glove", "gloves", "golf-glove", "moto-gloves", "life-jacket", "soccer-cleats", "compression-socks", "running-shoes"],
+  "updated": "2026-11-19"
+}

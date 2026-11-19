@@ -1,0 +1,173 @@
+{
+  "slug": "slippers",
+  "item": "slippers",
+  "h1": "How Should Slippers Fit?",
+  "category": "footwear",
+  "shape": "shoe",
+  "keywords": [
+    "how should slippers fit"
+  ],
+  "answer": "Slippers should fit snugly at first, with your toes close to but not pressing the front and no more than about ¼ in of space at the toe, because pile and shearling linings pack down and loosen by up to half a size. Your heel should stay in place as you walk, without slipping or pinching.",
+  "intro": "Slippers are judged differently from shoes because their soft linings compress with wear. A slipper that feels perfect on day one, especially a fleece- or sheepskin-lined one, often ends up a little big. Try them barefoot or in the socks you'll wear around the house.",
+  "checklist": [
+    {
+      "point": "Toe length",
+      "anchor": "toe",
+      "good": "Your toes sit close to the front with about ¼ in to spare, or lightly touch the lining in a thick-pile slipper that will pack down.",
+      "tooTight": "Too short: your toes press hard against the front or curl, even after a few wears.",
+      "tooLoose": "Too long: there's more than ½ in at the toe, so the tip flaps and catches on rugs and stairs."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "In a closed-back slipper your heel stays put as you walk; in a mule or scuff your heel sits fully on the sole.",
+      "tooTight": "The back presses into your heel or Achilles, or crushes down when you step in.",
+      "tooLoose": "Your heel slides out with each step, or the slipper drops off when you climb stairs."
+    },
+    {
+      "point": "Width across the ball",
+      "anchor": "ball",
+      "good": "The forefoot feels hugged without pressure, and your foot stays centered on the sole.",
+      "tooTight": "The sides squeeze your little toe or big-toe joint, or the upper bulges over the sole.",
+      "tooLoose": "Your foot shifts side to side and the upper gapes when you walk."
+    },
+    {
+      "point": "Opening and instep",
+      "anchor": "collar",
+      "good": "The opening sits close around your foot so the slipper stays on without effort.",
+      "tooTight": "It's a struggle to get your foot in, or the opening digs into the top of your foot.",
+      "tooLoose": "The opening gapes and you scuff or shuffle to keep the slipper on."
+    },
+    {
+      "point": "Sole and arch",
+      "anchor": "arch",
+      "good": "The insole supports your arch lightly and the outsole doesn't twist easily, especially if you wear slippers for hours.",
+      "tooTight": "A firm arch bump presses into your foot in the wrong place.",
+      "tooLoose": "The sole is completely flat and floppy, so your foot gets tired on hard floors."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by slipper style",
+    "intro": "How much the lining compresses, and whether the slipper has a back, decide how close a fit you want at first.",
+    "items": [
+      {
+        "name": "Sheepskin and shearling-lined",
+        "text": "Buy these snug. The wool pile packs down and molds to your foot, typically loosening by around a half size. Many makers suggest sizing down if you're between sizes, especially if you'll wear them barefoot."
+      },
+      {
+        "name": "Moccasin slippers",
+        "text": "Leather moccasins stretch and shape to your foot. They should feel close-fitting, almost like a glove, when new. If they're comfortable at once with room to spare, they'll likely end up loose."
+      },
+      {
+        "name": "Open-back mules and scuffs",
+        "text": "With no back to hold your heel, the front does all the work. The upper should grip the top of your foot, and your heel should sit fully on the footbed without hanging off."
+      },
+      {
+        "name": "Bootie slippers",
+        "text": "The shaft should close loosely around your ankle without squeezing. Size these for your foot length and check you can pull them on without a fight."
+      },
+      {
+        "name": "Memory foam and knit slippers",
+        "text": "Foam flattens slightly over time, and knit uppers stretch. Choose your usual size; if they're sold in ranges such as S, M or L, check the brand's chart and size up only if you're at the very top of a range."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to choose your slipper size",
+    "steps": [
+      "Start with your normal shoe size, measured late in the day.",
+      "Check whether the slipper is sold in whole sizes, half sizes or ranges like S, M, L, and read the brand's chart for the foot lengths each covers.",
+      "If you're between sizes in a lined slipper, size down; in an unlined, foam or knit slipper, size up.",
+      "Decide whether you'll wear them barefoot or with thick socks, and try them on that way.",
+      "Walk around, including up and down stairs, to check the heel stays put."
+    ],
+    "tip": "Slippers you'll wear outside to the mailbox or on hard floors all day benefit from a firm rubber sole; check the sole, not just the lining, before you buy."
+  },
+  "problems": [
+    {
+      "problem": "Slippers became too loose after a few weeks",
+      "fix": "This is the lining packing down. Wear thicker socks, add a thin insole, or for sheepskin slippers, a replacement sheepskin insole restores some of the original fit."
+    },
+    {
+      "problem": "Slippers feel too tight when new",
+      "fix": "Wear them around the house for an hour or two at a time; shearling and leather usually ease within a week or two. If your toes are curled or numb, they're too short and won't loosen enough."
+    },
+    {
+      "problem": "Slippers fall off on the stairs",
+      "fix": "Choose a closed-back slipper or a bootie. Mules and scuffs are easy to step into but can slip off, which is a safety concern on stairs."
+    },
+    {
+      "problem": "Feet get sweaty",
+      "fix": "Real sheepskin and wool breathe better than synthetic fleece. Wear them barefoot or with thin cotton or wool socks, and let them air out between wears."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Slippers for older adults and anyone unsteady",
+      "body": "Loose slippers are a common tripping hazard. For anyone at risk of falls, choose slippers with a closed back or adjustable strap that holds the heel, a thin, firm, non-slip sole, and no stretched-out fabric or flapping toe. Replace slippers once they've lost their shape."
+    },
+    {
+      "heading": "When to replace slippers",
+      "body": "Replace slippers when the sole is worn smooth and slippery, the lining has flattened so your foot slides around, or the back has been crushed down so the heel no longer holds. Most well-worn slippers need replacing every year or two."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Closed-back slippers with a rubber sole",
+      "why": "A back that holds the heel and a grippy sole stay on securely and work indoors or out.",
+      "query": "closed back slippers rubber sole"
+    },
+    {
+      "label": "Sheepskin-lined slippers",
+      "why": "Warm, breathable and molds to the foot; size snug and expect the lining to settle.",
+      "query": "sheepskin lined slippers"
+    },
+    {
+      "label": "Adjustable strap slippers",
+      "why": "A hook-and-loop strap lets you fine-tune the fit for swollen feet or a secure hold.",
+      "query": "adjustable strap slippers"
+    },
+    {
+      "label": "Replacement sheepskin insoles",
+      "why": "Restore a snugger fit in slippers that have packed down.",
+      "query": "sheepskin insoles replacement"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should slippers be tight or loose?",
+      "a": "Snug, not tight. Lined slippers in particular should feel close-fitting at first because the lining compresses. Your toes shouldn't be curled, and your heel shouldn't slide out."
+    },
+    {
+      "q": "Should you size up or down in slippers?",
+      "a": "For shearling, sheepskin or pile-lined slippers, size down if you're between sizes. For unlined, foam or knit slippers, size up."
+    },
+    {
+      "q": "Do slippers stretch?",
+      "a": "Yes, most do. Shearling and pile linings pack down, and leather and knit uppers stretch, often loosening the fit by around a half size."
+    },
+    {
+      "q": "Should your toes touch the end of slippers?",
+      "a": "In a thick-pile or sheepskin slipper, a light touch is fine because it will loosen. In other slippers, leave about ¼ inch."
+    },
+    {
+      "q": "How should slippers fit in the heel?",
+      "a": "In a closed-back slipper, your heel should stay in place as you walk without the back pressing in. In a mule, your heel should sit fully on the sole without hanging over the back."
+    },
+    {
+      "q": "Should you wear socks with slippers?",
+      "a": "It's up to you, but try slippers on the way you'll wear them. Sheepskin is designed to be worn barefoot; if you'll wear thick socks, allow for them when choosing a size."
+    }
+  ],
+  "related": [
+    "shoes",
+    "sandals",
+    "flip-flops",
+    "loafers",
+    "ballet-shoes",
+    "sneakers",
+    "boots",
+    "compression-socks"
+  ],
+  "updated": "2026-11-19"
+}

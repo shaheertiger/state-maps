@@ -1,0 +1,181 @@
+{
+  "slug": "shirt",
+  "item": "shirt",
+  "h1": "How Should a Shirt Fit?",
+  "category": "tops-outerwear",
+  "shape": "shirt",
+  "keywords": [
+    "how should a shirt fit",
+    "how should a shirt fit a man",
+    "how should a shirt fit a woman",
+    "how should a men's shirt fit",
+    "how should shirts fit",
+    "how should a shirt fit on a man"
+  ],
+  "answer": "A shirt fits when the shoulder seam sits at your shoulder bone, the buttons lie flat across the chest or bust with 1–2 in to pinch at each side, long sleeves reach the wrist bone, and an untucked hem ends around the middle of your fly, covering the waistband but not your whole seat.",
+  "intro": "This guide covers everyday button-up shirts: oxfords, flannels, chambray, linen and casual work shirts, for men and women. They're usually sized S–XL rather than by neck and sleeve, and they're often worn untucked, which makes length the most common problem. For formal shirts sized by collar, see the dress shirt guide.",
+  "checklist": [
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder seam sits right at the edge of your shoulder bone.",
+      "tooTight": "The seam rides up onto your shoulder and the back pulls tight when you reach forward.",
+      "tooLoose": "The seam hangs down onto your upper arm, unless the shirt is cut with a deliberate dropped shoulder."
+    },
+    {
+      "point": "Chest or bust",
+      "anchor": "chest",
+      "good": "The buttons lie flat and you can pinch 1–2 in of fabric on each side of the chest.",
+      "tooTight": "The placket gapes between buttons and pull lines point toward them.",
+      "tooLoose": "The fabric balloons and hangs off the chest like a tent."
+    },
+    {
+      "point": "Sleeves and armholes",
+      "anchor": "sleeve",
+      "good": "The sleeve follows your arm with a little room, and you can lift your arms without the hem rising more than an inch or two.",
+      "tooTight": "The sleeve clings to your biceps and the armhole cuts in when you reach.",
+      "tooLoose": "The sleeve flaps around your arm and the armhole drops several inches below the armpit."
+    },
+    {
+      "point": "Sleeve length",
+      "anchor": "cuff",
+      "good": "Long sleeves end at the wrist bone or base of the thumb; short sleeves end around mid-biceps.",
+      "tooTight": "Too short: the cuff lands above the wrist bone, or short sleeves ride up near the shoulder.",
+      "tooLoose": "Too long: the cuff covers your hand, or short sleeves reach down toward the elbow."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The shirt falls straight or tapers slightly over your stomach without clinging.",
+      "tooTight": "Buttons strain at the stomach and the fabric creases horizontally when you sit.",
+      "tooLoose": "Extra fabric billows at the sides and the shirt looks boxy untucked."
+    },
+    {
+      "point": "Length",
+      "anchor": "hem",
+      "good": "Untucked, the hem ends around the middle of your fly; tucked, the tails stay in when you raise your arms.",
+      "tooTight": "Too short: your waistband or stomach shows when you lift your arms.",
+      "tooLoose": "Too long: an untucked hem covers your entire seat and makes your legs look short."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by style and wearer",
+    "intro": "Casual shirts come in many cuts. Start with the shoulders, then judge the rest against the style.",
+    "items": [
+      {
+        "name": "Untucked casual shirts",
+        "text": "Look for a straight hem or a shallow curve that ends at mid-fly. Many brands sell an untucked line cut 1–2 in shorter than a standard shirt."
+      },
+      {
+        "name": "Tucked shirts and oxfords",
+        "text": "Need longer tails that reach mid-seat so they stay tucked. A deeply curved shirttail hem is designed for tucking; worn out, it can look too long."
+      },
+      {
+        "name": "Flannels and overshirts",
+        "text": "Cut roomier so they can be worn open over a T-shirt or layered under a jacket. Allow more ease in the chest and sleeves, but the shoulder seam should still land near your shoulder bone."
+      },
+      {
+        "name": "Short-sleeve shirts",
+        "text": "The sleeve should end around the middle of your biceps and leave about a finger's width of space between fabric and arm. Camp-collar shirts are meant to be boxier, with a straight hem for wearing out."
+      },
+      {
+        "name": "Women's button-up shirts",
+        "text": "Check the bust first: the front should stay closed when you raise your arms or sit. Shaping with darts or princess seams helps. Oversized or boyfriend shirts are cut loose, with dropped shoulders and longer hems, and can be tucked at the front or knotted."
+      },
+      {
+        "name": "Big and tall",
+        "text": "Tall sizes add body and sleeve length, typically an inch or two; big sizes add width without extra length. Choose by what's missing rather than just going up a size."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your shirt size",
+    "intro": "Casual shirts are usually sized S–XXL or by women's numeric sizes. Letter sizes vary a lot between brands, so compare your measurements with each chart.",
+    "steps": [
+      "Measure around the fullest part of your chest or bust, under the armpits, keeping the tape level.",
+      "Measure your waist at the navel for men's shirts or at the narrowest point for women's.",
+      "Measure from the center back of your neck, over the shoulder, to the wrist bone for sleeve length.",
+      "Lay a shirt you like flat and measure across the chest from armpit to armpit and from the base of the collar to the hem at the back.",
+      "Compare these with the brand's garment measurements; most online shops list chest width and body length."
+    ],
+    "tip": "Cotton shirts, especially flannel and untreated cotton, can shrink a little in length after washing in hot water or drying on high heat. Wash cool and line dry if the fit is already close."
+  },
+  "problems": [
+    {
+      "problem": "Shirt is too long to wear untucked",
+      "fix": "Look for shirts labeled untucked or short-length, or have a tailor shorten the hem. It's a simple alteration for a straight hem."
+    },
+    {
+      "problem": "Buttons gape at the chest or bust",
+      "fix": "Size up and have the waist taken in, choose a shirt with a hidden snap or button, or pick a stretch fabric."
+    },
+    {
+      "problem": "Shoulders fit but the body is baggy",
+      "fix": "Try a slim fit in the same size, or have a tailor add darts at the back and take in the side seams."
+    },
+    {
+      "problem": "Sleeves too long",
+      "fix": "Roll them for casual wear, or have a tailor shorten them at the cuff."
+    },
+    {
+      "problem": "Armholes too low",
+      "fix": "Low armholes make the whole shirt lift when you raise your arms. Try a slimmer cut, since armholes are hard to alter."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Casual shirt vs dress shirt fit",
+      "body": "A dress shirt is sized by neck and sleeve, cut with long tails for tucking and fitted at the collar for a tie. A casual shirt is usually sized S–XL, may have a button-down or camp collar, and is often cut shorter to wear untucked. Judging a casual shirt by dress shirt rules leads to choosing one that's too long; judging a dress shirt by casual rules leads to one that won't stay tucked."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Shirts cut for wearing untucked",
+      "why": "Shorter, straighter hems end at mid-fly without alteration.",
+      "query": "mens untucked button down shirt"
+    },
+    {
+      "label": "Stretch oxford or poplin shirts",
+      "why": "A little stretch helps the buttons stay closed across the chest or bust when you move.",
+      "query": "stretch oxford shirt slim fit"
+    },
+    {
+      "label": "Women's button-up shirts with hidden buttons",
+      "why": "A concealed button or snap at the bust keeps the placket from gaping.",
+      "query": "womens button up shirt gap proof"
+    },
+    {
+      "label": "Tall-size casual shirts",
+      "why": "Extra body and sleeve length so cuffs reach your wrists and hems cover the waistband.",
+      "query": "mens tall casual button up shirt"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a shirt fit a woman?",
+      "a": "The shoulder seam should sit at your shoulder bone, the front should close flat across the bust with no gaping between buttons, and the sleeves should reach your wrist. Oversized styles are loose on purpose but still shouldn't slip off the shoulder."
+    },
+    {
+      "q": "How should a shirt fit a man?",
+      "a": "Shoulder seams at the shoulder bones, 1–2 in to pinch at the chest, sleeves at the wrist bone and, untucked, a hem around mid-fly."
+    },
+    {
+      "q": "How long should a shirt be untucked?",
+      "a": "The hem should end around the middle of your zipper fly, covering your waistband when you stand but not hiding your entire seat."
+    },
+    {
+      "q": "Where should short sleeves end?",
+      "a": "Around the middle of your biceps, with roughly a finger's width of space between the sleeve and your arm."
+    },
+    {
+      "q": "Should a shirt be tight or loose?",
+      "a": "Somewhere between: close enough to follow your shape, loose enough to pinch 1–2 in at each side of the chest and move freely without the buttons pulling."
+    },
+    {
+      "q": "How do I know if my shirt is too big?",
+      "a": "The shoulder seam drops down your arm, you can pinch more than 2 in at the chest, and the fabric billows at the waist. If only the body is loose, a tailor can take it in."
+    }
+  ],
+  "related": ["t-shirt", "denim-jacket", "leather-jacket", "scrubs", "dress-shirt", "blazer", "jeans", "chinos", "pants"],
+  "updated": "2026-11-19"
+}

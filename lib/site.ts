@@ -1,0 +1,63 @@
+/** One place to rename the site. */
+export const SITE = {
+  name: "Fit Guides",
+  tagline: "How it should fit, whether it will fit, and how brands size.",
+  description:
+    "Clear, measured answers to how clothes, shoes and gear should fit, whether one size fits another, and how brands size — with checklists, size charts and calculators.",
+  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://www.example.com").replace(/\/$/, ""),
+  locale: "en-US",
+  email: "hello@example.com",
+  organization: "Fit Guides",
+} as const;
+
+export const abs = (path: string) => `${SITE.url}${path.startsWith("/") ? path : `/${path}`}`;
+
+/** Category hub URL slugs that differ from their id (avoid clashing with guide slugs). */
+const HUB_PATH_OVERRIDES: Record<string, string> = { boots: "boot-styles" };
+export const hubSlug = (category: string) => HUB_PATH_OVERRIDES[category] ?? category;
+export const hubPath = (category: string) => `/fit/${hubSlug(category)}/`;
+export const guidePath = (slug: string) => `/fit/${slug}/`;
+export const compatPath = (slug: string) => `/will-it-fit/${slug}/`;
+export const brandPath = (brand: string, product?: string) => `/sizing/${brand}/${product ? `${product}/` : ""}`;
+
+export const amazonSearch = (query: string) => {
+  const tag = process.env.NEXT_PUBLIC_AMAZON_TAG;
+  const u = new URL("https://www.amazon.com/s");
+  u.searchParams.set("k", query);
+  if (tag) u.searchParams.set("tag", tag);
+  return u.toString();
+};
+
+export const TOOLS = [
+  {
+    slug: "bra-size-calculator",
+    name: "Bra size calculator",
+    title: "Bra Size Calculator — Free Band and Cup Size Finder",
+    blurb: "Two measurements, your US, UK and EU size, plus sister sizes.",
+  },
+  {
+    slug: "ring-size-chart",
+    name: "Ring size chart",
+    title: "Ring Size Chart — Free Printable Ring Sizer",
+    blurb: "US, UK and EU ring sizes by diameter and circumference, with a printable sizer.",
+  },
+  {
+    slug: "shoe-size-converter",
+    name: "Shoe size converter",
+    title: "Shoe Size Converter — Free US, UK, EU and CM Chart",
+    blurb: "Men's, women's and kids' sizes across US, UK, EU and foot length.",
+  },
+  {
+    slug: "mattress-size-chart",
+    name: "Mattress size chart",
+    title: "Mattress Size Chart — Free Bed, Sheet and Frame Fit Checker",
+    blurb: "Every standard bed size, and whether a mattress, sheet or frame will fit.",
+  },
+  {
+    slug: "carry-on-size-checker",
+    name: "Carry-on size checker",
+    title: "Carry-On Size Checker — Free Airline Bag Size Limits",
+    blurb: "Enter your bag's size and see which airlines' carry-on limits it meets.",
+  },
+] as const;
+export type ToolSlug = (typeof TOOLS)[number]["slug"];

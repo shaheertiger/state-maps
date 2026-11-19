@@ -1,0 +1,186 @@
+{
+  "slug": "suit",
+  "item": "suit",
+  "h1": "How Should a Suit Fit?",
+  "category": "suits",
+  "shape": "jacket",
+  "keywords": [
+    "how should a suit fit",
+    "how is a suit supposed to fit",
+    "how should a mens suit fit",
+    "how should a suit fit a man",
+    "how should a suit fit a woman",
+    "how are suits supposed to fit"
+  ],
+  "answer": "A suit fits when the jacket's shoulder seams end at your shoulder bones, the buttoned front lies flat, the sleeves show ¼–½ in of shirt cuff and the hem covers your seat, while the trousers sit at your waist without a belt, drape cleanly over the seat and touch your shoes with a slight break.",
+  "intro": "A suit is two garments that have to work as one. The jacket sets the shape and the trousers finish the line, so judge them together in a full-length mirror. Wear the shirt and shoes you plan to wear with it, empty your pockets, and remember that off-the-rack suits are designed to be tailored: you are looking for the right shoulders and chest, not a perfect fit straight off the hanger.",
+  "checklist": [
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The jacket's shoulder seam lands at the end of your shoulder bone and the sleeve drops straight with no dent or ripple.",
+      "tooTight": "The sleeve head pinches and you see a divot in the upper arm just below the seam.",
+      "tooLoose": "The pad extends past your shoulder and you can press it in without touching bone."
+    },
+    {
+      "point": "Chest and button",
+      "anchor": "button",
+      "good": "Buttoned, the front lies flat and the lapels rest on your chest; a flat hand slides under the lapel easily.",
+      "tooTight": "An X-shaped pull radiates from the button and the lapels lift off the chest.",
+      "tooLoose": "The front hangs like a box and you could fit a fist under the lapel."
+    },
+    {
+      "point": "Sleeve length",
+      "anchor": "cuff",
+      "good": "With arms relaxed, the jacket sleeve stops at the wrist bone and shows ¼–½ in of shirt cuff.",
+      "tooTight": "Too short: an inch or more of shirt cuff shows, or bare wrist when you reach forward.",
+      "tooLoose": "Too long: the sleeve hides the shirt cuff and creeps toward your thumb knuckle."
+    },
+    {
+      "point": "Jacket length",
+      "anchor": "hem",
+      "good": "The hem just covers your seat and lines up roughly with your thumb knuckle when your arms hang.",
+      "tooTight": "Too short: the seat of the trousers shows below the hem and the suit looks cropped.",
+      "tooLoose": "Too long: the hem reaches your fingertips and your legs look shorter than they are."
+    },
+    {
+      "point": "Waist suppression",
+      "anchor": "waist",
+      "good": "The jacket narrows gently at your natural waist, giving a clear shape without pulling at the side seams.",
+      "tooTight": "Back vents splay open and horizontal creases form across the small of the back.",
+      "tooLoose": "The jacket hangs straight from armpit to hem with spare fabric at the sides."
+    },
+    {
+      "point": "Collar",
+      "anchor": "collar",
+      "good": "The jacket collar hugs the back of your shirt collar, with about ½ in of shirt collar visible above it.",
+      "tooTight": "A roll of fabric bunches horizontally just below the collar at the back of the neck.",
+      "tooLoose": "The jacket collar stands away from the shirt collar, leaving a visible gap."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by cut and wearer",
+    "intro": "The core checkpoints hold for every suit. What changes is how much room the cut builds in and how long the trousers run.",
+    "items": [
+      {
+        "name": "Slim fit",
+        "text": "Higher armholes, narrower sleeves, a shorter jacket and a tapered trouser leg. It should still close without strain, and the trousers should not cling to your thighs when you sit. If you have to choose, size up and have the waist taken in."
+      },
+      {
+        "name": "Classic or modern fit",
+        "text": "More room through the chest and a straighter trouser leg. A good choice for broader or heavier builds, but spare fabric at the waist and a wide trouser leg can both be taken in by a tailor."
+      },
+      {
+        "name": "Women's suits",
+        "text": "The same shoulder, sleeve and button rules apply. Women's jackets are usually shorter and more shaped, often ending at the high hip, so judge length by the cut rather than the seat rule. Check that the buttoned front doesn't pull across the bust and that the trousers or skirt sit comfortably at the waist without gaping at the back."
+      },
+      {
+        "name": "Athletic build",
+        "text": "If you have a big chest or shoulders and a narrow waist, off-the-rack suits often fit the shoulders but swim at the waist. Buy for the shoulders and plan on taking in the jacket waist and trouser seat, or look for suit separates or athletic-cut suits with a larger drop."
+      },
+      {
+        "name": "Three-piece suits",
+        "text": "The waistcoat should cover the trouser waistband completely, so the trousers need to sit at your natural waist. Try all three pieces together; a jacket that fits over a shirt may feel snug over a waistcoat."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for a suit",
+    "intro": "Suits are sold by jacket chest size plus a length (Short, Regular or Long), with trousers usually a set number of inches smaller at the waist. You need a soft tape measure and a helper.",
+    "steps": [
+      "Wear a thin shirt and stand relaxed with your arms at your sides.",
+      "Measure your chest around the fullest part, under the armpits and across the shoulder blades, keeping the tape level. That number in inches is your jacket size.",
+      "Measure your height without shoes to choose a length: roughly under 5′8″ Short, 5′8″–6′0″ Regular, over 6′0″ Long.",
+      "Measure your waist where you want the trousers to sit, usually at or just below the navel, not where your jeans sit on your hips.",
+      "Measure your inseam from the crotch seam to where you want the trouser hem to land, or simply have the trousers hemmed at the fitting.",
+      "Compare all of these with the brand's own chart, since each maker cuts slightly differently."
+    ],
+    "tip": "Many suits come with a 6 in drop: a size 40 jacket with 34 in trousers. If your chest and waist are further apart than that, look for suit separates."
+  },
+  "problems": [
+    {
+      "problem": "The jacket fits but the trousers are too big at the waist",
+      "fix": "Normal for off-the-rack suits. Trouser waists can usually be taken in by 1–2 in through the center back seam. If the gap is larger, buy separates."
+    },
+    {
+      "problem": "Trousers pool on top of the shoes",
+      "fix": "Have them hemmed to a slight break. Many suits are sold with unfinished hems for exactly this reason."
+    },
+    {
+      "problem": "The jacket pulls at the button but the shoulders fit",
+      "fix": "A tailor can let out the side seams slightly. If the pull is strong, go up a size and have the waist taken back in."
+    },
+    {
+      "problem": "Sleeves cover the shirt cuff",
+      "fix": "Shortening sleeves is one of the cheapest and most common suit alterations. Check that the cuff buttons are decorative rather than working, as working buttonholes make it harder."
+    },
+    {
+      "problem": "Creases radiate from the crotch of the trousers",
+      "fix": "Horizontal creases usually mean the seat or thighs are too tight; diagonal sagging means too much fabric. A tailor can let out or take in the seat seam within the allowance."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Getting a suit tailored",
+      "body": "Budget for alterations when you buy. The usual list is: hem the trousers, adjust the trouser waist, shorten or lengthen the jacket sleeves and take in the jacket waist. Bring the shoes and shirt you will wear to the fitting, because shoe heel height changes the trouser length and shirt cuffs affect the sleeve. Shoulders and jacket length are the two things you should get right in the store, as they are costly or impossible to change."
+    },
+    {
+      "heading": "How the trousers should sit",
+      "body": "Suit trousers are meant to sit higher than jeans, at or near your natural waist, so the jacket's button covers the waistband and no shirt shows between the two. They should stay up without a belt, the seat should drape without sagging or pulling, and the leg should fall straight to the shoe. A slight break, one soft fold where the hem meets the shoe, is the safest choice for most suits."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Suit separates sold by jacket and trouser size",
+      "why": "Lets you buy the jacket for your chest and shoulders and the trousers for your waist, which suits athletic and larger builds.",
+      "query": "mens suit separates"
+    },
+    {
+      "label": "Suits with unfinished trouser hems",
+      "why": "Unhemmed trousers can be cut to your exact length and break, so you aren't stuck with a factory length.",
+      "query": "mens suit unfinished hem trousers"
+    },
+    {
+      "label": "Women's suit sets sold as separates",
+      "why": "Buying the blazer and trousers in different sizes handles a bust and hip that don't fall in the same size.",
+      "query": "womens suit separates blazer trousers"
+    },
+    {
+      "label": "Soft tailor's tape measure",
+      "why": "An accurate chest, waist and inseam measurement makes comparing brand charts far easier.",
+      "query": "tailor soft tape measure 60 inch"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a suit be tight or loose?",
+      "a": "Close but not tight. The jacket should button without strain and follow your shape with room to move your arms, and the trousers should drape without clinging to the thighs or seat."
+    },
+    {
+      "q": "How should a suit fit a woman?",
+      "a": "Use the same shoulder, sleeve and button checks as a man's suit. Women's jackets are typically shorter and more shaped, so the hem often lands at the hip rather than covering the seat. Make sure the front lies flat across the bust when buttoned."
+    },
+    {
+      "q": "Where should suit pants sit on the waist?",
+      "a": "At or close to your natural waist, around the navel, so the jacket's button covers the waistband. They should stay in place without a belt."
+    },
+    {
+      "q": "How long should suit pants be?",
+      "a": "Long enough to touch the top of your shoe with a slight break, one small fold at the front. Slim modern suits are often hemmed with no break, just grazing the shoe."
+    },
+    {
+      "q": "What is a suit drop?",
+      "a": "The difference between jacket size and trouser waist. A drop of 6 means a 40 jacket comes with 34 in trousers. Athletic cuts often have a drop of 7 or 8."
+    },
+    {
+      "q": "Can a tailor fix a suit that doesn't fit?",
+      "a": "A tailor can fix sleeves, trouser length, trouser waist and jacket waist easily. Shoulders that are too wide or narrow, or a jacket that is too short, are not worth altering."
+    },
+    {
+      "q": "How do I know if my suit is too big?",
+      "a": "Look for shoulder pads that overhang your shoulders, sleeves covering your shirt cuff, a gap under the lapels and trousers that bunch at the seat. If only the waist and length are off, a tailor can fix it."
+    }
+  ],
+  "related": ["suit-jacket", "suit-pants", "blazer", "sport-coat", "dress-shirt", "vest", "dress-pants", "dress-shoes", "belt"],
+  "updated": "2026-11-19"
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "sports-bra",
+  "item": "sports bra",
+  "h1": "How Should a Sports Bra Fit?",
+  "category": "lingerie",
+  "shape": "bra",
+  "keywords": [
+    "how should a sports bra fit",
+    "how are sports bras supposed to fit",
+    "how is a sports bra supposed to fit"
+  ],
+  "answer": "A sports bra fits when the band is firm and level enough that it doesn't ride up when you raise your arms, you can fit only one or two fingers under it, the cups or compression panel hold all of your breast with no spillover, and bounce feels controlled when you jog in place.",
+  "intro": "A sports bra should feel snugger than an everyday bra, but it should never restrict a full breath. The job is to limit movement, and most of that control comes from the band. Test it the way you'll use it: jump, jog on the spot, swing your arms and take a deep breath before deciding.",
+  "checklist": [
+    {
+      "point": "Band",
+      "anchor": "band",
+      "good": "Firm and level around your ribcage. One to two fingers fit under it, and it stays in place when you raise both arms over your head.",
+      "tooTight": "You can't take a deep breath, it leaves deep grooves, or it rolls up because it's straining.",
+      "tooLoose": "It slides up your back or chest when you lift your arms, and you feel extra bounce when you jog."
+    },
+    {
+      "point": "Cups or compression panel",
+      "anchor": "cups",
+      "good": "All breast tissue sits inside the bra, front and sides, with smooth fabric and no gaps. Compression styles flatten evenly; encapsulation styles shape each breast separately.",
+      "tooTight": "Tissue bulges at the top, sides or under the arms, or you see a ridge across the chest under a fitted top.",
+      "tooLoose": "Fabric wrinkles or puckers over the cups, or you can pinch empty space."
+    },
+    {
+      "point": "Underwire or under-band seam",
+      "anchor": "underwire",
+      "good": "If it has wires or a shaped seam, it follows the crease under each breast and ends on your ribs at the side.",
+      "tooTight": "The wire or seam presses on breast tissue or chafes under the arm.",
+      "tooLoose": "The bottom edge sits away from your chest or slides up during movement."
+    },
+    {
+      "point": "Center front",
+      "anchor": "gore",
+      "good": "In an encapsulation bra, the gore sits flat against your breastbone and separates the breasts. In a compression bra, the center lies smooth.",
+      "tooTight": "The center presses into your breastbone or the fabric is stretched thin and see-through.",
+      "tooLoose": "The center lifts away from your chest, so the breasts move together as one unit."
+    },
+    {
+      "point": "Straps",
+      "anchor": "straps",
+      "good": "They stay in place through arm swings and don't dig in. Wide or padded straps spread the load on larger busts.",
+      "tooTight": "They leave grooves in your shoulders or pull the band up at the back.",
+      "tooLoose": "They slip, or you feel more upward bounce when you jump."
+    },
+    {
+      "point": "Neckline",
+      "anchor": "neckline",
+      "good": "Sits flat and high enough to cover your breasts during movement without rubbing your neck or armpits.",
+      "tooTight": "The edge cuts across the top of the breast and creates a bulge.",
+      "tooLoose": "The neckline gapes when you bend over or lift your arms."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by impact level and design",
+    "intro": "Choose support by activity first, then judge fit by the checklist. A high-impact bra will feel firmer than a low-impact one in the same size.",
+    "items": [
+      {
+        "name": "Low impact (yoga, walking, strength training)",
+        "text": "A lighter pullover or bralette-style bra is usually enough. It should still stay put when you stretch or bend over, but you can choose a softer band."
+      },
+      {
+        "name": "Medium impact (cycling, hiking, gym classes)",
+        "text": "A firmer band and more structure. Many people with a C cup or above get better results from encapsulation, molded cups or a combination of compression and separate cups."
+      },
+      {
+        "name": "High impact (running, jumping, team sports)",
+        "text": "The firmest band, adjustable straps and usually separate cups. Look for a hook-and-eye closure and band-and-cup sizing if you're fuller-busted, so you can get the band snug without squeezing the cups."
+      },
+      {
+        "name": "Compression vs encapsulation",
+        "text": "Compression bras press the breasts against the chest and work well for smaller busts. Encapsulation bras hold each breast in its own cup and usually control movement better for larger busts. Combination styles do both."
+      },
+      {
+        "name": "Racerback vs adjustable straps",
+        "text": "Racerbacks stay put and suit narrow shoulders. Adjustable or convertible straps let you fine-tune lift and help people whose torso length doesn't match standard sizing."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for a sports bra",
+    "intro": "Sports bras come in two kinds of sizing: band-and-cup (like 34C) or letter sizes (S, M, L). Measure for both with a soft tape.",
+    "steps": [
+      "Measure snugly around your ribcage directly under your breasts, keeping the tape level and breathing out. Round to the nearest even number for your band size.",
+      "Measure loosely around the fullest part of your bust, keeping the tape level across your back.",
+      "For band-and-cup sizing, subtract the band from the bust measurement; each inch is one cup (1 in A, 2 in B, 3 in C, 4 in D, 5 in DD).",
+      "For S/M/L sizing, find both your underbust and bust measurements on the brand's chart. If they point to different sizes, choose by underbust for high impact and by bust for comfort in low impact.",
+      "Try it on and do the movement test: jog on the spot, jump, and raise your arms. Take a deep breath to make sure the band isn't too tight."
+    ],
+    "tip": "If you're between letter sizes and fuller-busted, a band-and-cup sports bra usually solves the problem better than sizing up, which loosens the band."
+  },
+  "sizeTable": {
+    "caption": "Sports bra band size conversions",
+    "headers": ["US / UK band", "EU band", "FR / BE band", "Underbust (in)", "Underbust (cm)"],
+    "rows": [
+      ["30", "65", "80", "29–30", "63–67"],
+      ["32", "70", "85", "31–32", "68–72"],
+      ["34", "75", "90", "33–34", "73–77"],
+      ["36", "80", "95", "35–36", "78–82"],
+      ["38", "85", "100", "37–38", "83–87"],
+      ["40", "90", "105", "39–40", "88–92"],
+      ["42", "95", "110", "41–42", "93–97"]
+    ],
+    "note": "These are standard band conversions for band-and-cup sports bras. S/M/L sizing is set by each brand, so use the brand's chart for letter sizes."
+  },
+  "problems": [
+    {
+      "problem": "Too much bounce when running",
+      "fix": "The band is too loose or the bra is too low-impact for the activity. Try a firmer band or a sister size (down a band, up a cup), or switch to an encapsulation style."
+    },
+    {
+      "problem": "Chafing under the arms or along the band",
+      "fix": "Seams or edges are moving against your skin. A snugger band reduces movement; also look for flat seams and soft edges, and use an anti-chafe balm on long runs."
+    },
+    {
+      "problem": "Uniboob or flattened shape",
+      "fix": "That's normal for compression bras. If you want shape or more control, try an encapsulation or combination style with separate cups."
+    },
+    {
+      "problem": "Band rolls up at the bottom",
+      "fix": "The band is either too tight and folding under strain, or too narrow for your torso. Try a wider band or a different size."
+    },
+    {
+      "problem": "Shoulder or neck pain after workouts",
+      "fix": "The straps are carrying weight the band should hold. Tighten the band, loosen the straps, and look for wider or padded straps."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Sister sizes and band methods for sports bras",
+      "body": "Band-and-cup sports bras follow the same conventions as everyday bras. Sister sizes keep cup volume roughly equal: 34C, 32D and 36B are sisters. Many sports bra brands measure the band directly (underbust rounded to the nearest even inch) rather than the older add-four method, so your sports bra size may be a smaller band and larger cup than your everyday bra from another brand."
+    },
+    {
+      "heading": "When to replace a sports bra",
+      "body": "Replace it when the band no longer feels firm, the fabric has lost stretch, the straps won't hold their adjustment, or you notice more bounce than before. Frequent washing and sweat break down elastic, so heavily used bras wear out faster than everyday ones. Wash in cold water and air-dry to slow this down."
+    }
+  ],
+  "picks": [
+    {
+      "label": "High-impact sports bra in band-and-cup sizes",
+      "why": "Separate cups and a hook closure give fuller busts better control than a pullover in letter sizes.",
+      "query": "high impact sports bra band cup sizes encapsulation"
+    },
+    {
+      "label": "Adjustable-strap running bra",
+      "why": "Lets you fine-tune lift and fit for your torso length, which helps with bounce on long runs.",
+      "query": "running sports bra adjustable straps hook closure"
+    },
+    {
+      "label": "Low-impact pullover sports bra",
+      "why": "Comfortable for yoga, walking and lifting, and works well for smaller busts.",
+      "query": "low impact pullover sports bra"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a sports bra be tight?",
+      "a": "It should be snug, firmer than an everyday bra, but you must be able to take a full, deep breath. Pain, numbness or grooves that last mean it's too tight."
+    },
+    {
+      "q": "Should you size down in sports bras?",
+      "a": "Not automatically. Choose the size whose band feels firm and doesn't move when you lift your arms. Sizing down in letter sizes can squash the cups; a band-and-cup bra is often the better fix."
+    },
+    {
+      "q": "How do I know if my sports bra is too small?",
+      "a": "Breast tissue spills out at the top or sides, the band restricts breathing, the straps dig in, or the fabric looks stretched thin."
+    },
+    {
+      "q": "How do I know if my sports bra is too big?",
+      "a": "The band rides up, fabric wrinkles over the chest, and you feel more bounce when you jog or jump."
+    },
+    {
+      "q": "Is a sports bra the same size as a regular bra?",
+      "a": "Often, if both use band-and-cup sizing. Letter-sized sports bras need to be matched by underbust and bust measurement on the brand's chart."
+    },
+    {
+      "q": "How many fingers should fit under a sports bra band?",
+      "a": "One or two. More than that means the band is too loose to control movement."
+    }
+  ],
+  "related": ["bra", "push-up-bra", "strapless-bra", "running-shoes", "t-shirt", "trail-running-shoes", "compression-socks"],
+  "updated": "2026-11-19"
+}

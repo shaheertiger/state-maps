@@ -1,0 +1,185 @@
+{
+  "slug": "vest",
+  "item": "vest",
+  "h1": "How Should a Vest Fit?",
+  "category": "suits",
+  "shape": "torso",
+  "keywords": [
+    "how should a vest fit",
+    "how should a vest fit with a suit",
+    "how should a vest fit a man",
+    "how is a vest supposed to fit",
+    "how are vests supposed to fit",
+    "how should a vest fit men"
+  ],
+  "answer": "A vest fits when it lies flat and snug against your shirt with no pulling between buttons, the armholes sit close without cutting in, and the hem fully covers your trouser waistband so no shirt shows. With a suit, the V-neck should peek just above the jacket's button.",
+  "intro": "This guide covers the tailored vest, or waistcoat, worn with a suit or on its own over a dress shirt, plus quick notes on sweater and puffer vests. A tailored vest is meant to fit closer than any other layer: it has no sleeves to hide behind and it sits under a jacket, so any looseness shows as ripples and any tightness as strain at the buttons.",
+  "checklist": [
+    {
+      "point": "Neckline and V-opening",
+      "anchor": "neck",
+      "good": "The V sits flat against your shirt and its top button shows just above the jacket's buttoning point.",
+      "tooTight": "The V pulls open into a curve and the collar edges lift away from your shirt.",
+      "tooLoose": "The neckline gapes away from your chest, especially when you lean forward."
+    },
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder straps lie flat and sit inside your shoulder line so they're hidden under a jacket.",
+      "tooTight": "The straps dig into the top of your shoulders and drag the front up.",
+      "tooLoose": "The straps slide toward your arms or show at the jacket's armhole."
+    },
+    {
+      "point": "Chest and buttons",
+      "anchor": "chest",
+      "good": "The front lies smooth and every button closes without the fabric pulling sideways.",
+      "tooTight": "Horizontal pull lines spread from each button and the front gapes between them.",
+      "tooLoose": "The front ripples or bags out and you can pinch more than about 1 in at the chest."
+    },
+    {
+      "point": "Armholes",
+      "anchor": "armhole",
+      "good": "The armhole sits close under the arm without gaping, and you can raise your arms comfortably.",
+      "tooTight": "The armhole cuts into your armpit and pulls the vest sideways when you move.",
+      "tooLoose": "The armhole gapes and you can see shirt through it from the side."
+    },
+    {
+      "point": "Waist and back",
+      "anchor": "sides",
+      "good": "The back adjuster sits in its middle position and the vest follows your waist with no slack.",
+      "tooTight": "The back strap is let out to its limit and the side seams still pull.",
+      "tooLoose": "The strap is cinched all the way in and the back still puckers or bags."
+    },
+    {
+      "point": "Length",
+      "anchor": "hem",
+      "good": "The hem covers the trouser waistband completely, with the front points extending just below it.",
+      "tooTight": "Too short: a strip of shirt or the belt shows between vest and trousers.",
+      "tooLoose": "Too long: the hem reaches well over the hips and peeks out below a buttoned jacket."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by vest type",
+    "intro": "The word vest covers several very different garments. Here's how each should fit.",
+    "items": [
+      {
+        "name": "Suit waistcoat",
+        "text": "Matches the suit and is worn under the jacket. It should be close-fitting, cover the trouser waistband and sit with the V visible just above the jacket button. Traditionally the bottom button is left undone on a single-breasted waistcoat cut with a pointed or cutaway hem."
+      },
+      {
+        "name": "Odd or standalone waistcoat",
+        "text": "Worn on its own over a shirt or with a contrasting jacket. Without a jacket covering it, the back is visible, so the fabric back and adjuster should lie flat. Some standalone waistcoats are cut slightly longer and fuller."
+      },
+      {
+        "name": "Double-breasted waistcoat",
+        "text": "Usually has a straight hem and is worn fully buttoned. The overlap should lie flat across the stomach with no pull toward the buttons."
+      },
+      {
+        "name": "Sweater vest",
+        "text": "Should skim the body without clinging, with the ribbed hem ending at or just over the belt. Armholes should be close enough not to show a large gap of shirt."
+      },
+      {
+        "name": "Puffer or fleece vest",
+        "text": "Sized like outerwear, roomier to fit over a sweater or flannel. The hem should reach the top of the hips and the armholes shouldn't cut in when you reach overhead."
+      },
+      {
+        "name": "Women's vests",
+        "text": "Often shaped at the bust and waist and cut shorter or longer depending on style. The front should lie flat across the bust without the buttons pulling; longline vests can reach the hip."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your vest size",
+    "intro": "Tailored vests are usually sized by chest like a suit jacket (38, 40, 42) or by S–XL. A vest sold with a suit typically matches the jacket size.",
+    "steps": [
+      "Wear the dress shirt you'll wear under the vest.",
+      "Measure around the fullest part of your chest, under the armpits, keeping the tape level and snug.",
+      "Measure your waist where your trousers sit, usually around the navel for suit trousers.",
+      "Measure your torso length from the base of your neck at the front down to your trouser waistband to check the vest's length on the size chart.",
+      "Choose the size that matches your chest, then use the back adjuster to fine-tune the waist."
+    ],
+    "tip": "Always try a vest with the trousers you'll wear. Low-rise trousers almost guarantee a gap of shirt, no matter what vest size you buy."
+  },
+  "problems": [
+    {
+      "problem": "Shirt shows between the vest and trousers",
+      "fix": "Raise the trousers to your natural waist, using braces if needed, or choose a longer vest. Three-piece suits assume high-rise trousers."
+    },
+    {
+      "problem": "The bottom of the vest flares out",
+      "fix": "Leave the bottom button undone on a single-breasted vest with a pointed hem. If it still flares, the vest is too tight around the stomach."
+    },
+    {
+      "problem": "Buttons pull when sitting",
+      "fix": "Some tension seated is normal; strong pulling means it's too small. Let out the back adjuster or the side seams, or size up."
+    },
+    {
+      "problem": "The vest bulges under the jacket",
+      "fix": "The vest is too loose or too long. Cinch the back adjuster and check that the hem doesn't sit below the jacket's buttoning point."
+    },
+    {
+      "problem": "Armholes gape",
+      "fix": "A tailor can take in the side seams slightly, which also closes the armhole. Large gaps mean the vest is a size too big."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "How a vest should fit with a suit",
+      "body": "With the jacket buttoned, about an inch of vest should show above the jacket button, and none of it should show below the jacket hem. The vest should feel close enough that it doesn't shift when you move, but not so tight that the jacket feels snug over it. If you're buying a jacket to wear with a vest, try them on together, since a close-fitting jacket may need a little more room."
+    },
+    {
+      "heading": "Using the back adjuster",
+      "body": "Most tailored vests have a buckle or slider strap at the back. It's meant for fine adjustments of an inch or so, for example after a big meal or when layering. If you have to set it at either extreme to get a good fit, the vest is the wrong size."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Three-piece suits with matching waistcoat",
+      "why": "The vest is cut from the same cloth and sized with the jacket, so it lines up naturally.",
+      "query": "mens three piece suit with vest"
+    },
+    {
+      "label": "Standalone tailored waistcoat with adjustable back",
+      "why": "Adds a smart layer over a dress shirt, and the adjuster helps dial in the waist.",
+      "query": "mens dress vest adjustable back"
+    },
+    {
+      "label": "Women's tailored vest",
+      "why": "Shaped for the bust and waist, it can be worn alone or under a blazer.",
+      "query": "womens tailored vest suit"
+    },
+    {
+      "label": "Clip-on suspenders or braces",
+      "why": "Holds high-rise trousers at the natural waist so the vest covers the waistband.",
+      "query": "mens suspenders for dress pants"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a vest fit with a suit?",
+      "a": "Snug and flat against your shirt, covering the trouser waistband completely, with the V-opening just visible above the buttoned jacket. None of the vest should show below the jacket hem."
+    },
+    {
+      "q": "Should a vest be tight or loose?",
+      "a": "A tailored vest should be close-fitting but not tight: smooth over the chest with no pulling at the buttons. Sweater and puffer vests are looser and sized to layer."
+    },
+    {
+      "q": "How long should a vest be?",
+      "a": "Long enough to cover your trouser waistband with no shirt showing, and short enough not to extend below a buttoned jacket. The front points can drop just below the waistband."
+    },
+    {
+      "q": "Do you button the bottom button of a vest?",
+      "a": "On a single-breasted vest with a pointed or cutaway hem, the bottom button is traditionally left undone. A vest with a straight hem, including most double-breasted ones, is buttoned fully."
+    },
+    {
+      "q": "Can you wear a vest without a jacket?",
+      "a": "Yes, and then the back shows, so make sure it lies flat and the adjuster isn't bunched. A standalone vest should still cover your waistband."
+    },
+    {
+      "q": "How should a vest fit a man?",
+      "a": "Close to the body, with the armholes sitting close under the arm, the front flat across the chest and the hem over the trouser waistband. The back strap should be near the middle of its range."
+    }
+  ],
+  "related": ["suit", "suit-jacket", "suit-pants", "dress-shirt", "blazer", "sport-coat", "dress-pants", "belt", "shirt"],
+  "updated": "2026-11-19"
+}

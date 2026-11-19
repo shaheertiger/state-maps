@@ -1,0 +1,120 @@
+{
+  "slug": "blundstone",
+  "brand": "Blundstone",
+  "h1": "How Do Blundstones Fit?",
+  "category": "boots",
+  "keywords": [
+    "how should blundstones fit",
+    "how do blundstones fit",
+    "do blundstones fit true to size",
+    "how do blundstone boots fit",
+    "how are blundstones supposed to fit",
+    "how should blundstone boots fit"
+  ],
+  "verdict": "true to size",
+  "answer": "Blundstone says its boots fit true to size. Order your US size and the boots arrive in the matching AU/UK size stamped on the sole. Expect a slight give in the heel and about a quarter inch of space in front of your toes. For a wider fit, Blundstone suggests a half size up.",
+  "sizeChart": {
+    "caption": "Blundstone adult size guide (US to AU/UK)",
+    "headers": ["US men", "US women", "AU/UK"],
+    "rows": [
+      ["4", "6", "3"],
+      ["5", "7", "4"],
+      ["6", "8", "5"],
+      ["7", "9", "6"],
+      ["8", "10", "7"],
+      ["8.5", "10.5", "7.5"],
+      ["9", "11", "8"],
+      ["9.5", "—", "8.5"],
+      ["10", "—", "9"],
+      ["11", "—", "10"],
+      ["12", "—", "11"],
+      ["13", "—", "12"],
+      ["14", "—", "13"]
+    ],
+    "note": "Blundstone boots are unisex and stamped with the AU/UK size. The chart also covers half sizes from US men's 4.5 to 11.5, and starts at US men's 3 / women's 5 (AU/UK 2).",
+    "source": {
+      "name": "Blundstone US size guide",
+      "url": "https://www.blundstone.com/size-guides"
+    }
+  },
+  "sections": [
+    {
+      "heading": "True to size, sold in AU/UK sizes",
+      "body": "Blundstone states plainly that its boots fit true to size. Every boot has the AU/UK size stamped on the bottom. On the US site you order in US size and the boots ship in the matching AU/UK size, which is three below a women's US size and one below a men's US size. Blundstone's own example is AU/UK 8 = US men's 9 or US women's 11. Its Australian site adds that all lifestyle boots come in unisex sizes, women's heels included."
+    },
+    {
+      "heading": "What a good fit feels like",
+      "body": "When you try them on, Blundstone says there should be a slight give in the heel and about a quarter inch of space from the tip of your toe to the front of the boot. Try them standing, in the socks you'll wear with them, and on a carpeted surface so the soles stay protected."
+    },
+    {
+      "heading": "Half sizes add width, not length",
+      "body": "Blundstone's half sizes work differently from most brands. Its Australian site explains that a half size uses exactly the same footbed as the whole size below it, with a little more leather in the upper for extra room. That's why the brand's advice for a wider foot is to select a half size up. Its boot sizing guide gives the same advice: if you have wide feet, try a half size up so your toes can move easily."
+    },
+    {
+      "heading": "Stretch and break-in",
+      "body": "Blundstone says the leather will stretch and mold to your feet over time. With repeated wear the boots stretch slightly over the instep, but they never stretch lengthwise, so the toe room you feel on day one is the toe room you keep. Blundstone says a bit of heel slippage is normal during break-in, but if it's more than half an inch, wear a pair of socks to avoid chafing and blisters."
+    },
+    {
+      "heading": "Series that fit differently",
+      "body": "Not every Blundstone line fits the same. The Classics series is a slightly wider fit than the Originals and comes with extra insoles you can use to adjust the fit. The Dress series has a slightly longer fit than other Blundstone styles, and the brand notes that some people go down a half size in it."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Blundstones fit true to size?",
+      "a": "Yes. Blundstone says its boots fit true to size. Order your US size and the boots arrive in the matching AU/UK size."
+    },
+    {
+      "q": "Should I size up or down in Blundstones?",
+      "a": "Neither, for most people. Blundstone says to go a half size up if you want a wider fit. In the Dress series, which fits slightly longer, it notes some people go down a half size."
+    },
+    {
+      "q": "How much toe room should Blundstones have?",
+      "a": "About a quarter inch from the tip of your toe to the front of the boot, with a slight give at the heel, according to Blundstone's size guide."
+    },
+    {
+      "q": "Do Blundstones stretch?",
+      "a": "Slightly over the instep, and the leather molds to your feet. Blundstone says they never stretch lengthwise."
+    },
+    {
+      "q": "What's the difference with a Blundstone half size?",
+      "a": "Blundstone says a half size has the same footbed as the whole size, with a little more leather in the upper for extra room. It's a way to add width, not length."
+    },
+    {
+      "q": "What size Blundstone is a women's 8?",
+      "a": "On Blundstone's chart a US women's 8 is an AU/UK 5, which is also a US men's 6."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Blundstone Original 500 Chelsea boots",
+      "why": "Blundstone's Originals series; the Classics fit slightly wider than these.",
+      "query": "blundstone 500 chelsea boot"
+    },
+    {
+      "label": "Blundstone Classics series boots",
+      "why": "Blundstone says these fit slightly wider and include extra insoles to adjust fit.",
+      "query": "blundstone classics chelsea boot"
+    },
+    {
+      "label": "Blundstone Dress series boots",
+      "why": "A slightly longer fit; Blundstone notes some people go down a half size.",
+      "query": "blundstone dress chelsea boot"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Blundstone US size guide",
+      "url": "https://www.blundstone.com/size-guides"
+    },
+    {
+      "name": "Blundstone Australia size guide",
+      "url": "https://www.blundstone.com.au/size-guides"
+    },
+    {
+      "name": "Blundstone boot sizing guide: should you size up or down",
+      "url": "https://www.blundstone.com/blogs/guides/should-you-size-up-or-down-for-boots"
+    }
+  ],
+  "checked": "2026-11-19"
+}

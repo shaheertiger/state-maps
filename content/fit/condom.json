@@ -1,0 +1,194 @@
+{
+  "slug": "condom",
+  "item": "condom",
+  "h1": "How Should a Condom Fit?",
+  "category": "health",
+  "shape": "generic",
+  "keywords": [
+    "how should a condom fit",
+    "how is a condom supposed to fit",
+    "how are condoms supposed to fit",
+    "how should condoms fit",
+    "how should condom fit"
+  ],
+  "answer": "A condom should fit snugly along the whole shaft without pinching, unroll easily all the way to the base, stay in place without slipping or rolling up during use, and leave a small empty space at the tip. Width matters far more than length: most fit problems come from a nominal width that is too narrow or too wide.",
+  "intro": "Condoms are sold by nominal width, not by a simple small, medium or large. Nominal width is the width of the condom laid flat, in millimeters, which is about half its circumference. Standard condoms are usually around 52–54 mm, snug or close-fit styles go below that, and larger styles go above it. Because labels like \"large\" or \"snug\" aren't standardized between brands, the millimeter figure on the box or the brand's website is the number to compare.",
+  "checklist": [
+    {
+      "point": "Width around the shaft",
+      "anchor": "p1",
+      "good": "Snug and even all the way along, like a close-fitting sleeve, with no pinching and no loose fabric.",
+      "tooTight": "Feels constricting or uncomfortable, leaves a deep mark, or makes the condom hard to unroll.",
+      "tooLoose": "Wrinkles, bunches or twists along the shaft, and you can easily slide it around with your fingers."
+    },
+    {
+      "point": "Base ring",
+      "anchor": "p2",
+      "good": "The rolled ring sits at the base, holds gently and stays put.",
+      "tooTight": "The ring feels like a band squeezing the base or leaves a red line afterward.",
+      "tooLoose": "The ring creeps up the shaft during use or doesn't grip at all."
+    },
+    {
+      "point": "Length and coverage",
+      "anchor": "p3",
+      "good": "It unrolls to the base, or close to it. A little unrolled ring left over at the base is normal and fine.",
+      "tooTight": "Too short: it can't reach the base, leaving part of the shaft uncovered.",
+      "tooLoose": "Too long: a thick unrolled ring at the base is usually harmless, but if the extra length makes it feel loose, try a narrower width rather than a shorter condom."
+    },
+    {
+      "point": "Reservoir tip",
+      "anchor": "p4",
+      "good": "About ½ in of empty space at the tip, with the air squeezed out before unrolling.",
+      "tooTight": "The tip is stretched taut with no room left, which adds pressure and raises the risk of breakage.",
+      "tooLoose": "A large air bubble or baggy tip, usually because the tip wasn't pinched while putting it on."
+    },
+    {
+      "point": "Staying in place during use",
+      "anchor": "p5",
+      "good": "It stays where you put it from start to finish, with no need to adjust.",
+      "tooTight": "It rolls up from the base on its own because the latex is under too much tension.",
+      "tooLoose": "It slips down, slides off, or comes off on withdrawal."
+    },
+    {
+      "point": "Comfort and sensation",
+      "anchor": "p6",
+      "good": "You notice it, but it isn't distracting or uncomfortable.",
+      "tooTight": "Pressure or numbness that gets worse over time is a common sign the width is too small.",
+      "tooLoose": "Friction or movement you can feel as the condom shifts is a common sign it's too wide."
+    }
+  ],
+  "variations": {
+    "heading": "Snug, standard and larger condoms",
+    "intro": "The fit checkpoints above stay the same. What changes between styles is the nominal width, the shape, and sometimes the material.",
+    "items": [
+      {
+        "name": "Snug or close fit",
+        "text": "Usually a nominal width below about 52 mm, often around 47–50 mm. A good choice if standard condoms wrinkle, slip or come off. Some are also slightly shorter."
+      },
+      {
+        "name": "Standard",
+        "text": "Usually around 52–54 mm nominal width. This is what most people buy first, and it fits a wide range of sizes because latex stretches."
+      },
+      {
+        "name": "Larger",
+        "text": "Usually about 56 mm and up. Worth trying if standard condoms feel constricting, are hard to unroll, or break. Choose by width, not by a marketing name, because one brand's \"large\" can match another brand's standard."
+      },
+      {
+        "name": "Shaped or flared",
+        "text": "Some condoms are wider near the head and narrower at the base. They can feel roomier at the top while still gripping at the base, but they fit differently from straight-walled styles, so judge them on their own."
+      },
+      {
+        "name": "Latex-free materials",
+        "text": "Polyisoprene stretches much like latex and fits similarly. Polyurethane stretches less, so it often feels looser, and its sizing may not match a latex condom with the same label."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your condom size",
+    "intro": "You only need a soft tape measure, or a piece of string and a ruler. Measure when erect, because that's when the condom has to fit.",
+    "steps": [
+      "Wrap a soft tape measure, or a piece of string, around the thickest part of the shaft. Keep it snug but not tight. That number is your girth.",
+      "If you used string, mark where it meets and measure the length on a ruler.",
+      "Convert your girth to millimeters if needed (inches × 25.4).",
+      "Divide your girth in millimeters by 2. Condoms are designed to stretch slightly to stay in place, so a nominal width at or a few millimeters below that number is a reasonable starting point.",
+      "Optionally, measure length along the top from the base to the tip. Most condoms are longer than needed, so length rarely decides the size.",
+      "Compare with the nominal width each brand lists, then try a couple of options to see which feels best."
+    ],
+    "tip": "If you're between widths, a variety pack with several sizes is the quickest way to compare."
+  },
+  "problems": [
+    {
+      "problem": "The condom slips or comes off",
+      "fix": "Try a narrower nominal width. Make sure it's unrolled all the way to the base, and hold the base ring when withdrawing."
+    },
+    {
+      "problem": "The condom breaks",
+      "fix": "Breakage can mean the width is too small, but it's also caused by too little lubricant, using oil-based products with latex, expired or heat-damaged condoms, or tearing the wrapper with teeth or nails. Check each of these, and consider a wider size if the fit feels tight."
+    },
+    {
+      "problem": "It's hard to unroll",
+      "fix": "Check that it isn't inside out: the rim should be on the outside so it rolls down easily. If it started the wrong way, throw it away and use a new one. If it's the right way but still a struggle, try a wider size."
+    },
+    {
+      "problem": "It feels uncomfortably tight",
+      "fix": "Move up to a wider nominal width, or try a shaped style with more room near the head."
+    },
+    {
+      "problem": "Irritation or itching afterward",
+      "fix": "This may not be a fit issue at all. It can come from lubricant ingredients or a latex sensitivity. Try a different lubricant or a latex-free condom, and talk to a doctor or pharmacist if it continues."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Why sizes vary between brands",
+      "body": "There's no universal small, medium and large for condoms. Brands describe the same nominal width in different ways, and shape, thickness and material all change how a condom feels at the same width. Compare the millimeter figure, not the name on the box, and expect to try a few before settling on one."
+    },
+    {
+      "heading": "Things that affect fit besides size",
+      "body": "Use a water-based or silicone-based lubricant with latex, because oil-based products such as lotion or petroleum jelly weaken it. Store condoms somewhere cool and dry, not in a wallet or a hot car, and check the expiration date. Use a new condom every time and only one at a time; doubling up increases friction and makes breakage more likely."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Condom variety pack with several widths",
+      "why": "The easiest way to compare snug, standard and larger sizes without buying a full box of each.",
+      "query": "condom variety pack different sizes"
+    },
+    {
+      "label": "Snug or close-fit condoms",
+      "why": "For anyone whose standard condoms wrinkle, slip or come off. Check the nominal width on the box.",
+      "query": "snug fit condoms"
+    },
+    {
+      "label": "Larger-size condoms",
+      "why": "For anyone who finds standard condoms constricting or hard to unroll. Compare the nominal width, not just the word large.",
+      "query": "larger size condoms"
+    },
+    {
+      "label": "Latex-free polyisoprene condoms",
+      "why": "A latex-free option that stretches and fits much like latex, for people with a latex sensitivity.",
+      "query": "non latex polyisoprene condoms"
+    },
+    {
+      "label": "Water-based personal lubricant",
+      "why": "Safe with latex and helps reduce friction, which lowers the chance of breakage.",
+      "query": "water based personal lubricant condom compatible"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How is a condom supposed to fit?",
+      "a": "Snug along the whole shaft without pinching, unrolled to or near the base, with about ½ in of empty space at the tip. It should stay in place throughout without slipping or rolling up."
+    },
+    {
+      "q": "How do I know if a condom is too small?",
+      "a": "It feels constricting, is hard to unroll, leaves a deep mark, rolls up from the base on its own, or breaks. Try a wider nominal width."
+    },
+    {
+      "q": "How do I know if a condom is too big?",
+      "a": "It wrinkles or bunches, slides around easily, slips during use, or comes off on withdrawal. Try a narrower nominal width."
+    },
+    {
+      "q": "Does condom length matter?",
+      "a": "Much less than width. Most condoms are longer than they need to be, and leftover unrolled ring at the base is normal. Choose by nominal width first."
+    },
+    {
+      "q": "What is a standard condom size?",
+      "a": "Standard condoms are usually around 52–54 mm nominal width. Snug styles are narrower and larger styles are wider, but the exact figures vary by brand."
+    },
+    {
+      "q": "What does nominal width mean on a condom?",
+      "a": "It's the width of the condom laid flat, in millimeters, which is about half its circumference. It's the most useful number for comparing sizes between brands."
+    },
+    {
+      "q": "Should a condom be tight?",
+      "a": "It should be snug, not tight. You want it to stay in place on its own without squeezing. Discomfort, numbness or a red line at the base suggest it's too narrow."
+    }
+  ],
+  "related": ["retainer", "night-guard", "breast-pump-flange", "compression-socks", "arm-sling", "ring", "gloves"],
+  "caution": "This page covers general fit only. For questions about contraception, protection from sexually transmitted infections, latex allergy or ongoing discomfort, talk to a doctor, pharmacist or sexual health clinic.",
+  "sources": [
+    { "name": "NHS: Condoms", "url": "https://www.nhs.uk/contraception/methods-of-contraception/condoms/" }
+  ],
+  "updated": "2026-11-19"
+}

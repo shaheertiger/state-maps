@@ -1,0 +1,190 @@
+{
+  "slug": "glasses",
+  "item": "glasses",
+  "h1": "How Should Glasses Fit?",
+  "category": "eyewear",
+  "shape": "glasses",
+  "keywords": [
+    "how should glasses fit",
+    "how should glasses fit your face",
+    "how should eyeglasses fit",
+    "how should spectacles fit",
+    "how should glasses fit behind ears",
+    "how should glasses fit on nose",
+    "how should glasses fit eyebrows"
+  ],
+  "answer": "Glasses fit when the frame is about as wide as your face at the temples, your pupils sit near the center of each lens, the bridge rests on your nose without pinching or sliding, the temples run straight back and curve gently behind your ears, and the frames don't touch your cheeks or eyelashes when you smile.",
+  "intro": "Eyeglasses (or spectacles) have to do two jobs: hold the lenses in the right place in front of your eyes and stay comfortable all day. An optician can adjust nose pads and temple arms in a few minutes, usually at no charge, but no adjustment fixes a frame that's the wrong width or has a bridge that doesn't suit your nose. Start with the size numbers printed inside the temple arm.",
+  "checklist": [
+    {
+      "point": "Frame width",
+      "anchor": "frame",
+      "good": "The front is about as wide as your face at the temples, with no more than a finger's width of frame beyond each side.",
+      "tooTight": "The arms press into the sides of your head and leave red marks above your ears or at your temples.",
+      "tooLoose": "The frame extends well past your face, the arms bow outward, and the glasses slide when you look down."
+    },
+    {
+      "point": "Eyes in the lenses",
+      "anchor": "lens",
+      "good": "Each pupil sits roughly in the middle of its lens, horizontally and vertically, and your eyelashes clear the lens.",
+      "tooTight": "Lenses too small: your eyes sit near the inner or outer edge, or the top rim cuts across your line of sight.",
+      "tooLoose": "Lenses too large: your eyes look crowded toward the nose, and heavy lens edges add weight with a strong prescription."
+    },
+    {
+      "point": "Bridge and nose pads",
+      "anchor": "bridge",
+      "good": "The bridge sits flush on your nose with weight spread evenly, leaving only faint marks after several hours.",
+      "tooTight": "The bridge pinches, sits too high on the nose, or leaves deep red dents on each side.",
+      "tooLoose": "There's a gap between the bridge and your nose, and the glasses slide down when you look down or sweat."
+    },
+    {
+      "point": "Height and eyebrows",
+      "anchor": "frame",
+      "good": "The top of the frame follows the line of your eyebrows, at or just below them, and the frame clears your cheeks when you smile.",
+      "tooTight": "Sitting too low: the frame rests on your cheeks and lifts when you smile or talk.",
+      "tooLoose": "Sitting too high: the top rim covers your eyebrows completely or the bottom rim floats far above your cheekbones."
+    },
+    {
+      "point": "Temple arms",
+      "anchor": "temple",
+      "good": "The arms run straight back to your ears without touching the sides of your head before they get there.",
+      "tooTight": "Too short: the bend starts on top of your ear, pushing the glasses forward and pressing on the ear.",
+      "tooLoose": "Too long: the bend falls well behind your ear, so the glasses slide forward and down."
+    },
+    {
+      "point": "Behind the ears",
+      "anchor": "ear",
+      "good": "The tips curve down behind your ears, following the bone with light, even contact.",
+      "tooTight": "The tips dig into the skin behind your ear and cause soreness or headaches.",
+      "tooLoose": "The tips don't touch behind the ear at all, so nothing holds the glasses in place."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by frame type and face",
+    "items": [
+      {
+        "name": "Metal frames with adjustable nose pads",
+        "text": "Pads on small arms can be bent to fit almost any nose, so these are the easiest to fine-tune. The pads should sit evenly on both sides and hold the lenses at the right height."
+      },
+      {
+        "name": "Plastic (acetate) frames",
+        "text": "The bridge is molded into the frame and can't be adjusted much, so it must match your nose. If you have a low or narrow bridge, look for frames labeled low bridge fit or alternative fit, which have a deeper, lower bridge and sometimes built-in pads."
+      },
+      {
+        "name": "Rimless and semi-rimless",
+        "text": "Lighter and less visible, with adjustable pads. Fit rules are the same; check that the lens shape centers your pupils, because there's no rim to frame the eye."
+      },
+      {
+        "name": "Progressives, bifocals and strong prescriptions",
+        "text": "These need taller lenses, often at least 28–30 mm high for progressives, so the reading zone fits in. The optician also measures your fitting height. Strong prescriptions look and feel better in smaller lenses that keep your pupils centered, since thick edges add weight."
+      },
+      {
+        "name": "Kids' glasses",
+        "text": "Children often need frames with adjustable pads and cable or wraparound temples that curl around the ear to stop the glasses sliding during play. Check the fit every few months as faces grow."
+      },
+      {
+        "name": "Wide or narrow faces",
+        "text": "Wide faces need a larger total frame width and longer temples, often 145–150 mm. Narrow faces suit small lens widths and short temples around 130–135 mm so the frame doesn't overhang."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to read frame sizes and measure yourself",
+    "intro": "Most frames have three numbers printed inside one temple arm, such as 52-18-140 or 52□18 140. All three are in millimeters: lens width, bridge width and temple length.",
+    "steps": [
+      "Find the numbers on a pair of glasses that fit you well. The first number is the lens width, usually 40–62 mm.",
+      "The second number is the bridge width, the gap between the lenses, usually 14–24 mm. It should match the width of your nose where the glasses sit.",
+      "The third number is the temple (arm) length, from the hinge to the tip, usually 120–150 mm.",
+      "Estimate the total frame width as two lens widths plus the bridge plus a few millimeters for the frame. Compare it with your face width, measured straight across from temple to temple in front of your ears.",
+      "Measure your pupillary distance (PD), the distance between the centers of your pupils, using a ruler in a mirror or ask for it at your eye exam. It's needed when ordering lenses.",
+      "When shopping, stay within about 2 mm of your current lens and bridge widths and about 5 mm of the temple length."
+    ],
+    "tip": "Some frames add a fourth number, the lens height. If you wear progressives, look for a lens height of about 28 mm or more."
+  },
+  "problems": [
+    {
+      "problem": "Glasses keep sliding down your nose",
+      "fix": "An optician can bend the temple tips to grip behind your ears and adjust nose pads closer together. On plastic frames, slip-on silicone nose pads or temple grips help. If the bridge is simply too wide, choose a frame with a narrower or low bridge fit."
+    },
+    {
+      "problem": "Pain behind the ears",
+      "fix": "The temple tips are bent too sharply or the temples are too short. An optician can reshape them; if they're still too short, you need a frame with longer temples."
+    },
+    {
+      "problem": "Red marks or soreness on the nose",
+      "fix": "Weight is concentrated on too small an area. Have the pads adjusted to spread the load, switch to larger or softer silicone pads, or choose lighter lenses such as high-index or polycarbonate."
+    },
+    {
+      "problem": "Glasses sit crooked",
+      "fix": "One temple or nose pad is bent, or your ears sit at slightly different heights, which is common. An optician can angle one temple to level the frame."
+    },
+    {
+      "problem": "Frames touch your cheeks or eyelashes",
+      "fix": "The frame sits too low or too close to the face. Raising the nose pads helps on metal frames; on plastic frames with a fixed bridge, a frame with a different bridge fit or a different shape is usually the answer."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Get them adjusted",
+      "body": "Most optical shops adjust glasses for free, even frames bought elsewhere, and a few minutes of adjustment fixes most sliding, pinching and crooked fits. Ask for an adjustment when you first pick up new glasses and whenever they start to feel different. Avoid bending frames yourself, especially acetate, which is warmed before it's shaped, and older or rimless frames, which can snap."
+    },
+    {
+      "heading": "Buying glasses online",
+      "body": "Copy the three numbers from a pair that fits you, and use them as your filter. Many online retailers let you search by lens width, bridge and temple length, and some offer virtual try-on. Make sure you have your PD and, for progressives, check that the frame is tall enough. Plan to have the finished pair adjusted at a local optician."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Low bridge fit eyeglass frames",
+      "why": "A deeper, lower bridge suits people whose glasses sit on their cheeks or slide down, often those with a low or flat nose bridge.",
+      "query": "low bridge fit eyeglass frames"
+    },
+    {
+      "label": "Silicone nose pads and temple grips",
+      "why": "An inexpensive fix for plastic frames that slide down, especially in warm weather.",
+      "query": "glasses anti slip nose pads ear grips"
+    },
+    {
+      "label": "Eyeglass repair kit with mini screwdriver",
+      "why": "Loose hinge screws are a common cause of glasses slipping; a small kit lets you tighten them.",
+      "query": "eyeglass repair kit screwdriver"
+    },
+    {
+      "label": "Pupillary distance ruler",
+      "why": "Helps you measure your PD for ordering lenses online if it's not on your prescription.",
+      "query": "pupillary distance ruler"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should glasses fit on your nose?",
+      "a": "The bridge or nose pads should sit flush against both sides of your nose, carrying the weight evenly. They shouldn't pinch, leave deep red marks, or slide down when you look at the floor."
+    },
+    {
+      "q": "How should glasses fit behind your ears?",
+      "a": "The temple arms should reach your ears without pressing on the sides of your head, then curve gently down behind the ear, following its shape with light contact. They shouldn't dig in or float."
+    },
+    {
+      "q": "Where should glasses sit in relation to your eyebrows?",
+      "a": "The top of the frame generally follows your brow line, sitting at or just below the eyebrows. It shouldn't hide your eyebrows completely, and you shouldn't see a big gap between brows and frame."
+    },
+    {
+      "q": "Should glasses touch your cheeks?",
+      "a": "No. If the frame rests on your cheeks or moves up when you smile, it's sitting too low. Adjusting the nose pads or choosing a different bridge fit lifts it."
+    },
+    {
+      "q": "What do the numbers on glasses mean?",
+      "a": "They're the frame size in millimeters: lens width, bridge width and temple length. For example, 52-18-140 means 52 mm lenses, an 18 mm bridge and 140 mm arms."
+    },
+    {
+      "q": "How do I know if my glasses are too big?",
+      "a": "The frame extends well past the sides of your face, your eyes sit toward the inner edge of the lenses, and the glasses slide down even after adjustment."
+    },
+    {
+      "q": "Should glasses be tight or loose?",
+      "a": "Secure but not tight. They should stay put when you nod or look down, without pressure on your temples, nose or behind your ears."
+    }
+  ],
+  "related": ["sunglasses", "hat", "baseball-cap", "cowboy-hat", "watch", "bike-helmet", "ski-helmet", "ring"],
+  "updated": "2026-11-19"
+}

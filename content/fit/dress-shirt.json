@@ -1,0 +1,242 @@
+{
+  "slug": "dress-shirt",
+  "item": "dress shirt",
+  "h1": "How Should a Dress Shirt Fit?",
+  "category": "suits",
+  "shape": "shirt",
+  "keywords": [
+    "how should a dress shirt fit",
+    "how is a dress shirt supposed to fit",
+    "how should dress shirts fit",
+    "how should a men's dress shirt fit",
+    "how should a dress shirt fit men"
+  ],
+  "answer": "A dress shirt fits when one finger slides between the buttoned collar and your neck, the shoulder seams sit on your shoulder bones, the front buttons lie flat without gaping, the cuffs end at the base of your thumb, and the tails stay tucked when you raise your arms.",
+  "intro": "Dress shirts are sized more precisely than casual shirts: by neck circumference and sleeve length, such as 15½ 34/35. That precision matters, because the collar and cuffs are the parts that show under a jacket and tie. Try shirts on buttoned to the top, and raise and cross your arms before deciding.",
+  "checklist": [
+    {
+      "point": "Collar",
+      "anchor": "collar",
+      "good": "Buttoned, one finger slides flat between the collar and your neck, and the collar points sit flat with or without a tie.",
+      "tooTight": "The collar pinches, leaves a red mark, or the tie knot forces the collar to buckle.",
+      "tooLoose": "Two or more fingers fit easily and the collar rides down or splays when you knot a tie."
+    },
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder seam lands at the end of your shoulder bone.",
+      "tooTight": "The seam sits up on top of your shoulder and the fabric pulls across your upper back.",
+      "tooLoose": "The seam droops down your upper arm and creates a fold under a jacket."
+    },
+    {
+      "point": "Chest",
+      "anchor": "chest",
+      "good": "The buttons lie flat and you can pinch 1–2 in of fabric on each side of the chest.",
+      "tooTight": "The placket gapes between buttons and horizontal pull lines form across the chest.",
+      "tooLoose": "The fabric balloons over the chest and puffs out above a jacket's button."
+    },
+    {
+      "point": "Sleeve length",
+      "anchor": "cuff",
+      "good": "With arms relaxed, the cuff reaches the base of your thumb and shows ¼–½ in beyond a jacket sleeve.",
+      "tooTight": "Too short: the cuff pulls up above the wrist bone when you reach forward or bend your arm.",
+      "tooLoose": "Too long: the cuff covers part of your hand and bunches at the wrist."
+    },
+    {
+      "point": "Cuff width",
+      "anchor": "sleeve",
+      "good": "The buttoned cuff is snug enough to stay put at the wrist, with room for a watch on one side.",
+      "tooTight": "The cuff pinches the wrist or won't close over your watch.",
+      "tooLoose": "The cuff slides down over your hand, making the sleeve look too long even when it isn't."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "When tucked, the shirt follows your torso with only a little blousing above the belt.",
+      "tooTight": "The buttons pull at the stomach and the shirt untucks when you sit.",
+      "tooLoose": "Fabric billows over the waistband in a muffin-top of cotton, especially at the back."
+    },
+    {
+      "point": "Tail length",
+      "anchor": "hem",
+      "good": "The tails reach at least a few inches below your waistband, roughly to mid-seat, so the shirt stays tucked.",
+      "tooTight": "Too short: the shirt pulls out of your trousers when you raise your arms.",
+      "tooLoose": "Too long: excess tail bunches inside your trousers and adds bulk at the seat."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by cut",
+    "intro": "Most dress shirt makers offer two or three body cuts with the same collar and sleeve sizes. The collar and sleeve rules don't change; the body does.",
+    "items": [
+      {
+        "name": "Slim or extra-slim fit",
+        "text": "Tapered sharply from chest to waist, often with back darts. Best for lean builds. Check the buttons over your chest and stomach, especially sitting down: gaping means you need a fuller cut."
+      },
+      {
+        "name": "Tailored or modern fit",
+        "text": "A moderate taper that suits most average builds. It tucks neatly without blousing and leaves room to move."
+      },
+      {
+        "name": "Classic or regular fit",
+        "text": "Full through the chest and waist. Comfortable for larger builds, but on a slim frame it billows over the trousers. A tailor can add darts to take it in."
+      },
+      {
+        "name": "Athletic fit",
+        "text": "More room in the chest, shoulders and arms with a tapered waist, for people whose slim shirts strain at the chest but whose classic shirts balloon at the waist."
+      },
+      {
+        "name": "Women's button-down shirts",
+        "text": "Usually sized by dress size rather than neck size. The key check is the bust: the placket should lie flat with no gaping between buttons when you move. Some brands add a hidden button or a shaped bust to prevent gaps."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your dress shirt size",
+    "intro": "You need two numbers: neck size and sleeve length, both in inches. A soft tape measure and a helper make it easier.",
+    "steps": [
+      "Wrap the tape around the base of your neck, where a collar would sit, keeping one finger under the tape. Round up to the nearest ½ in. That's your neck size.",
+      "Stand with your arm relaxed and slightly bent. Have a helper measure from the center of the back of your neck, across the shoulder, down to the wrist bone. That's your sleeve length.",
+      "If you're between sleeve lengths, round up; a cuff can be moved but a short sleeve can't be lengthened.",
+      "Measure your chest at the fullest part and your waist at the navel to choose between slim, tailored and classic cuts on the brand's chart."
+    ],
+    "tip": "Cotton shirts can shrink a little in the first few washes, mostly in the collar and sleeves. If a new shirt is exactly snug at the collar, wash it cool and hang it to dry."
+  },
+  "sizeTable": {
+    "caption": "Dress shirt collar sizes, US/UK inches to EU centimeters",
+    "headers": [
+      "US / UK collar (in)",
+      "EU collar (cm)"
+    ],
+    "rows": [
+      [
+        "14",
+        "36"
+      ],
+      [
+        "14½",
+        "37"
+      ],
+      [
+        "15",
+        "38"
+      ],
+      [
+        "15½",
+        "39"
+      ],
+      [
+        "16",
+        "40–41"
+      ],
+      [
+        "16½",
+        "42"
+      ],
+      [
+        "17",
+        "43"
+      ],
+      [
+        "17½",
+        "44"
+      ],
+      [
+        "18",
+        "45–46"
+      ]
+    ],
+    "note": "EU collar sizes are roughly the neck measurement in centimeters, so some brands label 16 in as 40 and others as 41. Check each brand's chart."
+  },
+  "problems": [
+    {
+      "problem": "The collar fits but the body is huge",
+      "fix": "Try a slim or tailored cut in the same neck size, or have a tailor add back darts and take in the side seams."
+    },
+    {
+      "problem": "Buttons gape across the chest",
+      "fix": "Go up a collar size or choose an athletic cut. Women's shirts with a hidden placket button or a fuller bust cut also help."
+    },
+    {
+      "problem": "Sleeves too long but the collar fits",
+      "fix": "A tailor can shorten sleeves by removing the cuff and reattaching it. On a shirt you'll wear with a jacket, sleeve garters are a quick fix."
+    },
+    {
+      "problem": "Shirt untucks all day",
+      "fix": "The tail is too short or the waist too tight. Look for longer-tail or tall sizes, or a shirt cut with more room at the stomach."
+    },
+    {
+      "problem": "Collar points curl up",
+      "fix": "Use collar stays in the slots behind the points. If the collar has no slots, press it with starch."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Fitting a dress shirt under a suit",
+      "body": "With the jacket on, about ½ in of shirt collar should show above the jacket collar at the back, and ¼–½ in of shirt cuff should show past the jacket sleeve. A very full shirt body bunches under a slim jacket and spoils its line, so if you wear suits often, a tailored or slim body is worth choosing."
+    },
+    {
+      "heading": "Wearing a tie",
+      "body": "A tie adds bulk at the collar, so a collar that's comfortable open can feel tight with a knot. The one-finger rule is measured buttoned to the top, which is how it will be under a tie. A spread collar suits wider knots; a point collar suits slimmer ones."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Dress shirts sold by neck and sleeve size",
+      "why": "Shirts with two-number sizing (for example 15½ 34/35) fit far more precisely than S/M/L.",
+      "query": "mens dress shirt neck sleeve size slim fit"
+    },
+    {
+      "label": "Athletic-fit dress shirts",
+      "why": "Extra room in the chest and shoulders with a tapered waist for muscular builds.",
+      "query": "mens athletic fit dress shirt"
+    },
+    {
+      "label": "Women's button-up shirts with gap-proof plackets",
+      "why": "A hidden button or a bust-aware cut keeps the front closed when you move.",
+      "query": "womens button up shirt no gap"
+    },
+    {
+      "label": "Metal or plastic collar stays",
+      "why": "Keep collar points flat and crisp under a jacket or with a tie.",
+      "query": "collar stays for dress shirts"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a dress shirt collar be?",
+      "a": "Buttoned, one finger should slide flat between your neck and the collar. If two fingers fit easily, it's too loose; if you can't fit one, it's too tight."
+    },
+    {
+      "q": "Where should dress shirt sleeves end?",
+      "a": "At the base of your thumb with your arms relaxed. Under a jacket, ¼–½ in of cuff should show past the jacket sleeve."
+    },
+    {
+      "q": "Should a dress shirt be tight or loose?",
+      "a": "Close but not tight. You should be able to pinch 1–2 in at the chest, and the buttons should never pull or gape."
+    },
+    {
+      "q": "How long should a dress shirt be?",
+      "a": "Long enough to stay tucked when you raise your arms, usually reaching mid-seat. Dress shirts are generally cut too long to wear untucked."
+    },
+    {
+      "q": "What does 15½ 34/35 mean on a dress shirt?",
+      "a": "A 15½ in neck with a sleeve length that fits both 34 and 35 in arms. Two-number sleeves are a compromise; a single number fits more precisely."
+    },
+    {
+      "q": "Should I size up in a dress shirt?",
+      "a": "Size up only if the collar or chest is tight. If it's just the waist, try a fuller cut in the same neck size instead."
+    }
+  ],
+  "related": [
+    "suit",
+    "suit-jacket",
+    "blazer",
+    "sport-coat",
+    "vest",
+    "dress-pants",
+    "suit-pants",
+    "shirt",
+    "t-shirt"
+  ],
+  "updated": "2026-11-19"
+}

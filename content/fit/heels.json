@@ -1,0 +1,189 @@
+{
+  "slug": "heels",
+  "item": "heels",
+  "h1": "How Should High Heels Fit?",
+  "category": "footwear",
+  "shape": "shoe",
+  "keywords": [
+    "how should high heels fit",
+    "how should heels fit",
+    "how should heels fit in the back",
+    "how are heels supposed to fit",
+    "how should a high heel fit",
+    "should heels fit tight or loose"
+  ],
+  "answer": "High heels fit when your heel stays in the heel cup without slipping more than about ⅛ in as you walk, your toes reach close to the front without being crushed, the ball of your foot rests on the padded platform where the shoe is widest, and the arch of the shoe supports your arch rather than leaving a gap.",
+  "intro": "In a heel, your weight shifts forward onto the ball of the foot and your foot wants to slide toward the toe. That's why heels fit more closely than flats, with less toe room, and why a shoe that's half a size too big causes as many blisters as one that's too small. Walk in them on a hard floor before deciding.",
+  "checklist": [
+    {
+      "point": "Heel at the back",
+      "anchor": "heel",
+      "good": "Your heel fills the heel cup and stays there, lifting no more than about ⅛ in as you walk. You can just slide a fingertip, not a finger, behind your heel.",
+      "tooTight": "The back edge digs into your heel or Achilles, or the counter rubs a raw spot within minutes.",
+      "tooLoose": "Your heel pops out with each step, a gap opens at the back, or you can slip a whole finger behind your heel."
+    },
+    {
+      "point": "Toe length",
+      "anchor": "toe",
+      "good": "Your toes reach close to the end with roughly ¼ in to spare in a round or almond toe. In a pointed toe, your toes end where the point starts to narrow.",
+      "tooTight": "Too short: your toes are pressed against the front or curled, and the shoe hurts within minutes.",
+      "tooLoose": "Too long: your foot slides forward and the empty toe flattens or creases, and your heel slips out."
+    },
+    {
+      "point": "Ball of the foot",
+      "anchor": "ball",
+      "good": "The ball of your foot sits on the widest, flattest part of the insole, with your toe joints just behind the toe box.",
+      "tooTight": "The sides pinch your big-toe or little-toe joint, or your toes overlap.",
+      "tooLoose": "Your foot slides side to side or forward, piling pressure onto your toes."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "The curve of the shoe meets your arch so weight is spread between heel and ball.",
+      "tooTight": "The shank presses up into your arch in the wrong spot, usually because the size is off.",
+      "tooLoose": "There's a gap under your arch and all your weight lands on the ball of your foot."
+    },
+    {
+      "point": "Topline and straps",
+      "anchor": "collar",
+      "good": "The edges of a pump lie flat against your foot without gaping, and ankle straps close on a middle hole.",
+      "tooTight": "The sides cut into your foot or toe cleavage, or a strap leaves deep marks.",
+      "tooLoose": "The sides gape when you walk and the shoe flaps off at the heel."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by heel style and height",
+    "intro": "The higher the heel and the less there is holding your foot, the closer the fit needs to be.",
+    "items": [
+      {
+        "name": "Pumps",
+        "text": "Nothing but the shoe's edges holds your foot, so pumps need the snuggest fit: heel firmly in the cup, sides flat against the foot. Many people go a half size down in pumps compared with sneakers."
+      },
+      {
+        "name": "Strappy and ankle-strap sandals",
+        "text": "Straps hold the foot, so you can fit by footbed length. Your heel shouldn't hang over the back of the heel seat, and toes shouldn't creep past the front edge as you walk."
+      },
+      {
+        "name": "Block heels and wedges",
+        "text": "These are more stable and spread weight more evenly. Fit them like a flat: a little more toe room, around ¼–⅜ in, is comfortable."
+      },
+      {
+        "name": "Stilettos above 3 in",
+        "text": "At steep angles your foot slides forward hard. Fit them close, and consider a platform under the toe, which reduces the real slope. A ball-of-foot cushion can stop forward slide."
+      },
+      {
+        "name": "Wide feet",
+        "text": "Look for wide or W widths, a rounder or almond toe and a lower heel. Pointed toes add length but not width, so sizing up in a pointed heel rarely helps."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your size in heels",
+    "steps": [
+      "Measure your foot length late in the day, standing, heel against a wall.",
+      "Find your US women's size from your foot length in the table below, then check the brand's chart.",
+      "If the shoe is sold in EU sizes, use the brand's conversion, since European sizes vary between labels.",
+      "Try both shoes on and stand with your weight on them, then walk on a hard floor for a few minutes.",
+      "Check heel slip from behind in a mirror and press the toe to find your toes.",
+      "If you're between sizes, go with the smaller size in pumps and the larger in pointed or closed-toe styles that pinch, then use a heel grip if needed."
+    ],
+    "tip": "Shop in the afternoon or evening. Feet swell over the day, and heels that fit at 10 a.m. may be painful by 6 p.m."
+  },
+  "sizeTable": {
+    "caption": "Women's shoe size conversion: US, UK, EU and foot length",
+    "headers": ["US women", "UK", "EU", "Foot length (cm)", "Foot length (in)"],
+    "rows": [
+      ["5", "3", "35–36", "21.6", "8½"],
+      ["5½", "3½", "36", "22.0", "8⅝"],
+      ["6", "4", "36–37", "22.4", "8⅞"],
+      ["6½", "4½", "37", "22.9", "9"],
+      ["7", "5", "37–38", "23.3", "9⅛"],
+      ["7½", "5½", "38", "23.7", "9⅜"],
+      ["8", "6", "38–39", "24.1", "9½"],
+      ["8½", "6½", "39", "24.5", "9⅝"],
+      ["9", "7", "39–40", "24.9", "9¾"],
+      ["9½", "7½", "40", "25.4", "10"],
+      ["10", "8", "40–41", "25.8", "10⅛"],
+      ["11", "9", "41–42", "26.7", "10½"]
+    ],
+    "note": "Approximate. UK women's sizes are commonly about 2 below US women's. EU sizing varies by brand, and Italian and French heels often run differently from each other, so check the maker's own chart."
+  },
+  "problems": [
+    {
+      "problem": "Heel slips out of the back",
+      "fix": "Stick a heel grip inside the back of the shoe, or add a ball-of-foot cushion to stop the foot sliding forward. If the slip is more than about ¼ in, go a half size down."
+    },
+    {
+      "problem": "Ball of the foot burns or aches",
+      "fix": "A gel or foam ball-of-foot cushion helps. A lower heel, a platform or a block heel reduces pressure. Pain in the ball of the foot is also a sign the shoe is too long and your foot is sliding forward."
+    },
+    {
+      "problem": "Toes are crushed",
+      "fix": "The toe box is too narrow or short. Look for an almond or round toe, a wide width, or have a cobbler stretch leather pumps across the toe box."
+    },
+    {
+      "problem": "The back edge rubs a blister",
+      "fix": "Put a blister plaster on before you wear them, and wear new heels around the house first. Leather softens; stiff synthetic counters may not."
+    },
+    {
+      "problem": "Pump sides gape when you walk",
+      "fix": "The shoe is too wide or too long. Try a half size down or a narrow width, or choose a style with an ankle strap."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Breaking in new heels",
+      "body": "Wear them indoors for 20–30 minutes at a time over several days, with thin socks if you like, before a full day out. Leather and suede will mold slightly to your foot. Don't expect length to change: if your toes are pressed against the end, the shoe won't get longer."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Block heels and low heels",
+      "why": "More stable and easier on the ball of the foot for all-day wear.",
+      "query": "womens block heel pumps"
+    },
+    {
+      "label": "Wide-width heels",
+      "why": "A wider forefoot relieves pinching without making the shoe too long.",
+      "query": "womens wide width heels"
+    },
+    {
+      "label": "Heel grips and ball-of-foot cushions",
+      "why": "Fix slight heel slip and stop the foot sliding forward in heels that are a little big.",
+      "query": "heel grips ball of foot cushions"
+    },
+    {
+      "label": "Ankle-strap heels",
+      "why": "A strap holds the shoe to the foot, so less depends on a perfect heel-cup fit.",
+      "query": "womens ankle strap heels"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should heels fit tight or loose?",
+      "a": "Snug. Heels should hold your foot firmly at the heel and across the instep, without crushing your toes. Loose heels let your foot slide forward, which causes heel slip, toe pain and blisters."
+    },
+    {
+      "q": "How should heels fit in the back?",
+      "a": "Your heel should fill the heel cup and lift no more than about ⅛ inch when you walk. If a gap opens or your heel comes out, the shoe is too big or too wide at the back."
+    },
+    {
+      "q": "Should your toes touch the end of heels?",
+      "a": "They can come close, but they shouldn't press or curl. Leave about ¼ inch in a round toe; in a pointed toe, your toes should end where the point narrows."
+    },
+    {
+      "q": "Should I size up or down in heels?",
+      "a": "Wear your usual size first. Many people go a half size down in pumps to stop heel slip, and a half size up in narrow pointed styles. Fit the larger foot."
+    },
+    {
+      "q": "Do heels stretch?",
+      "a": "Leather and suede heels stretch slightly in width and soften at the back. Patent leather and synthetic heels stretch very little, and no heel gets longer."
+    },
+    {
+      "q": "Why do my feet slide forward in heels?",
+      "a": "The slope pushes your foot forward. If the shoe is too long or too wide, nothing stops it. A half size down, a ball-of-foot cushion or an ankle strap all help."
+    }
+  ],
+  "related": ["shoes", "dress-shoes", "loafers", "sandals", "ballet-shoes", "boots", "sneakers", "flip-flops"],
+  "updated": "2026-11-19"
+}

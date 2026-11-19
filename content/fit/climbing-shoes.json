@@ -1,0 +1,166 @@
+{
+  "slug": "climbing-shoes",
+  "item": "climbing shoes",
+  "h1": "How Should Climbing Shoes Fit?",
+  "category": "running",
+  "shape": "shoe",
+  "keywords": [
+    "how should climbing shoes fit",
+    "how should a climbing shoe fit",
+    "how are climbing shoes supposed to fit"
+  ],
+  "answer": "Climbing shoes should fit snug everywhere, with your toes touching the end and lightly bent, no empty space in the heel or under the arch, and pressure that feels firm but not painful. You should be able to stand in them for a few minutes; for beginners, toes flat or barely curled is right.",
+  "intro": "Climbing shoes are meant to be much tighter than any other shoe you own. A precise fit lets you stand on tiny edges and smear on rock without the shoe rolling around your foot. The question is how tight. The right answer depends on the climbing you do and how long you'll wear them, and it is never “so tight you can't think about anything else.”",
+  "checklist": [
+    {
+      "point": "Toe length",
+      "anchor": "length",
+      "good": "Your longest toe touches the end of the shoe, with toes flat or knuckles slightly bent depending on the style.",
+      "tooTight": "Too short: toes are crunched hard with knuckles jammed into the top, causing sharp pain within a minute or two of standing.",
+      "tooLoose": "Too long: there is space in front of your toes and the tip of the shoe rolls or folds when you stand on a small edge."
+    },
+    {
+      "point": "Toe box",
+      "anchor": "toe",
+      "good": "Toes are packed together firmly with even pressure and no hot spots on individual joints.",
+      "tooTight": "A single toe joint presses hard against the upper, or toes overlap painfully.",
+      "tooLoose": "You can wiggle your toes freely; the shoe feels like a sneaker."
+    },
+    {
+      "point": "Forefoot width",
+      "anchor": "ball",
+      "good": "The sides hug the ball of the foot so the shoe doesn't twist when you edge on the inside or outside.",
+      "tooTight": "Sharp pressure on a bunion or the little-toe joint, or the upper bulges.",
+      "tooLoose": "The forefoot rolls inside the shoe on edges, and there are loose wrinkles in the upper."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "The shoe sits flush under your arch with no gap.",
+      "tooTight": "Downturned shoes press painfully into the arch, or the arch shape sits in the wrong place for your foot.",
+      "tooLoose": "You can see or feel an air pocket under the arch, which lets the shoe deform."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "The heel cup is full: you can't pinch spare material at the back, and the heel stays put when you hook it on a hold.",
+      "tooTight": "The heel cup presses on the Achilles tendon or pushes the foot forward so the toes are crushed.",
+      "tooLoose": "There's dead air at the back of the heel, and the shoe slides off when you heel hook."
+    },
+    {
+      "point": "Closure and instep",
+      "anchor": "instep",
+      "good": "Velcro straps close with room left to tighten; laces close with a gap between the two sides.",
+      "tooTight": "Straps barely close or the top of the foot goes numb.",
+      "tooLoose": "Straps overlap fully or laces close completely and the shoe still feels loose."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by shoe shape and climbing style",
+    "items": [
+      {
+        "name": "Flat, neutral shoes (beginners and all-day climbing)",
+        "text": "Toes flat or just touching the end, snug but comfortable enough to wear for a long route or a whole gym session. This is the right starting point for new climbers and for multi-pitch and crack climbing."
+      },
+      {
+        "name": "Moderate (slightly downturned)",
+        "text": "Toes touch the end with knuckles slightly bent. A good middle ground for sport climbing and harder gym routes; tight enough for precision, still wearable between attempts."
+      },
+      {
+        "name": "Aggressive (downturned, asymmetric)",
+        "text": "Toes are curled and the foot is pushed into a hooked shape to focus power over the big toe. They're for steep bouldering and hard sport climbing, worn for short periods and taken off between attempts."
+      },
+      {
+        "name": "Slippers, velcro and lace-ups",
+        "text": "Slippers have the least adjustment, so they need the most precise size. Velcro is quickest on and off for the gym. Laces let you fine-tune fit along the whole foot, useful if your foot is narrow at the heel and wide at the forefoot."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your climbing shoe size",
+    "intro": "Climbing shoe sizes vary more between brands, and even between models, than any other shoe. Use your street size as a starting point only.",
+    "steps": [
+      "Start from your normal street shoe size in the brand's sizing (often EU or UK).",
+      "For a flat beginner shoe, try your street size and half a size down. For moderate or aggressive shoes, try half to one full size down.",
+      "Try them barefoot or with thin socks, whichever way you plan to climb.",
+      "Stand on your toes on a small edge or a step for a minute and check for sharp, pinpoint pain.",
+      "Check the heel by pinching the back and trying a heel hook; there should be no slack.",
+      "Ask the brand's or store's guidance for that specific model, since stretch and sizing differ."
+    ],
+    "tip": "Try climbing shoes in the afternoon, and if you can, test them on a store climbing wall or bouldering mat."
+  },
+  "problems": [
+    {
+      "problem": "Shoes are too painful to wear for more than a few minutes",
+      "fix": "They're too small or too aggressive for your climbing. Go up half a size or choose a flatter model. Pain that makes you avoid using your feet hurts your climbing."
+    },
+    {
+      "problem": "Empty space at the heel",
+      "fix": "The heel cup is too big for your foot. Try a model with a narrower or low-volume heel, often labeled LV or women's."
+    },
+    {
+      "problem": "Shoe stretched out and now feels sloppy",
+      "fix": "Unlined leather can stretch up to about a full size. Resole if the rubber is worn, but if the fit has gone loose, a smaller size or a synthetic shoe will hold its shape better."
+    },
+    {
+      "problem": "Numbness on top of the foot",
+      "fix": "Loosen the straps or laces over the instep. If the numbness continues, the shoe's volume is too low for your foot."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "How much do climbing shoes stretch?",
+      "body": "Unlined leather shoes can stretch noticeably, up to about a full size in some cases. Lined leather stretches less, roughly half a size, and synthetic uppers barely stretch at all. Buy synthetic shoes in the size that fits now, and leather shoes a little tight, but never so tight they cause sharp pain."
+    },
+    {
+      "heading": "Breaking in climbing shoes",
+      "body": "Wear new shoes on easy climbs for short sessions. Some climbers wear them around the house with thin socks. Expect the first few sessions to feel tight; after that, they should feel snug but comfortable."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Neutral beginner climbing shoes",
+      "why": "A flat, comfortable shoe is best for learning footwork and for long gym sessions.",
+      "query": "beginner climbing shoes"
+    },
+    {
+      "label": "Velcro climbing shoes",
+      "why": "Quick to slip off between climbs, which makes snug sizing easier to tolerate in the gym.",
+      "query": "velcro climbing shoes"
+    },
+    {
+      "label": "Low-volume climbing shoes",
+      "why": "Designed for narrow feet and slim heels, which helps if standard shoes leave dead space.",
+      "query": "low volume climbing shoes"
+    },
+    {
+      "label": "Downturned bouldering shoes",
+      "why": "For experienced climbers on steep terrain who want a tighter, more aggressive fit.",
+      "query": "downturned bouldering shoes"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should climbing shoes be?",
+      "a": "Snug everywhere with toes touching the end. They should feel firm but not painful. If you can't stand in them for a few minutes, they're too tight."
+    },
+    {
+      "q": "Should your toes be curled in climbing shoes?",
+      "a": "Slightly bent is normal in moderate and aggressive shoes. In beginner and all-day shoes, toes should be flat or barely curled."
+    },
+    {
+      "q": "How much should I size down for climbing shoes?",
+      "a": "Often between zero and one full size from your street shoe, depending on the model and its stretch. Follow the brand's advice for that specific shoe."
+    },
+    {
+      "q": "Should climbing shoes hurt?",
+      "a": "They should feel snug and somewhat uncomfortable, not painful. Sharp pain, numbness or toes that throb after a climb mean the shoes are too small."
+    },
+    {
+      "q": "Do you wear socks with climbing shoes?",
+      "a": "Most climbers go barefoot for better feel. Thin socks are fine, especially with rental shoes, but try shoes on the same way you'll climb in them."
+    }
+  ],
+  "related": ["cycling-shoes", "trail-running-shoes", "running-shoes", "sneakers", "hiking-shoes", "hiking-boots", "gloves", "shoes"],
+  "updated": "2026-11-19"
+}

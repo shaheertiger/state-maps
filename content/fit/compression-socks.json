@@ -1,0 +1,185 @@
+{
+  "slug": "compression-socks",
+  "item": "compression socks",
+  "h1": "How Should Compression Socks Fit?",
+  "category": "health",
+  "shape": "leg",
+  "keywords": [
+    "how should compression socks fit",
+    "how are compression socks supposed to fit",
+    "how to tell if compression socks fit"
+  ],
+  "answer": "Compression socks should feel firmest at the ankle and gradually lighter up the calf, lie smooth with no wrinkles or bunching, keep the heel pocket on your heel, and stop about two fingers' width (1–2 in) below the bend of the knee without digging in or rolling down. They should feel snug, never painful or numbing.",
+  "intro": "Most compression socks are graduated: tightest at the ankle, easing off toward the knee. That's why they're sized by ankle and calf circumference, not just shoe size. Pressure is given in millimeters of mercury (mmHg); common ranges are 8–15 and 15–20 mmHg for everyday and travel wear, with 20–30 mmHg and above usually used on a clinician's advice. A sock in the right compression level but the wrong size won't deliver the pressure it's labeled for.",
+  "checklist": [
+    {
+      "point": "Toes and foot",
+      "anchor": "toe",
+      "good": "The foot lies flat with room to wiggle your toes, and the toe seam sits comfortably at the tips.",
+      "tooTight": "Toes are pressed down or curled, or the toe seam pulls across the nails.",
+      "tooLoose": "Extra fabric hangs past the toes or bunches under the foot."
+    },
+    {
+      "point": "Heel pocket",
+      "anchor": "heel",
+      "good": "The heel pocket sits squarely on your heel and stays there when you walk.",
+      "tooTight": "The heel pocket sits under your heel or is pulled forward onto the sole.",
+      "tooLoose": "The heel pocket sits up on the back of the ankle or twists to one side."
+    },
+    {
+      "point": "Ankle",
+      "anchor": "ankle",
+      "good": "The firmest part of the sock, evenly snug all the way round with no creases at the front of the ankle.",
+      "tooTight": "Your foot tingles, feels numb, or looks pale or darker than usual, or the fabric cuts in at the front of the ankle.",
+      "tooLoose": "The fabric wrinkles at the ankle or you can easily pinch up loose material."
+    },
+    {
+      "point": "Calf",
+      "anchor": "calf",
+      "good": "Snug but noticeably lighter than at the ankle, with smooth, even pressure around the widest part of the calf.",
+      "tooTight": "The fabric feels like a band around the calf or leaves deep ridges in the skin.",
+      "tooLoose": "The fabric sags, wrinkles or slides down the calf as you move."
+    },
+    {
+      "point": "Length",
+      "anchor": "knee",
+      "good": "A knee-high sock ends about two fingers' width (1–2 in) below the crease at the back of the knee.",
+      "tooTight": "Too short: the top band ends partway up the calf, so it sits on the widest part and can squeeze there.",
+      "tooLoose": "Too long: the top band reaches into the bend of the knee, so it bunches or digs in when you bend your leg."
+    },
+    {
+      "point": "Top band",
+      "anchor": "top",
+      "good": "The band lies flat and stays up all day with no folding.",
+      "tooTight": "The band digs in, leaves a deep groove, or creates a bulge of skin above it.",
+      "tooLoose": "The band slips down or rolls over, which concentrates pressure in one line."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by style and use",
+    "intro": "The graduated-pressure rule stays the same. Length, toe style and how much you'll move change what a good fit feels like.",
+    "items": [
+      {
+        "name": "Knee-high",
+        "text": "The most common style. Size by ankle and calf circumference, and check the length from the floor to just below the knee, since a sock that's too long will bunch behind the knee."
+      },
+      {
+        "name": "Thigh-high and pantyhose styles",
+        "text": "Need additional thigh measurements. The top band or silicone grip should hold without rolling or squeezing. These are more often recommended by a clinician for specific needs."
+      },
+      {
+        "name": "Open-toe",
+        "text": "Ends at the base of the toes. The opening should lie flat without cutting in, and many people find these easier to wear with sandals or if their toes are sensitive."
+      },
+      {
+        "name": "Running and sport",
+        "text": "Often a firmer, more structured knit with cushioning. Fit them while standing and walking, and check that the top band doesn't slide during movement."
+      },
+      {
+        "name": "Travel and all-day wear",
+        "text": "Usually a lighter compression level. They should stay smooth when you sit for long periods, with no creases at the front of the ankle or behind the knee."
+      },
+      {
+        "name": "Wide-calf",
+        "text": "For calves larger than a standard size range. A wide-calf sock should still be firmest at the ankle; don't size up overall just to fit the calf, or the ankle will be too loose."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for compression socks",
+    "intro": "Measure first thing in the morning, before swelling builds up during the day. You need a soft tape measure.",
+    "steps": [
+      "Sit with your foot flat on the floor and your knee bent at a right angle.",
+      "Measure around the narrowest part of your ankle, just above the ankle bone.",
+      "Measure around the widest part of your calf.",
+      "For knee-high socks, measure from the floor to the bend of the knee, along the back of the leg.",
+      "For thigh-high styles, also measure around the widest part of the thigh and from the floor to the top of the thigh.",
+      "Measure both legs, since they're often a little different, and use the brand's size chart for each measurement.",
+      "If your ankle and calf fall in different sizes, follow the brand's guidance; many prioritize the ankle measurement."
+    ],
+    "tip": "Shoe size alone isn't enough. Two people with the same shoe size can need different sock sizes because of ankle and calf measurements."
+  },
+  "problems": [
+    {
+      "problem": "The top band rolls down or digs in",
+      "fix": "Check the length: a sock that's too long will fold at the knee. Smooth the fabric up from the ankle rather than pulling at the top band. If it still digs in, the calf size may be too small."
+    },
+    {
+      "problem": "Wrinkles at the ankle or behind the knee",
+      "fix": "Smooth the fabric upward so it lies flat. If wrinkles persist, the sock may be too long or too big; try the next size down or a shorter length."
+    },
+    {
+      "problem": "Toes or feet go numb or tingle",
+      "fix": "Take the socks off. The size or compression level may be wrong, or they may be bunched. Re-measure, and check with a doctor or pharmacist before going back to that level."
+    },
+    {
+      "problem": "They're very hard to put on",
+      "fix": "Turn the sock inside out down to the heel, put your foot into the foot section, then roll the rest up the leg. Rubber gloves or a donning aid help with grip. Very difficult donning can also mean the size is too small."
+    },
+    {
+      "problem": "Skin marks or irritation",
+      "fix": "Light marks that fade soon after removal are common. Deep grooves, sores or a rash are not; stop wearing them and ask a pharmacist or doctor."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Putting them on the right way",
+      "body": "Reach inside and grab the heel, then turn the sock inside out down to the heel. Slide your foot in until the heel sits in the heel pocket. Then unroll the rest up your leg a little at a time, smoothing out wrinkles as you go. Don't fold the top band over to shorten the sock; that doubles the pressure in one place."
+    },
+    {
+      "heading": "When to replace them",
+      "body": "Elastic loses tension with wear and washing. Many makers suggest replacing compression socks every 3–6 months of regular wear. Signs it's time: they go on more easily than they used to, they slide down, or the fabric looks thin or stretched. Wash them on a gentle cycle or by hand and air dry, since heat wears out elastic faster."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Graduated compression socks, 15–20 mmHg",
+      "why": "A common level for everyday and travel wear. Choose by ankle and calf size, not shoe size alone.",
+      "query": "graduated compression socks 15-20 mmHg"
+    },
+    {
+      "label": "Wide-calf compression socks",
+      "why": "For larger calves, so you can match the ankle size without the calf being too tight.",
+      "query": "wide calf compression socks"
+    },
+    {
+      "label": "Open-toe compression socks",
+      "why": "Easier for people with sensitive toes or those who want to wear sandals.",
+      "query": "open toe compression socks"
+    },
+    {
+      "label": "Compression sock donning aid",
+      "why": "A frame that holds the sock open, which helps anyone who finds firm socks hard to pull on.",
+      "query": "compression stocking donning aid"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should compression socks feel?",
+      "a": "Firm and snug, especially at the ankle, but never painful. Numbness, tingling, color changes in the feet, or deep marks mean they're too tight or the wrong size."
+    },
+    {
+      "q": "How do I tell if compression socks fit?",
+      "a": "They go on with effort but not a struggle, lie smooth with no wrinkles, keep the heel in the heel pocket, feel tightest at the ankle, and stay up without rolling or digging in."
+    },
+    {
+      "q": "Where should compression socks end on the leg?",
+      "a": "Knee-high socks should stop about two fingers' width below the crease at the back of the knee. If they reach into the bend of the knee, they're too long."
+    },
+    {
+      "q": "Should compression socks be tighter at the ankle?",
+      "a": "Yes, for graduated socks. Pressure should be highest at the ankle and ease off up the leg."
+    },
+    {
+      "q": "Do compression socks go by shoe size?",
+      "a": "Some casual styles do, but most proper sizing uses ankle and calf circumference. Use the brand's chart for those measurements."
+    },
+    {
+      "q": "Is it normal to have marks after taking compression socks off?",
+      "a": "Light marks that fade soon after are common. Deep grooves, sores or skin that stays red suggest the fit is wrong."
+    }
+  ],
+  "related": ["arm-sling", "breast-pump-flange", "retainer", "night-guard", "condom", "running-shoes", "shin-guards", "hiking-boots"],
+  "caution": "This page covers general fit only. Ask a doctor or pharmacist before wearing 20–30 mmHg or stronger compression, or any compression if you have diabetes, circulation problems, nerve damage in the legs or a skin condition, and stop wearing them if you get numbness, pain or skin changes.",
+  "updated": "2026-11-19"
+}

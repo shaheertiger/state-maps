@@ -1,0 +1,187 @@
+{
+  "slug": "life-jacket",
+  "item": "life jacket",
+  "h1": "How Should a Life Jacket Fit?",
+  "category": "sports-gear",
+  "shape": "torso",
+  "keywords": [
+    "how should a life jacket fit",
+    "how are life jackets supposed to fit",
+    "how is a life jacket supposed to fit",
+    "how should life jackets fit",
+    "how should a life jacket fit a child"
+  ],
+  "answer": "A life jacket fits when it's the right size on the label for your weight and chest, every buckle and zipper is fastened and the straps are snug, and when someone lifts it by the shoulders it doesn't ride up past your chin or ears. It should feel snug without restricting your breathing.",
+  "intro": "A life jacket that's too big can ride up over your face in the water, and one that's too small may not keep your head up. Fit is checked on land first, then in shallow water. Always fasten every buckle and zipper and tighten every strap before judging fit.",
+  "checklist": [
+    {
+      "point": "Shoulders (lift test)",
+      "anchor": "shoulders",
+      "good": "With everything fastened, raise your arms overhead and have someone lift the jacket by the shoulders. It stays below your chin and ears.",
+      "tooTight": "The jacket is hard to fasten or the shoulder straps press down so you can't raise your arms easily.",
+      "tooLoose": "The jacket rides up past your chin or ears when lifted, or slides up over your head."
+    },
+    {
+      "point": "Chest",
+      "anchor": "chest",
+      "good": "The jacket is snug around your chest and you can breathe deeply.",
+      "tooTight": "It's hard to take a deep breath, or the closure strains when you fasten it.",
+      "tooLoose": "There's a large gap between the jacket and your chest, even with straps tightened."
+    },
+    {
+      "point": "Sides",
+      "anchor": "sides",
+      "good": "The side adjustment straps are snug and the jacket hugs your torso evenly on both sides.",
+      "tooTight": "The side straps dig in even when fully let out.",
+      "tooLoose": "The side straps are pulled to their limit and the jacket is still loose."
+    },
+    {
+      "point": "Waist and closure",
+      "anchor": "waist",
+      "good": "Buckles and zipper close easily with straps snug, and the bottom edge sits at or just above your waist.",
+      "tooTight": "Too short: the jacket ends well above your waist and rides up when you sit.",
+      "tooLoose": "Too long: the bottom edge pushes into your lap when you sit in a boat or kayak."
+    },
+    {
+      "point": "Armholes",
+      "anchor": "armhole",
+      "good": "You can paddle, swim or reach without the armholes rubbing.",
+      "tooTight": "The armholes chafe or restrict your arm movement.",
+      "tooLoose": "The armholes are so large the jacket shifts around your torso when you move."
+    },
+    {
+      "point": "Neck and collar",
+      "anchor": "neck",
+      "good": "For children's jackets, the head-support collar sits behind the neck and the grab handle is at the top.",
+      "tooTight": "The collar pushes your head forward or presses on your neck.",
+      "tooLoose": "The collar sits away from the head and won't support it in the water."
+    }
+  ],
+  "variations": {
+    "heading": "Adult, child and inflatable life jackets",
+    "intro": "All approved life jackets must fit the wearer, but design and suitability differ.",
+    "items": [
+      {
+        "name": "Foam vests (adult)",
+        "text": "The most common type for recreational boating, paddling and fishing. Sized by chest measurement. Should fit snugly and pass the lift test."
+      },
+      {
+        "name": "Children's life jackets",
+        "text": "Sized by weight. Look for a head-support collar, a grab handle and, for infants and small children, a crotch strap that stops the jacket from riding up."
+      },
+      {
+        "name": "Inflatable life jackets",
+        "text": "Compact belt packs or vests that inflate manually or automatically. Approved only for people 16 and older and not recommended for weak or non-swimmers. Check the inflation mechanism regularly."
+      },
+      {
+        "name": "Paddling and water-sports vests",
+        "text": "Designed for kayaking, paddleboarding or watersports, with larger armholes and shorter backs. Make sure they still pass the lift test."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to choose the right life jacket size",
+    "intro": "Adult life jackets are sized by chest; children's by weight. The label lists the range.",
+    "steps": [
+      "For adults, measure around the fullest part of your chest with a soft tape.",
+      "For children, weigh the child.",
+      "Check the label on the jacket for the chest or weight range it's approved for.",
+      "Put the jacket on, fasten every buckle and zipper, and tighten every strap.",
+      "Do the lift test, then test it in shallow water: lean back, relax and check that your chin and mouth stay above the water."
+    ],
+    "tip": "Check the label for US Coast Guard approval and use the jacket only for the activities it lists."
+  },
+  "sizeTable": {
+    "caption": "Typical children's life jacket weight categories",
+    "headers": ["Category", "Weight range"],
+    "rows": [
+      ["Infant", "Less than 30 lb"],
+      ["Child", "30–50 lb"],
+      ["Youth", "50–90 lb"],
+      ["Adult", "Over 90 lb (sized by chest)"]
+    ],
+    "note": "Always use the weight or chest range printed on the jacket's label."
+  },
+  "problems": [
+    {
+      "problem": "The jacket rides up over the chin in water",
+      "fix": "It's too big or the straps are loose. Tighten all straps; if it still rides up, choose a smaller size. Children's jackets need a crotch strap for small sizes."
+    },
+    {
+      "problem": "The jacket chafes the arms when paddling",
+      "fix": "Try a paddling vest with larger armholes."
+    },
+    {
+      "problem": "It's hard to breathe with the jacket on",
+      "fix": "Loosen the straps slightly or try the next size up. It should be snug, not restrictive."
+    },
+    {
+      "problem": "An older jacket feels thin or deflated",
+      "fix": "Foam can break down and inflatables can fail. Check for tears, waterlogging or mildew, and replace it if in doubt."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Test it in the water",
+      "body": "In shallow water, lean back and relax. The jacket should keep your chin and mouth above water without you having to tread water. For children, test in a pool with an adult nearby, and make sure they feel comfortable floating."
+    },
+    {
+      "heading": "Life jacket care",
+      "body": "Rinse it with fresh water after use, let it air dry away from direct heat, and store it in a ventilated place. Inspect it at the start of each season for tears, broken buckles or a lost inflation charge."
+    }
+  ],
+  "picks": [
+    {
+      "label": "US Coast Guard approved adult life vest",
+      "why": "Approved foam vests in chest-based sizes for general boating.",
+      "query": "coast guard approved adult life jacket"
+    },
+    {
+      "label": "Child life jacket with head support and crotch strap",
+      "why": "Designed to keep a child's head up and stop the jacket riding up.",
+      "query": "child life jacket head support crotch strap"
+    },
+    {
+      "label": "Kayak paddling vest",
+      "why": "Larger armholes and a shorter back for paddling comfort.",
+      "query": "kayak paddling life vest"
+    },
+    {
+      "label": "Inflatable life jacket for adults",
+      "why": "Compact and comfortable for strong swimmers 16 and older.",
+      "query": "inflatable life jacket adult automatic"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a life jacket be?",
+      "a": "Snug enough that it doesn't ride up when lifted at the shoulders, but you should still be able to breathe deeply."
+    },
+    {
+      "q": "How should a life jacket fit a child?",
+      "a": "Choose one for the child's weight, fasten all buckles and straps, and do the lift test. It shouldn't ride up past their chin or ears. Small children's jackets should have a crotch strap."
+    },
+    {
+      "q": "What is the lift test for a life jacket?",
+      "a": "With the jacket fastened, raise your arms overhead and have someone lift the jacket by the shoulders. If it rides up past your chin or ears, it's too big or too loose."
+    },
+    {
+      "q": "Should a life jacket be loose?",
+      "a": "No. A loose life jacket can ride up over your face in the water. It should be snug with all straps tightened."
+    },
+    {
+      "q": "Can adults wear a youth life jacket?",
+      "a": "Only if they fall within the weight or chest range on the label. Always use the size range printed on the jacket."
+    },
+    {
+      "q": "Are inflatable life jackets OK for kids?",
+      "a": "No, inflatable life jackets are not approved for children under 16. Use a foam life jacket sized for the child."
+    }
+  ],
+  "related": ["dog-harness", "shin-guards", "gloves", "bike-helmet", "ski-helmet", "golf-glove", "moto-gloves"],
+  "caution": "This is general fit guidance. Use only a US Coast Guard approved life jacket suited to your activity and weight, follow the manufacturer's instructions, and ask a boating safety instructor if you're unsure about fit, especially for children.",
+  "sources": [
+    { "name": "US Coast Guard Boating Safety", "url": "https://www.uscgboating.org/" }
+  ],
+  "updated": "2026-11-19"
+}

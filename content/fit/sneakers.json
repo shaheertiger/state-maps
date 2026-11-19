@@ -1,0 +1,184 @@
+{
+  "slug": "sneakers",
+  "item": "sneakers",
+  "h1": "How Should Sneakers Fit?",
+  "category": "running",
+  "shape": "shoe",
+  "keywords": [
+    "how should sneakers fit",
+    "how are sneakers supposed to fit",
+    "how should a sneaker fit",
+    "how should sneakers fit in the toe"
+  ],
+  "answer": "Sneakers fit when there's about a thumb's width (⅜–½ in) between your longest toe and the front, the ball of your foot sits at the widest part without pressing the sides, your heel stays put with little or no slipping, and the laces close evenly across the top of your foot without pinching.",
+  "intro": "Sneakers range from cushioned running shoes to flat canvas classics, and they don't all fit alike. Some fashion styles run long or narrow, and knit uppers stretch where leather won't. Use your measured foot length as a starting point and judge each pair on these checkpoints.",
+  "checklist": [
+    {
+      "point": "Toe room",
+      "anchor": "toe",
+      "good": "About ⅜–½ in, a thumb's width, between your longest toe and the end while standing. Your toes can wiggle.",
+      "tooTight": "Too short: toes touch the front, or you feel them hit the end when you stop suddenly or walk downhill.",
+      "tooLoose": "Too long: more than about ¾ in of space, the toe creases deeply, and the tip flops or catches."
+    },
+    {
+      "point": "Width across the ball",
+      "anchor": "ball",
+      "good": "The upper wraps the widest part of your foot without pressure, and your foot sits on the sole rather than over it.",
+      "tooTight": "Pinching at the little toe or big-toe joint, or the upper bulges over the midsole.",
+      "tooLoose": "Your foot slides side to side, and the upper wrinkles even when laced."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "Your heel sits snugly in the heel cup and lifts no more than about ⅛ in as you walk.",
+      "tooTight": "The collar digs into your Achilles or rubs the back of your heel.",
+      "tooLoose": "Your heel slips up on each step or the shoe comes off when you jog."
+    },
+    {
+      "point": "Lacing and instep",
+      "anchor": "instep",
+      "good": "Laced comfortably, there's an even gap between the eyelet rows, and the tongue lies flat.",
+      "tooTight": "The eyelet rows splay wide apart and the top of your foot feels squeezed.",
+      "tooLoose": "The eyelet rows nearly meet and the shoe still feels loose."
+    },
+    {
+      "point": "Collar",
+      "anchor": "collar",
+      "good": "The padded opening sits smoothly around your ankle without gaps or rubbing.",
+      "tooTight": "The collar presses on your ankle bones.",
+      "tooLoose": "The collar gapes when you walk, letting your heel move and debris in."
+    },
+    {
+      "point": "Flex point",
+      "anchor": "length",
+      "good": "The sneaker bends at the ball of your foot, where your toes join your foot.",
+      "tooTight": "Too short: it creases forward of your toe joints, pressing on the tops of your toes.",
+      "tooLoose": "Too long: it creases behind your toe joints, digging into the top of your foot."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by sneaker type",
+    "intro": "How you'll use the sneaker decides how much toe room and how firm a hold you want.",
+    "items": [
+      {
+        "name": "Running sneakers",
+        "text": "Allow the full ½ in at the toe because feet swell and slide forward over a run. Many runners size up a half size from their casual shoes. The heel and midfoot must feel secure at a jog."
+      },
+      {
+        "name": "Lifestyle and canvas sneakers",
+        "text": "Flat canvas and vulcanized styles have thin footbeds and often run long or narrow. Leave about ⅜ in at the toe. Canvas stretches a little; leather a bit more."
+      },
+      {
+        "name": "Knit and mesh sneakers",
+        "text": "Knit uppers stretch and conform to the foot, so they can feel snug at first. Make sure the length is right, since the knit gives in width, not length."
+      },
+      {
+        "name": "High-tops",
+        "text": "Fit the foot exactly as for a low-top. The collar should wrap the ankle without pressing on the ankle bones when laced."
+      },
+      {
+        "name": "Court and training sneakers",
+        "text": "For side-to-side movement, fit a little closer at the sides and heel, with about ⅜ in at the toe, so your foot doesn't slide within the shoe."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your sneaker size",
+    "steps": [
+      "Measure your foot length standing, in the late afternoon, with the socks you'll wear.",
+      "Find your size on the brand's chart. Sneaker brands differ, and some lifestyle models run a half size large or small.",
+      "Measure foot width across the ball and compare with the width chart below if the brand offers widths.",
+      "Try both sneakers on, lace them fully, and walk around on a hard floor.",
+      "Press your thumb at the front to check toe room, then rise on your toes to check heel slip."
+    ],
+    "tip": "Women can often wear men's sneakers about 1½ sizes down from their women's size, which is useful for wide feet. Men can do the reverse in women's styles."
+  },
+  "sizeTable": {
+    "caption": "US shoe width letters",
+    "headers": ["Width", "Men's", "Women's"],
+    "rows": [
+      ["Narrow", "B", "2A (AA)"],
+      ["Standard (medium)", "D", "B"],
+      ["Wide", "2E (EE)", "D"],
+      ["Extra wide", "4E (EEEE)", "2E (EE)"]
+    ],
+    "note": "Standard width is often not labeled at all. Not every brand offers every width; check the maker's chart."
+  },
+  "problems": [
+    {
+      "problem": "Sneakers are too big",
+      "fix": "Add a thin insole or heel grips, wear thicker socks, and lace with a heel-lock through the top eyelets. These help up to about a half size; beyond that, exchange them."
+    },
+    {
+      "problem": "Sneakers pinch at the sides",
+      "fix": "Try a wide width or a model with a roomier toe box, rather than going up in length. Knit uppers may ease with wear; leather can be stretched slightly."
+    },
+    {
+      "problem": "Heel slips",
+      "fix": "Use the extra top eyelet to tie a heel-lock (runner's loop). If slip persists, try a half size down or a different brand with a narrower heel."
+    },
+    {
+      "problem": "Top of the foot hurts when laced",
+      "fix": "Loosen the laces over the sore spot or skip that eyelet. A thicker tongue or padded tongue sneaker also spreads lace pressure."
+    },
+    {
+      "problem": "Toes rub the top of the toe box",
+      "fix": "The toe box is too shallow for your foot. Look for styles described as having a high or roomy toe box."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Sneakers for kids",
+      "body": "Leave about ½ in, a thumb's width, at the toe for growth. Kids' feet grow quickly, so check the fit every few months. Avoid buying much larger to grow into: too-big sneakers make children trip and change how they walk."
+    },
+    {
+      "heading": "When to replace sneakers",
+      "body": "Replace sneakers when the tread is worn smooth, the midsole has creased deeply or feels flat, or the heel counter has collapsed. Running sneakers are commonly replaced every 300–500 miles."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Sneakers in wide widths",
+      "why": "Fix pinching across the ball without adding unwanted length.",
+      "query": "wide width sneakers 2E"
+    },
+    {
+      "label": "Knit sneakers",
+      "why": "Stretchy uppers conform to bunions and wider forefeet.",
+      "query": "knit sneakers"
+    },
+    {
+      "label": "Cushioned running sneakers",
+      "why": "Soft midsoles and room at the toe for walking and running.",
+      "query": "cushioned running sneakers"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should sneakers fit in the toe?",
+      "a": "Leave about a thumb's width, ⅜–½ inch, between your longest toe and the front, measured standing. Your toes should be able to wiggle without hitting the top or sides."
+    },
+    {
+      "q": "Should sneakers be tight or loose?",
+      "a": "Snug in the heel and midfoot, with room at the toes. They shouldn't pinch or squeeze anywhere, and your heel shouldn't slide out."
+    },
+    {
+      "q": "Should I size up in sneakers?",
+      "a": "Size up a half size if you'll run in them, wear thick socks, or are between sizes. For casual sneakers, your measured size is usually right."
+    },
+    {
+      "q": "Do sneakers stretch?",
+      "a": "Knit and leather sneakers stretch a little in width and soften with wear. Synthetic and canvas sneakers stretch less. No sneaker gets longer."
+    },
+    {
+      "q": "How do I know if my sneakers are too small?",
+      "a": "Your toes touch the front, your toes or the sides of your feet go numb, you get blisters on your toes, or the upper bulges over the sole."
+    },
+    {
+      "q": "Can women wear men's sneakers?",
+      "a": "Yes. Men's sizes are about 1½ smaller than women's for the same foot, so a women's 9 is roughly a men's 7½. Men's styles are often a little wider."
+    }
+  ],
+  "related": ["running-shoes", "tennis-shoes", "basketball-shoes", "trail-running-shoes", "shoes", "hiking-shoes", "loafers", "dress-shoes"],
+  "updated": "2026-11-19"
+}

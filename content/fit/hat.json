@@ -1,0 +1,200 @@
+{
+  "slug": "hat",
+  "item": "hat",
+  "h1": "How Should a Hat Fit?",
+  "category": "hats-helmets",
+  "shape": "hat",
+  "keywords": [
+    "how should a hat fit",
+    "how are hats supposed to fit",
+    "how should a hat fit on your head"
+  ],
+  "answer": "A hat fits when it sits level about a finger's width (½–1 in) above your eyebrows, the band touches your head evenly all the way around without pressing, it stays on when you turn your head or walk in a light breeze, and it leaves no red line or headache after an hour, with your ears clear of the band.",
+  "intro": "Every brimmed or fitted hat is sized by the circumference of your head where the band sits. Get that number right and most of the fit follows. The rest is shape (round or long oval heads) and style, since a fedora, a beanie and a sun hat are each meant to sit a little differently.",
+  "checklist": [
+    {
+      "point": "Height above the brow",
+      "anchor": "brow",
+      "good": "The front of the band sits level about a finger's width above your eyebrows.",
+      "tooTight": "The hat perches high on your head and won't come down to brow level.",
+      "tooLoose": "The hat sinks down to your eyebrows or over your eyes."
+    },
+    {
+      "point": "Band around the head",
+      "anchor": "sides",
+      "good": "The sweatband touches your head evenly at the front, sides and back with light, even contact.",
+      "tooTight": "It presses on your temples or forehead, leaves a red line, or gives you a headache.",
+      "tooLoose": "You can easily slide two fingers under the band, and the hat shifts when you turn your head."
+    },
+    {
+      "point": "Back of the head",
+      "anchor": "back",
+      "good": "The back of the band sits above the bump at the back of your skull and holds the hat in place.",
+      "tooTight": "The back rides up and the hat tilts backward off your head.",
+      "tooLoose": "The back drops onto your neck and the hat tips forward."
+    },
+    {
+      "point": "Over the ears",
+      "anchor": "sides",
+      "good": "The band sits just above the tops of your ears without folding them down.",
+      "tooTight": "The band presses on the tops of the ears.",
+      "tooLoose": "The hat sinks low enough to rest on or cover the ears, unless it's a style meant to, like a beanie."
+    },
+    {
+      "point": "Crown",
+      "anchor": "crown",
+      "good": "The crown clears the top of your head without a large empty space.",
+      "tooTight": "The top of your head pushes against the crown, distorting its shape.",
+      "tooLoose": "There's a tall pocket of air above your head and the hat wobbles."
+    },
+    {
+      "point": "Brim",
+      "anchor": "brim",
+      "good": "The brim sits level or at the angle you choose and stays there when you move.",
+      "tooTight": "The brim tilts up at the front or back because the hat sits high.",
+      "tooLoose": "The brim droops and blocks your view because the hat is too low."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by hat style",
+    "items": [
+      {
+        "name": "Fedoras, trilbies and other felt hats",
+        "text": "Wear them snug, sitting level or tilted slightly forward, about a finger above the brows. Felt eases slightly with wear, and a hat shop can stretch or steam a felt hat to fit a long oval head."
+      },
+      {
+        "name": "Baseball caps",
+        "text": "The brim should point straight ahead and sit just above the eyebrows, and adjustable caps should close without a big tail of strap. See the baseball cap guide for fitted cap details."
+      },
+      {
+        "name": "Beanies and knit hats",
+        "text": "Beanies are meant to cover the ears and sit lower. They should stretch over the head without leaving a mark, and the cuff should stay rolled. Most are one size or S/M and L/XL."
+      },
+      {
+        "name": "Sun hats and bucket hats",
+        "text": "A wide brim catches wind, so these need a secure fit or a chin cord. Many have an inner drawcord or adjustable band; tighten it until the hat stays on when you look down."
+      },
+      {
+        "name": "Flat caps and berets",
+        "text": "Flat caps sit forward on the head with the brim just above the brows. Berets sit straight or tilted, with the band just above the ears and the top falling to one side."
+      },
+      {
+        "name": "Round vs long oval heads",
+        "text": "Most hats are made for a regular oval head. If a hat that fits your circumference presses at the front and back but gaps at the sides, you have a long oval head and may need a long oval hat or professional shaping."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your hat size",
+    "steps": [
+      "Use a soft tape measure, or a piece of string and a ruler.",
+      "Wrap the tape around your head where the hat will sit: across the forehead about ⅛–½ in above the eyebrows, just above the ears, and around the fullest part of the back of your head.",
+      "Keep the tape level and snug but not tight, with one finger's room. Note the measurement in inches or centimeters.",
+      "Measure two or three times and use the largest result.",
+      "Match the measurement to the table below. If you fall between sizes, choose the larger size and add sizing tape to snug it up."
+    ],
+    "tip": "Measure with your hair styled the way you'll wear the hat. A bun, braid or thick hair can add a full size."
+  },
+  "sizeTable": {
+    "caption": "Standard US hat sizes by head circumference",
+    "headers": ["US fitted size", "Head (in)", "Head (cm)", "Typical letter size"],
+    "rows": [
+      ["6½", "20½", "52", "XS"],
+      ["6⅝", "20⅞", "53", "XS"],
+      ["6¾", "21¼", "54", "S"],
+      ["6⅞", "21⅝", "55", "S"],
+      ["7", "22", "56", "M"],
+      ["7⅛", "22⅜", "57", "M"],
+      ["7¼", "22¾", "58", "L"],
+      ["7⅜", "23⅛", "59", "L"],
+      ["7½", "23½", "60", "XL"],
+      ["7⅝", "23⅞", "61", "XL"],
+      ["7¾", "24¼", "62", "XXL"],
+      ["7⅞", "24⅝", "63", "XXL"],
+      ["8", "25", "64", "XXXL"]
+    ],
+    "note": "US fitted hat size is roughly the head circumference in inches divided by π (3.14). Centimeters are rounded. Letter sizes vary by maker, so check each brand's own chart."
+  },
+  "problems": [
+    {
+      "problem": "The hat is a little too big",
+      "fix": "Add hat sizing tape (adhesive foam strips) or a sizing insert behind the sweatband, starting at the back or sides. One layer typically takes up a fraction of a size."
+    },
+    {
+      "problem": "The hat is too tight",
+      "fix": "A hat stretcher, left in overnight, can ease felt or wool slightly. A hat shop can stretch felt with steam. Straw and synthetic hats stretch very little, so size up instead."
+    },
+    {
+      "problem": "It fits at the sides but presses at the front and back",
+      "fix": "You likely have a long oval head. Look for long oval hats, or have a felt hat professionally shaped."
+    },
+    {
+      "problem": "The hat blows off",
+      "fix": "If it's otherwise comfortable, add a layer of sizing tape at the back, or add a chin cord or hat clip. A hat that's right for your head should stay on in a light breeze."
+    },
+    {
+      "problem": "It leaves a red line on your forehead",
+      "fix": "The hat is too small or the sweatband is stiff. Try the next size up, or stretch the band slightly."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Hat sizes for kids",
+      "body": "Children's heads grow quickly, so measure before buying. Toddlers commonly measure around 18–20 in and older children around 20–21½ in, but use a tape. Adjustable straps, drawcords and stretch knits are the safest bet. For sun hats, a soft chin strap that releases easily keeps the hat on without a choking risk."
+    },
+    {
+      "heading": "Keeping the fit",
+      "body": "Avoid leaving felt or straw hats in hot cars or soaking them, which can shrink or warp the band. Store hats upside down on the crown or on a hat rack so the brim keeps its shape. If a sweatband gets wet, let the hat dry naturally at room temperature."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Hat sizing tape",
+      "why": "Adhesive foam strips fit behind the sweatband to snug up a hat that's slightly large.",
+      "query": "hat sizing tape foam"
+    },
+    {
+      "label": "Adjustable hat stretcher",
+      "why": "Gently eases a felt or wool hat that's a touch tight.",
+      "query": "adjustable hat stretcher"
+    },
+    {
+      "label": "Hats with an adjustable inner band",
+      "why": "A drawcord or adjustable band inside lets you fine-tune the fit, useful between sizes.",
+      "query": "hat adjustable inner band drawstring"
+    },
+    {
+      "label": "Soft tape measure",
+      "why": "Gives an accurate head circumference to compare with size charts.",
+      "query": "soft tape measure"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a hat be tight or loose?",
+      "a": "Snug but not tight. It should stay on when you turn your head or walk in a light breeze, and leave no red line or headache after an hour."
+    },
+    {
+      "q": "How should a hat fit on your head?",
+      "a": "Level, with the front about a finger's width above your eyebrows, the band touching evenly all around, and the back sitting above the bump at the back of your skull."
+    },
+    {
+      "q": "Should a hat cover your ears?",
+      "a": "Most brimmed hats and caps should sit just above the ears. Beanies and winter hats are designed to cover them."
+    },
+    {
+      "q": "How do I make a hat smaller?",
+      "a": "Add hat sizing tape or a foam insert behind the sweatband. For an adjustable cap, tighten the strap; for a sun hat, pull the inner drawcord."
+    },
+    {
+      "q": "What hat size am I?",
+      "a": "Measure your head circumference where the hat sits and use the table. A 22 in (56 cm) head is a 7, or about medium; each ⅛ size is about ⅜ in (1 cm)."
+    },
+    {
+      "q": "Should a hat sit on top of your head or come down?",
+      "a": "It should come down to about a finger above your eyebrows. A hat perched on top is too small; one that rests on your eyebrows is too big."
+    }
+  ],
+  "related": ["baseball-cap", "cowboy-hat", "bike-helmet", "motorcycle-helmet", "ski-helmet", "sunglasses", "glasses", "gloves"],
+  "updated": "2026-11-19"
+}

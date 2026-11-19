@@ -1,0 +1,114 @@
+{
+  "slug": "crocs",
+  "brand": "Crocs",
+  "h1": "How Do Crocs Fit?",
+  "category": "footwear",
+  "keywords": [
+    "how should crocs fit",
+    "how are crocs supposed to fit",
+    "do crocs fit true to size",
+    "how do crocs fit",
+    "should crocs fit snug or loose",
+    "do crocs fit big or small",
+    "are crocs supposed to fit big"
+  ],
+  "verdict": "true to size",
+  "answer": "Crocs fit true to size for most people. Crocs says most of its shoes have a roomy fit, so your standard size will likely be comfortable. Its size chart lists whole sizes only, and its own tip is to round up if you're between sizes and to order your normal size if you have wide feet.",
+  "sizeChart": {
+    "caption": "Crocs adult size chart (unisex US sizing)",
+    "headers": ["Foot length (in)", "US men", "US women", "UK men", "EU"],
+    "rows": [
+      ["8 5/8", "5", "7", "4", "37–38"],
+      ["9", "6", "8", "5", "38–39"],
+      ["9 3/8", "7", "9", "6", "39–40"],
+      ["9 5/8", "8", "10", "7", "41–42"],
+      ["10", "9", "11", "8", "42–43"],
+      ["10 3/8", "10", "12", "9", "43–44"],
+      ["10 5/8", "11", "13", "10", "45–46"],
+      ["11", "12", "14", "11", "46–47"],
+      ["11 3/8", "13", "15", "12", "48–49"],
+      ["11 5/8", "14", "16", "13", "49–50"]
+    ],
+    "note": "Heel-to-toe foot length as shown on Crocs' US size chart. The chart starts at men's 2 / women's 4 and runs to men's 17 / women's 19. Crocs' tip: if you're in between sizes, round up.",
+    "source": {
+      "name": "Crocs shoe size chart",
+      "url": "https://www.crocs.com/size-chart.html"
+    }
+  },
+  "sections": [
+    {
+      "heading": "A roomy fit by design",
+      "body": "Crocs answers the fit question on its own size chart page: most of its shoes have a roomy fit, so you'll likely find the standard sizes comfortable. That is why Crocs can feel loose compared with a lace-up sneaker in the same size. Roomy is the intended fit, not a sign you need to size down."
+    },
+    {
+      "heading": "Whole sizes, and which way to round",
+      "body": "Crocs' adult chart lists whole sizes only, from men's 2 / women's 4 up to men's 17 / women's 19. The tip shown with the chart is to round up if you're in between sizes. So if you normally wear a women's 8 1/2, the chart's advice points you to a women's 9."
+    },
+    {
+      "heading": "Men's and women's sizes on one shoe",
+      "body": "Crocs' chart gives a men's and a women's size for every foot length, and the women's size is always two higher than the men's size for the same foot length: a men's 7 is a women's 9, and a men's 10 is a women's 12. Crocs also notes that all sizes on its website are US sizes, matching the size on the shoe."
+    },
+    {
+      "heading": "Wide feet",
+      "body": "Crocs does not make separate wide sizes. Asked whether it carries wide sizes, the brand answers no, because most of its shoes already have a roomy fit. The tip on its size chart is that if you have wide feet you should order your normal size."
+    },
+    {
+      "heading": "How to measure",
+      "body": "Crocs' measuring steps: place your foot on a piece of paper, trace it while staying as close as you can to your heel and toes, then measure from the heel to your longest toe. That heel-to-toe length is the number to match against the chart."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Crocs fit true to size?",
+      "a": "Yes, for most people. Crocs says most of its shoes have a roomy fit, so your standard size will likely be comfortable."
+    },
+    {
+      "q": "Do Crocs fit big or small?",
+      "a": "Crocs describes most of its styles as having a roomy fit, so they feel a little generous rather than small. The brand still recommends your standard size, not a size down."
+    },
+    {
+      "q": "Should Crocs fit snug or loose?",
+      "a": "Crocs doesn't publish a snug-or-loose rule. It says most styles have a roomy fit and tells you to match your heel-to-toe foot length to its chart, rounding up if you fall between sizes."
+    },
+    {
+      "q": "Do Crocs come in half sizes?",
+      "a": "No. Crocs' adult chart lists whole sizes only, and its tip is to round up if you're between sizes."
+    },
+    {
+      "q": "What size Crocs should I get if I have wide feet?",
+      "a": "Your normal size. Crocs says it doesn't carry wide sizes because most of its shoes have a roomy fit, and its size chart tip for wide feet is to order your normal size."
+    },
+    {
+      "q": "How do I convert a men's Crocs size to women's?",
+      "a": "On Crocs' chart the women's size is two higher than the men's for the same foot length. A men's 6 is a women's 8."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Crocs Classic Clog",
+      "why": "The original roomy-fit clog, sold in whole unisex sizes.",
+      "query": "crocs classic clog"
+    },
+    {
+      "label": "Crocs Classic Lined Clog",
+      "why": "A fuzzy-lined version of the clog for cold weather.",
+      "query": "crocs classic lined clog"
+    },
+    {
+      "label": "Crocs slides and sandals",
+      "why": "Open styles on the same US size chart, for warm weather.",
+      "query": "crocs slides"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Crocs shoe size chart",
+      "url": "https://www.crocs.com/size-chart.html"
+    },
+    {
+      "name": "Crocs size chart data (US)",
+      "url": "https://www.crocs.com/size-chart/default.json"
+    }
+  ],
+  "checked": "2026-11-19"
+}

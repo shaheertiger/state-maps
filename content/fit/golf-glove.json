@@ -1,0 +1,167 @@
+{
+  "slug": "golf-glove",
+  "item": "golf glove",
+  "h1": "How Should a Golf Glove Fit?",
+  "category": "sports-gear",
+  "shape": "glove",
+  "keywords": [
+    "how should a golf glove fit",
+    "how should golf glove fit",
+    "how should golf gloves fit"
+  ],
+  "answer": "A golf glove should fit like a second skin: your fingertips reach the very ends with no spare material, the palm has no wrinkles when you grip a club, and the closure tab fastens over most of the hook-and-loop patch with a little room to spare, so the glove can be tightened as it stretches.",
+  "intro": "A golf glove's job is to improve your grip and protect your hand, so it needs to fit closer than almost any other glove. Most golfers wear one glove on their lead hand: the left hand for a right-handed golfer, the right hand for a left-handed golfer. Because the leather is thin, it stretches with use, so start snug.",
+  "checklist": [
+    {
+      "point": "Fingertips",
+      "anchor": "fingertips",
+      "good": "Your fingertips touch the ends of the glove fingers, with no empty material beyond them.",
+      "tooTight": "Too short: your fingertips are stretched against the ends and you can't straighten your fingers fully.",
+      "tooLoose": "Too long: you can pinch spare material at the fingertips, which reduces feel on the grip."
+    },
+    {
+      "point": "Palm",
+      "anchor": "palm",
+      "good": "The palm lies flat against your hand. When you take your grip, no folds or wrinkles form.",
+      "tooTight": "The leather strains across the palm and it's hard to close your hand around the club.",
+      "tooLoose": "Wrinkles or folds form in the palm when you grip, which can cause blisters and a less secure hold."
+    },
+    {
+      "point": "Fingers",
+      "anchor": "fingers",
+      "good": "The seams between the fingers sit down in the webbing of your hand and each finger is snug along its length.",
+      "tooTight": "The seams between the fingers pull up or the fingers feel stiff.",
+      "tooLoose": "The fingers twist or bunch along their length."
+    },
+    {
+      "point": "Thumb",
+      "anchor": "thumb",
+      "good": "The thumb is snug to the tip and you can place it on the grip without the leather bunching.",
+      "tooTight": "The thumb stall pulls toward your palm or the seam at the base of the thumb rubs.",
+      "tooLoose": "Spare leather at the thumb tip folds over when you grip."
+    },
+    {
+      "point": "Closure tab",
+      "anchor": "wrist",
+      "good": "The tab fastens over most of the hook-and-loop patch on the back of the hand, with a little room left to tighten it.",
+      "tooTight": "The tab barely reaches the patch, or the glove pulls tight across the back of the hand when fastened.",
+      "tooLoose": "The tab overlaps past the end of the patch and the glove still feels loose."
+    }
+  ],
+  "variations": {
+    "heading": "Leather, synthetic, cadet and weather gloves",
+    "intro": "Material and cut change how a golf glove feels and stretches.",
+    "items": [
+      {
+        "name": "Cabretta leather",
+        "text": "Thin sheepskin leather with excellent feel. It stretches slightly with use, so buy it snug. It doesn't last as long as synthetic."
+      },
+      {
+        "name": "Synthetic and hybrid",
+        "text": "More durable and keeps its shape better, with slightly less feel. Fit is similar, but it stretches less, so it shouldn't feel uncomfortably tight to start."
+      },
+      {
+        "name": "Cadet sizes",
+        "text": "For players with shorter fingers and a wider palm. If regular sizes fit your palm but leave spare material at the fingertips, try cadet sizes."
+      },
+      {
+        "name": "Rain gloves",
+        "text": "Usually sold in pairs and designed to grip better when wet. They're meant to feel a little less snug than a dry-weather glove."
+      },
+      {
+        "name": "Winter gloves",
+        "text": "Insulated pairs for cold rounds. They're bulkier and fit looser than a standard golf glove."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your golf glove size",
+    "intro": "Golf gloves usually come in letter sizes (S, M, ML, L, XL) plus cadet versions, based on hand measurements.",
+    "steps": [
+      "Use a soft tape measure on the hand you'll wear the glove on.",
+      "Measure around your palm just below the knuckles, leaving out the thumb.",
+      "Measure from the tip of your middle finger to the crease at the base of your palm.",
+      "Compare both measurements with the brand's size chart.",
+      "If your palm fits one size but your fingers are shorter, try a cadet size."
+    ],
+    "tip": "Try a glove on and take your grip on a club before deciding. Folds in the palm show up only when you grip."
+  },
+  "problems": [
+    {
+      "problem": "Wrinkles in the palm",
+      "fix": "The glove is too big. Try a size down or a cadet size if the palm still fits."
+    },
+    {
+      "problem": "Hole wearing in the palm or thumb",
+      "fix": "This can be from a loose glove or from a grip that's sliding in your hand. Check fit, and have a golf professional look at your grip pressure if it keeps happening."
+    },
+    {
+      "problem": "Glove feels loose after a few rounds",
+      "fix": "Leather stretches. Tighten the tab, and next time choose a glove that's snug when new."
+    },
+    {
+      "problem": "Glove stiffens after getting wet",
+      "fix": "Let it air dry on your hand shape, away from heat. Use rain gloves in wet weather and rotate between two gloves."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Caring for a golf glove",
+      "body": "Take the glove off between shots on longer holes or when putting if you prefer. Store it flat, not crumpled in your bag. Rotating two gloves lets each one dry out between rounds, which helps them last longer."
+    },
+    {
+      "heading": "When to replace a golf glove",
+      "body": "Replace it when the palm or thumb is worn thin, holes appear, the leather is hard and shiny, or the tab no longer holds. A worn glove offers less grip."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Cabretta leather golf glove",
+      "why": "Thin and tactile for players who want maximum feel.",
+      "query": "cabretta leather golf glove"
+    },
+    {
+      "label": "Synthetic golf glove",
+      "why": "More durable and holds its shape longer.",
+      "query": "synthetic golf glove durable"
+    },
+    {
+      "label": "Cadet golf glove",
+      "why": "Shorter fingers and a wider palm for hands that don't fit regular sizes.",
+      "query": "cadet golf glove"
+    },
+    {
+      "label": "Rain golf gloves",
+      "why": "A pair designed to grip better in wet weather.",
+      "query": "rain golf gloves pair"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a golf glove be?",
+      "a": "Snug like a second skin, with no spare material at the fingertips and no wrinkles in the palm when you grip. It shouldn't restrict your hand."
+    },
+    {
+      "q": "Should a golf glove be tight when new?",
+      "a": "Yes, leather golf gloves should feel snug when new because they stretch slightly with use."
+    },
+    {
+      "q": "Which hand does a golf glove go on?",
+      "a": "On your lead hand: the left hand for a right-handed golfer and the right hand for a left-handed golfer."
+    },
+    {
+      "q": "What does cadet mean in golf gloves?",
+      "a": "Cadet sizes have shorter fingers and a slightly wider palm than regular sizes."
+    },
+    {
+      "q": "How do I know if my golf glove is too big?",
+      "a": "If you can pinch spare material at the fingertips, or folds form in the palm when you grip a club, it's too big."
+    },
+    {
+      "q": "Should golf gloves fit the same as other gloves?",
+      "a": "No, golf gloves fit closer than most gloves because they're thin and meant to improve grip, not keep you warm."
+    }
+  ],
+  "related": ["gloves", "baseball-glove", "moto-gloves", "shin-guards", "dog-harness", "life-jacket", "baseball-cap", "sneakers"],
+  "updated": "2026-11-19"
+}

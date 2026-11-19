@@ -1,0 +1,177 @@
+{
+  "slug": "basketball-shoes",
+  "item": "basketball shoes",
+  "h1": "How Should Basketball Shoes Fit?",
+  "category": "running",
+  "shape": "shoe",
+  "keywords": [
+    "how should basketball shoes fit",
+    "how are basketball shoes supposed to fit",
+    "how should a basketball shoe fit"
+  ],
+  "answer": "Basketball shoes should fit snugly all around, with about ¼–⅜ in (a finger's width or a little less) between your longest toe and the end, a heel that stays locked when you jump, and a forefoot that doesn't slide over the edge of the sole when you cut or stop hard.",
+  "intro": "Basketball is all short sprints, hard stops, jumps and lateral cuts. That's why basketball shoes fit tighter than running shoes: any space inside the shoe lets your foot slide on a sharp cut, which costs traction and can roll an ankle. Try them on with the thick athletic socks you play in, and do some defensive slides and jumps in the store.",
+  "checklist": [
+    {
+      "point": "Toe length",
+      "anchor": "length",
+      "good": "About ¼–⅜ in between your longest toe and the end of the shoe while standing. Toes lightly approach the front on a hard stop but don't jam.",
+      "tooTight": "Too short: toes press against the front just standing, or jam into it when you stop or land. Expect bruised nails.",
+      "tooLoose": "Too long: a full thumb's width or more of space, so your foot slides forward on stops and the toe box creases badly."
+    },
+    {
+      "point": "Forefoot width and lateral hold",
+      "anchor": "ball",
+      "good": "The upper wraps the forefoot so it stays on the footbed during a defensive slide or crossover.",
+      "tooTight": "The upper bulges over the outsole, or the little toe is pinched and goes numb during play.",
+      "tooLoose": "Your foot rolls over the edge of the footbed on cuts. This is the fit problem most linked to rolled ankles."
+    },
+    {
+      "point": "Toe box",
+      "anchor": "toe",
+      "good": "Toes lie flat and can wiggle a little, without empty space above them.",
+      "tooTight": "The toe box presses down on your toenails or squeezes the toes together.",
+      "tooLoose": "The toe box collapses into deep creases when you rise onto your toes."
+    },
+    {
+      "point": "Midfoot lockdown",
+      "anchor": "instep",
+      "good": "Laces, straps or internal bands hold the top of the foot evenly so it doesn't shift forward or sideways.",
+      "tooTight": "Lace pressure on the top of the foot causes pain or tingling after a few minutes of play.",
+      "tooLoose": "Even fully laced, the foot moves inside the shoe when you change direction."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "The heel stays seated when you jump and land, with almost no lift.",
+      "tooTight": "The heel counter digs into the back of the heel or Achilles tendon.",
+      "tooLoose": "Your heel pops up when you jump or push off, which causes blisters and a loose, unstable feel."
+    },
+    {
+      "point": "Ankle collar",
+      "anchor": "collar",
+      "good": "Mid and high tops wrap the ankle comfortably without limiting your ability to bend the ankle forward.",
+      "tooTight": "The collar digs into the ankle bones or the front edge cuts into the shin when you crouch.",
+      "tooLoose": "The collar flaps around the ankle and gives no sense of hold."
+    }
+  ],
+  "variations": {
+    "heading": "Low, mid and high tops, and position",
+    "items": [
+      {
+        "name": "Low tops",
+        "text": "Lighter and freer at the ankle, often favored by quick guards. The fit around the heel and midfoot needs to be especially secure because there's no collar to help hold the foot."
+      },
+      {
+        "name": "Mid tops",
+        "text": "The most common cut. The collar covers the ankle bone and adds some feel of support without much restriction."
+      },
+      {
+        "name": "High tops",
+        "text": "Wrap above the ankle. Many players like the locked-in feel, especially if they've had ankle sprains, though a high top doesn't replace an ankle brace. The collar should bend with your ankle."
+      },
+      {
+        "name": "Bigger, heavier players",
+        "text": "Look for a firm heel counter, a wide, stable base and plenty of cushioning. If your foot spills over the sole, a wide version or a model with a wider last is better than sizing up in length."
+      },
+      {
+        "name": "Wearing a brace or orthotic",
+        "text": "Bring the brace or insole when you try shoes. A brace adds bulk at the ankle and an orthotic lifts the foot, so you may need a roomier model or a high-volume upper."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to size basketball shoes",
+    "steps": [
+      "Measure in the evening, wearing the thick athletic socks you play in.",
+      "Stand on paper with your heel against a wall and mark your longest toe on both feet; measure length in centimeters.",
+      "Find that foot length on the brand's chart. For basketball, add only about ½–1 cm (¼–⅜ in) of room.",
+      "Try on both shoes, lace them fully, and do defensive slides, jumps and quick stops.",
+      "Check that your heel stays down when you jump and your forefoot stays on the sole when you cut."
+    ],
+    "tip": "Many basketball shoes run narrow. If you're between sizes because of width, try a wide version before sizing up in length."
+  },
+  "sizeTable": {
+    "caption": "Approximate athletic shoe size conversion by foot length",
+    "headers": ["US men's", "US women's", "UK", "EU", "Foot length (cm)"],
+    "rows": [
+      ["7", "8½", "6", "40", "25"],
+      ["8", "9½", "7", "41", "26"],
+      ["9", "10½", "8", "42½", "27"],
+      ["10", "11½", "9", "44", "28"],
+      ["11", "12½", "10", "45", "29"],
+      ["12", "13½", "11", "46", "30"],
+      ["13", "14½", "12", "47½", "31"]
+    ],
+    "note": "Most basketball shoes are sold in men's sizes. Conversions vary by brand by up to half a size; check the brand's own chart."
+  },
+  "problems": [
+    {
+      "problem": "Foot slides over the sole on hard cuts",
+      "fix": "The forefoot is too loose or too wide for you. Lace tighter through the forefoot, or choose a model with a more structured upper or outrigger."
+    },
+    {
+      "problem": "Heel lifts when jumping",
+      "fix": "Use heel-lock lacing through the top eyelet. If it still lifts, the heel cup is too wide; try a different brand."
+    },
+    {
+      "problem": "Little toe goes numb mid-game",
+      "fix": "The shoe is too narrow. Try a wide width or a model with a roomier forefoot."
+    },
+    {
+      "problem": "Shoes hurt on top of the foot",
+      "fix": "Loosen the laces over the instep or skip an eyelet at the pressure point. Some players add a second, separate lace section to keep the forefoot tight and the instep relaxed."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Do basketball shoes need breaking in?",
+      "body": "A short break-in of a few practices is normal for stiffer shoes, as the upper softens and the cushioning settles. Wear new shoes for shooting practice before a game. Pain or numbness that doesn't ease after two or three sessions means the fit is wrong."
+    },
+    {
+      "heading": "Sizing for kids and growing players",
+      "body": "It's tempting to buy big, but extra length makes kids slide in the shoe and trip. Leave no more than about ½ in at the toe and replace shoes when the toes reach the front."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Basketball shoes in wide widths",
+      "why": "Many basketball shoes run narrow; wide versions stop the foot from spilling over the sole.",
+      "query": "basketball shoes wide"
+    },
+    {
+      "label": "High-top basketball shoes",
+      "why": "A good choice if you like a wrapped feel at the ankle, especially with a history of ankle rolls.",
+      "query": "high top basketball shoes"
+    },
+    {
+      "label": "Cushioned basketball socks",
+      "why": "Thick socks change the fit, so try shoes on with the socks you play in.",
+      "query": "cushioned basketball socks"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should basketball shoes be tight or loose?",
+      "a": "Snug. They should hold your heel and forefoot firmly so the foot doesn't slide on cuts, but not so tight that toes press the end or go numb."
+    },
+    {
+      "q": "How much room should be in the toe of a basketball shoe?",
+      "a": "About ¼–⅜ in, a finger's width or slightly less. That's less than running shoes because basketball is about quick stops and lateral moves rather than long distances."
+    },
+    {
+      "q": "Should I go a half size up in basketball shoes?",
+      "a": "Only if your toes jam on stops or the shoe is narrow for you. Many players wear their usual size; try a wide width before going longer."
+    },
+    {
+      "q": "Do high tops prevent ankle sprains?",
+      "a": "A snug high top adds a feeling of hold, but the evidence that it prevents sprains is mixed. A secure overall fit and, if needed, an ankle brace matter more than collar height."
+    },
+    {
+      "q": "Should basketball shoes fit like running shoes?",
+      "a": "No. Running shoes leave a thumb's width of toe room for forward motion; basketball shoes fit closer to the foot for lateral stability."
+    }
+  ],
+  "related": ["sneakers", "tennis-shoes", "running-shoes", "soccer-cleats", "trail-running-shoes", "cycling-shoes", "shoes", "compression-socks"],
+  "updated": "2026-11-19"
+}

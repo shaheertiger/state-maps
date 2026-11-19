@@ -1,0 +1,176 @@
+{
+  "slug": "night-guard",
+  "item": "night guard",
+  "h1": "How Should a Night Guard Fit?",
+  "category": "health",
+  "shape": "generic",
+  "keywords": [
+    "how should a night guard fit",
+    "how should night guard fit",
+    "how is a night guard supposed to fit"
+  ],
+  "answer": "A night guard should snap or press onto your teeth and stay there without you clenching to hold it, cover the biting surfaces of all the teeth it's designed for, sit clear of the gums with smooth edges, and let your back teeth meet evenly on it. It should feel snug, not painful.",
+  "intro": "Night guards (also called occlusal guards or bite splints) are worn over the upper or lower teeth while you sleep, usually to protect them from grinding or clenching. A guard that's loose ends up being chewed or falling out; one that's too tight can leave teeth and gums sore. Custom guards from a dentist are made from an impression or scan of your teeth, while boil-and-bite and stock guards are shaped at home, so their fit varies more.",
+  "checklist": [
+    {
+      "point": "Retention",
+      "anchor": "p1",
+      "good": "It stays on with no effort when you open your mouth, swallow or relax your jaw, and needs a light pull to remove.",
+      "tooTight": "You have to pry it off, or it leaves teeth aching for more than a short while after removal.",
+      "tooLoose": "It drops when you open your mouth, or you catch yourself biting down to keep it in."
+    },
+    {
+      "point": "Tooth coverage",
+      "anchor": "p2",
+      "good": "It covers the biting surfaces of every tooth it's designed to cover, usually the full upper or lower arch, back to the last molars.",
+      "tooTight": "Too short: it stops before the back molars, leaving them to meet on their own.",
+      "tooLoose": "Too long: it extends past your last tooth and presses on the gum or cheek at the back."
+    },
+    {
+      "point": "Edges and gums",
+      "anchor": "p3",
+      "good": "The edges are smooth and sit on the teeth or just at the gumline without pressing on soft tissue.",
+      "tooTight": "An edge presses into the gums, cheek or tongue, leaving a sore spot or red line.",
+      "tooLoose": "The edge stands away from the teeth, leaving a gap that traps saliva or catches your tongue."
+    },
+    {
+      "point": "Bite contact",
+      "anchor": "p4",
+      "good": "When you close gently, your opposing teeth touch the guard evenly on both sides.",
+      "tooTight": "One spot hits first or hardest, or your jaw feels pushed to one side.",
+      "tooLoose": "Some teeth don't contact the guard at all, so your bite feels uneven or wobbly."
+    },
+    {
+      "point": "Thickness and comfort",
+      "anchor": "p5",
+      "good": "Thin enough that your lips close comfortably and you can breathe and swallow normally.",
+      "tooTight": "Very bulky: your lips can't close, you gag, or your jaw feels propped open.",
+      "tooLoose": "So thin or soft that it tears or wears through quickly, which is common with heavy grinding."
+    },
+    {
+      "point": "How you feel in the morning",
+      "anchor": "p6",
+      "good": "Teeth and jaw feel normal, or better than without it, shortly after you take it out.",
+      "tooTight": "Teeth feel sore or your bite feels different for a long time after removal.",
+      "tooLoose": "You wake to find it out of your mouth, or chewed and dented in one area."
+    }
+  ],
+  "variations": {
+    "heading": "Custom, boil-and-bite and stock night guards",
+    "intro": "All three should meet the same checkpoints, but they get there differently.",
+    "items": [
+      {
+        "name": "Custom guard from a dentist",
+        "text": "Made from an impression or scan, in hard acrylic, soft material, or a hard outer layer over a soft inner layer. It should fit precisely from the first night, with a snug click. Your dentist can adjust the bite contact, and it's worth going back if anything feels uneven."
+      },
+      {
+        "name": "Boil-and-bite guard",
+        "text": "Softened in hot water and then shaped by biting into it. Fit depends on following the package timing closely. These are usually bulkier and less precise than custom guards, and they may need refitting if the first try comes out uneven."
+      },
+      {
+        "name": "Stock (ready-made) guard",
+        "text": "Pre-formed in general sizes with no molding. It rarely fits closely and tends to feel loose or bulky, so it's best as a short-term option."
+      },
+      {
+        "name": "Upper vs lower guards",
+        "text": "Upper guards are the most common and cover the top teeth and front of the palate. Lower guards can feel less bulky and may suit people who gag easily. Either should cover the full arch unless your dentist designed it otherwise."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to fit a boil-and-bite night guard",
+    "intro": "Custom guards are fitted by your dentist. If you're using an over-the-counter boil-and-bite guard, the package directions come first; these are the general steps most follow.",
+    "steps": [
+      "Try the guard in before heating it to check which way it faces and whether it reaches your back teeth. Trim only if the directions allow it.",
+      "Heat water to the temperature the package gives and soften the guard for the stated time, usually under a minute.",
+      "Lift it out with a spoon, shake off the water and let it cool for a few seconds so it won't burn.",
+      "Center it over your teeth, bite down gently and evenly, and press your lips and tongue around it. Biting hard can thin it too much.",
+      "Hold for the stated time, then remove it and cool it in cold water to set the shape.",
+      "Check it against the checklist: secure, covers the back teeth, smooth edges and an even bite. Refit if the directions allow."
+    ],
+    "tip": "If a store-bought guard still feels uneven after refitting, or you grind heavily, ask your dentist about a custom guard."
+  },
+  "problems": [
+    {
+      "problem": "The guard falls out at night",
+      "fix": "A boil-and-bite guard may need remolding for a closer fit. A custom guard that has loosened can sometimes be adjusted by your dentist, or may need replacing."
+    },
+    {
+      "problem": "Teeth feel sore in the morning",
+      "fix": "Mild pressure for a few nights with a new guard can be normal. Soreness that continues, or that's focused on one tooth, suggests a tight or uneven spot; have it checked."
+    },
+    {
+      "problem": "Jaw pain or a changed bite",
+      "fix": "Stop wearing it and see your dentist. An uneven or poorly fitting guard can affect how your teeth meet."
+    },
+    {
+      "problem": "It's too bulky to sleep with",
+      "fix": "A thinner custom guard or a lower guard may feel less bulky. Many people also adapt after a week or two of regular wear."
+    },
+    {
+      "problem": "Holes or worn-through spots",
+      "fix": "The guard is doing its job, but it's time to replace it. Heavy grinders often do better with a harder custom material."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Why partial guards need a dentist's input",
+      "body": "Some guards cover only the front teeth. These are designed for specific uses and are generally meant to be fitted and monitored by a dentist, because covering only some teeth for long periods can affect how the uncovered teeth sit. If you're unsure what type you have, ask before relying on it every night."
+    },
+    {
+      "heading": "Care and replacement",
+      "body": "Rinse the guard each morning, brush it gently with cool water and a soft brush, and let it dry in a vented case. Hot water can warp it. Bring it to dental checkups so the fit can be checked. Replace it when it cracks, wears thin, stays discolored or no longer fits snugly."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Boil-and-bite night guard",
+      "why": "A low-cost way to try a guard while you wait for a dental appointment. Look for one with clear molding directions.",
+      "query": "boil and bite night guard teeth grinding"
+    },
+    {
+      "label": "Dual-layer (hard outside, soft inside) guard",
+      "why": "Combines a cushioned fit against the teeth with a firmer biting surface that holds up better to grinding.",
+      "query": "dual laminate night guard"
+    },
+    {
+      "label": "Vented night guard case",
+      "why": "Lets the guard dry and keeps it from being crushed, lost or chewed by pets.",
+      "query": "night guard case vented"
+    },
+    {
+      "label": "Mouthguard cleaning tablets",
+      "why": "Cleans without hot water, which can warp the guard and spoil the fit.",
+      "query": "night guard cleaning tablets"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How is a night guard supposed to fit?",
+      "a": "Snug enough to stay on without you clenching to hold it, covering the biting surfaces of the teeth it's designed for, with smooth edges off the gums and even contact when you close."
+    },
+    {
+      "q": "Should a night guard be tight?",
+      "a": "Snug, not tight. A gentle click or press into place is right. If it hurts, needs prying off, or leaves teeth sore for long after, it's too tight or uneven."
+    },
+    {
+      "q": "How do I know if my night guard doesn't fit?",
+      "a": "It falls out, rocks, presses on the gums, makes your bite feel uneven, or leaves teeth or jaw sore. Any of these is a reason to refit or have your dentist check it."
+    },
+    {
+      "q": "Should a night guard cover all teeth?",
+      "a": "Most full-coverage guards cover all the teeth on one arch, back to the last molars. Guards that cover only some teeth should be used under a dentist's direction."
+    },
+    {
+      "q": "Is it normal for a new night guard to feel strange?",
+      "a": "Yes. Extra saliva, a feeling of bulk and mild pressure are common for the first week or two. Pain, a changed bite or jaw discomfort are not, and should be checked."
+    },
+    {
+      "q": "Can I reshape a boil-and-bite night guard?",
+      "a": "Many can be reheated and remolded a limited number of times. Check the package directions, since overheating can ruin the guard."
+    }
+  ],
+  "related": ["retainer", "condom", "breast-pump-flange", "compression-socks", "arm-sling", "glasses", "bike-helmet"],
+  "caution": "This page covers general fit only. Jaw pain, clicking, headaches, tooth pain or a change in how your teeth meet should be checked by a dentist, who can also recommend the right type of guard.",
+  "updated": "2026-11-19"
+}

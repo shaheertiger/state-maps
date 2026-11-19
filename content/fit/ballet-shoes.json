@@ -1,0 +1,173 @@
+{
+  "slug": "ballet-shoes",
+  "item": "ballet shoes",
+  "h1": "How Should Ballet Shoes Fit?",
+  "category": "footwear",
+  "shape": "shoe",
+  "keywords": [
+    "how should ballet shoes fit",
+    "how should ballet slippers fit",
+    "how should a ballet slipper fit",
+    "how are ballet shoes supposed to fit",
+    "how are ballet slippers supposed to fit",
+    "how should a ballet shoe fit"
+  ],
+  "answer": "Ballet shoes should fit like a second skin: snug all over with no extra room, your toes lying flat and just reaching the end without curling, the heel seam sitting at the back of your heel with no wrinkles, and the elastics holding the shoe on without digging in when you point and flex.",
+  "intro": "Ballet slippers are not sized like street shoes. Spare length or loose fabric hides the line of the foot, makes the shoe twist under you, and lets the toe flap when you point. Teachers want to see the shape of the foot through the shoe, so the right fit is close and smooth, never roomy for growth.",
+  "checklist": [
+    {
+      "point": "Toes",
+      "anchor": "toe",
+      "good": "Standing flat, your toes lie straight and flat and just touch the end of the shoe. When you point, there's no loose fabric past your toes.",
+      "tooTight": "Too short: your toes curl or knuckle under, or you can see them pressing up against the top of the shoe.",
+      "tooLoose": "Too long: there's empty space or a fold of fabric beyond your toes, and the tip flops or wrinkles when you point."
+    },
+    {
+      "point": "Heel",
+      "anchor": "heel",
+      "good": "The back seam sits straight up the middle of your heel and the fabric hugs it without bagging.",
+      "tooTight": "The back of the shoe pulls down below your heel or pushes your toes forward into a curl.",
+      "tooLoose": "The heel fabric bags, wrinkles or slips off when you rise onto demi-pointe."
+    },
+    {
+      "point": "Sides and width",
+      "anchor": "ball",
+      "good": "The shoe hugs the sides of your foot with no gaping and no pressure points.",
+      "tooTight": "The sides squeeze your foot or your little toe is pressed under.",
+      "tooLoose": "The sides wrinkle or gape, and the shoe twists on your foot when you turn."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "When you point, the shoe follows your arch closely. In split soles, the gap between the pads sits under your arch.",
+      "tooTight": "The shoe pulls against your arch and stops you from pointing fully.",
+      "tooLoose": "Fabric bunches under your arch when you point, hiding the line of the foot."
+    },
+    {
+      "point": "Drawstring and opening",
+      "anchor": "collar",
+      "good": "The edge of the opening lies smoothly around your foot. The drawstring needs only light tightening, then is knotted and tucked inside.",
+      "tooTight": "The drawstring has to be pulled so hard to remove slack that it bunches the opening into gathers.",
+      "tooLoose": "Even fully pulled, the drawstring leaves the opening gaping, which means the shoe is too big."
+    },
+    {
+      "point": "Elastics",
+      "anchor": "instep",
+      "good": "The elastics lie flat across your instep and hold the shoe on through pointing, flexing and jumps.",
+      "tooTight": "The elastics dig in and leave red marks or numbness.",
+      "tooLoose": "The shoe slides off your heel when you point or jump, so the elastics need shortening."
+    }
+  ],
+  "variations": {
+    "heading": "Full sole, split sole, leather and canvas",
+    "intro": "Sole style and material change how the shoe moves and how much it gives.",
+    "items": [
+      {
+        "name": "Full-sole shoes",
+        "text": "One continuous sole provides more resistance, which helps young and beginner dancers build foot strength. They should still fit snugly, but can feel slightly stiffer when you point."
+      },
+      {
+        "name": "Split-sole shoes",
+        "text": "Separate pads at the ball and heel let the shoe follow your arch when you point. The pads should sit directly under the ball of your foot and your heel."
+      },
+      {
+        "name": "Leather",
+        "text": "Durable and supportive. Leather stretches more than canvas and molds to the foot, so fit leather shoes snug from the start."
+      },
+      {
+        "name": "Canvas and stretch canvas",
+        "text": "Lighter and follows the line of the foot closely. Stretch canvas hugs the foot more and needs less adjustment from the drawstring. Canvas can shrink if machine-dried."
+      },
+      {
+        "name": "Children's ballet shoes",
+        "text": "Fit children's shoes to their feet now, not for growth. A little growing room, up to about ¼ in, is acceptable only if the drawstring and elastics still hold the shoe smoothly."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to choose a ballet shoe size",
+    "intro": "Ballet shoe sizes rarely match street shoe sizes, and they vary between makers. Many brands run one or more sizes smaller than street shoes.",
+    "steps": [
+      "Measure your foot length standing, heel against a wall, barefoot or in the tights you dance in.",
+      "Compare the measurement with the brand's own ballet shoe chart, not your street shoe size.",
+      "Try the shoes on with the tights you'll wear for class.",
+      "Stand flat and check that your toes lie straight and just touch the end.",
+      "Point and flex, then rise onto demi-pointe. Look for wrinkles at the toe or heel and any slipping.",
+      "Check with your teacher if your school has rules about brand, color or sole style."
+    ],
+    "tip": "If your school uses a specialist dance shop, get fitted there for the first pair. Note the brand, style and size so you can reorder."
+  },
+  "problems": [
+    {
+      "problem": "Fabric wrinkles at the toe when pointing",
+      "fix": "The shoe is too long. Go down a size or choose a stretch canvas style that hugs the foot. Pulling the drawstring tighter just gathers the fabric."
+    },
+    {
+      "problem": "Shoes slip off the heel",
+      "fix": "Adjust the elastics: sew them a little shorter or try crossed elastics, which grip the heel better. If the heel still bags, the shoe is too big."
+    },
+    {
+      "problem": "Toes curl inside the shoe",
+      "fix": "The shoe is too short. Go up a size. Curled toes can lead to blisters and poor technique."
+    },
+    {
+      "problem": "Drawstring bow comes undone or pokes out",
+      "fix": "Tie a firm double knot, trim the ends to a short length, and tuck them inside the front of the shoe. Long dangling ends are a tripping hazard."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Sewing on elastics",
+      "body": "Many ballet shoes come with elastics unsewn. Fold the heel of the shoe forward toward the toe; the fold marks roughly where each end goes, on the inside of the shoe just in front of the heel seam. Pin the elastic so it crosses your instep snugly, try the shoe with a point and flex, then sew. Single elastics go straight across; crossed elastics form an X over the instep and hold better for narrow heels."
+    },
+    {
+      "heading": "Pointe shoes are different",
+      "body": "Pointe shoes need a professional fitting and your teacher's approval before you start pointe work. Their box, shank and vamp must match the shape and strength of your foot, so don't buy them by size alone."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Split-sole canvas ballet shoes",
+      "why": "Lightweight, follow the arch closely and suit most intermediate and adult dancers.",
+      "query": "split sole canvas ballet shoes"
+    },
+    {
+      "label": "Full-sole leather ballet shoes for children",
+      "why": "Durable and supportive for young dancers building foot strength.",
+      "query": "kids full sole leather ballet shoes"
+    },
+    {
+      "label": "Stretch canvas ballet shoes with pre-sewn elastics",
+      "why": "Hug the foot closely and are ready to wear out of the box.",
+      "query": "stretch canvas ballet shoes pre sewn elastic"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should ballet shoes be tight?",
+      "a": "Snug, like a glove, but not painful. Your toes should lie flat and just touch the end, with no curling, and there should be no loose fabric or wrinkles."
+    },
+    {
+      "q": "Should your toes touch the end of ballet shoes?",
+      "a": "Yes, lightly. Your toes should just reach the end when standing flat without being bent or crunched. If there's space beyond them, the shoe is too long."
+    },
+    {
+      "q": "Should ballet shoes be the same size as street shoes?",
+      "a": "Usually not. Ballet shoe sizing varies by brand and is often one or more sizes smaller than street shoes. Measure your foot and use the brand's chart."
+    },
+    {
+      "q": "Should you buy ballet shoes a size bigger for kids to grow into?",
+      "a": "No. Shoes that are too big make it hard to point and can be a tripping hazard. Buy for the current fit, with at most about ¼ inch of growing room."
+    },
+    {
+      "q": "Do ballet shoes stretch?",
+      "a": "Leather ballet shoes stretch and mold to the foot with wear. Canvas stretches a little and stretch canvas is designed to hug the foot. Fit them snug from the start."
+    },
+    {
+      "q": "How tight should the drawstring be on ballet shoes?",
+      "a": "Just tight enough to take out slight slack, then double-knotted and tucked inside. If you need to pull it hard to gather the opening, the shoe is too big."
+    }
+  ],
+  "related": ["shoes", "slippers", "sneakers", "heels", "loafers", "sandals", "climbing-shoes", "flip-flops"],
+  "updated": "2026-11-19"
+}

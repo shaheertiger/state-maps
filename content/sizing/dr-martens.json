@@ -1,0 +1,105 @@
+{
+  "slug": "dr-martens",
+  "brand": "Dr. Martens",
+  "h1": "How Do Dr. Martens Fit?",
+  "category": "boots",
+  "keywords": [
+    "how do doc martens fit",
+    "how do dr martens fit",
+    "how should doc martens fit",
+    "do doc martens fit true to size",
+    "how are doc martens supposed to fit"
+  ],
+  "verdict": "true to size",
+  "answer": "Dr. Martens says most of its boots, shoes and sandals run true to size, though fit differs between silhouettes. If you're between sizes, the brand says a little bigger beats too small: take the larger size and add an insole that takes up half a size. Leather stretches in width with wear, but not in length.",
+  "sizeChart": {
+    "caption": "Dr. Martens footwear size guide",
+    "headers": ["Foot length (cm)", "UK", "EU", "US men", "US women"],
+    "rows": [
+      ["23", "4", "37", "5", "6"],
+      ["24", "5", "38", "6", "7"],
+      ["25", "6", "39", "7", "8"],
+      ["25.5", "6.5", "40", "—", "8.5"],
+      ["26", "7", "41", "8", "9"],
+      ["27", "8", "42", "9", "10"],
+      ["28", "9", "43", "10", "11"],
+      ["28.5", "9.5", "44", "—", "11.5"],
+      ["29", "10", "45", "11", "12"],
+      ["30", "11", "46", "12", "13"],
+      ["31", "12", "47", "13", "14"]
+    ],
+    "note": "The full chart runs from UK 3 (22 cm) to UK 15 (34 cm) and also lists foot width. Dr. Martens' standard ranges are US 5–11 for women's, US 7–13 for men's and US 4–13 for unisex styles.",
+    "source": {
+      "name": "Dr. Martens US shoe size guide",
+      "url": "https://www.drmartens.com/us/en/shoe-size-guide"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Most styles run true to size",
+      "body": "Dr. Martens' own answer to whether its boots run big is that sizes can differ between silhouettes, but most run true to size. It points you to the fit recommendation shown on each product page, just above the size selector, because fits vary between styles. If you're still unsure, its advice is to start with your usual size."
+    },
+    {
+      "heading": "Between sizes: go bigger and add an insole",
+      "body": "The brand says it's always better if the fit is a little bigger rather than too small. If you're in between sizes, it suggests taking the larger size and using an insole that adds half a size, so the boot fits more comfortably. Its chart shows only a couple of half sizes (UK 6.5 and UK 9.5, which line up with women's US 8.5 and 11.5), so most half-size wearers will be choosing between two whole sizes."
+    },
+    {
+      "heading": "What stretches and what doesn't",
+      "body": "According to Dr. Martens, DM's often stretch in width with wear but not in length. Slight pressure on your instep should ease as you wear them in. If they feel very tight, you may need a larger size. The brand's key test is that there's enough room for your toes to fit comfortably, since length won't give."
+    },
+    {
+      "heading": "Men's, women's and unisex lasts",
+      "body": "Dr. Martens suggests men's and unisex styles if you want a wider fit with a more rounded toe, and women's styles if you want a narrower, more tapered fit. Its chart lists men's and women's US sizes side by side, with women's one size higher than men's for the same UK size: a UK 8 is a men's 9 and a women's 10."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Doc Martens fit true to size?",
+      "a": "Mostly, yes. Dr. Martens says sizes can differ between silhouettes, but most of its boots, shoes and sandals run true to size. Check the fit note on the product page for the style you want."
+    },
+    {
+      "q": "Should I size up or down in Dr. Martens if I'm a half size?",
+      "a": "Dr. Martens says a fit that's a little bigger is better than too small. Take the larger size and add an insole that adds half a size."
+    },
+    {
+      "q": "Will Doc Martens stretch?",
+      "a": "In width, yes. Dr. Martens says DM's often stretch in width with wear but not in length, and slight pressure on the instep should ease. Make sure your toes have enough room from day one."
+    },
+    {
+      "q": "How should Doc Martens fit when new?",
+      "a": "Snug across the instep is normal and should ease with wear, according to the brand. Your toes need enough room to fit comfortably. If the boots feel very tight, Dr. Martens says you may need a larger size."
+    },
+    {
+      "q": "Are Dr. Martens sized in UK or US sizes?",
+      "a": "Dr. Martens' chart lists UK, EU, US men's and US women's sizes. A UK 7 is a men's US 8 and a women's US 9."
+    },
+    {
+      "q": "Which Dr. Martens styles fit wider?",
+      "a": "The brand points to men's and unisex styles for a wider fit with a more rounded toe, and women's styles for a narrower, more tapered fit."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Dr. Martens 1460 8-eye boots",
+      "why": "The brand's best-known lace-up boot. Check the fit note on its product page before you order.",
+      "query": "dr martens 1460 boots"
+    },
+    {
+      "label": "Half-size shoe insoles",
+      "why": "Dr. Martens' own fix when you size up between sizes.",
+      "query": "shoe insoles half size filler"
+    },
+    {
+      "label": "Dr. Martens 2976 Chelsea boots",
+      "why": "A pull-on alternative. Dr. Martens says fit differs between silhouettes, so check its fit note too.",
+      "query": "dr martens 2976 chelsea boots"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Dr. Martens US shoe size guide",
+      "url": "https://www.drmartens.com/us/en/shoe-size-guide"
+    }
+  ],
+  "checked": "2026-11-19"
+}

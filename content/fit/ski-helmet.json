@@ -1,0 +1,187 @@
+{
+  "slug": "ski-helmet",
+  "item": "ski helmet",
+  "h1": "How Should a Ski Helmet Fit?",
+  "category": "hats-helmets",
+  "shape": "helmet",
+  "keywords": [
+    "how should a ski helmet fit",
+    "how should ski helmet fit"
+  ],
+  "answer": "A ski helmet fits when it sits level about a finger's width above your eyebrows, meets the top of your goggles with no forehead gap, feels evenly snug all around, covers your ears with the ear pads, and moves your skin with it when you push it side to side with the chin strap fastened.",
+  "intro": "Ski helmets fit much like bike helmets, with two differences: they have to work with goggles, and they're worn over more hair and sometimes a thin liner in cold weather. Bring your goggles when you try helmets on. A helmet that fits perfectly but leaves a strip of bare forehead above the goggles is uncomfortable and less protective.",
+  "checklist": [
+    {
+      "point": "Brow and goggle gap",
+      "anchor": "brow",
+      "good": "The front edge sits about a finger's width above your eyebrows and rests on, or just touches, the top of your goggle frame with no gap.",
+      "tooTight": "Too low: the helmet pushes your goggles down onto your nose or blocks your upward view.",
+      "tooLoose": "Too high: there's a strip of exposed forehead between helmet and goggles (the gaper gap), and the helmet tilts back."
+    },
+    {
+      "point": "Snugness around the head",
+      "anchor": "sides",
+      "good": "The liner touches your head all around. Push the helmet side to side and front to back and your scalp moves with it.",
+      "tooTight": "Pressure at the temples or forehead, or a headache after a run or two, even with the dial fully open.",
+      "tooLoose": "The helmet shifts or slides without moving your skin, or there are gaps at the sides you can fit a finger into."
+    },
+    {
+      "point": "Forehead contact",
+      "anchor": "forehead",
+      "good": "The front padding rests lightly on your forehead without pushing your eyebrows down.",
+      "tooTight": "A hard ridge presses across the forehead and leaves a red line when you take the helmet off.",
+      "tooLoose": "You can see or feel daylight between the front pad and your forehead."
+    },
+    {
+      "point": "Ear pads",
+      "anchor": "ears",
+      "good": "The ear pads cover your ears without folding them, and you can still hear people talking near you.",
+      "tooTight": "Your ears are bent under the pads or ache after a few minutes.",
+      "tooLoose": "The ear pads sit off your ears and let in cold air; the helmet is likely too big overall."
+    },
+    {
+      "point": "Back and fit dial",
+      "anchor": "back",
+      "good": "The rear cradle or dial grips below the bump at the back of your skull and holds the helmet snug without squeezing.",
+      "tooTight": "The dial is cranked hard and you feel it pressing on the back of your head.",
+      "tooLoose": "Even fully tightened, the helmet rocks forward over your goggles when you look down."
+    },
+    {
+      "point": "Chin strap",
+      "anchor": "strap",
+      "good": "Buckled, the strap is snug under your chin with room for about one finger, and it doesn't press on your throat.",
+      "tooTight": "The strap digs in, especially with a neck gaiter or face mask pulled up.",
+      "tooLoose": "More than two fingers slide under the strap, so the helmet could come off in a fall."
+    }
+  ],
+  "variations": {
+    "heading": "Shell types, visor helmets and kids' helmets",
+    "intro": "All snow helmets should pass the same checks. The design affects how you adjust them.",
+    "items": [
+      {
+        "name": "In-mold helmets with a dial",
+        "text": "Light and common on rental and retail racks. The dial fine-tunes the fit, so size by head measurement and use the dial for the last bit of snugness, not to make a large helmet fit."
+      },
+      {
+        "name": "Hard-shell helmets",
+        "text": "A tougher outer shell, often heavier and sized with removable pads rather than a dial. They need a closer initial fit, so try sizes carefully."
+      },
+      {
+        "name": "Visor (integrated shield) helmets",
+        "text": "The visor replaces goggles, so check that it closes without touching your nose and that your glasses, if you wear them, fit underneath."
+      },
+      {
+        "name": "Snowboard and freestyle helmets",
+        "text": "Often shaped differently, with more coverage at the back. The fit checks are the same; make sure it doesn't block your view when you look over your shoulder."
+      },
+      {
+        "name": "Kids' ski helmets",
+        "text": "Buy for the head your child has this season, not the one they'll have in two years. Children often wear helmets too high and too loose, so check the brow position and chin strap at the start of every day."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your head for a ski helmet",
+    "intro": "Helmet sizes are based on head circumference in centimeters. Each brand has its own ranges.",
+    "steps": [
+      "Use a soft tape measure.",
+      "Wrap it around the widest part of your head, about 1 in above your eyebrows and just above your ears, and over the fullest part at the back.",
+      "Keep the tape level and snug, and read the measurement in centimeters.",
+      "Take the largest of two or three measurements.",
+      "Check the brand's size chart and try the helmet on with your goggles. If you're between sizes, choose the smaller one if it's comfortable with the dial open a little."
+    ],
+    "tip": "Wear your hair the way you'll ski. A low ponytail or braid usually works; a high bun pushes the helmet forward."
+  },
+  "problems": [
+    {
+      "problem": "Gap between the helmet and goggles",
+      "fix": "Try the helmet a little lower first. If the gap stays, the helmet and goggles don't match in shape; try goggles with a frame that follows the helmet brow, or a different helmet."
+    },
+    {
+      "problem": "The goggles push down on your nose",
+      "fix": "The helmet is pressing on the goggle frame. Raise the helmet slightly, try goggles with a thinner top frame, or choose a helmet with a more open brow."
+    },
+    {
+      "problem": "The goggle strap slides off the back",
+      "fix": "Use the goggle clip at the back of the helmet. Wear the strap over the helmet, not under it, for most helmets."
+    },
+    {
+      "problem": "Cold ears or forehead",
+      "fix": "Close the adjustable vents and make sure the ear pads are installed. A very thin helmet liner can help if the fit allows; don't wear a thick beanie under it."
+    },
+    {
+      "problem": "Headache after a few runs",
+      "fix": "Loosen the dial. If the pain is in one spot, the helmet's shape doesn't suit your head, and a different brand may fit better."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Can you wear a hat under a ski helmet?",
+      "body": "Not a regular beanie. A thick hat lifts the helmet, stops it from sitting snugly and can reduce protection. If you get cold, use a thin helmet liner or balaclava designed for the purpose and readjust the fit with it on. Most ski helmets are warm on their own with the vents closed."
+    },
+    {
+      "heading": "When to replace a ski helmet",
+      "body": "Replace a ski helmet after any significant impact, even if it looks undamaged, because the foam is designed to crush once. Also replace it if the shell is cracked or the straps and buckle are worn. Manufacturers' replacement guidance varies; check the manual. Look for a certification label such as ASTM F2040 or EN 1077 inside."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Ski helmets with a dial fit system",
+      "why": "A dial makes it easy to adjust for a thin liner on cold days and to fine-tune the fit between sizes.",
+      "query": "ski helmet dial fit adjustable"
+    },
+    {
+      "label": "Helmet and goggle sets from the same brand",
+      "why": "Matching brands often design the brow and goggle frame together, which helps avoid a gap.",
+      "query": "ski helmet goggle combo set"
+    },
+    {
+      "label": "Thin helmet liner or balaclava",
+      "why": "Adds warmth without lifting the helmet the way a beanie does.",
+      "query": "thin balaclava helmet liner skiing"
+    },
+    {
+      "label": "Kids' ski helmets",
+      "why": "Youth sizes with simple dials and bright colors; size by measured head circumference.",
+      "query": "kids ski helmet youth size"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How tight should a ski helmet be?",
+      "a": "Snug enough that your scalp moves with the helmet when you push it side to side, but not so tight that it causes pressure points or a headache."
+    },
+    {
+      "q": "Should there be a gap between my ski helmet and goggles?",
+      "a": "No. The helmet should meet the top of the goggle frame. A gap leaves your forehead exposed to cold and impact."
+    },
+    {
+      "q": "Should a ski helmet cover your ears?",
+      "a": "Yes, most ski helmets have ear pads that cover the ears. They should cover without folding your ears and still let you hear."
+    },
+    {
+      "q": "How should a snowboard helmet fit?",
+      "a": "The same way as a ski helmet: level, a finger above your eyebrows, flush with your goggles, snug all around and with a fastened chin strap."
+    },
+    {
+      "q": "Should I size up a ski helmet for a hat?",
+      "a": "No. Size the helmet to your head. If you want extra warmth, use a thin liner designed for helmets and adjust the dial."
+    },
+    {
+      "q": "How do I know if my ski helmet is too big?",
+      "a": "If it slides forward over your goggles, shifts without moving your skin, or wobbles even with the dial fully tightened, it's too big."
+    }
+  ],
+  "related": [
+    "bike-helmet",
+    "motorcycle-helmet",
+    "hat",
+    "baseball-cap",
+    "cowboy-hat",
+    "ski-boots",
+    "snowboard-boots",
+    "gloves"
+  ],
+  "caution": "This is general fit guidance. Use a helmet certified for snow sports, follow the manufacturer's fitting instructions, and ask a ski shop technician to check the fit, especially for children.",
+  "updated": "2026-11-19"
+}

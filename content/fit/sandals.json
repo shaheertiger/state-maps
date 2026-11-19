@@ -1,0 +1,176 @@
+{
+  "slug": "sandals",
+  "item": "sandals",
+  "h1": "How Should Sandals Fit?",
+  "category": "footwear",
+  "shape": "sandal",
+  "keywords": [
+    "how should sandals fit",
+    "how are sandals supposed to fit",
+    "how should sandals fit in the back",
+    "how should sandals fit in the heel",
+    "how should sandals fit in the front",
+    "how should men's sandals fit",
+    "how are sandals supposed to fit women",
+    "how should sandals fit on your feet"
+  ],
+  "answer": "Sandals fit when your toes stop about ¼ in short of the front edge, your heel sits fully on the footbed with a little sole showing behind it, your foot doesn't spill over the sides, and the straps hold your foot in place with room to slide a finger under them without leaving red marks.",
+  "intro": "Because nothing encloses your toes or heel, sandals have to fit the footbed rather than a shoe interior. The test is simple: stand, look down, and check that every part of your foot is on the sole with a small margin to spare. Then walk, because a sandal that looks right can still let your foot slide forward with each step.",
+  "checklist": [
+    {
+      "point": "Toes at the front",
+      "anchor": "toe",
+      "good": "Your longest toe stops about ¼ in, roughly the width of a pencil, short of the front edge of the sole.",
+      "tooTight": "Too short: your toes reach or hang over the front edge, where they'll stub and catch on curbs.",
+      "tooLoose": "Too long: there's more than about ½ in of sole in front of your toes, which flaps and trips you on stairs."
+    },
+    {
+      "point": "Heel at the back",
+      "anchor": "heel",
+      "good": "Your heel sits fully on the footbed with about ¼ in of sole visible behind it, centered in any heel cup.",
+      "tooTight": "Too short: your heel hangs off the back or perches on the rear edge of the sole.",
+      "tooLoose": "Too long: a long tail of sole sticks out behind your heel and drags or catches."
+    },
+    {
+      "point": "Sides of the foot",
+      "anchor": "edge",
+      "good": "The widest part of your foot sits inside the edges of the footbed with the sole just visible on both sides.",
+      "tooTight": "Your little toe or the outside of your foot rolls over the edge, or the straps bulge outward.",
+      "tooLoose": "There's a wide strip of sole on either side and your foot slides sideways when you turn."
+    },
+    {
+      "point": "Straps",
+      "anchor": "strap",
+      "good": "Straps lie flat and hold your foot to the sole. You can slide one finger under each strap with light resistance.",
+      "tooTight": "Straps dig in, leave red lines after a few minutes, or make your toes feel numb.",
+      "tooLoose": "Your foot slides forward on each step, the sandal slaps against your heel, or you grip with your toes to keep it on."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "On a contoured footbed, the raised arch sits directly under your own arch and the toe ridge sits under your toes.",
+      "tooTight": "The arch bump presses into the front of your arch, a sign the sandal is a size too short.",
+      "tooLoose": "The arch bump lands near your heel, a sign the sandal is too long."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by sandal style",
+    "intro": "Strap layout changes how a sandal holds your foot, and that changes how much room you can get away with.",
+    "items": [
+      {
+        "name": "Sport and hiking sandals",
+        "text": "These need the most secure fit: an ankle or heel strap that stops your foot sliding forward, and straps that adjust in more than one place. Allow about ¼ in at toe and heel, and check fit wet if you'll wear them in water, since straps loosen and feet slide more."
+      },
+      {
+        "name": "Contoured footbed sandals",
+        "text": "Cork or molded footbeds work only when the arch and toe ridge line up with your foot. Expect them to feel firm for the first week or two as the footbed molds. Many come in regular and narrow widths."
+      },
+      {
+        "name": "Slides",
+        "text": "With no back strap, the single strap over the instep does all the holding. It should feel snug without pinching, and your heel should stay on the footbed as you walk."
+      },
+      {
+        "name": "Dress and heeled sandals",
+        "text": "The ankle strap should close comfortably on a middle hole, and your heel shouldn't hang over the back of the heel seat. Your foot slides forward more in a heel, so check that toes don't creep past the front edge as you walk."
+      },
+      {
+        "name": "Men's and women's sandals",
+        "text": "The checkpoints are the same. Men's sandals are usually built on a wider footbed; women with wide feet often find men's or unisex styles more comfortable, sized down about 1½ from their women's size."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to size sandals",
+    "intro": "Sandals usually follow your normal shoe size, but whole-size-only styles and footbed sandals sized in EU numbers make measuring worthwhile.",
+    "steps": [
+      "Stand barefoot on a sheet of paper with your heel against a wall.",
+      "Mark the tip of your longest toe and measure from the wall to the mark.",
+      "Add about ½ in (1.2 cm) to get the footbed length you want, leaving roughly ¼ in at each end.",
+      "If the brand lists footbed or insole length, compare it with that number rather than relying on the size label.",
+      "If a style comes only in whole sizes and you're a half size, go down for sandals with adjustable straps and up for slides or styles with a fixed strap."
+    ],
+    "tip": "Feet swell in warm weather, so try sandals on in the afternoon and leave adjustable straps a hole looser than feels perfect in the morning."
+  },
+  "problems": [
+    {
+      "problem": "Foot slides forward and toes hang off the front",
+      "fix": "Tighten the strap closest to your ankle or heel first, not the toe straps. If there's no heel strap, the sandal may be too big or the instep strap too loose; a sandal with a back strap will hold better."
+    },
+    {
+      "problem": "Straps rub and cause blisters",
+      "fix": "Leather straps soften after a few wears; until then put a blister plaster or moleskin on the spot. Rough seams or stiff synthetic straps that still rub after a week rarely improve."
+    },
+    {
+      "problem": "Heel hangs off the back",
+      "fix": "The sandal is too short. Size up, even if the toe looks fine, because you'll be walking on the hard rear edge of the sole."
+    },
+    {
+      "problem": "Sandal slaps against the heel when walking",
+      "fix": "Tighten the heel or ankle strap, or the instep strap on slides. Some slapping is normal with flat sandals; constant loud slapping means the foot isn't held."
+    },
+    {
+      "problem": "Foot spills over the side",
+      "fix": "Choose a wide width or a sandal with a broader footbed. Sizing up adds length without much width."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Breaking in sandals",
+      "body": "Leather and cork sandals need a few short wears at home before a full day out. Wear them for an hour or two at a time and readjust straps as the leather gives. Molded cork footbeds settle over roughly the first couple of weeks. Rubber and foam sandals don't change, so they should feel right on the first try."
+    },
+    {
+      "heading": "When sandals have worn out",
+      "body": "Replace sandals when the footbed has a deep imprint that tilts your foot, the sole is worn smooth or thin at the heel, or the straps have stretched past the last hole. A footbed that's flattened out no longer supports the arch it was shaped for."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Sport sandals with heel and ankle straps",
+      "why": "Several adjustment points hold the foot securely for long walks, travel and water.",
+      "query": "adjustable sport sandals heel strap"
+    },
+    {
+      "label": "Contoured footbed sandals in narrow and regular widths",
+      "why": "A choice of widths makes it easier to line up the arch and keep the foot centered.",
+      "query": "contoured footbed sandals narrow width"
+    },
+    {
+      "label": "Wide-width sandals",
+      "why": "A wider footbed stops toes and the outside of the foot spilling over the edge.",
+      "query": "wide width sandals"
+    },
+    {
+      "label": "Moleskin or blister plasters",
+      "why": "Protect hot spots while new leather straps soften.",
+      "query": "moleskin blister plasters"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should sandals fit in the back?",
+      "a": "Your heel should sit fully on the footbed with about ¼ inch of sole visible behind it. If your heel hangs off or sits on the rear edge, the sandal is too short."
+    },
+    {
+      "q": "How should sandals fit in the front?",
+      "a": "Leave about ¼ inch between your longest toe and the front edge. Toes over the edge are too short; more than ½ inch of spare sole is too long."
+    },
+    {
+      "q": "Should sandals be tight or loose?",
+      "a": "The straps should be snug enough that your foot doesn't slide, but loose enough to fit a finger under them. The footbed itself should give your foot a small margin all round."
+    },
+    {
+      "q": "Should you size up or down in sandals?",
+      "a": "Wear your usual size first. If you're between sizes, size down in sandals with adjustable straps, and size up in slides or fixed-strap styles."
+    },
+    {
+      "q": "How should men's sandals fit?",
+      "a": "The same as women's: about ¼ inch of sole in front of the toes and behind the heel, the foot within the side edges, and straps that hold without digging in."
+    },
+    {
+      "q": "Do sandals stretch?",
+      "a": "Leather straps stretch and soften a little, and cork footbeds mold to your foot. Rubber, foam and synthetic sandals barely stretch, so they need to fit from the start."
+    }
+  ],
+  "related": ["flip-flops", "shoes", "slippers", "heels", "hiking-shoes", "loafers", "sneakers", "ballet-shoes"],
+  "updated": "2026-11-19"
+}

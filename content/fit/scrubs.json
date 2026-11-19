@@ -1,0 +1,183 @@
+{
+  "slug": "scrubs",
+  "item": "scrubs",
+  "h1": "How Should Scrubs Fit?",
+  "category": "tops-outerwear",
+  "shape": "shirt",
+  "keywords": [
+    "how should scrubs fit",
+    "how are scrubs supposed to fit",
+    "how should scrubs fit men",
+    "how should scrubs fit women"
+  ],
+  "answer": "Scrubs fit when the top lets you reach, bend and lift without pulling across the back, the V-neck stays modest when you lean forward, the hem covers your waistband when you raise your arms, and the pants sit at your waist without a gap when you squat, ending at the top of your shoes.",
+  "intro": "Scrubs are work clothes for long shifts on your feet, so the fit test is movement, not the mirror. In the fitting room or at home, reach overhead, bend to touch your toes, squat as if picking something up, and reach across your body as if helping a patient. A good set of scrubs lets you do all of that without tugging, gaping or riding up. Always check your workplace's uniform policy for colors and styles too.",
+  "checklist": [
+    {
+      "point": "Neckline",
+      "anchor": "collar",
+      "good": "The V-neck sits flat and stays modest when you lean forward over a bed or desk.",
+      "tooTight": "The neckline pulls into a curve and the top creeps up toward your throat when you reach.",
+      "tooLoose": "The V gapes open when you bend, showing more than you want; a camisole or undershirt helps."
+    },
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder seam sits at or just past your shoulder bone, leaving room to reach forward.",
+      "tooTight": "The back pulls tight across the shoulder blades when you reach or lift.",
+      "tooLoose": "The seam drops well down your arm and the sleeves catch on equipment."
+    },
+    {
+      "point": "Chest",
+      "anchor": "chest",
+      "good": "The top skims your chest or bust with 2–3 in of room to pinch at each side, enough to move without clinging.",
+      "tooTight": "Fabric stretches across the chest or bust and the side seams pull forward.",
+      "tooLoose": "The top billows and hangs off the body, catching on bed rails and equipment."
+    },
+    {
+      "point": "Sleeves",
+      "anchor": "sleeve",
+      "good": "Short sleeves end around mid-upper arm and don't bind when you raise your arms.",
+      "tooTight": "The sleeves squeeze your biceps and ride up into the armpit.",
+      "tooLoose": "Wide sleeves flap and reach toward the elbow, getting in the way when you wash your hands."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The top falls straight or slightly shaped over your stomach and stays put when you move.",
+      "tooTight": "The top clings to your stomach and rides up when you sit or bend.",
+      "tooLoose": "The body billows at the sides and pockets swing away from you."
+    },
+    {
+      "point": "Top length",
+      "anchor": "hem",
+      "good": "The hem sits 2–3 in below your pants waistband and still covers it when you raise your arms.",
+      "tooTight": "Too short: your waistband or lower back shows when you reach or bend.",
+      "tooLoose": "Too long: the hem reaches mid-thigh and gets in the way of pockets and movement."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by cut and wearer",
+    "intro": "Scrubs used to be unisex boxes. Now most makers offer several cuts.",
+    "items": [
+      {
+        "name": "Unisex scrubs",
+        "text": "Straight, boxy cut usually sized like men's clothing. Women often need to size down one from their usual size; check the chest and hip measurements on the chart. They work best for anyone who wants extra room."
+      },
+      {
+        "name": "Women's scrubs",
+        "text": "Shaped at the bust and waist with a shorter shoulder and narrower sleeves. Look for princess seams, side slits for movement and a V-neck that doesn't drop too low. Pants are cut with more room at the hip and often a yoga-style or elastic waistband."
+      },
+      {
+        "name": "Men's scrubs",
+        "text": "Straighter body with a longer torso and broader shoulders. Tops should cover the waistband when you reach; tall sizes add length. Pants usually have a drawstring or zip fly with more room in the seat and thigh."
+      },
+      {
+        "name": "Jogger scrub pants",
+        "text": "Tapered with elastic cuffs at the ankle. The cuff should sit at the ankle bone, not mid-calf, and the leg should have enough room to squat without pulling at the knee."
+      },
+      {
+        "name": "Stretch or athletic scrubs",
+        "text": "Made with spandex or performance fabric, often in a closer, more tailored cut. The stretch means you can choose a trimmer fit and still move freely; check that the fabric doesn't turn see-through when you bend."
+      },
+      {
+        "name": "Maternity scrubs",
+        "text": "Feature a stretch panel over the bump and extra length in the top. Many brands size them by your pre-pregnancy size, but check each brand's chart."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to find your scrub size",
+    "intro": "Scrubs are typically sized XS–3XL, with petite and tall lengths. Measure yourself and compare with each brand's chart, since sizing varies a lot.",
+    "steps": [
+      "Measure your chest or bust at the fullest point, keeping the tape level under your arms.",
+      "Measure your natural waist at its narrowest point, and your hips at their fullest.",
+      "Measure your inseam from the crotch to the floor without shoes, then subtract about an inch so the hem doesn't drag in your work shoes.",
+      "Use your chest measurement for tops and your hip measurement for pants; buy them as separates if they fall in different sizes.",
+      "Choose petite or tall lengths if your inseam is shorter or longer than the brand's regular inseam."
+    ],
+    "tip": "Most scrubs are cotton or cotton-poly blends that can shrink slightly in a hot dryer. If they're borderline short, wash cold and dry on low."
+  },
+  "problems": [
+    {
+      "problem": "Pants show your back when you squat",
+      "fix": "The rise is too short or the top is too short. Choose higher-rise pants or a longer top, or tuck a fitted undershirt in."
+    },
+    {
+      "problem": "V-neck gapes when leaning forward",
+      "fix": "Try a smaller size or a mock-wrap or higher V-neck style, or wear a fitted undershirt or camisole beneath."
+    },
+    {
+      "problem": "Pants drag on the floor",
+      "fix": "Buy petite lengths or jogger styles, or have them hemmed. Dragging hems pick up dirt and are a trip hazard."
+    },
+    {
+      "problem": "Drawstring pants keep slipping",
+      "fix": "Heavy pockets pull them down. Choose pants with an elastic-and-drawstring waist or a yoga waistband."
+    },
+    {
+      "problem": "Top rides up when reaching",
+      "fix": "The top is too short or too tight across the shoulders. Try a tall length or size up and choose a shaped cut."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "How scrub pants should fit",
+      "body": "The waistband should sit at or just below your natural waist and stay put without constant tightening, even with your phone and pens in the pockets. You should be able to squat fully without the seat pulling down or the knees binding. Straight-leg pants should break slightly on the top of your shoes without dragging on the floor; jogger cuffs should rest at the ankle bone. Check that pockets don't flare open at the hip, which means the pants are too tight."
+    },
+    {
+      "heading": "Wearing layers under scrubs",
+      "body": "Many people wear a fitted long-sleeve undershirt beneath a scrub top in cold units. If you will, try your top on over that layer: it adds bulk at the arms and shoulders, so a top that's perfect over bare skin may feel tight."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Stretch scrub sets",
+      "why": "Spandex-blend fabric lets you squat, reach and bend without pulling, even in a trimmer cut.",
+      "query": "stretch scrubs set"
+    },
+    {
+      "label": "Women's petite or tall scrub pants",
+      "why": "Correct inseam lengths stop hems dragging or riding up above your shoes.",
+      "query": "womens petite scrub pants"
+    },
+    {
+      "label": "Jogger scrub pants",
+      "why": "Elastic ankles keep the hem off the floor regardless of your exact inseam.",
+      "query": "jogger scrub pants"
+    },
+    {
+      "label": "Men's scrub tops in tall sizes",
+      "why": "Extra length keeps the waistband covered when you reach overhead.",
+      "query": "mens tall scrub tops"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should scrubs be tight or loose?",
+      "a": "Loose enough to move in, not baggy. You should be able to pinch 2–3 in of fabric at each side of the top and squat without the pants pulling. Very loose scrubs catch on equipment."
+    },
+    {
+      "q": "How should scrubs fit women?",
+      "a": "Women's scrubs should follow the bust and waist without clinging, with a V-neck that stays modest when you lean forward. Pants should have room at the hip and seat and end at the top of your shoes or at the ankle for joggers."
+    },
+    {
+      "q": "How should scrubs fit men?",
+      "a": "The top should be long enough to cover the waistband when you reach, with shoulders that don't pull across the back. Pants should sit at the waist with room in the seat and thigh and end just at the top of your shoes."
+    },
+    {
+      "q": "How long should scrub pants be?",
+      "a": "Straight-leg scrub pants should touch the tops of your shoes with a slight break and never drag on the floor. Jogger cuffs should sit at the ankle bone."
+    },
+    {
+      "q": "Do scrubs run big?",
+      "a": "Unisex scrubs usually follow men's sizing, so women often need a size smaller. Women's-cut and stretch scrubs tend to run closer to everyday clothing sizes. Check each brand's chart."
+    },
+    {
+      "q": "Should I size up in scrubs?",
+      "a": "Size up only if the top pulls across the back or the pants bind when you squat. If the issue is just length, choose a tall or petite size instead."
+    }
+  ],
+  "related": ["shirt", "t-shirt", "denim-jacket", "leather-jacket", "graduation-gown", "pants", "sneakers", "compression-socks", "shoes"],
+  "updated": "2026-11-19"
+}

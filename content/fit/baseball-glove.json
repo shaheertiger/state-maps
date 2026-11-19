@@ -1,0 +1,187 @@
+{
+  "slug": "baseball-glove",
+  "item": "baseball glove",
+  "h1": "How Should a Baseball Glove Fit?",
+  "category": "sports-gear",
+  "shape": "glove",
+  "keywords": [
+    "how should a baseball glove fit",
+    "how should baseball glove fit",
+    "how is a baseball glove supposed to fit",
+    "how should a baseball glove fit on your hand",
+    "how should a baseball glove fit your hand",
+    "how are baseball gloves supposed to fit"
+  ],
+  "answer": "A baseball glove fits when your fingers reach near the ends of the finger stalls without being cramped, the heel of the glove sits at the base of your palm, the wrist strap closes snugly, and you can open and squeeze the glove shut with one hand without it twisting or sliding off.",
+  "intro": "Glove size (the number stamped on it, like 11.5 in) is about the glove's length, which depends on your position and age. Fit is about how your hand sits inside it. A glove that's the right size for your position can still fit badly if the hand opening is too big or your fingers can't reach. Try gloves on with the hand you catch with, and squeeze them shut a few times before deciding.",
+  "checklist": [
+    {
+      "point": "Finger reach",
+      "anchor": "fingertips",
+      "good": "Your fingertips reach close to the ends of the finger stalls, with no more than about ½ in of empty leather beyond them.",
+      "tooTight": "Too small: your fingertips press hard into the ends of the stalls and your knuckles bend before you even close the glove.",
+      "tooLoose": "Too big: an inch or more of leather flops past your fingertips and the glove tips over when you hold it open."
+    },
+    {
+      "point": "Finger stalls",
+      "anchor": "fingers",
+      "good": "Each finger slides into its own stall easily. Many players put the index finger outside the back for extra padding and a snugger feel; either way is fine.",
+      "tooTight": "Your fingers have to be forced in, or two fingers crowd one stall and go numb.",
+      "tooLoose": "Your fingers rattle in the stalls so you can't control the glove's closing."
+    },
+    {
+      "point": "Palm and pocket",
+      "anchor": "palm",
+      "good": "Your palm sits flat behind the pocket and the heel pad lines up with the base of your hand, so a ball caught in the pocket lands just above your palm.",
+      "tooTight": "The heel of the glove ends partway up your palm and the pocket sits over your fingers, which makes catches sting.",
+      "tooLoose": "Your palm sits well below the pocket and the glove slides down your hand when you reach."
+    },
+    {
+      "point": "Thumb",
+      "anchor": "thumb",
+      "good": "Your thumb reaches into the thumb stall and you can press thumb and pinky together to close the glove fully.",
+      "tooTight": "Your thumb is jammed at the end of the stall or bent back.",
+      "tooLoose": "Your thumb sits halfway down the stall and the thumb side flops instead of closing on command."
+    },
+    {
+      "point": "Wrist strap and hand opening",
+      "anchor": "wrist",
+      "good": "The strap closes snugly around your wrist and the glove stays on when you hold your arm down and shake it.",
+      "tooTight": "Even fully open, the strap pinches or leaves marks; check whether the glove has a smaller hand opening than you need.",
+      "tooLoose": "The strap is cinched to its last hole and the glove still slides; look for a model with a smaller hand opening or adjustable laces."
+    }
+  ],
+  "variations": {
+    "heading": "By position, softball and youth",
+    "intro": "Position decides the glove's size and pocket shape. Fit on the hand stays the same.",
+    "items": [
+      {
+        "name": "Infielders",
+        "text": "Smaller gloves (about 11–11.75 in) with shallow pockets so the ball comes out fast for a throw. Middle infielders often go smaller, third basemen slightly larger."
+      },
+      {
+        "name": "Outfielders",
+        "text": "Longer gloves (about 12–12.75 in) with deeper pockets for extra reach on fly balls. The added length makes a secure wrist fit even more important."
+      },
+      {
+        "name": "Pitchers",
+        "text": "Usually about 11.5–12 in with a closed web so the batter can't see the grip. Fit should be snug enough that the glove doesn't move during the windup."
+      },
+      {
+        "name": "First base and catcher's mitts",
+        "text": "Mitts have no individual finger stalls past the base. They're measured by circumference for catchers. Your hand should fill the mitt enough to close it, and catchers often like a snug hand opening for control."
+      },
+      {
+        "name": "Fastpitch and slowpitch softball",
+        "text": "Softball gloves are larger to handle the bigger ball. Fastpitch gloves often have narrower hand openings made for smaller hands; slowpitch gloves run large."
+      },
+      {
+        "name": "Youth gloves",
+        "text": "A glove that's too big is the most common youth mistake. A child needs to be able to open and close it with one hand; if they need two, it's too big or too stiff."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure a baseball glove",
+    "intro": "Glove size is measured on the glove, not your hand. You'll rarely need to do it yourself, but it helps when comparing used gloves.",
+    "steps": [
+      "Lay the glove palm side up.",
+      "Start at the top of the index finger stall.",
+      "Run a soft tape down along the inside of the index finger, through the pocket, to the bottom of the heel, following the contour of the leather.",
+      "The length in inches is the glove size (for example 11.5).",
+      "For a catcher's mitt, measure around the outside of the mitt instead; that circumference is its size."
+    ],
+    "tip": "Make sure the glove is for your throwing hand: a right-hand thrower (RHT) wears the glove on the left hand."
+  },
+  "sizeTable": {
+    "caption": "Typical baseball glove sizes by position (adult)",
+    "headers": ["Position", "Typical size"],
+    "rows": [
+      ["Middle infield (2B, SS)", "11–11.5 in"],
+      ["Third base", "11.5–12 in"],
+      ["Pitcher", "11.5–12 in"],
+      ["Outfield", "12–12.75 in"],
+      ["First base mitt", "12–13 in"],
+      ["Catcher's mitt", "32–34.5 in (circumference)"]
+    ],
+    "note": "These are common conventions, not rules; personal preference matters. Youth gloves typically run about 9–11.5 in depending on age and hand size, and softball gloves run larger."
+  },
+  "problems": [
+    {
+      "problem": "The glove is too stiff to close",
+      "fix": "New leather needs breaking in. Play catch with it regularly, work the pocket by hand, and store it closed around a ball with a band. Don't heat it in an oven or microwave; that dries out the leather."
+    },
+    {
+      "problem": "The glove slides off when reaching",
+      "fix": "Tighten the wrist strap or the laces at the heel. Putting your index finger outside the back also makes the glove feel snugger."
+    },
+    {
+      "problem": "Catches sting the palm",
+      "fix": "The ball is landing in the palm instead of the pocket. Check that your hand sits low enough in the glove, or add a padded batting-glove-style inner glove or palm pad."
+    },
+    {
+      "problem": "Your child can't squeeze the glove shut",
+      "fix": "It's too big or too stiff. Choose a smaller youth size with soft, game-ready leather."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Breaking in a new glove",
+      "body": "Expect a quality leather glove to take a few weeks of regular catch to break in. Use it often, work the pocket and flex the hinge by hand, and use a small amount of glove conditioner if the leather feels dry. Avoid soaking it or heating it. Lacing can loosen as it breaks in, so recheck and retighten it."
+    },
+    {
+      "heading": "Glove care",
+      "body": "Let a wet glove air-dry at room temperature, away from heaters. Store it with a ball in the pocket so it keeps its shape, and condition it lightly once or twice a season."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Youth baseball gloves with soft, game-ready leather",
+      "why": "Easier for kids to close straight away, so they can learn to catch properly.",
+      "query": "youth baseball glove soft leather"
+    },
+    {
+      "label": "Infield gloves around 11.5 in",
+      "why": "A common size for adult infielders who want quick transfers.",
+      "query": "infield baseball glove 11.5"
+    },
+    {
+      "label": "Outfield gloves around 12.5 in",
+      "why": "Extra length and a deep pocket for catching fly balls.",
+      "query": "outfield baseball glove 12.5"
+    },
+    {
+      "label": "Glove conditioner and break-in kit",
+      "why": "Keeps leather supple and helps a stiff glove form a pocket sooner.",
+      "query": "baseball glove conditioner break in"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a baseball glove be tight or loose?",
+      "a": "Snug at the wrist, with your fingers reaching close to the ends of the stalls. It shouldn't slide off when you shake your hand, but it shouldn't cramp your fingers either."
+    },
+    {
+      "q": "How should a baseball glove fit on your hand?",
+      "a": "Your palm should sit behind the pocket with the heel of the glove at the base of your hand, your fingers should nearly fill the stalls, and you should be able to close it with one hand."
+    },
+    {
+      "q": "What size baseball glove do I need?",
+      "a": "It depends on your position and age: about 11–12 in for infielders and pitchers, 12–12.75 in for outfielders, and smaller youth sizes for kids."
+    },
+    {
+      "q": "Why do players put their index finger outside the glove?",
+      "a": "It adds padding between the ball and the finger and makes the glove fit more snugly. It's a personal preference."
+    },
+    {
+      "q": "Should I buy a baseball glove a size up for my child to grow into?",
+      "a": "No. A glove that's too big is harder to close and control. Buy one your child can close with one hand now."
+    },
+    {
+      "q": "Which hand does a baseball glove go on?",
+      "a": "On your non-throwing hand. A right-handed thrower wears it on the left hand; these gloves are labeled RHT."
+    }
+  ],
+  "related": ["golf-glove", "gloves", "moto-gloves", "shin-guards", "baseball-cap", "soccer-cleats", "bike-helmet", "dog-harness"],
+  "updated": "2026-11-19"
+}

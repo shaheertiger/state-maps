@@ -1,0 +1,204 @@
+{
+  "slug": "ring",
+  "item": "ring",
+  "h1": "How Should a Ring Fit?",
+  "category": "jewelry-watches",
+  "shape": "ring",
+  "keywords": [
+    "how should a ring fit",
+    "how do you make a ring fit tighter",
+    "how are rings supposed to fit",
+    "how should a ring fit on your finger",
+    "how should a mens ring fit",
+    "how should a ring fit a woman"
+  ],
+  "answer": "A ring fits when it slides over your knuckle with a little resistance and a gentle twist, sits at the base of your finger without spinning freely, leaves no deep dent or bulging skin, and needs a small push back over the knuckle to come off. It shouldn't fall off when you shake your hand.",
+  "intro": "Ring fit is about two places: the knuckle the ring has to pass over and the base of the finger where it lives. A good fit is a compromise between the two. Fingers also change size through the day, so check fit when your hands are at a normal temperature, not straight out of a hot shower or a cold car.",
+  "checklist": [
+    {
+      "point": "Over the knuckle",
+      "anchor": "knuckle",
+      "good": "The ring needs a light push and a slight twist to pass the knuckle, both on and off.",
+      "tooTight": "You have to force or soap it over the knuckle, or it won't come back off without a struggle.",
+      "tooLoose": "It slides over the knuckle with no resistance at all, which means it can slide off just as easily."
+    },
+    {
+      "point": "At the base of the finger",
+      "anchor": "finger",
+      "good": "The ring stays roughly in place and can rotate with a little effort, but doesn't spin on its own.",
+      "tooTight": "It won't turn at all, the skin bulges on either side, or it leaves a deep red ring after a few minutes.",
+      "tooLoose": "It spins constantly, slides up toward the knuckle, and a heavy stone flops to the side."
+    },
+    {
+      "point": "Band against the skin",
+      "anchor": "band",
+      "good": "The band touches the skin all the way around with only a faint mark when you take it off.",
+      "tooTight": "The band digs in, your finger tingles or swells, or the area turns pale or purple.",
+      "tooLoose": "The band floats away from the skin and catches on pockets, gloves and hair."
+    },
+    {
+      "point": "Space under the ring",
+      "anchor": "gap",
+      "good": "There's just enough room to feel a hair-thin gap when you rotate it, with no visible space.",
+      "tooTight": "No gap at all and you can't slide even a fingernail edge under the band.",
+      "tooLoose": "You can see a gap between the band and the palm side of the finger, or slip a second finger's tip under it."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by band width, style and hand",
+    "intro": "The same size can feel different depending on how wide the band is and how the inside is shaped.",
+    "items": [
+      {
+        "name": "Wide bands (6 mm and up)",
+        "text": "A wide band covers more skin, so it feels tighter than a thin band of the same size. Many jewelers suggest going up about a quarter to half size for bands 6 mm or wider. Try a sizer of the same width before you order."
+      },
+      {
+        "name": "Thin and stacking rings (under 3 mm)",
+        "text": "Thin bands feel looser and can spin more, so they are usually worn true to size or even a quarter size down. Stacks of several thin rings behave like one wider band, so check the whole stack together."
+      },
+      {
+        "name": "Comfort-fit bands",
+        "text": "A comfort-fit ring is rounded on the inside, which makes it slide over the knuckle more easily. Some people find they need a quarter to half size smaller in comfort fit than in a flat-inside band."
+      },
+      {
+        "name": "Men's rings",
+        "text": "Men's rings tend to be wider and heavier, so the wide-band rule usually applies. A men's ring should still pass the knuckle with slight resistance and shouldn't spin freely at the base, even when the hands are cold."
+      },
+      {
+        "name": "Women's rings",
+        "text": "Women's rings often have narrower bands and taller settings. A ring with a high setting or large stone is top-heavy, so it needs a snugger fit to keep the stone facing up."
+      },
+      {
+        "name": "Dominant hand and large knuckles",
+        "text": "Fingers on your dominant hand are often slightly larger, so measure the hand you'll wear the ring on. If your knuckles are much wider than the base of your finger, a ring that clears the knuckle will spin; sizing beads or a hinged shank fix that."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your ring size at home",
+    "intro": "The most accurate method is a jeweler's metal sizer ring. At home, an existing ring that fits the same finger is the next best thing.",
+    "steps": [
+      "Measure at the end of the day, when your fingers are warm and at their largest, and not after exercise or in the cold.",
+      "To size from an existing ring, measure the inside diameter edge to edge across the middle with a ruler in millimeters. Don't include the metal.",
+      "To measure your finger, wrap a thin strip of paper or string around the base of the finger, mark where it overlaps, and measure that length in millimeters. That is your circumference.",
+      "Check that the paper strip also passes over your knuckle. If it doesn't, use the knuckle measurement or a size in between.",
+      "Find your diameter or circumference in the table below and read off the US size.",
+      "Measure two or three times on different days and use the size that comes up most often."
+    ],
+    "tip": "String stretches and paper can be pulled too tight, so treat a home measurement as a starting point. A plastic adjustable ring sizer or a visit to a jeweler is more reliable before buying an expensive ring."
+  },
+  "sizeTable": {
+    "caption": "US ring sizes by inside diameter and circumference",
+    "headers": ["US size", "Inside diameter (mm)", "Inside circumference (mm)"],
+    "rows": [
+      ["3", "14.1", "44.2"],
+      ["3½", "14.5", "45.5"],
+      ["4", "14.9", "46.8"],
+      ["4½", "15.3", "48.0"],
+      ["5", "15.7", "49.3"],
+      ["5½", "16.1", "50.6"],
+      ["6", "16.5", "51.9"],
+      ["6½", "16.9", "53.1"],
+      ["7", "17.3", "54.4"],
+      ["7½", "17.7", "55.7"],
+      ["8", "18.1", "57.0"],
+      ["8½", "18.5", "58.3"],
+      ["9", "18.9", "59.5"],
+      ["9½", "19.4", "60.8"],
+      ["10", "19.8", "62.1"],
+      ["10½", "20.2", "63.4"],
+      ["11", "20.6", "64.6"],
+      ["11½", "21.0", "65.9"],
+      ["12", "21.4", "67.2"],
+      ["12½", "21.8", "68.5"],
+      ["13", "22.2", "69.7"]
+    ],
+    "note": "Each full US size adds about 0.8 mm to the inside diameter and about 2.5 mm to the circumference. Values are rounded to 0.1 mm; individual jewelers' charts can differ by a tenth or two."
+  },
+  "problems": [
+    {
+      "problem": "The ring is too loose and spins",
+      "fix": "For a quick fix, use a clear silicone ring adjuster or ring guard that clips or slides inside the band. For a permanent fix, a jeweler can add sizing beads (two small metal bumps inside the band), fit a spring insert, or size the ring down by cutting out a small section."
+    },
+    {
+      "problem": "The ring fits at the base but won't go over the knuckle",
+      "fix": "Your knuckle is wider than the base of your finger. Size to the knuckle and add sizing beads to stop the spin, or ask a jeweler about a hinged or adjustable shank that opens to pass the knuckle."
+    },
+    {
+      "problem": "The ring is stuck",
+      "fix": "Raise your hand above your heart for a few minutes, cool the finger with cold water, then use soap or lotion and twist the ring gently toward the fingertip. If the finger is very swollen, discolored or numb, get help from a jeweler or urgent care rather than forcing it."
+    },
+    {
+      "problem": "The ring is too tight",
+      "fix": "Most plain gold, silver and platinum rings can be stretched or sized up by a jeweler, usually by up to about one size by stretching or more by adding metal. Tungsten, titanium, ceramic and many eternity rings can't be resized, so get the size right first."
+    },
+    {
+      "problem": "The ring fits in summer but slips off in winter",
+      "fix": "Fingers shrink in the cold. A ring that's snug on a cold day will feel tight in heat. Size for an average day and add a removable ring adjuster for the cold months."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "How to make a ring fit tighter",
+      "body": "There are four common options, from cheapest to most permanent. A silicone or plastic ring adjuster slides or clips onto the inside of the band and costs very little, but can feel bulky. Sizing beads are two small metal balls a jeweler solders inside the band; they grip the finger and still let the ring pass the knuckle. A spring insert or sizing bar is a flexible piece that presses against the finger. Finally, a jeweler can resize the ring down by cutting a small section out of the band and rejoining it. Avoid wrapping tape or string around the band for long, since it traps moisture and can irritate the skin."
+    },
+    {
+      "heading": "Which rings can and can't be resized",
+      "body": "Plain bands in gold, silver and platinum are the easiest to resize, typically up or down one to two sizes. Rings with stones set all the way around (full eternity bands), engraved or patterned bands, tension settings, and rings made of tungsten carbide, titanium or ceramic usually can't be resized at all. Ask about resizing policy before you buy if you're unsure of your size."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Reusable plastic ring sizer",
+      "why": "An adjustable sizer that loops around the finger gives a more reliable size than string or paper.",
+      "query": "reusable ring sizer adjustable"
+    },
+    {
+      "label": "Metal ring sizer set",
+      "why": "A set of metal sample rings in quarter or half sizes lets you check fit over the knuckle the way a jeweler does.",
+      "query": "metal ring sizer set half sizes"
+    },
+    {
+      "label": "Silicone ring size adjusters",
+      "why": "A cheap, removable way to tighten a ring that spins or slips off in cold weather.",
+      "query": "invisible ring size adjuster silicone"
+    },
+    {
+      "label": "Comfort-fit bands",
+      "why": "The rounded inside slides over a large knuckle more easily, which suits wider bands and people with prominent knuckles.",
+      "query": "comfort fit ring band"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a ring be tight or loose?",
+      "a": "Snug but not tight. It should need a slight push and twist to go over the knuckle, stay put at the base of the finger, and turn only with a little effort. Spinning freely means too loose; bulging skin or a deep dent means too tight."
+    },
+    {
+      "q": "How do you make a ring fit tighter?",
+      "a": "For a temporary fix use a silicone ring adjuster inside the band. For a permanent fix ask a jeweler for sizing beads, a spring insert, or to size the ring down by removing a small section of the band."
+    },
+    {
+      "q": "How should a ring fit on your finger?",
+      "a": "It should sit at the base of the finger, below the knuckle, without sliding up toward it. You should be able to rotate it with a little effort, and it shouldn't leave a deep mark when you take it off."
+    },
+    {
+      "q": "How should a men's ring fit?",
+      "a": "The same as any ring: slight resistance over the knuckle and no free spinning at the base. Men's rings are often wider, so many men need a quarter to half size larger in bands 6 mm or wider."
+    },
+    {
+      "q": "How should a ring fit a woman?",
+      "a": "Snug enough that a stone or setting stays on top of the finger instead of rolling sideways. Women's rings with high or heavy settings usually need a slightly snugger fit than a plain band."
+    },
+    {
+      "q": "Is it better to size a ring up or down?",
+      "a": "If you're between sizes, most people choose the larger size, since a slightly loose ring can be tightened with an adjuster or sizing beads, while a ring that won't pass the knuckle is unwearable."
+    },
+    {
+      "q": "Why does my ring fit differently during the day?",
+      "a": "Heat, salt, alcohol, exercise, flying and hormones all make fingers swell, while cold makes them shrink. A small change through the day is normal. Size for how your fingers feel on an ordinary afternoon."
+    }
+  ],
+  "related": ["engagement-ring", "wedding-band", "bracelet", "tennis-bracelet", "watch", "gloves", "glasses", "belt"],
+  "updated": "2026-11-19"
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "chaco",
+  "brand": "Chaco",
+  "h1": "How Do Chacos Fit?",
+  "category": "footwear",
+  "keywords": [
+    "how should chacos fit",
+    "how are chacos supposed to fit",
+    "how should chacos fit your feet",
+    "how do chacos fit"
+  ],
+  "verdict": "true to size",
+  "answer": "Chacos are sold by your regular US size, but Chaco's iconic Z sandals come only in whole sizes. Chaco's own advice is that if you wear a half size, go up to the next whole size. If your feet differ, fit the bigger or wider one so your whole foot sits on the footbed, then adjust the straps.",
+  "sizeChart": {
+    "caption": "Chaco men's footwear size chart",
+    "headers": ["US", "UK", "EUR", "JPN (cm)"],
+    "rows": [
+      ["7", "6", "40", "25"],
+      ["8", "7", "41", "26"],
+      ["9", "8", "42", "27"],
+      ["10", "9", "43", "28"],
+      ["11", "10", "44", "29"],
+      ["12", "11", "45", "30"],
+      ["13", "12", "46", "31"],
+      ["14", "13", "47", "32"],
+      ["15", "14", "48", "33"]
+    ],
+    "note": "Whole sizes shown. Chaco's chart also lists half sizes from 7.5 to 12.5 for conversion, but Z sandals are offered in whole sizes only. On the women's chart, US 5 is UK 3, EUR 36 and 22 cm, and US 9 is UK 7, EUR 40 and 26 cm.",
+    "source": {
+      "name": "Chaco combined footwear size chart",
+      "url": "https://www.chacos.com/US/en/content?caid=combined-sizechart"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Whole sizes only on the Z sandals",
+      "body": "Chaco's sizing guide says its iconic Z sandals are only offered in full sizes. Its product pages match that: the men's Z/2 size selector runs in whole sizes from 7 to 15, even though the size chart linked from the page shows half sizes for conversion. The Chaco size chart itself is a straight US-to-UK, EUR and Japanese (cm) conversion."
+    },
+    {
+      "heading": "If you wear a half size, go up",
+      "body": "Chaco recommends buying your first pair in person at a retailer so you can try them on. If that isn't possible, its guidance is that people who wear a half size should go up to the next nearest whole size. A men's 9.5 would order a 10."
+    },
+    {
+      "heading": "Fit the bigger foot",
+      "body": "Chaco notes that many people have feet of slightly different sizes. In that case it recommends sizing for the bigger or wider foot, so your entire foot fits on the footbed. The goal is a foot that sits fully on the contoured footbed, not hanging off the edge."
+    },
+    {
+      "heading": "Straps do the fine-tuning",
+      "body": "Chaco calls its adjustable strap system a 360 degree customizable fit, and models like the Z/2 add a toe loop. Size gets your foot onto the footbed; the straps set how snug the sandal holds you. Chaco also suggests easing in: wear new sandals a few hours a day over a week or two, and allow a two to three week break-in period."
+    },
+    {
+      "heading": "Wide widths",
+      "body": "Chaco sells wide-width versions of some classics, including the Z/1 and Z/2, alongside the standard medium width. They're listed on Chaco's wide widths page."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should Chacos fit your feet?",
+      "a": "Your whole foot should sit on the footbed. Chaco says to size for your bigger or wider foot if they differ, then use the adjustable straps to set the fit."
+    },
+    {
+      "q": "Do Chacos come in half sizes?",
+      "a": "Not the Z sandals. Chaco says its iconic Z sandals are only offered in full sizes, and the Z/2 product page offers whole sizes only."
+    },
+    {
+      "q": "Should I size up or down in Chacos if I'm a half size?",
+      "a": "Up. Chaco's guidance is that if you wear a half size, go up to the next nearest whole size, ideally after trying a pair on in a store."
+    },
+    {
+      "q": "How long does it take to break in Chacos?",
+      "a": "Chaco suggests wearing new sandals a few hours a day over a week or two, and allowing a two to three week break-in period."
+    },
+    {
+      "q": "Does Chaco make wide sandals?",
+      "a": "Yes. Chaco sells wide-width versions of some classics, including the Z/1 and Z/2."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Chaco Z/1 Classic sandals",
+      "why": "The single-strap classic, sold in whole sizes.",
+      "query": "chaco z1 classic sandal"
+    },
+    {
+      "label": "Chaco Z/2 Classic sandals",
+      "why": "Adds a toe loop for a more locked-in fit.",
+      "query": "chaco z2 classic sandal"
+    },
+    {
+      "label": "Chaco wide-width sandals",
+      "why": "Chaco's own option if the standard width feels tight.",
+      "query": "chaco wide width sandal"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Chaco combined footwear size chart",
+      "url": "https://www.chacos.com/US/en/content?caid=combined-sizechart"
+    },
+    {
+      "name": "Chaco: Achieve the perfect Chaco fit with our sizing guide",
+      "url": "https://blog.chacos.com/achieve-the-perfect-chaco-fit-with-our-sizing-guide/"
+    },
+    {
+      "name": "Chaco Men's Z/2 Classic sandal product page",
+      "url": "https://www.chacos.com/US/en/z-2-adjustable-strap-classic-sandal/24083M.html"
+    },
+    {
+      "name": "Chaco product features: adjust your straps",
+      "url": "https://www.chacos.com/US/en/explore-product-features/"
+    },
+    {
+      "name": "Chaco wide-width sandals",
+      "url": "https://www.chacos.com/US/en/wide-widths/"
+    }
+  ],
+  "checked": "2026-11-19"
+}

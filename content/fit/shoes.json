@@ -1,0 +1,330 @@
+{
+  "slug": "shoes",
+  "item": "shoes",
+  "h1": "How Should Shoes Fit?",
+  "category": "footwear",
+  "shape": "shoe",
+  "keywords": [
+    "how should shoes fit",
+    "how are shoes supposed to fit",
+    "how do you know if your shoes fit",
+    "how to tell if shoes fit",
+    "how do you make shoes that are too big fit",
+    "how should shoes fit properly",
+    "how should a shoe fit your foot",
+    "how should shoes fit for running"
+  ],
+  "answer": "Shoes fit when there's about a thumb's width (⅜–½ in) between your longest toe and the end of the shoe, the widest part of your foot sits at the widest part of the shoe without pressure, your heel stays put with only slight lift when you walk, and the top hugs your instep without pinching.",
+  "intro": "Fit comes down to length, width and how well the shoe holds your heel. Size numbers vary between brands and styles, so treat the number on the box as a starting point. Shop later in the day, when feet are largest, and wear the socks you'll actually wear.",
+  "checklist": [
+    {
+      "point": "Toe room (length)",
+      "anchor": "toe",
+      "good": "Standing with your weight on both feet, there's about a thumb's width, roughly ⅜–½ in, between your longest toe and the front of the shoe. Your longest toe may be your second toe, not your big toe.",
+      "tooTight": "Too short: your toes touch or press against the front, or curl slightly when you stand. Toes will hit the end on downhill steps.",
+      "tooLoose": "Too long: there's more than about ¾ in of space, the toe box creases deeply when you flex, and you catch the tip on stairs."
+    },
+    {
+      "point": "Ball of the foot (width)",
+      "anchor": "ball",
+      "good": "The widest part of your foot lines up with the widest part of the sole, and you can pinch a little material over the outside of the forefoot.",
+      "tooTight": "You feel pressure on the little-toe or big-toe joint, the upper bulges over the sole, or your foot spills over the footbed edge.",
+      "tooLoose": "Your foot slides side to side when you turn, and the upper wrinkles across the forefoot even when laced."
+    },
+    {
+      "point": "Heel hold",
+      "anchor": "heel",
+      "good": "Your heel sits snugly in the heel cup and lifts no more than about ⅛–¼ in when you walk. A slight lift in new stiff-soled shoes is normal.",
+      "tooTight": "The heel counter digs into your Achilles or the back of the heel, or your heel feels jammed down.",
+      "tooLoose": "Your heel slips up and out with each step, or you can slide more than one finger behind your heel when your toes touch the front."
+    },
+    {
+      "point": "Instep",
+      "anchor": "instep",
+      "good": "Laced or strapped, the top of the shoe hugs the top of your foot evenly without pressure points.",
+      "tooTight": "Laces or the tongue press on the top of your foot, the eyelets almost touch, or your foot goes numb or tingly.",
+      "tooLoose": "The eyelets pull nearly closed and the shoe still feels sloppy, or a slip-on gapes at the top."
+    },
+    {
+      "point": "Arch",
+      "anchor": "arch",
+      "good": "The footbed's arch sits under your arch and feels neutral or lightly supportive.",
+      "tooTight": "The arch bump presses uncomfortably or sits in the wrong place, usually a sign the shoe is the wrong length.",
+      "tooLoose": "You feel a gap under your arch and your foot rolls inward with no contact from the footbed."
+    },
+    {
+      "point": "Flex point",
+      "anchor": "length",
+      "good": "The shoe bends where your foot bends, across the ball of the foot behind the toes.",
+      "tooTight": "Too short: the shoe creases forward of your toe joints, pushing on your toes as you step.",
+      "tooLoose": "Too long: the crease falls behind your toe joints, digging into the top of the foot near the arch."
+    }
+  ],
+  "variations": {
+    "heading": "How fit changes by type of shoe",
+    "intro": "The core checkpoints apply to every shoe. What changes is how much toe room and how firm a hold you want.",
+    "items": [
+      {
+        "name": "Running and athletic shoes",
+        "text": "Allow a full thumb's width, about ½ in, at the toe because feet swell and slide forward when you run. The midfoot and heel should feel secure, with no slipping when you jog in place. Many runners go up a half size from their everyday shoes."
+      },
+      {
+        "name": "Dress shoes and loafers",
+        "text": "These are cut closer, with roughly ¼–⅜ in at the toe. Leather stretches in width but never in length, so a dress shoe should be snug but not painful across the ball and correct in length from the start."
+      },
+      {
+        "name": "Hiking and work shoes",
+        "text": "Fit them with the thicker socks you'll wear. You want room to wiggle your toes and a heel that stays locked on steep ground, since toes hitting the front on descents causes bruised nails."
+      },
+      {
+        "name": "Wide or narrow feet",
+        "text": "If a shoe fits in length but pinches across the ball, look for a wide width rather than sizing up. Sizing up for width moves the flex point and arch out of place and leaves too much length."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your feet at home",
+    "intro": "You need a sheet of paper, a pen, a ruler or tape measure, and the socks you plan to wear. Measure in the late afternoon or evening.",
+    "steps": [
+      "Tape a sheet of paper to the floor against a wall.",
+      "Stand on the paper with your heel touching the wall and your weight evenly on both feet.",
+      "Have someone mark the tip of your longest toe with a pen held straight up and down, or mark it yourself while leaning only slightly.",
+      "Mark both sides of the widest part of your foot, across the ball.",
+      "Measure from the wall to the toe mark for length, and between the side marks for width, in centimeters or inches.",
+      "Repeat for the other foot. Most people have one foot slightly larger, so buy for the larger one.",
+      "Find your foot length in the conversion table below, then check the brand's own size chart, since brands differ."
+    ],
+    "tip": "Feet can grow longer and wider over the years, and during pregnancy. Re-measure every year or two instead of assuming your size from a decade ago."
+  },
+  "sizeTable": {
+    "caption": "Shoe size conversion: US men's, US women's, UK, EU and foot length",
+    "headers": [
+      "US men",
+      "US women",
+      "UK",
+      "EU",
+      "Foot length (cm)",
+      "Foot length (in)"
+    ],
+    "rows": [
+      [
+        "3½",
+        "5",
+        "3",
+        "35–36",
+        "21.6",
+        "8½"
+      ],
+      [
+        "4½",
+        "6",
+        "4",
+        "36–37",
+        "22.4",
+        "8⅞"
+      ],
+      [
+        "5½",
+        "7",
+        "5",
+        "37–38",
+        "23.3",
+        "9⅛"
+      ],
+      [
+        "6½",
+        "8",
+        "6",
+        "38–39",
+        "24.1",
+        "9½"
+      ],
+      [
+        "7",
+        "8½",
+        "6½",
+        "40",
+        "24.5",
+        "9⅝"
+      ],
+      [
+        "7½",
+        "9",
+        "7",
+        "40–41",
+        "24.9",
+        "9¾"
+      ],
+      [
+        "8",
+        "9½",
+        "7½",
+        "41",
+        "25.4",
+        "10"
+      ],
+      [
+        "8½",
+        "10",
+        "8",
+        "41–42",
+        "25.8",
+        "10⅛"
+      ],
+      [
+        "9",
+        "10½",
+        "8½",
+        "42",
+        "26.2",
+        "10⅜"
+      ],
+      [
+        "9½",
+        "11",
+        "9",
+        "42–43",
+        "26.7",
+        "10½"
+      ],
+      [
+        "10",
+        "11½",
+        "9½",
+        "43–44",
+        "27.1",
+        "10⅝"
+      ],
+      [
+        "10½",
+        "12",
+        "10",
+        "44",
+        "27.5",
+        "10⅞"
+      ],
+      [
+        "11",
+        "12½",
+        "10½",
+        "44–45",
+        "27.9",
+        "11"
+      ],
+      [
+        "12",
+        "13½",
+        "11½",
+        "46",
+        "28.8",
+        "11⅜"
+      ],
+      [
+        "13",
+        "14½",
+        "12½",
+        "47",
+        "29.6",
+        "11⅝"
+      ]
+    ],
+    "note": "Approximate. US men's sizes follow the common rule of thumb of 3 × foot length in inches minus 22; US women's sizes run about 1½ sizes larger than men's for the same foot, and UK sizes about ½ size smaller than US men's. EU sizing in particular varies by brand, so always check the maker's own chart."
+  },
+  "problems": [
+    {
+      "problem": "Shoes are a little too big",
+      "fix": "Add a thin full-length insole to take up volume, or a heel grip pad stuck inside the heel counter to stop slipping. Wear slightly thicker socks. For laced shoes, use a heel-lock (runner's loop) lacing through the top eyelets. These fixes handle about a half size; anything more and the flex point and arch will be in the wrong place, so exchange them."
+    },
+    {
+      "problem": "Shoes are a little too tight",
+      "fix": "Leather and suede shoes can be stretched in width by a cobbler or with a shoe stretcher. Length can't be stretched meaningfully, so if your toes hit the end, size up. Synthetic and knit shoes don't stretch much at all."
+    },
+    {
+      "problem": "Heel slips with every step",
+      "fix": "Try heel grips, a heel-lock lacing pattern, or a half size down. If the shoe fits everywhere else but the heel slips, the heel cup may simply be too wide for your foot and a different brand will fit better."
+    },
+    {
+      "problem": "Pressure on the side of the big toe or little toe",
+      "fix": "The shoe is too narrow or too pointed. Look for a wide width or a rounder toe box instead of going up in length."
+    },
+    {
+      "problem": "Top of the foot hurts when laced",
+      "fix": "Skip the eyelet over the sore spot when lacing (window lacing), or loosen the laces across the instep and tighten them at the top."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "The in-store fit test",
+      "body": "Put both shoes on, lace them fully, and stand. Press the toe to check length. Walk on a hard floor, not just carpet, and go up and down a step or ramp if one is available. Rise onto your toes to check heel slip, and turn sharply to check side-to-side movement. A shoe should feel comfortable right away. Leather may soften and mold over a few wears, but a shoe that pinches in the store rarely becomes comfortable."
+    },
+    {
+      "heading": "When to replace shoes",
+      "body": "Replace shoes when the heel counter collapses, the sole is worn through to a different color or worn unevenly, or the cushioning feels flat. Running shoes are commonly replaced every 300–500 miles. A shoe that once fit but now pinches may mean your feet have changed, so re-measure."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Shoes sold in wide and extra-wide widths",
+      "why": "If shoes pinch across the ball but fit in length, a wide width solves it without throwing off the toe room.",
+      "query": "wide width shoes 2E"
+    },
+    {
+      "label": "Heel grip pads",
+      "why": "Stick-in pads that fill space at the back of shoes that are slightly too big or slip at the heel.",
+      "query": "shoe heel grips inserts"
+    },
+    {
+      "label": "Thin full-length insoles",
+      "why": "Take up a little volume in roomy shoes and add some cushioning; trim to fit.",
+      "query": "thin full length shoe insoles"
+    },
+    {
+      "label": "Two-way shoe stretcher",
+      "why": "Gently widens leather shoes that are the right length but snug across the forefoot.",
+      "query": "two way shoe stretcher"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you know if your shoes fit?",
+      "a": "Stand and press the toe: you want about a thumb's width (⅜–½ in) beyond your longest toe. The ball of your foot should sit at the widest part of the shoe without pressure, your heel should barely lift when you walk, and nothing should pinch or rub."
+    },
+    {
+      "q": "How do you make shoes that are too big fit?",
+      "a": "For up to about a half size too big, add heel grips, a thin insole or a tongue pad, wear thicker socks, and use heel-lock lacing. If they're a full size or more too big, return or exchange them, because the arch and flex point will sit in the wrong place."
+    },
+    {
+      "q": "Should shoes be tight or loose?",
+      "a": "Snug, not tight. The shoe should hold your heel and midfoot securely while leaving room to wiggle your toes. Tightness across the toes or pressure at the sides means the shoe is too small or too narrow."
+    },
+    {
+      "q": "How much room should be at the end of a shoe?",
+      "a": "About ⅜–½ inch, roughly a thumb's width, between your longest toe and the end of the shoe while standing. Dress shoes can be a little closer; running and hiking shoes need the full ½ inch."
+    },
+    {
+      "q": "How should shoes fit for running?",
+      "a": "Running shoes need a full thumb's width at the toe, a secure heel with no slipping, and enough width that your forefoot doesn't spill over the sole. Many runners wear a half size larger than their casual shoes because feet swell over a run."
+    },
+    {
+      "q": "Will shoes stretch to fit?",
+      "a": "Leather and suede shoes stretch a little in width and soften over the first few wears. No shoe stretches meaningfully in length, and synthetic or mesh shoes stretch very little, so buy for correct length."
+    },
+    {
+      "q": "Should I size up or down if I'm between sizes?",
+      "a": "Usually size up and take up the extra volume with an insole or thicker sock. A shoe that's slightly roomy is easier to fix than one that's too short."
+    }
+  ],
+  "related": [
+    "sneakers",
+    "running-shoes",
+    "dress-shoes",
+    "sandals",
+    "heels",
+    "loafers",
+    "hiking-shoes",
+    "boots",
+    "slippers",
+    "tennis-shoes"
+  ],
+  "updated": "2026-11-19"
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "suits",
+    "name": "Suits and tailoring",
+    "short": "Suits",
+    "description": "How suit jackets, blazers, dress shirts and trousers should fit, point by point, and what a tailor can fix.",
+    "intro": "Tailored clothes are judged on a handful of fixed points: shoulder seam, collar, sleeve length, the buttoned front and the trouser break. Get the shoulders right in the store, because a tailor can adjust almost everything else.",
+    "faqs": [
+      { "q": "How should suit sleeves fit?", "a": "With your arms relaxed, the jacket sleeve should end at the wrist bone and show about ¼–½ in of shirt cuff. Sleeves are one of the easiest alterations." },
+      { "q": "How should a dress shirt collar fit?", "a": "Buttoned at the top, you should be able to slide two fingers flat between the collar and your neck. Any tighter and the collar will pinch; looser and it will gape under a tie." },
+      { "q": "How should a tie fit?", "a": "The tip of a tie should reach the middle of your belt buckle when you stand straight. Its width should roughly match the width of your jacket lapels." },
+      { "q": "How should tuxedo pants fit?", "a": "Like suit trousers, but usually with little or no break: the hem just touches the top of the shoe. Tuxedo trousers are worn with suspenders or side adjusters rather than a belt, so the waist should sit comfortably without one." },
+      { "q": "How should a double-breasted suit fit?", "a": "It's always worn buttoned, so judge it buttoned: the front should lie flat across both rows of buttons with no pulling, and the jacket is usually cut a little longer than a single-breasted one." }
+    ]
+  },
+  {
+    "slug": "footwear",
+    "name": "Shoes, sandals and everyday footwear",
+    "short": "Footwear",
+    "description": "How shoes, sandals, heels, loafers and slippers should fit: toe room, heel hold, width and when to size up.",
+    "intro": "Almost every shoe fit question comes down to three things: about a thumb's width of room in front of your longest toe, a heel that doesn't lift as you walk, and no pressure across the widest part of your foot. Shop in the afternoon, when feet are at their largest, and wear the socks you'll actually wear.",
+    "faqs": [
+      { "q": "How should walking shoes fit?", "a": "Like running shoes: about a thumb's width (⅜–½ in) in front of the longest toe, a snug heel and enough width that the ball of your foot doesn't press on the sides." },
+      { "q": "How should toddler shoes fit?", "a": "Leave about ½ in (a child's thumb width) in front of the longest toe to allow for growth, and check the fit every two to three months because toddlers' feet grow quickly." },
+      { "q": "How should heeled sandals fit?", "a": "Your heel should sit fully on the footbed with nothing hanging off the back, toes shouldn't hang over the front edge, and straps should hold the foot without digging in." },
+      { "q": "How do I make shoes that are too big fit?", "a": "For half a size or less, add an insole, heel grips or a tongue pad, or wear thicker socks. Anything bigger is better exchanged; oversized shoes cause blisters and trips." }
+    ]
+  },
+  {
+    "slug": "running",
+    "name": "Running and athletic shoes",
+    "short": "Athletic shoes",
+    "description": "How running shoes, trainers, cleats and climbing, cycling and court shoes should fit for each sport.",
+    "intro": "Sport shoes need a different fit from everyday shoes because of what your feet do inside them. Runners need toe room for swelling and downhill braking; climbers and cyclists want a closer fit for power transfer; court and field shoes need lateral hold. Each guide below explains the fit for its sport.",
+    "faqs": [
+      { "q": "Should athletic shoes be a size bigger?", "a": "Many runners go up half a size from their dress-shoe size to leave about a thumb's width in front of the toes. Court shoes, cleats and climbing shoes are usually worn closer to true size." },
+      { "q": "How should sprinting spikes fit?", "a": "Snug, with very little room at the toe — often just a few millimetres — and no heel lift. They're built for short efforts, not comfort over distance." },
+      { "q": "How should golf shoes fit?", "a": "Similar to a casual shoe: about a thumb's width at the toe, a secure heel and enough room across the ball of the foot for walking 18 holes." }
+    ]
+  },
+  {
+    "slug": "boots",
+    "name": "Boots",
+    "short": "Boots",
+    "description": "How cowboy, hiking, ski, snowboard, work and fashion boots should fit at the toe, instep, heel and calf.",
+    "intro": "Boots grip your foot at the instep and the heel, so they feel different from shoes. A little heel slip is normal in new leather boots and stiff-soled boots; pressure across the instep or toes that touch the end is not. Calf fit matters for tall boots.",
+    "faqs": [
+      { "q": "How should knee-high boots fit?", "a": "The shaft should close without strain and leave room to slide two fingers between the boot and your calf. The top should sit about an inch below the bend of the knee so you can walk and sit." },
+      { "q": "How should new cowboy boots fit?", "a": "Snug across the instep, with up to about ¼–½ in of heel slip that settles as the sole flexes. Your toes shouldn't touch the end." },
+      { "q": "How should muck and rain boots fit?", "a": "Roomier than leather boots, since they don't stretch: allow space for a thick sock and about a thumb's width at the toe, with the calf loose enough to pull on and off easily." },
+      { "q": "How should jeans fit with cowboy boots?", "a": "Bootcut or straight-leg jeans with a long enough inseam to stack slightly over the boot shaft, so the hem rests on the vamp rather than catching on the top of the boot." }
+    ]
+  },
+  {
+    "slug": "jeans-pants",
+    "name": "Jeans, pants and belts",
+    "short": "Jeans and pants",
+    "description": "How jeans, chinos, everyday pants, shorts and belts should fit at the waist, seat, thigh and hem.",
+    "intro": "Pants are judged at the waist, seat, thigh, rise and hem. The waist should hold without a belt, the seat should drape without sagging or pulling, and the hem should fall where the style intends — from a full break to a cropped ankle.",
+    "faqs": [
+      { "q": "How should sweatpants fit?", "a": "Comfortably loose through the seat and thigh, with the waistband sitting where you like without the drawstring doing all the work. Cuffed joggers should end at or just above the ankle bone." },
+      { "q": "How should leggings fit?", "a": "Snug everywhere without see-through stretching when you bend. The waistband should stay put when you squat and shouldn't roll down; the leg should end at the ankle or the intended crop." },
+      { "q": "How should linen pants fit?", "a": "A little looser than cotton trousers, because linen doesn't stretch and wrinkles where it pulls. Allow easy room at the seat and thigh." },
+      { "q": "How should khakis fit?", "a": "Khakis fit like chinos: the waist holds without a belt, the seat follows your shape without pulling, and the hem sits with a slight break or none." }
+    ]
+  },
+  {
+    "slug": "tops-outerwear",
+    "name": "Shirts, jackets and outerwear",
+    "short": "Tops and outerwear",
+    "description": "How shirts, T-shirts, leather and denim jackets, scrubs and graduation gowns should fit.",
+    "intro": "For tops, start at the shoulders: the seam should sit at or just past your shoulder bone, depending on the cut. Then check the chest (no pulling between buttons), sleeve length and hem length for how you'll wear it — tucked or untucked, layered or not.",
+    "faqs": [
+      { "q": "How should a hoodie fit?", "a": "Shoulder seams at or slightly past the shoulder, sleeves reaching the wrist with the cuff gathering a little, and the hem at the hips. Oversized styles drop the shoulder seam deliberately." },
+      { "q": "How should a winter coat fit?", "a": "Big enough to layer a sweater underneath and still move your arms freely, with sleeves reaching the base of your thumb when your arms are at your sides." },
+      { "q": "How should a puffer jacket fit?", "a": "With room for a mid-layer and the insulation not compressed when zipped, since squashed down loses warmth. Sleeves should cover the wrist when you reach forward." },
+      { "q": "How should a lab coat fit?", "a": "Loose enough to button over your clothes and move your arms freely, with sleeves reaching your wrist and the hem around mid-thigh to knee." }
+    ]
+  },
+  {
+    "slug": "lingerie",
+    "name": "Bras and lingerie",
+    "short": "Bras",
+    "description": "How everyday, push-up, sports and strapless bras should fit at the band, cups, underwire and straps.",
+    "intro": "The band does most of the supporting, so judge it first: it should sit level and snug on the loosest hook. Then check that the cups are smooth with no gaps or spillage, the underwire sits on your ribcage around the breast tissue, and the centre lies flat.",
+    "faqs": [
+      { "q": "How do I fit myself for a bra?", "a": "Measure snugly around your ribcage just under the bust for the band, then loosely around the fullest part of the bust. Each inch of difference is roughly one cup size. Our bra size calculator does the maths." },
+      { "q": "How should boxers or underwear fit?", "a": "Snug at the waist without leaving marks, with enough room in the seat that the fabric doesn't ride up. Legs on boxer briefs should stay put when you walk." },
+      { "q": "How should a bikini top fit?", "a": "Like a bra: the band stays level and snug, cups cover without gaping or spilling, and straps hold without carrying all the weight." }
+    ]
+  },
+  {
+    "slug": "hats-helmets",
+    "name": "Hats and helmets",
+    "short": "Hats and helmets",
+    "description": "How hats, caps and bike, motorcycle and ski helmets should fit, with head-size charts and safety checks.",
+    "intro": "Hats are sized by head circumference, measured about ⅛ in above the eyebrows and ears. A hat should sit level without pressure lines; a helmet should be snug enough that it doesn't shift when you shake your head, with the straps fastened.",
+    "faqs": [
+      { "q": "How should a beanie fit?", "a": "Snug enough to stay put without pressing a ridge into your forehead, pulled down over the tops of your ears for warmth or sitting above them for style." },
+      { "q": "How should a bucket hat fit?", "a": "It should sit just above the eyebrows and ears without being pushed back by the wind; if it lifts easily, size down or add sizing tape inside the band." },
+      { "q": "How should a batting helmet fit?", "a": "Snug with no wobble when you shake your head, the front about an inch above the eyebrows, and the ear flap covering the ear facing the pitcher." },
+      { "q": "How should a dirt bike helmet fit?", "a": "Tight: cheek pads press firmly, the helmet doesn't rotate on your head, and you can't roll it forward off your head with the strap fastened. Follow the maker's size chart." }
+    ]
+  },
+  {
+    "slug": "sports-gear",
+    "name": "Sports and outdoor gear",
+    "short": "Sports gear",
+    "description": "How baseball gloves, shin guards, sports and motorcycle gloves, dog harnesses and life jackets should fit.",
+    "intro": "Gear has to fit for safety and control, not just comfort. Most of it should be snug enough not to shift when you move, without cutting off circulation or limiting your range of motion.",
+    "faqs": [
+      { "q": "How should hockey gloves fit?", "a": "Your fingertips should sit just short of the ends of the fingers, and the cuff should meet your elbow pad with little gap." },
+      { "q": "How should football shoulder pads fit?", "a": "The pads should cover the shoulder tips with the arch sitting on top of the shoulders, the neck opening shouldn't pinch, and straps should hold them without movement." },
+      { "q": "How should ski goggles fit?", "a": "The foam should seal evenly around the face without pressing on the nose, and they should sit flush against your helmet with no forehead gap." },
+      { "q": "How should roller skates fit?", "a": "Snug like a hiking boot, with toes close to but not jammed against the end and no heel lift when you bend your knees." }
+    ]
+  },
+  {
+    "slug": "jewelry-watches",
+    "name": "Rings, watches and bracelets",
+    "short": "Jewelry and watches",
+    "description": "How rings, engagement and wedding bands, watches and bracelets should fit, with ring size charts.",
+    "intro": "Jewelry should stay put without leaving marks. A ring should slide over the knuckle with slight resistance; a watch should sit just above the wrist bone; a bracelet usually needs about ½–1 in of room over the wrist measurement, depending on style.",
+    "faqs": [
+      { "q": "How should an ankle bracelet fit?", "a": "Loose enough to slide around the ankle and fit a finger underneath, but not so loose it slips over the heel." },
+      { "q": "How should a watch bracelet fit?", "a": "The case should stay on top of the wrist without spinning, and you should be able to slide one finger under the bracelet. Adjust by removing links or using micro-adjust holes in the clasp." },
+      { "q": "Do fingers change size during the day?", "a": "Yes. Fingers are usually smaller in the morning and in the cold, and larger in the evening, in heat and after exercise or salty food, so measure in the afternoon at room temperature." }
+    ]
+  },
+  {
+    "slug": "eyewear",
+    "name": "Glasses and sunglasses",
+    "short": "Eyewear",
+    "description": "How eyeglasses and sunglasses should fit at the bridge, frame width and temples, and what frame numbers mean.",
+    "intro": "Frames should be about as wide as your face, with your eyes centred in the lenses, the bridge resting without pinching, and the temples meeting your ears without pressing. The three numbers printed inside the arm (lens width, bridge, temple length in mm) let you compare frames.",
+    "faqs": [
+      { "q": "How should nose pads on glasses fit?", "a": "They should rest evenly on both sides of your nose without leaving deep marks, holding the frame so it doesn't slide down when you look down. An optician can adjust adjustable pads in minutes." },
+      { "q": "How should aviator sunglasses fit?", "a": "The lenses should cover your eye socket without touching your cheeks when you smile, and the top bar shouldn't sit above your eyebrows." },
+      { "q": "How do you know what sunglasses fit your face?", "a": "Compare the frame width to your face width: your outer eyes should sit near the middle of each lens, and the frame shouldn't extend much beyond your face at the temples." }
+    ]
+  },
+  {
+    "slug": "baby",
+    "name": "Baby and kids",
+    "short": "Baby and kids",
+    "description": "How diapers should fit, and which crib and play-yard mattresses fit which beds.",
+    "intro": "With babies, fit is about safety as much as comfort. A diaper that fits well prevents leaks without marking the skin; a crib or play-yard mattress must fit the bed exactly, with no gaps.",
+    "faqs": [
+      { "q": "How should car seat straps fit?", "a": "Snug enough that you can't pinch any slack in the harness strap at the shoulder (the pinch test), with the chest clip at armpit level. Follow the seat's manual and NHTSA guidance for strap height." },
+      { "q": "How should kids' shoes fit?", "a": "Leave about ½ in (a child's thumb width) in front of the longest toe for growth, and recheck every few months." },
+      { "q": "Can a crib mattress have a gap?", "a": "No. A crib mattress should fit snugly with no more than two fingers' width of gap between the mattress and the crib sides; larger gaps are an entrapment risk." }
+    ]
+  },
+  {
+    "slug": "health",
+    "name": "Health and body",
+    "short": "Health and body",
+    "description": "General fit information for condoms, retainers, night guards, breast pump flanges, compression socks and slings.",
+    "intro": "These guides cover general fit only. Retainers, night guards, compression garments and slings are often prescribed or fitted by a professional: if something hurts, causes numbness or doesn't fit as it did, check with your dentist, doctor, pharmacist or lactation consultant.",
+    "faqs": [
+      { "q": "How do you know if your retainer doesn't fit?", "a": "It feels very tight, won't seat fully, rocks or clicks, or leaves gaps after a few days. That usually means your teeth have moved; contact your orthodontist rather than forcing it." },
+      { "q": "How should a compression sleeve fit?", "a": "Firm and smooth with no bunching or rolling at the top, and no numbness, tingling or color change below it. Sizes are chosen by limb circumference, not by clothing size." },
+      { "q": "How should a CPAP mask fit?", "a": "It should seal without being strapped so tight it leaves deep marks; small leaks are often fixed by readjusting rather than tightening. Your sleep clinic or equipment supplier can help with sizing." }
+    ]
+  }
+]

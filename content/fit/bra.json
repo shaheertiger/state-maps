@@ -1,0 +1,271 @@
+{
+  "slug": "bra",
+  "item": "bra",
+  "h1": "How Should a Bra Fit?",
+  "category": "lingerie",
+  "shape": "bra",
+  "keywords": [
+    "how should a bra fit",
+    "how is a bra supposed to fit",
+    "how should a bra cup fit",
+    "how should a bra fit on the side",
+    "how should a bra fit correctly",
+    "how should bra cups fit",
+    "how are bras supposed to fit"
+  ],
+  "answer": "A bra fits when the band sits level and snug around your ribcage on the loosest hook, with room for about two fingers underneath, the cups hold all of your breast with no spilling or gaping, the underwire rests on your ribs behind the breast tissue, and the center gore lies flat against your breastbone.",
+  "intro": "Most of a bra's support should come from the band, not the straps, so most fit problems trace back to a band that's too loose. Try bras on the loosest hook, since bands stretch with wear. After you fasten it, lean forward and scoop each breast into its cup from the side, then stand up straight and check the points below.",
+  "checklist": [
+    {
+      "point": "Band",
+      "anchor": "band",
+      "good": "Level all the way around, front to back, on the loosest hook. You can slide two fingers under it at the back, but you can't pull it more than about 2 in away from your body.",
+      "tooTight": "It digs in, leaves deep red marks, makes breathing feel restricted, or creates bulges above and below the band even on the loosest hook.",
+      "tooLoose": "The back rides up toward your shoulder blades, you can pull it well away from your back, or it only feels secure on the tightest hook of a new bra."
+    },
+    {
+      "point": "Cups",
+      "anchor": "cups",
+      "good": "The cup edge lies smooth against your breast with no line cutting across it, and all of your breast tissue sits inside the cup, including at the sides toward your armpit.",
+      "tooTight": "Breast tissue spills over the top or sides, or the cup edge cuts in and creates a double-bubble line through a T-shirt.",
+      "tooLoose": "The fabric wrinkles or gapes at the top, or you can press the cup in and find empty space between it and your breast."
+    },
+    {
+      "point": "Underwire",
+      "anchor": "underwire",
+      "good": "The wire follows the crease under your breast and ends at the side on your ribcage, behind the breast tissue, roughly in line with the middle of your armpit.",
+      "tooTight": "The wire sits on breast tissue at the sides or front, pokes into your armpit, or presses painfully because the cup is too small.",
+      "tooLoose": "The wire flares out past your breast, sits away from your body, or rides up onto the breast when you raise your arms."
+    },
+    {
+      "point": "Center gore",
+      "anchor": "gore",
+      "good": "The panel between the cups lies flat against your breastbone (called tacking) in most underwire styles, without stabbing or pressing.",
+      "tooTight": "The gore digs into your breastbone painfully, or the wires overlap breast tissue at the middle.",
+      "tooLoose": "The gore floats away from your chest, which usually means the cups are too small or the band is too loose."
+    },
+    {
+      "point": "Straps",
+      "anchor": "straps",
+      "good": "They stay put on your shoulders and you can slide one or two fingers under each strap. They carry a little weight, not most of it.",
+      "tooTight": "They dig grooves into your shoulders, pull the back of the band upward, or you've tightened them to make up for a loose band.",
+      "tooLoose": "They slip off your shoulders even after adjusting, or the cups sag when you lift your arms."
+    },
+    {
+      "point": "Neckline",
+      "anchor": "neckline",
+      "good": "The top edge of the cup sits flat against your breast and doesn't show as a ridge under a fitted top.",
+      "tooTight": "Cup edges cut into the top of the breast and create a visible bulge.",
+      "tooLoose": "The top edge stands away from your chest, especially when you lean forward."
+    }
+  ],
+  "variations": {
+    "heading": "How fit changes by bra style",
+    "intro": "The band and wire rules stay the same in every style. What changes is the cup shape and how much coverage you should expect.",
+    "items": [
+      {
+        "name": "Full-cup and full-coverage",
+        "text": "The cup should reach well up the breast and cover it completely. These suit fuller or softer breast tissue. Gaping at the top often means the cup is too tall for you rather than too big; try a balconette or plunge."
+      },
+      {
+        "name": "Balconette and demi",
+        "text": "These cut across the breast lower and more horizontally. The cup edge should still lie flat with no cutting in. They suit breasts that are fuller at the bottom, and can leave a gap on breasts that are fuller at the top."
+      },
+      {
+        "name": "Plunge",
+        "text": "A deep, low gore with angled cups. The gore is short and may not tack as firmly. These often suit close-set breasts and people who get gaping at the inner top edge of other styles."
+      },
+      {
+        "name": "Wireless and bralettes",
+        "text": "With no wire to anchor it, the band does even more work, so it should still be snug and level. Bralettes sized S/M/L usually fit best on smaller cup sizes; fuller busts get more shape from a wireless bra sized by band and cup."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure your bra size",
+    "intro": "Use a soft tape measure and measure in a lightly lined or unpadded bra, or none. A measured size is a starting point; try that size and its sister sizes on.",
+    "steps": [
+      "Measure your underbust: wrap the tape snugly around your ribcage directly under your breasts, keeping it level all the way around. Exhale and read the number in inches.",
+      "Find your band size. With the modern method, round to the nearest even number (a 31 in underbust becomes a 32 band; 33 in usually becomes 32 or 34). Some US brands still use the older plus-four method, which adds 4 in (or 5 in for an odd number), so check which method a brand's chart uses.",
+      "Measure your bust: wrap the tape loosely around the fullest part of your breasts, level across your back, without compressing the tissue. Measuring while leaning forward at 90 degrees helps if your breasts are soft or fuller.",
+      "Subtract your band size from your bust measurement. Each inch of difference is one cup size: 1 in is A, 2 in is B, 3 in is C, 4 in is D, 5 in is DD (E in some EU systems), 6 in is DDD or F depending on the brand.",
+      "Try on your calculated size, then the sister sizes either side, and judge by the checklist above rather than the number."
+    ],
+    "tip": "Bra size changes with weight shifts, pregnancy, breastfeeding, hormonal birth control and age. Remeasure every year or whenever your bras start feeling different."
+  },
+  "sizeTable": {
+    "caption": "Bra band sizes across US, UK, EU, French and Australian systems",
+    "headers": [
+      "US / UK band",
+      "EU band",
+      "FR / BE band",
+      "AU / NZ band",
+      "Underbust (in)",
+      "Underbust (cm)"
+    ],
+    "rows": [
+      [
+        "28",
+        "60",
+        "75",
+        "6",
+        "27–28",
+        "58–62"
+      ],
+      [
+        "30",
+        "65",
+        "80",
+        "8",
+        "29–30",
+        "63–67"
+      ],
+      [
+        "32",
+        "70",
+        "85",
+        "10",
+        "31–32",
+        "68–72"
+      ],
+      [
+        "34",
+        "75",
+        "90",
+        "12",
+        "33–34",
+        "73–77"
+      ],
+      [
+        "36",
+        "80",
+        "95",
+        "14",
+        "35–36",
+        "78–82"
+      ],
+      [
+        "38",
+        "85",
+        "100",
+        "16",
+        "37–38",
+        "83–87"
+      ],
+      [
+        "40",
+        "90",
+        "105",
+        "18",
+        "39–40",
+        "88–92"
+      ],
+      [
+        "42",
+        "95",
+        "110",
+        "20",
+        "41–42",
+        "93–97"
+      ],
+      [
+        "44",
+        "100",
+        "115",
+        "22",
+        "43–44",
+        "98–102"
+      ]
+    ],
+    "note": "EU bands are the underbust in centimeters rounded to the nearest 5; French and Belgian bands are the EU band plus 15. Cup letters do not convert as neatly: US and UK match up to D and DD, then the UK continues E, F, FF, G, GG while US brands use DDD or F, G, H inconsistently. Always check the brand's own chart above a D cup."
+  },
+  "problems": [
+    {
+      "problem": "The band rides up at the back",
+      "fix": "The band is too big. Go down one band size and up one cup (34C to 32D) to keep the same cup volume, and loosen the straps so they aren't pulling the band upward."
+    },
+    {
+      "problem": "Straps keep slipping off",
+      "fix": "Tighten them first. If they still slip, the band may be too loose or the straps set too wide for your shoulders. Look for styles with closer-set straps or a J-hook or racerback conversion."
+    },
+    {
+      "problem": "Breast tissue spills over the top or sides of the cup",
+      "fix": "Go up a cup size on the same band. If it only spills at the top, the cup may be too shallow for your shape; a fuller-coverage cup can help."
+    },
+    {
+      "problem": "Wires poke into your armpits",
+      "fix": "Either the cup is too big (so the wire sits too far back) or the wire is too tall for your frame. Try a smaller cup or a plunge or balconette with shorter wires."
+    },
+    {
+      "problem": "The gore won't sit flat on your breastbone",
+      "fix": "Usually the cups are too small, so the breasts push the gore out. Go up a cup. If you have close-set breasts, try a plunge with a narrower gore."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Sister sizes: same cup volume, different band",
+      "body": "Cup letters are relative to the band, so the same cup volume shows up in several sizes. Going down one band size and up one cup letter keeps the volume about the same: 32D, 34C and 36B are sister sizes, as are 30E, 32DD and 34D. Use this when the cups fit but the band is wrong. If a 34C band feels loose but the cups are right, try a 32D, not a 32C. If the band digs in but the cups fit, try a 36B. Sister sizing works one or two steps away; further than that, the wire width and cup shape start to change too much."
+    },
+    {
+      "heading": "When to replace a bra",
+      "body": "A bra worn regularly typically lasts six months to a year, depending on how many you rotate. Replace it when it only feels snug on the tightest hook, the band has lost its stretch or rides up, the wires are bent or poking through, or the cups have creased or lost shape. Hand-washing, rotating between bras, and fastening the hooks before washing all help elastic last longer."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Bras sold in band-and-cup sizes up to a wide range",
+      "why": "Brands that sell many band and cup combinations make it easier to buy your true size rather than settling for S/M/L.",
+      "query": "bra full cup underwire extended sizes"
+    },
+    {
+      "label": "Bra extender hooks",
+      "why": "Useful if a band is close but slightly tight, or for comfort after a meal or during pregnancy. Not a fix for a band that's a full size too small.",
+      "query": "bra extender 3 hook"
+    },
+    {
+      "label": "Soft tape measure",
+      "why": "A flexible tape is the easiest way to get accurate underbust and bust measurements at home.",
+      "query": "soft tape measure 60 inch body"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a bra fit on the side?",
+      "a": "The wire should end on your ribcage behind all of your breast tissue, roughly level with the middle of your armpit. The side panel should lie flat without cutting into the tissue near your underarm."
+    },
+    {
+      "q": "How should bra cups fit?",
+      "a": "Smoothly, with no spillover at the top or sides and no gaps or wrinkles. Press the cup lightly: it should touch your breast everywhere without empty space."
+    },
+    {
+      "q": "Should a bra be tight or loose?",
+      "a": "The band should be snug: two fingers fit under it, and it shouldn't move when you raise your arms. The straps and cups should be comfortable rather than tight."
+    },
+    {
+      "q": "Which hook should a new bra fit on?",
+      "a": "The loosest hook. Elastic relaxes with wear, and moving to the tighter hooks over time keeps the band snug for the life of the bra."
+    },
+    {
+      "q": "What are bra sister sizes?",
+      "a": "Sizes with the same cup volume on a different band. Go down a band and up a cup, or up a band and down a cup: 32D, 34C and 36B hold about the same volume."
+    },
+    {
+      "q": "How do I know if my bra is the wrong size?",
+      "a": "Common signs are a band riding up at the back, straps that slip or dig, spillover, gaping cups, wires on breast tissue, and a gore that floats off your breastbone."
+    },
+    {
+      "q": "Do bra sizes differ between the US and UK?",
+      "a": "Bands are the same numbers. Cups match up to DD, then the UK goes E, F, FF, G while US brands vary between DDD, F and G. Check each brand's chart."
+    }
+  ],
+  "related": [
+    "push-up-bra",
+    "sports-bra",
+    "strapless-bra",
+    "t-shirt",
+    "shirt",
+    "jeans",
+    "belt"
+  ],
+  "updated": "2026-11-19"
+}
