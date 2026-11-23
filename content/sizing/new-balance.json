@@ -1,0 +1,121 @@
+{
+  "slug": "new-balance",
+  "brand": "New Balance",
+  "h1": "How Do New Balance Shoes Fit?",
+  "category": "running",
+  "keywords": [
+    "how do new balance shoes fit",
+    "do new balance fit true to size",
+    "do new balance shoes fit true to size",
+    "how does new balance fit",
+    "how do new balance 9060 fit",
+    "how do new balance shoes fit compared to nike",
+    "do new balance running shoes fit true to size",
+    "does new balance fit true to size"
+  ],
+  "verdict": "varies by model",
+  "answer": "New Balance sizes shoes by foot length on one chart, so start with your measured length: a US men's 9 is 27 cm. Its sizing tools put the emphasis on width, with men's narrow (B), standard (D), wide (2E) and extra wide (4E). Fit ratings are shown per model, and the 9060 has been rated as fitting as expected.",
+  "sizeChart": {
+    "caption": "New Balance men's and unisex shoe size chart (US 7 to 12)",
+    "headers": ["US men", "US women", "UK", "EU", "CM"],
+    "rows": [
+      ["7", "8.5", "6.5", "40", "25"],
+      ["8", "9.5", "7.5", "41.5", "26"],
+      ["9", "10.5", "8.5", "42.5", "27"],
+      ["10", "11.5", "9.5", "44", "28"],
+      ["11", "12.5", "10.5", "45", "29"],
+      ["12", "–", "11.5", "46.5", "30"]
+    ],
+    "note": "On New Balance's unisex charts the US women's size is the US men's size plus 1.5. Half sizes sit between the rows shown. Some product pages carry their own chart, so check the chart on the model you order.",
+    "source": {
+      "name": "New Balance size guide",
+      "url": "https://www.newbalance.com/size-guide.html"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Size by foot length, not by habit",
+      "body": "New Balance's chart ties every size to a foot length in centimeters, from 25 cm at a US men's 7 to 30 cm at a US men's 12, rising 1 cm per whole size. Its printable men's and women's sizing tools ask you to trace both feet, use the larger measurement and read your size off the chart. If your usual size in another brand matches the length on this chart, that size is your starting point."
+    },
+    {
+      "heading": "Width is where New Balance fits differently",
+      "body": "New Balance makes many models in several widths. Its sizing tools list men's widths as narrow (B), medium (D), wide (2E) and extra wide (4E), and women's widths as narrow (2A), medium (B), wide (D) and extra wide (2E). To find yours, measure across the widest part of each foot and use the larger measurement. If a shoe in your length feels tight across the ball of the foot, the fix is the next width, not a longer size."
+    },
+    {
+      "heading": "Men's, women's and unisex sizes",
+      "body": "Many New Balance lifestyle models, including the 9060, are sold in unisex sizes labelled in US men's with a women's equivalent. On New Balance's charts the women's size is 1.5 above the men's size, so a US men's 8 lines up with a US women's 9.5. Women's widths are labelled differently from men's, so a women's 2E is extra wide while a men's 2E is wide."
+    },
+    {
+      "heading": "Fit ratings on product pages",
+      "body": "New Balance product pages can carry a per-model fit rating. On the 9060 product page, New Balance has shown the rating fits as expected for most people, meaning your measured size is the size to order. Check the rating and the size chart on the specific model, since lasts and widths vary across running, lifestyle and Made in USA or UK lines."
+    }
+  ],
+  "comparison": "On each brand's own chart, a US men's 9 is 27 cm on New Balance and 27 cm on Nike's CM column, and a US men's 7 is 25 cm on both. The UK and EU numbers differ: New Balance lists US 7 as UK 6.5 and EU 40, while Nike lists US 7 as UK 6 and EU 40. Compare centimeters, then choose New Balance's width.",
+  "faqs": [
+    {
+      "q": "Do New Balance shoes fit true to size?",
+      "a": "New Balance sizes by foot length on a standard chart, so your measured size is the starting point, and product pages show a fit rating per model. The 9060, for example, has been rated as fitting as expected for most people. If a shoe feels tight, New Balance's own fix is a wider width."
+    },
+    {
+      "q": "How do New Balance 9060 fit?",
+      "a": "The 9060 is a unisex model sized in US men's with a women's equivalent 1.5 sizes higher. New Balance's 9060 page has rated it as fitting as expected for most people, so order your measured size and check the chart on the product page."
+    },
+    {
+      "q": "How do New Balance shoes fit compared to Nike?",
+      "a": "On the two brands' charts, the same US men's size maps to the same length in centimeters, for example 27 cm for a US 9. The bigger difference is that New Balance offers many models in narrow, wide and extra wide widths."
+    },
+    {
+      "q": "What does 2E mean on New Balance shoes?",
+      "a": "For men, 2E is wide, one step above the standard D width; 4E is extra wide. For women, 2E is extra wide, two steps above the standard B width."
+    },
+    {
+      "q": "How do I convert New Balance men's to women's sizes?",
+      "a": "Add 1.5. New Balance's charts list a US men's 7 as a US women's 8.5 and a US men's 11 as a US women's 12.5."
+    },
+    {
+      "q": "How should I measure my feet for New Balance?",
+      "a": "New Balance's printable sizing tools ask you to trace both feet on paper, measure the length and the widest part of each, and use the larger measurement for both length and width."
+    }
+  ],
+  "picks": [
+    {
+      "label": "New Balance running shoes in wide (2E)",
+      "why": "For men whose feet feel pinched across the ball in a standard D width.",
+      "query": "new balance mens running shoes wide 2E"
+    },
+    {
+      "label": "New Balance shoes in extra wide (4E)",
+      "why": "New Balance's men's extra wide width, for feet that still feel tight in 2E.",
+      "query": "new balance mens shoes extra wide 4E"
+    },
+    {
+      "label": "New Balance women's shoes in wide (D)",
+      "why": "D is New Balance's women's wide width, one step above the standard B.",
+      "query": "new balance womens shoes wide D"
+    },
+    {
+      "label": "New Balance 9060",
+      "why": "A unisex model sized in men's with a women's equivalent; check the product page chart.",
+      "query": "new balance 9060"
+    }
+  ],
+  "sources": [
+    {
+      "name": "New Balance size guide",
+      "url": "https://www.newbalance.com/size-guide.html"
+    },
+    {
+      "name": "New Balance men's size and width tool (printable PDF)",
+      "url": "https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dwc8002a8d/pdf/Mens_Printable_Sizing_Tool.pdf"
+    },
+    {
+      "name": "New Balance women's size and width tool (printable PDF)",
+      "url": "https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dwc8bbcac1/pdf/Womens_Printable_Sizing_Tool.pdf"
+    },
+    {
+      "name": "New Balance 9060 product page",
+      "url": "https://www.newbalance.com/pd/9060/U9060GRY-D-065.html"
+    }
+  ],
+  "checked": "2026-11-23"
+}
