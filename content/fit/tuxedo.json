@@ -1,0 +1,220 @@
+{
+  "slug": "tuxedo",
+  "item": "tuxedo",
+  "h1": "How Should a Tuxedo Fit?",
+  "category": "suits",
+  "shape": "jacket",
+  "keywords": [
+    "how should a tuxedo fit",
+    "how should a tuxedo jacket fit",
+    "how should a dinner jacket fit",
+    "how should a tux fit",
+    "how should tuxedo pants fit",
+    "how is a tux supposed to fit",
+    "how should a tux jacket fit",
+    "how should tux pants fit"
+  ],
+  "answer": "A tuxedo fits when the jacket's shoulder seams end at your shoulder bones, the single button closes with the satin lapels lying flat, the sleeves show ¼–½ in of shirt cuff, the hem covers your seat, and the trousers sit at your natural waist without a belt and just touch your shoes with little or no break.",
+  "intro": "A tuxedo follows the same fit rules as a suit, but it is held to a stricter standard. It is cut closer and cleaner, the satin facings catch the light and show every ripple, and the trousers are worn with braces or side adjusters instead of a belt. Use the size chart below to find your starting size, then check each point in a full-length mirror wearing the dress shirt and shoes you'll wear on the night.",
+  "checklist": [
+    {
+      "point": "Shoulders",
+      "anchor": "shoulders",
+      "good": "The shoulder seam ends at your shoulder bone and the sleeve falls straight with no dent below the seam.",
+      "tooTight": "The sleeve head pinches and a divot forms in the upper arm just below the shoulder.",
+      "tooLoose": "The pad extends past your shoulder bone and collapses when you press it."
+    },
+    {
+      "point": "Button and chest",
+      "anchor": "button",
+      "good": "The single button closes at or just above your navel with the satin lapels lying flat on your chest.",
+      "tooTight": "An X-shaped pull spreads from the button and the lapels bow away from your chest.",
+      "tooLoose": "The front hangs open around the button and you can fit a fist between lapel and shirt."
+    },
+    {
+      "point": "Sleeve length",
+      "anchor": "cuff",
+      "good": "With arms relaxed, the sleeve ends at the wrist bone and shows ¼–½ in of shirt cuff, enough to show the cufflinks.",
+      "tooTight": "Too short: an inch or more of shirt cuff shows, or bare wrist when you reach forward.",
+      "tooLoose": "Too long: the sleeve hides the cuff and cufflinks entirely and reaches toward your thumb knuckle."
+    },
+    {
+      "point": "Jacket length",
+      "anchor": "hem",
+      "good": "The hem just covers your seat and lines up roughly with your thumb knuckle when your arms hang.",
+      "tooTight": "Too short: the seat of the trousers shows below the hem.",
+      "tooLoose": "Too long: the hem reaches your fingertips and shortens your legs."
+    },
+    {
+      "point": "Waist",
+      "anchor": "waist",
+      "good": "The jacket narrows cleanly at your waist; the side seams hang straight and any vents lie closed.",
+      "tooTight": "Horizontal creases form across the small of the back and vents splay open.",
+      "tooLoose": "The jacket hangs straight from armpit to hem with spare fabric at the sides."
+    },
+    {
+      "point": "Collar",
+      "anchor": "collar",
+      "good": "The jacket collar hugs the back of your shirt collar, leaving about ½ in of shirt collar visible.",
+      "tooTight": "A horizontal roll of fabric bunches just below the collar at the back of the neck.",
+      "tooLoose": "The jacket collar stands away from your shirt and shows a gap at the back."
+    }
+  ],
+  "variations": {
+    "heading": "Fit by tuxedo piece and style",
+    "intro": "Most tuxedo questions are really about one piece: the jacket, the trousers or the accessories that change how they sit.",
+    "items": [
+      {
+        "name": "Tuxedo trousers",
+        "text": "Tuxedo trousers sit at your natural waist, higher than most suit trousers, so the waistband stays hidden under the jacket and a cummerbund or waistcoat. They have no belt loops; braces or side adjusters hold them up. The leg is usually plain with a satin stripe, and the hem should just touch the top of your shoes with little or no break so the stripe runs in an unbroken line."
+      },
+      {
+        "name": "Dinner jacket",
+        "text": "In the US, dinner jacket usually means a tuxedo jacket worn with black trousers, often in white, ivory or a color such as midnight blue or burgundy. It fits exactly like a tuxedo jacket: shoulders, single button, sleeve and length all follow the checklist above."
+      },
+      {
+        "name": "Shawl, peak or notch lapel",
+        "text": "The lapel style doesn't change the fit, but a satin shawl collar shows gaps and ripples more than any other, so the collar and chest checks matter most. A peak lapel adds visual width at the shoulders."
+      },
+      {
+        "name": "Slim fit",
+        "text": "Slim tuxedos have higher armholes, narrower sleeves and a shorter jacket. The button must still close without the X-pull and you should be able to reach forward and lift a glass without the back seam straining. If you'll dance, try the movement test in the fitting room."
+      },
+      {
+        "name": "Rental tuxedos",
+        "text": "Rentals are sized from a few measurements and rarely altered, so give accurate numbers: chest, waist, sleeve, outseam, height and weight. Try it on as soon as you collect it, at least a day before the event, so there's time to swap a size."
+      },
+      {
+        "name": "Women's tuxedos",
+        "text": "Women's tuxedo jackets are cut for the bust and waist, with shorter sleeves and narrower shoulders. The same rules apply: seams at the shoulder bones, button closing flat, sleeves to the wrist bone and trousers that skim the shoe."
+      }
+    ]
+  },
+  "measure": {
+    "heading": "How to measure for a tuxedo",
+    "intro": "Have someone help, measure over a thin shirt, and stand naturally with your arms at your sides.",
+    "steps": [
+      "Chest: wrap the tape under your arms around the fullest part of your chest, level across your back. Your jacket size is usually your chest measurement in inches.",
+      "Overarm (optional): with arms down, measure all the way around your shoulders and arms at their widest. Rental shops use it to check the chest size.",
+      "Waist: measure around your natural waist, at or just above your navel, where tuxedo trousers sit.",
+      "Sleeve: measure from the edge of your shoulder bone down to your wrist bone with your arm relaxed.",
+      "Outseam: measure from your natural waist down the outside of the leg to the top of your shoe heel.",
+      "Height: note your height to choose short, regular or long jacket lengths."
+    ],
+    "tip": "Measure your neck too. Tuxedos are worn with a dress shirt buttoned to the top under a bow tie, so the collar has to close with one finger of room."
+  },
+  "sizeTable": {
+    "caption": "Tuxedo jacket sizes by chest, with typical trouser waist",
+    "headers": ["US / UK jacket", "EU jacket", "Chest (in)", "Chest (cm)", "Typical trouser waist (in)"],
+    "rows": [
+      ["36", "46", "36", "91", "30"],
+      ["38", "48", "38", "97", "32"],
+      ["40", "50", "40", "102", "34"],
+      ["42", "52", "42", "107", "36"],
+      ["44", "54", "44", "112", "38"],
+      ["46", "56", "46", "117", "40"],
+      ["48", "58", "48", "122", "42"],
+      ["50", "60", "50", "127", "44"]
+    ],
+    "note": "EU jacket size is commonly the US/UK chest size plus 10. The trouser waist assumes a standard 6 in drop (jacket size minus 6); slim cuts often use a 7 in drop and athletic cuts 8 in. Lengths: Short for about 5′4″–5′7″, Regular for 5′8″–6′0″, Long for 6′1″–6′3″."
+  },
+  "problems": [
+    {
+      "problem": "The satin lapels ripple or bow",
+      "fix": "The chest is too tight or the jacket is cut for a different posture. Try the next chest size; if the lapels still won't lie flat, try a different cut rather than asking a tailor to fix it."
+    },
+    {
+      "problem": "Trousers slip down without a belt",
+      "fix": "Tuxedo trousers have no belt loops. Use the side adjusters or have braces buttons sewn in. If they still slip, the waist needs taking in, a quick alteration."
+    },
+    {
+      "problem": "The shirt collar is too tight under the bow tie",
+      "fix": "Buy the shirt by neck size, with one finger of room when buttoned. A pre-tied bow tie won't hide a collar that is pulling open."
+    },
+    {
+      "problem": "The trousers bunch over the shoe",
+      "fix": "Have the hem shortened so the cuff just touches the shoe with little or no break. Hemming takes a few days at most tailors, so do it early."
+    },
+    {
+      "problem": "Rental jacket fits the chest but the sleeves are long",
+      "fix": "Ask the shop for the same chest in a short length, or for temporary sleeve adjustments. Don't go down a chest size to fix sleeve length."
+    },
+    {
+      "problem": "Jacket pulls when you sit or dance",
+      "fix": "Unbutton the jacket when you sit, as tradition allows. If it pulls when standing and moving, it's too tight through the back or armholes; size up and have the waist taken in."
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Buy or rent?",
+      "body": "Renting makes sense for a single event, but rentals are fitted from measurements and only lightly adjusted. If you'll wear a tuxedo two or three times, buying one and having the sleeves, waist and hem altered usually gives a far better fit. Buy for your shoulders and chest; those are the parts a tailor can't change easily."
+    },
+    {
+      "heading": "Alterations that work",
+      "body": "A tailor can shorten or lengthen sleeves by about an inch, take in or let out the jacket waist, take in or let out the trouser waist by an inch or two and hem the trousers. Changing the shoulders, shortening the jacket body or fixing a lapel that won't lie flat is expensive and rarely successful. Allow at least two weeks before an event, longer in the busy holiday and wedding season."
+    },
+    {
+      "heading": "Accessories that affect fit",
+      "body": "A cummerbund covers the trouser waistband and should sit at your natural waist, pleats facing up. A formal waistcoat should cover the waistband and end at it, with no shirt showing between waistcoat and trousers. Braces should keep the trouser waist at your natural waist with the hem just touching your shoes."
+    }
+  ],
+  "picks": [
+    {
+      "label": "Slim-fit tuxedo with satin lapels",
+      "why": "A cleaner line for slim builds; check that the single button closes without pulling.",
+      "query": "mens slim fit tuxedo"
+    },
+    {
+      "label": "Classic-fit tuxedo",
+      "why": "More room through the chest and seat for broader or athletic builds.",
+      "query": "mens classic fit tuxedo"
+    },
+    {
+      "label": "Tuxedo shirt sized by neck",
+      "why": "A shirt that closes comfortably at the collar is essential with a bow tie.",
+      "query": "mens tuxedo shirt wing collar"
+    },
+    {
+      "label": "Button-on braces",
+      "why": "Keep beltless tuxedo trousers at your natural waist all evening.",
+      "query": "mens button on suspenders black"
+    },
+    {
+      "label": "Self-tie silk bow tie",
+      "why": "An adjustable neckband that sits neatly under the shirt collar.",
+      "query": "self tie silk bow tie black"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a tuxedo jacket fit?",
+      "a": "The shoulder seams end at your shoulder bones, the single button closes with the lapels flat, the sleeves show ¼–½ in of shirt cuff and the hem covers your seat. It should be slightly trimmer than a suit jacket but must not pull at the button."
+    },
+    {
+      "q": "How should tuxedo pants fit?",
+      "a": "They sit at your natural waist without a belt, held by side adjusters or braces. The seat should drape without pulling, the leg should be straight or gently tapered and the hem should just touch the top of your shoes with little or no break."
+    },
+    {
+      "q": "How should a dinner jacket fit?",
+      "a": "Exactly like a tuxedo jacket: shoulder seams at the shoulder bone, a clean close at the button, ¼–½ in of shirt cuff showing and a hem that covers your seat."
+    },
+    {
+      "q": "Should a tuxedo fit tighter than a suit?",
+      "a": "A tuxedo is usually cut a little closer and cleaner than a business suit, with a narrower trouser leg and less break. It should still let you sit, reach and dance without the button pulling or the back straining."
+    },
+    {
+      "q": "What size tuxedo jacket do I need?",
+      "a": "Start with your chest measurement in inches: a 40 in chest usually wears a 40 jacket (EU 50). Choose short, regular or long by height, then confirm the shoulders and sleeves in a fitting."
+    },
+    {
+      "q": "Should tuxedo pants have a break?",
+      "a": "Little or none. Tuxedo trousers are traditionally hemmed to just touch the shoe, so the satin stripe runs straight and the patent shoe shows."
+    },
+    {
+      "q": "How much shirt cuff should show with a tuxedo?",
+      "a": "About ¼–½ in, enough to show your cufflinks when your arms hang at your sides."
+    }
+  ],
+  "related": ["suit", "suit-jacket", "suit-pants", "blazer", "sport-coat", "dress-shirt", "vest", "dress-shoes", "dress-pants"],
+  "updated": "2026-11-23"
+}
