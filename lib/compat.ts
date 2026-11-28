@@ -61,6 +61,8 @@ export const compatPair = z.object({
       items: z.array(z.object({ id: z.string(), slug: z.string().optional() })).default([]),
     })
     .optional(),
+  /** Date the page went live (perf-report ages pages from it). Defaults to the launch date. */
+  published: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   /** Date the page's content last changed (sitemap lastmod, dateModified). */
   updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
 });

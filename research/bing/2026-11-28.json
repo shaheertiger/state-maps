@@ -1,0 +1,823 @@
+{
+  "site": "https://statemaps.net/",
+  "fetched": "2026-11-28",
+  "window": {
+    "start": "2026-11-19",
+    "end": "2026-11-28",
+    "days": 9
+  },
+  "dropped": {
+    "pages": 14,
+    "impressions": 28,
+    "queries": 26
+  },
+  "totals": {
+    "impressions": 349,
+    "clicks": 0
+  },
+  "daily": [
+    {
+      "date": "2025-07-28",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "date": "2025-07-29",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "date": "2025-07-30",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-03",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-04",
+      "impressions": 30,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-05",
+      "impressions": 19,
+      "clicks": 1
+    },
+    {
+      "date": "2025-12-06",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-07",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-08",
+      "impressions": 12,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-09",
+      "impressions": 20,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-10",
+      "impressions": 11,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-11",
+      "impressions": 25,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-12",
+      "impressions": 17,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-13",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-14",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-15",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-16",
+      "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-17",
+      "impressions": 12,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-18",
+      "impressions": 14,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-19",
+      "impressions": 9,
+      "clicks": 1
+    },
+    {
+      "date": "2025-12-20",
+      "impressions": 12,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-21",
+      "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-22",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-23",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-24",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-25",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-26",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-27",
+      "impressions": 7,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-28",
+      "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-29",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-30",
+      "impressions": 11,
+      "clicks": 0
+    },
+    {
+      "date": "2025-12-31",
+      "impressions": 10,
+      "clicks": 1
+    },
+    {
+      "date": "2026-01-01",
+      "impressions": 7,
+      "clicks": 0
+    },
+    {
+      "date": "2026-01-02",
+      "impressions": 14,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-02",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-03",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-04",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-05",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-06",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-07",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-08",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-09",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-10",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-11",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-12",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-13",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-14",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-15",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-16",
+      "impressions": 13,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-17",
+      "impressions": 7,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-18",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-19",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-20",
+      "impressions": 21,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-21",
+      "impressions": 36,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-22",
+      "impressions": 60,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-23",
+      "impressions": 58,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-24",
+      "impressions": 84,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-25",
+      "impressions": 64,
+      "clicks": 0
+    },
+    {
+      "date": "2026-11-26",
+      "impressions": 23,
+      "clicks": 0
+    }
+  ],
+  "pages": [
+    {
+      "key": "/tools/mattress-size-chart/",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "/tools/ring-size-chart/",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    }
+  ],
+  "queries": [
+    {
+      "key": "does a free sip seay owala 40oz fit in a car cup holder",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "adidas sambas sizing guide for japan/china",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "can i nintendo switch fit in a nintendo 2 no i'm a switch two case",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "do crocs be true to size?",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "does 24 oz owala fit in cup holder reddit",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "does a 32oz owala fit in standard car cupholfer",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "does a 53x75 mattress fit on a 54x75 bed frame",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "key": "does the 24 oz owala freesip fit in a standard car cup holder",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "good fit on brown chinos",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "how do the 27 oz and 32 oz owala freesip sizes fit in car cup holders",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "how should i measure a car cup holder for a 32oz freesip",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "jordan 4s sb true to size?",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "what is the hand stall on a baseball glove",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "where should baseball cap brim sit eyebrows",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "will the switch two fit in a switch one case?",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "\"feraud\" \"leather jacket\" \"chest\" measurements",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "+american tip condom used underneeth a normal condom",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "+what size croc to buy ukwomens 6",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "bra fit checklist band gore straps underwire -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "key": "can a nintendo swith 2 case fit inside a nintendo switch one'",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "key": "can a switch 2 case fit a switch 1",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "can the switch 2 fit in a switch case",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "crocs foot size",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "dimentions of a nintendo switch 2 game case in cm",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "do boots with little heels suit a woman with above average height",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "do i need to size up or down for oura ring 4 to oura ring 5",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "do oura rings run true to size",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "do switch 2 carts fit in switch 1 cases",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "does 473 owala fit in cupholder",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "does nintendo switch 2 fit in a 1 case",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "key": "does switch 2 and switch 1 fit in the same switch 1 case",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "does the owala freesip sway fit in a car cup holder",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "does the same case for switch 1 fit switch 2 controller",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "does the switch 1 case fit the 2",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "helmet cheek pads fit test",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "key": "how do balconette plunge and full-cup bras differ for c and g cups -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "how do you tell if a denim jacket is too short when you raise your arms -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "how should a belt fit",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "how should baby diaper fit waist leg ruffles -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "how should the underwire and center gore sit in a dd or ddd bra -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "how wide should an opening be to fit the arm and sling -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "if a man want to buy tshirt from womens section at bust measurement what should he measure",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "if i wear shirt sized 36. what is the best size for leather jackets",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "is nintendo switch and nintendo switch 2 cases the same size",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "ist switch 1 case passend für switch 2? größe",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "key": "motorcycle helmet fit roll off test chin strap",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "onitsuka tiger sizing advice",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "ring size paper",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "scrub pants crotch binding squat test -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "should a cowboy hat touch the ears",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "key": "should i size down for boston birks",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "should you go 1/2 a size up on jordan 4s or stay true to size",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "should you pull the leg ruffles out after fastening a disposable diaper -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "ski helmet fit position eyebrows ears",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "tata punch car may king size bed fit ho sakta hey",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "transport 65 inch tv sedan suv fit dimensions -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "key": "unisex croc size chart",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "us pandora suzing for bracelets bracelet suze ir wrist size",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "usual inner shoe length allowance for penny loafers",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "key": "what bra size is would fit a bust size 47.44 inches",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "what size mattresses fit the standard stolmen bed frame",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "where on the wrist should the tennis bracelet sit when stacked",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "key": "where should bicycle helmet strap be underneath",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "where should the shoulder seam sit on a denim jacket -filetype:pdf -site:reddit.com -site:quora.com -site:facebook.com -site:youtube.com -site:instagram.com -site:wikipedia.org",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "key": "which size of cube van can carry queen matrass",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "key": "will a nintendo switch 2 fit in a case for a original switch?",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "will a swtich 1 carry case fit he swich 2",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "key": "will owala 24 oz bottle fit in cup holder",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "will switch 2 fit in switch 1 case",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "key": "would queen size mattress fit in a cargo van uhaul",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    }
+  ]
+}

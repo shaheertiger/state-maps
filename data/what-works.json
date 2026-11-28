@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-28",
+  "average": 1.1382978723404258,
+  "types": {
+    "will-it-fit": {
+      "pages": 25,
+      "impressions": 65,
+      "perPage": 2.8,
+      "verdict": "DOUBLE DOWN"
+    },
+    "fit": {
+      "pages": 89,
+      "impressions": 62,
+      "perPage": 0.9,
+      "verdict": "HOLD"
+    },
+    "sizing": {
+      "pages": 21,
+      "impressions": 4,
+      "perPage": 0.4,
+      "verdict": "HOLD"
+    },
+    "tools": {
+      "pages": 6,
+      "impressions": 2,
+      "perPage": 0.3333333333333333,
+      "verdict": "HOLD"
+    }
+  },
+  "homeWillItFit": [
+    "/will-it-fit/switch-2-in-switch-1-case/",
+    "/will-it-fit/owala-in-cup-holder/",
+    "/will-it-fit/owala-32-oz-in-cup-holder/"
+  ],
+  "rewrite": []
+}
