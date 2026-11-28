@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
@@ -18,7 +20,14 @@ const WORD = { yes: "Yes", no: "No", loosely: "Loosely", depends: "Depends" } as
 
 export default function Home() {
   const top = [...allGuides()].sort((a, b) => guideVolume(b.slug) - guideVolume(a.slug)).slice(0, 10);
-  const compat = compatPages().slice(0, 10);
+  // The 6 will-it-fit pages with the most Bing impressions (data/what-works.json, refreshed weekly), topped up in data order.
+  const ranked = (JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/what-works.json"), "utf8")).homeWillItFit ?? []) as string[];
+  const compat = [...compatPages()]
+    .sort((a, b) => {
+      const ra = ranked.indexOf(compatPath(a.slug)), rb = ranked.indexOf(compatPath(b.slug));
+      return (ra < 0 ? 99 : ra) - (rb < 0 ? 99 : rb);
+    })
+    .slice(0, 6);
   const brands = allBrands().slice(0, 10);
   const sample = getGuide("suit-jacket");
   return (

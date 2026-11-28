@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { compatPages, HUBS } from "@/lib/compat";
+import { compatPages, HUBS, relatedCompat } from "@/lib/compat";
 import { compatPath, guidePath, abs, SITE } from "@/lib/site";
 import { getGuide } from "@/lib/content";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -9,6 +9,7 @@ import { Faq } from "@/components/Faq";
 import { Picks } from "@/components/Picks";
 import { JsonLd } from "@/components/JsonLd";
 import { Overlay } from "@/components/Overlay";
+import { formatDate } from "@/components/SizeTable";
 
 export const dynamicParams = false;
 const VERDICT_SHORT = { yes: "Yes", no: "No", loosely: "Yes, loosely", depends: "Depends" } as const;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function CompatRoute({ params }: { params: Promise<{ slug: string }> }) {
   const p = get((await params).slug);
   if (!p) notFound();
-  const siblings = compatPages().filter((x) => x.pair.hub === p.pair.hub && x.slug !== p.slug);
+  const siblings = relatedCompat(p);
   const [verdictWord, ...rest] = p.answer.split(/(?<=\.)\s/);
   const guides = (p.pair.fitGuides ?? []).map(getGuide).filter((g) => !!g);
   return (
@@ -133,7 +134,8 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
                   <li key={s.url}>
                     <a href={s.url} rel="noopener" target="_blank">
                       {s.name}
-                    </a>
+                    </a>{" "}
+                    <span className="muted">(checked {formatDate(s.checked)})</span>
                   </li>
                 ))}
               </ul>
@@ -141,7 +143,7 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
           )}
 
           <section aria-labelledby="related" data-pagefind-ignore>
-            <h2 id="related">{HUBS[p.pair.hub].name}</h2>
+            <h2 id="related">More will-it-fit answers</h2>
             <div className="data-table-wrap">
               <table className="data-table">
                 <thead>
