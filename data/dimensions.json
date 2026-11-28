@@ -297,6 +297,86 @@
     }
   },
   {
+    "id": "owala-freesip-sway-30",
+    "name": "30 oz Owala FreeSip Sway",
+    "group": "bottle",
+    "shape": "round",
+    "d": 2.77,
+    "h": 10.59,
+    "note": "Owala lists the Sway at 7.04 cm across (both 18 oz and 30 oz) and 26.90 cm tall for the 30 oz; shown here in inches. Owala calls it cupholder friendly.",
+    "source": {
+      "name": "Owala FreeSip Sway product page",
+      "url": "https://www.owalalife.com/products/freesip-sway",
+      "checked": "2026-11-28"
+    }
+  },
+  {
+    "id": "stanley-quencher-40",
+    "name": "40 oz Stanley Quencher H2.0",
+    "group": "bottle",
+    "shape": "round",
+    "d": 3.1,
+    "note": "Stanley gives the base diameter; the handle and the wider top sit above the holder.",
+    "source": {
+      "name": "Stanley Quencher H2.0 FlowState 40 oz product page",
+      "url": "https://www.stanley1913.com/products/the-quencher-h2-0-flowstate-tumbler-40-oz-last-call",
+      "checked": "2026-11-28"
+    }
+  },
+  {
+    "id": "stanley-quencher-30",
+    "name": "30 oz Stanley Quencher H2.0",
+    "group": "bottle",
+    "shape": "round",
+    "d": 3.15,
+    "note": "Stanley gives the base diameter; the handle and the wider top sit above the holder.",
+    "source": {
+      "name": "Stanley Quencher H2.0 FlowState 30 oz product page",
+      "url": "https://www.stanley1913.com/products/the-quencher%C2%AE-h2-0-flowstate%E2%84%A2-tumbler-30-oz",
+      "checked": "2026-11-28"
+    }
+  },
+  {
+    "id": "hydro-flask-20",
+    "name": "20 oz Hydro Flask Wide Mouth",
+    "group": "bottle",
+    "shape": "round",
+    "d": 2.91,
+    "h": 8.9,
+    "source": {
+      "name": "Hydro Flask size comparison chart (Amazon listing)",
+      "url": "https://www.amazon.com/dp/B07YXM5M6S",
+      "checked": "2026-11-28"
+    }
+  },
+  {
+    "id": "hydro-flask-32",
+    "name": "32 oz Hydro Flask Wide Mouth",
+    "group": "bottle",
+    "shape": "round",
+    "d": 3.58,
+    "h": 9.4,
+    "note": "Hydro Flask's own size chart doesn't mark the 32 oz as cup holder compatible.",
+    "source": {
+      "name": "Hydro Flask size comparison chart (Amazon listing)",
+      "url": "https://www.amazon.com/dp/B07YXM5M6S",
+      "checked": "2026-11-28"
+    }
+  },
+  {
+    "id": "hydro-flask-40",
+    "name": "40 oz Hydro Flask Wide Mouth",
+    "group": "bottle",
+    "shape": "round",
+    "d": 3.58,
+    "h": 11.2,
+    "source": {
+      "name": "Hydro Flask size comparison chart (Amazon listing)",
+      "url": "https://www.amazon.com/dp/B07YXM5M6S",
+      "checked": "2026-11-28"
+    }
+  },
+  {
     "id": "car-cup-holder",
     "name": "car cup holder",
     "group": "cup-holder",

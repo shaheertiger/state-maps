@@ -153,6 +153,22 @@ else {
   }
   for (const p of indexable) if (!inSitemaps.has(p)) errors.push(`${p} is built but missing from every sitemap`);
 }
+// Every listed page is at most 2 clicks from the homepage.
+{
+  const linksOf = (p: string) => {
+    const f = path.join(out, p, "index.html");
+    if (!fs.existsSync(f)) return [];
+    return [...fs.readFileSync(f, "utf8").matchAll(/href="(\/[^"#?]*)/g)].map((m) => m[1]).filter((h) => h.endsWith("/"));
+  };
+  const depth = new Map<string, number>([["/", 0]]);
+  let frontier = ["/"];
+  for (let d = 1; d <= 2; d++) {
+    const next: string[] = [];
+    for (const p of frontier) for (const h of linksOf(p)) if (!depth.has(h)) (depth.set(h, d), next.push(h));
+    frontier = next;
+  }
+  for (const p of inSitemaps.keys()) if (!depth.has(p)) errors.push(`${p} is more than 2 clicks from the homepage`);
+}
 const robots = read("robots.txt") ?? "";
 if (!robots.includes(`Sitemap: ${SITE.url}/sitemap.xml`)) errors.push(`robots.txt doesn't point to ${SITE.url}/sitemap.xml`);
 if (process.env.VERCEL && SITE.url.includes("example.com"))

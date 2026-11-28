@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { compatPages, HUBS } from "@/lib/compat";
+import { compatPages, HUBS, relatedCompat, clusterSiblings, clusterOf, clusterHubs, clusterHubPath } from "@/lib/compat";
+import { ClusterHub, clusterHubMeta } from "@/components/ClusterHub";
 import { compatPath, guidePath, abs, SITE } from "@/lib/site";
 import { getGuide } from "@/lib/content";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -10,14 +11,19 @@ import { Picks } from "@/components/Picks";
 import { JsonLd } from "@/components/JsonLd";
 import { Overlay } from "@/components/Overlay";
 import { authorRef, ogId, publisherRef } from "@/lib/ld";
+import { formatDate } from "@/components/SizeTable";
 
 export const dynamicParams = false;
 const VERDICT_SHORT = { yes: "Yes", no: "No", loosely: "Yes, loosely", depends: "Depends" } as const;
-export const generateStaticParams = () => compatPages().map((p) => ({ slug: p.slug }));
+export const generateStaticParams = () => [...compatPages().map((p) => ({ slug: p.slug })), ...clusterHubs().map((c) => ({ slug: c.id }))];
+const hubFor = (slug: string) => clusterHubs().find((c) => c.id === slug);
 const get = (slug: string) => compatPages().find((p) => p.slug === slug);
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const p = get((await params).slug);
+  const slug = (await params).slug;
+  const hub = hubFor(slug);
+  if (hub) return clusterHubMeta(hub);
+  const p = get(slug);
   if (!p) return {};
   return {
     title: { absolute: p.title },
@@ -28,9 +34,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function CompatRoute({ params }: { params: Promise<{ slug: string }> }) {
-  const p = get((await params).slug);
+  const slug = (await params).slug;
+  const hub = hubFor(slug);
+  if (hub) return <ClusterHub c={hub} />;
+  const p = get(slug);
   if (!p) notFound();
-  const siblings = compatPages().filter((x) => x.pair.hub === p.pair.hub && x.slug !== p.slug);
+  const cluster = clusterOf(p.pair.hub);
+  const siblings = clusterSiblings(p);
+  const related = relatedCompat(p);
   const [verdictWord, ...rest] = p.answer.split(/(?<=\.)\s/);
   const guides = (p.pair.fitGuides ?? []).map(getGuide).filter((g) => !!g);
   return (
@@ -46,6 +57,12 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
             <p className="muted method">
               Updated {new Date(`${p.updated}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })}. Compared using
               manufacturer dimensions and published specs; no hands-on test.
+              {cluster.hub && (
+                <>
+                  {" "}
+                  Part of <Link href={clusterHubPath(cluster)}>{cluster.name.toLowerCase()}: every size compared</Link>.
+                </>
+              )}
             </p>
           </section>
 
@@ -138,35 +155,29 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
                   <li key={s.url}>
                     <a href={s.url} rel="noopener" target="_blank">
                       {s.name}
-                    </a>
+                    </a>{" "}
+                    <span className="muted">(checked {formatDate(s.checked)})</span>
                   </li>
                 ))}
               </ul>
             </section>
           )}
 
+          {siblings.length > 0 && (
+            <section aria-labelledby="everything-else" data-pagefind-ignore>
+              <h2 id="everything-else">Everything else about {cluster.name.toLowerCase()}</h2>
+              <AnswerTable pages={siblings} />
+              {cluster.hub && (
+                <p>
+                  <Link href={clusterHubPath(cluster)}>{cluster.hub.question}</Link>
+                </p>
+              )}
+            </section>
+          )}
+
           <section aria-labelledby="related" data-pagefind-ignore>
-            <h2 id="related">{HUBS[p.pair.hub].name}</h2>
-            <div className="data-table-wrap">
-              <table className="data-table">
-                <thead>
-                  <tr>
-                    <th scope="col">Question</th>
-                    <th scope="col">Answer</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {siblings.map((s) => (
-                    <tr key={s.slug}>
-                      <th scope="row" style={{ whiteSpace: "normal" }}>
-                        <Link href={compatPath(s.slug)}>{s.h1}</Link>
-                      </th>
-                      <td className={`verdict verdict-${s.verdict}`}>{VERDICT_SHORT[s.verdict]}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <h2 id="related">Related will-it-fit answers</h2>
+            <AnswerTable pages={related} />
             {guides.length > 0 && (
               <ul className="link-cols">
                 {guides.map((g) => (
@@ -177,11 +188,23 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
               </ul>
             )}
             <p>
-              <Link href="/will-it-fit/">All size compatibility questions</Link> or check any combination with the{" "}
-              <Link href="/tools/mattress-size-chart/">mattress, sheet and frame checker</Link>.
+              <Link href="/will-it-fit/">All will-it-fit answers</Link>
+              {p.pair.hub === "bedding" && (
+                <>
+                  {" "}
+                  or check any combination with the <Link href="/tools/mattress-size-chart/">mattress, sheet and frame checker</Link>
+                </>
+              )}
+              .
             </p>
           </section>
-          <Breadcrumbs items={[{ name: "Will it fit?", href: "/will-it-fit/" }, { name: p.h1.replace(/\?$/, ""), href: compatPath(p.slug) }]} />
+          <Breadcrumbs
+            items={[
+              { name: "Will it fit?", href: "/will-it-fit/" },
+              ...(cluster.hub ? [{ name: cluster.name, href: clusterHubPath(cluster) }] : []),
+              { name: p.h1.replace(/\?$/, ""), href: compatPath(p.slug) },
+            ]}
+          />
         </article>
         <aside className="rail" data-pagefind-ignore>
           <div className="rail-inner desktop-diagram">
@@ -202,6 +225,31 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
           publisher: publisherRef,
         }}
       />
+    </div>
+  );
+}
+
+function AnswerTable({ pages }: { pages: ReturnType<typeof compatPages> }) {
+  return (
+    <div className="data-table-wrap">
+      <table className="data-table">
+        <thead>
+          <tr>
+            <th scope="col">Question</th>
+            <th scope="col">Answer</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pages.map((s) => (
+            <tr key={s.slug}>
+              <th scope="row" style={{ whiteSpace: "normal" }}>
+                <Link href={compatPath(s.slug)}>{s.h1}</Link>
+              </th>
+              <td className={`verdict verdict-${s.verdict}`}>{VERDICT_SHORT[s.verdict]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }

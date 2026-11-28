@@ -6,8 +6,8 @@ import { Picks } from "./Picks";
 import { SizeTable, formatDate } from "./SizeTable";
 import { JsonLd } from "./JsonLd";
 import { FitDiagram } from "@/lib/diagrams";
-import { getCategory, relatedGuides, titleCaseItem, guideTitle } from "@/lib/content";
-import { abs, guidePath, hubPath, SITE } from "@/lib/site";
+import { allBrands, getCategory, relatedGuides, titleCaseItem, guideTitle } from "@/lib/content";
+import { abs, brandPath, guidePath, hubPath, SITE } from "@/lib/site";
 import { authorRef, ogId, publisherRef } from "@/lib/ld";
 
 const paras = (s: string) => s.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>);
@@ -15,6 +15,7 @@ const paras = (s: string) => s.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>);
 export function GuidePage({ g }: { g: FitGuide }) {
   const cat = getCategory(g.category)!;
   const related = relatedGuides(g, 10);
+  const brands = allBrands().filter((b) => b.category === g.category);
   const item = titleCaseItem(g.item);
   const toc = [
     ["checklist", "Fit checklist"],
@@ -183,6 +184,18 @@ export function GuidePage({ g }: { g: FitGuide }) {
               <Link href={hubPath(cat.slug)}>All {cat.name.toLowerCase()} guides</Link>
             </p>
           </section>
+          {brands.length > 0 && (
+            <section aria-labelledby="brand-sizing" data-pagefind-ignore>
+              <h2 id="brand-sizing">How brands size</h2>
+              <ul className="link-cols">
+                {brands.map((b) => (
+                  <li key={b.slug}>
+                    <Link href={brandPath(b.slug)}>{b.h1}</Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
           <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: cat.short, href: hubPath(cat.slug) }, { name: item, href: guidePath(g.slug) }]} />
         </article>
 

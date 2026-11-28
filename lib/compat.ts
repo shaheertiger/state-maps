@@ -13,7 +13,8 @@ import { z } from "zod";
 
 const num = z.number().positive();
 const range = z.union([num, z.tuple([num, num])]);
-const source = z.object({ name: z.string(), url: z.url() });
+/** `checked`: the date we last confirmed the number on that page (defaults to the launch date for launch data). */
+const source = z.object({ name: z.string(), url: z.url(), checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional() });
 
 export const dimItem = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
@@ -39,7 +40,7 @@ export const compatPair = z.object({
   relation: z.enum(["on", "in"]),
   mode: z.enum(["fitted-sheet", "footprint", "box", "upright", "round", "standard"]),
   keywords: z.array(z.string()).min(1),
-  hub: z.enum(["bedding", "vehicles", "drinkware", "tech", "baby", "moving"]),
+  hub: z.enum(["bedding", "vehicles", "drinkware", "tech", "carry-on", "baby", "moving"]),
   expect: z.enum(["yes", "no", "loosely", "depends"]), // asserted against the computed verdict
   standardVerdict: z.enum(["yes", "no"]).optional(), // mode "standard": verdict decided by a published standard
   answerExtra: z.string(),
@@ -83,7 +84,7 @@ export type CompatPage = {
   keywords: string[];
   workarounds: { title: string; text: string }[];
   faqs: { q: string; a: string }[];
-  sources: { name: string; url: string }[];
+  sources: { name: string; url: string; checked: string }[];
   fits: { intro?: string; rows: { item: DimItem; slug?: string; dims: string; verdict: Verdict }[] } | null;
   updated: string;
 };
@@ -305,9 +306,9 @@ export function compatPages(): CompatPage[] {
           }
         : null,
       updated: pair.updated ?? LAUNCH_DATE,
-      sources: [...(pair.sources ?? []), ...[a.source, b.source, ...(pair.fits?.items ?? []).map((f) => byId.get(f.id)?.source)].filter((s): s is { name: string; url: string } => !!s)].filter(
-        (s, i, arr) => arr.findIndex((x) => x.url === s.url) === i,
-      ),
+      sources: [...(pair.sources ?? []), ...[a.source, b.source, ...(pair.fits?.items ?? []).map((f) => byId.get(f.id)?.source)].filter((s): s is z.infer<typeof source> => !!s)]
+        .filter((s, i, arr) => arr.findIndex((x) => x.url === s.url) === i)
+        .map((s) => ({ name: s.name, url: s.url, checked: s.checked ?? LAUNCH_DATE })),
     };
   });
   return cache;
@@ -319,10 +320,81 @@ export function dimensionItems(): DimItem[] {
 }
 
 export const HUBS: Record<CompatPair["hub"], { name: string; blurb: string }> = {
-  bedding: { name: "Mattresses, sheets and bed frames", blurb: "Which mattress fits which frame, and which sheets fit which bed." },
+  drinkware: { name: "Bottles and cup holders", blurb: "Water bottle and tumbler base sizes compared with typical car cup holders." },
+  tech: { name: "Consoles, devices and cases", blurb: "Handhelds and consoles in cases, and PC parts in cases." },
+  "carry-on": { name: "Carry-on bags", blurb: "Bag dimensions against airline carry-on limits." },
   vehicles: { name: "Will it fit in my car?", blurb: "Mattresses and TVs in minivans, SUVs, cars and cargo vans." },
-  drinkware: { name: "Bottles and cup holders", blurb: "Water bottle base sizes compared with typical car cup holders." },
-  tech: { name: "Devices, cases and PC parts", blurb: "Cases, consoles and motherboard form factors." },
-  baby: { name: "Baby gear", blurb: "Crib and play yard mattresses, and why exact fit matters." },
   moving: { name: "Storage, trucks and moving", blurb: "Cars in storage units and carts in truck beds." },
+  bedding: { name: "Mattresses, sheets and bed frames", blurb: "Which mattress fits which frame, and which sheets fit which bed." },
+  baby: { name: "Baby gear", blurb: "Crib and play yard mattresses, and why exact fit matters." },
 };
+
+/** Clusters on the /will-it-fit/ hub, in order. Each holds one or more hubs; a cluster with `hub` gets its own page at /will-it-fit/{id}/. */
+export type Cluster = {
+  id: string;
+  name: string;
+  hubs: CompatPair["hub"][];
+  hub?: { question: string; title: string; meta: string; intro: string; updated: string };
+};
+export const CLUSTERS: Cluster[] = [
+  {
+    id: "bottles",
+    name: "Bottles and tumblers in cup holders",
+    hubs: ["drinkware"],
+    hub: {
+      question: "Will It Fit in a Cup Holder? Bottle Base Widths Compared",
+      title: "Will It Fit in a Cup Holder? Bottle Base Widths Compared",
+      meta: "Car cup holders run about 3–4 in across and vary by car. Every Owala, Stanley and Hydro Flask base width we've sourced, narrowest first, with what fits.",
+      intro:
+        "Car cup holders have no standard size: most are about 3–4 in across at the narrowest point, and many taper toward the bottom. A bottle sits all the way down only if its base is narrower than your holder, so measure yours and compare it with the base widths below. Every width comes from the maker's own page or listing, with the date we checked it.",
+      updated: "2026-11-28",
+    },
+  },
+  { id: "consoles", name: "Consoles and devices", hubs: ["tech"] },
+  { id: "carry-on", name: "Carry-on", hubs: ["carry-on"] },
+  { id: "moving", name: "Moving and vehicles", hubs: ["vehicles", "moving"] },
+  { id: "home", name: "Beds and baby gear", hubs: ["bedding", "baby"] },
+];
+export const clusterOf = (hub: CompatPair["hub"]) => CLUSTERS.find((c) => c.hubs.includes(hub))!;
+export const clusterHubPath = (c: Cluster) => `/will-it-fit/${c.id}/`;
+export const clusterHubs = () => CLUSTERS.filter((c) => c.hub);
+export const clusterPages = (c: Cluster) => compatPages().filter((p) => c.hubs.includes(p.pair.hub));
+
+/** Every item in a cluster's pages (each page's A and its "what does fit" rows), narrowest first, with its own page if any. */
+export function clusterItems(c: Cluster) {
+  const seen = new Map<string, { item: DimItem; verdict: Verdict; slug?: string; against: DimItem }>();
+  for (const p of clusterPages(c)) {
+    if (!seen.has(p.a.id) || !seen.get(p.a.id)!.slug) seen.set(p.a.id, { item: p.a, verdict: p.verdict, slug: p.slug, against: p.b });
+    for (const f of p.fits?.rows ?? []) if (!seen.has(f.item.id)) seen.set(f.item.id, { item: f.item, verdict: f.verdict, slug: f.slug, against: p.b });
+  }
+  const size = (i: DimItem) => hi((i.d ?? i.w ?? 0) as number | [number, number]);
+  // The same bottle listed twice (a generic item and its sized twin, e.g. "Owala FreeSip" = 24 oz): keep the sized one.
+  const rows = [...seen.values()];
+  const same = (x: DimItem, y: DimItem) => x.id !== y.id && x.d === y.d && x.h === y.h && x.w === y.w;
+  return rows
+    .filter((r) => !rows.some((o) => same(r.item, o.item) && o.item.id.length > r.item.id.length))
+    .sort((a, b) => size(a.item) - size(b.item));
+}
+
+/** Position in data/what-works.json's Bing ranking (unranked pages keep data order after ranked ones). */
+let ranking: string[] | null = null;
+const rank = (slug: string) => {
+  if (!ranking) {
+    const f = path.join(process.cwd(), "data/what-works.json");
+    ranking = fs.existsSync(f) ? ((JSON.parse(fs.readFileSync(f, "utf8")).homeWillItFit ?? []) as string[]) : [];
+  }
+  const i = ranking.indexOf(`/will-it-fit/${slug}/`);
+  return i < 0 ? 99 : i;
+};
+
+/** Every other page in the same cluster ("Everything else about {cluster}"). */
+export const clusterSiblings = (p: CompatPage) => clusterPages(clusterOf(p.pair.hub)).filter((x) => x.slug !== p.slug);
+
+/** 4–8 pages from other clusters, best Bing performers first. */
+export function relatedCompat(p: CompatPage, min = 4, max = 8): CompatPage[] {
+  const cluster = clusterOf(p.pair.hub);
+  const others = compatPages()
+    .filter((x) => !cluster.hubs.includes(x.pair.hub))
+    .sort((x, y) => rank(x.slug) - rank(y.slug));
+  return others.slice(0, Math.max(min, Math.min(max, others.length)));
+}
