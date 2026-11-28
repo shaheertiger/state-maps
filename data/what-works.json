@@ -1,32 +1,222 @@
 {
   "generated": "2026-11-28",
-  "average": 1.1382978723404258,
-  "types": {
-    "will-it-fit": {
-      "pages": 25,
-      "impressions": 65,
-      "perPage": 2.8,
+  "average": 0.97,
+  "clusters": {
+    "consoles": {
+      "pages": 1,
+      "impressions": 46,
+      "perPage": 46,
       "verdict": "DOUBLE DOWN"
     },
-    "fit": {
-      "pages": 89,
-      "impressions": 62,
-      "perPage": 0.9,
-      "verdict": "HOLD"
+    "bottles": {
+      "pages": 3,
+      "impressions": 19,
+      "perPage": 6.33,
+      "verdict": "DOUBLE DOWN"
     },
-    "sizing": {
-      "pages": 21,
-      "impressions": 4,
-      "perPage": 0.4,
-      "verdict": "HOLD"
-    },
-    "tools": {
+    "fit-lingerie": {
       "pages": 6,
-      "impressions": 2,
-      "perPage": 0.3333333333333333,
+      "impressions": 16,
+      "perPage": 2.67,
+      "verdict": "HOLD (owner: improve, don't add)"
+    },
+    "fit-tops-outerwear": {
+      "pages": 8,
+      "impressions": 20,
+      "perPage": 2.5,
+      "verdict": "HOLD (owner: improve, don't add)"
+    },
+    "fit-baby": {
+      "pages": 2,
+      "impressions": 5,
+      "perPage": 2.5,
+      "verdict": "HOLD (owner: improve, don't add)"
+    },
+    "fit-hats-helmets": {
+      "pages": 7,
+      "impressions": 14,
+      "perPage": 2,
+      "verdict": "HOLD (owner: improve, don't add)"
+    },
+    "fit-boots": {
+      "pages": 6,
+      "impressions": 7,
+      "perPage": 1.17,
+      "verdict": "HOLD"
+    },
+    "brand-sizing": {
+      "pages": 20,
+      "impressions": 4,
+      "perPage": 0.2,
+      "verdict": "HOLD"
+    },
+    "fit-jewelry-watches": {
+      "pages": 8,
+      "impressions": 1,
+      "perPage": 0.13,
+      "verdict": "HOLD"
+    },
+    "beds": {
+      "pages": 13,
+      "impressions": 1,
+      "perPage": 0.08,
+      "verdict": "HOLD"
+    },
+    "fit-footwear": {
+      "pages": 11,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "fit-suits": {
+      "pages": 10,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "fit-running": {
+      "pages": 9,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "fit-sports-gear": {
+      "pages": 8,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "fit-health": {
+      "pages": 7,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "moving": {
+      "pages": 7,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "fit-jeans-pants": {
+      "pages": 6,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "fit-eyewear": {
+      "pages": 3,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "pc-parts": {
+      "pages": 1,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    },
+    "carry-on": {
+      "pages": 1,
+      "impressions": 0,
+      "perPage": 0,
       "verdict": "HOLD"
     }
   },
+  "types": {
+    "will-it-fit": {
+      "pages": 24,
+      "impressions": 65,
+      "perPage": 2.71,
+      "verdict": "DOUBLE DOWN"
+    },
+    "fit-guide": {
+      "pages": 75,
+      "impressions": 62,
+      "perPage": 0.83,
+      "verdict": "HOLD"
+    },
+    "tool": {
+      "pages": 5,
+      "impressions": 2,
+      "perPage": 0.4,
+      "verdict": "HOLD"
+    },
+    "sizing": {
+      "pages": 20,
+      "impressions": 4,
+      "perPage": 0.2,
+      "verdict": "HOLD"
+    },
+    "hub": {
+      "pages": 13,
+      "impressions": 0,
+      "perPage": 0,
+      "verdict": "HOLD"
+    }
+  },
+  "progress": [
+    {
+      "id": "bottles",
+      "name": "Bottles and tumblers in cup holders",
+      "status": "current",
+      "count": 3,
+      "missing": [
+        "will-it-fit 3/10",
+        "dimensions 0/1",
+        "best-that-fits 0/1",
+        "how-to 0/1",
+        "question 0/2",
+        "hub 0/1"
+      ],
+      "done": false
+    },
+    {
+      "id": "consoles",
+      "name": "Consoles and cases",
+      "status": "next",
+      "count": 1,
+      "missing": [
+        "will-it-fit 1/10",
+        "dimensions 0/1",
+        "best-that-fits 0/1",
+        "how-to 0/1",
+        "question 0/2",
+        "hub 0/1"
+      ],
+      "done": false
+    },
+    {
+      "id": "carry-on",
+      "name": "Carry-on bags by airline",
+      "status": "planned",
+      "count": 1,
+      "missing": [
+        "will-it-fit 0/10",
+        "dimensions 0/1",
+        "best-that-fits 0/1",
+        "how-to 0/1",
+        "question 0/2",
+        "hub 0/1"
+      ],
+      "done": false
+    },
+    {
+      "id": "moving",
+      "name": "Moving: mattresses, furniture and TVs in vehicles",
+      "status": "planned",
+      "count": 7,
+      "missing": [
+        "will-it-fit 7/10",
+        "dimensions 0/1",
+        "best-that-fits 0/1",
+        "how-to 0/1",
+        "question 0/2",
+        "hub 0/1"
+      ],
+      "done": false
+    }
+  ],
   "homeWillItFit": [
     "/will-it-fit/switch-2-in-switch-1-case/",
     "/will-it-fit/owala-in-cup-holder/",

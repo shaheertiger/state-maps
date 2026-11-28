@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { InfoPage } from "@/components/InfoPage";
 import { SITE } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Contact", description: "Spotted a wrong measurement or an out-of-date size chart? How to get in touch about these fit and sizing guides.", alternates: { canonical: "/contact/" } };
+export const metadata: Metadata = { title: "Contact", description: "Spotted a wrong measurement or an out-of-date size chart? How to get in touch about these fit and sizing guides.", alternates: { canonical: "/contact/" }, openGraph: { url: "/contact/", images: ["/og/contact.png"] } };
 
 export default function Contact() {
   return (

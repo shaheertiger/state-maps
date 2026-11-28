@@ -7,6 +7,7 @@ import { SizeTable, formatDate } from "./SizeTable";
 import { JsonLd } from "./JsonLd";
 import { abs, brandPath, hubPath, SITE } from "@/lib/site";
 import { getCategory, guidesIn } from "@/lib/content";
+import { authorRef, publisherRef } from "@/lib/ld";
 
 const paras = (s: string) => s.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>);
 
@@ -138,8 +139,8 @@ function ArticleLd({ b, headline, path }: { b: BrandSizing; headline: string; pa
         dateModified: b.checked,
         inLanguage: "en-US",
         mainEntityOfPage: abs(path),
-        author: { "@type": "Organization", name: SITE.organization, url: SITE.url },
-        publisher: { "@type": "Organization", name: SITE.organization },
+        author: authorRef,
+        publisher: publisherRef,
         about: { "@type": "Brand", name: b.brand },
       }}
     />

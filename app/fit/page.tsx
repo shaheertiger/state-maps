@@ -1,3 +1,5 @@
+import { articleLd } from "@/lib/ld";
+import { JsonLd } from "@/components/JsonLd";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -7,7 +9,7 @@ import { guidePath, hubPath } from "@/lib/site";
 export const metadata: Metadata = {
   title: "All Fit Guides A–Z: How Should It Fit?",
   description: "Every fit guide on the site, from bras and boots to suit jackets and watches, by category and A to Z.",
-  alternates: { canonical: "/fit/" },
+  alternates: { canonical: "/fit/" }, openGraph: { url: "/fit/", images: ["/og/fit.png"] },
 };
 
 export default function FitIndex() {
@@ -18,6 +20,7 @@ export default function FitIndex() {
     <div className="wrap" style={{ paddingBottom: 72 }}>
       <h1>How should it fit?</h1>
       <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }]} />
+      <JsonLd data={articleLd({ headline: "How should it fit?", description: metadata.description ?? undefined, path: "/fit/" })} />
       <p className="lede">
         {guides.length} guides, each with a point-by-point fit checklist, how to measure yourself, and fixes for common problems.
       </p>

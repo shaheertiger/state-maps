@@ -125,6 +125,23 @@ if (only.length === 0) {
   if (missing.length) warnings.push(`planned Wave 1 guides not written yet (${missing.length}): ${missing.join(", ")}`);
 }
 
+// data/clusters.json: every page in the sitemap sits in exactly one known cluster with a known type.
+if (!only.length) {
+  const { allEntries } = await import("../lib/urls");
+  const cfile = path.join(process.cwd(), "data/clusters.json");
+  if (!fs.existsSync(cfile)) errors.push("data/clusters.json missing");
+  else {
+    const cl = JSON.parse(fs.readFileSync(cfile, "utf8")) as { types: string[]; clusters: Record<string, unknown>; pages: Record<string, { cluster: string; type: string }> };
+    const live = new Set(allEntries().map((e) => e.path));
+    for (const p of live) if (!cl.pages[p]) errors.push(`data/clusters.json: ${p} has no cluster`);
+    for (const [p, v] of Object.entries(cl.pages)) {
+      if (!live.has(p)) errors.push(`data/clusters.json: ${p} isn't a live page`);
+      if (!cl.clusters[v.cluster]) errors.push(`data/clusters.json: ${p} is in unknown cluster "${v.cluster}"`);
+      if (!cl.types.includes(v.type)) errors.push(`data/clusters.json: ${p} has unknown type "${v.type}"`);
+    }
+  }
+}
+
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 if (errors.length) {

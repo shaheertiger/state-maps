@@ -9,6 +9,7 @@ import { Faq } from "@/components/Faq";
 import { Picks } from "@/components/Picks";
 import { JsonLd } from "@/components/JsonLd";
 import { Overlay } from "@/components/Overlay";
+import { authorRef, ogId, publisherRef } from "@/lib/ld";
 
 export const dynamicParams = false;
 const VERDICT_SHORT = { yes: "Yes", no: "No", loosely: "Yes, loosely", depends: "Depends" } as const;
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: { absolute: p.title },
     description: p.meta,
     alternates: { canonical: compatPath(p.slug) },
-    openGraph: { title: p.title, description: p.meta, url: compatPath(p.slug), type: "article", images: [`/og/fit-${p.slug}.png`] },
+    openGraph: { title: p.title, description: p.meta, url: compatPath(p.slug), type: "article", images: [`/og/${ogId(compatPath(p.slug))}`] },
   };
 }
 
@@ -41,6 +42,10 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
             <h2 id="short-answer">The short answer</h2>
             <p>
               <span className={`verdict verdict-${p.verdict}`}>{verdictWord}</span> {rest.join(" ")}
+            </p>
+            <p className="muted method">
+              Updated {new Date(`${p.updated}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })}. Compared using
+              manufacturer dimensions and published specs; no hands-on test.
             </p>
           </section>
 
@@ -193,8 +198,8 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
           dateModified: p.updated,
           inLanguage: "en-US",
           mainEntityOfPage: abs(compatPath(p.slug)),
-          author: { "@type": "Organization", name: SITE.organization, url: SITE.url },
-          publisher: { "@type": "Organization", name: SITE.organization },
+          author: authorRef,
+          publisher: publisherRef,
         }}
       />
     </div>

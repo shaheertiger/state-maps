@@ -36,6 +36,8 @@ const exists = (urlPath: string) => {
 };
 
 const errors: string[] = [];
+const warnings: string[] = [];
+const ogImages = new Map<string, string>();
 const titles = new Map<string, string>();
 const descs = new Map<string, string>();
 const html = files.filter((f) => f.endsWith(".html"));
@@ -71,7 +73,21 @@ for (const file of html) {
   const h1 = (src.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? "").replace(/<[^>]+>/g, "");
   for (const [what, text] of [["title", title], ["description", desc], ["H1", h1]] as const)
     if (text.toLowerCase().includes(SITE.name.toLowerCase())) errors.push(`${rel}: ${what} mentions "${SITE.name}": "${text}"`);
-  if (!src.includes('"@type":"BreadcrumbList"')) errors.push(`${rel}: no BreadcrumbList JSON-LD`);
+  for (const t of ["Article", "Organization", "WebSite", "BreadcrumbList", ...(SITE.author ? ["Person"] : [])])
+    if (!src.includes(`"@type":"${t}"`)) errors.push(`${rel}: no ${t} JSON-LD`);
+  if (/id="faq"/.test(src) && !src.includes('"@type":"FAQPage"')) errors.push(`${rel}: visible FAQ without FAQPage JSON-LD`);
+  const og = src.match(/<meta property="og:image" content="([^"]*)"/)?.[1];
+  if (!og) errors.push(`${rel}: no og:image`);
+  else {
+    const ogFile = og.replace(SITE.url, "");
+    if (!fs.existsSync(path.join(out, ogFile))) errors.push(`${rel}: og:image ${ogFile} wasn't built`);
+    if (ogImages.has(og)) errors.push(`${rel}: og:image shared with ${ogImages.get(og)}`);
+    ogImages.set(og, rel);
+  }
+  const twin = rel === "/" ? "/index.md" : `${rel.replace(/\/$/, "")}.md`;
+  if (!fs.existsSync(path.join(out, twin))) errors.push(`${rel}: Markdown twin ${twin} missing`);
+  if (desc && (desc.length < 105 || desc.length > 160)) warnings.push(`${rel}: description is ${desc.length} chars`);
+  if (title.length < 44 || title.length > 62) warnings.push(`${rel}: title is ${title.length} chars`);
   // A rebuild that drops the analytics script makes "0 visitors" look like a penalty (Nov 20–28).
   if (!src.includes('src="/_vercel/insights/script.js"')) errors.push(`${rel}: Vercel Web Analytics script missing`);
   // The first text a crawler reads in <body> must be the H1.
@@ -145,6 +161,8 @@ if (process.env.VERCEL && SITE.url.includes("example.com"))
 if (!fs.existsSync(path.join(out, "404.html"))) errors.push("out/404.html missing");
 if (!fs.existsSync(path.join(out, "pagefind", "pagefind.js"))) errors.push("Pagefind index missing (out/pagefind)");
 
+if (!fs.existsSync(path.join(out, "llms.txt"))) errors.push("out/llms.txt missing");
+for (const w of warnings) console.warn(`warn ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 if (errors.length) {
   console.error(`\n${errors.length} problem(s) in the built site.`);

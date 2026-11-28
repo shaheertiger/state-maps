@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { InfoPage } from "@/components/InfoPage";
 
-export const metadata: Metadata = { title: "About These Fit and Sizing Guides", description: "What these fit and sizing guides cover, where the numbers come from, and how the site is paid for.", alternates: { canonical: "/about/" } };
+export const metadata: Metadata = { title: "About These Fit and Sizing Guides", description: "What these fit and sizing guides cover, where the numbers come from, and how the site is paid for.", alternates: { canonical: "/about/" }, openGraph: { url: "/about/", images: ["/og/about.png"] } };
 
 export default function About() {
   return (

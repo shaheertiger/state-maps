@@ -1,5 +1,5 @@
 /**
- * Saves a Vercel Web Analytics pull to research/vercel/END_START.json for perf-report.ts.
+ * Saves a Vercel Web Analytics pull to data/vercel/END_START.json for perf-report.ts.
  *
  * The daily run pulls it with the Vercel MCP tool aggregate_pageviews (by: requestPath, one call per
  * engine, filtered on that engine's referrer hostnames below, limit 100) and pipes the rows in:
@@ -31,7 +31,7 @@ if (!engine || !ENGINES[engine] || !start || !end) {
   process.exit(1);
 }
 const rows = JSON.parse(fs.readFileSync(0, "utf8")) as { requestPath: string; visitors: number }[];
-const file = path.join(process.cwd(), "research/vercel", `${end}_${start}.json`);
+const file = path.join(process.cwd(), "data/vercel", `${end}_${start}.json`);
 fs.mkdirSync(path.dirname(file), { recursive: true });
 const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : { start, end, engines: {} };
 data.engines[engine] = Object.fromEntries(rows.filter((r) => r.requestPath?.startsWith("/")).map((r) => [r.requestPath, r.visitors]));

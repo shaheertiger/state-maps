@@ -251,7 +251,8 @@
     "h": 10.68,
     "source": {
       "name": "Owala FreeSip product page",
-      "url": "https://owalalife.com/products/freesip"
+      "url": "https://owalalife.com/products/freesip",
+      "checked": "2026-11-28"
     }
   },
   {
@@ -263,7 +264,21 @@
     "h": 10.66,
     "source": {
       "name": "Owala FreeSip product page",
-      "url": "https://owalalife.com/products/freesip"
+      "url": "https://owalalife.com/products/freesip",
+      "checked": "2026-11-28"
+    }
+  },
+  {
+    "id": "owala-freesip-40",
+    "name": "40 oz Owala FreeSip",
+    "group": "bottle",
+    "shape": "round",
+    "d": 3.6,
+    "h": 11.64,
+    "source": {
+      "name": "Owala FreeSip product page",
+      "url": "https://owalalife.com/products/freesip",
+      "checked": "2026-11-28"
     }
   },
   {
@@ -277,7 +292,8 @@
     "note": "Figures are for the 24 oz size; the 32 oz and 40 oz bottles have wider bases.",
     "source": {
       "name": "Owala FreeSip product page",
-      "url": "https://owalalife.com/products/freesip"
+      "url": "https://owalalife.com/products/freesip",
+      "checked": "2026-11-28"
     }
   },
   {

@@ -4,14 +4,15 @@ import { SearchBox } from "@/components/SearchBox";
 import { FitDiagram } from "@/lib/diagrams";
 import { getGuide } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
+import { articleLd } from "@/lib/ld";
 import { allCategories, allGuides, allBrands, guidesIn, guideVolume } from "@/lib/content";
 import { compatPages } from "@/lib/compat";
 import { SITE, TOOLS, guidePath, hubPath, compatPath, brandPath } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "What Are You Trying to Fit? Fit Guides, Will-It-Fit Answers and Brand Sizing" },
-  description: SITE.description,
-  alternates: { canonical: "/" },
+  title: { absolute: "What Are You Trying to Fit? Fit Guides and Size Answers" },
+  description: "How clothes, shoes and gear should fit, whether one thing fits another (worked out from real dimensions), and how brands size.",
+  alternates: { canonical: "/" }, openGraph: { url: "/", images: ["/og/home.png"] },
 };
 
 const WORD = { yes: "Yes", no: "No", loosely: "Loosely", depends: "Depends" } as const;
@@ -147,16 +148,7 @@ export default function Home() {
           itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${SITE.url}/` }],
         }}
       />
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: SITE.name,
-          alternateName: SITE.fullName,
-          url: SITE.url,
-          potentialAction: { "@type": "SearchAction", target: `${SITE.url}/search/?q={search_term_string}`, "query-input": "required name=search_term_string" },
-        }}
-      />
+      <JsonLd data={articleLd({ headline: "What are you trying to fit?", description: SITE.description, path: "/" })} />
     </>
   );
 }

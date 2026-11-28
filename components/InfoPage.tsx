@@ -1,4 +1,6 @@
 import { Breadcrumbs } from "./Breadcrumbs";
+import { JsonLd } from "./JsonLd";
+import { articleLd } from "@/lib/ld";
 
 export function InfoPage({ title, path, children }: { title: string; path: string; children: React.ReactNode }) {
   return (
@@ -8,6 +10,7 @@ export function InfoPage({ title, path, children }: { title: string; path: strin
         <Breadcrumbs items={[{ name: title, href: path }]} />
         {children}
       </article>
+      <JsonLd data={articleLd({ headline: title, path })} />
     </div>
   );
 }

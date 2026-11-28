@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { InfoPage } from "@/components/InfoPage";
 
-export const metadata: Metadata = { title: "Affiliate Disclosure", description: "How these free fit and sizing guides are paid for: affiliate links that never change the price you pay or the fit advice.", alternates: { canonical: "/affiliate-disclosure/" } };
+export const metadata: Metadata = { title: "Affiliate Disclosure", description: "How these free fit and sizing guides are paid for: affiliate links that never change the price you pay or the fit advice.", alternates: { canonical: "/affiliate-disclosure/" }, openGraph: { url: "/affiliate-disclosure/", images: ["/og/affiliate-disclosure.png"] } };
 
 export default function Disclosure() {
   return (

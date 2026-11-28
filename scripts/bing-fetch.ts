@@ -1,5 +1,5 @@
 /**
- * Pulls Bing Webmaster query, page and daily stats into research/bing/YYYY-MM-DD.json.
+ * Pulls Bing Webmaster query, page and daily stats into data/bing/YYYY-MM-DD.json.
  * Copied from the treadmillreviewsusa.com loop (scripts/bing-fetch.mjs), saved as one JSON file.
  *
  *   npx tsx scripts/bing-fetch.ts
@@ -126,7 +126,7 @@ async function main() {
     pages,
     queries,
   };
-  const dir = path.join(process.cwd(), "research/bing");
+  const dir = path.join(process.cwd(), "data/bing");
   fs.mkdirSync(dir, { recursive: true });
   const file = path.join(dir, `${today}.json`);
   fs.writeFileSync(file, JSON.stringify(snap, null, 2) + "\n");

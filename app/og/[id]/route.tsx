@@ -1,19 +1,29 @@
 import { ImageResponse } from "next/og";
 import { allBrands, allCategories, allGuides } from "@/lib/content";
+import { allEntries } from "@/lib/urls";
+import { ogId } from "@/lib/ld";
 import { compatPages } from "@/lib/compat";
-import { SITE, TOOLS } from "@/lib/site";
+import { SITE, TOOLS, brandPath, compatPath, guidePath, hubPath } from "@/lib/site";
 
 /** Open Graph images, rendered once at build into /og/{id}.png. */
 export const dynamic = "force-static";
 export const dynamicParams = false;
 
+/** One card per sitemap page, keyed by ogId(path). Will-it-fit cards carry the two items and the answer. */
 function cards(): Record<string, { title: string; kicker: string }> {
   const out: Record<string, { title: string; kicker: string }> = {};
-  for (const g of allGuides()) out[`fit-${g.slug}.png`] = { title: g.h1, kicker: `${g.checklist.length}-point fit checklist` };
-  for (const p of compatPages()) out[`fit-${p.slug}.png`] = { title: p.h1, kicker: "Dimensions compared" };
-  for (const c of allCategories()) out[`hub-${c.slug}.png`] = { title: c.name, kicker: "Fit guides" };
-  for (const b of allBrands()) out[`sizing-${b.slug}.png`] = { title: b.h1, kicker: `Sizing: ${b.verdict}` };
-  for (const t of TOOLS) out[`tool-${t.slug}.png`] = { title: t.name, kicker: "Free tool" };
+  const VERDICT = { yes: "Yes", no: "No", loosely: "Yes, loosely", depends: "It depends" } as const;
+  for (const e of allEntries()) out[ogId(e.path)] = { title: e.title, kicker: SITE.descriptor };
+  out[ogId("/")] = { title: "What are you trying to fit?", kicker: SITE.descriptor };
+  for (const g of allGuides()) out[ogId(guidePath(g.slug))] = { title: g.h1, kicker: `${g.checklist.length} fit checks` };
+  for (const p of compatPages())
+    out[ogId(compatPath(p.slug))] = { title: p.h1, kicker: `${VERDICT[p.verdict]} · ${p.a.name} vs ${p.b.name}` };
+  for (const c of allCategories()) out[ogId(hubPath(c.slug))] = { title: c.name, kicker: "Fit guides" };
+  for (const b of allBrands()) {
+    out[ogId(brandPath(b.slug))] = { title: b.h1, kicker: `Sizing: ${b.verdict}` };
+    for (const p of b.products ?? []) out[ogId(brandPath(b.slug, p.slug))] = { title: p.h1, kicker: `${b.brand} sizing` };
+  }
+  for (const t of TOOLS) out[ogId(`/tools/${t.slug}/`)] = { title: t.name, kicker: "Free tool" };
   return out;
 }
 

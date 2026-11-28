@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "validate": "tsx scripts/validate.ts",
-    "build": "tsx scripts/validate.ts && next build && pagefind --site out --output-subdir pagefind && tsx scripts/postbuild-check.ts && tsx scripts/indexnow-submit.ts",
+    "build": "tsx scripts/validate.ts && next build && tsx scripts/build-markdown.ts && pagefind --site out --output-subdir pagefind && tsx scripts/postbuild-check.ts && tsx scripts/indexnow-submit.ts",
     "check:links": "tsx scripts/postbuild-check.ts",
     "typecheck": "tsc --noEmit",
     "indexnow:snapshot": "tsx scripts/indexnow-submit.ts --snapshot",

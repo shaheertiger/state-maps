@@ -8,6 +8,7 @@ import { JsonLd } from "./JsonLd";
 import { FitDiagram } from "@/lib/diagrams";
 import { getCategory, relatedGuides, titleCaseItem, guideTitle } from "@/lib/content";
 import { abs, guidePath, hubPath, SITE } from "@/lib/site";
+import { authorRef, ogId, publisherRef } from "@/lib/ld";
 
 const paras = (s: string) => s.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>);
 
@@ -211,9 +212,9 @@ export function GuidePage({ g }: { g: FitGuide }) {
           datePublished: g.updated,
           inLanguage: "en-US",
           mainEntityOfPage: abs(guidePath(g.slug)),
-          image: abs(`/og/fit-${g.slug}.png`),
-          author: { "@type": "Organization", name: SITE.organization, url: SITE.url },
-          publisher: { "@type": "Organization", name: SITE.organization, logo: { "@type": "ImageObject", url: abs("/icon.svg") } },
+          image: abs(`/og/${ogId(guidePath(g.slug))}`),
+          author: authorRef,
+          publisher: publisherRef,
         }}
       />
     </div>

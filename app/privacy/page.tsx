@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { InfoPage } from "@/components/InfoPage";
 import { SITE } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Privacy", description: "What these fit and sizing guides collect (as little as possible): calculators run in your browser, analytics are cookie-free.", alternates: { canonical: "/privacy/" } };
+export const metadata: Metadata = { title: "Privacy", description: "What these fit and sizing guides collect (as little as possible): calculators run in your browser, analytics are cookie-free.", alternates: { canonical: "/privacy/" }, openGraph: { url: "/privacy/", images: ["/og/privacy.png"] } };
 
 export default function Privacy() {
   return (

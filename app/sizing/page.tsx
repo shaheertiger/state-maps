@@ -1,3 +1,5 @@
+import { articleLd } from "@/lib/ld";
+import { JsonLd } from "@/components/JsonLd";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { allBrands } from "@/lib/content";
@@ -7,7 +9,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Brand Sizing: Does It Run Small or True to Size?",
   description: "How popular shoe, boot and accessory brands size, taken from each brand's own size chart and fit advice, with the date we last checked.",
-  alternates: { canonical: "/sizing/" },
+  alternates: { canonical: "/sizing/" }, openGraph: { url: "/sizing/", images: ["/og/sizing.png"] },
 };
 
 export default function SizingHub() {
@@ -16,6 +18,7 @@ export default function SizingHub() {
     <div className="wrap" style={{ paddingBottom: 72 }}>
       <h1>Does it run small?</h1>
       <Breadcrumbs items={[{ name: "Brand sizing", href: "/sizing/" }]} />
+      <JsonLd data={articleLd({ headline: "Does it run small?", description: metadata.description ?? undefined, path: "/sizing/" })} />
       <p className="lede">
         How each brand sizes, taken only from the brand&rsquo;s own size chart and published fit advice. We link the source and show the
         date we last checked it. We don&rsquo;t publish a brand until we can source it properly.

@@ -1201,6 +1201,9 @@
         {
           "id": "owala-freesip-32",
           "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40"
         }
       ]
     },
@@ -1269,7 +1272,27 @@
         "why": "The size most likely to fit",
         "query": "owala freesip 24 oz"
       }
-    ]
+    ],
+    "question": "Will a 24 oz Owala Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "In most cars, yes. The 24 oz FreeSip's base is [[a.d]] in across, near the narrow end of the typical [[b.d]] in cup holder (holders vary). See which Owala sizes fit.",
+    "fits": {
+      "intro": "Base widths by size, from Owala's product page, against the typical [[b.d]] in car cup holder. Holders vary by car and many taper, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "owala-freesip-24",
+          "slug": "owala-24-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-32",
+          "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40"
+        }
+      ]
+    },
+    "updated": "2026-11-28"
   },
   {
     "slug": "owala-in-cup-holder",
@@ -1345,7 +1368,7 @@
     ],
     "question": "Will an Owala Fit in a Cup Holder?",
     "titleHook": "(Base Width by Size)",
-    "meta": "It depends on the size. The 24 oz FreeSip is [[a.d]] in across the base; car cup holders typically run [[b.d]] in and vary by car. See which Owala sizes fit, and what to do if yours doesn't.",
+    "meta": "It depends on the size. The 24 oz FreeSip is [[a.d]] in across the base; car cup holders run about [[b.d]] in and vary. See which Owala sizes fit, and the fixes.",
     "fits": {
       "intro": "Base widths by size, from Owala's product page, against the typical [[b.d]] in car cup holder. Holders vary by car and many taper, so measure yours at its narrowest point.",
       "items": [
@@ -1356,6 +1379,9 @@
         {
           "id": "owala-freesip-32",
           "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40"
         }
       ]
     },

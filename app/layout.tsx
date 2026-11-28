@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE } from "@/lib/site";
+import { organizationLd, personLd, websiteLd } from "@/lib/ld";
 
 const archivo = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-archivo", display: "swap" });
 
@@ -35,17 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Header />
         <Footer />
-        <JsonLd
-          data={{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: SITE.organization,
-            alternateName: SITE.fullName,
-            description: SITE.description,
-            url: SITE.url,
-            logo: `${SITE.url}/icon.svg`,
-          }}
-        />
+        <JsonLd data={[organizationLd, websiteLd, ...(personLd ? [personLd] : [])]} />
         {/* Vercel Web Analytics (cookie-free), loaded as Vercel documents for static HTML: no package.
             The Nov 19 rebuild shipped without it, so Vercel recorded 0 visitors from Nov 20. */}
         <script dangerouslySetInnerHTML={{ __html: "window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};" }} />
