@@ -1,17 +1,11 @@
 {
   "generated": "2026-11-28",
-  "average": 0.97,
+  "average": 0.94,
   "clusters": {
     "consoles": {
       "pages": 1,
       "impressions": 46,
       "perPage": 46,
-      "verdict": "DOUBLE DOWN"
-    },
-    "bottles": {
-      "pages": 3,
-      "impressions": 19,
-      "perPage": 6.33,
       "verdict": "DOUBLE DOWN"
     },
     "fit-lingerie": {
@@ -31,6 +25,12 @@
       "impressions": 5,
       "perPage": 2.5,
       "verdict": "HOLD (owner: improve, don't add)"
+    },
+    "bottles": {
+      "pages": 8,
+      "impressions": 19,
+      "perPage": 2.38,
+      "verdict": "DOUBLE DOWN"
     },
     "fit-hats-helmets": {
       "pages": 7,
@@ -125,9 +125,9 @@
   },
   "types": {
     "will-it-fit": {
-      "pages": 24,
+      "pages": 28,
       "impressions": 65,
-      "perPage": 2.71,
+      "perPage": 2.32,
       "verdict": "DOUBLE DOWN"
     },
     "fit-guide": {
@@ -149,7 +149,7 @@
       "verdict": "HOLD"
     },
     "hub": {
-      "pages": 13,
+      "pages": 14,
       "impressions": 0,
       "perPage": 0,
       "verdict": "HOLD"
@@ -160,14 +160,13 @@
       "id": "bottles",
       "name": "Bottles and tumblers in cup holders",
       "status": "current",
-      "count": 3,
+      "count": 8,
       "missing": [
-        "will-it-fit 3/10",
+        "will-it-fit 7/10",
         "dimensions 0/1",
         "best-that-fits 0/1",
         "how-to 0/1",
-        "question 0/2",
-        "hub 0/1"
+        "question 0/2"
       ],
       "done": false
     },

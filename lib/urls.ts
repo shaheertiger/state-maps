@@ -1,5 +1,5 @@
 import { allBrands, allCategories, allGuides, guidesIn } from "./content";
-import { compatPages, LAUNCH_DATE } from "./compat";
+import { compatPages, clusterHubPath, clusterHubs, clusterPages, LAUNCH_DATE } from "./compat";
 import { TOOLS, abs, brandPath, compatPath, guidePath, hubPath } from "./site";
 
 export type Entry = { path: string; lastmod: string; title: string; kind: "fit" | "hub" | "compat" | "sizing" | "tool" | "page" };
@@ -40,6 +40,8 @@ export function allEntries(): Entry[] {
     e.push({ path: hubPath(c.slug), lastmod: newest(guidesIn(c.slug).map((g) => g.updated)), title: c.name, kind: "hub" });
   for (const g of guides) e.push({ path: guidePath(g.slug), lastmod: g.updated, title: g.h1, kind: "fit" });
   for (const p of compat) e.push({ path: compatPath(p.slug), lastmod: p.updated, title: p.h1, kind: "compat" });
+  for (const c of clusterHubs())
+    e.push({ path: clusterHubPath(c), lastmod: newest([c.hub!.updated, ...clusterPages(c).map((p) => p.updated)]), title: c.hub!.question, kind: "compat" });
   for (const b of brands) {
     e.push({ path: brandPath(b.slug), lastmod: b.checked, title: b.h1, kind: "sizing" });
     for (const p of b.products ?? []) e.push({ path: brandPath(b.slug, p.slug), lastmod: productDate(b.checked, p.updated), title: p.h1, kind: "sizing" });

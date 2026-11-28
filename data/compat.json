@@ -1742,5 +1742,327 @@
         "query": "heavy duty ratchet straps"
       }
     ]
+  },
+  {
+    "slug": "owala-40-oz-in-cup-holder",
+    "a": "owala-freesip-40",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does 40 oz owala fit in cup holder",
+      "does the 40 oz owala fit in a cup holder",
+      "will a 40 oz owala fit in a cup holder",
+      "does owala 40 oz fit in car cup holder",
+      "owala 40 oz cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "question": "Will a 40 oz Owala Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "Only in wide holders. The 40 oz FreeSip's base is [[a.d]] in across, toward the top of the [[b.d]] in cup-holder range. See which Owala sizes fit, and the Sway.",
+    "answerExtra": "That's at the wide end of the range, so it only drops into roomy holders; narrow or tapered ones stop it partway. The FreeSip Sway, Owala's cupholder-friendly version, is much narrower at the base.",
+    "workarounds": [
+      {
+        "title": "Measure first",
+        "text": "Measure the inside of your holder at its narrowest point, below any rubber fins. You need at least [[a.d]] in for the base to sit all the way down."
+      },
+      {
+        "title": "Use a cup holder expander",
+        "text": "An expander sits in your holder and gives a wider cradle on top; check that its top opening is at least [[a.d]] in across."
+      },
+      {
+        "title": "Switch to the FreeSip Sway",
+        "text": "Owala's Sway has a narrow base made for cup holders, so it's the one to buy if the bottle mostly lives in the car."
+      },
+      {
+        "title": "Size down",
+        "text": "The 24 oz FreeSip has the narrowest base of the regular FreeSip sizes."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the 40 oz Owala fit in a cup holder?",
+        "a": "Only in roomy ones. Its base is [[a.d]] in across and car cup holders typically run [[b.d]] in, so measure yours first."
+      },
+      {
+        "q": "does the owala freesip sway fit in a car cup holder",
+        "a": "Owala designs the Sway to: it lists the base at 7.04 cm (about 2.77 in) and calls it cupholder friendly, so it fits holders the regular 40 oz is too wide for."
+      },
+      {
+        "q": "Is the 40 oz Owala wider than the 32 oz?",
+        "a": "Yes. Owala lists the 40 oz at [[a.d]] in across and the 32 oz at 3.43 in."
+      },
+      {
+        "q": "Does the boot affect cup holder fit?",
+        "a": "A silicone boot adds thickness at the base, so take it off if the bottle only just fits bare."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "Takes wide bottles in a standard holder",
+        "query": "cup holder expander large bottle"
+      },
+      {
+        "label": "Owala FreeSip Sway",
+        "why": "Narrow base made for cup holders",
+        "query": "owala freesip sway"
+      }
+    ],
+    "fits": {
+      "intro": "Base widths by size from Owala's product pages, against the typical [[b.d]] in car cup holder. Holders vary by car and many taper, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "owala-freesip-24",
+          "slug": "owala-24-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-32",
+          "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40",
+          "slug": "owala-40-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-sway-30"
+        }
+      ]
+    },
+    "published": "2026-11-28",
+    "updated": "2026-11-28"
+  },
+  {
+    "slug": "stanley-40-oz-in-cup-holder",
+    "a": "stanley-quencher-40",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does a 40 oz stanley fit in a cup holder",
+      "does stanley 40 oz fit in cup holder",
+      "will a 40 oz stanley fit in a car cup holder",
+      "stanley quencher 40 oz cup holder",
+      "does the stanley cup fit in a car cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "question": "Will a 40 oz Stanley Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "In most cars, yes. Stanley lists the 40 oz Quencher's base at [[a.d]] in, near the narrow end of the typical [[b.d]] in cup holder. Check yours and other sizes.",
+    "answerExtra": "Stanley says the Quencher H2.0 fits most car cup holders: the base is narrow and the tumbler widens above it, so only the narrowest or most tapered holders are too tight. The handle sits above the holder, so turn it toward the gap between seats.",
+    "workarounds": [
+      {
+        "title": "Measure the narrowest point",
+        "text": "Measure the inside of your holder at its narrowest point, below any rubber fins. You need at least [[a.d]] in for the base to sit all the way down."
+      },
+      {
+        "title": "Turn the handle outward",
+        "text": "The handle clears most consoles if it faces the gap between seats or the dashboard rather than a neighbouring holder."
+      },
+      {
+        "title": "Use a cup holder expander",
+        "text": "If your holder is under [[a.d]] in, an expander gives a wider cradle on top."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a 40 oz Stanley fit in a car cup holder?",
+        "a": "In most cars. Stanley lists the base at [[a.d]] in across and car cup holders typically run [[b.d]] in; only the narrowest holders are too tight."
+      },
+      {
+        "q": "Are all Stanley Quenchers cup holder friendly?",
+        "a": "Stanley says all FlowState Quencher H2.0 tumblers are compatible with car cup holders."
+      },
+      {
+        "q": "Is the 40 oz Stanley base wider than the 30 oz?",
+        "a": "No. Stanley lists the 40 oz base at [[a.d]] in and the 30 oz at 3.15 in, so they fit the same holders; the 40 oz is just taller."
+      },
+      {
+        "q": "how should i measure a car cup holder",
+        "a": "Measure straight across the inside at the narrowest point, below any rubber fins, and compare it with the bottle's base diameter."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "For holders under [[a.d]] in",
+        "query": "cup holder expander"
+      }
+    ],
+    "fits": {
+      "intro": "Base widths from Stanley's product pages, against the typical [[b.d]] in car cup holder. Holders vary by car, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "stanley-quencher-30",
+          "slug": "stanley-30-oz-in-cup-holder"
+        },
+        {
+          "id": "stanley-quencher-40",
+          "slug": "stanley-40-oz-in-cup-holder"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "name": "Stanley Quencher tumblers collection (cup holder compatibility)",
+        "url": "https://www.stanley1913.com/collections/adventure-quencher-travel-tumblers",
+        "checked": "2026-11-28"
+      }
+    ],
+    "published": "2026-11-28",
+    "updated": "2026-11-28"
+  },
+  {
+    "slug": "stanley-30-oz-in-cup-holder",
+    "a": "stanley-quencher-30",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does a 30 oz stanley fit in a cup holder",
+      "does stanley 30 oz fit in cup holder",
+      "will a 30 oz stanley fit in a car cup holder",
+      "stanley 30 oz cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "question": "Will a 30 oz Stanley Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "In most cars, yes. Stanley lists the 30 oz Quencher's base at [[a.d]] in and calls it car cup holder compatible; holders run about [[b.d]] in. See other sizes.",
+    "answerExtra": "Stanley calls the 30 oz Quencher H2.0 car cup holder compatible: the base is narrow and the tumbler widens above it, so only the narrowest or most tapered holders are too tight.",
+    "workarounds": [
+      {
+        "title": "Measure the narrowest point",
+        "text": "Measure the inside of your holder at its narrowest point, below any rubber fins. You need at least [[a.d]] in for the base to sit all the way down."
+      },
+      {
+        "title": "Turn the handle outward",
+        "text": "Face the handle toward the gap between seats so it doesn't hit a neighbouring cup."
+      },
+      {
+        "title": "Use a cup holder expander",
+        "text": "If your holder is under [[a.d]] in, an expander gives a wider cradle on top."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a 30 oz Stanley fit in a cup holder?",
+        "a": "In most cars. Stanley lists the base at [[a.d]] in and calls it car cup holder compatible; holders typically run [[b.d]] in."
+      },
+      {
+        "q": "Does the 30 oz or the 40 oz Stanley fit better in a cup holder?",
+        "a": "They fit the same holders: Stanley lists the bases at [[a.d]] in (30 oz) and 3.1 in (40 oz). The 40 oz is taller."
+      },
+      {
+        "q": "how should i measure a car cup holder",
+        "a": "Measure straight across the inside at the narrowest point, below any rubber fins, and compare it with the bottle's base diameter."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "For holders under [[a.d]] in",
+        "query": "cup holder expander"
+      }
+    ],
+    "fits": {
+      "intro": "Base widths from Stanley's product pages, against the typical [[b.d]] in car cup holder. Holders vary by car, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "stanley-quencher-30",
+          "slug": "stanley-30-oz-in-cup-holder"
+        },
+        {
+          "id": "stanley-quencher-40",
+          "slug": "stanley-40-oz-in-cup-holder"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "name": "Stanley Quencher tumblers collection (cup holder compatibility)",
+        "url": "https://www.stanley1913.com/collections/adventure-quencher-travel-tumblers",
+        "checked": "2026-11-28"
+      }
+    ],
+    "published": "2026-11-28",
+    "updated": "2026-11-28"
+  },
+  {
+    "slug": "hydro-flask-32-oz-in-cup-holder",
+    "a": "hydro-flask-32",
+    "b": "car-cup-holder",
+    "relation": "in",
+    "mode": "round",
+    "keywords": [
+      "does a 32 oz hydro flask fit in a cup holder",
+      "does hydro flask 32 oz fit in cup holder",
+      "will a 32 oz hydro flask fit in a car cup holder",
+      "hydro flask 32 oz cup holder"
+    ],
+    "hub": "drinkware",
+    "expect": "depends",
+    "question": "Will a 32 oz Hydro Flask Fit in a Cup Holder?",
+    "titleHook": "(Width by Size)",
+    "meta": "Only in wide holders. The 32 oz Wide Mouth is [[a.d]] in across, and Hydro Flask doesn't list it as cup holder compatible. The 20 oz is 2.91 in. See sizes.",
+    "answerExtra": "Hydro Flask's own size chart doesn't mark the 32 oz as cup holder compatible: it's a straight-sided bottle, as wide at the base as at the top, so it only drops into roomy holders. The 20 oz, at 2.91 in, is the size Hydro Flask marks as cup holder compatible.",
+    "workarounds": [
+      {
+        "title": "Measure first",
+        "text": "Measure the inside of your holder at its narrowest point, below any rubber fins. You need at least [[a.d]] in for the base to sit all the way down."
+      },
+      {
+        "title": "Use a cup holder expander",
+        "text": "An expander with a top opening of at least [[a.d]] in holds the 32 oz upright."
+      },
+      {
+        "title": "Size down to the 20 oz",
+        "text": "The 20 oz Wide Mouth is 2.91 in across and fits almost any holder."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a 32 oz Hydro Flask fit in a cup holder?",
+        "a": "Only in wide ones. It's [[a.d]] in across and car cup holders typically run [[b.d]] in; Hydro Flask doesn't list it as cup holder compatible."
+      },
+      {
+        "q": "Which Hydro Flask fits in a cup holder?",
+        "a": "The 20 oz Wide Mouth (2.91 in across) is the size Hydro Flask's chart marks as cup holder compatible."
+      },
+      {
+        "q": "Is the 40 oz Hydro Flask wider than the 32 oz?",
+        "a": "No. Hydro Flask lists both at [[a.d]] in across; the 40 oz is taller."
+      },
+      {
+        "q": "how should i measure a car cup holder",
+        "a": "Measure straight across the inside at the narrowest point, below any rubber fins, and compare it with the bottle's diameter."
+      }
+    ],
+    "picks": [
+      {
+        "label": "Cup holder expander",
+        "why": "Holds a [[a.d]] in bottle upright",
+        "query": "cup holder expander 32 oz hydro flask"
+      }
+    ],
+    "fits": {
+      "intro": "Widths from Hydro Flask's size chart, against the typical [[b.d]] in car cup holder. Holders vary by car, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "hydro-flask-20"
+        },
+        {
+          "id": "hydro-flask-32",
+          "slug": "hydro-flask-32-oz-in-cup-holder"
+        },
+        {
+          "id": "hydro-flask-40"
+        }
+      ]
+    },
+    "published": "2026-11-28",
+    "updated": "2026-11-28"
   }
 ]

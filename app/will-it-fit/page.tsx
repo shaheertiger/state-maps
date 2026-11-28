@@ -2,7 +2,7 @@ import { articleLd } from "@/lib/ld";
 import { JsonLd } from "@/components/JsonLd";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { compatPages, HUBS, CLUSTERS } from "@/lib/compat";
+import { compatPages, HUBS, CLUSTERS, clusterHubPath } from "@/lib/compat";
 import { compatPath } from "@/lib/site";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
@@ -39,6 +39,11 @@ export default function CompatHub() {
       {clusters.map((c) => (
         <section key={c.id} id={c.id} aria-labelledby={`c-${c.id}`}>
           <h2 id={`c-${c.id}`}>{c.name}</h2>
+          {c.hub && (
+            <p>
+              <Link href={clusterHubPath(c)}>{c.hub.question}</Link>
+            </p>
+          )}
           {c.hubs
             .filter((k) => pages.some((p) => p.pair.hub === k))
             .map((k) => (

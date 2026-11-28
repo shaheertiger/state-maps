@@ -329,15 +329,52 @@ export const HUBS: Record<CompatPair["hub"], { name: string; blurb: string }> = 
   baby: { name: "Baby gear", blurb: "Crib and play yard mattresses, and why exact fit matters." },
 };
 
-/** Clusters on the /will-it-fit/ hub, in order. Each holds one or more hubs. */
-export const CLUSTERS: { id: string; name: string; hubs: CompatPair["hub"][] }[] = [
-  { id: "bottles", name: "Bottles", hubs: ["drinkware"] },
+/** Clusters on the /will-it-fit/ hub, in order. Each holds one or more hubs; a cluster with `hub` gets its own page at /will-it-fit/{id}/. */
+export type Cluster = {
+  id: string;
+  name: string;
+  hubs: CompatPair["hub"][];
+  hub?: { question: string; title: string; meta: string; intro: string; updated: string };
+};
+export const CLUSTERS: Cluster[] = [
+  {
+    id: "bottles",
+    name: "Bottles and tumblers in cup holders",
+    hubs: ["drinkware"],
+    hub: {
+      question: "Will It Fit in a Cup Holder? Bottle Base Widths Compared",
+      title: "Will It Fit in a Cup Holder? Bottle Base Widths Compared",
+      meta: "Car cup holders run about 3–4 in across and vary by car. Every Owala, Stanley and Hydro Flask base width we've sourced, narrowest first, with what fits.",
+      intro:
+        "Car cup holders have no standard size: most are about 3–4 in across at the narrowest point, and many taper toward the bottom. A bottle sits all the way down only if its base is narrower than your holder, so measure yours and compare it with the base widths below. Every width comes from the maker's own page or listing, with the date we checked it.",
+      updated: "2026-11-28",
+    },
+  },
   { id: "consoles", name: "Consoles and devices", hubs: ["tech"] },
   { id: "carry-on", name: "Carry-on", hubs: ["carry-on"] },
   { id: "moving", name: "Moving and vehicles", hubs: ["vehicles", "moving"] },
   { id: "home", name: "Beds and baby gear", hubs: ["bedding", "baby"] },
 ];
 export const clusterOf = (hub: CompatPair["hub"]) => CLUSTERS.find((c) => c.hubs.includes(hub))!;
+export const clusterHubPath = (c: Cluster) => `/will-it-fit/${c.id}/`;
+export const clusterHubs = () => CLUSTERS.filter((c) => c.hub);
+export const clusterPages = (c: Cluster) => compatPages().filter((p) => c.hubs.includes(p.pair.hub));
+
+/** Every item in a cluster's pages (each page's A and its "what does fit" rows), narrowest first, with its own page if any. */
+export function clusterItems(c: Cluster) {
+  const seen = new Map<string, { item: DimItem; verdict: Verdict; slug?: string; against: DimItem }>();
+  for (const p of clusterPages(c)) {
+    if (!seen.has(p.a.id) || !seen.get(p.a.id)!.slug) seen.set(p.a.id, { item: p.a, verdict: p.verdict, slug: p.slug, against: p.b });
+    for (const f of p.fits?.rows ?? []) if (!seen.has(f.item.id)) seen.set(f.item.id, { item: f.item, verdict: f.verdict, slug: f.slug, against: p.b });
+  }
+  const size = (i: DimItem) => hi((i.d ?? i.w ?? 0) as number | [number, number]);
+  // The same bottle listed twice (a generic item and its sized twin, e.g. "Owala FreeSip" = 24 oz): keep the sized one.
+  const rows = [...seen.values()];
+  const same = (x: DimItem, y: DimItem) => x.id !== y.id && x.d === y.d && x.h === y.h && x.w === y.w;
+  return rows
+    .filter((r) => !rows.some((o) => same(r.item, o.item) && o.item.id.length > r.item.id.length))
+    .sort((a, b) => size(a.item) - size(b.item));
+}
 
 /** Position in data/what-works.json's Bing ranking (unranked pages keep data order after ranked ones). */
 let ranking: string[] | null = null;
@@ -350,15 +387,14 @@ const rank = (slug: string) => {
   return i < 0 ? 99 : i;
 };
 
-/** 8–12 sibling pages for "related" links: same hub, then same cluster, then the rest of the site. */
-export function relatedCompat(p: CompatPage, min = 8, max = 12): CompatPage[] {
-  const all = compatPages().filter((x) => x.slug !== p.slug);
+/** Every other page in the same cluster ("Everything else about {cluster}"). */
+export const clusterSiblings = (p: CompatPage) => clusterPages(clusterOf(p.pair.hub)).filter((x) => x.slug !== p.slug);
+
+/** 4–8 pages from other clusters, best Bing performers first. */
+export function relatedCompat(p: CompatPage, min = 4, max = 8): CompatPage[] {
   const cluster = clusterOf(p.pair.hub);
-  const ranked = [
-    ...all.filter((x) => x.pair.hub === p.pair.hub),
-    ...all.filter((x) => x.pair.hub !== p.pair.hub && cluster.hubs.includes(x.pair.hub)),
-    ...all.filter((x) => !cluster.hubs.includes(x.pair.hub)).sort((x, y) => rank(x.slug) - rank(y.slug)),
-  ];
-  const sameCluster = ranked.filter((x) => cluster.hubs.includes(x.pair.hub)).length;
-  return ranked.slice(0, Math.min(max, Math.max(min, sameCluster)));
+  const others = compatPages()
+    .filter((x) => !cluster.hubs.includes(x.pair.hub))
+    .sort((x, y) => rank(x.slug) - rank(y.slug));
+  return others.slice(0, Math.max(min, Math.min(max, others.length)));
 }

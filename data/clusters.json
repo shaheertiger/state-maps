@@ -690,6 +690,26 @@
     "/tools/carry-on-size-checker/": {
       "cluster": "carry-on",
       "type": "tool"
+    },
+    "/will-it-fit/owala-40-oz-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/stanley-40-oz-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/stanley-30-oz-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/hydro-flask-32-oz-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/bottles/": {
+      "cluster": "bottles",
+      "type": "hub"
     }
   }
 }
