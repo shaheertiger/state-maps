@@ -13,7 +13,8 @@ import { z } from "zod";
 
 const num = z.number().positive();
 const range = z.union([num, z.tuple([num, num])]);
-const source = z.object({ name: z.string(), url: z.url() });
+/** `checked`: the date we last confirmed the number on that page (defaults to the launch date for launch data). */
+const source = z.object({ name: z.string(), url: z.url(), checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional() });
 
 export const dimItem = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
@@ -39,7 +40,7 @@ export const compatPair = z.object({
   relation: z.enum(["on", "in"]),
   mode: z.enum(["fitted-sheet", "footprint", "box", "upright", "round", "standard"]),
   keywords: z.array(z.string()).min(1),
-  hub: z.enum(["bedding", "vehicles", "drinkware", "tech", "baby", "moving"]),
+  hub: z.enum(["bedding", "vehicles", "drinkware", "tech", "carry-on", "baby", "moving"]),
   expect: z.enum(["yes", "no", "loosely", "depends"]), // asserted against the computed verdict
   standardVerdict: z.enum(["yes", "no"]).optional(), // mode "standard": verdict decided by a published standard
   answerExtra: z.string(),
@@ -83,7 +84,7 @@ export type CompatPage = {
   keywords: string[];
   workarounds: { title: string; text: string }[];
   faqs: { q: string; a: string }[];
-  sources: { name: string; url: string }[];
+  sources: { name: string; url: string; checked: string }[];
   fits: { intro?: string; rows: { item: DimItem; slug?: string; dims: string; verdict: Verdict }[] } | null;
   updated: string;
 };
@@ -305,9 +306,9 @@ export function compatPages(): CompatPage[] {
           }
         : null,
       updated: pair.updated ?? LAUNCH_DATE,
-      sources: [...(pair.sources ?? []), ...[a.source, b.source, ...(pair.fits?.items ?? []).map((f) => byId.get(f.id)?.source)].filter((s): s is { name: string; url: string } => !!s)].filter(
-        (s, i, arr) => arr.findIndex((x) => x.url === s.url) === i,
-      ),
+      sources: [...(pair.sources ?? []), ...[a.source, b.source, ...(pair.fits?.items ?? []).map((f) => byId.get(f.id)?.source)].filter((s): s is z.infer<typeof source> => !!s)]
+        .filter((s, i, arr) => arr.findIndex((x) => x.url === s.url) === i)
+        .map((s) => ({ name: s.name, url: s.url, checked: s.checked ?? LAUNCH_DATE })),
     };
   });
   return cache;
@@ -319,10 +320,45 @@ export function dimensionItems(): DimItem[] {
 }
 
 export const HUBS: Record<CompatPair["hub"], { name: string; blurb: string }> = {
-  bedding: { name: "Mattresses, sheets and bed frames", blurb: "Which mattress fits which frame, and which sheets fit which bed." },
+  drinkware: { name: "Bottles and cup holders", blurb: "Water bottle and tumbler base sizes compared with typical car cup holders." },
+  tech: { name: "Consoles, devices and cases", blurb: "Handhelds and consoles in cases, and PC parts in cases." },
+  "carry-on": { name: "Carry-on bags", blurb: "Bag dimensions against airline carry-on limits." },
   vehicles: { name: "Will it fit in my car?", blurb: "Mattresses and TVs in minivans, SUVs, cars and cargo vans." },
-  drinkware: { name: "Bottles and cup holders", blurb: "Water bottle base sizes compared with typical car cup holders." },
-  tech: { name: "Devices, cases and PC parts", blurb: "Cases, consoles and motherboard form factors." },
-  baby: { name: "Baby gear", blurb: "Crib and play yard mattresses, and why exact fit matters." },
   moving: { name: "Storage, trucks and moving", blurb: "Cars in storage units and carts in truck beds." },
+  bedding: { name: "Mattresses, sheets and bed frames", blurb: "Which mattress fits which frame, and which sheets fit which bed." },
+  baby: { name: "Baby gear", blurb: "Crib and play yard mattresses, and why exact fit matters." },
 };
+
+/** Clusters on the /will-it-fit/ hub, in order. Each holds one or more hubs. */
+export const CLUSTERS: { id: string; name: string; hubs: CompatPair["hub"][] }[] = [
+  { id: "bottles", name: "Bottles", hubs: ["drinkware"] },
+  { id: "consoles", name: "Consoles and devices", hubs: ["tech"] },
+  { id: "carry-on", name: "Carry-on", hubs: ["carry-on"] },
+  { id: "moving", name: "Moving and vehicles", hubs: ["vehicles", "moving"] },
+  { id: "home", name: "Beds and baby gear", hubs: ["bedding", "baby"] },
+];
+export const clusterOf = (hub: CompatPair["hub"]) => CLUSTERS.find((c) => c.hubs.includes(hub))!;
+
+/** Position in data/what-works.json's Bing ranking (unranked pages keep data order after ranked ones). */
+let ranking: string[] | null = null;
+const rank = (slug: string) => {
+  if (!ranking) {
+    const f = path.join(process.cwd(), "data/what-works.json");
+    ranking = fs.existsSync(f) ? ((JSON.parse(fs.readFileSync(f, "utf8")).homeWillItFit ?? []) as string[]) : [];
+  }
+  const i = ranking.indexOf(`/will-it-fit/${slug}/`);
+  return i < 0 ? 99 : i;
+};
+
+/** 8–12 sibling pages for "related" links: same hub, then same cluster, then the rest of the site. */
+export function relatedCompat(p: CompatPage, min = 8, max = 12): CompatPage[] {
+  const all = compatPages().filter((x) => x.slug !== p.slug);
+  const cluster = clusterOf(p.pair.hub);
+  const ranked = [
+    ...all.filter((x) => x.pair.hub === p.pair.hub),
+    ...all.filter((x) => x.pair.hub !== p.pair.hub && cluster.hubs.includes(x.pair.hub)),
+    ...all.filter((x) => !cluster.hubs.includes(x.pair.hub)).sort((x, y) => rank(x.slug) - rank(y.slug)),
+  ];
+  const sameCluster = ranked.filter((x) => cluster.hubs.includes(x.pair.hub)).length;
+  return ranked.slice(0, Math.min(max, Math.max(min, sameCluster)));
+}
