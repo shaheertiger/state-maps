@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { InfoPage } from "@/components/InfoPage";
+import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = { title: "About These Fit and Sizing Guides", description: "What these fit and sizing guides cover, where the numbers come from, and how the site is paid for.", alternates: { canonical: "/about/" }, openGraph: { url: "/about/", images: ["/og/about.png"] } };
 
@@ -20,6 +21,11 @@ export default function About() {
         Every guide here maps where something should sit on your body: the shoulder seam of a jacket, the toe room in a shoe, the band
         of a bra. Those fit maps, and the measurements behind them, are what the site is built on. We cover fit and sizing, not
         geography.
+      </p>
+      <h2 id="author">Who writes the guides</h2>
+      <p>
+        The guides are written and checked by {SITE.author?.name}. Every measurement links to the maker&rsquo;s or retailer&rsquo;s page it
+        came from, with the date it was checked.
       </p>
       <h2>What you&rsquo;ll find here</h2>
       <ul>
