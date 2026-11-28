@@ -8,6 +8,7 @@ import { JsonLd } from "./JsonLd";
 import { FitDiagram } from "@/lib/diagrams";
 import { getCategory, relatedGuides, titleCaseItem, guideTitle } from "@/lib/content";
 import { abs, guidePath, hubPath, SITE } from "@/lib/site";
+import { authorRef, ogId, publisherRef } from "@/lib/ld";
 
 const paras = (s: string) => s.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>);
 
@@ -43,7 +44,6 @@ export function GuidePage({ g }: { g: FitGuide }) {
   );
   return (
     <div className="wrap">
-      <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: cat.short, href: hubPath(cat.slug) }, { name: item, href: guidePath(g.slug) }]} />
       <div className="page-grid">
         <article className="main-col" data-pagefind-body>
           <h1>{g.h1}</h1>
@@ -183,6 +183,7 @@ export function GuidePage({ g }: { g: FitGuide }) {
               <Link href={hubPath(cat.slug)}>All {cat.name.toLowerCase()} guides</Link>
             </p>
           </section>
+          <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: cat.short, href: hubPath(cat.slug) }, { name: item, href: guidePath(g.slug) }]} />
         </article>
 
         <aside className="rail" data-pagefind-ignore>
@@ -211,9 +212,9 @@ export function GuidePage({ g }: { g: FitGuide }) {
           datePublished: g.updated,
           inLanguage: "en-US",
           mainEntityOfPage: abs(guidePath(g.slug)),
-          image: abs(`/og/fit-${g.slug}.png`),
-          author: { "@type": "Organization", name: SITE.organization, url: SITE.url },
-          publisher: { "@type": "Organization", name: SITE.organization, logo: { "@type": "ImageObject", url: abs("/icon.svg") } },
+          image: abs(`/og/${ogId(guidePath(g.slug))}`),
+          author: authorRef,
+          publisher: publisherRef,
         }}
       />
     </div>

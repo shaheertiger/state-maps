@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { InfoPage } from "@/components/InfoPage";
 import { SITE } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Privacy", description: `How ${SITE.name} handles your data.`, alternates: { canonical: "/privacy/" } };
+export const metadata: Metadata = { title: "Privacy", description: "What these fit and sizing guides collect (as little as possible): calculators run in your browser, analytics are cookie-free.", alternates: { canonical: "/privacy/" }, openGraph: { url: "/privacy/", images: ["/og/privacy.png"] } };
 
 export default function Privacy() {
   return (
@@ -12,8 +12,8 @@ export default function Privacy() {
       <p>Our calculators run entirely in your browser. Measurements you type are never sent to us or anyone else.</p>
       <h2>Analytics</h2>
       <p>
-        We may use privacy-focused, cookie-free analytics (Cloudflare Web Analytics) to count page views. It doesn&rsquo;t use cookies or
-        build a profile of you. Our hosting provider keeps standard server logs for security.
+        We count page views with cookie-free analytics (Vercel Web Analytics, and possibly Cloudflare Web Analytics). They don&rsquo;t use
+        cookies or build a profile of you. Our hosting provider keeps standard server logs for security.
       </p>
       <h2>Shopping links</h2>
       <p>

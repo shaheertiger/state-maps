@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { InfoPage } from "@/components/InfoPage";
 
-export const metadata: Metadata = { title: "How We Write Our Guides", description: "Where our fit advice, size charts and dimensions come from, and the rules every page follows.", alternates: { canonical: "/methodology/" } };
+export const metadata: Metadata = { title: "How We Write Our Guides", description: "Where our fit advice, size charts and dimensions come from, and the rules every page follows.", alternates: { canonical: "/methodology/" }, openGraph: { url: "/methodology/", images: ["/og/methodology.png"] } };
 
 export default function Methodology() {
   return (

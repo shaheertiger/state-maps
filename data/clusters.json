@@ -1,0 +1,695 @@
+{
+  "target": 15,
+  "types": [
+    "will-it-fit",
+    "dimensions",
+    "best-that-fits",
+    "how-to",
+    "question",
+    "fit-guide",
+    "sizing",
+    "tool",
+    "hub",
+    "page"
+  ],
+  "clusters": {
+    "bottles": {
+      "name": "Bottles and tumblers in cup holders",
+      "status": "current",
+      "order": 1
+    },
+    "consoles": {
+      "name": "Consoles and cases",
+      "status": "next",
+      "order": 2
+    },
+    "carry-on": {
+      "name": "Carry-on bags by airline",
+      "status": "planned",
+      "order": 3
+    },
+    "moving": {
+      "name": "Moving: mattresses, furniture and TVs in vehicles",
+      "status": "planned",
+      "order": 4
+    },
+    "beds": {
+      "name": "Mattresses, sheets and bed frames",
+      "status": "hold"
+    },
+    "pc-parts": {
+      "name": "PC parts and cases",
+      "status": "hold"
+    },
+    "brand-sizing": {
+      "name": "Brand sizing",
+      "status": "hold"
+    },
+    "site": {
+      "name": "Home, section indexes and about pages",
+      "status": "n/a"
+    },
+    "fit-suits": {
+      "name": "Fit guides: Suits and tailoring",
+      "status": "hold"
+    },
+    "fit-footwear": {
+      "name": "Fit guides: Shoes, sandals and everyday footwear",
+      "status": "hold"
+    },
+    "fit-running": {
+      "name": "Fit guides: Running and athletic shoes",
+      "status": "hold"
+    },
+    "fit-boots": {
+      "name": "Fit guides: Boots",
+      "status": "hold"
+    },
+    "fit-jeans-pants": {
+      "name": "Fit guides: Jeans, pants and belts",
+      "status": "hold"
+    },
+    "fit-tops-outerwear": {
+      "name": "Fit guides: Shirts, jackets and outerwear",
+      "status": "hold"
+    },
+    "fit-lingerie": {
+      "name": "Fit guides: Bras and lingerie",
+      "status": "hold"
+    },
+    "fit-hats-helmets": {
+      "name": "Fit guides: Hats and helmets",
+      "status": "hold"
+    },
+    "fit-sports-gear": {
+      "name": "Fit guides: Sports and outdoor gear",
+      "status": "hold"
+    },
+    "fit-jewelry-watches": {
+      "name": "Fit guides: Rings, watches and bracelets",
+      "status": "hold"
+    },
+    "fit-eyewear": {
+      "name": "Fit guides: Glasses and sunglasses",
+      "status": "hold"
+    },
+    "fit-baby": {
+      "name": "Fit guides: Baby and kids",
+      "status": "hold"
+    },
+    "fit-health": {
+      "name": "Fit guides: Health and body",
+      "status": "hold"
+    }
+  },
+  "pages": {
+    "/": {
+      "cluster": "site",
+      "type": "page"
+    },
+    "/fit/": {
+      "cluster": "site",
+      "type": "hub"
+    },
+    "/will-it-fit/": {
+      "cluster": "site",
+      "type": "hub"
+    },
+    "/sizing/": {
+      "cluster": "site",
+      "type": "hub"
+    },
+    "/tools/": {
+      "cluster": "site",
+      "type": "hub"
+    },
+    "/about/": {
+      "cluster": "site",
+      "type": "page"
+    },
+    "/methodology/": {
+      "cluster": "site",
+      "type": "page"
+    },
+    "/affiliate-disclosure/": {
+      "cluster": "site",
+      "type": "page"
+    },
+    "/contact/": {
+      "cluster": "site",
+      "type": "page"
+    },
+    "/privacy/": {
+      "cluster": "site",
+      "type": "page"
+    },
+    "/fit/suits/": {
+      "cluster": "fit-suits",
+      "type": "hub"
+    },
+    "/fit/footwear/": {
+      "cluster": "fit-footwear",
+      "type": "hub"
+    },
+    "/fit/running/": {
+      "cluster": "fit-running",
+      "type": "hub"
+    },
+    "/fit/boot-styles/": {
+      "cluster": "fit-boots",
+      "type": "hub"
+    },
+    "/fit/jeans-pants/": {
+      "cluster": "fit-jeans-pants",
+      "type": "hub"
+    },
+    "/fit/tops-outerwear/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "hub"
+    },
+    "/fit/lingerie/": {
+      "cluster": "fit-lingerie",
+      "type": "hub"
+    },
+    "/fit/hats-helmets/": {
+      "cluster": "fit-hats-helmets",
+      "type": "hub"
+    },
+    "/fit/sports-gear/": {
+      "cluster": "fit-sports-gear",
+      "type": "hub"
+    },
+    "/fit/jewelry-watches/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "hub"
+    },
+    "/fit/eyewear/": {
+      "cluster": "fit-eyewear",
+      "type": "hub"
+    },
+    "/fit/baby/": {
+      "cluster": "fit-baby",
+      "type": "hub"
+    },
+    "/fit/health/": {
+      "cluster": "fit-health",
+      "type": "hub"
+    },
+    "/fit/arm-sling/": {
+      "cluster": "fit-health",
+      "type": "fit-guide"
+    },
+    "/fit/ballet-shoes/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/baseball-cap/": {
+      "cluster": "fit-hats-helmets",
+      "type": "fit-guide"
+    },
+    "/fit/baseball-glove/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/basketball-shoes/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/belt/": {
+      "cluster": "fit-jeans-pants",
+      "type": "fit-guide"
+    },
+    "/fit/bike-helmet/": {
+      "cluster": "fit-hats-helmets",
+      "type": "fit-guide"
+    },
+    "/fit/blazer/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/boots/": {
+      "cluster": "fit-boots",
+      "type": "fit-guide"
+    },
+    "/fit/bra/": {
+      "cluster": "fit-lingerie",
+      "type": "fit-guide"
+    },
+    "/fit/bracelet/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "fit-guide"
+    },
+    "/fit/breast-pump-flange/": {
+      "cluster": "fit-health",
+      "type": "fit-guide"
+    },
+    "/fit/cargo-shorts/": {
+      "cluster": "fit-jeans-pants",
+      "type": "fit-guide"
+    },
+    "/fit/chinos/": {
+      "cluster": "fit-jeans-pants",
+      "type": "fit-guide"
+    },
+    "/fit/climbing-shoes/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/compression-socks/": {
+      "cluster": "fit-health",
+      "type": "fit-guide"
+    },
+    "/fit/condom/": {
+      "cluster": "fit-health",
+      "type": "fit-guide"
+    },
+    "/fit/cowboy-boots/": {
+      "cluster": "fit-boots",
+      "type": "fit-guide"
+    },
+    "/fit/cowboy-hat/": {
+      "cluster": "fit-hats-helmets",
+      "type": "fit-guide"
+    },
+    "/fit/cycling-shoes/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/denim-jacket/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/diaper/": {
+      "cluster": "fit-baby",
+      "type": "fit-guide"
+    },
+    "/fit/dog-harness/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/dress-pants/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/dress-shirt/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/dress-shoes/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/engagement-ring/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "fit-guide"
+    },
+    "/fit/flip-flops/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/glasses/": {
+      "cluster": "fit-eyewear",
+      "type": "fit-guide"
+    },
+    "/fit/gloves/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/golf-glove/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/graduation-gown/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/hat/": {
+      "cluster": "fit-hats-helmets",
+      "type": "fit-guide"
+    },
+    "/fit/heels/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/hiking-boots/": {
+      "cluster": "fit-boots",
+      "type": "fit-guide"
+    },
+    "/fit/hiking-shoes/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/jeans/": {
+      "cluster": "fit-jeans-pants",
+      "type": "fit-guide"
+    },
+    "/fit/leather-jacket/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/life-jacket/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/loafers/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/moto-gloves/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/motorcycle-helmet/": {
+      "cluster": "fit-hats-helmets",
+      "type": "fit-guide"
+    },
+    "/fit/night-guard/": {
+      "cluster": "fit-health",
+      "type": "fit-guide"
+    },
+    "/fit/pants/": {
+      "cluster": "fit-jeans-pants",
+      "type": "fit-guide"
+    },
+    "/fit/push-up-bra/": {
+      "cluster": "fit-lingerie",
+      "type": "fit-guide"
+    },
+    "/fit/retainer/": {
+      "cluster": "fit-health",
+      "type": "fit-guide"
+    },
+    "/fit/ring/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "fit-guide"
+    },
+    "/fit/running-shoes/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/sandals/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/scrubs/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/shin-guards/": {
+      "cluster": "fit-sports-gear",
+      "type": "fit-guide"
+    },
+    "/fit/shirt/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/shoes/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/ski-boots/": {
+      "cluster": "fit-boots",
+      "type": "fit-guide"
+    },
+    "/fit/ski-helmet/": {
+      "cluster": "fit-hats-helmets",
+      "type": "fit-guide"
+    },
+    "/fit/slippers/": {
+      "cluster": "fit-footwear",
+      "type": "fit-guide"
+    },
+    "/fit/sneakers/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/snowboard-boots/": {
+      "cluster": "fit-boots",
+      "type": "fit-guide"
+    },
+    "/fit/soccer-cleats/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/sport-coat/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/sports-bra/": {
+      "cluster": "fit-lingerie",
+      "type": "fit-guide"
+    },
+    "/fit/strapless-bra/": {
+      "cluster": "fit-lingerie",
+      "type": "fit-guide"
+    },
+    "/fit/suit-jacket/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/suit-pants/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/suit/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/sunglasses/": {
+      "cluster": "fit-eyewear",
+      "type": "fit-guide"
+    },
+    "/fit/sweater/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/t-shirt/": {
+      "cluster": "fit-tops-outerwear",
+      "type": "fit-guide"
+    },
+    "/fit/tennis-bracelet/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "fit-guide"
+    },
+    "/fit/tennis-shoes/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/trail-running-shoes/": {
+      "cluster": "fit-running",
+      "type": "fit-guide"
+    },
+    "/fit/tuxedo/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/vest/": {
+      "cluster": "fit-suits",
+      "type": "fit-guide"
+    },
+    "/fit/watch/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "fit-guide"
+    },
+    "/fit/wedding-band/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "fit-guide"
+    },
+    "/will-it-fit/queen-mattress-on-full-frame/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/full-mattress-on-queen-frame/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/king-mattress-on-queen-frame/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/king-mattress-on-california-king-frame/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/california-king-mattress-on-king-frame/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/full-sheets-on-queen-bed/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/queen-sheets-on-full-bed/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/twin-xl-sheets-on-twin-bed/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/twin-sheets-on-twin-xl-bed/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/king-sheets-on-california-king-bed/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/california-king-sheets-on-king-bed/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/queen-mattress-in-minivan/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/queen-mattress-in-suv/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/queen-mattress-in-cargo-van/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/65-inch-tv-in-car/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/55-inch-tv-in-car/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/owala-32-oz-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/owala-24-oz-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/owala-in-cup-holder/": {
+      "cluster": "bottles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/switch-2-in-switch-1-case/": {
+      "cluster": "consoles",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/micro-atx-in-atx-case/": {
+      "cluster": "pc-parts",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/crib-mattress-in-pack-and-play/": {
+      "cluster": "beds",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/car-in-10x20-storage-unit/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/will-it-fit/golf-cart-in-truck-bed/": {
+      "cluster": "moving",
+      "type": "will-it-fit"
+    },
+    "/sizing/adidas/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/adidas/samba/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/adidas/gazelle/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/asics/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/birkenstock/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/birkenstock/boston/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/blundstone/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/chaco/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/crocs/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/dr-martens/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/new-balance/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/nike/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/nike/air-jordan-4/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/onitsuka-tiger/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/onitsuka-tiger/mexico-66/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/oura/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/oura/oura-ring-5/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/oura/oura-ring-4/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/pandora/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/sizing/ugg/": {
+      "cluster": "brand-sizing",
+      "type": "sizing"
+    },
+    "/tools/bra-size-calculator/": {
+      "cluster": "fit-lingerie",
+      "type": "tool"
+    },
+    "/tools/ring-size-chart/": {
+      "cluster": "fit-jewelry-watches",
+      "type": "tool"
+    },
+    "/tools/shoe-size-converter/": {
+      "cluster": "fit-footwear",
+      "type": "tool"
+    },
+    "/tools/mattress-size-chart/": {
+      "cluster": "beds",
+      "type": "tool"
+    },
+    "/tools/carry-on-size-checker/": {
+      "cluster": "carry-on",
+      "type": "tool"
+    }
+  }
+}

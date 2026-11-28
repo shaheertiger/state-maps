@@ -1,0 +1,101 @@
+{
+  "site": "https://statemaps.net/",
+  "fetched": "2026-11-28",
+  "source": "Bing Webmaster UI export, as reported by the owner on 2026-11-28 (top pages only)",
+  "window": {
+    "start": "2026-11-21",
+    "end": "2026-11-26",
+    "days": 6
+  },
+  "totals": {
+    "impressions": 325,
+    "clicks": 0
+  },
+  "partial": true,
+  "typeImpressionsPerPage": {
+    "will-it-fit": 2.8,
+    "fit": 0.9,
+    "sizing": 0.4
+  },
+  "daily": [],
+  "pages": [
+    {
+      "key": "/will-it-fit/switch-2-in-switch-1-case/",
+      "impressions": 46,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4.8
+    },
+    {
+      "key": "/fit/bra/",
+      "impressions": 16,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6.9
+    },
+    {
+      "key": "/will-it-fit/owala-in-cup-holder/",
+      "impressions": 14,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5.6
+    },
+    {
+      "key": "/fit/shirt/",
+      "impressions": 13,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "key": "/fit/motorcycle-helmet/",
+      "impressions": 9,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5.0
+    },
+    {
+      "key": "/fit/sweater/",
+      "impressions": 7,
+      "clicks": 0,
+      "ctr": 0,
+      "position": null
+    },
+    {
+      "key": "/fit/boots/",
+      "impressions": 7,
+      "clicks": 0,
+      "ctr": 0,
+      "position": null
+    },
+    {
+      "key": "/fit/diaper/",
+      "impressions": 5,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 2.6
+    },
+    {
+      "key": "/will-it-fit/owala-32-oz-in-cup-holder/",
+      "impressions": 5,
+      "clicks": 0,
+      "ctr": 0,
+      "position": null
+    },
+    {
+      "key": "/fit/cowboy-hat/",
+      "impressions": 5,
+      "clicks": 0,
+      "ctr": 0,
+      "position": null
+    },
+    {
+      "key": "/sizing/nike/air-jordan-4/",
+      "impressions": 4,
+      "clicks": 0,
+      "ctr": 0,
+      "position": null
+    }
+  ],
+  "queries": []
+}

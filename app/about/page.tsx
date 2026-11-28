@@ -3,24 +3,29 @@ import Link from "next/link";
 import { InfoPage } from "@/components/InfoPage";
 import { SITE } from "@/lib/site";
 
-export const metadata: Metadata = { title: "About", description: `What ${SITE.name} is, and why it exists.`, alternates: { canonical: "/about/" } };
+export const metadata: Metadata = { title: "About These Fit and Sizing Guides", description: "What these fit and sizing guides cover, where the numbers come from, and how the site is paid for.", alternates: { canonical: "/about/" }, openGraph: { url: "/about/", images: ["/og/about.png"] } };
 
 export default function About() {
   return (
-    <InfoPage title={`About ${SITE.name}`} path="/about/">
+    <InfoPage title="About these fit and sizing guides" path="/about/">
       <p className="lede">
-        {SITE.name} answers three questions people ask right before they buy: how should this fit, will this fit that, and does this
+        This site answers three questions people ask right before they buy: how should this fit, will this fit that, and does this
         brand run small?
       </p>
       <p>
         Most fit advice is buried in long articles or scattered across forum threads. We put the answer first, then a point-by-point
         checklist you can use in a fitting room or at home, with concrete measurements rather than vague advice.
       </p>
-      <h2>Why &ldquo;State Maps&rdquo;?</h2>
+      <h2>Why fit maps?</h2>
       <p>
         Every guide here maps where something should sit on your body: the shoulder seam of a jacket, the toe room in a shoe, the band
         of a bra. Those fit maps, and the measurements behind them, are what the site is built on. We cover fit and sizing, not
         geography.
+      </p>
+      <h2 id="author">Who writes the guides</h2>
+      <p>
+        The guides are written and checked by {SITE.author?.name}. Every measurement links to the maker&rsquo;s or retailer&rsquo;s page it
+        came from, with the date it was checked.
       </p>
       <h2>What you&rsquo;ll find here</h2>
       <ul>

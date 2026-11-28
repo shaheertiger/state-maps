@@ -4,6 +4,7 @@ import { Faq } from "./Faq";
 import { JsonLd } from "./JsonLd";
 import { TOOLS, abs, guidePath, SITE, type ToolSlug } from "@/lib/site";
 import { getGuide } from "@/lib/content";
+import { articleLd, ogId, publisherRef } from "@/lib/ld";
 
 export function ToolLayout({
   slug,
@@ -24,9 +25,9 @@ export function ToolLayout({
   const related = guides.map(getGuide).filter((g) => !!g);
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Tools", href: "/tools/" }, { name: tool.name, href: `/tools/${slug}/` }]} />
       <div className="prose" data-pagefind-body>
         <h1>{h1}</h1>
+        <Breadcrumbs items={[{ name: "Tools", href: "/tools/" }, { name: tool.name, href: `/tools/${slug}/` }]} />
         <p className="lede">{intro}</p>
         {children}
         <Faq items={faqs} />
@@ -64,14 +65,15 @@ export function ToolLayout({
           operatingSystem: "Any",
           browserRequirements: "Requires JavaScript",
           offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          publisher: { "@type": "Organization", name: SITE.organization },
+          publisher: publisherRef,
         }}
       />
+      <JsonLd data={articleLd({ headline: h1, description: intro, path: `/tools/${slug}/` })} />
     </div>
   );
 }
 
 export const toolMeta = (slug: ToolSlug, description: string) => {
   const t = TOOLS.find((x) => x.slug === slug)!;
-  return { title: { absolute: t.title }, description, alternates: { canonical: `/tools/${slug}/` }, openGraph: { title: t.title, description, url: `/tools/${slug}/`, images: [`/og/tool-${slug}.png`] } };
+  return { title: { absolute: t.title }, description, alternates: { canonical: `/tools/${slug}/` }, openGraph: { title: t.title, description, url: `/tools/${slug}/`, images: [`/og/${ogId(`/tools/${slug}/`)}`] } };
 };

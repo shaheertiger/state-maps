@@ -1187,7 +1187,27 @@
         "why": "Tapered base made for cup holders",
         "query": "owala freesip sway"
       }
-    ]
+    ],
+    "question": "Will a 32 oz Owala Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "Only in roomier holders. The 32 oz FreeSip's base is [[a.d]] in across; car cup holders run about [[b.d]] in and vary. See which Owala sizes fit, and the fixes.",
+    "fits": {
+      "intro": "Base widths by size, from Owala's product page, against the typical [[b.d]] in car cup holder. Holders vary by car and many taper, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "owala-freesip-24",
+          "slug": "owala-24-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-32",
+          "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40"
+        }
+      ]
+    },
+    "updated": "2026-11-28"
   },
   {
     "slug": "owala-24-oz-in-cup-holder",
@@ -1252,7 +1272,27 @@
         "why": "The size most likely to fit",
         "query": "owala freesip 24 oz"
       }
-    ]
+    ],
+    "question": "Will a 24 oz Owala Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "In most cars, yes. The 24 oz FreeSip's base is [[a.d]] in across, near the narrow end of the typical [[b.d]] in cup holder (holders vary). See which Owala sizes fit.",
+    "fits": {
+      "intro": "Base widths by size, from Owala's product page, against the typical [[b.d]] in car cup holder. Holders vary by car and many taper, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "owala-freesip-24",
+          "slug": "owala-24-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-32",
+          "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40"
+        }
+      ]
+    },
+    "updated": "2026-11-28"
   },
   {
     "slug": "owala-in-cup-holder",
@@ -1325,7 +1365,27 @@
         "why": "Tapered base made for cup holders",
         "query": "owala freesip sway"
       }
-    ]
+    ],
+    "question": "Will an Owala Fit in a Cup Holder?",
+    "titleHook": "(Base Width by Size)",
+    "meta": "It depends on the size. The 24 oz FreeSip is [[a.d]] in across the base; car cup holders run about [[b.d]] in and vary. See which Owala sizes fit, and the fixes.",
+    "fits": {
+      "intro": "Base widths by size, from Owala's product page, against the typical [[b.d]] in car cup holder. Holders vary by car and many taper, so measure yours at its narrowest point.",
+      "items": [
+        {
+          "id": "owala-freesip-24",
+          "slug": "owala-24-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-32",
+          "slug": "owala-32-oz-in-cup-holder"
+        },
+        {
+          "id": "owala-freesip-40"
+        }
+      ]
+    },
+    "updated": "2026-11-28"
   },
   {
     "slug": "switch-2-in-switch-1-case",
@@ -1388,7 +1448,15 @@
         "why": "Sized for the new screen",
         "query": "nintendo switch 2 screen protector"
       }
-    ]
+    ],
+    "question": "Will a Switch 2 Fit in a Switch 1 Case?",
+    "titleHook": "([[diff.w]] in Too Wide + Cases That Fit)",
+    "meta": "No. A Switch 2 is [[a.w]] × [[a.l]] in with Joy-Con 2 attached; a Switch 1 case is sized for [[b.w]] × [[b.l]] in. See which case sizes do fit, and what to use instead.",
+    "fits": {
+      "intro": "Any case made for Switch 2 fits. For a universal case or sleeve, check the inside measurements before you buy: it needs at least [[a.w]] × [[a.l]] in of room for the console with Joy-Con 2 attached, which rules out every case molded for the original Switch.",
+      "items": []
+    },
+    "updated": "2026-11-28"
   },
   {
     "slug": "micro-atx-in-atx-case",

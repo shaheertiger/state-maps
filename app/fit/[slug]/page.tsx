@@ -4,6 +4,7 @@ import { allGuides, allCategories, getGuide, guideTitle, guideMeta } from "@/lib
 import { hubSlug, guidePath, hubPath } from "@/lib/site";
 import { GuidePage } from "@/components/GuidePage";
 import { HubPage, hubTitle, hubMeta } from "@/components/HubPage";
+import { ogId } from "@/lib/ld";
 
 export const dynamicParams = false;
 
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: { absolute: guideTitle(g) },
       description: guideMeta(g),
       alternates: { canonical: guidePath(g.slug) },
-      openGraph: { title: guideTitle(g), description: guideMeta(g), url: guidePath(g.slug), type: "article", images: [`/og/fit-${g.slug}.png`] },
+      openGraph: { title: guideTitle(g), description: guideMeta(g), url: guidePath(g.slug), type: "article", images: [`/og/${ogId(guidePath(g.slug))}`] },
     };
   const c = catFromHub(slug);
   if (c)
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: hubTitle(c),
       description: hubMeta(c),
       alternates: { canonical: hubPath(c.slug) },
-      openGraph: { title: hubTitle(c), description: hubMeta(c), url: hubPath(c.slug), images: [`/og/hub-${c.slug}.png`] },
+      openGraph: { title: hubTitle(c), description: hubMeta(c), url: hubPath(c.slug), images: [`/og/${ogId(hubPath(c.slug))}`] },
     };
   return {};
 }

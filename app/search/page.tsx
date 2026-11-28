@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 export default function SearchPage() {
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Search", href: "/search/" }]} />
       <h1>Search</h1>
+      <Breadcrumbs items={[{ name: "Search", href: "/search/" }]} />
       <SearchResults />
     </div>
   );

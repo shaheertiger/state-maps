@@ -25,6 +25,11 @@ export const SITE = {
   locale: "en-US",
   email: "hello@example.com",
   organization: "State Maps",
+  /**
+   * The real person who writes and checks the guides, shown as the Article author (Person schema).
+   * Leave null until the owner names one: never an invented persona or credential.
+   */
+  author: { name: "Shaheer Ali Khan" } as { name: string; role?: string } | null,
 } as const;
 
 export const abs = (path: string) => `${SITE.url}${path.startsWith("/") ? path : `/${path}`}`;

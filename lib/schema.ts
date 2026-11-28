@@ -116,6 +116,9 @@ export const fitGuide = z
     related: z.array(slug).optional(),
     caution: z.string().optional(), // health/safety note shown in a callout (medical items)
     sources: z.array(source).optional(),
+    /** Snippet overrides. Title = "{h1} {checklist count} {titleSuffix}", so the number is always the real count. */
+    titleSuffix: z.string().optional(), // "Checks (and Signs It's Too Small)"
+    meta: z.string().max(170).optional(),
     updated: isoDate,
   })
   .superRefine((g, ctx) => {
@@ -141,6 +144,9 @@ export const brandProduct = z.object({
   h1: sentence,
   keywords: z.array(z.string()).min(1),
   answer: sentence,
+  title: z.string().optional(), // <title> override, e.g. "Do Air Jordan 4s Run Small? Size Up or True to Size (Chart)"
+  meta: z.string().max(170).optional(),
+  updated: isoDate.optional(), // date this page's copy last changed, if later than the brand's `checked`
   body: z.array(z.object({ heading: sentence, body: sentence })).min(1),
   faqs: z.array(faq).min(3).max(8),
   picks: z.array(pick).min(1).max(5),

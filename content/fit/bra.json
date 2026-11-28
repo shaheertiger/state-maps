@@ -13,7 +13,7 @@
     "how should bra cups fit",
     "how are bras supposed to fit"
   ],
-  "answer": "A bra fits when the band sits level and snug around your ribcage on the loosest hook, with room for about two fingers underneath, the cups hold all of your breast with no spilling or gaping, the underwire rests on your ribs behind the breast tissue, and the center gore lies flat against your breastbone.",
+  "answer": "Check the band first: it should sit level and snug around your ribcage on the loosest hook, with room for about two fingers underneath. Then make sure the cups hold all of your breast with no spilling or gaping, the underwire rests on your ribs behind the breast tissue, and the center gore lies flat against your breastbone.",
   "intro": "Most of a bra's support should come from the band, not the straps, so most fit problems trace back to a band that's too loose. Try bras on the loosest hook, since bands stretch with wear. After you fasten it, lean forward and scoop each breast into its cup from the side, then stand up straight and check the points below.",
   "checklist": [
     {
@@ -267,5 +267,7 @@
     "jeans",
     "belt"
   ],
-  "updated": "2026-11-19"
+  "titleSuffix": "Checks (and Signs It's Too Small)",
+  "meta": "Check the band first: level and snug on the loosest hook, with two fingers of room. See all 6 fit checks, the signs a bra is too small, and how to measure.",
+  "updated": "2026-11-28"
 }
