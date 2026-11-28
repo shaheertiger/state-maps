@@ -46,6 +46,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             logo: `${SITE.url}/icon.svg`,
           }}
         />
+        {/* Vercel Web Analytics (cookie-free), loaded as Vercel documents for static HTML: no package.
+            The Nov 19 rebuild shipped without it, so Vercel recorded 0 visitors from Nov 20. */}
+        <script dangerouslySetInnerHTML={{ __html: "window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};" }} />
+        <script defer src="/_vercel/insights/script.js" />
         {beacon && (
           <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: beacon })} />
         )}

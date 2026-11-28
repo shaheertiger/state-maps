@@ -12,8 +12,8 @@ export default function Privacy() {
       <p>Our calculators run entirely in your browser. Measurements you type are never sent to us or anyone else.</p>
       <h2>Analytics</h2>
       <p>
-        We may use privacy-focused, cookie-free analytics (Cloudflare Web Analytics) to count page views. It doesn&rsquo;t use cookies or
-        build a profile of you. Our hosting provider keeps standard server logs for security.
+        We count page views with cookie-free analytics (Vercel Web Analytics, and possibly Cloudflare Web Analytics). They don&rsquo;t use
+        cookies or build a profile of you. Our hosting provider keeps standard server logs for security.
       </p>
       <h2>Shopping links</h2>
       <p>

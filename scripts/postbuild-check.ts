@@ -4,7 +4,8 @@
  * descriptions, pages without exactly one H1, canonicals that don't point to
  * the page itself, unresolved template text in titles, the brand name in a
  * title/H1/description, a missing BreadcrumbList, text before the H1, and
- * sitemap entries that aren't canonical 200 pages with a real lastmod.
+ * sitemap entries that aren't canonical 200 pages with a real lastmod, and a
+ * missing analytics script.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -71,6 +72,8 @@ for (const file of html) {
   for (const [what, text] of [["title", title], ["description", desc], ["H1", h1]] as const)
     if (text.toLowerCase().includes(SITE.name.toLowerCase())) errors.push(`${rel}: ${what} mentions "${SITE.name}": "${text}"`);
   if (!src.includes('"@type":"BreadcrumbList"')) errors.push(`${rel}: no BreadcrumbList JSON-LD`);
+  // A rebuild that drops the analytics script makes "0 visitors" look like a penalty (Nov 20–28).
+  if (!src.includes('src="/_vercel/insights/script.js"')) errors.push(`${rel}: Vercel Web Analytics script missing`);
   // The first text a crawler reads in <body> must be the H1.
   const body = src
     .slice(src.indexOf("<body"))
