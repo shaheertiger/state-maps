@@ -10,7 +10,7 @@
     "how should motorcycle helmet fit",
     "how should a helmet fit motorcycle"
   ],
-  "answer": "A motorcycle helmet fits when it feels evenly snug all around with no hot spots, the cheek pads press firmly against your cheeks, the eye port sits just above your eyebrows, the helmet doesn't rotate when you twist it, and it can't be rolled off forward with the chin strap fastened.",
+  "answer": "Check that it can't roll off first: with the chin strap fastened, you shouldn't be able to roll the helmet forward off your head. It should also feel evenly snug all around with no hot spots, the cheek pads should press firmly against your cheeks, the eye port should sit just above your eyebrows, and it shouldn't rotate when you twist it.",
   "intro": "A new motorcycle helmet should feel tighter than you expect. The comfort liner and cheek pads compress as you ride, so a helmet that feels pleasantly roomy in the store will feel loose within weeks. Try helmets on for at least 15–20 minutes before deciding, because pressure points often take that long to show up.",
   "checklist": [
     {
@@ -175,5 +175,7 @@
   "sources": [
     { "name": "NHTSA: Motorcycle safety", "url": "https://www.nhtsa.gov/road-safety/motorcycle-safety" }
   ],
-  "updated": "2026-11-19"
+  "titleSuffix": "Checks (and Signs It's Too Small)",
+  "meta": "First check it can't roll off with the strap fastened. See all 6 fit checks, the signs a helmet is too small or too big, and why a new one should feel tight.",
+  "updated": "2026-11-28"
 }

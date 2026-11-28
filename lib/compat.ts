@@ -48,6 +48,21 @@ export const compatPair = z.object({
   picks: z.array(z.object({ label: z.string(), why: z.string(), query: z.string() })).min(1).max(5),
   fitGuides: z.array(z.string()).optional(),
   sources: z.array(source).optional(),
+  /** H1 and title question when the computed one doesn't match how people search. Tokens allowed. */
+  question: z.string().optional(),
+  /** Text after the question in the <title>, e.g. "([[diff.w]] in Too Wide + Cases That Fit)". Default "(Dimensions Compared)". */
+  titleHook: z.string().optional(),
+  /** Meta description override: the answer plus a reason to click. Tokens allowed; numbers only via tokens. */
+  meta: z.string().optional(),
+  /** "What does fit": sizes or models compared against the same B (id = a dimensions.json item; slug = its own page). */
+  fits: z
+    .object({
+      intro: z.string().optional(),
+      items: z.array(z.object({ id: z.string(), slug: z.string().optional() })).default([]),
+    })
+    .optional(),
+  /** Date the page's content last changed (sitemap lastmod, dateModified). */
+  updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
 });
 export type CompatPair = z.infer<typeof compatPair>;
 
@@ -67,7 +82,12 @@ export type CompatPage = {
   workarounds: { title: string; text: string }[];
   faqs: { q: string; a: string }[];
   sources: { name: string; url: string }[];
+  fits: { intro?: string; rows: { item: DimItem; slug?: string; dims: string; verdict: Verdict }[] } | null;
+  updated: string;
 };
+
+/** Launch date: the lastmod of every page that hasn't changed since. */
+export const LAUNCH_DATE = "2026-11-19";
 
 const lo = (r: number | [number, number]) => (Array.isArray(r) ? r[0] : r);
 const hi = (r: number | [number, number]) => (Array.isArray(r) ? r[1] : r);
@@ -252,8 +272,8 @@ export function compatPages(): CompatPage[] {
     if (!a || !b) throw new Error(`${pair.slug}: unknown item ${!a ? pair.a : pair.b}`);
     const verdict = decide(pair, a, b);
     if (verdict !== pair.expect) throw new Error(`${pair.slug}: computed verdict "${verdict}" but data expects "${pair.expect}" — check the dimensions`);
-    const h1 = questionFor(pair, a, b);
     const r = (t: string, w: string) => resolveTokens(t, a, b, `${pair.slug} ${w}`);
+    const h1 = pair.question ? r(pair.question, "question") : questionFor(pair, a, b);
     const answer = `${verdictSentence(pair, a, b, verdict)} ${r(pair.answerExtra, "answerExtra")}`;
     return {
       slug: pair.slug,
@@ -262,14 +282,28 @@ export function compatPages(): CompatPage[] {
       b,
       verdict,
       h1,
-      title: `${h1.replace(/\?$/, "")}? (Dimensions Compared)`,
-      meta: `${VERDICT_WORD[verdict]}. ${cap(withArticle(a))} is ${dimsLabel(a)}; ${withArticle(b)} is ${dimsLabel(b)}. Here's the difference and what to do.`,
+      title: `${h1.replace(/\?$/, "")}? ${pair.titleHook ? r(pair.titleHook, "titleHook") : "(Dimensions Compared)"}`,
+      meta: pair.meta
+        ? r(pair.meta, "meta")
+        : `${VERDICT_WORD[verdict]}. ${cap(withArticle(a))} is ${dimsLabel(a)}; ${withArticle(b)} is ${dimsLabel(b)}. Here's the difference and what to do.`,
       answer,
       rows: rowsFor(a, b),
       keywords: pair.keywords,
       workarounds: pair.workarounds.map((w, i) => ({ title: r(w.title, `workarounds[${i}]`), text: r(w.text, `workarounds[${i}]`) })),
       faqs: pair.faqs.map((f, i) => ({ q: r(f.q, `faqs[${i}]`), a: r(f.a, `faqs[${i}]`) })),
-      sources: [...(pair.sources ?? []), ...[a.source, b.source].filter((s): s is { name: string; url: string } => !!s)].filter(
+      fits: pair.fits
+        ? {
+            intro: pair.fits.intro ? r(pair.fits.intro, "fits.intro") : undefined,
+            rows: pair.fits.items.map(({ id, slug }) => {
+              const item = byId.get(id);
+              if (!item) throw new Error(`${pair.slug}: fits lists unknown item ${id}`);
+              if (slug && !pairs.some((x) => x.slug === slug)) throw new Error(`${pair.slug}: fits links to unknown page ${slug}`);
+              return { item, slug, dims: dimsLabel(item), verdict: decide({ ...pair, a: id }, item, b) };
+            }),
+          }
+        : null,
+      updated: pair.updated ?? LAUNCH_DATE,
+      sources: [...(pair.sources ?? []), ...[a.source, b.source, ...(pair.fits?.items ?? []).map((f) => byId.get(f.id)?.source)].filter((s): s is { name: string; url: string } => !!s)].filter(
         (s, i, arr) => arr.findIndex((x) => x.url === s.url) === i,
       ),
     };

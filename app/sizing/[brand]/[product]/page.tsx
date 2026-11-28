@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: { params: Promise<{ brand: st
   const { brand, product } = await params;
   const p = getBrand(brand)?.products?.find((x) => x.slug === product);
   if (!p) return { robots: { index: false } };
-  const title = `${p.h1.replace(/\?$/, "")}? Sizing Guide (True to Size?)`;
-  return { title: { absolute: title }, description: p.answer.slice(0, 300), alternates: { canonical: brandPath(brand, product) }, openGraph: { title, url: brandPath(brand, product) } };
+  const title = p.title ?? `${p.h1.replace(/\?$/, "")}? Sizing Guide (True to Size?)`;
+  return { title: { absolute: title }, description: p.meta ?? p.answer.slice(0, 300), alternates: { canonical: brandPath(brand, product) }, openGraph: { title, url: brandPath(brand, product) } };
 }
 
 export default async function Page({ params }: { params: Promise<{ brand: string; product: string }> }) {

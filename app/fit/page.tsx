@@ -16,8 +16,8 @@ export default function FitIndex() {
   const letters = [...new Set(guides.map((g) => g.item[0].toUpperCase()))];
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }]} />
       <h1>How should it fit?</h1>
+      <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }]} />
       <p className="lede">
         {guides.length} guides, each with a point-by-point fit checklist, how to measure yourself, and fixes for common problems.
       </p>

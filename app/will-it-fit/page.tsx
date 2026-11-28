@@ -17,8 +17,8 @@ export default function CompatHub() {
   const hubs = Object.entries(HUBS).filter(([k]) => pages.some((p) => p.pair.hub === k));
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Will it fit?", href: "/will-it-fit/" }]} />
       <h1>Will it fit?</h1>
+      <Breadcrumbs items={[{ name: "Will it fit?", href: "/will-it-fit/" }]} />
       <p className="lede">
         Each answer is worked out from the actual dimensions of both things, which we show in a table and a scale drawing. No guesswork,
         and no typing numbers by hand.

@@ -11,6 +11,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { Overlay } from "@/components/Overlay";
 
 export const dynamicParams = false;
+const VERDICT_SHORT = { yes: "Yes", no: "No", loosely: "Yes, loosely", depends: "Depends" } as const;
 export const generateStaticParams = () => compatPages().map((p) => ({ slug: p.slug }));
 const get = (slug: string) => compatPages().find((p) => p.slug === slug);
 
@@ -33,7 +34,6 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
   const guides = (p.pair.fitGuides ?? []).map(getGuide).filter((g) => !!g);
   return (
     <div className="wrap">
-      <Breadcrumbs items={[{ name: "Will it fit?", href: "/will-it-fit/" }, { name: p.h1.replace(/\?$/, ""), href: compatPath(p.slug) }]} />
       <div className="page-grid">
         <article className="main-col" data-pagefind-body>
           <h1>{p.h1}</h1>
@@ -88,6 +88,40 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
             </dl>
           </section>
 
+          {p.fits && (
+            <section aria-labelledby="what-fits">
+              <h2 id="what-fits">What does fit</h2>
+              {p.fits.intro && <p>{p.fits.intro}</p>}
+              {p.fits.rows.length > 0 && (
+                <div className="data-table-wrap">
+                  <table className="data-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Size or model</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">In a typical {p.b.name}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {p.fits.rows.map((f) => {
+                        const own = compatPages().find((x) => x.slug === f.slug);
+                        return (
+                          <tr key={f.item.id}>
+                            <th scope="row" style={{ whiteSpace: "normal" }}>
+                              {own && own.slug !== p.slug ? <Link href={compatPath(own.slug)}>{f.item.name}</Link> : `${f.item.name} (this page)`}
+                            </th>
+                            <td>{f.dims}</td>
+                            <td className={`verdict verdict-${f.verdict}`}>{VERDICT_SHORT[f.verdict]}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </section>
+          )}
+
           <Picks items={p.pair.picks} heading="What to shop for" />
           <Faq items={p.faqs} />
 
@@ -122,7 +156,7 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
                       <th scope="row" style={{ whiteSpace: "normal" }}>
                         <Link href={compatPath(s.slug)}>{s.h1}</Link>
                       </th>
-                      <td className={`verdict verdict-${s.verdict}`}>{{ yes: "Yes", no: "No", loosely: "Yes, loosely", depends: "Depends" }[s.verdict]}</td>
+                      <td className={`verdict verdict-${s.verdict}`}>{VERDICT_SHORT[s.verdict]}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -142,6 +176,7 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
               <Link href="/tools/mattress-size-chart/">mattress, sheet and frame checker</Link>.
             </p>
           </section>
+          <Breadcrumbs items={[{ name: "Will it fit?", href: "/will-it-fit/" }, { name: p.h1.replace(/\?$/, ""), href: compatPath(p.slug) }]} />
         </article>
         <aside className="rail" data-pagefind-ignore>
           <div className="rail-inner desktop-diagram">
@@ -155,7 +190,7 @@ export default async function CompatRoute({ params }: { params: Promise<{ slug: 
           "@type": "Article",
           headline: p.title,
           description: p.meta,
-          dateModified: "2026-11-19",
+          dateModified: p.updated,
           inLanguage: "en-US",
           mainEntityOfPage: abs(compatPath(p.slug)),
           author: { "@type": "Organization", name: SITE.organization, url: SITE.url },

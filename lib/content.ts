@@ -59,8 +59,9 @@ export function relatedGuides(g: FitGuide, n = 8): FitGuide[] {
 }
 
 /** "How Should a Suit Jacket Fit? 6-Point Fit Checklist" */
-export const guideTitle = (g: FitGuide) => `${g.h1} ${g.checklist.length}-Point Fit Checklist`;
+export const guideTitle = (g: FitGuide) => `${g.h1} ${g.checklist.length} ${g.titleSuffix ?? "-Point Fit Checklist"}`.replace(" -Point", "-Point");
 export const guideMeta = (g: FitGuide) => {
+  if (g.meta) return g.meta;
   const first = g.answer.split(/(?<=[.!?])\s/)[0];
   const meta = `${first} See the fit checklist, how to measure and common fixes.`;
   return meta.length > 300 ? `${first.slice(0, 240)}…` : meta;

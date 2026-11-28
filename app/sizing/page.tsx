@@ -14,8 +14,8 @@ export default function SizingHub() {
   const brands = [...allBrands()].sort((a, b) => a.brand.localeCompare(b.brand));
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Brand sizing", href: "/sizing/" }]} />
       <h1>Does it run small?</h1>
+      <Breadcrumbs items={[{ name: "Brand sizing", href: "/sizing/" }]} />
       <p className="lede">
         How each brand sizes, taken only from the brand&rsquo;s own size chart and published fit advice. We link the source and show the
         date we last checked it. We don&rsquo;t publish a brand until we can source it properly.

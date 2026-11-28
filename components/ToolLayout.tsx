@@ -24,9 +24,9 @@ export function ToolLayout({
   const related = guides.map(getGuide).filter((g) => !!g);
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Tools", href: "/tools/" }, { name: tool.name, href: `/tools/${slug}/` }]} />
       <div className="prose" data-pagefind-body>
         <h1>{h1}</h1>
+        <Breadcrumbs items={[{ name: "Tools", href: "/tools/" }, { name: tool.name, href: `/tools/${slug}/` }]} />
         <p className="lede">{intro}</p>
         {children}
         <Faq items={faqs} />

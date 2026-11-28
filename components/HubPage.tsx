@@ -19,9 +19,9 @@ export function HubPage({ c }: { c: Category }) {
   const brands = allBrands().filter((b) => b.category === c.slug);
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: c.short, href: hubPath(c.slug) }]} />
       <div className="prose" data-pagefind-body>
         <h1>{c.name}</h1>
+        <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: c.short, href: hubPath(c.slug) }]} />
         <p className="lede">{c.intro}</p>
       </div>
       <section aria-labelledby="guides">

@@ -43,7 +43,6 @@ export function GuidePage({ g }: { g: FitGuide }) {
   );
   return (
     <div className="wrap">
-      <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: cat.short, href: hubPath(cat.slug) }, { name: item, href: guidePath(g.slug) }]} />
       <div className="page-grid">
         <article className="main-col" data-pagefind-body>
           <h1>{g.h1}</h1>
@@ -183,6 +182,7 @@ export function GuidePage({ g }: { g: FitGuide }) {
               <Link href={hubPath(cat.slug)}>All {cat.name.toLowerCase()} guides</Link>
             </p>
           </section>
+          <Breadcrumbs items={[{ name: "Fit guides", href: "/fit/" }, { name: cat.short, href: hubPath(cat.slug) }, { name: item, href: guidePath(g.slug) }]} />
         </article>
 
         <aside className="rail" data-pagefind-ignore>

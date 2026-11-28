@@ -2,7 +2,9 @@
  * Runs after `next build` + Pagefind on the static output in out/.
  * Fails the build on: broken internal links, missing/duplicate titles or
  * descriptions, pages without exactly one H1, canonicals that don't point to
- * the page itself, and unresolved template text in titles.
+ * the page itself, unresolved template text in titles, the brand name in a
+ * title/H1/description, a missing BreadcrumbList, text before the H1, and
+ * sitemap entries that aren't canonical 200 pages with a real lastmod.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -64,6 +66,20 @@ for (const file of html) {
   const canonical = src.match(/<link rel="canonical" href="([^"]*)"/)?.[1];
   if (!canonical) errors.push(`${rel}: no canonical`);
   else if (canonical !== `${SITE.url}${rel}`) errors.push(`${rel}: canonical is ${canonical}`);
+  // The brand name adds nothing to a search result: keep it to the header logo and footer.
+  const h1 = (src.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? "").replace(/<[^>]+>/g, "");
+  for (const [what, text] of [["title", title], ["description", desc], ["H1", h1]] as const)
+    if (text.toLowerCase().includes(SITE.name.toLowerCase())) errors.push(`${rel}: ${what} mentions "${SITE.name}": "${text}"`);
+  if (!src.includes('"@type":"BreadcrumbList"')) errors.push(`${rel}: no BreadcrumbList JSON-LD`);
+  // The first text a crawler reads in <body> must be the H1.
+  const body = src
+    .slice(src.indexOf("<body"))
+    .replace(/<(script|style|noscript|template)\b[\s\S]*?<\/\1>/g, "")
+    .replace(/<div hidden[^>]*>[\s\S]*?<\/div>/g, "");
+  const firstText = body.search(/>[^<]*[^\s<][^<]*</);
+  const h1At = body.search(/<h1[\s>]/), h1End = body.indexOf("</h1>");
+  if (firstText !== -1 && !(firstText > h1At && firstText < h1End))
+    errors.push(`${rel}: text before the H1: "${body.slice(firstText + 1, firstText + 61).replace(/<[\s\S]*/, "").trim()}"`);
 }
 
 // ---------- Sitemaps ----------
@@ -74,11 +90,25 @@ const indexable = new Set(
 );
 const read = (f: string) => (fs.existsSync(path.join(out, f)) ? fs.readFileSync(path.join(out, f), "utf8") : null);
 const locs = (xml: string) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+const redirects = new Set<string>(
+  (JSON.parse(fs.readFileSync(path.join(process.cwd(), "vercel.json"), "utf8")).redirects ?? []).map((x: { source: string }) => x.source),
+);
+const today = new Date().toISOString().slice(0, 10);
+const badLastmod = (xml: string, file: string) => {
+  const blocks = [...xml.matchAll(/<(url|sitemap)>([\s\S]*?)<\/\1>/g)].map((m) => m[2]);
+  for (const b of blocks) {
+    const lm = b.match(/<lastmod>([^<]+)<\/lastmod>/)?.[1];
+    const loc = b.match(/<loc>([^<]+)<\/loc>/)?.[1];
+    if (!lm || !/^\d{4}-\d{2}-\d{2}$/.test(lm)) errors.push(`${file}: ${loc} has no lastmod date`);
+    else if (lm > today) errors.push(`${file}: ${loc} lastmod ${lm} is in the future`);
+  }
+};
 const index = read("sitemap.xml");
 const inSitemaps = new Map<string, string>();
 if (!index) errors.push("out/sitemap.xml missing");
 else {
   if (!index.includes("<sitemapindex")) errors.push("sitemap.xml is not a sitemap index");
+  badLastmod(index, "sitemap.xml");
   for (const loc of locs(index)) {
     if (!loc.startsWith(`${SITE.url}/`)) errors.push(`sitemap.xml: ${loc} is not on ${SITE.url}`);
     const file = loc.slice(SITE.url.length + 1);
@@ -87,6 +117,7 @@ else {
       errors.push(`sitemap.xml lists ${file}, which wasn't built`);
       continue;
     }
+    badLastmod(xml, file);
     const urls = locs(xml);
     if (urls.length === 0) errors.push(`${file} has no URLs`);
     for (const u of urls) {
@@ -98,6 +129,7 @@ else {
       if (inSitemaps.has(p)) errors.push(`${p} is listed in both ${inSitemaps.get(p)} and ${file}`);
       inSitemaps.set(p, file);
       if (!indexable.has(p)) errors.push(`${file}: ${p} is not a built page`);
+      if (redirects.has(p)) errors.push(`${file}: ${p} is a redirect, not a canonical page`);
     }
   }
   for (const p of indexable) if (!inSitemaps.has(p)) errors.push(`${p} is built but missing from every sitemap`);

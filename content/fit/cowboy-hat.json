@@ -12,7 +12,7 @@
     "how are cowboy hats supposed to fit",
     "how should a cowboy hat fit a woman"
   ],
-  "answer": "A cowboy hat fits when it sits level about a finger's width (½–1 in) above your eyebrows, the sweatband grips evenly around your head with no pressure points, the tops of your ears stay clear, and it stays on in a moderate breeze without a headache. Snug is right: felt hats ease slightly as they're worn.",
+  "answer": "Check the height first: a cowboy hat should sit level about a finger's width (½–1 in) above your eyebrows. Then make sure the sweatband grips evenly with no pressure points, the tops of your ears stay clear, and it stays on in a moderate breeze without a headache. Snug is right: felt hats ease slightly as they're worn.",
   "intro": "A western hat is sized by head circumference like any fitted hat, but its wide brim and tall crown make fit more noticeable. A hat that's too loose blows off at the first gust; one that's too tight gives you a headache within the hour. Try hats on with your hair as you'll usually wear it, and look at yourself side-on to check the brim is level.",
   "checklist": [
     {
@@ -194,5 +194,7 @@
     }
   ],
   "related": ["hat", "baseball-cap", "cowboy-boots", "motorcycle-helmet", "bike-helmet", "ski-helmet", "sunglasses", "belt"],
-  "updated": "2026-11-19"
+  "titleSuffix": "Checks (and Signs It's Too Small)",
+  "meta": "Check the height first: level, a finger's width above your eyebrows. See all 6 fit checks, the signs a cowboy hat is too small, and how much felt hats ease.",
+  "updated": "2026-11-28"
 }

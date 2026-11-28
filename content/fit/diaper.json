@@ -12,7 +12,7 @@
     "how is a diaper supposed to fit",
     "how should a diaper fit on a baby"
   ],
-  "answer": "A diaper fits when the waistband sits just below your baby's belly button with room for two fingers underneath, the tabs fasten evenly on the front panel without overlapping, the leg cuffs hug the thighs with the ruffles pulled out, and the back covers the top of the bottom without gaping or leaving red marks.",
+  "answer": "Check the leg cuffs first: the elastic should sit snugly in the thigh crease with the ruffles pulled out, because gaps there let leaks run down the legs. Then make sure the waistband sits just below the belly button with room for two fingers, the tabs land evenly on the front panel, and the back covers the top of the bottom.",
   "intro": "Most leaks and blowouts come from fit and positioning rather than a bad diaper. Size by your baby's weight as a starting point, then judge by how the diaper looks once it's on. Babies grow fast and often change sizes every few weeks to months, so check the fit regularly.",
   "checklist": [
     {
@@ -196,5 +196,7 @@
       "url": "https://www.nhs.uk/baby/caring-for-a-newborn/nappy-rash/"
     }
   ],
-  "updated": "2026-11-19"
+  "titleSuffix": "Checks (and Signs It's Too Small)",
+  "meta": "Check the leg cuffs first: snug in the thigh crease, ruffles pulled out. See all 5 fit checks, the signs a diaper is too small, and when to move up a size.",
+  "updated": "2026-11-28"
 }

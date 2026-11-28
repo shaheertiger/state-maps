@@ -10,7 +10,7 @@ const archivo = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.fullName}: How Should It Fit? Will It Fit?`, template: `%s | ${SITE.name}` },
+  title: { default: "Fit and Sizing Guides: How Should It Fit? Will It Fit?", template: "%s" },
   description: SITE.description,
   openGraph: { siteName: SITE.fullName, locale: "en_US", type: "website" },
   twitter: { card: "summary_large_image" },
@@ -30,8 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-US" className={archivo.variable}>
       <body>
-        <Header />
+        {/* Content comes first in the source so crawlers and screen readers start at the H1 and
+            answer; CSS (.site-top order) still draws the header at the top. */}
         <main id="main">{children}</main>
+        <Header />
         <Footer />
         <JsonLd
           data={{

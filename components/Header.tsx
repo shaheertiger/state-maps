@@ -5,10 +5,7 @@ import { SearchBox } from "./SearchBox";
 
 export function Header() {
   return (
-    <>
-      <a className="skip" href="#main">
-        Skip to content
-      </a>
+    <div className="site-top">
       <Tape />
       <header className="site-header">
         <div className="wrap">
@@ -20,7 +17,7 @@ export function Header() {
             <span className="brand-name">{SITE.name}</span>
             <span className="brand-desc">{SITE.descriptor}</span>
           </Link>
-          <nav className="nav" aria-label="Main">
+          <nav className="nav" id="site-nav" aria-label="Main">
             <Link href="/fit/">How should it fit?</Link>
             <Link href="/will-it-fit/">Will it fit?</Link>
             <Link href="/sizing/">Brand sizing</Link>
@@ -31,6 +28,6 @@ export function Header() {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 }

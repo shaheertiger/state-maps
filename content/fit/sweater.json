@@ -12,7 +12,7 @@
     "how should a cardigan fit",
     "how should cardigans fit"
   ],
-  "answer": "A sweater fits when the shoulder seams sit at your shoulder bones, the body skims your chest with 2–4 in of ease, the sleeves end at your wrist bone, the ribbed cuffs and hem hold their shape without gripping, and the hem lands at your hip so it covers your waistband when you lift your arms.",
+  "answer": "Check the shoulders first: the shoulder seams should sit at your shoulder bones. Then make sure the body skims your chest with 2–4 in of ease, the sleeves end at your wrist bone, the ribbed cuffs and hem hold their shape without gripping, and the hem lands at your hip so it covers your waistband when you lift your arms.",
   "intro": "Knitwear stretches, relaxes and sometimes shrinks, so a sweater that fits well on day one is slightly neater than you might expect. Check the seams and the length, then move: reach forward, lift both arms and sit down. If you are buying one as a holiday gift, the gift-sizing section below shows how to get the size right without asking.",
   "checklist": [
     {
@@ -211,5 +211,7 @@
     }
   ],
   "related": ["t-shirt", "shirt", "denim-jacket", "leather-jacket", "blazer", "dress-shirt", "vest", "gloves", "hat"],
-  "updated": "2026-11-23"
+  "titleSuffix": "Checks (and Signs It's Too Small)",
+  "meta": "Check the shoulders first: the seams should sit at your shoulder bones. See all 6 fit checks, the signs a sweater is too small, and how much ease to leave.",
+  "updated": "2026-11-28"
 }

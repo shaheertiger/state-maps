@@ -12,7 +12,7 @@
     "how should shirts fit",
     "how should a shirt fit on a man"
   ],
-  "answer": "A shirt fits when the shoulder seam sits at your shoulder bone, the buttons lie flat across the chest or bust with 1–2 in to pinch at each side, long sleeves reach the wrist bone, and an untucked hem ends around the middle of your fly, covering the waistband but not your whole seat.",
+  "answer": "Check the shoulders first: the shoulder seam should sit right at your shoulder bone. Then make sure the buttons lie flat across the chest or bust with 1–2 in to pinch at each side, long sleeves reach the wrist bone, and an untucked hem ends around the middle of your fly, covering the waistband but not your whole seat.",
   "intro": "This guide covers everyday button-up shirts: oxfords, flannels, chambray, linen and casual work shirts, for men and women. They're usually sized S–XL rather than by neck and sleeve, and they're often worn untucked, which makes length the most common problem. For formal shirts sized by collar, see the dress shirt guide.",
   "checklist": [
     {
@@ -177,5 +177,7 @@
     }
   ],
   "related": ["t-shirt", "denim-jacket", "leather-jacket", "scrubs", "dress-shirt", "blazer", "jeans", "chinos", "pants"],
-  "updated": "2026-11-19"
+  "titleSuffix": "Checks (and Signs It's Too Small)",
+  "meta": "Check the shoulders first: the seam should sit right at your shoulder bone. See all 6 fit checks, the signs a shirt is too small, and fixes for gaping buttons.",
+  "updated": "2026-11-28"
 }

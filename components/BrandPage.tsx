@@ -14,7 +14,6 @@ export function BrandPage({ b }: { b: BrandSizing }) {
   const cat = getCategory(b.category);
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Brand sizing", href: "/sizing/" }, { name: b.brand, href: brandPath(b.slug) }]} />
       <article className="prose" data-pagefind-body>
         <h1>{b.h1}</h1>
         <section className="answer" aria-labelledby="short-answer">
@@ -67,6 +66,7 @@ export function BrandPage({ b }: { b: BrandSizing }) {
             </p>
           </section>
         )}
+        <Breadcrumbs items={[{ name: "Brand sizing", href: "/sizing/" }, { name: b.brand, href: brandPath(b.slug) }]} />
       </article>
       <ArticleLd b={b} headline={b.h1} path={brandPath(b.slug)} />
     </div>
@@ -77,13 +77,6 @@ export function BrandProductPage({ b, slug }: { b: BrandSizing; slug: string }) 
   const p = b.products!.find((x) => x.slug === slug)!;
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs
-        items={[
-          { name: "Brand sizing", href: "/sizing/" },
-          { name: b.brand, href: brandPath(b.slug) },
-          { name: p.name, href: brandPath(b.slug, p.slug) },
-        ]}
-      />
       <article className="prose" data-pagefind-body>
         <h1>{p.h1}</h1>
         <section className="answer" aria-labelledby="short-answer">
@@ -104,6 +97,13 @@ export function BrandProductPage({ b, slug }: { b: BrandSizing; slug: string }) 
         <p>
           <Link href={brandPath(b.slug)}>How {b.brand} fits overall</Link>
         </p>
+        <Breadcrumbs
+          items={[
+            { name: "Brand sizing", href: "/sizing/" },
+            { name: b.brand, href: brandPath(b.slug) },
+            { name: p.name, href: brandPath(b.slug, p.slug) },
+          ]}
+        />
       </article>
       <ArticleLd b={b} headline={p.h1} path={brandPath(b.slug, p.slug)} />
     </div>

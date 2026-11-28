@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 export default function Tools() {
   return (
     <div className="wrap" style={{ paddingBottom: 72 }}>
-      <Breadcrumbs items={[{ name: "Tools", href: "/tools/" }]} />
       <h1>Sizing tools</h1>
+      <Breadcrumbs items={[{ name: "Tools", href: "/tools/" }]} />
       <p className="lede">Free calculators and charts. Everything runs in your browser; nothing you type is sent anywhere.</p>
       <ul className="tool-list">
         {TOOLS.map((t) => (
